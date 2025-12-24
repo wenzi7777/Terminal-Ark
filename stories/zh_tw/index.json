@@ -3,14 +3,14 @@
   "chapters": [
     {
       "chapter_key": "prologue_wrong_answer",
-      "title": "章節 0 - 寫入歷史的錯誤答案",
+      "title": "寫入歷史的錯誤答案",
       "order": 0,
       "version": "2",
       "file": "prologue_wrong_answer.json"
     },
     {
       "chapter_key": "ch01_grey_sky",
-      "title": "CHAPTER 1 - 下層甲板的天空是灰色的",
+      "title": "下層甲板的天空是灰色的",
       "order": 1,
       "version": "1",
       "file": "ch01_grey_sky.json"
