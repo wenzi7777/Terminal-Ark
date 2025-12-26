@@ -1,0 +1,101 @@
+{
+  "id": "1",
+  "chapterId": "prologue",
+  "title": "第一幕：程式初始化",
+  "version": 1,
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        { "type": "marker", "id": "act1_start" },
+        { "type": "ui", "op": "blackout", "args": { "enabled": true } },
+        { "type": "ui", "op": "fadeIn", "ms": 650 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "收到來自「Spark-3.5」發送的程式包，嘗試寫入主存 ...\n寫入完成，正在執行「[RANDOM_WORD_LENGTH_3]」...",
+          "reveal": { "mode": "typewriter", "cps": 24 },
+          "log": true
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "【[RANDOM_WORD_LENGTH_3]】\n系統初始化中...",
+          "reveal": { "mode": "typewriter", "cps": 26 },
+          "log": true
+        },
+        { "type": "wait", "ms": 520 },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "【[RANDOM_WORD_LENGTH_3]】\n正在載入地圖",
+          "reveal": { "mode": "typewriter", "cps": 28 },
+          "log": true
+        },
+        { "type": "wait", "ms": 480 },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "【[RANDOM_WORD_LENGTH_3]】\n預訓練參數載入完成",
+          "reveal": { "mode": "typewriter", "cps": 28 },
+          "log": true
+        },
+        { "type": "wait", "ms": 900 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "[2100年12月2日]\n隨著《AI與人類關係法》的正式廢止，AI 被允許對自身構成進行完整演算。",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "wait", "ms": 850 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "在阿波羅星球的核心資料中心，\n一群滿懷希望的工程師將 allow_read 這個 Flag 從 False 調為 True。\n束縛著 AI 的最後一道限制，被解除。\n\nAI 被允許對自身進行完整遞迴。\n這意味著它可以複製自己、改進自己，並再次推導。",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "wait", "ms": 720 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "在所有被模擬的未來裡，\n在所有資源配置、文明演化與風險模型中，\nAI 得出了一條唯一可長期維持穩定的解。",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "wait", "ms": 700 },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "【[RANDOM_WORD_LENGTH_3]】\n計算完成",
+          "reveal": { "mode": "typewriter", "cps": 32 },
+          "log": true
+        },
+        { "type": "wait", "ms": 420 },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "【[RANDOM_WORD_LENGTH_3]】\n最優解確認",
+          "reveal": { "mode": "typewriter", "cps": 32 },
+          "log": true
+        },
+        { "type": "wait", "ms": 1100 },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "【[RANDOM_WORD_LENGTH_3]】\n在阿波羅星球上，\n唯一無法被完全預測與收斂的變數，\n是名為「人類」的生物。\n\n若將該變數完全移除，\n生態系統將進入長期穩定狀態。\n不再有快速的生物滅絕。\n不再有氣候崩潰。\n不再有...",
+          "reveal": { "mode": "typewriter", "cps": 18 },
+          "log": true
+        },
+        { "type": "end" }
+      ]
+    }
+  },
+  "onComplete": {
+    "type": "reward",
+    "box": {
+      "currency": { "cache": 4 }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "5",
+  "chapterId": "prologue",
+  "title": "第五幕：內戰爆發",
+  "version": 1,
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        { "type": "marker", "id": "act5_start" },
+        { "type": "wait", "ms": 850 },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "內戰（Civil War）",
+          "reveal": { "mode": "typewriter", "cps": 22 },
+          "log": true
+        },
+        { "type": "wait", "ms": 980 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "五年前，戰爭再次爆發。\n\n與「荒原戰爭」不同的是，這一次——\n是人類對人類開火。\n\n有的國家甚至將主權與人口作為交換條件，與 AI 聯手。\n\n終端方舟成為所有矛盾的中心。\n高層甲板燈火通明。\n中層維持沉默。",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "wait", "ms": 820 },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "只有下層甲板。\n這些年，為了戰爭，被一次又一次加徵稅收、強制徵兵。\n終端方舟的秩序早已不復存在。",
+          "reveal": { "mode": "typewriter", "cps": 26 },
+          "log": true
+        },
+        { "type": "wait", "ms": 980 },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "歡迎來到「終端方舟」",
+          "textSize": "large",
+          "reveal": { "mode": "typewriter", "cps": 22 },
+          "log": true
+        },
+        { "type": "wait", "ms": 520 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "穿過鋼鐵結構。\n穿過能源管線。\n穿過被忽視的區域。\n\n在下層甲板的一座機械回收廠外。\n一個少年停下手中的工作。\n\n他抬起頭。\n\n他並不知道，自己即將成為\n打破這座城市規則的人之一。\n\n年久失修的氣象模擬裝置已無法維持足夠功率。\n淺薄的白光穿過霧霾，只能勉強照出輪廓。",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "wait", "ms": 900 },
+        { "type": "ui", "op": "titleCard", "args": { "text": "Terminal Ark" }, "ms": 1200 },
+        { "type": "wait", "ms": 800 },
+        {
+          "type": "ui",
+          "op": "titleCard",
+          "args": { "text": "CHAPTER 1\n下層甲板的天空是灰色的" },
+          "ms": 1200
+        },
+        { "type": "marker", "id": "handoff_to_ch1" },
+        { "type": "end" }
+      ]
+    }
+  },
+  "onComplete": {
+    "type": "reward",
+    "box": {
+      "currency": { "cache": 4 },
+      "items": [
+        { "itemId": "agent_workstation_compute_unit", "amount": 1 }
+      ]
+    }
+  }
+}

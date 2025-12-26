@@ -1,19 +1,56 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "chapters": [
     {
-      "chapter_key": "prologue_wrong_answer",
-      "title": "寫入歷史的錯誤答案",
+      "id": "prologue",
+      "title": "序章：寫入歷史的錯誤答案",
       "order": 0,
-      "version": "2",
-      "file": "prologue_wrong_answer.json"
+      "acts": [
+        {
+          "id": "1",
+          "title": "第一幕：程式初始化",
+          "version": 1,
+          "file": "prologue/act_1.json",
+          "reward": { "currency": { "cache": 4 } }
+        },
+        {
+          "id": "2",
+          "title": "第二幕：荒原戰爭",
+          "version": 1,
+          "file": "prologue/act_2.json",
+          "reward": { "currency": { "cache": 4 } }
+        },
+        {
+          "id": "3",
+          "title": "第三幕：終端方舟",
+          "version": 1,
+          "file": "prologue/act_3.json",
+          "reward": { "currency": { "cache": 4 } }
+        },
+        {
+          "id": "4",
+          "title": "第四幕：火種計劃",
+          "version": 1,
+          "file": "prologue/act_4.json",
+          "reward": { "currency": { "cache": 4 } }
+        },
+        {
+          "id": "5",
+          "title": "第五幕：內戰爆發",
+          "version": 1,
+          "file": "prologue/act_5.json",
+          "reward": {
+            "currency": { "cache": 4 },
+            "items": [{ "itemId": "agent_workstation_compute_unit", "amount": 1 }]
+          }
+        }
+      ]
     },
     {
-      "chapter_key": "ch01_grey_sky",
-      "title": "下層甲板的天空是灰色的",
+      "id": "ch01",
+      "title": "第一章：下層甲板的天空是灰色的",
       "order": 1,
-      "version": "1",
-      "file": "ch01_grey_sky.json"
+      "acts": []
     }
   ]
 }
