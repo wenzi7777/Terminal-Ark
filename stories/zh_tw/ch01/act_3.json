@@ -1,0 +1,61 @@
+{
+  "id": "3",
+  "chapterId": "ch01",
+  "title": "第三幕：配給危機",
+  "version": 1,
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        { "type": "marker", "id": "ch01_act3_start" },
+        { "type": "wait", "ms": 650 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "接近中午，今天的食物配給提示音遲遲沒有響起。\n\n起初沒有人太在意。\n因為下層甲板經常會「延遲」。\n也許只要稍微等一會就好了\n直到有人靠近了補給終端，終端檢測到數位身分晶片，進行補給額度查詢",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "wait", "ms": 700 },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "【配給終端】\n錯誤：配給額度不足",
+          "reveal": { "mode": "typewriter", "cps": 28 },
+          "log": true
+        },
+        { "type": "wait", "ms": 420 },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "【配給終端】\n錯誤：配給額度不足",
+          "reveal": { "mode": "typewriter", "cps": 28 },
+          "log": true
+        },
+        { "type": "wait", "ms": 420 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "一次。\n兩次。\n三次。\n\n人群開始低聲交談。\n開始抱怨。\n直到有人發現，不管是誰，都無法領取到補給物資。",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "wait", "ms": 420 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他們不知道的是，終端方舟的下層甲板，近些年進入緊急狀態後，幾乎負責生產了7成以上的軍需物資\n有了他們，整個國家的戰爭機器才可以開動，終端方舟才可以在外部多國的夾層下生存\n為什麼連下層甲板的配額都無法保證？",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "end" }
+      ]
+    }
+  },
+  "onComplete": {
+    "type": "reward",
+    "box": {
+      "currency": { "cache": 4 }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2",
+  "chapterId": "ch01",
+  "title": "第二幕：回收工廠",
+  "version": 1,
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        { "type": "marker", "id": "ch01_act2_start" },
+        { "type": "wait", "ms": 700 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "這是方舟重工在下層甲板西部的一個分工廠，負責參與拆解、回收整個國家產生的大型垃圾。\n工廠像一頭巨大而沉默的金屬生物。\n傳送帶日夜不息。\n廢棄的義肢、老舊裝備、損壞的神經模組被送入分解區。\n機械臂精準地拆解、分類、標記。",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "wait", "ms": 700 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "[VAR_HERO_A_NAME] 的工作是分類與初檢。\n判斷哪些零件仍可修復，哪些必須直接進入熔解流程。",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "wait", "ms": 650 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "偶爾，他會看見一些「多餘的痕跡」。\n\n例如刻在義肢上隱約可見的姓名。\n已失效的情感輔助模組。\n或者舊式的記憶接口。\n\n顯然，這些部件可能是某個軀體的殘骸。\n這個軀體可能是不起眼的某人的母親，也可能是某個和他們一樣辛苦勞動的勞工...\n他們早已習慣不去聯想，已經進入緊急狀況的國家，只需要他們默默地完成工作，能支撐戰爭機器的開動即可。",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "end" }
+      ]
+    }
+  },
+  "onComplete": {
+    "type": "reward",
+    "box": {
+      "currency": { "cache": 4 }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "5",
+  "chapterId": "ch01",
+  "title": "第五幕：鎮壓",
+  "version": 1,
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        { "type": "marker", "id": "ch01_act5_start" },
+        { "type": "wait", "ms": 650 },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "【機械音】\n根據「2302年 方舟憲法法庭 釋字 23號 通過的 配給法增修條文第 3 條」對於下層甲板的配額限制\n你們的配額已更改為每日2次，中午的配給不再給予。\n 「根據 刑法 第12條」你們嘗試破壞公共資源，且已經造成了重要損失。\n 在國家緊急狀態下，軍人擁有自由裁定權。\n現將肇事者進行回收，立刻執行。",
+          "reveal": { "mode": "typewriter", "cps": 23 },
+          "log": true
+        },
+        { "type": "wait", "ms": 650 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "人群短暫安靜。\n像是被同一條命令凍住。\n\n下一秒，尖叫聲爆發。\n「你們不能這樣做...」諸如此類的言語充斥著這裡\n但是終端維護部門的人員無動於衷，已經開始標記目標。\n他們取出「行動式標記裝置」，對著幾名率先破壞補給倉的工人，發射標記。",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "wait", "ms": 850 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "數十名工人被打上標記，他們就如同失去動力般，癱軟在地上\n等待著下一步操作的執行，或許是記憶抽取，或許是軀殼回收。",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "wait", "ms": 650 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "[VAR_HERO_A_NAME] 突然明白：\n如今的終端方舟，「回收」已經不再是24歲的事，長年的戰事已經讓整個國家的氣氛悄然轉變\n參軍的士兵，為了宣洩自己的情緒，可以將對民眾刀刃相見。\n但是手無寸鐵的平民呢？",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "wait", "ms": 650 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "暴動被「平息」了。\n地面殘留的痕跡，很快會被清理乾淨。\n\n人群會被驅散。\n除了有些人不見了，一切都會照常進行。",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "wait", "ms": 850 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "在工廠外，[VAR_HERO_A_NAME] 抬起頭\n\n下層甲板的天空一直是灰色的，神經網路上所說的星空，究竟是什麼樣的呢？。",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "wait", "ms": 800 },
+        { "type": "marker", "id": "ch01_end_hook" },
+        { "type": "end" }
+      ]
+    }
+  },
+  "onComplete": {
+    "type": "reward",
+    "box": {
+      "currency": { "cache": 4 }
+    }
+  }
+}

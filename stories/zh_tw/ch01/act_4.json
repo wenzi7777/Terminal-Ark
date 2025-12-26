@@ -1,0 +1,63 @@
+{
+  "id": "4",
+  "chapterId": "ch01",
+  "title": "第四幕：暴動",
+  "version": 1,
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        { "type": "marker", "id": "ch01_act4_start" },
+        { "type": "wait", "ms": 800 },
+        { "type": "ui", "op": "shake", "ms": 350, "args": { "intensity": 0.22 } },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "【警報】\n未授權操作：配給倉門鎖遭破壞",
+          "reveal": { "mode": "typewriter", "cps": 30 },
+          "log": true
+        },
+        { "type": "wait", "ms": 550 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "第一個人衝向配給倉。\n第二個人跟上。\n然後是更多。\n\n推擠。\n咒罵。\n倒地。\n尖叫。\n\n回收廠的安全門在警報中自動鎖死。\n[VAR_HERO_A_NAME] 被人群推著後退，找不到出口。",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "wait", "ms": 850 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "配給倉被砸開了。\n\n裡面是空的。\n\n那一刻，下層甲板第一次清楚地意識到——\n好像他們再努力工作，繳再多的税，都無法維持整個國家的運作。",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "wait", "ms": 900 },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "隨著緊促的腳步聲，好像有人來了。",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "wait", "ms": 650 },
+        { "type": "ui", "op": "shake", "ms": 520, "args": { "intensity": 0.35 } },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "裝甲。\n面罩。\n統一的標誌。\n沒有表情。\n\n終端維護部門的安保人員進入工廠。",
+          "reveal": { "mode": "instant" },
+          "log": true
+        },
+        { "type": "end" }
+      ]
+    }
+  },
+  "onComplete": {
+    "type": "reward",
+    "box": {
+      "currency": { "cache": 4 }
+    }
+  }
+}
