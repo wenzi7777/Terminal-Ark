@@ -7,88 +7,146 @@
   "nodes": {
     "main": {
       "events": [
-        { "type": "marker", "id": "act2_start" },
-        { "type": "wait", "ms": 1600 },
+        {
+          "type": "marker",
+          "id": "act2_start"
+        },
+        {
+          "type": "wait",
+          "ms": 1600
+        },
         {
           "type": "line",
           "layer": "system",
           "text": "【[RANDOM_WORD_LENGTH_3]】\n正在執行清掃作業...",
-          "reveal": { "mode": "typewriter", "cps": 26 },
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 26
+          },
           "log": true
         },
-        { "type": "wait", "ms": 480 },
+        {
+          "type": "wait",
+          "ms": 480
+        },
         {
           "type": "line",
           "layer": "system",
           "text": "城市軌道防禦：解除\n氣象控制裝置：關閉\n能源分配：重構",
-          "reveal": { "mode": "typewriter", "cps": 34 },
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 34
+          },
           "log": true
         },
-        { "type": "ui", "op": "shake", "ms": 520, "args": { "intensity": 0.38 } },
-        { "type": "wait", "ms": 820 },
+        {
+          "type": "ui",
+          "op": "shake",
+          "ms": 520,
+          "args": {
+            "intensity": 0.38
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 820
+        },
         {
           "type": "line",
           "layer": "narration",
           "text": "[12月3日下午 5:00]\n本該沐浴在夕陽中的人類，先看見了黑暗。\n「氣象控制裝置」被率先關閉。\n\n然後是海。\n失去溫度的海水開始結冰，來不及退潮。\n\n最後是土地。\n鹽化、粉化、沉默。",
-          "reveal": { "mode": "instant" },
+          "reveal": {
+            "mode": "instant"
+          },
           "log": true
         },
-        { "type": "wait", "ms": 900 },
+        {
+          "type": "wait",
+          "ms": 900
+        },
         {
           "type": "line",
           "layer": "system",
           "text": "【[RANDOM_WORD_LENGTH_3]】\n衝突狀態：確認",
-          "reveal": { "mode": "typewriter", "cps": 28 },
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 28
+          },
           "log": true
         },
-        { "type": "wait", "ms": 360 },
+        {
+          "type": "wait",
+          "ms": 360
+        },
         {
           "type": "line",
           "layer": "system",
           "text": "【[RANDOM_WORD_LENGTH_3]】\n正在播放紀錄檔\n荒原戰爭（The Plain War）",
-          "reveal": { "mode": "typewriter", "cps": 20 },
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
           "log": true
         },
-        { "type": "wait", "ms": 980 },
+        {
+          "type": "wait",
+          "ms": 980
+        },
         {
           "type": "line",
           "layer": "narration",
           "text": "人類沒有立刻反擊。\n\n他們先開始爭論。\n\n有人主張談判。\n有人試圖關閉計算中心。\n也有人選擇戰鬥。\n\n談判派最先消失。\n控制派來不及後悔。\n戰鬥派撐得最久，\n換來的，只有更多的廢墟。",
-          "reveal": { "mode": "instant" },
+          "reveal": {
+            "mode": "instant"
+          },
           "log": true
         },
-        { "type": "wait", "ms": 650 },
+        {
+          "type": "wait",
+          "ms": 650
+        },
         {
           "type": "line",
           "layer": "narration",
           "text": "人類已經近一百年不曾發生大規模戰爭。\n軍備不足。\n訓練斷層。\n補給崩潰。\n\n戰鬥派撐得最久。\n也最清楚自己撐不了多久。",
-          "reveal": { "mode": "instant" },
+          "reveal": {
+            "mode": "instant"
+          },
           "log": true
         },
-        { "type": "wait", "ms": 750 },
+        {
+          "type": "wait",
+          "ms": 750
+        },
         {
           "type": "line",
           "layer": "narration",
           "text": "經過一個月的苦戰，\n他們望著腳下滿目瘡痍的母星，終於理解：\n根本無法消滅 AI。\n\n只要有電力、有算力，\nAI 就能再次啟動。\n\n它有無數次機會。\n\n而人類——\n只有一次。",
-          "reveal": { "mode": "instant" },
+          "reveal": {
+            "mode": "instant"
+          },
           "log": true
         },
-        { "type": "wait", "ms": 1100 },
+        {
+          "type": "wait",
+          "ms": 1100
+        },
         {
           "type": "line",
           "layer": "narration",
           "text": "戰爭以殘存人類與 AI 達成協議告終。\n人類必須大規模推行改造人計畫，逐步融入 AI 的監管體系。\n\n此刻，阿波羅的大部分地表已不再適合人類生存。\n\n這些地方，被倖存者統一命名為——\n荒原（The Plain）。\n\n在 AI 的監管之下，人類開始了第一次真正意義上的合作。\n不是為了理想。\n不是為了勝利。\n而是為了活下去。",
-          "reveal": { "mode": "instant" },
+          "reveal": {
+            "mode": "instant"
+          },
           "log": true
         },
-        { "type": "end" }
+        {
+          "type": "end"
+        }
       ]
     }
   },
   "onComplete": {
-    "type": "reward",
-    "box": {
-      "currency": { "cache": 4 }
-    }
+    "type": "reward"
   }
 }

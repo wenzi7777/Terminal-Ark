@@ -11,38 +11,35 @@
           "title": "第一幕：程式初始化",
           "version": 1,
           "file": "prologue/act_1.json",
-          "reward": { "currency": { "cache": 4 } }
+          "reward": true
         },
         {
           "id": "2",
           "title": "第二幕：荒原戰爭",
           "version": 1,
           "file": "prologue/act_2.json",
-          "reward": { "currency": { "cache": 4 } }
+          "reward": true
         },
         {
           "id": "3",
           "title": "第三幕：終端方舟",
           "version": 1,
           "file": "prologue/act_3.json",
-          "reward": { "currency": { "cache": 4 } }
+          "reward": true
         },
         {
           "id": "4",
           "title": "第四幕：火種計劃",
           "version": 1,
           "file": "prologue/act_4.json",
-          "reward": { "currency": { "cache": 4 } }
+          "reward": true
         },
         {
           "id": "5",
           "title": "第五幕：內戰爆發",
           "version": 1,
           "file": "prologue/act_5.json",
-          "reward": {
-            "currency": { "cache": 4 },
-            "items": [{ "itemId": "agent_workstation_compute_unit", "amount": 1 }]
-          }
+          "reward": true
         }
       ]
     },
@@ -56,38 +53,35 @@
           "title": "第一幕：灰色的早晨",
           "version": 1,
           "file": "ch01/act_1.json",
-          "reward": { "currency": { "cache": 4 } }
+          "reward": true
         },
         {
           "id": "2",
           "title": "第二幕：回收工廠",
           "version": 1,
           "file": "ch01/act_2.json",
-          "reward": { "currency": { "cache": 4 } }
+          "reward": true
         },
         {
           "id": "3",
           "title": "第三幕：配給危機",
           "version": 1,
           "file": "ch01/act_3.json",
-          "reward": { "currency": { "cache": 4 } }
+          "reward": true
         },
         {
           "id": "4",
           "title": "第四幕：暴動",
           "version": 1,
           "file": "ch01/act_4.json",
-          "reward": { "currency": { "cache": 4 } }
+          "reward": true
         },
         {
           "id": "5",
           "title": "第五幕：鎮壓",
           "version": 1,
           "file": "ch01/act_5.json",
-          "reward": {
-            "currency": { "cache": 4 },
-            "items": [{ "itemId": "agent_workstation_compute_unit", "amount": 1 }]
-          }
+          "reward": true
         }
       ]
     }

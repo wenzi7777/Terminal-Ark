@@ -7,50 +7,89 @@
   "nodes": {
     "main": {
       "events": [
-        { "type": "marker", "id": "ch01_act1_start" },
-        { "type": "ui", "op": "blackout", "args": { "enabled": true } },
-        { "type": "ui", "op": "fadeIn", "ms": 650 },
+        {
+          "type": "marker",
+          "id": "ch01_act1_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 650
+        },
         {
           "type": "line",
           "layer": "narration",
           "text": "下層甲板沒有真正意義上的「早晨」。\n\n年久失修的氣象控制裝置只會在固定時間調亮光源。\n灰白色的光穿過粉塵與霧霾，像一層疲憊的薄膜覆在城市上。",
-          "reveal": { "mode": "instant" },
+          "reveal": {
+            "mode": "instant"
+          },
           "log": true
         },
-        { "type": "wait", "ms": 650 },
+        {
+          "type": "wait",
+          "ms": 650
+        },
         {
           "type": "line",
           "layer": "narration",
           "text": "狹小的宿舍裡，少年睜開眼。\n\n他叫「[VAR_HERO_A_NAME]」。\n今年十四歲。\n是下層甲板的一名回收廠工人的孩子。",
-          "reveal": { "mode": "instant" },
+          "reveal": {
+            "mode": "instant"
+          },
           "log": true
         },
-        { "type": "wait", "ms": 650 },
+        {
+          "type": "wait",
+          "ms": 650
+        },
         {
           "type": "line",
           "layer": "narration",
           "text": "他在床上翻轉了一下，露出頸部的數位身份晶片，從床上起來。\n洗漱完後，戴上破舊的工具箱，準備前往「方舟重工 回收部門」工作。\n\n每一個動作都熟練得不像孩子。",
-          "reveal": { "mode": "instant" },
+          "reveal": {
+            "mode": "instant"
+          },
           "log": true
         },
-        { "type": "wait", "ms": 650 },
+        {
+          "type": "wait",
+          "ms": 650
+        },
         {
           "type": "line",
           "layer": "narration",
           "text": "母親已經出門。\n她總是走得很早。\n因為排班一旦被替換，就很難再拿回原本的位置。",
-          "reveal": { "mode": "instant" },
+          "reveal": {
+            "mode": "instant"
+          },
           "log": true
         },
-        { "type": "wait", "ms": 550 },
-        { "type": "ui", "op": "titleCard", "args": { "text": "CHAPTER 1\n下層甲板的天空是灰色的" }, "ms": 1100 },
-        { "type": "end" }
+        {
+          "type": "wait",
+          "ms": 550
+        },
+        {
+          "type": "ui",
+          "op": "titleCard",
+          "args": {
+            "text": "CHAPTER 1\n下層甲板的天空是灰色的"
+          },
+          "ms": 1100
+        },
+        {
+          "type": "end"
+        }
       ]
     }
   },
   "onComplete": {
-    "type": "reward",
-    "box": {
-      "currency": { "cache": 4 }
-    }
+    "type": "reward"
   }
 }

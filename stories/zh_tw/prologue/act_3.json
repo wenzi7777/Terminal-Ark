@@ -7,63 +7,100 @@
   "nodes": {
     "main": {
       "events": [
-        { "type": "marker", "id": "act3_start" },
-        { "type": "wait", "ms": 820 },
+        {
+          "type": "marker",
+          "id": "act3_start"
+        },
+        {
+          "type": "wait",
+          "ms": 820
+        },
         {
           "type": "line",
           "layer": "system",
           "text": "\n於是，在僅剩的適宜居住區，人們啟動了建造計畫。",
-          "reveal": { "mode": "typewriter", "cps": 26 },
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 26
+          },
           "log": true
         },
-        { "type": "wait", "ms": 380 },
+        {
+          "type": "wait",
+          "ms": 380
+        },
         {
           "type": "line",
           "layer": "system",
           "text": "\n終端方舟（Terminal Ark）",
-          "reveal": { "mode": "typewriter", "cps": 20 },
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
           "log": true
         },
-        { "type": "wait", "ms": 850 },
+        {
+          "type": "wait",
+          "ms": 850
+        },
         {
           "type": "line",
           "layer": "narration",
           "text": "它是一座塔。\n\n被視為人類最後的希望。\n下層甲板堆滿勞動與噪音。\n中層甲板維持秩序與體面。\n而頂層——\n屬於政府高官與財閥的國度。",
-          "reveal": { "mode": "instant" },
+          "reveal": {
+            "mode": "instant"
+          },
           "log": true
         },
-        { "type": "wait", "ms": 780 },
+        {
+          "type": "wait",
+          "ms": 780
+        },
         {
           "type": "line",
           "layer": "system",
           "text": "人類在改造人計畫推行後，壽命幾乎達到了無限。",
-          "reveal": { "mode": "typewriter", "cps": 30 },
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 30
+          },
           "log": true
         },
-        { "type": "wait", "ms": 520 },
+        {
+          "type": "wait",
+          "ms": 520
+        },
         {
           "type": "line",
           "layer": "system",
           "text": "但可用資源是有限的。",
-          "reveal": { "mode": "typewriter", "cps": 30 },
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 30
+          },
           "log": true
         },
-        { "type": "wait", "ms": 720 },
+        {
+          "type": "wait",
+          "ms": 720
+        },
         {
           "type": "line",
           "layer": "system",
           "text": "因此，議會敲定了「壽命管理制度」。",
-          "reveal": { "mode": "typewriter", "cps": 22 },
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
           "log": true
         },
-        { "type": "end" }
+        {
+          "type": "end"
+        }
       ]
     }
   },
   "onComplete": {
-    "type": "reward",
-    "box": {
-      "currency": { "cache": 4 }
-    }
+    "type": "reward"
   }
 }

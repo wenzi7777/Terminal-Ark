@@ -7,71 +7,111 @@
   "nodes": {
     "main": {
       "events": [
-        { "type": "marker", "id": "act4_start" },
-        { "type": "wait", "ms": 980 },
+        {
+          "type": "marker",
+          "id": "act4_start"
+        },
+        {
+          "type": "wait",
+          "ms": 980
+        },
         {
           "type": "line",
           "layer": "narration",
           "text": "為避免資源浪費，\n為確保文明延續，\n每一具人類軀體的使用年限，必須受到限制。",
-          "reveal": { "mode": "instant" },
+          "reveal": {
+            "mode": "instant"
+          },
           "log": true
         },
-        { "type": "wait", "ms": 780 },
+        {
+          "type": "wait",
+          "ms": 780
+        },
         {
           "type": "line",
           "layer": "system",
           "text": "\n在這項規則下，\n人類的壽命被統一固定為 24 年。\n共 288 個月。\n這被稱為「火種計劃」。",
-          "reveal": { "mode": "typewriter", "cps": 18 },
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
           "log": true
         },
-        { "type": "wait", "ms": 1200 },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
         {
           "type": "line",
           "layer": "narration",
           "text": "人類出生時，就是 8 歲的軀體。\n直到 16 歲，必須參與戰爭或勞動，以更換為「成年型軀體」。\n24 歲，執行回收。",
-          "reveal": { "mode": "instant" },
+          "reveal": {
+            "mode": "instant"
+          },
           "log": true
         },
-        { "type": "wait", "ms": 850 },
+        {
+          "type": "wait",
+          "ms": 850
+        },
         {
           "type": "line",
           "layer": "system",
           "text": "被回收的人類：\n軀體進入改造廠，拆分成零件，用於生產新的軀殼。\n記憶則被抽離、壓縮，存入終端國家檔案庫\n（National Terminal's Library），\n作為可被查詢、調用的公共資產。",
-          "reveal": { "mode": "typewriter", "cps": 18 },
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
           "log": true
         },
-        { "type": "wait", "ms": 1050 },
+        {
+          "type": "wait",
+          "ms": 1050
+        },
         {
           "type": "line",
           "layer": "narration",
           "text": "依靠這項制度，人類的研究被完整封存。\n即使壽命只有短短 24 年，\n後來者也能繼承前人的成果，繼續前進。",
-          "reveal": { "mode": "instant" },
+          "reveal": {
+            "mode": "instant"
+          },
           "log": true
         },
-        { "type": "wait", "ms": 700 },
+        {
+          "type": "wait",
+          "ms": 700
+        },
         {
           "type": "line",
           "layer": "system",
           "text": "許多改變人類生活方式的專案被成立、被推進。\n終端方舟賴以生存的根基——保護罩，正是其中最成功的成果之一。\n保護罩隔絕國境與荒原，使荒原中的致命輻射與怪物無法進入。",
-          "reveal": { "mode": "typewriter", "cps": 18 },
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
           "log": true
         },
-        { "type": "wait", "ms": 1450 },
+        {
+          "type": "wait",
+          "ms": 1450
+        },
         {
           "type": "line",
           "layer": "narration",
           "text": "第一代人主動放棄了生命，參與火種計劃。\n以理想為名，為終端方舟奉獻一切。\n\n隨著時間流逝，新生代逐漸忘記了「荒原戰爭」。\n他們習慣了霓虹，習慣了秩序，習慣了被保護。\n\n政府選舉開始被操縱。\n權力被壟斷。\n\n高層甲板的人為了自身利益，違背了祖輩的契約。\n他們，早已不再受到壽命的約束。\n\n有人選擇離開。\n前往荒原建立新的國度。\n人類——再次分裂。",
-          "reveal": { "mode": "instant" },
+          "reveal": {
+            "mode": "instant"
+          },
           "log": true
         },
-        { "type": "end" }
+        {
+          "type": "end"
+        }
       ]
     }
   },
   "onComplete": {
-    "type": "reward",
-    "box": {
-      "currency": { "cache": 4 }
-    }
+    "type": "reward"
   }
 }
