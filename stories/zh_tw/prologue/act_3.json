@@ -1,8 +1,6 @@
 {
-  "id": "3",
-  "chapterId": "prologue",
+  "id": "0-3",
   "title": "第三幕：終端方舟",
-  "version": 1,
   "startNode": "main",
   "nodes": {
     "main": {
@@ -100,7 +98,5 @@
       ]
     }
   },
-  "onComplete": {
-    "type": "reward"
-  }
+  "onComplete": ["reward", "complete"]
 }

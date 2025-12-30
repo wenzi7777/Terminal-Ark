@@ -1,8 +1,6 @@
 {
-  "id": "2",
-  "chapterId": "prologue",
+  "id": "0-2",
   "title": "第二幕：荒原戰爭",
-  "version": 1,
   "startNode": "main",
   "nodes": {
     "main": {
@@ -146,7 +144,5 @@
       ]
     }
   },
-  "onComplete": {
-    "type": "reward"
-  }
+  "onComplete": ["reward", "complete"]
 }

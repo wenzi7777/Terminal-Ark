@@ -1,8 +1,6 @@
 {
-  "id": "1",
-  "chapterId": "prologue",
+  "id": "0-1",
   "title": "第一幕：程式初始化",
-  "version": 1,
   "startNode": "main",
   "nodes": {
     "main": {
@@ -158,7 +156,5 @@
       ]
     }
   },
-  "onComplete": {
-    "type": "reward"
-  }
+  "onComplete": ["reward", "complete"]
 }

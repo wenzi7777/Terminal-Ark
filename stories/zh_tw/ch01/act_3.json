@@ -1,8 +1,6 @@
 {
-  "id": "3",
-  "chapterId": "ch01",
+  "id": "1-3",
   "title": "第三幕：配給危機",
-  "version": 1,
   "startNode": "main",
   "nodes": {
     "main": {
@@ -84,7 +82,5 @@
       ]
     }
   },
-  "onComplete": {
-    "type": "reward"
-  }
+  "onComplete": ["reward", "complete"]
 }

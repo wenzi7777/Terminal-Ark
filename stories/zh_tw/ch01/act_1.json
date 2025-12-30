@@ -1,8 +1,6 @@
 {
-  "id": "1",
-  "chapterId": "ch01",
+  "id": "1-1",
   "title": "第一幕：灰色的早晨",
-  "version": 1,
   "startNode": "main",
   "nodes": {
     "main": {
@@ -89,7 +87,5 @@
       ]
     }
   },
-  "onComplete": {
-    "type": "reward"
-  }
+  "onComplete": ["reward", "complete"]
 }

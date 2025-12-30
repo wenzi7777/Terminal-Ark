@@ -1,8 +1,6 @@
 {
-  "id": "5",
-  "chapterId": "prologue",
+  "id": "0-5",
   "title": "第五幕：內戰爆發",
-  "version": 1,
   "startNode": "main",
   "nodes": {
     "main": {
@@ -114,7 +112,5 @@
       ]
     }
   },
-  "onComplete": {
-    "type": "reward"
-  }
+  "onComplete": ["reward", "complete"]
 }

@@ -1,8 +1,6 @@
 {
-  "id": "4",
-  "chapterId": "ch01",
+  "id": "1-4",
   "title": "第四幕：暴動",
-  "version": 1,
   "startNode": "main",
   "nodes": {
     "main": {
@@ -99,7 +97,5 @@
       ]
     }
   },
-  "onComplete": {
-    "type": "reward"
-  }
+  "onComplete": ["reward", "complete"]
 }
