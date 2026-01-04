@@ -1,0 +1,14 @@
+{
+    "hints": [
+        "Neural Sync affects rare AFK materials and Cache. Keep it high before long sessions.",
+        "When Cache is blocked by low sync, it converts to brand_new_parts. Keep sync to earn Cache.",
+        "Memory and Cache serve different purposes. Check requirements before crafting or upgrades.",
+        "Overclocking passes shorten AFK duration. Use them when you need to finish early.",
+        "AFK rewards go to your inbox or inventory. Remember to check after it ends.",
+        "Blueprints are the main source of equipment. Most dungeon drops are for dismantling.",
+        "Workstation mood affects output. Give agents rest before long runs.",
+        "Global buffs are community triggered. Watch for active bonuses.",
+        "When rare materials are blocked by sync, they auto-convert to substitutes.",
+        "If your sync is low, running common resources is more efficient."
+    ]
+}

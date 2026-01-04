@@ -40,7 +40,7 @@
 ### 消耗規則
 - **signal_tracer**：每個消耗 **30** 同步率；不足時改為 **brand_new_parts * 2**。
 - **common_decoder**：每個消耗 **15** 同步率；不足時改為 **tech_scrap * 2**。
-- **Cache**：每 **1 Cache** 消耗 **10** 同步率；同步率不足時 Cache 產量會被壓低（無替代品）。
+- **Cache**：每 **1 Cache** 消耗 **10** 同步率；不足時改為 **brand_new_parts * 1**。
 
 ### 上限與恢復
 - **基礎上限**：60
