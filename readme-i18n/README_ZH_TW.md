@@ -1,5 +1,5 @@
-![Terminal Ark Logo](/resources/images/icon256.png)
-![Terminal Ark Text Logo](/resources/images/TextLogo.png)
+<img src="/resources/images/icon256.png" style="width:50%;" alt="Terminal Ark Logo">
+<img src="/resources/images/TextLogo.png" alt="Terminal Ark Text Logo">
 
 [English](/README.md)
 [Traditional Chinese 繁體中文](/readme-i18n/README_ZH_TW.md)
@@ -40,28 +40,28 @@ Terminal Ark 的設計核心是輕鬆、長期的遊玩體驗。遊戲包含 AFK
 ### 遊戲介面
 
 #### Desktop
-![Terminal Ark 1](/resources/images/screenshots/Desktop_1.png)
-![Terminal Ark 2](/resources/images/screenshots/Desktop_2.png)
-![Terminal Ark 3](/resources/images/screenshots/Desktop_3.png)
-![Terminal Ark 4](/resources/images/screenshots/Desktop_4.png)
-![Terminal Ark 5](/resources/images/screenshots/Desktop_5.png)
-![Terminal Ark 6](/resources/images/screenshots/Desktop_6.png)
-![Terminal Ark 7](/resources/images/screenshots/Desktop_7.png)
-![Terminal Ark 8](/resources/images/screenshots/Desktop_8.png)
-![Terminal Ark 9](/resources/images/screenshots/Desktop_9.png)
-![Terminal Ark 10](/resources/images/screenshots/Desktop_10.png)
+<img src="/resources/images/screenshots/Desktop_1.png" style="width:50%;" alt="Terminal Ark Desktop 1">
+<img src="/resources/images/screenshots/Desktop_2.png" style="width:50%;" alt="Terminal Ark Desktop 2">
+<img src="/resources/images/screenshots/Desktop_3.png" style="width:50%;" alt="Terminal Ark Desktop 3">
+<img src="/resources/images/screenshots/Desktop_4.png" style="width:50%;" alt="Terminal Ark Desktop 4">
+<img src="/resources/images/screenshots/Desktop_5.png" style="width:50%;" alt="Terminal Ark Desktop 5">
+<img src="/resources/images/screenshots/Desktop_6.png" style="width:50%;" alt="Terminal Ark Desktop 6">
+<img src="/resources/images/screenshots/Desktop_7.png" style="width:50%;" alt="Terminal Ark Desktop 7">
+<img src="/resources/images/screenshots/Desktop_8.png" style="width:50%;" alt="Terminal Ark Desktop 8">
+<img src="/resources/images/screenshots/Desktop_9.png" style="width:50%;" alt="Terminal Ark Desktop 9">
+<img src="/resources/images/screenshots/Desktop_10.png" style="width:50%;" alt="Terminal Ark Desktop 10">
 
 #### Mobile
-![Terminal Ark 1](/resources/images/screenshots/Mobile_1.png)
-![Terminal Ark 2](/resources/images/screenshots/Mobile_2.png)
-![Terminal Ark 3](/resources/images/screenshots/Mobile_3.png)
-![Terminal Ark 4](/resources/images/screenshots/Mobile_4.png)
-![Terminal Ark 5](/resources/images/screenshots/Mobile_5.png)
-![Terminal Ark 6](/resources/images/screenshots/Mobile_6.png)
-![Terminal Ark 7](/resources/images/screenshots/Mobile_7.png)
-![Terminal Ark 8](/resources/images/screenshots/Mobile_8.png)
-![Terminal Ark 9](/resources/images/screenshots/Mobile_9.png)
-![Terminal Ark 10](/resources/images/screenshots/Mobile_10.png)
+<img src="/resources/images/screenshots/Mobile_1.png" style="width:50%;" alt="Terminal Ark Mobile 1">
+<img src="/resources/images/screenshots/Mobile_2.png" style="width:50%;" alt="Terminal Ark Mobile 2">
+<img src="/resources/images/screenshots/Mobile_3.png" style="width:50%;" alt="Terminal Ark Mobile 3">
+<img src="/resources/images/screenshots/Mobile_4.png" style="width:50%;" alt="Terminal Ark Mobile 4">
+<img src="/resources/images/screenshots/Mobile_5.png" style="width:50%;" alt="Terminal Ark Mobile 5">
+<img src="/resources/images/screenshots/Mobile_6.png" style="width:50%;" alt="Terminal Ark Mobile 6">
+<img src="/resources/images/screenshots/Mobile_7.png" style="width:50%;" alt="Terminal Ark Mobile 7">
+<img src="/resources/images/screenshots/Mobile_8.png" style="width:50%;" alt="Terminal Ark Mobile 8">
+<img src="/resources/images/screenshots/Mobile_9.png" style="width:50%;" alt="Terminal Ark Mobile 9">
+<img src="/resources/images/screenshots/Mobile_10.png" style="width:50%;" alt="Terminal Ark Mobile 10">
 
 ### 貢獻者
 <a href="https://github.com/wenzi7777/Terminal-Ark/graphs/contributors">
