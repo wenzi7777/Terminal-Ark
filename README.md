@@ -1,5 +1,5 @@
-<img src="/resources/images/icon256.png" style="width:50%;" alt="Terminal Ark Logo">
-<img src="/resources/images/TextLogo.png" alt="Terminal Ark Text Logo">
+<img src="/resources/images/icon256.png" style="width:10%;" alt="Terminal Ark Logo">
+<img src="/resources/images/TextLogo.png" style="width:50%;" alt="Terminal Ark Text Logo">
 
 [English](/README.md)
 [Traditional Chinese 繁體中文](/readme-i18n/README_ZH_TW.md)
