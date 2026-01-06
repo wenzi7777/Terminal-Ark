@@ -173,6 +173,7 @@
   "error-no-file-provided": "未提供文件",
   "error-invalid-file-type": "不支持的文件类型",
   "error-file-too-large": "文件过大（最大 5MB）",
+  "error-storage-quota-exceeded": "存储空间已满，请先更换或删除旧文件。",
   "loading": "加载中...",
   "view-inventory": "查看背包",
   "view-team": "查看队伍",

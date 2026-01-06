@@ -321,6 +321,7 @@
   "error-no-file-provided": "No File Provided",
   "error-invalid-file-type": "Invalid File Type",
   "error-file-too-large": "File Too Large (Max 5MB)",
+  "error-storage-quota-exceeded": "Storage quota exceeded. Please replace or remove old files.",
   "view-inventory": "View Inventory",
   "view-team": "View Team",
   "inventory-size": "Inventory Size",
