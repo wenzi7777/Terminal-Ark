@@ -11,3 +11,5 @@
 ## app bundle version & server bundle version 0.0.5 Developer Beta [changelog](./0.0.5db/changelog.md)
 
 ## app bundle version & server bundle version 0.0.6 Developer Beta [changelog](./0.0.6db/changelog.md)
+
+## app bundle version & server bundle version 0.1.0 Public Beta [changelog](./0.1.0pb/changelog.md)
