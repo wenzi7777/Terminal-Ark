@@ -5,9 +5,6 @@
 
 ## Release Date: Jan. 9th 2026 18:51 JST.
 
-### Bug Fixes
-
-
 ### New Features
 - Japanese UI language support has been added to Terminal Ark.
 - You can now contribute equipment names via the GitHub repository.
