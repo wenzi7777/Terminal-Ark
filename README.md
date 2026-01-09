@@ -2,16 +2,25 @@
 <img src="/resources/images/TextLogo.png" style="width:50%;" alt="Terminal Ark Text Logo">
 
 [English](/README.md)
+
 [Traditional Chinese 繁體中文](/readme-i18n/README_ZH_TW.md)
+
 [Simplified Chinese 简体中文](/readme-i18n/README_ZH_CN.md)
 
-*Terminal Ark is a completely free, text-based RPG game.*
+[Japanese 日本語](/readme-i18n/README_ZH_CN.md)
 
-Navigate a cyberpunk-inspired world through an ever-evolving UI, where commands and interactive modules guide your journey. Every click pushes the story forward, revealing systems, choices, and consequences hidden beneath the surface of the Ark.
+*Terminal Ark is a text-driven sci-fi RPG designed for a relaxed experience suitable for long-term play.*
 
-Terminal Ark is designed for relaxed, long-term play. It features AFK tasks, steady progression, equipment management, and crafting systems that reward both active and passive playstyles. The world is filled with a vast pool of randomly generated enemies, dungeons, and locations—many of which are built from user-contributed templates and data.
+Players can manage their characters, squads, and equipment, progress through story chapters, and explore dungeons. The game supports both solo play and cooperative play with up to two other players, featuring card-based, turn-based combat. Battle outcomes are closely tied to character builds, equipment affixes, and tactical decisions—every choice can influence the flow of combat.
 
-Whether you prefer to min-max, explore lore, or simply check in from time to time, Terminal Ark offers a space to unwind, explore, and grow at your own pace.
+The game supports long-term offline progression (AFK). Even without staying online for extended periods, players can continue to accumulate resources, materials, and experience. Upon returning, they can further develop their progression through crafting, trading, equipment enhancement, and upgrade modules, gradually shaping their own unique growth path. Equipment comes in multiple rarities with randomized affix combinations, significantly affecting character roles and combat strategies.
+
+In addition, the game features a guild-like system called the “Terminal User Network,” allowing players to team up with like-minded companions. During dungeon exploration, players can also make use of the “Support Hero” system to borrow powerful heroes from other players, providing crucial assistance on their epic journeys.
+
+The world contains a large number of randomly generated enemies, dungeons, and exploration locations. A significant portion of this content is derived from templates and data contributed by the player community, allowing the world to continuously expand and remain fresh. The game also offers multilingual chat channels, enabling all players to communicate, share, and discuss in a friendly and open environment.
+
+Whether you enjoy deep optimization, immersive worldbuilding, or simply logging in occasionally to check on your progress, Terminal Ark provides a space where you can play at your own pace, relax, and grow steadily.
+
 
 ### Click [Terminal Ark](https://terminal-ark.1205.moe/) to step into the Ark and save the world!
 
@@ -27,13 +36,14 @@ If you would like to help maintain Terminal Ark, contribute new content, or impr
 
 Contributions of all kinds are welcome:
 
-- wiki/ — Add or expand general game documentation.
+- dungeon-lore/ - Submit new lore snippets shown during dungeon exploration.
 - heroes-collection/ — Write or improve hero-specific wiki entries.
+- i18n/ — Add or improve UI language support.
+- readme-i18n/ - Add new language support for this README file.
 - stories/ — Add new language support for the main storyline.
 - ta-hints/ — Create new in-game tips shown during AFK activities.
-- i18n/ — Add or improve UI language support.
-- dungeon-lore/ - Submit new lore snippets shown during dungeon exploration.
-- readme-i18n/ - Add new language support for this README file.
+- wiki/ — Add or expand general game documentation.
+- equipment-names/ — You can contribute new equipment names to the game. These names will be randomly selected whenever a player obtains new equipment.
 
 ### Screenshots
 

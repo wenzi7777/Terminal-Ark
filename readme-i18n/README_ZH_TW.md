@@ -2,44 +2,52 @@
 <img src="/resources/images/TextLogo.png" style="width:50%;" alt="Terminal Ark Text Logo">
 
 [English](/README.md)
+
 [Traditional Chinese 繁體中文](/readme-i18n/README_ZH_TW.md)
+
 [Simplified Chinese 简体中文](/readme-i18n/README_ZH_CN.md)
 
-*Terminal Ark 是一款完全免費的文字型 RPG 遊戲。*
+[Japanese 日本語](/readme-i18n/README_ZH_CN.md)
 
-你將透過持續演化的使用者介面，在充滿賽博龐克風格的世界中前進。指令與互動模組構成了你的主要行動方式，每一次點擊都會推動劇情發展，逐步揭開隱藏於方舟之下的系統、選擇與其所帶來的後果。
+*Terminal Ark 是一款以文字為核心的科幻 RPG，主打輕鬆且適合長期遊玩的體驗。*
 
-Terminal Ark 的設計核心是輕鬆、長期的遊玩體驗。遊戲包含 AFK 任務、穩定的成長曲線、裝備管理與製作系統，無論是主動遊玩或間歇登入，都能獲得相應的回饋。
-世界中存在大量隨機生成的敵人、地城與地點，其中許多內容來自玩家社群所貢獻的模板與資料。
+玩家可以管理自己的角色、隊伍與裝備，推進故事章節、探索地下城。遊戲支援單人遊玩，也可與最多兩名其他玩家協力，進行卡牌式回合制戰鬥。戰鬥結果與角色構築、裝備詞綴以及戰術選擇緊密相關——每一次決策都可能影響戰局的走向。
 
-無論你偏好極限優化、探索世界觀，或只是偶爾登入看看進度，Terminal Ark 都提供了一個可以放鬆、探索並依照自己節奏成長的空間。
+遊戲支援長時間離線收益（AFK）。即使不需長時間在線，玩家仍可持續累積資源、材料與經驗。在下次登入後，可透過製造、交易、裝備強化與升級模組，進一步發展自己的成長路線，逐步打造獨一無二的角色構築。裝備擁有多種稀有度與隨機詞綴組合，能顯著影響角色定位與戰鬥策略。
 
-### 點擊 [Terminal Ark](https://terminal-ark.1205.moe/) 踏入方舟，拯救世界！
+此外，遊戲中還存在名為「終端用戶網路」的類公會系統，玩家可以與志同道合的夥伴一同遊玩。在地下城探索過程中，亦可透過「助戰英雄」機制借用其他玩家的強力英雄，為你的史詩旅程提供關鍵支援。
 
-### 錯誤回報與建議
+世界中包含大量隨機生成的敵人、地下城與探索地點，其中相當一部分內容來自玩家社群貢獻的模板與資料，使整個世界得以持續擴張並保持新鮮感。遊戲同時提供多語言聊天頻道，讓所有玩家都能在友善、開放的環境中交流、分享與討論。
 
-若發現 Bug 或技術問題，請直接在本專案建立 Issue。
+無論你偏好深度數值最佳化、沉浸式世界觀探索，或只是偶爾上線查看進度，Terminal Ark 都提供了一個能以自己節奏放鬆遊玩、穩定成長的空間。
 
-功能請求與一般建議歡迎至 [Discord 伺服器](https://discord.gg/jBAPuRuC).
 
-如果你願意協助維護 Terminal Ark、貢獻新內容，或改善既有系統，請隨時提交 Issue 或 Pull Request。
-你也可以透過 Discord 私訊聯絡我，我在伺服器中的使用者名稱是 wenzi7777。
+### 點擊 [Terminal Ark](https://terminal-ark.1205.moe/) ，踏入方舟，拯救世界！
 
-### 你也可以幫助 Terminal Ark 變得更好！
+### 問題回報與建議
 
-我們歡迎各種類型的貢獻：
+若遇到 Bug 或技術問題，請在本儲存庫中建立 issue。
 
-- wiki/ — 新增或補充整體遊戲說明文件.
-- heroes-collection/ — 為英雄撰寫或完善專屬 Wiki.
-- stories/ — 為主線劇情新增新的語言支援.
-- ta-hints/ — 提供新的遊戲提示，於 AFK 執行期間顯示.
-- i18n/ — 新增或改善 UI 的語言在地化.
-- dungeon-lore/ - 提交新的地城隨機顯示背景故事.
-- readme-i18n/ - 為這個 README 檔案增加其他語言的版本.
+功能建議與一般回饋歡迎加入我們的 [Discord 伺服器](https://discord.gg/jBAPuRuC)。
 
-### 遊戲介面
+如果你希望協助維護 Terminal Ark、貢獻新內容，或改進現有系統，歡迎提交 issue 或 pull request。你也可以直接透過 Discord 聯絡我 —— wenzi7777。
 
-#### Desktop
+### 你也可以協助改進 Terminal Ark！
+
+我們歡迎各種形式的貢獻：
+
+- dungeon-lore/ —— 提交新的地下城劇情片段，於探索過程中隨機顯示。
+- heroes-collection/ —— 撰寫或完善英雄相關的 Wiki 條目。
+- i18n/ —— 新增或改進介面語言支援。
+- readme-i18n/ —— 為本 README 檔案新增其他語言版本。
+- stories/ —— 為主線劇情新增其他語言支援。
+- ta-hints/ —— 建立新的遊戲內提示，於 AFK 活動期間顯示。
+- wiki/ —— 補充或擴充通用遊戲文件。
+- equipment-names/ —— 為遊戲貢獻新的裝備名稱，玩家獲得新裝備時將隨機選用。
+
+### 遊戲截圖
+
+#### 桌面版
 <img src="/resources/images/screenshots/Desktop_1.png" style="width:50%;" alt="Terminal Ark Desktop 1">
 <img src="/resources/images/screenshots/Desktop_2.png" style="width:50%;" alt="Terminal Ark Desktop 2">
 <img src="/resources/images/screenshots/Desktop_3.png" style="width:50%;" alt="Terminal Ark Desktop 3">
@@ -51,7 +59,7 @@ Terminal Ark 的設計核心是輕鬆、長期的遊玩體驗。遊戲包含 AFK
 <img src="/resources/images/screenshots/Desktop_9.png" style="width:50%;" alt="Terminal Ark Desktop 9">
 <img src="/resources/images/screenshots/Desktop_10.png" style="width:50%;" alt="Terminal Ark Desktop 10">
 
-#### Mobile
+#### 行動裝置
 <img src="/resources/images/screenshots/Mobile_1.png" style="width:50%;" alt="Terminal Ark Mobile 1">
 <img src="/resources/images/screenshots/Mobile_2.png" style="width:50%;" alt="Terminal Ark Mobile 2">
 <img src="/resources/images/screenshots/Mobile_3.png" style="width:50%;" alt="Terminal Ark Mobile 3">
