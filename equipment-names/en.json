@@ -1,0 +1,39 @@
+{
+    "language-name": "English",
+    "rarityPrefixes": {
+        "broken": ["Broken", "Damaged", "Worn", "Rusted", "Abandoned"],
+        "common": ["Standard", "Common", "Regular", "Basic", "Mass-Produced"],
+        "rare": ["Rare", "Enhanced", "Improved", "Modified", "Custom"],
+        "legendary": ["Legendary", "Epic", "Supreme", "Mythical", "Masterwork"],
+        "epic": ["Divine", "Ultimate", "Transcendent", "Godlike", "Perfect"]
+    },
+    "affixWordB": {
+        "precision_module": ["Precision", "Calibrated", "Targeting", "Focused", "Locked"],
+        "high_energy_capacitor": ["High-Energy", "Charged", "Capacitor", "Powered", "Energized"],
+        "power_compensation": ["Reinforced", "Amplified", "Compensated", "Powered", "Impact"],
+        "array_shield": ["Array", "Defensive", "Barrier", "Shield", "Guardian"],
+        "protect": ["Protected", "Defensive", "Fortress", "Bastion", "Shielded"],
+        "auto_evasion": ["Evasive", "Dodging", "Agile", "Nimble", "Swift"],
+        "encrypted_link": ["Encrypted", "Linked", "Vital", "Life-Support", "Regenerative"],
+        "lightweight_structure": ["Lightweight", "Light", "Fast", "Swift", "Agile"],
+        "synaptic_accelerator": ["Synaptic", "Neural", "Accelerated", "Swift", "Rapid"],
+        "cycle_hijack": ["Cyclic", "Hijacking", "Intercepting", "Temporal", "Sequenced"]
+    },
+    "affixWordC": {
+        "precision_module": ["Scope", "Crosshair", "Calibrator", "Rangefinder", "Guidance-System"],
+        "high_energy_capacitor": ["Capacitor", "Charging-Unit", "Energy-Core", "Accumulator", "Battery-Pack"],
+        "power_compensation": ["Amplifier", "Enhancer", "Compensator", "Driver", "Booster"],
+        "array_shield": ["Array-Generator", "Shield-Matrix", "Barrier-Projector", "Defense-Field", "Guardian"],
+        "protect": ["Armor-Plate", "Plating-Layer", "Shield", "Protective-Shell", "Defense-Wall"],
+        "auto_evasion": ["Evasion-System", "Mobility-Device", "Agility-Module", "Dodger", "Nimble-Core"],
+        "encrypted_link": ["Life-Link", "Encrypted-Node", "Life-Support", "Connector", "Regenerator"],
+        "lightweight_structure": ["Light-Frame", "Agile-Structure", "Speed-System", "Light-Module", "Mobility-Device"],
+        "synaptic_accelerator": ["Synaptic-Accelerator", "Neural-Processor", "Response-Core", "Acceleration-Unit", "Speed-Chip"],
+        "cycle_hijack": ["Temporal-Hijacker", "Cycle-Controller", "Loop-Interceptor", "Time-Module", "Rhythm-Disruptor"]
+    },
+    "slotSuffixes": {
+        "upper-armor": ["Upper Armor", "Chest Plate", "Torso Armor", "Upper Body Plating", "Chest Guard"],
+        "lower-armor": ["Lower Armor", "Leg Plate", "Lower Body Armor", "Leg Guard", "Greaves"],
+        "upgrade-module": ["Upgrade Module", "Enhancement Module", "Plugin Device", "Expansion Module", "Augment"]
+    }
+}

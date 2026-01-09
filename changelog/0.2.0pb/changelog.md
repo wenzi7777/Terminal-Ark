@@ -9,7 +9,7 @@
 - Fixed an issue where the global buff would not appear after deployment until the entire page was refreshed.
 - Updated the title display logic on /archive: show “No Title” when the player has no titles, and show “No Title Active” only when titles exist but none are active.
 - Fixed an issue where players could continue to claim check-in rewards even after missing one or more days.
-- Fixed an error that occurred when using Overclocking while there were no players in the queue.！！！
+- Fixed an error that occurred when using Overclocking while there were no players in the queue.
 
 ### New Features
 - You can now restore the game’s initial preferences by clicking the Restore Preferences button in the GlobalPreferencePopUpWindow.
