@@ -1,7 +1,7 @@
 # Terminal Ark Changelog
 
-## APP BUNDLE VERSION v0.2.2 Public Beta
-## SERVER BUNDLE VERSION v0.2.2 Public Beta
+## APP BUNDLE VERSION v0.2.3 Public Beta
+## SERVER BUNDLE VERSION v0.2.3 Public Beta
 
 ## Release Date: Jan. 9th 2026 22:55 JST
 
