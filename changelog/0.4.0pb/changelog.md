@@ -9,7 +9,7 @@
 - You can now keep tab selection on System Hijeck System after you being redirected back from Open Inventory page.
 
 ### New Features
-- Reward the Gacha System, a new Console-Like animation is available before you claim your system-inventory.
+- Rework the Gacha System, a new Console-Like animation is available before you claim your system-inventory.
 - Added the Deep Intercept Guarantee pity system for Signal Hijack, with counter UI, pity-tagged rewards, protocol log cues, and a new wiki entry.
 - Added Residual Sync and Regen Extraction, allowing overflow sync to convert into neural_link_stabilizer_regen5 while preventing recovery items at full sync.
 - Removed the Memory Converter feature.
