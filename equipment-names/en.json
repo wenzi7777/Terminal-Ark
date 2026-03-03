@@ -17,7 +17,13 @@
         "encrypted_link": ["Encrypted", "Linked", "Vital", "Life-Support", "Regenerative"],
         "lightweight_structure": ["Lightweight", "Light", "Fast", "Swift", "Agile"],
         "synaptic_accelerator": ["Synaptic", "Neural", "Accelerated", "Swift", "Rapid"],
-        "cycle_hijack": ["Cyclic", "Hijacking", "Intercepting", "Temporal", "Sequenced"]
+        "cycle_hijack": ["Cyclic", "Hijacking", "Intercepting", "Temporal", "Sequenced"],
+        "phase_breaker": ["Phase", "Shattering", "Crushing", "Penetrating", "Demolishing"],
+        "arcane_lens": ["Arcane", "Mystic", "Eldritch", "Occult", "Enigmatic"],
+        "kinetic_barrier": ["Kinetic", "Impact", "Resistant", "Fortified", "Inertial"],
+        "null_field": ["Null", "Void", "Anti-Magic", "Dissipating", "Silent"],
+        "nano_suture": ["Nano", "Micro-Repair", "Self-Healing", "Regenerative", "Weaving"],
+        "vampiric_core": ["Vampiric", "Draining", "Leeching", "Siphoning", "Bloodthirsty"]
     },
     "affixWordC": {
         "precision_module": ["Scope", "Crosshair", "Calibrator", "Rangefinder", "Guidance-System"],
@@ -29,7 +35,13 @@
         "encrypted_link": ["Life-Link", "Encrypted-Node", "Life-Support", "Connector", "Regenerator"],
         "lightweight_structure": ["Light-Frame", "Agile-Structure", "Speed-System", "Light-Module", "Mobility-Device"],
         "synaptic_accelerator": ["Synaptic-Accelerator", "Neural-Processor", "Response-Core", "Acceleration-Unit", "Speed-Chip"],
-        "cycle_hijack": ["Temporal-Hijacker", "Cycle-Controller", "Loop-Interceptor", "Time-Module", "Rhythm-Disruptor"]
+        "cycle_hijack": ["Temporal-Hijacker", "Cycle-Controller", "Loop-Interceptor", "Time-Module", "Rhythm-Disruptor"],
+        "phase_breaker": ["Breaker", "Disruptor", "Shockwave", "Crusher", "Piercing-Core"],
+        "arcane_lens": ["Lens", "Prism", "Focal-Point", "Refractor", "Optical-Core"],
+        "kinetic_barrier": ["Barrier", "Deflector", "Force-Wall", "Dampener", "Armor-Layer"],
+        "null_field": ["Field", "Domain", "Ward", "Suppressor", "Nullification-Core"],
+        "nano_suture": ["Suture", "Mender", "Healing-Layer", "Repair-Unit", "Tissue-Core"],
+        "vampiric_core": ["Core", "Extractor", "Drainer", "Siphon", "Dark-Heart"]
     },
     "slotSuffixes": {
         "upper-armor": ["Upper Armor", "Chest Plate", "Torso Armor", "Upper Body Plating", "Chest Guard"],
