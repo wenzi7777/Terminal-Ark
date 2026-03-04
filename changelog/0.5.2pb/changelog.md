@@ -9,7 +9,6 @@
 - Fixed an issue where attack buffs were not applied during critical hits.
 
 ### New Features
-- This update introduces no major new features.
 - Added new equipment affixes to the generator: phase_breaker, arcane_lens, kinetic_barrier, null_field, nano_suture, and vampiric_core.
 
 ### Improvements
