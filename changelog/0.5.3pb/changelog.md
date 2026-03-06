@@ -10,7 +10,7 @@
 - Fixed an issue where the new player tutorial did not automatically highlight the player team panel.
 
 ### New Features
-This update introduces no major new features.
+- This update introduces no major new features.
 
 ### Improvements
 - In dungeons, the Items feature now displays only items you own.
