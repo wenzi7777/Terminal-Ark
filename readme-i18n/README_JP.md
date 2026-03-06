@@ -28,7 +28,7 @@
 
 バグや技術的な問題が発生した場合は、このリポジトリで issue を作成してください。
 
-機能追加の要望や一般的なご意見は、[Discord サーバー](https://discord.gg/jBAPuRuC) にて歓迎しています。
+機能追加の要望や一般的なご意見は、[Discord サーバー](https://discord.gg/QSbZhFDp8H) にて歓迎しています。
 
 Terminal Ark の保守を手伝いたい方、新しいコンテンツを追加したい方、既存システムを改善したい方は、issue の作成や pull request の送信をお気軽にどうぞ。Discord で直接連絡することも可能です — wenzi7777。
 

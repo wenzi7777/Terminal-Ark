@@ -28,7 +28,7 @@
 
 如遇到 Bug 或技术问题，请在本仓库中创建 issue。
 
-功能建议与一般性反馈欢迎加入我们的 [Discord 服务器](https://discord.gg/jBAPuRuC)。
+功能建议与一般性反馈欢迎加入我们的 [Discord 服务器](https://discord.gg/QSbZhFDp8H)。
 
 如果你希望协助维护 Terminal Ark、贡献新内容，或改进现有系统，欢迎提交 issue 或 pull request。你也可以直接通过 Discord 联系我 —— wenzi7777。
 

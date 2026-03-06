@@ -6,17 +6,17 @@
 ## Release Date: Mar. 6th 2026 18:30 JST
 
 ### Bug Fixes
-- Fixed an issue where user cant scroll to top in mobile view of view hero details component.
+- Fixed an issue where users could not scroll to the top in the mobile view of the Hero Details component.
 
 ### New Features
-- Added HDR Effect for Apple devices or P3 Display users (Experimental).
+- Added an experimental HDR effect for Apple devices and P3 displays.
 
 ### Improvements
-- Added support for PWA.
+- Added PWA support.
 - Reduced the shadow recommendation by 0.1.
-- Preferences pop up window now have an all new design for a more clean view.
+- Redesigned the Preferences pop-up window for a cleaner interface.
 - Reworked the GlobalPreferencePopUpWindow component.
-- Redesigned the HeroCard.
+- Redesigned the HeroCard component.
 
 ### Others
 - Included various minor fixes and performance optimizations.

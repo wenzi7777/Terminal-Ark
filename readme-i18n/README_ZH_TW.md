@@ -28,7 +28,7 @@
 
 若遇到 Bug 或技術問題，請在本儲存庫中建立 issue。
 
-功能建議與一般回饋歡迎加入我們的 [Discord 伺服器](https://discord.gg/jBAPuRuC)。
+功能建議與一般回饋歡迎加入我們的 [Discord 伺服器](https://discord.gg/QSbZhFDp8H)。
 
 如果你希望協助維護 Terminal Ark、貢獻新內容，或改進現有系統，歡迎提交 issue 或 pull request。你也可以直接透過 Discord 聯絡我 —— wenzi7777。
 

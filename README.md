@@ -28,7 +28,7 @@ Whether you enjoy deep optimization, immersive worldbuilding, or simply logging 
 
 For bugs and technical issues, please create an issue in this repository.
 
-Feature requests and general suggestions are welcome on our [Discord server](https://discord.gg/jBAPuRuC).
+Feature requests and general suggestions are welcome on our [Discord server](https://discord.gg/QSbZhFDp8H).
 
 If you would like to help maintain Terminal Ark, contribute new content, or improve existing systems, feel free to open an issue or submit a pull request. You can also contact me directly on Discord — wenzi7777.
 
