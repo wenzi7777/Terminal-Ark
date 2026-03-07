@@ -6,16 +6,13 @@
 ## Release Date: Mar. 7th 2026 17:17 JST
 
 ### Bug Fixes
-- Fixed an issue where the player status on the /archive page took too long to expand.
+- Fixed an issue where the PWA app had a different background color from the system status bar.
 
 ### New Features
 - This update does not contain any major new features.
 
 ### Improvements
-- Reworked the HeroSkillCard component.
-- Improved the HeroCard styling.
-- Improved the readability of Encrypted Channel text when HDR is enabled.
-- Improved PWA app detection.
+- This update does not contain any major new improvements.
 
 ### Others
 - Included various minor fixes and performance optimizations.
