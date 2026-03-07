@@ -1,9 +1,9 @@
 # Terminal Ark Changelog
 
-## APP BUNDLE VERSION v0.5.6 Public Beta
-## SERVER BUNDLE VERSION v0.5.6 Public Beta
+## APP BUNDLE VERSION v0.5.7 Public Beta
+## SERVER BUNDLE VERSION v0.5.7 Public Beta
 
-## Release Date: Mar. 7th 2026 17:17 JST
+## Release Date: Mar. 7th 2026 19:07 JST
 
 ### Bug Fixes
 - Fixed an issue where the PWA app had a different background color from the system status bar.
