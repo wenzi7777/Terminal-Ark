@@ -2070,6 +2070,7 @@
   "save-changes": "変更を保存",
   "save-and-reload": "保存してリロード",
   "about": "このアプリについて",
+  "this-release-changelog": "このリリースの更新履歴",
   "version": "バージョン",
   "created-with-love-by-nick-hsu": "Created With ❤️ By Nick Hsu",
   "info": "情報",
@@ -2453,5 +2454,15 @@
   "pwa-install-reward-status": "インストール報酬",
   "pwa-install-reward-desc": "シグナルトレーサー×10（暗号チャンネルガチャ）",
   "pwa-reward-claimed": "受領済み",
-  "pwa-reward-not-claimed": "未受領"
+  "pwa-reward-not-claimed": "未受領",
+  "network-tab-overview": "情報",
+  "network-tab-members": "メンバー",
+  "network-tab-operation": "作戦",
+  "network-tab-invites": "招募",
+  "network-tab-chat": "通信",
+  "network-tab-support": "サポート",
+  "network-tab-rankings": "ランク",
+  "network-tab-funds": "資産",
+  "network-intel-header": "// ネットワーク情報",
+  "encrypted-comms": "// 暗号通信チャンネル"
 }

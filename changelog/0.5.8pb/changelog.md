@@ -3,7 +3,7 @@
 ## APP BUNDLE VERSION v0.5.8 Public Beta
 ## SERVER BUNDLE VERSION v0.5.8 Public Beta
 
-## Release Date: Mar. 10th 2026 03:00 JST
+## Release Date: Mar. 11st 2026 00:50 JST
 
 ### Bug Fixes
 - Fixed an issue where players could not use items in dungeons to heal their heroes.
@@ -13,6 +13,8 @@
 
 ### Improvements
 - The broadcasting system will no longer broadcast legendary item gains.
+- Reworked the UI of Terminal User Network.
+- Moved About Infos from Account to a dedicated About tab in the GlobalPreferencesPopUpWindow component and improved its content.
 
 ### Others
 - Included various minor fixes and performance optimizations.

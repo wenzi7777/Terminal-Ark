@@ -926,6 +926,7 @@
   "save-changes": "保存变更",
   "save-and-reload": "保存并重新整理",
   "about": "关于",
+  "this-release-changelog": "此发行版的日志",
   "version": "版本",
   "created-with-love-by-nick-hsu": "Created With ❤️ By Nick Hsu",
   "info": "信息",
@@ -2463,5 +2464,15 @@
   "pwa-install-reward-status": "安装奖励",
   "pwa-install-reward-desc": "信号追踪器 ×10（加密频道扭蛋）",
   "pwa-reward-claimed": "已领取",
-  "pwa-reward-not-claimed": "尚未领取"
+  "pwa-reward-not-claimed": "尚未领取",
+  "network-tab-overview": "// 情报",
+  "network-tab-members": "成员",
+  "network-tab-operation": "行动",
+  "network-tab-invites": "招募",
+  "network-tab-chat": "通讯",
+  "network-tab-support": "支援",
+  "network-tab-rankings": "排行",
+  "network-tab-funds": "资产",
+  "network-intel-header": "// 网络情报",
+  "encrypted-comms": "// 加密通讯频道"
 }

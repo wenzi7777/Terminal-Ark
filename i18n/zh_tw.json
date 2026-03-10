@@ -926,6 +926,7 @@
   "save-changes": "保存變更",
   "save-and-reload": "保存並重新整理",
   "about": "關於",
+  "this-release-changelog": "此發行版的日誌",
   "version": "版本",
   "created-with-love-by-nick-hsu": "Created With ❤️ By Nick Hsu",
   "info": "訊息",
@@ -2463,5 +2464,15 @@
   "pwa-install-reward-status": "安裝獎勵",
   "pwa-install-reward-desc": "訊號追蹤器 ×10（加密頻道轉蛋）",
   "pwa-reward-claimed": "已領取",
-  "pwa-reward-not-claimed": "尚未領取"
+  "pwa-reward-not-claimed": "尚未領取",
+  "network-tab-overview": "// 情報",
+  "network-tab-members": "成員",
+  "network-tab-operation": "行動",
+  "network-tab-invites": "招募",
+  "network-tab-chat": "通訊",
+  "network-tab-support": "支援",
+  "network-tab-rankings": "排行",
+  "network-tab-funds": "資產",
+  "network-intel-header": "// 網路情報",
+  "encrypted-comms": "// 加密通訊頻道"
 }
