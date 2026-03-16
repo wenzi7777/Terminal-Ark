@@ -528,7 +528,10 @@
         {
           "type": "ui",
           "op": "fadeOut",
-          "ms": 800
+          "ms": 800,
+          "args": {
+            "stay": true
+          }
         },
         {
           "type": "wait",

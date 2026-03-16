@@ -489,7 +489,10 @@
         {
           "type": "ui",
           "op": "fadeOut",
-          "ms": 1200
+          "ms": 1200,
+          "args": {
+            "stay": true
+          }
         },
         {
           "type": "wait",
