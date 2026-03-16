@@ -183,21 +183,25 @@
         {
           "type": "ui",
           "op": "fadeOut",
-          "ms": 600
+          "args": { "stay": true }
         },
         {
           "type": "wait",
-          "ms": 800
+          "ms": 700
         },
         {
-          "type": "line",
-          "layer": "narration",
-          "text": "她閉上眼。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 16
-          },
-          "log": true
+          "type": "ui",
+          "op": "subtitleCard",
+          "args": { "text": "她閉上眼。" },
+          "ms": 2500
+        },
+        {
+          "type": "wait",
+          "ms": 2700
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn"
         },
         {
           "type": "wait",
@@ -410,25 +414,11 @@
         {
           "type": "ui",
           "op": "fadeOut",
-          "ms": 1200
+          "args": { "stay": true }
         },
         {
           "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "ui",
-          "op": "scanlines",
-          "args": {
-            "enabled": false
-          }
-        },
-        {
-          "type": "ui",
-          "op": "vignette",
-          "args": {
-            "enabled": false
-          }
+          "ms": 750
         },
         {
           "type": "end"
