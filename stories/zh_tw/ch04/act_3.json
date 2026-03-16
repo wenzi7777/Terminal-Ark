@@ -1,0 +1,751 @@
+{
+  "id": "4-3",
+  "title": "第三幕：勝利",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch4_act3_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "scanlines",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "vignette",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 500
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "Elias，現在。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias 的手指已經接上了建築內部的訊號主幹。他坐在大廳角落的地板上，背靠著牆，後背的傷還在隱隱作痛，神經同步率的數字低得讓他不敢多看。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "但意識還清醒。這就夠了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> 防護罩控制核心接入中……",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> 外部驗證壁壘 ── 已繞過",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          }
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> 最終加密層 ── 正面破解中",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "大廳裡，Alea 帶著 Soren 和 Lyra 在持續的消耗戰中勉力支撐。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "士兵的數量從十二變成了八，再從八變成了五——不是因為他們打倒了多少，是因為這批士兵在接收到更高優先級的指令後，有一部分被重新調度去封鎖建築的外部出口。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "追捕的邏輯已經切換到了<em>圍困模式</em>。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "出口要被封了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "我知道。Elias 還需要時間。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "你確定他能做到？",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她沒有回答。把逼近的一具士兵用身體重心的位移引偏方向，騰出空間讓 Soren 的炮口能找到角度。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "掩護我。我去給 Elias 爭取時間。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 26
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她沒有等 Soren 回應，直接朝大廳中央走去。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她沒有試圖打倒任何一具士兵。她只是讓自己成為最顯眼的目標——大幅度的移動，主動靠近，把剩下幾具士兵的感應優先級全部吸引到自己身上。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她在它們中間穿行，用一種只有在高壓裡打磨出來的本能判斷著每一個位移的時機。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "ui",
+          "op": "shake",
+          "ms": 300,
+          "args": {
+            "intensity": 6
+          }
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "軀體受到了一次衝擊，在手臂。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 200
+        },
+        {
+          "type": "ui",
+          "op": "shake",
+          "ms": 300,
+          "args": {
+            "intensity": 7
+          }
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "又一次，在側腹。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她往後踉蹌了一步，站穩，繼續動。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> B區段防護罩節點 ── <em>破解完成</em>",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "完成了——防護罩節點，B區段。開口持續時間有限，我沒辦法讓它更長了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 26
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "夠了。所有人，<em>現在撤</em>。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 26
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "四個人幾乎同時向建築北側的出口跑去。Soren 在最後一刻用剩餘出力在追近的士兵和他們之間轟出一道緩衝。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 26
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 200
+        },
+        {
+          "type": "ui",
+          "op": "shake",
+          "ms": 400,
+          "args": {
+            "intensity": 8
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 推開了安全門。外面是方舟最外圍的空曠地帶。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "防護罩的B區段就在正前方。那道光幕上已經出現了一個不規則的開口，邊緣在微微震顫，像一個隨時會癒合的傷口。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他們跑過去。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "ui",
+          "op": "glitch",
+          "ms": 500
+        },
+        {
+          "type": "ui",
+          "op": "noise",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "穿越防護罩的瞬間有一種輕微的電流感，從皮膚表面滲透進去，在神經末梢留下一陣短暫的麻意。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "然後消失。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "ui",
+          "op": "noise",
+          "args": {
+            "enabled": false
+          }
+        },
+        {
+          "type": "ui",
+          "op": "vignette",
+          "args": {
+            "enabled": false
+          }
+        },
+        {
+          "type": "ui",
+          "op": "scanlines",
+          "args": {
+            "enabled": false
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "四個人相繼落腳在防護罩的另一側。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias 回頭看了一眼。那個開口已經在他們身後癒合，防護罩重新變得完整。光幕後方，幾具人造士兵停在邊緣，感應器朝外掃視，但沒有繼續追來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "越境的授權指令不在它們的權限範圍內。它們只能在那道光幕的另一側停下。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "四個人站在防護罩外。第一次站在方舟的邊界以外。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 900
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "這裡的空氣和裡面不一樣，帶著一種乾燥的、微量輻射的生澀。風比裡面大，從沒有方向的地方刮來，吹得衣物獵獵作響。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "遠處的地平線是暗橙色的，荒原的廢墟輪廓在那片暗色裡若隱若現。沒有路，沒有路標，沒有任何東西告訴他們應該往哪個方向走。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 把受損的武裝模組從肩上卸下來，看了看自己手臂上因為過載留下的輕微淤青，然後抬起頭，看著那片廣闊的、未知的荒原，深深地吸了一口氣。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "比裡面的空氣難聞。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "廢話。輻射塵。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "但是——<delay ms=\"400\"/>感覺不一樣。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "沒有人反駁她。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 站在最前方，看著那片她活了十五年從來沒有踏上過的土地。風把她的頭髮吹亂，她沒有去整理，只是靜靜地站著，感受著腳底下的地面。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "然後她往前走了一步。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "走吧。天黑之前找到掩體。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "三個人跟上了她。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2500
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 1500
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "reward",
+    "complete"
+  ]
+}

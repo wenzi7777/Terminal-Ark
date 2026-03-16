@@ -1,0 +1,410 @@
+{
+  "id": "10-2",
+  "title": "第二幕：我以為我",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch10_act2_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 800
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 找到隔離門的控制終端，是在那棟醫院和防護罩邊緣之間的一個舊型號的配電箱裡。鏽跡斑斑，面板上有幾個按鈕已經失靈，但核心的電子鎖系統還在運作。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "這種等級的隔離門需要方舟內部的管理員授權才能開啟。普通居民沒有這個權限。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "但 Lyra 有。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那是一個她自己也說不清楚來歷的東西。她的神經連線底層有一段特殊的授權代碼，她以前一直以為那只是某種系統誤植。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "後來在 Solmaris 的地下空腔裡，她看見了自己靈魂基底代碼裡的那段設計。她開始理解——那段授權代碼大概也是同一個來源。是實驗設計的一部分，讓她能在特定的時刻，做到特定的事情。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她現在要用它了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "ui",
+          "op": "scanlines",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> 神經連線介面接入 ── 授權代碼展開中",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> 電子鎖解除 ── 第一層 ── 第二層 ── 第三層",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "Lyra。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "你不要跟來。帶 Alea 和 Elias 退到安全距離。等我把人帶出來，我們一起撤。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "你說的是不可能發生的事。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "我知道。但是我想試試看。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "ui",
+          "op": "shake",
+          "ms": 500,
+          "args": {
+            "intensity": 4
+          }
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> 隔離門 ── 最終鎖解除 ── 開啟中",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "ui",
+          "op": "scanlines",
+          "args": {
+            "enabled": false
+          }
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "隔離門開始緩緩地向內退縮。那扇門很厚，退縮的速度很慢，像是在用它最後的能力，拖延什麼東西的到來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 站在門口。外面是那片被戰火的光暈染成橙紅色的天空，以及那棟她已經能清楚看見的臨時醫院，以及那個跪在荒原地面上的孩子。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那個孩子看見她，愣了一下，然後開始往她這個方向爬。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她走了出去。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "步伐很穩，肩膀打開。她走進那片橙紅色的光裡，風把她的衣角吹起來。她沒有回頭。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她在心裡快速思考著——第一步，讓能走動的人動起來。藥品和補給不要帶。穩定劑帶一組，以備最緊急的情況。往隔離門的方向撤，只要進了門，關上，Solmaris 的攝魂武器的有效性會大幅下降——",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "這個計劃是有漏洞的。她知道。但她找不到沒有漏洞的版本，所以就用這個。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她蹲下來，把那個孩子扶起來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "能走嗎？",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那個孩子點了點頭，眼睛紅著，但沒有哭。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "好，走吧。帶我去裡面，我們一起出來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 1200
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}

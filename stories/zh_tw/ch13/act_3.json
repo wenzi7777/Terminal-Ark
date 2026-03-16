@@ -1,0 +1,271 @@
+{
+  "id": "13-3",
+  "title": "第三幕：危機",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch13_act3_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 800
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "防護罩強度的變化是緩慢的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "不是一次性的崩潰，是一點一點的，像一個人在漫長的時間裡慢慢地失去體力。外表看起來還在，但每一個小時都比上一個小時更虛。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那個弱化的速度被設計成不會立刻引發警報。方舟的監測系統會判斷那是正常的能源波動，等到弱化到臨界值以下，警報才會響，但那個時候已經太晚了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias 站在荒原的一處高地上，看著遠方方舟的輪廓。他能看見防護罩的光幕，那道光幕的顏色在過去幾個小時裡從穩定的藍白色慢慢地變得更暗，更薄，像一層被反復拉伸的膜，正在接近它能承受的極限。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "方舟裡的人不知道。他們以為那只是又一次的能源波動，以為會自動修復，以為這件事和過去每一次的波動一樣，撐一下就過去了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他們不知道這一次沒有自動修復。這一次的弱化有一個寫好了的終點，而那個終點的另一端連著一道已經被寫入 AI 軍團作戰指令系統的目標標記。那個標記現在已經在那裡了，等著防護罩弱化到足夠低的強度，讓軍團可以突破。那個計算是精確的，和 Soren 的所有計算一樣精確。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias 在那個高地上站了很長時間，看著那道越來越薄的光幕，看著那個他不知道從哪個方向能夠阻止的計時器在無聲地倒數。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他想到了 Lyra。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她還在那裡，在那個斜道的出口附近，在那具冰冷的軀殼旁邊。他離開的時候她還跪在那裡。他站了一秒，跟著 Soren 走了。那一秒的停留和那一秒之後的離開，他沒有辦法說哪一個是對的。但那一秒他選擇了跟上去，因為他以為他能攔住。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他沒有攔住。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他現在站在這裡，Soren 的計劃已經推進到了一半，防護罩的弱化已經開始。方舟裡的人不知道，Lyra 不知道，荒原裡所有活著的人不知道。只有他知道，只有他一個人站在這裡，看著那道越來越薄的光幕，和那個他現在能想到的、只有一個人能夠做到的事情。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "只有 Lyra。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她現在什麼都沒有了，什麼都沒有。但他現在需要她，他不知道她還能不能站起來，但他知道他沒有別的路。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他從高地上下來，調整了方向，往回走。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "遠方，方舟的防護罩繼續在那片暗色的天空裡發著它越來越微弱的光，像一根快要燒盡的蠟燭，以一種很安靜的、沒有任何掙扎的方式，走向它的熄滅。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "而城裡的人們，還不知道黑暗正在靠近。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 3000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 2000
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "reward",
+    "complete"
+  ]
+}

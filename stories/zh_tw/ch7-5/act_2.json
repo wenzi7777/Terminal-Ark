@@ -1,0 +1,303 @@
+{
+  "id": "7.5-2",
+  "title": "第二幕：沉默",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch7_5_act2_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 1000
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "接收器的右側外殼在 Mondris 的撤退途中撞上了岩壁，裂了一道縫。內部有一個訊號放大模組的焊點鬆脫了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias 把那個模組取出來，用他隨身帶著的一根細焊針重新固定。那個動作需要很穩的手和很細的注意力，他做這種事的時候整個人會安靜下來。那種安靜是他自己選擇的，不是被逼的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 在他旁邊坐下來的時候，他沒有特別注意。他習慣了她會選那個有遮風牆壁的位置，那個位置確實比其他地方好。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "兩個人就這樣坐著。那段沉默不是尷尬，是兩個各自在做自己的事的人坐在同一個空間裡的那種沉默。自然的，不需要填補的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 把物資袋打開，把裡面的東西一樣一樣取出來，清點，分類，確認數量。那個動作她做得很熟練，不需要思考，手自己就動。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "謝謝妳。在補給站，妳拖住了那些士兵，給了我時間。謝謝。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 的手頓了一下。她看了他一眼，他沒有回頭，認真地盯著那個模組。那個感謝說出來的方式很平，是那種把一件他覺得應該說的話說出來的方式。不誇張，不做作，就是說。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "那是我應該做的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "我知道。但我還是想說謝謝。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 把一個藥品包放進分類好的那一側，拿起下一樣東西，讓那兩句話在她腦子裡停了一下。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "你真的很煩。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias 的手停了一下，然後他笑了。那個笑很輕，是從他喉嚨裡出來的一個短促的聲音。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "我知道。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "然後繼續修他的接收器。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 繼續整理物資，沒有再說話。Elias 也沒有再說話。兩個人重新回到那個沉默裡。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 把最後一樣物資放進整理好的那一側，拉上物資袋，靠著那面牆壁，把腿伸直，閉上眼睛休息。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias 把焊點固定好，把模組裝回去，扣上外殼，確認了一下訊號，把接收器收進口袋。然後他也靠上那面牆壁，沒有再拿出任何東西拆。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "就那樣坐著，讓荒原的風從外面吹過來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2500
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 1500
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}

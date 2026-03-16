@@ -1,24 +1,17 @@
 {
-  "id": "1-1",
-  "title": "第一幕：下層甲板的日常",
+  "id": "8-2",
+  "title": "第二幕：Lyra 的代碼",
   "startNode": "main",
   "nodes": {
     "main": {
       "events": [
         {
           "type": "marker",
-          "id": "ch1_act1_start"
+          "id": "ch8_act2_start"
         },
         {
           "type": "ui",
           "op": "blackout",
-          "args": {
-            "enabled": true
-          }
-        },
-        {
-          "type": "ui",
-          "op": "scanlines",
           "args": {
             "enabled": true
           }
@@ -31,52 +24,9 @@
           }
         },
         {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "ui",
-          "op": "titleCard",
-          "args": {
-            "text": "第一章：不期而遇"
-          }
-        },
-        {
-          "type": "wait",
-          "ms": 2500
-        },
-        {
           "type": "ui",
           "op": "fadeIn",
-          "ms": 1200
-        },
-        {
-          "type": "wait",
           "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "污濁的空氣裡混雜著機油與腐敗的氣味。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "終端方舟的下層甲板，從來都不是個適合呼吸的地方。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
         },
         {
           "type": "wait",
@@ -85,38 +35,10 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "通風管道堵塞了多久，沒人記得，也沒人在乎。錯綜複雜的管線裸露在牆壁外側，氣象調節裝置因電力不足而苟延殘喘。",
+          "text": "祭司說了很多話。關於 Solmaris 的信仰，關於靈魂形態的純粹，關於軀體的局限與束縛。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "昏黃的燈光打在潮濕的地面上，透不出一絲生氣。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 900
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "<em>Alea</em> 踩過一灘積水，走入狹長的通道。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
           },
           "log": true
         },
@@ -127,7 +49,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "背包裡裝著今天剛從黑市換來的半塊壓縮乾糧，以及一個剩半罐淨化水的舊水壺。",
+          "text": "Soren 在聽，在評估，在尋找有用的情報。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -136,12 +58,99 @@
         },
         {
           "type": "wait",
-          "ms": 400
+          "ms": 300
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "她已經連續十三天沒接到委託，儲備糧食早已見底。這一次出門，她用一套剛修好的作業服，勉強換回了這點物資。",
+          "text": "Elias 在觀察那個空腔的結構，推算可能的出口位置。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 靜靜地坐著，臉上沒有表情，眼神在祭司和周圍的 Solmaris 成員之間來回。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 在聽。真正地聽著。因為她對每一種存在方式都抱有真實的好奇，即使是這種她沒有辦法完全認同的方式。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 900
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "首席祭司",
+          "text": "在你們四人之中，有一個靈魂，<delay ms=\"500\"/>對我們而言有特殊的意義。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她的目光落在 Lyra 身上。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "等一下。你要做什麼。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "首席祭司",
+          "text": "只是讓她看見。看見她真正的來歷。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -155,10 +164,106 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "吃飯、喝水、拼命工作，然後找個睡著時不會被人踢開的角落——",
+          "text": "Lyra 感覺到了。一道外部的訊號接觸到了她的神經連線介面，在最外層展開了一段數據序列，投影在周圍所有人都能感知的神經廣播頻率上。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那是一段代碼。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "┌────────────────────────────────────────┐",
+          "reveal": {
+            "mode": "instant"
+          }
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│  靈魂基底代碼 ── 深層掃描結果          │",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│                                        │",
+          "reveal": {
+            "mode": "instant"
+          }
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│  最深層結構：非自然新生靈魂格式          │",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│  格式比對：Solmaris 系統 ── 完全吻合    │",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│  植入時間：靈魂誕生初始                  │",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "└────────────────────────────────────────┘",
+          "reveal": {
+            "mode": "instant"
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "是她自己的靈魂基底代碼。但在最深的那一層，有一段不屬於任何自然新生靈魂的東西。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
           },
           "log": true
         },
@@ -169,188 +274,10 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "這就是 Alea 在下層甲板生活了<em>十一年</em>的全部。",
+          "text": "不是污染，不是後來植入的，而是從最初、從她的靈魂在神經網路上誕生的那一刻起就存在的。被精心設計、精心藏在最深處，像是一棟建築最初的地基——看不見，但承載著上面的一切。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1200
-        },
-        {
-          "type": "ui",
-          "op": "fadeOut",
-          "ms": 600
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她閉上眼。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 16
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "神經終端狀態表上的一串數字，在黑暗中顯得格外刺眼。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "┌─────────────────────────┐",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 神經終端狀態            │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 軀體類型 ── Beta        │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 使用年限 ── <em>B15/9</em>       │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "└─────────────────────────┘",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "wait",
-          "ms": 1200
-        },
-        {
-          "type": "ui",
-          "op": "fadeIn",
-          "ms": 600
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "十五年九個月。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 16
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "在終端方舟，軀體的使用期限是固定的，總長十六年。幼年期使用 Alpha 軀體，成年後換入 Beta 軀體。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "一旦達到年限，軀體被回收，靈魂上傳至<em>國家圖書館</em>。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "這套規則在這裡從來沒有例外。<delay ms=\"600\"/>除了 Alea。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 900
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她不知道自己的來歷，也沒有更早的記憶。醒來時，她人就在下層甲板，從未經歷過更換軀體的儀式。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她的軀體似乎生來就是 Beta 型，只是在幼年期被限制了輸出功率——這純屬她的推測，無從印證。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
           },
           "log": true
         },
@@ -360,8 +287,9 @@
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "她穿過廢棄的居民區。幾個孩子在路邊踢著空鐵罐，聽見腳步聲，抬頭淡漠地掃了她一眼，又收回視線。",
+          "layer": "dialogue",
+          "speaker": "首席祭司",
+          "text": "十七年前，Solmaris 進行了一項實驗。目標是創造一個具有極端感性傾向的靈魂個體，植入方舟的新生網路。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -374,8 +302,9 @@
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "這裡的人見慣了生面孔，也見慣了各種消失。昨天還坐在轉角抽著廉價菸的老人，今天可能就不知所蹤了。",
+          "layer": "dialogue",
+          "speaker": "首席祭司",
+          "text": "觀察極致的感性在方舟的系統環境下如何生長，如何影響周圍的個體，如何在與這個世界的碰撞中形成反應。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -389,38 +318,25 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 在一扇半掩的鐵門前停下。",
+          "text": "沒有人說話。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 14
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 400
+          "ms": 1000
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "這是她近期的棲身之所——一間廢棄診所的儲藏室，空間極小，剛好能塞下一張折疊床。",
+          "layer": "dialogue",
+          "speaker": "首席祭司",
+          "text": "你是那個實驗。<delay ms=\"600\"/>Lyra，你的每一份情感，你的每一次選擇，你的每一個讓你感到自己是你自己的東西，都是我們設計的參數。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她打開背包，將壓縮乾糧放在床頭的破桌上，和衣躺下，閉上眼睛。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
+            "cps": 18
           },
           "log": true
         },
@@ -431,7 +347,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "明天的事，明天再說。",
+          "text": "Lyra 坐在那裡，盯著那段投影在空氣中的代碼，像是在看一個陌生人的名字，卻不得不承認那是自己的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -440,23 +356,16 @@
         },
         {
           "type": "wait",
-          "ms": 2000
+          "ms": 2500
         },
         {
           "type": "ui",
           "op": "fadeOut",
-          "ms": 1200
+          "ms": 1500
         },
         {
           "type": "wait",
           "ms": 600
-        },
-        {
-          "type": "ui",
-          "op": "scanlines",
-          "args": {
-            "enabled": false
-          }
         },
         {
           "type": "ui",

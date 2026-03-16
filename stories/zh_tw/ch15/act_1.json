@@ -1,0 +1,463 @@
+{
+  "id": "15-1",
+  "title": "第一幕：重返方舟",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch15_act1_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "ui",
+          "op": "titleCard",
+          "args": {
+            "text": "第十五章：終端之塔的重啟"
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 2500
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 800
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "防護罩的破口是 Lyra 自己找到的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "不是靠駭入，不是靠任何人的幫助。是靠走，靠在防護罩的邊緣一段一段地走過去，靠她在荒原裡獨自流浪的那些天裡學會的那種安靜的、不依賴任何人的觀察方式。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她走了將近兩個小時，找到了一個強度衰弱到臨界值的節點。那個節點的光幕薄得像一層水膜。她把手貼上去，感覺到那種電流感，然後穿過去了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "方舟的空氣和荒原的不一樣。那種差別在她重新踏上這片土地的瞬間就感覺到了。是熟悉的，但那個熟悉裡有什麼東西已經不一樣了。不是方舟變了，是她變了。她帶著在荒原裡走過的那些東西回來，帶著那塊生命名牌回來，帶著那些碎片裡的話回來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她沒有猶豫，往核心塔的方向走去。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "下層甲板已經面目全非。戰爭留下的痕跡無處不在，有些地方連廢墟都不剩，只有燒焦的地面和倒塌的承重柱，像一口被掏空了的殼。Lyra 走過這些，腳步是穩的。那種穩不是無感，是另一種東西，是感受到了但沒有被那個感受壓垮，是把那個重量收進來，繼續走。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她在核心塔的外圍遭遇了第一批守衛。不是方舟的士兵，是人造士兵，比之前遇到的更新的型號，反應更快，外殼強度更高。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 接上武裝模組。感覺到那個接通的瞬間——和以前不一樣了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "不是她的模組有什麼改變，是她和模組之間的東西變了。那個她在荒原裡哭完之後感覺到的、深處某個鎖鬆開了的地方，現在在她接入武裝模組的瞬間，那個空間自然地往模組的方向延伸過去，像水找到了缺口。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那個同調的深度比她過去任何一次都更深，更穩。炮管的重量，能源導管的流動，輸出頻率的每一個刻度，那些東西對她來說不再是需要刻意控制的外部裝置，而是像她自己的手臂一樣真實。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她沒有試圖正面硬撼。她繞，她引，她用那些在荒原裡獨自求生的日子裡磨出來的本能，在那些機械的反應速度和她的移動方式之間找縫隙。但這一次，那些縫隙對她來說更寬了，因為她同調的精度讓她的每一次輸出都準確地落在需要落的地方，沒有任何消耗在誤差上。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她在核心塔地下二層的一個管控室裡找到了 Elias。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他被鎖定在一個神經連線的隔離箱裡。意識層面的鎖定，軀體是自由的但神經連線的所有對外接口都被封死。他坐在那個隔離箱裡，看見她走進來，愣了整整兩秒。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "Lyra。你怎麼——",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "後來再說。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "ui",
+          "op": "scanlines",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她走到隔離箱的控制終端前，把神經連線接入端口插上去。那個鎖定的架構在她面前展開，比她預想的更複雜，但不是無從下手。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "Soren 鎖的。他之前帶過我們在神經網路裡走，我見過他的思路，我知道他在哪裡留了邊界。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "你見過一次。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "夠了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "解鎖花了她一段時間。那段時間裡沒有人說話。Elias 看著她工作，看著她的手指在接口上移動，看著那個他認識的人和他記憶裡離開時的那個人之間，有什麼東西已經不一樣了。他說不出來那個不一樣是什麼，只是感覺到了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "ui",
+          "op": "scanlines",
+          "args": {
+            "enabled": false
+          }
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "隔離解除。Elias 把接入端口重新連上，花了幾秒鐘讓神經連線重新校準，然後看向她。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "Soren 的計劃你知道多少。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "我知道足夠多。防護罩弱化，方舟標記為最高威脅，AI 軍團清除一切。<delay ms=\"200\"/>他現在在哪裡。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "NUTA。國立終端方舟大學的地下核心。那裡是方舟所有系統的實體匯聚點。他需要從那裡完成最後的指令寫入。防護罩的弱化是自動執行中，但最終的觸發指令還沒有送出去。那個指令必須從地下核心的主終端發出才有效。他還沒有按下去。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "還沒有。所以我們還有時間。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "不多。走。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他們沒有再多說話。兩個人在核心塔的走廊裡快速推進，Lyra 在前，Elias 在後。他們中間有什麼東西，不需要用語言確認，只是都在，都朝著同一個方向走。那個方向的盡頭是他們都認識的人，一個他們都不打算放棄的人。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 1200
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "id": "12-1",
+  "title": "第一幕：消散的光芒",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch12_act1_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "ui",
+          "op": "titleCard",
+          "args": {
+            "text": "第十二章：別離"
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 2500
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 1000
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 倒在斜道口外側的地面上。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他們是在戰鬥聲靜止之後折返的。不是所有人都同意折返，是 Lyra 第一個停下腳步，停下來，然後往回走。Soren 攔了一下，沒有攔住。Elias 沒有攔。三個人最後一起回到了斜道的入口。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她就在那裡。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "臉朝上，倒在那片被炮火燒焦的地面上。周圍有幾具 Solmaris 士兵損毀的機械殘骸，那是她換來的代價，她用自己換來的代價，足夠讓三個人走遠的時間和距離。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她的武裝模組已經徹底損毀，電磁短刀還緊緊握在手中，熱電池在最後一次放電裡燒毀了，全息劍刃無法再生成，短刀的刀刃也從中間斷開了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 走過去，在她旁邊跪下來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "軀體已經不再有任何神經連線的訊號。同步率的感應是零。那個數字不是低，是沒有，是連感應本身都不存在了的空白。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "軀體損壞到一定程度，靈魂就無法繼續依附，會自動脫離。脫離之後如果有方舟的回收設備，靈魂可以被捕獲，轉入臨時容器，等待下一具軀體。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "但荒原裡沒有回收設備。荒原裡什麼都沒有。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "靈魂脫離之後在開放環境裡只有幾分鐘的存續時間，然後就會擴散，消解，像寒冷的冬天中，呼出的熱氣，在空氣裡散開，不留任何痕跡。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 看著那張臉。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那張臉的表情是平靜的，眉頭沒有皺著，嘴角沒有下壓，就是平靜的，和她活著的時候沒有太大的差別。那種不動聲色的、把所有東西都壓在最深處的平靜。只是現在，那個平靜下面什麼都沒有了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她把手伸出去，輕輕地碰了碰那隻手。手背是涼的，但還沒有完全冷透，還有一點點，一點點的溫度，像最後一粒餘燼，在風來之前，還在。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "然後那點溫度也散了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 沒有說話。她突然感覺到，某個東西在這一刻真正地、徹底地結束了。不是以後還有機會，不是某個地方還留著什麼。是完全的，是一個方向的消失，往那個方向看過去，什麼都沒有了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她握著那個生命名牌。那塊金屬現在是冷的，和荒原的空氣一樣冷，沒有任何她曾經感受過的溫度。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她跪在那裡，沒有哭。不是因為不想哭，是因為她墜進去的那個地方比哭更深。哭是一種還在表面的反應，她已經在比那更深的地方了，深到連哭這個動作都到不了她現在所在的位置。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2500
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 1500
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}

@@ -1,13 +1,13 @@
 {
-  "id": "1-1",
-  "title": "第一幕：下層甲板的日常",
+  "id": "5-3",
+  "title": "第三幕：機械殘骸中的信號",
   "startNode": "main",
   "nodes": {
     "main": {
       "events": [
         {
           "type": "marker",
-          "id": "ch1_act1_start"
+          "id": "ch5_act3_start"
         },
         {
           "type": "ui",
@@ -18,10 +18,171 @@
         },
         {
           "type": "ui",
-          "op": "scanlines",
-          "args": {
-            "enabled": true
-          }
+          "op": "fadeIn",
+          "ms": 800
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "訊號是 Elias 在第五天傍晚發現的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他們當時在一片機械殘骸的廢棄場邊緣搜索。那裡堆著幾十台不同年代的損毀機械——舊文明時代的農業機具、AI 戰爭遺留的損毀軍械，以及幾台連 Elias 都辨認不出型號的奇異構造物。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "鏽蝕程度不一，堆疊在一起形成一座不規則的金屬山丘。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> 偵測到持續性低頻訊號源",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "等一下。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他把接收器朝那片殘骸的方向對準，細調了幾次頻率。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "有一個持續性的低頻訊號，很微弱，但很穩定，像是自動廣播。而且——",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> 加密格式比對：方舟早期內部通訊 — 版本差距 ≥ 15年",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "加密格式我見過。是方舟早期的內部通訊格式，比現在的版本早了至少十五年。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "方舟的訊號，在荒原的機械殘骸裡。不合理。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "是不合理。所以才值得看。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
         },
         {
           "type": "ui",
@@ -31,89 +192,9 @@
           }
         },
         {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "ui",
-          "op": "titleCard",
-          "args": {
-            "text": "第一章：不期而遇"
-          }
-        },
-        {
-          "type": "wait",
-          "ms": 2500
-        },
-        {
-          "type": "ui",
-          "op": "fadeIn",
-          "ms": 1200
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
           "type": "line",
           "layer": "narration",
-          "text": "污濁的空氣裡混雜著機油與腐敗的氣味。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "終端方舟的下層甲板，從來都不是個適合呼吸的地方。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "通風管道堵塞了多久，沒人記得，也沒人在乎。錯綜複雜的管線裸露在牆壁外側，氣象調節裝置因電力不足而苟延殘喘。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "昏黃的燈光打在潮濕的地面上，透不出一絲生氣。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 900
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "<em>Alea</em> 踩過一灘積水，走入狹長的通道。",
+          "text": "他們在那片殘骸裡尋找訊號源。金屬山丘的縫隙深而複雜，有幾個地方必須橫著身體才能通過。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -122,26 +203,26 @@
         },
         {
           "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "背包裡裝著今天剛從黑市換來的半塊壓縮乾糧，以及一個剩半罐淨化水的舊水壺。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
           "ms": 400
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "她已經連續十三天沒接到委託，儲備糧食早已見底。這一次出門，她用一套剛修好的作業服，勉強換回了這點物資。",
+          "text": "Elias 一路拿著接收器做方向引導，訊號越來越強。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "最後他們被帶到了殘骸堆最深處的一個狹窄空間。那裡有一塊厚重的金屬地板，表面的鏽蝕比周圍薄得多，邊緣有細小的、已經很久沒有使用過的卡扣。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -155,157 +236,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "吃飯、喝水、拼命工作，然後找個睡著時不會被人踢開的角落——",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "這就是 Alea 在下層甲板生活了<em>十一年</em>的全部。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1200
-        },
-        {
-          "type": "ui",
-          "op": "fadeOut",
-          "ms": 600
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她閉上眼。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 16
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "神經終端狀態表上的一串數字，在黑暗中顯得格外刺眼。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "┌─────────────────────────┐",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 神經終端狀態            │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 軀體類型 ── Beta        │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 使用年限 ── <em>B15/9</em>       │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "└─────────────────────────┘",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "wait",
-          "ms": 1200
-        },
-        {
-          "type": "ui",
-          "op": "fadeIn",
-          "ms": 600
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "十五年九個月。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 16
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "在終端方舟，軀體的使用期限是固定的，總長十六年。幼年期使用 Alpha 軀體，成年後換入 Beta 軀體。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "一旦達到年限，軀體被回收，靈魂上傳至<em>國家圖書館</em>。",
+          "text": "Alea 蹲下來，把卡扣逐一解開。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -319,7 +250,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "這套規則在這裡從來沒有例外。<delay ms=\"600\"/>除了 Alea。",
+          "text": "地板掀起來。下面是一段向下延伸的金屬梯，梯的盡頭透著一點極其微弱的藍白色光。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -333,24 +264,10 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她不知道自己的來歷，也沒有更早的記憶。醒來時，她人就在下層甲板，從未經歷過更換軀體的儀式。",
+          "text": "四個人對視了一眼，沒有人說話。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她的軀體似乎生來就是 Beta 型，只是在幼年期被限制了輸出功率——這純屬她的推測，無從印證。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
+            "cps": 18
           },
           "log": true
         },
@@ -359,37 +276,16 @@
           "ms": 1000
         },
         {
-          "type": "line",
-          "layer": "narration",
-          "text": "她穿過廢棄的居民區。幾個孩子在路邊踢著空鐵罐，聽見腳步聲，抬頭淡漠地掃了她一眼，又收回視線。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
+          "type": "ui",
+          "op": "scanlines",
+          "args": {
+            "enabled": true
+          }
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "這裡的人見慣了生面孔，也見慣了各種消失。昨天還坐在轉角抽著廉價菸的老人，今天可能就不知所蹤了。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "Alea 在一扇半掩的鐵門前停下。",
+          "text": "Alea 第一個踏上梯子，往下走去。其他三人跟上。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -403,7 +299,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "這是她近期的棲身之所——一間廢棄診所的儲藏室，空間極小，剛好能塞下一張折疊床。",
+          "text": "地板在最後一個人進入後自動關閉。殘骸場的喧囂隔在了上方。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -417,35 +313,95 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她打開背包，將壓縮乾糧放在床頭的破桌上，和衣躺下，閉上眼睛。",
+          "text": "梯道裡只剩下他們四個人的呼吸聲和腳步聲，以及那點藍白色的光，在下方靜靜地等著他們。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 18
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 1200
+          "ms": 900
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "明天的事，明天再說。",
+          "text": "梯道的盡頭是一扇厚重的隔離門。門上有一個老式的電子顯示屏。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 16
+            "cps": 18
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 2000
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "屏上只有一行字。字體是早期終端方舟的公文格式，用語也是二十年前的官方措辭。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "┌────────────────────────────────────────┐",
+          "reveal": {
+            "mode": "instant"
+          }
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│                                        │",
+          "reveal": {
+            "mode": "instant"
+          }
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│   <em>「歡迎。我在等待你們。」</em>             │",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│                                        │",
+          "reveal": {
+            "mode": "instant"
+          }
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "└────────────────────────────────────────┘",
+          "reveal": {
+            "mode": "instant"
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 3000
         },
         {
           "type": "ui",
           "op": "fadeOut",
-          "ms": 1200
+          "ms": 1500
         },
         {
           "type": "wait",
@@ -472,6 +428,7 @@
     }
   },
   "onComplete": [
+    "reward",
     "complete"
   ]
 }

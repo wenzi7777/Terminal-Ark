@@ -1,0 +1,79 @@
+{
+  "version": "2.0.0",
+  "chapters": [
+    {
+      "id": "0",
+      "title": "序章：寫入歷史的錯誤答案",
+      "order": 0,
+      "acts": [
+        {
+          "id": "0-1",
+          "title": "第一幕：程式初始化",
+          "file": "prologue/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "0-2",
+          "title": "第二幕：荒原戰爭",
+          "file": "prologue/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "0-3",
+          "title": "第三幕：終端方舟",
+          "file": "prologue/act_3.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "0-4",
+          "title": "第四幕：火種計劃",
+          "file": "prologue/act_4.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "0-5",
+          "title": "第五幕：內戰爆發",
+          "file": "prologue/act_5.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "title": "第一章：下層甲板的天空是灰色的",
+      "order": 1,
+      "acts": [
+        {
+          "id": "1-1",
+          "title": "第一幕：灰色的早晨",
+          "file": "ch01/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "1-2",
+          "title": "第二幕：回收工廠",
+          "file": "ch01/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "1-3",
+          "title": "第三幕：配給危機",
+          "file": "ch01/act_3.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "1-4",
+          "title": "第四幕：暴動",
+          "file": "ch01/act_4.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "1-5",
+          "title": "第五幕：鎮壓",
+          "file": "ch01/act_5.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    }
+  ]
+}

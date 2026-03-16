@@ -1,13 +1,13 @@
 {
-  "id": "1-1",
-  "title": "第一幕：下層甲板的日常",
+  "id": "3-2",
+  "title": "第二幕：能源枯竭的謊言",
   "startNode": "main",
   "nodes": {
     "main": {
       "events": [
         {
           "type": "marker",
-          "id": "ch1_act1_start"
+          "id": "ch3_act2_start"
         },
         {
           "type": "ui",
@@ -25,53 +25,17 @@
         },
         {
           "type": "ui",
-          "op": "vignette",
-          "args": {
-            "enabled": true
-          }
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "ui",
-          "op": "titleCard",
-          "args": {
-            "text": "第一章：不期而遇"
-          }
-        },
-        {
-          "type": "wait",
-          "ms": 2500
-        },
-        {
-          "type": "ui",
           "op": "fadeIn",
-          "ms": 1200
+          "ms": 800
         },
         {
           "type": "wait",
-          "ms": 800
+          "ms": 500
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "污濁的空氣裡混雜著機油與腐敗的氣味。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "終端方舟的下層甲板，從來都不是個適合呼吸的地方。",
+          "text": "黑市比平時更擁擠。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -85,35 +49,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "通風管道堵塞了多久，沒人記得，也沒人在乎。錯綜複雜的管線裸露在牆壁外側，氣象調節裝置因電力不足而苟延殘喘。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "昏黃的燈光打在潮濕的地面上，透不出一絲生氣。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 900
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "<em>Alea</em> 踩過一灘積水，走入狹長的通道。",
+          "text": "大批居民在軍方掃蕩後湧進了這裡，把原本就昏暗的走廊塞得水泄不通。各種語言混在一起，還有孩子的哭聲從某個角落傳出來，在低矮的天花板下回響。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -127,10 +63,10 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "背包裡裝著今天剛從黑市換來的半塊壓縮乾糧，以及一個剩半罐淨化水的舊水壺。",
+          "text": "Soren 去找情報商。Elias 在舊電子零件堆裡翻找訊號材料。Alea 帶著 Lyra 去換取補給。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 22
           },
           "log": true
         },
@@ -141,188 +77,10 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她已經連續十三天沒接到委託，儲備糧食早已見底。這一次出門，她用一套剛修好的作業服，勉強換回了這點物資。",
+          "text": "他們約好在入口匯合。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 700
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "吃飯、喝水、拼命工作，然後找個睡著時不會被人踢開的角落——",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "這就是 Alea 在下層甲板生活了<em>十一年</em>的全部。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1200
-        },
-        {
-          "type": "ui",
-          "op": "fadeOut",
-          "ms": 600
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她閉上眼。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 16
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "神經終端狀態表上的一串數字，在黑暗中顯得格外刺眼。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "┌─────────────────────────┐",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 神經終端狀態            │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 軀體類型 ── Beta        │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 使用年限 ── <em>B15/9</em>       │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "└─────────────────────────┘",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "wait",
-          "ms": 1200
-        },
-        {
-          "type": "ui",
-          "op": "fadeIn",
-          "ms": 600
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "十五年九個月。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 16
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "在終端方舟，軀體的使用期限是固定的，總長十六年。幼年期使用 Alpha 軀體，成年後換入 Beta 軀體。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "一旦達到年限，軀體被回收，靈魂上傳至<em>國家圖書館</em>。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "這套規則在這裡從來沒有例外。<delay ms=\"600\"/>除了 Alea。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
           },
           "log": true
         },
@@ -333,10 +91,39 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她不知道自己的來歷，也沒有更早的記憶。醒來時，她人就在下層甲板，從未經歷過更換軀體的儀式。",
+          "text": "帶回消息的是 Soren。他在掮客那裡花掉了身上最值錢的一枚加密晶片。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "匯合之後，他沒有立刻開口，先確認了周圍沒有可以聽見談話的人，才把一份手寫的數據摘要攤在幾人面前。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "防護罩的能源供給問題。不是故障，不是資源匱乏。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
           },
           "log": true
         },
@@ -346,8 +133,200 @@
         },
         {
           "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "是人為的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "┌────────────────────────────────────────┐",
+          "reveal": {
+            "mode": "instant"
+          }
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│ [情報摘要]                             │",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          }
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│ 六個月前：上層分批切斷下層甲板供能     │",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│ 名義：戰時能源重新分配                 │",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          }
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│ 實際流向：<em>靈魂處理中心擴容工程</em>         │",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "└────────────────────────────────────────┘",
+          "reveal": {
+            "mode": "instant"
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "他們在擴大……<delay ms=\"300\"/>生產規模。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "徵兵的壓力越來越大，荒原兩國的攻勢在加強，方舟的兵力消耗速度超過補充速度。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "人造士兵的生產成本比訓練真正的士兵低得多。只要有足夠的靈魂作為基底，就可以持續生產。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "所以他們需要靈魂。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "防護罩減弱，荒原生物入侵，下層甲板的死亡人數上升，靈魂在軀體受損前就可以被提前回收。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "損耗最低，也最不容易引起注意——死在荒原生物爪下，跟被強制回收，在帳面上是<em>兩件完全不同的事</em>。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
           "layer": "narration",
-          "text": "她的軀體似乎生來就是 Beta 型，只是在幼年期被限制了輸出功率——這純屬她的推測，無從印證。",
+          "text": "沉默。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "四周的市集噪音照舊，人聲照舊，孩子的哭聲也還在。但在這片嘈雜裡，他們四個人圍坐的這個角落安靜得有些不真實。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "<whisper>那些昨天被帶走的人……原來是這樣。</whisper>",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -361,24 +340,10 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她穿過廢棄的居民區。幾個孩子在路邊踢著空鐵罐，聽見腳步聲，抬頭淡漠地掃了她一眼，又收回視線。",
+          "text": "沒有人回答她。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "這裡的人見慣了生面孔，也見慣了各種消失。昨天還坐在轉角抽著廉價菸的老人，今天可能就不知所蹤了。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
+            "cps": 16
           },
           "log": true
         },
@@ -389,52 +354,39 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 在一扇半掩的鐵門前停下。",
+          "text": "她低下頭，把手疊在膝蓋上，沉默了很長一段時間。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 18
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 400
+          "ms": 1500
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "這是她近期的棲身之所——一間廢棄診所的儲藏室，空間極小，剛好能塞下一張折疊床。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她打開背包，將壓縮乾糧放在床頭的破桌上，和衣躺下，閉上眼睛。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1200
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "明天的事，明天再說。",
+          "text": "然後她抬起頭。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "我想知道為什麼終端方舟要和一樣都是人類的國家發起戰爭。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
           },
           "log": true
         },
@@ -445,22 +397,15 @@
         {
           "type": "ui",
           "op": "fadeOut",
-          "ms": 1200
+          "ms": 1000
         },
         {
           "type": "wait",
-          "ms": 600
+          "ms": 500
         },
         {
           "type": "ui",
           "op": "scanlines",
-          "args": {
-            "enabled": false
-          }
-        },
-        {
-          "type": "ui",
-          "op": "vignette",
           "args": {
             "enabled": false
           }

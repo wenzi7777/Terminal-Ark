@@ -1,31 +1,17 @@
 {
-  "id": "1-1",
-  "title": "第一幕：下層甲板的日常",
+  "id": "3.5-1",
+  "title": "第一幕：各自的方式",
   "startNode": "main",
   "nodes": {
     "main": {
       "events": [
         {
           "type": "marker",
-          "id": "ch1_act1_start"
+          "id": "ch3_5_act1_start"
         },
         {
           "type": "ui",
           "op": "blackout",
-          "args": {
-            "enabled": true
-          }
-        },
-        {
-          "type": "ui",
-          "op": "scanlines",
-          "args": {
-            "enabled": true
-          }
-        },
-        {
-          "type": "ui",
-          "op": "vignette",
           "args": {
             "enabled": true
           }
@@ -38,7 +24,7 @@
           "type": "ui",
           "op": "titleCard",
           "args": {
-            "text": "第一章：不期而遇"
+            "text": "四個人"
           }
         },
         {
@@ -48,16 +34,16 @@
         {
           "type": "ui",
           "op": "fadeIn",
-          "ms": 1200
+          "ms": 1000
         },
         {
           "type": "wait",
-          "ms": 800
+          "ms": 600
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "污濁的空氣裡混雜著機油與腐敗的氣味。",
+          "text": "夜晚還有一段時間才會到來。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -66,15 +52,73 @@
         },
         {
           "type": "wait",
-          "ms": 800
+          "ms": 700
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "終端方舟的下層甲板，從來都不是個適合呼吸的地方。",
+          "text": "Soren 把平面圖攤在面前，拿著一截短短的炭筆，在幾個關鍵節點上做標記。標記完，從頭看一遍，再做一次。他不說話，不看人，整個人像一台正在全速運轉的機器。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias 坐在廢棄空間的另一個角落，把他的訊號接收器拆開了。那不是因為接收器有任何問題，它運作良好。他只是習慣這樣——手裡有東西拆，有東西裝，整個人就能安靜下來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他把零件一個一個排在腿上，最小的在最左邊，最大的在最右邊。然後從最左邊開始往回裝。等到全部裝完，再拆開，再排好，再裝回去。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "Soren，你已經看那張圖看了——",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 200
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "不要打斷。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
           },
           "log": true
         },
@@ -85,7 +129,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "通風管道堵塞了多久，沒人記得，也沒人在乎。錯綜複雜的管線裸露在牆壁外側，氣象調節裝置因電力不足而苟延殘喘。",
+          "text": "Lyra 閉上嘴，轉向 Elias。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -94,26 +138,58 @@
         },
         {
           "type": "wait",
-          "ms": 500
+          "ms": 300
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "昏黃的燈光打在潮濕的地面上，透不出一絲生氣。",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "Elias，那個接收器有問題嗎？",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 24
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 900
+          "ms": 200
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "<em>Alea</em> 踩過一灘積水，走入狹長的通道。",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "沒有。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 200
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "那你為什麼一直在拆它——",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 200
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "習慣。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -127,185 +203,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "背包裡裝著今天剛從黑市換來的半塊壓縮乾糧，以及一個剩半罐淨化水的舊水壺。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她已經連續十三天沒接到委託，儲備糧食早已見底。這一次出門，她用一套剛修好的作業服，勉強換回了這點物資。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 700
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "吃飯、喝水、拼命工作，然後找個睡著時不會被人踢開的角落——",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "這就是 Alea 在下層甲板生活了<em>十一年</em>的全部。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1200
-        },
-        {
-          "type": "ui",
-          "op": "fadeOut",
-          "ms": 600
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她閉上眼。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 16
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "神經終端狀態表上的一串數字，在黑暗中顯得格外刺眼。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "┌─────────────────────────┐",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 神經終端狀態            │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 軀體類型 ── Beta        │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 使用年限 ── <em>B15/9</em>       │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "└─────────────────────────┘",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "wait",
-          "ms": 1200
-        },
-        {
-          "type": "ui",
-          "op": "fadeIn",
-          "ms": 600
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "十五年九個月。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 16
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "在終端方舟，軀體的使用期限是固定的，總長十六年。幼年期使用 Alpha 軀體，成年後換入 Beta 軀體。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "一旦達到年限，軀體被回收，靈魂上傳至<em>國家圖書館</em>。",
+          "text": "Lyra 確認他不打算繼續說話，然後轉過頭，看向坐在她另一側、靠著牆、看著門口方向的 Alea，用一種充滿期待的眼神看著她。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -319,7 +217,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "這套規則在這裡從來沒有例外。<delay ms=\"600\"/>除了 Alea。",
+          "text": "Alea 感覺到了那個視線，沒有動，用餘光回看了她一眼。她的表情很清楚地說了一件事：妳找錯人了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -333,7 +231,21 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她不知道自己的來歷，也沒有更早的記憶。醒來時，她人就在下層甲板，從未經歷過更換軀體的儀式。",
+          "text": "Lyra 沒有放棄。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她在背包裡翻了一下，把今天搜刮到的東西拿出來——一札壓縮乾糧，一個裝了不到半瓶淨化水的罐子，以及一小包在黑市某個角落找到的硬糖。包裝皺了，但封口還是好的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -347,49 +259,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她的軀體似乎生來就是 Beta 型，只是在幼年期被限制了輸出功率——這純屬她的推測，無從印證。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1000
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她穿過廢棄的居民區。幾個孩子在路邊踢著空鐵罐，聽見腳步聲，抬頭淡漠地掃了她一眼，又收回視線。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "這裡的人見慣了生面孔，也見慣了各種消失。昨天還坐在轉角抽著廉價菸的老人，今天可能就不知所蹤了。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "Alea 在一扇半掩的鐵門前停下。",
+          "text": "她走到 Soren 面前，把一條乾糧和半杯水放在他地圖的旁邊。不擋到地圖，但在他不低頭就能看見的位置。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -403,10 +273,10 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "這是她近期的棲身之所——一間廢棄診所的儲藏室，空間極小，剛好能塞下一張折疊床。",
+          "text": "Soren 看了那條乾糧一眼，沒有說話，繼續看地圖。但他把乾糧拿起來了。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 18
           },
           "log": true
         },
@@ -417,7 +287,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她打開背包，將壓縮乾糧放在床頭的破桌上，和衣躺下，閉上眼睛。",
+          "text": "Lyra 走向 Elias，把另一條乾糧放在他排零件的腿旁邊。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -426,12 +296,83 @@
         },
         {
           "type": "wait",
-          "ms": 1200
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "謝。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "明天的事，明天再說。",
+          "text": "最後再把乾糧給 Alea。Lyra 把那包硬糖打開，倒出四顆，各自放在每個人面前。然後她回到自己的位置坐下來，拿起自己那份，咬了一口乾糧。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "廢棄空間裡安靜了一下。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren 把地圖往旁邊推了半個身位，拿起乾糧，咬了一口，繼續看地圖。Elias 把接收器放下，拿起乾糧，往嘴裡塞了一塊。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 看了一眼放在她腿邊的東西，看了一眼 Lyra——Lyra 正在認真地吃她自己的那份，沒有看她——Alea 把乾糧拿起來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "四個人，在那個廢棄空間的各自角落，各自吃著各自的那份，沒有人說話，等著夜晚到來。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -449,21 +390,7 @@
         },
         {
           "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "ui",
-          "op": "scanlines",
-          "args": {
-            "enabled": false
-          }
-        },
-        {
-          "type": "ui",
-          "op": "vignette",
-          "args": {
-            "enabled": false
-          }
+          "ms": 500
         },
         {
           "type": "end"

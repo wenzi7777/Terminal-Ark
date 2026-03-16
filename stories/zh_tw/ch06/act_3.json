@@ -1,13 +1,13 @@
 {
-  "id": "1-2",
-  "title": "第二幕：意外的入侵者",
+  "id": "6-3",
+  "title": "第三幕：外面的人",
   "startNode": "main",
   "nodes": {
     "main": {
       "events": [
         {
           "type": "marker",
-          "id": "ch1_act2_start"
+          "id": "ch6_act3_start"
         },
         {
           "type": "ui",
@@ -18,90 +18,79 @@
         },
         {
           "type": "ui",
-          "op": "scanlines",
-          "args": {
-            "enabled": true
-          }
-        },
-        {
-          "type": "ui",
           "op": "fadeIn",
-          "ms": 400
+          "ms": 800
         },
         {
           "type": "wait",
-          "ms": 300
-        },
-        {
-          "type": "ui",
-          "op": "shake",
-          "ms": 800,
-          "args": {
-            "intensity": 10
-          }
-        },
-        {
-          "type": "line",
-          "layer": "alert",
-          "text": "[ 邊緣防護罩異常 ── 破口偵測 ]",
-          "reveal": {
-            "mode": "instant"
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 900
+          "ms": 500
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 的庇護所離邊緣防護罩極近。所以當警報響起時，那聲音幾乎是貼著耳膜炸開的。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 24
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "低頻嗚鳴從防護罩邊緣傳來，Alea 幾乎在同一瞬間就彈起了身。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 24
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "這不是受過什麼軍事訓練——是在下層甲板十幾年磨出來的本能。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 24
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 300
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "警報，意味著荒原裡的東西<em>進來了</em>。",
+          "text": "Soren 在得知 Elias 被帶進的建築之後，沉默了一段時間。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那段時間裡，他把目前所在的位置、建築的外圍結構、機械個體的移動規律、以及 Mond 的指令邏輯全部重新過了一遍。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "Mond 的指令只針對 Elias，其他人可以自由活動。但可以自由活動不等於不被監視。我們現在的每一個動作都在被記錄。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "那我們現在做什麼。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "正常走動。讓我們看起來像是在接受這個結果。同時找盲區。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
           },
           "log": true
         },
@@ -112,52 +101,10 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "防護罩又破洞了。",
+          "text": "Lyra 看了那棟建築最後一眼，轉過身，跟上 Soren。她的步伐是正常的，表情也是正常的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她扯下牆上的改裝電磁短刀，推開門衝入走廊。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 26
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "外面已經徹底亂套。居民們扛著全部家當往走廊深處奔逃，驚恐的叫喊與凌亂的腳步聲混雜在一起。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 24
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "Alea 壓低身形，<em>逆著人流</em>朝反方向移動。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 24
           },
           "log": true
         },
@@ -168,49 +115,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "變異生物靠震動感知獵物，往人多的地方跑，無異於自尋死路。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "就在這片混亂中，她捕捉到了一絲異樣的聲音。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "不是崩潰的哭喊，也不是絕望的怒吼——",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "而是一個極力壓抑、輕輕顫抖的呼喚。",
+          "text": "但她的手指扣在了掌心裡，那個力道很重。她沒有注意到。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -223,51 +128,8 @@
         },
         {
           "type": "line",
-          "layer": "dialogue",
-          "speaker": "？？？",
-          "text": "<whisper>有……有人在嗎？</whisper>",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1000
-        },
-        {
-          "type": "line",
           "layer": "narration",
-          "text": "Alea 猛地停下腳步。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她在走廊盡頭的轉角蹲下，探頭望向診所大廳。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "昏暗中，一個身影縮在倒塌的護士站後方，雙臂緊緊抱著膝蓋。金髮在陰影中格外扎眼。",
+          "text": "Alea 在她們後面走。她的目光在掃視周圍的感應節點，計算覆蓋範圍，尋找重疊最少的角度。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -281,32 +143,10 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "從體型判斷，是個使用 <em>Alpha 軀體</em>的孩子。",
+          "text": "那種掃視方式和她在終端方舟下層甲板找監控盲區時的方式完全一樣。只是這裡的密度更高，更精確，沒有任何老化和疏漏。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "ui",
-          "op": "shake",
-          "ms": 500,
-          "args": {
-            "intensity": 6
-          }
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "下一秒，地面的震動讓 Alea 的神經瞬間緊繃。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 24
           },
           "log": true
         },
@@ -317,32 +157,10 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "一隻常見於邊緣區的荒原突變種——外殼完全角質化，視覺嚴重退化，正憑藉著震動在大廳裡緩慢遊走。",
+          "text": "但沒有任何系統是完整的。她在下層甲板活了十幾年，她知道這件事。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "ui",
-          "op": "shake",
-          "ms": 300,
-          "args": {
-            "intensity": 4
-          }
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "沉悶的腳步聲每一次砸在地面，都宣告著牠離那個孩子<em>更近了一步</em>。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
+            "cps": 18
           },
           "log": true
         },
@@ -353,59 +171,10 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 撿起腳邊的一塊金屬碎片，奮力朝對角的玻璃窗砸去。",
+          "text": "她花了一段時間找到了那個地方。不是感應節點真正的盲區，是兩個節點覆蓋角度的重疊邊緣。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 26
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 200
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "「哐啷——」",
-          "reveal": {
-            "mode": "instant"
-          },
-          "log": false
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "怪物的注意力瞬間被引開。趁著牠轉身遲疑的半秒，Alea 衝進大廳，攥住那孩子的手腕，拖著她直奔側門。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 26
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 300
-        },
-        {
-          "type": "ui",
-          "op": "shake",
-          "ms": 400,
-          "args": {
-            "intensity": 8
-          }
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "變異種猛然回頭撲來。Alea 反手揮出短刀——雖然無法切開怪物厚重的角質層，但爆發的電磁刃精準擊中了牠的後腿關節，逼得怪物一個踉蹌。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 26
+            "cps": 20
           },
           "log": true
         },
@@ -416,7 +185,244 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "兩人撞開側門跌進後方走廊。",
+          "text": "重疊意味著數據有冗餘，冗餘意味著單一節點的視野在那裡是次要優先級。介面切換的間隙裡有一個很短的窗口。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "從這裡進，沿著建築的北側走廊。感應節點的覆蓋在轉角之後密度下降。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "Elias 被帶進的那棟建築的電子鎖是 Mond 統一管轄的。如果 Mond 的子系統出現故障，電子鎖會自動失效。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "Elias 需要從裡面配合。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "他知道。他在被帶走之前的那個眼神說明他已經在想了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 在旁邊聽著。她沒有參與那個推演，她只是站在那裡，看著那棟建築的方向。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那個方向什麼也看不見，只有一面光滑的金屬外牆，在天光下反射著冷硬的亮度。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "Lyra。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "嗯。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "走。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "三個人進入了那個盲區窗口，沿著北側走廊快步移動。機械個體在周圍的街道上繼續執行著它們的任務，沒有任何一個轉向他們。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "ui",
+          "op": "shake",
+          "ms": 600,
+          "args": {
+            "intensity": 5
+          }
+        },
+        {
+          "type": "ui",
+          "op": "glitch",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Mondris 的區域子系統發出了一聲低沉的悶響。從地面傳上來，帶著一種輕微的震動。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "街道上所有機械個體的動作在同一瞬間停頓了一下。那個停頓只有不到一秒，然後它們重新啟動。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "但那一秒鐘已經足夠了。那棟建築的電子鎖沒有聲音，但門縫裡透出的燈光在那一瞬間閃爍了一下。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 已經在跑了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "ui",
+          "op": "scanlines",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她第一個推開門。走廊是白色的，燈光在閃爍，所有設備都顯示著錯誤訊息。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -430,64 +436,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 死死頂住門板，靠在牆上大口喘息。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1000
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她低頭，看向被自己拽出來的孩子。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "女孩金髮凌亂，滿是灰塵。察覺到 Alea 的目光之後，她抬起頭來。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她<em>笑了</em>。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 16
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1000
-        },
-        {
-          "type": "line",
-          "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "謝謝妳。我叫 <em>Lyra</em>。<delay ms=\"400\"/>妳呢？",
+          "text": "她往裡走，拐過一個轉角，看見了那個房間的門。門是虛掩的，電子鎖的指示燈是暗的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -496,12 +445,84 @@
         },
         {
           "type": "wait",
-          "ms": 1200
+          "ms": 400
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 愣了一下。",
+          "text": "她推開門。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias 站在門後，手裡還拿著接收器。他看見她，沒有說什麼，只是往她身後看了一眼，確認 Soren 和 Lyra 也在。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "走廊有多長時間。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "不多。快。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 在走廊外等著。看見 Elias 走出來，她往前走了一步，沒有說話。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那個眼神裡有很多東西。她把那些東西都壓下去了，轉身。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -510,16 +531,44 @@
         },
         {
           "type": "wait",
-          "ms": 800
+          "ms": 300
         },
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "……Alea。",
+          "speaker": "Lyra",
+          "text": "走。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 18
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "四個人沿著走廊跑。街道的另一端，Mondris 的機械軍團已經察覺到子系統的異常，開始重新整隊。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "整齊的金屬腳步聲從遠處傳來，越來越近。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
           },
           "log": true
         },
@@ -530,11 +579,11 @@
         {
           "type": "ui",
           "op": "fadeOut",
-          "ms": 1000
+          "ms": 1200
         },
         {
           "type": "wait",
-          "ms": 600
+          "ms": 500
         },
         {
           "type": "ui",
@@ -550,6 +599,7 @@
     }
   },
   "onComplete": [
+    "reward",
     "complete"
   ]
 }

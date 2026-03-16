@@ -1,0 +1,330 @@
+{
+  "id": "9-1",
+  "title": "第一幕：三方混戰",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch9_act1_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "ui",
+          "op": "titleCard",
+          "args": {
+            "text": "第九章：戰爭的高潮"
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 2500
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 800
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他們是在回程的路上看見天空變色的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "起初只是遠方地平線上一道橙紅色的光暈，像是提前到來的日出，但方向不對。那道光暈在跳動，不規則，帶著一種有機的、不受控的躁動。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "是火。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他們加快了腳步。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "越靠近方舟的方向，那道光就越清晰，越巨大。他們站在一處廢墟的制高點上，終於看清楚了那是什麼——",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "方舟的下層甲板在燃燒。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 900
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "不是某一棟建築，不是某一個區域，是大片的、連續的火，像一張正在被點燃的地圖，從防護罩的南側邊緣一路向內蔓延。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "防護罩本身也在那片火光裡顯得搖搖欲墜，強度已經降到了肉眼可見的稀薄，有好幾個區段幾乎完全透明，像一層隨時會破裂的薄冰。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "防護罩的外側，是兩支軍隊。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Mondris 的機械軍團從東側推進。那是整齊劃一的金屬洪流，炮擊的節奏是精密的，每一輪攻擊都打在防護罩強度最低的節點上，像是有人提前告訴了它們那些弱點在哪裡。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Solmaris 從西側配合。他們的武器不是物理炮火，而是某種直接針對靈魂連線頻率的干擾波，每一次釋放都讓防護罩的內側出現大範圍的神經訊號混亂，方舟守軍的反應在那種干擾下慢了整整半拍。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "他們聯手了。而且配合得很好，各自用對方沒有的能力填補漏洞。這不是臨時的協議，是預謀的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "兩個在信仰上完全對立的陣營，聯手攻擊同一個目標。<delay ms=\"400\"/>為什麼。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "沒有人能立刻回答這個問題。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "下層甲板的火光在遠方繼續蔓延。有建築轟然倒塌的聲音從那個方向傳來，沉悶，遙遠，卻重得像是直接砸在了胸口。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 靜靜地看著那片火。手指不知不覺地扣緊了旁邊岩石的邊緣，指節泛白。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她想到了那些她認識的臉。那些走廊裡的孩子，替人修鞋的老人，帶著孩子逃亡的年輕女人。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她想到了軍方的擴音器播出的那句話：「例行靈魂健檢作業。」",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "然後她想到現在正在燃燒的那些地方。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 1200
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}

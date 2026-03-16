@@ -1,0 +1,398 @@
+{
+  "id": "3-1",
+  "title": "第一幕：全城通緝",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch3_act1_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "scanlines",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "ui",
+          "op": "titleCard",
+          "args": {
+            "text": "第三章：邊緣區的崩潰"
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 2500
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 800
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "┌────────────────────────────────────────┐",
+          "reveal": {
+            "mode": "instant"
+          }
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│ [公告] 最高通緝令                      │",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│ ──────────────────────────────         │",
+          "reveal": {
+            "mode": "instant"
+          }
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│ 對象：四名未登記人員                   │",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          }
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│ 威脅等級：<em>最高</em>                         │",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          }
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│ 所有登記居民有義務舉報                 │",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          }
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "└────────────────────────────────────────┘",
+          "reveal": {
+            "mode": "instant"
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他們的臉出現在廣播螢幕上的時候，Lyra 正在啃一塊壓縮乾糧。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她抬起頭，看著牆壁上那塊生鏽的公告螢幕。畫質不好，是從監控攝影機截下來的，但輪廓足夠清晰——是他們四個人。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "最高通緝等級。意味著所有登記在冊的居民都有義務舉報，懸賞金額是普通居民三個月的口糧配給。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "三個月。出賣我們的誘因相當充足。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 26
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "黑市。黑市的人不會舉報，因為他們自己也在通緝名單裡，互相舉報是兩敗俱傷。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "正確。而且黑市有我們需要的情報——知道哪條路還沒被封鎖，哪個檢查站的士兵可以被收買，哪裡有臨時的藏身點。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他把筆放下，看向其他三人。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "今天日落前完成情報蒐集，明天一早換位置。這個據點已經不安全了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "沒有人反對。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "問題是黑市在下層甲板的深處，中間要穿過兩條主要幹道，而主要幹道現在巡邏隊的密度比平時高出很多。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren 把路線規劃分成三段，每一段指定集合點。如果中途走散，在集合點等候一段時間，超過就各自撤退。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 把壓縮乾糧的最後一口吞下去，拍了拍手上的碎屑站起來，往門口走了兩步，回頭看了看另外三個人。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "大家的表情都好像在去送死一樣。<delay ms=\"400\"/>放鬆一點，我們才剛開始呢。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "沒有人笑出來。他們出發了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 900
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "穿越第一段路的時候，Soren 的判斷精準到讓 Elias 側目。巡邏隊的腳步聲剛在轉角消失，他們就已經穿過了路口，貼著牆壁滑進下一條走廊，動作之間幾乎沒有多餘的停頓。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "第二段路遇到了一個臨時增設的哨站，Soren 提前兩個路口察覺，繞了一段遠路，損失的時間控制在可以接受的範圍內。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "黑市藏在下層甲板最舊的那批建築群裡。入口是一扇看起來焊死了的鐵門。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "只要在門框特定的位置敲三下，就會有人從裡面開門。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 1000
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "ui",
+          "op": "scanlines",
+          "args": {
+            "enabled": false
+          }
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "id": "14-1",
+  "title": "第一幕：靈魂的迴響",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch14_act1_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "ui",
+          "op": "titleCard",
+          "args": {
+            "text": "第十四章：記憶的殘片"
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 2500
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 1000
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 不知道自己走了多久。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "離開那個地方之後，她就開始走。沒有方向，沒有目的地，只是走，因為停下來的話她不知道她還能不能再站起來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "荒原的地面在她腳下延伸，碎石，塵土，偶爾是一段舊文明的殘跡，她走過這些，腳步是機械的，像一具沒有人在裡面的軀殼在慣性的驅動下繼續移動。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她的神經連線同步率在長時間沒有補充、沒有休息的情況下持續低落。她能感覺到那個數字，但她沒有在意。在意這件事需要她還對自己繼續存在這件事有某種程度的在乎，而她現在沒有。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "補給在第二天就用完了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "水在第三天的傍晚喝完了最後一口。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "第四天，她的軀體開始發出它真正的抗議。那不再是神經連線層面的訊號，是更底層的、純粹有機體的訊號。她的視野邊緣開始發黑，腳步開始不穩。她在一段坍塌的廢墟旁邊跌倒了一次，撐著地面爬起來，繼續走，走了幾步，又跌倒了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "這一次沒有再爬起來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她側躺在那片荒原的地面上，臉貼著冰涼的塵土。她的神經連線同步率低到了一個臨界的數字，那個數字在她的視野邊緣閃著微弱的警示，像一盞快要熄掉的燈。她盯著那個數字看了一會兒，然後閉上了眼睛。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她想，也許就這樣也好。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她的手垂在身側，指尖碰到了衣服最裡面那個口袋的位置。那個位置有一點硬，有一條細鏈，有一個磨圓了邊角的金屬牌子。她的手指在那個位置停了一下，然後，不知道是不是某種最後的本能，她把那個牌子從口袋裡摸了出來，讓它落在她的掌心裡。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那塊金屬貼著她的皮膚，是涼的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> 神經終端 ── 未識別訊號接收 ── 格式未知",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> 加密層解密 ── 鑰匙來源：本地接觸介面 ── 解密完成",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> 定時封包 ── 時間戳：17 天前 ── 展開中",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "封包已經在她的神經連線裡展開了。那些碎片落進來，極其碎片化的，像一面打碎的鏡子，每一片碎片都只映出一個角落的影像，沒有完整的形狀，沒有清晰的邊界。但她認出了那個數據的質地，那種她在過去幾個月裡已經記住了的、獨屬於某一個人的質地。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "是 Alea 的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她的意識在那個接觸裡停住了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "<whisper>不要消散。不要消散，Alea，是你嗎？</whisper>",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 1200
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}

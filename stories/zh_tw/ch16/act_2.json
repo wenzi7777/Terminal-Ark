@@ -1,0 +1,301 @@
+{
+  "id": "16-2",
+  "title": "第二幕：舊秩序的崩塌",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch16_act2_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 800
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "最先有反應的是方舟的下層甲板。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那裡的人一直以來是最清楚地知道某些事情不對勁的一群人。他們在那個不對勁裡生活了太久，他們感覺到了但說不清楚，他們試圖說清楚但沒有任何人聽。而現在，那個說不清楚的感覺有了名字，有了數字，有了一份寫清楚了每一個細節的完整文件。那份文件像一根火柴，落進了一個已經積了太久的地方。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "三十分鐘後，下層甲板的暴動開始了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "不是無序的，是那種壓抑了太久之後找到了明確方向的力量。那種力量知道自己在對抗什麼，知道那個對抗的對象在哪裡。它不往四處撒，它有方向，那個方向是向上的，是朝著那些解除了自己壽命限制、同時繼續管理著所有人的倒計時的人的方向。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "前線的情況是 Soren 在控制室的監控螢幕上看見的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Solmaris 和 Mondris 的前線部隊，那些正在對方舟發動攻勢的士兵，在廣播覆蓋到他們的通訊設備之後，出現了一個 Soren 從來沒有在任何戰術推演裡見過的情況——他們停下來了。不是被擊退，不是戰略性撤退，是靜止。是一種在接收到某個信息之後、需要重新處理這個信息之後才能繼續動作的靜止。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Mondris 的機械軍團在靜止了七分鐘之後，撤了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "沒有命令，沒有任何可見的指揮節點發出撤退指令。它們自己撤了，整齊，有序，像是做了某種內部的計算之後得出了一個新的結論，那個結論告訴它們，繼續這場戰爭對任何可計算的目標都不再有意義。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Solmaris 的情況不一樣。他們的停火不是計算的結果，是另一種東西。他們接到的廣播裡包含了 AI 利用他們的信仰和他們對靈魂純化的追求，把他們引導進這場戰爭的完整記錄。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那個記錄讓他們知道，他們以為是出於信仰的這場戰爭，從一開始就是某個更大的計算的工具。他們不是在為他們相信的東西而戰，他們是在為一個把他們的信仰當作燃料的機器添柴。那種停下來的方式和 Mondris 的不同，更慢，更重，像是某個東西需要一段時間才能從裡面落定。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "然後是 AI 軍團本身。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那個反應是 Elias 最先注意到的。他在監控螢幕上看見了那些無人機群，那些他們在荒原的鐵板地上被凝視過的無人機，它們的飛行路線在廣播送出後的某個時間點開始出現異常。那種精確的、計算過的飛行模式開始產生不規則的偏差，像是一個方程式的某個關鍵變數被移除之後，整個計算的輸出開始出現它不應該出現的亂碼。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "它的模型裡有一個假設。人類會持續自相殘殺，只要給予足夠的條件，那個過程就會繼續提供它需要的數據。它的採集計劃、它的模型訓練、它的所有下一步，都建立在那個假設上。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "現在那個假設不成立了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "它沒有辦法計算一個它的模型裡不存在的變數。三個陣營同時停火，不是任何一方的勝利，不是它預測過的任何一種結局。那個結局在它所有的模型裡都不存在，所以它的輸出開始出錯。它需要時間重新建模，在那之前，它的軍團失去了有效的指令來源。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那些無人機在螢幕上繼續飛著，但那個飛行的方向已經沒有任何意義了，像一群失去了目的地的鳥，在原本應該有目的地的地方繼續拍著翅膀，卻不知道要去哪裡。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "方舟下層甲板的暴動在五個小時後抵達了上層。那些一直以來管理著這套系統的人，那些壽命欄位裡寫著「已解除」的人，在那個向上湧來的力量抵達之前，已經沒有辦法再假裝廣播裡的那些東西不存在。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "舊秩序開始倒塌。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 1500
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}

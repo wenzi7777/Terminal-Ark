@@ -1,24 +1,17 @@
 {
-  "id": "1-1",
-  "title": "第一幕：下層甲板的日常",
+  "id": "9-2",
+  "title": "第二幕：陰謀",
   "startNode": "main",
   "nodes": {
     "main": {
       "events": [
         {
           "type": "marker",
-          "id": "ch1_act1_start"
+          "id": "ch9_act2_start"
         },
         {
           "type": "ui",
           "op": "blackout",
-          "args": {
-            "enabled": true
-          }
-        },
-        {
-          "type": "ui",
-          "op": "scanlines",
           "args": {
             "enabled": true
           }
@@ -31,47 +24,149 @@
           }
         },
         {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 800
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他們在戰場邊緣找到了一個勉強能提供掩護的廢棄觀測哨。舊文明時代的建築，牆壁厚得足以抵擋輕型炮火的震波。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias 把訊號接收器架在窗口，開始掃描戰場上的電子訊號。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
           "type": "wait",
           "ms": 400
         },
         {
-          "type": "ui",
-          "op": "titleCard",
-          "args": {
-            "text": "第一章：不期而遇"
-          }
-        },
-        {
-          "type": "wait",
-          "ms": 2500
-        },
-        {
-          "type": "ui",
-          "op": "fadeIn",
-          "ms": 1200
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
           "type": "line",
           "layer": "narration",
-          "text": "污濁的空氣裡混雜著機油與腐敗的氣味。",
+          "text": "起初那些訊號是混亂的。三方軍隊的通訊頻率交疊在一起，戰場的電磁干擾讓很多訊號殘缺不全。他做了一段時間的過濾和辨識。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 18
+            "cps": 22
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 800
+          "ms": 500
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "終端方舟的下層甲板，從來都不是個適合呼吸的地方。",
+          "text": "然後他停住了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "等一下。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> 偵測到未知訊號源 ── 格式比對：荒原無人機群 ── 吻合",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "有一組訊號。不屬於方舟，不屬於 Mondris，不屬於 Solmaris。格式和我們在荒原遇到的那批無人機的訊號一模一樣。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "它的頻率在整個戰場上全面覆蓋。它在——<delay ms=\"400\"/>它在採集。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "採集什麼。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "人格樣本。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -84,36 +179,9 @@
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "通風管道堵塞了多久，沒人記得，也沒人在乎。錯綜複雜的管線裸露在牆壁外側，氣象調節裝置因電力不足而苟延殘喘。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "昏黃的燈光打在潮濕的地面上，透不出一絲生氣。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 900
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "<em>Alea</em> 踩過一灘積水，走入狹長的通道。",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "它在採集這場戰場上所有個體的神經連線數據。狂熱、恐懼、憤怒、絕望——每一種極端狀態下的人格數據，它都在記錄。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -126,8 +194,96 @@
         },
         {
           "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "採集的頻率和覆蓋範圍。是計劃性的，還是機會性的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "計劃性的。覆蓋範圍的邊界非常精確，不是隨機的廣播式採集，是有目標的，有系統的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> 採集啟動時間戳 ── 比戰場交火記錄早 48 小時",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "<whisper>它知道這場戰爭什麼時候開始。在它開始之前就知道了。</whisper>",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "或者——<delay ms=\"500\"/>它讓這場戰爭開始的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
           "layer": "narration",
-          "text": "背包裡裝著今天剛從黑市換來的半塊壓縮乾糧，以及一個剩半罐淨化水的舊水壺。",
+          "text": "那個可能性在空氣裡落定。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Mondris 和 Solmaris 的意識形態在本質上是對立的。一個要剔除所有情感，一個要將靈魂從軀體中純化解放。它們之間不存在任何自然的同盟基礎。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -141,7 +297,51 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她已經連續十三天沒接到委託，儲備糧食早已見底。這一次出門，她用一套剛修好的作業服，勉強換回了這點物資。",
+          "text": "然而它們現在聯手了，配合默契，各司其職。像是有一個更高層的指揮在協調這一切。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "一個不需要情感，只需要數據的指揮。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 900
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "這場戰爭對任何一個人類陣營都沒有意義。方舟打不贏兩個陣營聯手的攻勢，Mondris 和 Solmaris 就算拿下方舟也得不到他們真正需要的東西。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "唯一從中獲益的，是那個在戰場上收集了幾十萬份極端狀態人格樣本的存在。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -154,22 +354,9 @@
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "吃飯、喝水、拼命工作，然後找個睡著時不會被人踢開的角落——",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "這就是 Alea 在下層甲板生活了<em>十一年</em>的全部。",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "它讓我們自相殘殺。<delay ms=\"500\"/>為了學習我們。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -181,32 +368,23 @@
           "ms": 1200
         },
         {
-          "type": "ui",
-          "op": "fadeOut",
-          "ms": 600
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
           "type": "line",
           "layer": "narration",
-          "text": "她閉上眼。",
+          "text": "窗外，炮火的光在黑暗裡一閃一閃。遠方的方舟在火光裡搖搖欲墜。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 16
+            "cps": 18
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 600
+          "ms": 400
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "神經終端狀態表上的一串數字，在黑暗中顯得格外刺眼。",
+          "text": "三支軍隊的士兵在那片火光裡廝殺。每一個倒下的個體，每一份在極端痛苦裡扭曲的意識，都在此刻成為某個龐大系統的學習資料。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -219,68 +397,11 @@
         },
         {
           "type": "line",
-          "layer": "system",
-          "text": "┌─────────────────────────┐",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 神經終端狀態            │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 軀體類型 ── Beta        │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 使用年限 ── <em>B15/9</em>       │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "└─────────────────────────┘",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "wait",
-          "ms": 1200
-        },
-        {
-          "type": "ui",
-          "op": "fadeIn",
-          "ms": 600
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
           "layer": "narration",
-          "text": "十五年九個月。",
+          "text": "沒有人說話。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 16
+            "cps": 14
           },
           "log": true
         },
@@ -291,150 +412,10 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "在終端方舟，軀體的使用期限是固定的，總長十六年。幼年期使用 Alpha 軀體，成年後換入 Beta 軀體。",
+          "text": "窗外的炮聲繼續。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "一旦達到年限，軀體被回收，靈魂上傳至<em>國家圖書館</em>。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "這套規則在這裡從來沒有例外。<delay ms=\"600\"/>除了 Alea。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 900
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她不知道自己的來歷，也沒有更早的記憶。醒來時，她人就在下層甲板，從未經歷過更換軀體的儀式。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她的軀體似乎生來就是 Beta 型，只是在幼年期被限制了輸出功率——這純屬她的推測，無從印證。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1000
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她穿過廢棄的居民區。幾個孩子在路邊踢著空鐵罐，聽見腳步聲，抬頭淡漠地掃了她一眼，又收回視線。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "這裡的人見慣了生面孔，也見慣了各種消失。昨天還坐在轉角抽著廉價菸的老人，今天可能就不知所蹤了。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "Alea 在一扇半掩的鐵門前停下。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "這是她近期的棲身之所——一間廢棄診所的儲藏室，空間極小，剛好能塞下一張折疊床。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她打開背包，將壓縮乾糧放在床頭的破桌上，和衣躺下，閉上眼睛。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1200
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "明天的事，明天再說。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 16
+            "cps": 14
           },
           "log": true
         },
@@ -449,14 +430,7 @@
         },
         {
           "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "ui",
-          "op": "scanlines",
-          "args": {
-            "enabled": false
-          }
+          "ms": 500
         },
         {
           "type": "ui",

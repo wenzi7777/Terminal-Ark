@@ -1,13 +1,13 @@
 {
-  "id": "1-1",
-  "title": "第一幕：下層甲板的日常",
+  "id": "11-2",
+  "title": "第二幕：Alea 的決意",
   "startNode": "main",
   "nodes": {
     "main": {
       "events": [
         {
           "type": "marker",
-          "id": "ch1_act1_start"
+          "id": "ch11_act2_start"
         },
         {
           "type": "ui",
@@ -18,63 +18,20 @@
         },
         {
           "type": "ui",
-          "op": "scanlines",
-          "args": {
-            "enabled": true
-          }
-        },
-        {
-          "type": "ui",
-          "op": "vignette",
-          "args": {
-            "enabled": true
-          }
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "ui",
-          "op": "titleCard",
-          "args": {
-            "text": "第一章：不期而遇"
-          }
-        },
-        {
-          "type": "wait",
-          "ms": 2500
-        },
-        {
-          "type": "ui",
           "op": "fadeIn",
-          "ms": 1200
+          "ms": 800
         },
         {
           "type": "wait",
-          "ms": 800
+          "ms": 500
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "污濁的空氣裡混雜著機油與腐敗的氣味。",
+          "text": "Alea 看向 Lyra。Lyra 沒有抬頭，她的雙手緊緊地抓住膝蓋。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "終端方舟的下層甲板，從來都不是個適合呼吸的地方。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
+            "cps": 16
           },
           "log": true
         },
@@ -84,11 +41,12 @@
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "通風管道堵塞了多久，沒人記得，也沒人在乎。錯綜複雜的管線裸露在牆壁外側，氣象調節裝置因電力不足而苟延殘喘。",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "是我害的。如果我沒有打開那扇門，他們不會——如果我聽 Soren 的話，如果我沒有——",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 16
           },
           "log": true
         },
@@ -98,25 +56,56 @@
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "昏黃的燈光打在潮濕的地面上，透不出一絲生氣。",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "Lyra。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 16
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 900
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "那個孩子，我扶她起來，我說帶我去裡面，我說我們一起出來，然後——",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "Lyra。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "<em>Alea</em> 踩過一灘積水，走入狹長的通道。",
+          "text": "她終於停下來了，抬起頭，看向 Alea。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 22
+            "cps": 14
           },
           "log": true
         },
@@ -127,24 +116,24 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "背包裡裝著今天剛從黑市換來的半塊壓縮乾糧，以及一個剩半罐淨化水的舊水壺。",
+          "text": "Alea 看著她，沒有說什麼大道理，沒有說任何關於這是誰的錯、或者不是誰的錯的話。她只是看著她，用一種很直接的、沒有任何修飾的方式，把她此刻的樣子收進眼睛裡。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 14
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 400
+          "ms": 800
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "她已經連續十三天沒接到委託，儲備糧食早已見底。這一次出門，她用一套剛修好的作業服，勉強換回了這點物資。",
+          "text": "然後她單膝跪在 Lyra 面前。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 12
           },
           "log": true
         },
@@ -155,61 +144,10 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "吃飯、喝水、拼命工作，然後找個睡著時不會被人踢開的角落——",
+          "text": "那個動作讓 Lyra 愣了一下。她從來沒有見過 Alea 做這個姿勢。那個一直站在最前面、走在最前面、永遠是第一個踏出那一步的人，現在單膝跪在她面前，把自己的視線降到和她齊平。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "這就是 Alea 在下層甲板生活了<em>十一年</em>的全部。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1200
-        },
-        {
-          "type": "ui",
-          "op": "fadeOut",
-          "ms": 600
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她閉上眼。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 16
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "神經終端狀態表上的一串數字，在黑暗中顯得格外刺眼。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
+            "cps": 12
           },
           "log": true
         },
@@ -219,68 +157,11 @@
         },
         {
           "type": "line",
-          "layer": "system",
-          "text": "┌─────────────────────────┐",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 神經終端狀態            │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 軀體類型 ── Beta        │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 使用年限 ── <em>B15/9</em>       │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "└─────────────────────────┘",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "wait",
-          "ms": 1200
-        },
-        {
-          "type": "ui",
-          "op": "fadeIn",
-          "ms": 600
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
           "layer": "narration",
-          "text": "十五年九個月。",
+          "text": "Alea 伸出手，摸了摸她的頭。那個動作很輕，像是在確認什麼東西還在。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 16
+            "cps": 12
           },
           "log": true
         },
@@ -291,66 +172,24 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "在終端方舟，軀體的使用期限是固定的，總長十六年。幼年期使用 Alpha 軀體，成年後換入 Beta 軀體。",
+          "text": "然後她把 Lyra 抱住了。不是安慰性的輕拍，是真正地把她抱住，把她那個正在試圖縮小自己的身體，整個圍進去。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 12
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 400
+          "ms": 800
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "一旦達到年限，軀體被回收，靈魂上傳至<em>國家圖書館</em>。",
+          "text": "Lyra 沒有哭，她已經沒有力氣哭了。她只是在那個擁抱裡，讓自己靠著那個比她更穩的重量，停了一秒鐘。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "這套規則在這裡從來沒有例外。<delay ms=\"600\"/>除了 Alea。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 900
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她不知道自己的來歷，也沒有更早的記憶。醒來時，她人就在下層甲板，從未經歷過更換軀體的儀式。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她的軀體似乎生來就是 Beta 型，只是在幼年期被限制了輸出功率——這純屬她的推測，無從印證。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
+            "cps": 12
           },
           "log": true
         },
@@ -361,38 +200,10 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她穿過廢棄的居民區。幾個孩子在路邊踢著空鐵罐，聽見腳步聲，抬頭淡漠地掃了她一眼，又收回視線。",
+          "text": "然後她感覺到了。Alea 的手，好像在找什麼東西。她突然感覺左頸被什麼東西抵住了——",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "這裡的人見慣了生面孔，也見慣了各種消失。昨天還坐在轉角抽著廉價菸的老人，今天可能就不知所蹤了。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "Alea 在一扇半掩的鐵門前停下。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
+            "cps": 14
           },
           "log": true
         },
@@ -403,10 +214,39 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "這是她近期的棲身之所——一間廢棄診所的儲藏室，空間極小，剛好能塞下一張折疊床。",
+          "text": "Lyra 來不及反應，一支應急神經同步劑已經完成了注射。那種液體進入神經連線迴路的感覺是即時的，有一種從發麻的邊緣被重新拉回來的清醒，她的神經同步率在接下來的幾秒裡快速回穩。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "Alea——",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "但 Alea 已經鬆開了她，後退了半步，從口袋裡把剩下的另一支應急同步劑取出來，放在 Lyra 的手心裡。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
           },
           "log": true
         },
@@ -417,10 +257,52 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她打開背包，將壓縮乾糧放在床頭的破桌上，和衣躺下，閉上眼睛。",
+          "text": "然後，是另一樣東西。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那是一個金屬的小牌子，邊角已經磨圓了，掛在一根細鏈上。金屬的表面有幾道細小的劃痕，是長時間的使用留下來的。牌子的正面刻著一串數字和字母，那是靈魂的序號。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "是她的。是 Alea 的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "生命名牌。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
           },
           "log": true
         },
@@ -431,10 +313,96 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "明天的事，明天再說。",
+          "text": "Lyra 握著那個牌子，抬起頭。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 16
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "這是——",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 沒有讓她說完。她俯身，把嘴湊近 Lyra 的耳邊，聲音很輕，輕到在那條斜道裡，只有她一個人能聽見那句話。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "<whisper>再見，你要好好的。</whisper>",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "然後她站起來了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她站起來的動作很自然，像是每一天早晨從折疊床上起身一樣自然。她站直了，轉過身，看向 Soren 和 Elias。那兩個人都看著她。Soren 的眼睛裡有什麼東西是在計算之外的。Elias 的嘴唇動了一下，沒有說出話來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她的臉上沒有悲傷，沒有恐懼，也沒有那種讓人難以承受的壯烈。只是很平靜，像一個已經把所有需要想的事情都想完了的人，現在只剩下一件事要做。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
           },
           "log": true
         },
@@ -449,21 +417,7 @@
         },
         {
           "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "ui",
-          "op": "scanlines",
-          "args": {
-            "enabled": false
-          }
-        },
-        {
-          "type": "ui",
-          "op": "vignette",
-          "args": {
-            "enabled": false
-          }
+          "ms": 500
         },
         {
           "type": "end"

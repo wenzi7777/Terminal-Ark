@@ -1,0 +1,354 @@
+{
+  "id": "14-2",
+  "title": "第二幕：我的答案",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch14_act2_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 1000
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那些碎片落進來的方式不是完整的語言，不是連續的畫面，是更直接的東西。是一個意識在錄製它的那個瞬間濃縮成的、不需要語言作為載體的那種傳遞。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 在接收它的時候不是在「看」或者「聽」，是在「知道」。那些東西進來，她就知道了，像水滲進乾燥的土地，沒有過程，只有結果。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她知道了 Alea 在遇見她之前的事。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那些年的事。一個人在儲藏室裡度過的夜晚。一個感覺不到任何東西的空洞。不是麻木，是比麻木更深的那種空。一個不知道自己為什麼還在這裡、也沒有力氣去尋找答案的人。一朵在縫隙裡生長的小花，等待著哪一天風太大了就被吹走，甚至對消失這件事也沒有任何強烈的感受。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她知道了那一天。廢棄醫院的大廳裡，變異生物的腳步聲，玻璃窗的碎裂聲，側門被撞開之後兩個人跌進走廊。然後那個孩子在黑暗裡笑了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她知道了那個笑在 Alea 的意識裡落下去的感覺。像一塊放置已久的冰被什麼東西碰了一下，那道細細的裂紋，以及裂紋出現的瞬間那種幾乎察覺不到的、不知道該如何命名的震動。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "然後，是 Alea 想告訴她的話。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "遇見妳之前，我不知道我為什麼活著。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "不是找不到答案，是連那個問題都提不起力氣去問。我已經很久很久了，Lyra。我在那個儲藏室裡，在那些換班的縫隙裡，在那些做委託的路上的路上，我沒有方向，沒有任何一件事讓我覺得明天是值得到來的。我只是活著，因為死亡也需要某種動力，而我連那個動力都沒有。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "然後妳笑了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "妳在那個黑暗的走廊裡，剛剛從一隻變異生物旁邊被拖出來，妳的膝蓋剛剛砸在地上，妳抬起頭，妳笑了，妳說謝謝妳，妳說我叫 Lyra，妳說妳呢。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那個笑不是給我的，或者說，它不是專門為了我而存在的，它只是妳的一部分，像心跳一樣自然地存在。妳大概不知道那個笑在我這裡是什麼，妳大概不知道那個笑讓我胸口裡某個已經很久沒有動靜的地方，怎麼了一下。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "我後來一直在想，如果沒有那個笑，如果妳是另一種人，如果妳不是妳，我大概還是會把妳從那個大廳裡拖出來的，因為那個決定在我做它之前已經做好了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "但後來那些事，後來我願意跟著走，後來我在每一個要選擇的瞬間選擇留下來，那不是因為我沒有別的選項。那是因為有妳在的地方，我第一次覺得，待在這裡這件事，是有重量的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "保護妳，是我這輩子第一次出於自由意志做的選擇。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "不是因為沒有人要我，不是因為沒有地方可以去。是因為我想，是因為我選，是因為那個選擇在我做它的瞬間讓我感覺到了某種很久沒有感覺到的東西。像是，我在這裡，是有意義的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "所以不要，Lyra，不要把我的死當成妳的錯。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那是我的選擇，從頭到尾都是我的。我替妳擋住的那些東西，我放在妳手心裡的那個牌子，我在妳耳邊說的那兩個字，每一件事都是我選的，是我這輩子做得最清醒的幾件事，是我第一次在這個世界上不是為了活下去、不是為了不死，而是為了某件我真正想做的事。而那件事就是讓妳繼續走下去。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "妳不是試驗品，妳不是程式碼。妳是 Lyra。妳是那個在黑暗的走廊裡笑著說我叫 Lyra 的人，妳是那個讓我知道活著可以是主動的選擇而不是被動的慣性的人，妳是我願意用我所剩下的一切去換的人。不是因為妳的來歷，不是因為妳的代碼，是因為妳就是妳。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "我不知道妳什麼時候會收到這個，我不知道那個時候妳在哪裡，我不知道那個時候我還在不在。但我知道那個時候妳還在，妳一定還在，因為妳是妳，妳不會就這樣消失的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "妳聽見了嗎。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "妳聽見了嗎，Lyra。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 3000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 2000
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}

@@ -1,13 +1,13 @@
 {
-  "id": "1-1",
-  "title": "第一幕：下層甲板的日常",
+  "id": "7-1",
+  "title": "第一幕：關押室裡的等待",
   "startNode": "main",
   "nodes": {
     "main": {
       "events": [
         {
           "type": "marker",
-          "id": "ch1_act1_start"
+          "id": "ch7_act1_start"
         },
         {
           "type": "ui",
@@ -24,13 +24,6 @@
           }
         },
         {
-          "type": "ui",
-          "op": "vignette",
-          "args": {
-            "enabled": true
-          }
-        },
-        {
           "type": "wait",
           "ms": 400
         },
@@ -38,7 +31,7 @@
           "type": "ui",
           "op": "titleCard",
           "args": {
-            "text": "第一章：不期而遇"
+            "text": "第七章：拒絕「進化」"
           }
         },
         {
@@ -48,7 +41,71 @@
         {
           "type": "ui",
           "op": "fadeIn",
-          "ms": 1200
+          "ms": 800
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "房間的環形裝置每隔一段時間啟動一次。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "ui",
+          "op": "shake",
+          "ms": 200,
+          "args": {
+            "intensity": 2
+          }
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "探針從裝置內側伸出，對準他頸部的神經接入端口做一次掃描，然後縮回去，繼續旋轉，等待下一次的指令。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias 站在站台上，看著那個裝置繞著他轉，數著每一次掃描之間的間隔。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> [Mond] 距離下一次集中上傳，時間進行中。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
         },
         {
           "type": "wait",
@@ -57,7 +114,35 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "污濁的空氣裡混雜著機油與腐敗的氣味。",
+          "text": "那個聲音不是在催促，也不是在威脅。它只是在陳述一個事實，像報告當前氣溫，或者告知任務進度。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "沒有任何起伏，沒有任何情緒。那種沒有情緒的陳述方式比任何語氣都更難以回應——因為它根本不需要回應。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "它只是在告訴你事情將會發生，像一個已經寫好的程序在按照步驟運行。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -71,10 +156,10 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "終端方舟的下層甲板，從來都不是個適合呼吸的地方。",
+          "text": "Elias 讓那個聲音在房間裡消散，把注意力放回到他正在做的事情上。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 22
           },
           "log": true
         },
@@ -85,35 +170,21 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "通風管道堵塞了多久，沒人記得，也沒人在乎。錯綜複雜的管線裸露在牆壁外側，氣象調節裝置因電力不足而苟延殘喘。",
+          "text": "那個監控用的訊號端口在牆壁右側，不顯眼，位置在正常視線高度的下方，是設計給維護人員使用的接入點。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 22
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 500
+          "ms": 400
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "昏黃的燈光打在潮濕的地面上，透不出一絲生氣。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 900
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "<em>Alea</em> 踩過一灘積水，走入狹長的通道。",
+          "text": "Mond 大概沒有預估到一個被關押的個體會主動去找這個位置。或者它評估過了，認為找到也沒有意義——因為這個空間的外部訊號完全隔絕，接入端口連接的只有房間的內部迴路。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -127,86 +198,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "背包裡裝著今天剛從黑市換來的半塊壓縮乾糧，以及一個剩半罐淨化水的舊水壺。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她已經連續十三天沒接到委託，儲備糧食早已見底。這一次出門，她用一套剛修好的作業服，勉強換回了這點物資。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 700
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "吃飯、喝水、拼命工作，然後找個睡著時不會被人踢開的角落——",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "這就是 Alea 在下層甲板生活了<em>十一年</em>的全部。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1200
-        },
-        {
-          "type": "ui",
-          "op": "fadeOut",
-          "ms": 600
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她閉上眼。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 16
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "神經終端狀態表上的一串數字，在黑暗中顯得格外刺眼。",
+          "text": "但內部迴路連接著<em>電子鎖</em>。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -218,83 +210,20 @@
           "ms": 800
         },
         {
-          "type": "line",
-          "layer": "system",
-          "text": "┌─────────────────────────┐",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 神經終端狀態            │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 軀體類型 ── Beta        │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 使用年限 ── <em>B15/9</em>       │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "└─────────────────────────┘",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "wait",
-          "ms": 1200
-        },
-        {
           "type": "ui",
-          "op": "fadeIn",
-          "ms": 600
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "十五年九個月。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 16
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 600
+          "op": "shake",
+          "ms": 200,
+          "args": {
+            "intensity": 2
+          }
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "在終端方舟，軀體的使用期限是固定的，總長十六年。幼年期使用 Alpha 軀體，成年後換入 Beta 軀體。",
+          "text": "他在環形裝置完成一次掃描、縮回探針的間隙裡，走下站台，蹲在那個端口前，把接收器連上去，開始慢慢地工作。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 22
           },
           "log": true
         },
@@ -305,10 +234,38 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "一旦達到年限，軀體被回收，靈魂上傳至<em>國家圖書館</em>。",
+          "text": "動作很輕，幾乎不發出任何聲響。像他在拆接收器零件的時候一樣——專注，不急，一個步驟接著一個步驟。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他腦子裡同時在轉的是那份檔案。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "M-07 在任務第四年切斷了聯繫。那個原因欄位是空的，Mond 不記錄動機。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
           },
           "log": true
         },
@@ -319,7 +276,49 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "這套規則在這裡從來沒有例外。<delay ms=\"600\"/>除了 Alea。",
+          "text": "但他看見那份檔案的時候，他想起了他在遺留數據碎片裡找到的那段代碼——那段藏在正常維護記錄裡的代碼。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "現在他知道那是什麼了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那是一扇<em>門</em>。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "一個人在決定離開之前，在他最熟悉的系統裡留了一扇門。沒有說明，沒有留言。只是留了那扇門，然後走了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -332,50 +331,44 @@
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "她不知道自己的來歷，也沒有更早的記憶。醒來時，她人就在下層甲板，從未經歷過更換軀體的儀式。",
+          "layer": "system",
+          "text": ">> 代碼比對 ── 完全吻合",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 14
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 500
+          "ms": 600
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "她的軀體似乎生來就是 Beta 型，只是在幼年期被限制了輸出功率——這純屬她的推測，無從印證。",
+          "text": "他停下來。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 16
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 1000
+          "ms": 400
+        },
+        {
+          "type": "ui",
+          "op": "shake",
+          "ms": 200,
+          "args": {
+            "intensity": 2
+          }
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "她穿過廢棄的居民區。幾個孩子在路邊踢著空鐵罐，聽見腳步聲，抬頭淡漠地掃了她一眼，又收回視線。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "這裡的人見慣了生面孔，也見慣了各種消失。昨天還坐在轉角抽著廉價菸的老人，今天可能就不知所蹤了。",
+          "text": "環形裝置又轉過來了。探針伸出，做了一次掃描，縮回去。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -389,52 +382,10 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 在一扇半掩的鐵門前停下。",
+          "text": "他等著。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "這是她近期的棲身之所——一間廢棄診所的儲藏室，空間極小，剛好能塞下一張折疊床。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她打開背包，將壓縮乾糧放在床頭的破桌上，和衣躺下，閉上眼睛。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1200
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "明天的事，明天再說。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 16
+            "cps": 14
           },
           "log": true
         },
@@ -445,22 +396,15 @@
         {
           "type": "ui",
           "op": "fadeOut",
-          "ms": 1200
+          "ms": 1000
         },
         {
           "type": "wait",
-          "ms": 600
+          "ms": 500
         },
         {
           "type": "ui",
           "op": "scanlines",
-          "args": {
-            "enabled": false
-          }
-        },
-        {
-          "type": "ui",
-          "op": "vignette",
           "args": {
             "enabled": false
           }

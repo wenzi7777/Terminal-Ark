@@ -1,13 +1,13 @@
 {
-  "id": "1-2",
-  "title": "第二幕：意外的入侵者",
+  "id": "5.5-3",
+  "title": "第三幕：正確的選擇",
   "startNode": "main",
   "nodes": {
     "main": {
       "events": [
         {
           "type": "marker",
-          "id": "ch1_act2_start"
+          "id": "ch5_5_act3_start"
         },
         {
           "type": "ui",
@@ -18,48 +18,20 @@
         },
         {
           "type": "ui",
-          "op": "scanlines",
-          "args": {
-            "enabled": true
-          }
-        },
-        {
-          "type": "ui",
           "op": "fadeIn",
-          "ms": 400
+          "ms": 1000
         },
         {
           "type": "wait",
-          "ms": 300
-        },
-        {
-          "type": "ui",
-          "op": "shake",
-          "ms": 800,
-          "args": {
-            "intensity": 10
-          }
-        },
-        {
-          "type": "line",
-          "layer": "alert",
-          "text": "[ 邊緣防護罩異常 ── 破口偵測 ]",
-          "reveal": {
-            "mode": "instant"
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 900
+          "ms": 600
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 的庇護所離邊緣防護罩極近。所以當警報響起時，那聲音幾乎是貼著耳膜炸開的。",
+          "text": "據點的另一個角落，Soren 在整理他的筆記。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 24
+            "cps": 18
           },
           "log": true
         },
@@ -70,38 +42,24 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "低頻嗚鳴從防護罩邊緣傳來，Alea 幾乎在同一瞬間就彈起了身。",
+          "text": "那是一本他用找到的紙張縫在一起的冊子，裡面記著地形、路線、敵方部隊的移動規律、以及一些他自己也說不清楚為什麼要記下來的觀察。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 24
+            "cps": 18
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 400
+          "ms": 500
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "這不是受過什麼軍事訓練——是在下層甲板十幾年磨出來的本能。",
+          "text": "Elias 在什麼時候坐到他旁邊的，他沒有注意。等他察覺的時候，那個人已經靠在旁邊的牆壁上了。手裡沒有拿接收器，沒有拆任何零件，只是坐在那裡。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 24
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 300
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "警報，意味著荒原裡的東西<em>進來了</em>。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
+            "cps": 18
           },
           "log": true
         },
@@ -111,8 +69,98 @@
         },
         {
           "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "你有沒有想過，你父親是什麼樣的人。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "沒有。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "我想過。我小時候，他就是我父親。每天去工作，回來，有時候給我帶一點東西，有時候什麼都沒有帶。就這樣。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
           "layer": "narration",
-          "text": "防護罩又破洞了。",
+          "text": "Soren 沒有說話，繼續翻頁，但翻的速度慢了一點。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "後來他消失了。中層甲板的人不常這樣，所以我等了很長時間。後來就不等了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "再後來我開始拆東西裝東西，翻他留下的那些東西，找到了一些數據碎片，解開了一部分。看見了一些我不確定自己理解的東西。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "在我父親消失的前一天，系統日誌有一個連線被主動切斷的紀錄。我不知道那個連線是什麼。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -126,10 +174,39 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她扯下牆上的改裝電磁短刀，推開門衝入走廊。",
+          "text": "Soren 沒有立刻說話。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 26
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "我不知道那是不是他做的。可能和他的失蹤有關係也不一定。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren 把筆記本合起來，放在腿上，看了 Elias 一眼。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
           },
           "log": true
         },
@@ -140,21 +217,66 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "外面已經徹底亂套。居民們扛著全部家當往走廊深處奔逃，驚恐的叫喊與凌亂的腳步聲混雜在一起。",
+          "text": "那是他很少做的事。他的目光通常在地圖上，在筆記上，在任何可以被評估的東西上。但這個時候他看著 Elias，看了一段時間。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 24
+            "cps": 16
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 400
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "不知道，有時候比知道更好處理。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "你不知道的那個部分。<delay ms=\"400\"/>填不進去，就不會壞掉。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 壓低身形，<em>逆著人流</em>朝反方向移動。",
+          "text": "他說完，重新把筆記本打開，翻到剛才的那一頁，重新拿起炭筆。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "這是我第一次聽見你說不是評估結果的話。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -167,196 +289,12 @@
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "變異生物靠震動感知獵物，往人多的地方跑，無異於自尋死路。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "就在這片混亂中，她捕捉到了一絲異樣的聲音。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "不是崩潰的哭喊，也不是絕望的怒吼——",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "而是一個極力壓抑、輕輕顫抖的呼喚。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
           "layer": "dialogue",
-          "speaker": "？？？",
-          "text": "<whisper>有……有人在嗎？</whisper>",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1000
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "Alea 猛地停下腳步。",
+          "speaker": "Soren",
+          "text": "我不知道你在說什麼。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她在走廊盡頭的轉角蹲下，探頭望向診所大廳。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "昏暗中，一個身影縮在倒塌的護士站後方，雙臂緊緊抱著膝蓋。金髮在陰影中格外扎眼。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "從體型判斷，是個使用 <em>Alpha 軀體</em>的孩子。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "ui",
-          "op": "shake",
-          "ms": 500,
-          "args": {
-            "intensity": 6
-          }
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "下一秒，地面的震動讓 Alea 的神經瞬間緊繃。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 24
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "一隻常見於邊緣區的荒原突變種——外殼完全角質化，視覺嚴重退化，正憑藉著震動在大廳裡緩慢遊走。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "ui",
-          "op": "shake",
-          "ms": 300,
-          "args": {
-            "intensity": 4
-          }
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "沉悶的腳步聲每一次砸在地面，都宣告著牠離那個孩子<em>更近了一步</em>。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 900
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "Alea 撿起腳邊的一塊金屬碎片，奮力朝對角的玻璃窗砸去。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 26
           },
           "log": true
         },
@@ -366,12 +304,44 @@
         },
         {
           "type": "line",
-          "layer": "system",
-          "text": "「哐啷——」",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "就是你剛才說的那些。",
           "reveal": {
-            "mode": "instant"
+            "mode": "typewriter",
+            "cps": 24
           },
-          "log": false
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 200
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "那是邏輯推演。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 200
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "那是安慰。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
         },
         {
           "type": "wait",
@@ -379,11 +349,12 @@
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "怪物的注意力瞬間被引開。趁著牠轉身遲疑的半秒，Alea 衝進大廳，攥住那孩子的手腕，拖著她直奔側門。",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "你聽錯了。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 26
+            "cps": 20
           },
           "log": true
         },
@@ -392,20 +363,13 @@
           "ms": 300
         },
         {
-          "type": "ui",
-          "op": "shake",
-          "ms": 400,
-          "args": {
-            "intensity": 8
-          }
-        },
-        {
           "type": "line",
-          "layer": "narration",
-          "text": "變異種猛然回頭撲來。Alea 反手揮出短刀——雖然無法切開怪物厚重的角質層，但爆發的電磁刃精準擊中了牠的後腿關節，逼得怪物一個踉蹌。",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "我沒有聽錯。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 26
+            "cps": 22
           },
           "log": true
         },
@@ -416,35 +380,22 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "兩人撞開側門跌進後方走廊。",
+          "text": "然後他笑了。那個笑很輕，不是嘲笑，是某種帶著一點溫度的東西。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 24
+            "cps": 16
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 300
+          "ms": 500
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "Alea 死死頂住門板，靠在牆上大口喘息。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1000
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她低頭，看向被自己拽出來的孩子。",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "謝謝你，Soren。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -457,8 +408,9 @@
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "女孩金髮凌亂，滿是灰塵。察覺到 Alea 的目光之後，她抬起頭來。",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "我不知道你在謝什麼。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -467,30 +419,15 @@
         },
         {
           "type": "wait",
-          "ms": 800
+          "ms": 300
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "她<em>笑了</em>。",
+          "text": "他重新開始寫字，字跡一如既往地整齊。但在下一行換行的時候，他的筆停了一下，然後繼續。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1000
-        },
-        {
-          "type": "line",
-          "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "謝謝妳。我叫 <em>Lyra</em>。<delay ms=\"400\"/>妳呢？",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 24
           },
           "log": true
         },
@@ -501,47 +438,39 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 愣了一下。",
+          "text": "外面，Alea 和 Lyra 守著那片荒原的黑暗。這邊，Soren 翻著他的筆記，Elias 重新靠上牆壁，閉上眼睛。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 18
+            "cps": 16
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 800
+          "ms": 500
         },
         {
           "type": "line",
-          "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "……Alea。",
+          "layer": "narration",
+          "text": "那個笑在他臉上慢慢地淡去，但沒有完全消失。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 18
+            "cps": 14
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 2000
+          "ms": 3000
         },
         {
           "type": "ui",
           "op": "fadeOut",
-          "ms": 1000
+          "ms": 2000
         },
         {
           "type": "wait",
           "ms": 600
-        },
-        {
-          "type": "ui",
-          "op": "scanlines",
-          "args": {
-            "enabled": false
-          }
         },
         {
           "type": "end"
@@ -550,6 +479,7 @@
     }
   },
   "onComplete": [
+    "reward",
     "complete"
   ]
 }

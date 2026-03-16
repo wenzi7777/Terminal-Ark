@@ -1,0 +1,215 @@
+{
+  "id": "12-3",
+  "title": "第三幕：分道揚鑣",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch12_act3_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 800
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren 要離開的時候，Elias 跟上去了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "不是因為他同意，他的臉上寫著他不同意。但他跟上去了，因為他知道此刻讓 Soren 一個人走的代價，比跟著他走的代價更難以估量。他要跟在旁邊，他要看著，他要在那個極端走向真正無法回頭的邊緣之前，還在場。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他走之前在 Lyra 旁邊站了一下，沒有說話，只是站了一秒鐘。然後跟上了 Soren 的腳步。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "ambient",
+          "text": "腳步聲在通道裡遠去，然後聽不見了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 還跪在那裡。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "通道外，Solmaris 的大軍在完成了這一輪的推進之後開始後撤。那是潮水退去的聲音，腳步聲，機械運轉聲，以及那種特殊頻率的共振波發生器關閉之後留下的、突然的靜默。靜默像一片空白的布鋪下來，把這片廢墟蓋住。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 等到那些聲音都消失了，才站起來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她的周圍，是荒原，是廢墟，是被炮火燒焦的地面，是那幾具損毀的 Solmaris 機械殘骸，是那根電池耗盡的電子短刀，是那片靜得像什麼都從來沒有發生過一樣的空氣。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她抱著那個冰冷的重量，墜進去了。墜進一個她沒有辦法用任何語言描述的地方。那裡沒有聲音，沒有方向，沒有任何一個可以抓住的東西。只有空，只有冷，只有那個她怎麼緊握都握不住的消散。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那個消散在她抱緊的每一秒鐘裡繼續漫開，繼續漫開，直到她感覺不到邊界，直到她不知道那個消散的盡頭在哪裡，或者，有沒有盡頭。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "荒原的風從遠方吹來，把灰燼吹起來，再落下。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 沒有動。她就那樣抱著那具冰冷的破碎軀殼，一個人，在那片什麼都沒有的靜默裡，墜著，沒有底。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 4000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 3000
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "reward",
+    "complete"
+  ]
+}

@@ -1,13 +1,13 @@
 {
-  "id": "1-2",
-  "title": "第二幕：意外的入侵者",
+  "id": "8.5-2",
+  "title": "第二幕：第一次的遊戲",
   "startNode": "main",
   "nodes": {
     "main": {
       "events": [
         {
           "type": "marker",
-          "id": "ch1_act2_start"
+          "id": "ch8_5_act2_start"
         },
         {
           "type": "ui",
@@ -18,48 +18,20 @@
         },
         {
           "type": "ui",
-          "op": "scanlines",
-          "args": {
-            "enabled": true
-          }
-        },
-        {
-          "type": "ui",
           "op": "fadeIn",
-          "ms": 400
+          "ms": 800
         },
         {
           "type": "wait",
-          "ms": 300
-        },
-        {
-          "type": "ui",
-          "op": "shake",
-          "ms": 800,
-          "args": {
-            "intensity": 10
-          }
-        },
-        {
-          "type": "line",
-          "layer": "alert",
-          "text": "[ 邊緣防護罩異常 ── 破口偵測 ]",
-          "reveal": {
-            "mode": "instant"
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 900
+          "ms": 500
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 的庇護所離邊緣防護罩極近。所以當警報響起時，那聲音幾乎是貼著耳膜炸開的。",
+          "text": "是 Lyra 先發現的。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 24
+            "cps": 18
           },
           "log": true
         },
@@ -70,10 +42,10 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "低頻嗚鳴從防護罩邊緣傳來，Alea 幾乎在同一瞬間就彈起了身。",
+          "text": "她在地上用石頭畫格子。兩個人輪流在格子裡放石頭，先連成一條線的人贏。她把規則說了一遍，然後看向 Alea。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 24
+            "cps": 20
           },
           "log": true
         },
@@ -83,25 +55,12 @@
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "這不是受過什麼軍事訓練——是在下層甲板十幾年磨出來的本能。",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "你會嗎，這個或者其他的。有什麼你平時在玩的嗎。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 300
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "警報，意味著荒原裡的東西<em>進來了</em>。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
           },
           "log": true
         },
@@ -112,176 +71,22 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "防護罩又破洞了。",
+          "text": "Alea 沉默了一下。那個沉默讓 Lyra 意識到她問了一個她沒有預料到的問題。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 16
           },
           "log": true
         },
         {
           "type": "wait",
           "ms": 600
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她扯下牆上的改裝電磁短刀，推開門衝入走廊。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 26
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "外面已經徹底亂套。居民們扛著全部家當往走廊深處奔逃，驚恐的叫喊與凌亂的腳步聲混雜在一起。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 24
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "Alea 壓低身形，<em>逆著人流</em>朝反方向移動。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 24
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 300
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "變異生物靠震動感知獵物，往人多的地方跑，無異於自尋死路。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "就在這片混亂中，她捕捉到了一絲異樣的聲音。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "不是崩潰的哭喊，也不是絕望的怒吼——",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "而是一個極力壓抑、輕輕顫抖的呼喚。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
         },
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "？？？",
-          "text": "<whisper>有……有人在嗎？</whisper>",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1000
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "Alea 猛地停下腳步。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她在走廊盡頭的轉角蹲下，探頭望向診所大廳。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "昏暗中，一個身影縮在倒塌的護士站後方，雙臂緊緊抱著膝蓋。金髮在陰影中格外扎眼。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "從體型判斷，是個使用 <em>Alpha 軀體</em>的孩子。",
+          "speaker": "Alea",
+          "text": "沒有。我不知道怎麼玩。沒有學過任何一種遊戲。在下層甲板的時候沒有時間玩這種東西。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -293,20 +98,27 @@
           "ms": 800
         },
         {
-          "type": "ui",
-          "op": "shake",
-          "ms": 500,
-          "args": {
-            "intensity": 6
-          }
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 看著她，讓那句話在她這裡停了一下。沒有讓那個重量在臉上顯示出來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "下一秒，地面的震動讓 Alea 的神經瞬間緊繃。",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "那我教你。從這個開始，最簡單。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 24
+            "cps": 22
           },
           "log": true
         },
@@ -317,7 +129,65 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "一隻常見於邊緣區的荒原突變種——外殼完全角質化，視覺嚴重退化，正憑藉著震動在大廳裡緩慢遊走。",
+          "text": "她把規則重新說了一遍，比第一次說得更慢，更清楚。說完，把一把小石頭放到 Alea 面前。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "你先。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 低頭看著那個格子。看了一下，把一顆石頭放進去。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她輸了那一盤，輸得很快。Lyra 連成一線之後，Alea 看著那個結果，沒有說話，把格子裡的石頭清掉，重新擺好。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "再來。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -329,17 +199,24 @@
           "ms": 400
         },
         {
-          "type": "ui",
-          "op": "shake",
-          "ms": 300,
-          "args": {
-            "intensity": 4
-          }
+          "type": "line",
+          "layer": "narration",
+          "text": "她又輸了，輸得比第一次慢一點。她在第三步的時候察覺了 Lyra 的意圖，試圖擋住，但她擋的方向錯了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "沉悶的腳步聲每一次砸在地面，都宣告著牠離那個孩子<em>更近了一步</em>。",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "再來。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -348,15 +225,158 @@
         },
         {
           "type": "wait",
-          "ms": 900
+          "ms": 500
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 撿起腳邊的一塊金屬碎片，奮力朝對角的玻璃窗砸去。",
+          "text": "Lyra 在這個過程裡開始注意到一件事。Alea 每一盤都在看，不是看輸贏，是看每一步。看 Lyra 在每一個時機點選擇的位置，看那個選擇背後的邏輯。她在拆那個邏輯，拆完，重新試。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 26
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那個學習的方式和她說話的方式一樣。不問，不說，自己看，自己想，自己做。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "然後 Lyra 注意到她的表情。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "平時她的臉上有一層東西，不厚，但在。現在那層東西薄了。在她盯著那個格子、認真分析下一步的時候，那層東西幾乎不在了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "露出來的是另一種表情。專注的，乾淨的，認真的。那個表情讓她看起來更小，不是軀體的小，是另一種。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 看著那個表情，手裡的石頭放了下去。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她輸了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "你贏了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 看著那個連成一線的格子，沉默了一下。她的表情沒有變，但有什麼東西在她眼睛裡動了一下，很細微的，很短暫的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "再來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "你不想慶祝一下嗎。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
           },
           "log": true
         },
@@ -366,12 +386,14 @@
         },
         {
           "type": "line",
-          "layer": "system",
-          "text": "「哐啷——」",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "再來。",
           "reveal": {
-            "mode": "instant"
+            "mode": "typewriter",
+            "cps": 20
           },
-          "log": false
+          "log": true
         },
         {
           "type": "wait",
@@ -380,43 +402,22 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "怪物的注意力瞬間被引開。趁著牠轉身遲疑的半秒，Alea 衝進大廳，攥住那孩子的手腕，拖著她直奔側門。",
+          "text": "Lyra 笑了，把石頭清掉。再來。她這次認真了，沒有分心。她最後贏了那盤，然後 Alea 贏了下一盤，然後她們打成平手。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 26
+            "cps": 18
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 300
-        },
-        {
-          "type": "ui",
-          "op": "shake",
-          "ms": 400,
-          "args": {
-            "intensity": 8
-          }
+          "ms": 500
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "變異種猛然回頭撲來。Alea 反手揮出短刀——雖然無法切開怪物厚重的角質層，但爆發的電磁刃精準擊中了牠的後腿關節，逼得怪物一個踉蹌。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 26
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "兩人撞開側門跌進後方走廊。",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "我要加入。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -425,12 +426,13 @@
         },
         {
           "type": "wait",
-          "ms": 300
+          "ms": 200
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "Alea 死死頂住門板，靠在牆上大口喘息。",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "這個遊戲只能兩個人。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -439,55 +441,13 @@
         },
         {
           "type": "wait",
-          "ms": 1000
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她低頭，看向被自己拽出來的孩子。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "女孩金髮凌亂，滿是灰塵。察覺到 Alea 的目光之後，她抬起頭來。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她<em>笑了</em>。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 16
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1000
+          "ms": 200
         },
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "謝謝妳。我叫 <em>Lyra</em>。<delay ms=\"400\"/>妳呢？",
+          "speaker": "Elias",
+          "text": "那就等著。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -496,30 +456,89 @@
         },
         {
           "type": "wait",
-          "ms": 1200
+          "ms": 200
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "Alea 愣了一下。",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "我們可以換一個三個人的玩法。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 18
+            "cps": 24
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 800
+          "ms": 200
         },
         {
           "type": "line",
           "layer": "dialogue",
           "speaker": "Alea",
-          "text": "……Alea。",
+          "text": "我不知道三個人的玩法。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 18
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 200
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "沒關係我來想。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 200
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "妳邊想邊說等我坐下來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 26
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 看著這兩個人，沒有說話。但她把自己面前的石頭往旁邊移了一點，讓出了一個空間。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那個空間剛好夠 Elias 坐進來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
           },
           "log": true
         },
@@ -530,18 +549,11 @@
         {
           "type": "ui",
           "op": "fadeOut",
-          "ms": 1000
+          "ms": 1200
         },
         {
           "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "ui",
-          "op": "scanlines",
-          "args": {
-            "enabled": false
-          }
+          "ms": 500
         },
         {
           "type": "end"

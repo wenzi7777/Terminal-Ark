@@ -1,0 +1,383 @@
+{
+  "id": "16-3",
+  "title": "第三幕：明日的明日",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch16_act3_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 1000
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren 親手關閉了嚴格執行了一百多年的「火種計劃」。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "防護罩的強度在那之後的兩個小時裡逐漸回升。那些被切斷了供能的節點重新接上，那些被故意弱化的區段重新填實，那道光幕從一層快要破裂的薄膜慢慢地恢復成它原本應有的密度，藍白色的光重新均勻地覆蓋整個方舟的外圍。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "下層甲板的重建還沒有開始。那需要時間，需要資源，需要所有複雜的協調和決策。但那些廢墟裡已經有人在動了，有人在清理，有人在把還能用的材料從廢墟裡挖出來，有人在用他們能用的一切，開始做一些小的、具體的、讓明天比今天稍微好一點點的事。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 站在 NUTA 的樓頂，看著這一切。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "樓頂的風比地面更大，把她的頭髮吹亂，她沒有去整理。她就站在那裡，讓風吹，讓那片她離開了很久又回來了的方舟的全貌在她眼前展開。那個全貌不是她小時候在下層甲板仰望上層的角度，也不是她在荒原裡回望防護罩的角度，是從這裡，從這個高度，把所有的層次都看進去。上層，中層，下層，防護罩，荒原的邊緣，遠方的地平線。全部都在視野裡。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren 在她左側，Elias 在她右側。三個人站在那個樓頂上，沒有說話。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "東方的天空在某個時間點開始變色。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "不是炮火的橙紅，不是防護罩光幕的藍白，是另一種顏色。一種從地平線以下慢慢升上來的、帶著某種讓人說不清楚為什麼會覺得眼睛發酸的溫暖色調。它從最深的暗色裡透出來，先是一道細線，然後那道線慢慢地擴開，擴開，讓那片天空的顏色從黑變灰，從灰變藍，從藍的最深處透出那個正在升起的、即將到來的光。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "是日出。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 看著那道光，看著它越來越亮，越來越清晰。第一束陽光越過地平線的邊緣，越過荒原的廢墟輪廓，越過防護罩的光幕，落在 NUTA 的樓頂上，落在她的臉上，落在 Soren 和 Elias 的臉上。那個光是溫的，是她在下層甲板的那些年裡從來沒有感受到過的、直接的、沒有任何遮擋的陽光。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她閉上眼睛，讓那個光落在她的臉上，停了一下。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "然後她睜開眼睛，把手伸進衣服裡，把那個生命名牌取出來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那塊金屬在她手心裡。她握了一下，感受了一下那個重量，那個溫度，那個從來沒有真正冷透過的、她說不清楚從哪裡來的溫度。她把那個溫度在手心裡再感受了一次。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "然後她往前走了幾步，走到樓頂最邊緣的瞭望台旁邊。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那是方舟的最高處。從這裡往下看，是整個方舟的全貌。上層和中層和下層，防護罩和它外面的荒原。是那個在這裡建立起來、走過了所有這些、最後還是站在人的這一邊的地方。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她把那個生命名牌掛上去，掛在瞭望台頂端的欄杆上。那塊金屬在晨風裡輕輕地晃動，第一束陽光落在那塊金屬上，讓它反射出一道細小的、安靜的光。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她退後一步，看著那個牌子在那裡晃動。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她想說什麼，但最後什麼都沒說。有些東西不需要語言，有些東西說出來反而會變輕。她讓那些東西停在她的胸口裡，讓它留在那裡，讓它一直在那裡。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "<whisper>Alea，你一定也看見了吧。</whisper>",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "風吹過那塊金屬，那道細小的反光在她臉上掃過去，像什麼東西輕輕地回應了她一下。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她轉過身，看向 Soren 和 Elias。那兩個人站在那個樓頂的光裡，他們的臉上有這段時間留下來的一切，有那些沒有辦法消失的重量，但也有那個光，那個第一次落下來的、不帶任何條件的光，落在他們的臉上，讓他們的臉上有了一種她之前沒有見過的東西。不是輕鬆，不是解脫，是某種更深的、更安靜的東西。是一種終於可以繼續往前的東西。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他們三個人離開了樓頂，往下走去，往那個還有很長的路要走的地方走去。身後，那個生命名牌還在瞭望台的頂端，在晨風裡晃著，在那第一束陽光裡，安靜地發著光。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "下層甲板有人在清理廢墟，有孩子在廢墟旁邊跑過。防護罩在他們頭頂，那道光幕在陽光裡透著一種比任何時候都更清澈的藍白色，像一個深吸了一口氣之後重新站穩的東西。它在那裡，它還在那裡。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "太陽繼續升起，光越來越亮，越來越暖，落在所有的地方，落在廢墟上，落在正在清理的手上，落在瞭望台頂端的那塊金屬上，落在三個正在往下走的人的背上，讓那些背影在那道光裡很長，很遠，一直往前。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 5000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 3000
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "reward",
+    "complete"
+  ]
+}

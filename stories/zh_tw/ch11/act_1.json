@@ -1,13 +1,13 @@
 {
-  "id": "1-2",
-  "title": "第二幕：意外的入侵者",
+  "id": "11-1",
+  "title": "第一幕：血戰突圍",
   "startNode": "main",
   "nodes": {
     "main": {
       "events": [
         {
           "type": "marker",
-          "id": "ch1_act2_start"
+          "id": "ch11_act1_start"
         },
         {
           "type": "ui",
@@ -17,91 +17,36 @@
           }
         },
         {
+          "type": "wait",
+          "ms": 400
+        },
+        {
           "type": "ui",
-          "op": "scanlines",
+          "op": "titleCard",
           "args": {
-            "enabled": true
+            "text": "第十一章：代價"
           }
+        },
+        {
+          "type": "wait",
+          "ms": 2500
         },
         {
           "type": "ui",
           "op": "fadeIn",
-          "ms": 400
+          "ms": 800
         },
         {
           "type": "wait",
-          "ms": 300
-        },
-        {
-          "type": "ui",
-          "op": "shake",
-          "ms": 800,
-          "args": {
-            "intensity": 10
-          }
-        },
-        {
-          "type": "line",
-          "layer": "alert",
-          "text": "[ 邊緣防護罩異常 ── 破口偵測 ]",
-          "reveal": {
-            "mode": "instant"
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 900
+          "ms": 600
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 的庇護所離邊緣防護罩極近。所以當警報響起時，那聲音幾乎是貼著耳膜炸開的。",
+          "text": "隔離門沒有關上。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 24
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "低頻嗚鳴從防護罩邊緣傳來，Alea 幾乎在同一瞬間就彈起了身。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 24
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "這不是受過什麼軍事訓練——是在下層甲板十幾年磨出來的本能。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 24
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 300
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "警報，意味著荒原裡的東西<em>進來了</em>。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
+            "cps": 14
           },
           "log": true
         },
@@ -112,7 +57,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "防護罩又破洞了。",
+          "text": "撤退的時候 Elias 試過，控制終端在轟炸的衝擊波裡受損了，電子鎖的回路燒斷了一段，門卡在半開的位置，既關不上，也推不回全開，就那樣橫在那裡，像一道沒有意義的邊界。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -126,35 +71,22 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她扯下牆上的改裝電磁短刀，推開門衝入走廊。",
+          "text": "Solmaris 的先鋒部隊從那個缺口跟進來了。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 26
+            "cps": 18
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 400
+          "ms": 500
         },
         {
           "type": "line",
-          "layer": "narration",
-          "text": "外面已經徹底亂套。居民們扛著全部家當往走廊深處奔逃，驚恐的叫喊與凌亂的腳步聲混雜在一起。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 24
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "Alea 壓低身形，<em>逆著人流</em>朝反方向移動。",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "跑。往安全通道，不要停。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -168,21 +100,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "變異生物靠震動感知獵物，往人多的地方跑，無異於自尋死路。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "就在這片混亂中，她捕捉到了一絲異樣的聲音。",
+          "text": "他們跑起來。Lyra 的左腿在方才轟炸的衝擊裡受了傷，不是穿透傷，是碎石激起的鈍擊，皮下組織的損傷讓她的軀體完整度在短時間內急劇下降，她跑起來的時候有明顯的跛行，每一步都在消耗她沒有剩下多少的體力儲備。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -196,167 +114,10 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "不是崩潰的哭喊，也不是絕望的怒吼——",
+          "text": "Alea 放慢了一步，讓自己和 Lyra 並排。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "而是一個極力壓抑、輕輕顫抖的呼喚。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 18
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "line",
-          "layer": "dialogue",
-          "speaker": "？？？",
-          "text": "<whisper>有……有人在嗎？</whisper>",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1000
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "Alea 猛地停下腳步。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "她在走廊盡頭的轉角蹲下，探頭望向診所大廳。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 22
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "昏暗中，一個身影縮在倒塌的護士站後方，雙臂緊緊抱著膝蓋。金髮在陰影中格外扎眼。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "從體型判斷，是個使用 <em>Alpha 軀體</em>的孩子。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 800
-        },
-        {
-          "type": "ui",
-          "op": "shake",
-          "ms": 500,
-          "args": {
-            "intensity": 6
-          }
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "下一秒，地面的震動讓 Alea 的神經瞬間緊繃。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 24
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "一隻常見於邊緣區的荒原突變種——外殼完全角質化，視覺嚴重退化，正憑藉著震動在大廳裡緩慢遊走。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 400
-        },
-        {
-          "type": "ui",
-          "op": "shake",
-          "ms": 300,
-          "args": {
-            "intensity": 4
-          }
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "沉悶的腳步聲每一次砸在地面，都宣告著牠離那個孩子<em>更近了一步</em>。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 20
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 900
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "Alea 撿起腳邊的一塊金屬碎片，奮力朝對角的玻璃窗砸去。",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 26
           },
           "log": true
         },
@@ -366,24 +127,12 @@
         },
         {
           "type": "line",
-          "layer": "system",
-          "text": "「哐啷——」",
-          "reveal": {
-            "mode": "instant"
-          },
-          "log": false
-        },
-        {
-          "type": "wait",
-          "ms": 500
-        },
-        {
-          "type": "line",
-          "layer": "narration",
-          "text": "怪物的注意力瞬間被引開。趁著牠轉身遲疑的半秒，Alea 衝進大廳，攥住那孩子的手腕，拖著她直奔側門。",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "手臂給我。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 26
+            "cps": 24
           },
           "log": true
         },
@@ -392,20 +141,56 @@
           "ms": 300
         },
         {
-          "type": "ui",
-          "op": "shake",
-          "ms": 400,
-          "args": {
-            "intensity": 8
-          }
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 把手臂搭上去，Alea 扶著她，兩個人的速度合在一起，勉強跟上了前面的 Soren 和 Elias。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "變異種猛然回頭撲來。Alea 反手揮出短刀——雖然無法切開怪物厚重的角質層，但爆發的電磁刃精準擊中了牠的後腿關節，逼得怪物一個踉蹌。",
+          "text": "Solmaris 的先鋒部隊在後方展開了，他們不急，那種不急本身就是一種壓力，像一張慢慢收緊的網，不需要追，只需要讓那張網的邊緣越來越近，讓裡面的人越跑越喘，越跑越慢，直到跑不動了。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 26
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "武裝模組，還有多少出力。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "我的剩三成，但神經同步率——",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
           },
           "log": true
         },
@@ -416,7 +201,238 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "兩人撞開側門跌進後方走廊。",
+          "text": "他沒有說完，但那個省略的部分所有人都清楚。三成的出力，卻需要付出遠超三成的同步率消耗才能維持。這是一個在消耗層面嚴重不划算的計算。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "Lyra。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "我的模組在轟炸裡壞掉了。我沒有辦法作戰。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "不需要你作戰。跟緊我，往前。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren 和 Elias 在後方交替掩護，武裝模組的炮口指向追近的先鋒部隊，每一次開火都是在消耗他們本就不多的同步率。Soren 的視野邊緣開始出現輕微的模糊，那是同步率降到某個閾值以下時神經連線開始不穩定的前兆，他壓下那種感覺，繼續計算，繼續瞄準，繼續開火。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias 的情況比他更糟，他的右手臂已經開始間歇性地失去響應，武裝模組在那條手臂上錯誤地觸發了一次空射——",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "ui",
+          "op": "shake",
+          "ms": 400,
+          "args": {
+            "intensity": 4
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "炸開了他們右側的地面，揚起一片塵土。Elias 罵了一聲，強行把那條手臂的模組切斷，改用左臂單側維持輸出，精準度立刻下降了一個層級。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "多遠。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 200
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "安全通道入口就在前方。但追兵的推進速度——<delay ms=\"200\"/>Elias，左側。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "ui",
+          "op": "glitch",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias 轉身，同步率消耗讓他的動作慢了半拍，左側那個 Solmaris 士兵的攝魂武器的共振波擦過了他的右側，他的神經連線在那一瞬間失去了整整六秒的穩定。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那六秒他的軀體像一個沒有人在操控的空殼，慣性讓他繼續跑了幾步，然後他重新接回來，整個人差點沒有站穩，是 Soren 往後伸了一把手把他拉住的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "謝謝。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "聲音裡難得有一種真實的疲憊。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "快跑。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "在炮火和追兵的壓力下，那段距離比任何時候都更長，但他們跑完了。安全通道的入口在前方，那是一段向下延伸的斜道，兩側的牆壁夠厚，能擋住攝魂武器的共振波。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "進來。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -430,24 +446,24 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 死死頂住門板，靠在牆上大口喘息。",
+          "text": "Elias 跟上，Alea 扶著 Lyra，最後兩個人在追兵的下一輪推進抵達之前衝進了斜道。斜道裡的空氣是悶的，充滿了積塵的氣味，但是安靜，那種追擊的聲音在入口的厚牆之後變得遙遠而模糊。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 22
+            "cps": 20
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 1000
+          "ms": 800
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "她低頭，看向被自己拽出來的孩子。",
+          "text": "四個人靠著斜道的牆壁坐下來。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 14
           },
           "log": true
         },
@@ -458,10 +474,10 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "女孩金髮凌亂，滿是灰塵。察覺到 Alea 的目光之後，她抬起頭來。",
+          "text": "喘息聲，心跳聲，以及外面越來越近的 Solmaris 部隊的腳步聲。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 20
+            "cps": 14
           },
           "log": true
         },
@@ -472,39 +488,38 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她<em>笑了</em>。",
+          "text": "Lyra 的左腿撐不住了，她慢慢地滑坐在地面上，膝蓋攤開，她低著頭，頭髮垂下來擋住了她的臉。她的肩膀在那個姿勢裡顯得很小，非常小，像是她正在試圖把自己縮進一個比她實際的身體更小的空間裡去。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 16
+            "cps": 14
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 1000
-        },
-        {
-          "type": "line",
-          "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "謝謝妳。我叫 <em>Lyra</em>。<delay ms=\"400\"/>妳呢？",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 24
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 1200
+          "ms": 700
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 愣了一下。",
+          "text": "Soren 看了一眼通道外的方向，再看了一眼他們的狀態，把他得出的結論壓下去，因為那個結論沒有任何一個他願意說出口的方向。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 18
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias 的神經同步率已經低到讓他的手指出現了可見的顫抖，他靠在牆上，閉著眼睛，試圖用休息換取哪怕一點點的自然恢復。但他們沒有足夠的時間讓那個恢復發生。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
           },
           "log": true
         },
@@ -514,12 +529,11 @@
         },
         {
           "type": "line",
-          "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "……Alea。",
+          "layer": "narration",
+          "text": "外面，Solmaris 的部隊繼續推進。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 18
+            "cps": 12
           },
           "log": true
         },
@@ -530,18 +544,11 @@
         {
           "type": "ui",
           "op": "fadeOut",
-          "ms": 1000
+          "ms": 1200
         },
         {
           "type": "wait",
-          "ms": 600
-        },
-        {
-          "type": "ui",
-          "op": "scanlines",
-          "args": {
-            "enabled": false
-          }
+          "ms": 500
         },
         {
           "type": "end"

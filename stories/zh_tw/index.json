@@ -2,75 +2,501 @@
   "version": "2.0.0",
   "chapters": [
     {
-      "id": "0",
-      "title": "序章：寫入歷史的錯誤答案",
-      "order": 0,
-      "acts": [
-        {
-          "id": "0-1",
-          "title": "第一幕：程式初始化",
-          "file": "prologue/act_1.json",
-          "onComplete": ["reward", "complete"]
-        },
-        {
-          "id": "0-2",
-          "title": "第二幕：荒原戰爭",
-          "file": "prologue/act_2.json",
-          "onComplete": ["reward", "complete"]
-        },
-        {
-          "id": "0-3",
-          "title": "第三幕：終端方舟",
-          "file": "prologue/act_3.json",
-          "onComplete": ["reward", "complete"]
-        },
-        {
-          "id": "0-4",
-          "title": "第四幕：火種計劃",
-          "file": "prologue/act_4.json",
-          "onComplete": ["reward", "complete"]
-        },
-        {
-          "id": "0-5",
-          "title": "第五幕：內戰爆發",
-          "file": "prologue/act_5.json",
-          "onComplete": ["reward", "complete"]
-        }
-      ]
-    },
-    {
       "id": "1",
-      "title": "第一章：下層甲板的天空是灰色的",
+      "title": "第一章：不期而遇",
       "order": 1,
       "acts": [
         {
           "id": "1-1",
-          "title": "第一幕：灰色的早晨",
+          "title": "第一幕：下層甲板的日常",
           "file": "ch01/act_1.json",
           "onComplete": ["reward", "complete"]
         },
         {
           "id": "1-2",
-          "title": "第二幕：回收工廠",
+          "title": "第二幕：意外的入侵者",
           "file": "ch01/act_2.json",
           "onComplete": ["reward", "complete"]
         },
         {
           "id": "1-3",
-          "title": "第三幕：配給危機",
+          "title": "第三幕：軍方掃蕩",
           "file": "ch01/act_3.json",
           "onComplete": ["reward", "complete"]
-        },
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "第二章：神經網路之幽靈",
+      "order": 2,
+      "acts": [
         {
-          "id": "1-4",
-          "title": "第四幕：暴動",
-          "file": "ch01/act_4.json",
+          "id": "2-1",
+          "title": "第一幕：住在下水道中的人",
+          "file": "ch02/act_1.json",
           "onComplete": ["reward", "complete"]
         },
         {
-          "id": "1-5",
-          "title": "第五幕：鎮壓",
-          "file": "ch01/act_5.json",
+          "id": "2-2",
+          "title": "第二幕：意外的相逢",
+          "file": "ch02/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "2-3",
+          "title": "第三幕：世界的真相",
+          "file": "ch02/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "第三章：邊緣區的崩潰",
+      "order": 3,
+      "acts": [
+        {
+          "id": "3-1",
+          "title": "第一幕：全城通緝",
+          "file": "ch03/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "3-2",
+          "title": "第二幕：能源枯竭的謊言",
+          "file": "ch03/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "3-3",
+          "title": "第三幕：一起逃走吧",
+          "file": "ch03/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "3.5",
+      "title": "第三點五章：四個人",
+      "order": 4,
+      "acts": [
+        {
+          "id": "3.5-1",
+          "title": "第一幕：各自的方式",
+          "file": "ch3-5/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "3.5-2",
+          "title": "第二幕：妳是哪種人",
+          "file": "ch3-5/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "3.5-3",
+          "title": "第三幕：計劃以外的事",
+          "file": "ch3-5/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "第四章：在防護罩邊緣",
+      "order": 5,
+      "acts": [
+        {
+          "id": "4-1",
+          "title": "第一幕：遠征隊",
+          "file": "ch04/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "4-2",
+          "title": "第二幕：危機",
+          "file": "ch04/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "4-3",
+          "title": "第三幕：勝利",
+          "file": "ch04/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "第五章：輻射與鐵鏽",
+      "order": 6,
+      "acts": [
+        {
+          "id": "5-1",
+          "title": "第一幕：活下去",
+          "file": "ch05/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "5-2",
+          "title": "第二幕：無機物的凝視",
+          "file": "ch05/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "5-3",
+          "title": "第三幕：機械殘骸中的信號",
+          "file": "ch05/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "5.5",
+      "title": "第五點五章：荒原的夜晚",
+      "order": 7,
+      "acts": [
+        {
+          "id": "5.5-1",
+          "title": "第一幕：營地的規則",
+          "file": "ch5-5/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "5.5-2",
+          "title": "第二幕：可怕的事",
+          "file": "ch5-5/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "5.5-3",
+          "title": "第三幕：正確的選擇",
+          "file": "ch5-5/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "第六章：機械理性與統一",
+      "order": 8,
+      "acts": [
+        {
+          "id": "6-1",
+          "title": "第一幕：無情之國",
+          "file": "ch06/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "6-2",
+          "title": "第二幕：父親的遺產",
+          "file": "ch06/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "6-3",
+          "title": "第三幕：外面的人",
+          "file": "ch06/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "第七章：拒絕進化",
+      "order": 9,
+      "acts": [
+        {
+          "id": "7-1",
+          "title": "第一幕：關押室裡的等待",
+          "file": "ch07/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "7-2",
+          "title": "第二幕：內外同步",
+          "file": "ch07/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "7-3",
+          "title": "第三幕：逃離鋼鐵叢林",
+          "file": "ch07/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "7.5",
+      "title": "第七點五章：在那之後",
+      "order": 10,
+      "acts": [
+        {
+          "id": "7.5-1",
+          "title": "第一幕：自我確立",
+          "file": "ch7-5/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "7.5-2",
+          "title": "第二幕：沉默",
+          "file": "ch7-5/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "7.5-3",
+          "title": "第三幕：下一個地方",
+          "file": "ch7-5/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "第八章：靈魂的狂熱",
+      "order": 11,
+      "acts": [
+        {
+          "id": "8-1",
+          "title": "第一幕：靈魂的囚籠",
+          "file": "ch08/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "8-2",
+          "title": "第二幕：Lyra 的代碼",
+          "file": "ch08/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "8-3",
+          "title": "第三幕：虛假的自我",
+          "file": "ch08/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "8.5",
+      "title": "第八點五章：普通的一天",
+      "order": 12,
+      "acts": [
+        {
+          "id": "8.5-1",
+          "title": "第一幕：難得的閒暇",
+          "file": "ch8-5/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "8.5-2",
+          "title": "第二幕：第一次的遊戲",
+          "file": "ch8-5/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "8.5-3",
+          "title": "第三幕：我心所向",
+          "file": "ch8-5/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "第九章：戰爭的高潮",
+      "order": 13,
+      "acts": [
+        {
+          "id": "9-1",
+          "title": "第一幕：三方混戰",
+          "file": "ch09/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "9-2",
+          "title": "第二幕：陰謀",
+          "file": "ch09/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "9-3",
+          "title": "第三幕：亂葬崗",
+          "file": "ch09/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "第十章：援手",
+      "order": 14,
+      "acts": [
+        {
+          "id": "10-1",
+          "title": "第一幕：不可能成功的救援",
+          "file": "ch10/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "10-2",
+          "title": "第二幕：我以為我",
+          "file": "ch10/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "10-3",
+          "title": "第三幕：陷阱",
+          "file": "ch10/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "第十一章：代價",
+      "order": 15,
+      "acts": [
+        {
+          "id": "11-1",
+          "title": "第一幕：血戰突圍",
+          "file": "ch11/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "11-2",
+          "title": "第二幕：Alea 的決意",
+          "file": "ch11/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "11-3",
+          "title": "第三幕：最後一戰",
+          "file": "ch11/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "第十二章：別離",
+      "order": 16,
+      "acts": [
+        {
+          "id": "12-1",
+          "title": "第一幕：消散的光芒",
+          "file": "ch12/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "12-2",
+          "title": "第二幕：團隊破碎",
+          "file": "ch12/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "12-3",
+          "title": "第三幕：分道揚鑣",
+          "file": "ch12/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "第十三章：暗影之刃",
+      "order": 17,
+      "acts": [
+        {
+          "id": "13-1",
+          "title": "第一幕：復仇",
+          "file": "ch13/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "13-2",
+          "title": "第二幕：Elias 的阻攔",
+          "file": "ch13/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "13-3",
+          "title": "第三幕：危機",
+          "file": "ch13/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "第十四章：記憶的殘片",
+      "order": 18,
+      "acts": [
+        {
+          "id": "14-1",
+          "title": "第一幕：靈魂的迴響",
+          "file": "ch14/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "14-2",
+          "title": "第二幕：我的答案",
+          "file": "ch14/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "14-3",
+          "title": "第三幕：「我」",
+          "file": "ch14/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "第十五章：終端之塔的重啟",
+      "order": 19,
+      "acts": [
+        {
+          "id": "15-1",
+          "title": "第一幕：重返方舟",
+          "file": "ch15/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "15-2",
+          "title": "第二幕：是隊友還是敵人",
+          "file": "ch15/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "15-3",
+          "title": "第三幕：戰鬥的意義",
+          "file": "ch15/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "第十六章：向著未來",
+      "order": 20,
+      "acts": [
+        {
+          "id": "16-1",
+          "title": "第一幕：真相",
+          "file": "ch16/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "16-2",
+          "title": "第二幕：舊秩序的崩塌",
+          "file": "ch16/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "16-3",
+          "title": "第三幕：明日的明日",
+          "file": "ch16/act_3.json",
           "onComplete": ["reward", "complete"]
         }
       ]

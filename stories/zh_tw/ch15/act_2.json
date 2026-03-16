@@ -1,0 +1,507 @@
+{
+  "id": "15-2",
+  "title": "第二幕：是隊友還是敵人",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch15_act2_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 800
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "NUTA 地下核心的主控室是安靜的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "不是沒有聲音，是那種所有機械都在全速運轉、所有系統都在滿負荷工作的情況下產生的、悖論式的安靜。那些聲音太均勻，太持續，融在一起就成了一種白噪音，把所有其他的聲音都吸收進去，讓整個空間顯得像一個與外界完全隔絕的地方。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren 站在主終端前。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "你們來了。我以為你會更晚一點，Lyra。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "我走得比你以為的快。Soren，離開那個終端。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "不。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那個背影，她認識。她在補給站的斜道裡見過那個背影。那是一個把所有東西都壓在最裡面的人的背影，那是一個習慣了一個人站在最前面、習慣了用計算代替感受的人的背影。那是她的隊友，那是她認識的人。那個人現在站在那裡，背對著她，手放在一個如果按下去就沒有辦法收回來的終端上。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "我知道你為什麼要這樣做。我知道你在想什麼，我知道你的計算是什麼，我知道在你的邏輯裡這是唯一一個能夠徹底解決問題的方案。我知道這一切，Soren，所以我不打算告訴你你是錯的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他這才轉過頭，看向她。眼神裡有什麼東西，是他一直以來藏在那個平靜之下的東西，現在因為太重，那個平靜已經快要蓋不住了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "那你來這裡做什麼。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "阻止你。我沒有辦法讓你就這樣做完。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "你攔不住我，Lyra，你知道的。你的戰略判斷、你的神經同步率、你的武裝出力，在任何層面上，你都沒有辦法在這裡贏過我。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "我知道。但我還是要試。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她接上了武裝模組。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren 從終端旁邊退開，進入了作戰的站位。主控室的空間不大，兩個人之間的距離不到十米。他看著她接上模組之後站定的那個姿勢，他的眼神有一瞬間的細微停頓——她的站姿變了。不是技術的變化，是某種更根本的東西。那個在他記憶裡總是在高壓下稍顯勉強的同調狀態，現在是沉的，是穩的，像一個完全接地的東西。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "然後他們都動了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她的第一個動作比他預判的快了半拍。不是速度的問題，是精度。她的武裝模組輸出精確地落在他的防線弧度最薄的地方。那個角度是他沒有預料到她能找到的角度。他側移了，壓了下去，重新評估——他以為那是偶然，然後她的第二個動作再次落在一個他需要分出注意力的位置。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "不是偶然。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他加快了節奏。他的預判是精確的，他對她的每一個動作都有應對，但這一次他需要真正地應對。不是輕鬆地壓制，而是兩個人真正地在那個主控室裡對抗。她的同調深度讓她的每一次輸出都沒有消耗在誤差上。準確，乾淨，每一下都打在它應該打的地方。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "ui",
+          "op": "shake",
+          "ms": 300,
+          "args": {
+            "intensity": 3
+          }
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她受了第一次衝擊，踉蹌了兩步，站穩。那種衝擊比以前更容易被她的神經連線吸收，像是那個深處開放的空間也在緩衝著外部的衝擊。她咬著牙重新校準，繼續。她的同步率在消耗，但消耗的速度比她以往任何一次作戰都更慢。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她受了第二次，打在她的右臂。武裝模組的連線震了一下，出力下降。她停了半秒，重新校準，那個重新校準的速度比她以為的更快，像是她和模組之間的連線在這次中斷之後更迅速地重新接上了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren 沒有說話，但他的眼神在她第三次把攻擊精確地送進他防線縫隙的時候，有一種他從來沒有在她身上看見過的東西。他停了半拍。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "就那半拍，她往前衝了一步，武裝模組的炮口抵近，在他反應過來之前把他推離了終端一步的距離。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "你的同調，和以前不一樣了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她沒有接話，重新發起攻擊。她的同調深度讓這場對抗比他原本估算的拉得更長，她的每一次輸出都沒有浪費，每一次防禦都比他預期的更穩。但他的戰術判斷和實戰經驗的積累是真實的差距。在一段時間之後，那個差距開始慢慢地拉開。她的同步率消耗越來越快，她的動作開始出現細微的遲滯。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias 在控制室的側面。他沒有加入戰鬥，他在做另一件事，在嘗試從側面接入主終端的系統，試圖找到一個可以暫停或者延遲那道指令的方法。Soren 的封鎖架構在系統裡展開，嚴密的，幾乎沒有縫隙。他在縫隙裡找，一邊找，一邊聽著身後的戰鬥聲。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "ui",
+          "op": "shake",
+          "ms": 400,
+          "args": {
+            "intensity": 5
+          }
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 被重重地推開了。她撞在控制室的側牆上，牆壁的金屬在衝擊裡發出一聲悶響，她滑坐下去，扶著牆撐著，試圖站起來。腳下沒有力氣，她的同步率已經到了一個很低的數字，軀體的反應開始遲滯。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren 走到她面前，站著，低頭看她。他的表情是她從來沒有見過的。那個一直以來把所有東西都壓在最深處的人，那個平靜的外殼在這一刻已經完全不見了。他的臉上有的是一種讓人看了會覺得心口疼的東西，太重，太深，像一個裝了太多東西的容器，每一條縫隙都在往外滲。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "你站不起來了。Lyra，你輸了，讓開。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她扶著牆，慢慢地站起來。腳是顫的。她站穩，抬起頭看他。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "還沒有。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 1200
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}

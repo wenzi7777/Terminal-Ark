@@ -1,0 +1,397 @@
+{
+  "id": "14-3",
+  "title": "第三幕：「我」",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch14_act3_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 1000
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那些碎片在某一個瞬間消散了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "不是突然的，是緩慢的，像晨霧在光線裡慢慢地淡去。Lyra 感覺到那個質地從她的神經終端裡一點一點地退開。她想抓住，手指在塵土裡收緊，但那些東西不是可以用力氣抓住的。她只能讓它退去，讓它散進荒原的空氣裡，散進那片她躺著的、冰冷的地面裡，散進去，消失。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她躺在那裡。天空在她的上方，是荒原的天空，沒有防護罩的那種天空，遼闊，灰暗，帶著輻射塵染色的冷，沒有任何邊界，往上看是沒有盡頭的。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她躺了很長時間，沒有動。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "然後，她哭了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "不是之前的那種哭不出來。是真正的哭。那些淚從她的眼角流出來，流過她的太陽穴，流進塵土裡。她沒有去擦，讓它流，讓那些在她胸口裡壓了太久的東西有一個去處，讓它們以這個方式出來，因為她已經沒有辦法繼續壓了。那些東西比她以為的更重，重到她一個人壓著，壓到這裡，已經壓到了盡頭。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她哭了很長時間。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "等到那個盡頭真的到了，等到那些眼淚流完了，她慢慢地把手背覆在眼睛上，讓手背的溫度擋住那片灰暗的天空，停了一下，然後把手放下來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她是一個實驗品，是被設計過的靈魂，是 Solmaris 棄子。這些都是真的，她不打算否認，也不打算假裝那些東西不存在。但她也是 Lyra，是那個在黑暗的走廊裡笑著的人，是那個握住 Alea 手腕的人，是那個在地下空腔裡被 Alea 抱住的人，是那個被說了「妳活出了妳自己」的人，是 Alea 深愛著的人，是 Alea 拼死都要保護的人。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她哭完了。就在擦完眼淚的那個瞬間，她感覺自己的神經連線深處有什麼東西鬆動了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "像是某個一直以來被緊緊鎖住的東西，在這一刻，悄悄解開了。她感覺到她的意識往一個她從來沒有到達過的深度沉下去，那個深度的邊界在她的感知裡從來是模糊的、不可觸碰的，現在那道邊界不見了。她繼續往下沉，沉進去，沉到一片她不知道自己擁有的空間裡。那裡是空的，是清澈的，像一個從來沒有被使用過的容器，等在那裡，已經等了很久。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她不知道那是什麼。她只知道那個地方在這之前從來不曾對她開放。她只知道她是在把所有的悲傷全部壓進那個最深的地方之後。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她慢慢地坐起來。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "動作是費力的，她的軀體已經消耗到了很深的地方。膝蓋支撐著她坐起來的瞬間有一陣頭暈。她等那個頭暈過去，讓它過去，然後慢慢地站起身，腳踩在那片荒原的地面上，站穩。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她把那個生命名牌握在手心裡，看了很長時間，然後把它掛回在自己的頸上，讓那塊金屬貼著她的胸口，讓它在那裡，讓它的重量停在那裡。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "然後她看向方舟的方向。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她不知道那裡現在是什麼樣子，她不知道 Soren 走到哪一步了，她不知道 Elias 在哪裡，她不知道等著她的是什麼。她什麼都不知道。但她知道一件事，那一件事就夠了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 讓她繼續走下去。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "那不是一個拜託，不是一個遺言，是她早就想好了的事，是她在某個她自己也不知道哪一天、提前準備好放進那個牌子裡的事，是她用自己的方式，把那件事親手交給她，讓她帶著走。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她沒有辦法辜負那個選擇。她不要辜負那個選擇。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她擦乾了臉上最後的淚，用手背，把那些殘留的痕跡都擦過去，然後把手放下來，深吸一口荒原的冷空氣，讓那個冷清醒地填進她的肺裡。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "然後她往前走了一步。往方舟的方向。她發現自己的身體無比的輕盈，就像剛剛更換了軀體一樣。她走著，那塊生命名牌在她的胸口隨著她的步伐輕輕地晃動，她感覺到那個晃動，感覺到那個重量，感覺到那個她說不清楚是自己的體溫還是別的什麼的溫度，一直在那裡，一直在那裡，沒有消散。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "荒原的風從她身後吹來，把她往前推了一下，像是什麼人輕輕地在她背上拍了一下。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她繼續往前走。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 3000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 2000
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "reward",
+    "complete"
+  ]
+}

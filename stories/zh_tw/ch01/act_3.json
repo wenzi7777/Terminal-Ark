@@ -1,24 +1,44 @@
 {
   "id": "1-3",
-  "title": "第三幕：配給危機",
+  "title": "第三幕：軍方掃蕩",
   "startNode": "main",
   "nodes": {
     "main": {
       "events": [
         {
           "type": "marker",
-          "id": "ch01_act3_start"
+          "id": "ch1_act3_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "scanlines",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 800
         },
         {
           "type": "wait",
-          "ms": 650
+          "ms": 500
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "接近中午，今天的食物配給提示音遲遲沒有響起。\n\n起初沒有人太在意。\n因為下層甲板經常會「延遲」。\n也許只要稍微等一會就好了\n直到有人靠近了補給終端，終端檢測到數位身分晶片，進行補給額度查詢",
+          "text": "她們沒能逃出多遠。",
           "reveal": {
-            "mode": "instant"
+            "mode": "typewriter",
+            "cps": 18
           },
           "log": true
         },
@@ -28,53 +48,510 @@
         },
         {
           "type": "line",
-          "layer": "system",
-          "text": "【配給終端】\n錯誤：配給額度不足",
+          "layer": "narration",
+          "text": "從警報響起到方舟軍方的載具降臨下層甲板，僅僅過去了二十分鐘。",
           "reveal": {
             "mode": "typewriter",
-            "cps": 28
+            "cps": 22
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 420
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "【配給終端】\n錯誤：配給額度不足",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 28
-          },
-          "log": true
-        },
-        {
-          "type": "wait",
-          "ms": 420
+          "ms": 500
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "一次。\n兩次。\n三次。\n\n人群開始低聲交談。\n開始抱怨。\n直到有人發現，不管是誰，都無法領取到補給物資。",
+          "text": "士兵們筆挺乾淨的制服、精密冷酷的武裝、以及毫無波瀾的擴音廣播，和下層甲板的一切格格不入。",
           "reveal": {
-            "mode": "instant"
+            "mode": "typewriter",
+            "cps": 22
           },
           "log": true
         },
         {
           "type": "wait",
-          "ms": 420
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "┌─────────────────────────────────────────────┐",
+          "reveal": {
+            "mode": "instant"
+          }
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│ 本次行動為例行靈魂健檢作業。              │",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│ 請所有居民配合引導，前往指定集合點。        │",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "│ 不服從者將被視為社會安全威脅，依法強制執行。│",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": "└─────────────────────────────────────────────┘",
+          "reveal": {
+            "mode": "instant"
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 800
         },
         {
           "type": "line",
           "layer": "narration",
-          "text": "他們不知道的是，終端方舟的下層甲板，近些年進入緊急狀態後，幾乎負責生產了7成以上的軍需物資\n有了他們，整個國家的戰爭機器才可以開動，終端方舟才可以在外部多國的夾層下生存\n為什麼連下層甲板的配額都無法保證？",
+          "text": "廣播聲平靜、標準，不帶一絲活人的溫度。",
           "reveal": {
-            "mode": "instant"
+            "mode": "typewriter",
+            "cps": 20
           },
           "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "ui",
+          "op": "vignette",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 一把將 Lyra 拉進旁邊一間廢棄的機房，輕手輕腳地關上門，只留下一道極細的門縫。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "全副武裝的士兵正在逐屋清查，將走廊上的居民像趕牲口一樣推進隊伍。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 認識那些面孔：街角的大嬸、修鞋的老伯、獨自帶著嬰兒的少婦……",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "他們木然地被推搡著，眼神空洞，無人反抗，更無人敢問這所謂的「例行健檢」究竟是什麼。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 900
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "在下層甲板活得夠久的人都心知肚明——",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "所謂的「提前健檢」，往往意味著<em>「提前回收」</em>。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "方舟的靈魂庫需要補充，需要運轉的原料，而下層甲板永遠是最方便的提款機。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "這裡的人沒有背景，沒有牽掛，也沒有話語權。消失了，頂多只是資料庫裡一個跳動的數字。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "<whisper>那些人……他們不是真的要去健檢吧？</whisper>",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 沒有回答。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "ui",
+          "op": "shake",
+          "ms": 300,
+          "args": {
+            "intensity": 3
+          }
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "外面的金屬戰靴聲越來越近。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "一名士兵停在走廊盡頭，開始逐一踹開機房的門。手電筒的冷光從門縫底部掃過，正逼近她們藏身的地方。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 環顧四周。天花板角落有個通風口，格柵已經鬆脫。她試著扯了一下——能開。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她轉身，一把將 Lyra 托起。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "<whisper>上去。</whisper>",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "<whisper>那妳呢？</whisper>",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "<whisper>我會跟上。快點。</whisper>",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra 鑽進了通風管道。就在門把手被轉動的前一秒，Alea 猛然躍起，翻進管道，反手將格柵死死卡回原位。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 500
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "狹窄幽暗的管道裡，兩人並肩趴著，連呼吸都放到了最輕。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "門開了。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "下方的士兵站在原地，探照燈在機房裡掃射了一圈。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "沒有發現異常。轉身離開。腳步聲漸行漸遠。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 緩緩吐出一口濁氣。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "黑暗中，Lyra 悄悄伸出手，輕輕握住了 Alea 的手腕。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea 沒有甩開她。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "她轉過頭，望向通風管道深不見底的另一端，然後開始向前爬行。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 1200
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "ui",
+          "op": "scanlines",
+          "args": {
+            "enabled": false
+          }
+        },
+        {
+          "type": "ui",
+          "op": "vignette",
+          "args": {
+            "enabled": false
+          }
         },
         {
           "type": "end"
@@ -82,5 +559,8 @@
       ]
     }
   },
-  "onComplete": ["reward", "complete"]
+  "onComplete": [
+    "reward",
+    "complete"
+  ]
 }
