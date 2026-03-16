@@ -77,48 +77,14 @@
         {
           "type": "line",
           "layer": "system",
-          "text": "┌─────────────────────────────────────────────┐",
+          "display": {
+            "topLeft": "公告",
+            "center": "本次行動為例行靈魂健檢作業。\n請所有居民配合引導，前往指定集合點。\n不服從者將被視為社會安全威脅，依法強制執行。"
+          },
           "reveal": {
             "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 本次行動為例行靈魂健檢作業。              │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
           },
           "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 請所有居民配合引導，前往指定集合點。        │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 不服從者將被視為社會安全威脅，依法強制執行。│",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "└─────────────────────────────────────────────┘",
-          "reveal": {
-            "mode": "instant"
-          }
         },
         {
           "type": "wait",

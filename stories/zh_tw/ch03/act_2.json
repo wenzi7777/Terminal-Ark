@@ -149,56 +149,14 @@
         {
           "type": "line",
           "layer": "system",
-          "text": "┌────────────────────────────────────────┐",
+          "display": {
+            "topLeft": "[情報摘要]",
+            "center": "六個月前：上層分批切斷下層甲板供能\n名義：戰時能源重新分配\n實際流向：靈魂處理中心擴容工程"
+          },
           "reveal": {
             "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ [情報摘要]                             │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 12
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 六個月前：上層分批切斷下層甲板供能     │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 12
           },
           "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 名義：戰時能源重新分配                 │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 12
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 實際流向：<em>靈魂處理中心擴容工程</em>         │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 12
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "└────────────────────────────────────────┘",
-          "reveal": {
-            "mode": "instant"
-          }
         },
         {
           "type": "wait",

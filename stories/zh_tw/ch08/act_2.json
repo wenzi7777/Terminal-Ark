@@ -192,66 +192,16 @@
         {
           "type": "line",
           "layer": "system",
-          "text": "┌────────────────────────────────────────┐",
+          "display": {
+            "topLeft": "靈魂基底代碼",
+            "topRight": "深層掃描結果",
+            "center": "最深層結構：非自然新生靈魂格式\n格式比對：Solmaris 系統 ── <em>完全吻合</em>",
+            "bottomRight": "植入時間：靈魂誕生初始"
+          },
           "reveal": {
             "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│  靈魂基底代碼 ── 深層掃描結果          │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
           },
           "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│                                        │",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│  最深層結構：非自然新生靈魂格式          │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│  格式比對：Solmaris 系統 ── 完全吻合    │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│  植入時間：靈魂誕生初始                  │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "└────────────────────────────────────────┘",
-          "reveal": {
-            "mode": "instant"
-          }
         },
         {
           "type": "wait",

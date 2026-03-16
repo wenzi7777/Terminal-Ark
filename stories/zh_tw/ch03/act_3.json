@@ -266,67 +266,15 @@
         {
           "type": "line",
           "layer": "system",
-          "text": "┌────────────────────────────────────────┐",
+          "display": {
+            "topLeft": "[任務需求]",
+            "center": "1. 神經連線穩定劑\n2. 基礎醫療藥品\n3. 武裝外掛模組",
+            "bottomRight": "來源：軍方倉庫"
+          },
           "reveal": {
             "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ [任務需求]                             │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 12
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 1. 神經連線穩定劑                      │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
           },
           "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 2. 基礎醫療藥品                        │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 3. 武裝外掛模組                        │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 來源：<em>軍方倉庫</em>                         │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "└────────────────────────────────────────┘",
-          "reveal": {
-            "mode": "instant"
-          }
         },
         {
           "type": "wait",

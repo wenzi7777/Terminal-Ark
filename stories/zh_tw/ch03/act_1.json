@@ -50,63 +50,15 @@
         {
           "type": "line",
           "layer": "system",
-          "text": "┌────────────────────────────────────────┐",
+          "display": {
+            "topLeft": "[公告] 最高通緝令",
+            "topRight": "<em>最高</em> 威脅等級",
+            "center": "對象：四名未登記人員\n所有登記居民有義務舉報"
+          },
           "reveal": {
             "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ [公告] 最高通緝令                      │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
           },
           "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ ──────────────────────────────         │",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 對象：四名未登記人員                   │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 威脅等級：<em>最高</em>                         │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 所有登記居民有義務舉報                 │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "└────────────────────────────────────────┘",
-          "reveal": {
-            "mode": "instant"
-          }
         },
         {
           "type": "wait",

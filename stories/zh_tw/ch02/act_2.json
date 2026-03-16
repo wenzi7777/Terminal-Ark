@@ -367,73 +367,15 @@
         {
           "type": "line",
           "layer": "system",
-          "text": "┌────────────────────────────────────────┐",
+          "display": {
+            "topLeft": "[最高機密]",
+            "topRight": "靈魂轉移記錄",
+            "center": "批次：多組靈魂序號\n分類：非「回收」／非「再植入」\n代碼分類 ──\n「人格基底樣本，軍用轉化批次。」"
+          },
           "reveal": {
             "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ [最高機密] 靈魂轉移記錄               │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 12
           },
           "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ ──────────────────────────────         │",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 批次：多組靈魂序號                    │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 12
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 分類：非「回收」／非「再植入」        │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 12
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 代碼分類 ──                            │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 12
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ <em>「人格基底樣本，軍用轉化批次。」</em>     │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 10
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "└────────────────────────────────────────┘",
-          "reveal": {
-            "mode": "instant"
-          }
         },
         {
           "type": "wait",

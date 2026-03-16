@@ -444,84 +444,17 @@
         {
           "type": "line",
           "layer": "system",
-          "text": "┌────────────────────────────────────────┐",
+          "display": {
+            "topLeft": "M-07",
+            "topRight": "Mondris 派駐終端方舟",
+            "center": "任務：蒐集靈魂管理系統核心數據\n引導指定個體進行意識上傳",
+            "bottomLeft": "狀態：任務第四年 ── 主動切斷聯繫",
+            "bottomRight": "原因：[記錄終止]"
+          },
           "reveal": {
             "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│  M-07                                 │",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│  Mondris 派駐終端方舟 情報個體         │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
           },
           "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│  任務：蒐集靈魂管理系統核心數據         │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│  引導指定個體進行意識上傳               │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│                                        │",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│  狀態：任務第四年 ── 主動切斷聯繫       │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│  原因：                                │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          },
-          "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "└────────────────────────────────────────┘",
-          "reveal": {
-            "mode": "instant"
-          }
         },
         {
           "type": "wait",

@@ -461,37 +461,14 @@
         {
           "type": "line",
           "layer": "system",
-          "text": "┌────────────────────────────────────────┐",
+          "display": {
+            "topLeft": "修正項目",
+            "center": "「解除軀體使用時間限制。」"
+          },
           "reveal": {
             "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 修正項目：                             │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 12
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ <em>「解除軀體使用時間限制。」</em>             │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 10
           },
           "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "└────────────────────────────────────────┘",
-          "reveal": {
-            "mode": "instant"
-          }
         },
         {
           "type": "wait",

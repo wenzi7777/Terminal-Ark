@@ -106,46 +106,16 @@
         {
           "type": "line",
           "layer": "system",
-          "text": "┌─────────────────────────┐",
+          "display": {
+            "topLeft": "神經終端狀態",
+            "topRight": "● ONLINE",
+            "bottomLeft": "軀體類型 ── Alpha",
+            "bottomRight": "使用年限 ── <em>A3/6</em>"
+          },
           "reveal": {
             "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 神經終端狀態            │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 軀體類型 ── Alpha       │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│ 使用年限 ── <em>A3/6</em>        │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 14
           },
           "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "└─────────────────────────┘",
-          "reveal": {
-            "mode": "instant"
-          }
         },
         {
           "type": "wait",

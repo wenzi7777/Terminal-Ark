@@ -355,44 +355,13 @@
         {
           "type": "line",
           "layer": "system",
-          "text": "┌────────────────────────────────────────┐",
+          "display": {
+            "center": "「歡迎。我在等待你們。」"
+          },
           "reveal": {
             "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│                                        │",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│   <em>「歡迎。我在等待你們。」</em>             │",
-          "reveal": {
-            "mode": "typewriter",
-            "cps": 10
           },
           "log": true
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "│                                        │",
-          "reveal": {
-            "mode": "instant"
-          }
-        },
-        {
-          "type": "line",
-          "layer": "system",
-          "text": "└────────────────────────────────────────┘",
-          "reveal": {
-            "mode": "instant"
-          }
         },
         {
           "type": "wait",
