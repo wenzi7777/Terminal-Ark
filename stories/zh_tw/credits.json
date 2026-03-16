@@ -1,0 +1,22 @@
+{
+  "scrollDuration": 22000,
+  "sections": [
+    { "type": "logo", "text": "TERMINAL ARK" },
+    { "type": "spacer" },
+    { "type": "tagline", "text": "感謝您完成了這段旅程" },
+    { "type": "spacer" },
+    { "type": "spacer" },
+    { "type": "role", "label": "故事・世界觀設計", "name": "Nick Xu" },
+    { "type": "role", "label": "遊戲程式開發", "name": "Nick Xu" },
+    { "type": "role", "label": "UI / UX 設計", "name": "Nick Xu" },
+    { "type": "spacer" },
+    { "type": "spacer" },
+    { "type": "section-title", "text": "特別感謝" },
+    { "type": "spacer" },
+    { "type": "thanks", "name": "所有玩家" },
+    { "type": "spacer" },
+    { "type": "spacer" },
+    { "type": "spacer" },
+    { "type": "copyright", "text": "© 2026 Terminal Ark. All rights reserved." }
+  ]
+}

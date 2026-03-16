@@ -649,10 +649,15 @@
         },
         {
           "type": "ui",
-          "op": "blackout",
+          "op": "fadeOut",
+          "ms": 1200,
           "args": {
-            "enabled": true
+            "stay": true
           }
+        },
+        {
+          "type": "wait",
+          "ms": 600
         },
         {
           "type": "ui",
