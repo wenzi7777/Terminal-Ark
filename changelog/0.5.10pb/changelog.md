@@ -3,13 +3,13 @@
 ## APP BUNDLE VERSION v0.5.10 Public Beta
 ## SERVER BUNDLE VERSION v0.5.10 Public Beta
 
-## Release Date: Mar. 15th 2026 20:00 JST
+## Release Date: Mar. 17th 2026 19:40 JST
 
 ### Bug Fixes
-
+- This update does not contain any major new bug fixes.
 
 ### New Features
-
+- This update does not contain any major new features.
 
 ### Improvements
 - Improved the UI layout of Agents Workstation for mobile users.
