@@ -1,0 +1,353 @@
+{
+  "id": "3-1",
+  "title": "第一幕：全市手配",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch3_act1_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "scanlines",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "ui",
+          "op": "titleCard",
+          "args": {
+            "text": "第三章：辺縁地帯の崩壊"
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 2500
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 800
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "display": {
+            "topLeft": "[告示] 最高手配令",
+            "topRight": "<em>最高</em> 脅威等級",
+            "center": "対象：四名の未登録人物\nすべての登録居民に報告義務あり"
+          },
+          "reveal": {
+            "mode": "instant"
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼らの顔が放送スクリーンに現れた時、リラは圧縮レーションを食べていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は顔を上げて、壁に錆びたスクリーンを見た。画像は良くなく、監視カメラからのスクリーンショットだったが、輪郭ははっきりしていた――彼ら四人だ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "最高手配等級。つまりすべての登録居民に報告義務があり、懸賞金は一般居民三ヶ月分の食糧配給だ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "三ヶ月分。俺たちを売る誘因は十分だ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 26
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Alea",
+          "text": "ブラックマーケット。ブラックマーケットの人間は報告しない。自分たちも手配中だからな。互いに通報し合えば両者そんして損する。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "正解。そしてブラックマーケットには必要な情報がある――どの道がまだ封鎖されていないか、どのチェックポイントの兵士が買収できるか、どこに一時的な隠れ場所があるか。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼はペンを置いて、他の三人を見た。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "日没前に情報収集を完了。明日の早朝に拠点を変更する。ここはもう安全ではない。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "誰も反対しなかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "問題は、ブラックマーケットが下層デッキの深層にあることだ。中間に二本の主幹道を横断する必要があり、その主幹道は平時より巡邏隊の密度が高かった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "ソレンは経路を三段階に分割し、各段階に集合地点を指定した。途中で散らばっても、集合地点で待機する。期限を超えたら各自撤退。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "リラは圧縮レーションの最後を飲み込み、手についた屑を払って立ち上がり、ドアの方へ二歩歩いて、振り返って他の三人を見た。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "みんなの顔つきが、死地に向かうみたいだ。<delay ms=\"400\"/>リラックスして。俺たちはまだ始まったばかりだからな。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "誰も笑わなかった。彼らは出発した。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 900
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "第一段路を横断する時、ソレンの判断は正確で、エリアスは目を見張った。巡邏隊の足音が角を曲がるとすぐに、彼らは既に路地を渡り、壁に沿って次の廊下に滑り込んでいた。動きの間に不要な停止がほとんどなかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "第二段路は一つの臨時的に設置された哨所に遭遇した。ソレンは二つ前の路地で気づいて、遠回りをした。失われた時間は許容範囲内に抑えられた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "ブラックマーケットは下層デッキで最も古い建築群に隠されていた。入口は溶接で塞がれているように見える鉄製のドア。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "ドア枠の特定の位置を三回叩くと、中からドアを開ける者がいる。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 1000,
+          "args": {
+            "stay": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "ui",
+          "op": "scanlines",
+          "args": {
+            "enabled": false
+          }
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}

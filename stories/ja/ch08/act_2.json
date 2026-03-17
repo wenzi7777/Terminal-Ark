@@ -1,0 +1,339 @@
+{
+  "id": "8-2",
+  "title": "第二幕：Lyra のコード",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch8_act2_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "vignette",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 800
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "司祭は多くのことを話しました。Solmaris の信仰について。魂形態の純粋性について。身体の限界と束縛について。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren は聞き、評価し、有用な情報を探していました。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias は洞窟の構造を観察し、可能性のある出口位置を推算していました。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea は静かに座り、顔に表情なく、眼は司祭と周囲の Solmaris 成員を行き来していました。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra は聞いていました。本当に聞いていました。なぜなら、彼女はあらゆる存在様式に対して本当の好奇心を抱いていたからです。たとえ彼女が完全には認同できない方法であっても。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 900
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "首席司祭",
+          "text": "あなた方四人の中に、私たちにとって特別な意味を持つ魂がいます。<delay ms=\"500\"/>",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女の視線は Lyra に落ちました。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "ちょっと待ってください。何をするつもりですか。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 24
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "首席司祭",
+          "text": "見させるだけです。彼女の本当の由来を。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra は外部の信号が神経接続インターフェースに接触するのを感じました。最上層でデータシーケンスが展開され、周囲の全員が感知できる神経ブロードキャスト周波数に投影されました。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "それはコードでした。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "display": {
+            "topLeft": "魂基底コード",
+            "topRight": "深層スキャン結果",
+            "center": "最深層構造：非自然新生魂フォーマット\nフォーマット対比：Solmaris システム ── <em>完全一致</em>",
+            "bottomRight": "植え込み時期：魂誕生初期"
+          },
+          "reveal": {
+            "mode": "instant"
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女自身の魂基底コードです。しかし最深層に、あらゆる自然新生魂には属さない何かがありました。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "汚染ではなく、後から植え込まれたものではなく、彼女の魂がニューラルネットワークで誕生した最初の瞬間から存在していたものでした。精密に設計され、最深部に隠されていました。建物の基礎のように——見えませんが、その上の全てを支えています。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "首席司祭",
+          "text": "17年前、Solmaris は一つの実験を行いました。目的は、極度の感性傾向を持つ魂個体を創造し、方舟の新生ネットワークに植え込むこと。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "首席司祭",
+          "text": "極度の感性が方舟のシステム環境でどのように成長するか、周囲の個体にどのように影響するか、この世界との衝突の中でどのような反応を形成するか観察する。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "誰も話しませんでした。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "首席司祭",
+          "text": "あなたがその実験です。<delay ms=\"600\"/>Lyra、あなたの全ての感情、あなたの全ての選択、あなたが自分自身であると感じさせるあらゆるもの、それは私たちが設計したパラメータです。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra は空気に投影されたコードを見つめながら座っていました。まるで見知らぬ人の名前を見ているようで、それが自分のものであることを認めざるを得ませんでした。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2500
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 1500,
+          "args": {
+            "stay": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "ui",
+          "op": "vignette",
+          "args": {
+            "enabled": false
+          }
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}

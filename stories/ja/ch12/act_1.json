@@ -1,0 +1,302 @@
+{
+  "id": "12-1",
+  "title": "第一幕：消え去る光",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch12_act1_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "ui",
+          "op": "titleCard",
+          "args": {
+            "text": "第十二章：別れ"
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 2500
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 1000
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea は坂道の入口の外側の地面に倒れていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼らが戻ったのは、戦闘音が止んだ後だった。戻ることに同意していなかった者もいたが、Lyra が最初に足を止めて、そして戻った。Soren が何か言おうとしたが、何も言えなかった。Elias も何も言わなかった。三人は最終的に一緒に坂道の入口に戻った。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女はそこにいた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "顔を上に向けて、砲撃で焦げた地面に横たわっていた。周囲には Solmaris 兵士の損傷したメカニカルな残骸があり、それが彼女の代価であり、彼女が三人に時間と距離をもたらすために交換した代価だった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女の武装モジュールは完全に破壊されていた。電磁ショートソードはまだ固く握られ、熱電池は最後の放電で焼け、ホログラフィック刃は再生できず、ナイフの刃も中央から折れていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra は歩いてきて、彼女の横に膝をついた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "体にはもはや神経線のシグナルがなかった。同期率の感応はゼロだった。その数字は低いのではなく、ないのであり、感応そのものが存在しない白さなのだ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "体がある程度ダメージを受けると、魂は依存を続けることができず、自動的に脱離する。脱離後、方舟の回収機器があれば、魂は捕捉され、一時的なコンテナに転送され、次の体を待つ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "しかし、荒野には回収機器がない。荒野には何もない。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "魂が開放環境で脱離した後、わずか数分の存続時間があり、その後は拡散し、消滅する。冬の冷たい空気に息を吐き出したのと同じように、空気中に散開し、痕跡を残さない。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra はその顔を見つめていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その顔の表情は静寂を保っていて、眉はしかめられておらず、口角は下向きではなく、ただ静かで、生きていた時とそれほど大きな違いはなかった。すべてを最も深いところに押し込める、音を立てない静寂。ただし、今、その静寂の下には何もなかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は手を伸ばし、そっとその手に触れた。手の甲は冷たかったが、完全には冷え切っていなかった。わずかに、わずかに温度が残っていた。まるで最後の火種が風の前に残っているかのように。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "そしてその温度も消えていった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra は何も言わなかった。彼女は突然、ある何かがこの瞬間に本当に完全に終わったことを感じた。その後の可能性はなく、どこかに何かが残っているわけではない。それは完全であり、一つの方向の消滅であり、その方向を見ると、何もなかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女はその生命名牌を握っていた。その金属片は今、冷たく、荒野の空気と同じく冷たく、彼女が一度感じたことのある温度は何もなかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は膝をついたまま、泣かなかった。泣きたくないからではなく、彼女が落ち込んだその場所は泣くより深いからだ。泣くことは表面的な反応であり、彼女はすでにそれより深い場所にいた。その場所に到達するためのはしごは泣く動きまで届かなかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2500
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 1500,
+          "args": {
+            "stay": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}

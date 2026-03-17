@@ -1,0 +1,218 @@
+{
+  "id": "12-3",
+  "title": "第三幕：別々の道",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch12_act3_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 800
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren が去ろうとする時、Elias が後をついていった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼が同意していたからではなく、彼の顔には同意していないことが書かれていた。しかし彼はついていった。なぜなら、この瞬間に Soren を一人で行かせることの代償は、彼と一緒に行く代償より推測がつかないほど大きかったからだ。彼は一緒に歩きながら見ている必要があり、その極端な無回帰の端に来る前に、まだそこにいる必要があった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼が去る前に Lyra の側で立ち止まり、何も言わずただ一秒立っていた。その後、Soren の歩みに続いた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "ambient",
+          "text": "足音は通路で遠ざかり、その後聞こえなくなった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra はまだそこに膝をついていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "通路の外では、Solmaris の大軍が今回の推進を完了した後、撤退を始めた。それは潮の引く音、足音、機械の動作音、そしてその特殊な周波数の共振波発生器が閉じた後に残った、突然の静寂。静寂は空の布のようにこの廃墟を覆った。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra はそれらの音が消えるまで待った後、立ち上がった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女の周りは荒野であり、廃墟であり、砲撃で焦げた地面であり、その損傷した Solmaris メカニカル残骸であり、その電池が消耗した電磁ショートソードであり、すべてが何も起こらなかったかのように静かな空気だった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女はその冷たい重量を抱きしめ、落ちていった。彼女が言葉で説明できない場所に落ちていった。そこには音がなく、方向がなく、掴むことができるものは何もない。ただ空虚があり、冷たさがあり、彼女がどんなに強く握ってもつかめない消散があった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その消散は彼女が抱きしめた毎秒に続き、拡がり、彼女が境界を感じるまで拡がり、その消散の終わりがどこにあるのか、または、終わりがあるのかさえ知らないまで拡がった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "荒野の風が遠くから吹いてきて、灰を吹き上げて、また落とした。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra は動かなかった。彼女はそのようにして、その冷たく砕けた体を抱きしめ、一人で、その何もない静寂の中で、底のない落下をしていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 4000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 3000,
+          "args": {
+            "stay": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "reward",
+    "complete"
+  ]
+}

@@ -1,0 +1,510 @@
+{
+  "id": "15-2",
+  "title": "第二幕：味方か敵か",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch15_act2_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 800
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "NUTA 地下コアのメイン制御室は静寂に満ちていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "音がないわけではなく、すべての機械がフル稼働し、すべてのシステムが最大負荷で動作している状態で生じる、矛盾した沈黙だった。その音は均一で、継続的で、融合して白いノイズとなり、他のすべての音を吸収し、空間全体を外界から完全に隔絶されたものに見せていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren はメイン端末の前に立っていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "来たか。君が遅れると思ったんだが、Lyra。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "予想より早く着いた。Soren、その端末から離れろ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "拒否する。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その背中を彼女は知っていた。補給基地の傾斜路で見かけた背中だった。すべてを心の奥にしまい込み、計算で感情を置き換えることに慣れた人の背中。補給基地での対峙の際、彼女の腕の中の。その人が今そこに立っていて、背を向けたまま、押したら戻らないような端末に手を置いていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "君がなぜこんなことをしたいのか知ってる。君が何を考えているか知ってる。君の計算が何で、君の論理ではこれが唯一の問題を完全に解決できる方案だと知ってる。全部知ってる、Soren。だから君が間違ってると言おうとは思わない。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "そこで初めて彼は振り向き、彼女を見た。その目には何かがあった。彼がいつもあの静寂の下に隠していた何か。今はその静寂がそれを覆いきれないほどに重くなっていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "なら何しにここに来た。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "お前を止めるに。お前にそのまままかせるわけにはいかない。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "お前には無理だ、Lyra。お前自分で知ってるだろ。戦略判断、神経同期率、武装出力、どの層でも、お前にはここで俺に勝つ方法がない。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "知ってる。でもやってみなきゃならない。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は武装モジュールを装着した。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren は端末脇から後退し、戦闘態勢に入った。メイン制御室の空間は大きくなく、二人の間の距離は十メートル未満だった。彼は彼女がモジュールを装着した後の立ち姿を見ていて、彼の目が一瞬細かく停止した――彼女の立ち方が変わっていた。技術の変化ではなく、もっと根本的な何か。彼の記憶の中では、高圧下でいつも少し無理をしていた同調状態が、今は沈みこんでいて、安定していた。完全にアースされたような何かのようだった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "次に、二人は動いた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女の最初の動作は彼の予想より半拍早かった。速度の問題ではなく、精度だった。彼女の武装モジュール出力は彼の防御弧の最も薄い部分に正確に落下した。その角度は彼が彼女が見つけられると予想していなかった角度だった。彼は側方に移動し、圧し込み、再評価した――彼はそれが偶然だと思った。その次の彼女の動作が再び彼が注意を払う必要がある位置に落下するまで。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "偶然ではなかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼はペースを上げた。彼の予測は正確で、彼は彼女の動作すべてに対応していたが、今回は本当に対応する必要があった。簡単に圧倒するのではなく、二人が本当にこのメイン制御室で対抗していた。彼女の同調深度は彼女の出力を誤差に消費させず、正確で、整理されていて、打つべき場所に正確に打った。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "ui",
+          "op": "shake",
+          "ms": 300,
+          "args": {
+            "intensity": 3
+          }
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は最初の衝撃を受けた。よろめきながら2歩後退し、立ち止まった。その衝撃は以前より彼女の神経リンクに吸収しやすく、その深くで開いた空間も外部の衝撃を緩衝しているようだった。彼女は歯を噛みしめて再校準し、続けた。彼女の同期率は消費されていたが、消費速度はこれまでのどの戦闘よりも遅かった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "二番目のヒットが彼女の右腕に。武装モジュール接続が揺らぎ、出力が低下した。彼女は半秒停止し、再校準した。その再校準速度は予想より早く、彼女と彼女のモジュール間の接続がその中断後、より迅速に再接続されたかのようだった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren は話さなかったが、彼女が三度目に攻撃を彼の防御線の隙間に正確に送った時、彼の目に彼が彼女の中で見たことのない何かがあった。彼は半拍停止した。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 300
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その半拍で、彼女は前に突進し、武装モジュールの砲身を接近させ、彼が反応する前に彼を端末から一歩離す距離に押した。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 22
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "君の同調、前と違ってる。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は答えず、再び攻撃を仕掛けた。彼女の同調深度はこの対抗を彼が最初に見積もったより長く引き延ばし、彼女の出力は無駄になることなく、防御はそれぞれ彼の予想より安定していた。しかし、彼の戦術判断と実戦経験の蓄積は本当の差だった。時間が経つにつれて、その差はゆっくりと広がり始めた。彼女の同期率消費はますます速くなり、彼女の動作は細かなラグを示し始めた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias は制御室の側面にいた。彼は戦闘に参加していなく、別のことをしていた。メイン端末システムに側面から接続し、その指令を一時停止または遅延させる方法を見つけようとしていた。Soren のロック構造はシステムに展開され、厳密で、ほぼ隙間がなかった。彼は隙間の中で探し、探す一方で背後の戦闘の音を聞いていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "ui",
+          "op": "shake",
+          "ms": 400,
+          "args": {
+            "intensity": 5
+          }
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra は大きく押し出された。彼女は制御室の側壁にぶつかり、金属が鈍い音で衝撃に反応し、彼女は壁に沿って滑り落ち、壁に寄りかかりながら立ち上がろうとした。足に力がなく、彼女の同期率はすでに非常に低い数字に達しており、肉体の反応は遅れ始めていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren は彼女の前に立ち、彼女を見下ろした。彼の表情は彼女がこれまで見たことのないものだった。いつもすべてを心の奥に押し込めていた人、その静かな外殻は今この瞬間に完全に消えていた。彼の顔にあるのは、見るだけで胸が痛くなるような何か。あまりに重く、深く、あまりに多くのものを詰め込んだ容器のようで、すべての隙間から漏れ出していた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "お前は立ち上がれない。Lyra、お前は負けた。どきろ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は壁に寄りかかり、ゆっくり立ち上がった。足は震えていた。彼女は安定し、頭を上げて彼を見た。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Lyra",
+          "text": "まだだ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 1200,
+          "args": {
+            "stay": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}

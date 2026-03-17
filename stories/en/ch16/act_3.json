@@ -1,0 +1,386 @@
+{
+  "id": "16-3",
+  "title": "Act 3: The Day After Tomorrow",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch16_act3_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 1000
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren personally shut down the 'Ember Plan' that had been rigorously enforced for over a century.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "In the two hours following that action, the shield's intensity gradually recovered. Nodes that had been starved of power reconnected. Sections that had been deliberately weakened solidified. That light barrier transformed from a membrane about to rupture into something slowly regaining the density it should have had, blue-white light once again spreading evenly across the Ark's perimeter.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Reconstruction of the lower decks hadn't yet begun. That would require time, resources, all the complex coordination and decisions that come with it. But in those ruins, people had already started moving, already clearing debris, already pulling salvageable materials from the wreckage, using everything they had to do small, concrete things—the kind that might make tomorrow just slightly better than today.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra stood on top of NUTA, watching all of it.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "The wind on the rooftop was stronger than at ground level, tousling her hair, and she didn't bother to fix it. She just stood there, letting the wind blow, watching the full scope of the Ark spread out before her—the place she had left long ago, the place she had returned to. The view wasn't from the lower decks looking up, nor from the Wasteland looking back at the shield. This was from here, from this height, encompassing all the layers. Upper decks, middle, lower, the shield, the Wasteland's edge, the distant horizon. All of it within her sight.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren stood to her left, Elias to her right. The three of them stood on that rooftop in silence.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "The eastern sky began to change at some point.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Not the orange-red of artillery fire, not the blue-white of the shield's light. Something else. A color rising up from below the horizon—a warmth that made her eyes water for reasons she couldn't quite articulate. A thin line at first, then expanding, widening, transforming the sky's color from black to gray, from gray to blue, with that warmth breaking through from the deepest blue, the light that was about to arrive.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Sunrise.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra watched that light, watched it grow brighter, clearer. The first rays crested the horizon's edge, crossed the Wasteland's ruined silhouette, passed through the shield's light, fell on NUTA's rooftop, fell on her face, fell on Soren and Elias. That light was warm—direct, unobstructed sunlight, something she had never felt during all those years in the lower decks.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "She closed her eyes, let that light wash over her face, held still for a moment.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Then she opened her eyes, reached into her clothes, and withdrew the nameplate.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "That metal rested in her palm. She closed her fingers around it, feeling its weight, its temperature—that warmth that had never truly faded, warmth from somewhere she couldn't explain. She felt that temperature in her hand once more.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Then she walked forward a few steps to the lookout platform at the rooftop's edge.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "This was the Ark's highest point. Looking down from here revealed the Ark in its entirety—upper and middle and lower decks, the shield, the Wasteland beyond it. The place that had been established here, that had weathered all of this, and ultimately stood on the side of humanity.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "She hung the nameplate there, on the lookout platform's railing. That metal swayed gently in the morning wind, the first rays of sunlight striking it, reflecting a thin, quiet glow.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "She stepped back and watched the plate sway there.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "She wanted to say something, but in the end said nothing. Some things didn't need words; saying them would only make them lighter. She let those things stay in her chest, where they belonged, and let them remain there.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "<whisper>Alea, you must see this too.</whisper>",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Wind moved across that metal, and the thin reflection of light swept across her face like something quietly answering her.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "She turned around, looking at Soren and Elias. Those two stood in that rooftop's light, bearing everything this time had left on them—weight that wouldn't disappear—but also bearing that light, that first unconditional light falling on them, giving their faces something she hadn't seen before. Not relief, not freedom, but something deeper and quieter. Something that meant they could finally keep moving forward.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "The three of them left the rooftop, descending into the place where there was still so much to do. Behind them, that nameplate remained on the lookout platform, swaying in the morning wind, reflecting light in that first sunrise—quietly, peacefully, steadily.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "In the lower decks, people cleared ruins, children ran past the wreckage. The shield stood above them, that light barrier bearing a blue-white clarity it had never held before, like something that had taken a deep breath and regained its footing. It was there. It remained.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "The sun continued rising, its light growing brighter, warmer, reaching everywhere—across the ruins, across the working hands, across the nameplate on the lookout platform, across the three figures descending into the light, their shadows stretching long and far, stretching forward.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 5000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 3000,
+          "args": {
+            "stay": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "reward",
+    "complete"
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "id": "16-2",
+  "title": "第二幕：旧秩序の崩壊",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch16_act2_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 800
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "最初に反応したのは方舟の下層デッキだった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "そこの人々は常に何かがおかしいことを最も明確に知っていた。彼らはその違和感の中で長く生きてきて、それを感じたが言い表すことができず、言い表そうとしたが誰も聞かなかった。今、その言い表すことのできない感覚に名前がついた。数字がついた。すべての詳細が書き出された完全なファイルがついた。そのファイルはそれが長く積もってきた場所に火のマッチを落とすようなものだった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "三十分後、下層デッキの暴動が始まった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "それは無秩序ではなく、長すぎる圧迫から明確な方向を見つけた力だった。その力は自分が何に対抗しているのかを知り、その対抗の対象がどこにあるかを知っていた。それは四方八方に広がらず、方向を持っていた。その方向は上向きで、自分の寿命制限を解除しながら同時にすべての人の寿命カウントダウンを管理し続けた人々の方向だった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "前線の状況は Soren が制御室の監視画面で見た。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Solmaris と Mondris の前線部隊、方舟に攻勢をかけていた兵士たちが、広播がその通信機に到達した後、Soren がいかなる戦術演習でも見たことのない状況を呈した――彼らは停止した。撃退されたのではなく、戦略的撤退でもなく、静止だった。ある情報を受け取り、その情報を処理する必要があるため、その後初めて動作を続けることができるその種の静止。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Mondris の機械軍団は七分間の静止後に撤退した。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "命令なく、見える指揮ノードなく撤退した。それらは自らで撤退し、整然と、秩序立てて。何かの内部計算をした後、その計算がこの戦争を続けることがいかなる計算可能な目標に対しても無意味になった新しい結論に達したかのように。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Solmaris の状況は違っていた。彼らの停火は計算の結果ではなく、別の何かだった。広播に含まれていたのは、AI が彼らの信仰と霊魂浄化への追求を使って、彼らをこの戦争に導いた完全な記録だった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その記録は彼らに知らせた。彼らが信仰と思っていたこの戦争は、最初からより大きな計算のツールだったことを。彼らは自分たちが信じるものために戦っていなかった。彼らは自分たちの信仰を燃料として使う機械に薪を足していた。その停止の方法は Mondris のそれとは異なり、より遅く、より重く、何かが内側から落ち着く必要があるある時間を要するかのようだった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その次は AI 軍団そのものだった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その反応は Elias が最初に気づいた。監視画面でそれらの無人機群を見た。彼らが荒野の鉄の板地で直視された無人機、その飛行経路が広播送信後の特定の時間点で異常を示し始めた。その正確で計算された飛行パターンが不規則な偏差を示し始めた。計算式の重要な変数が移除された後、全出力が現れてはいけない乱数を生じるように。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "そのモデルに一つの仮説がある。人類は継続的に自相殺戮し、十分な条件さえ与えれば、その過程は必要なデータの提供を続けるだろう、という仮説だ。その採集計画、モデル訓練、すべての次のステップは、その仮説の上に建立されている。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "今その仮説が成り立たなくなった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "そのモデルが存在しない変数を計算することはできない。三陣営同時停火。いずれの側も勝つわけではなく、いずれの予測された結末でもない。その結末はそのすべてのモデルに存在しない。だからそのアウトプットがエラーを起こし始めた。軍団に有効な指令源を失わせる。そのモデルを再構築する時間が必要だ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "それらの無人機は画面で飛び続けたが、その飛行方向はもう意味を持たなかった。目的地を失った鳥の群のように、本来目的地があるべき場所でなお羽を打ち、どこへ行くべきか知らなかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "方舟下層デッキの暴動は五時間後に上層に到達した。いつもこのシステムを管理していた人たち、寿命欄に「解除済み」と書かれた人たち、その上向きの力が到達する前に、もう広播の中の情報が存在しないふりをすることはできなかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "旧秩序は崩壊し始めた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 1500,
+          "args": {
+            "stay": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}

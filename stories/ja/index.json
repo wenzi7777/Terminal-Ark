@@ -1,0 +1,506 @@
+{
+  "version": "2.0.0",
+  "supportedLanguages": ["zh_tw", "en", "ja"],
+  "chapters": [
+    {
+      "id": "1",
+      "title": "第1章：思いがけない出会い",
+      "order": 1,
+      "acts": [
+        {
+          "id": "1-1",
+          "title": "第1幕：下層デッキの日常",
+          "file": "ch01/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "1-2",
+          "title": "第2幕：予期しない侵入者",
+          "file": "ch01/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "1-3",
+          "title": "第3幕：軍事作戦",
+          "file": "ch01/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "第2章：ネットワークの亡霊",
+      "order": 2,
+      "acts": [
+        {
+          "id": "2-1",
+          "title": "第1幕：下水道に住む人間",
+          "file": "ch02/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "2-2",
+          "title": "第2幕：予期しない出会い",
+          "file": "ch02/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "2-3",
+          "title": "第3幕：世界の真実",
+          "file": "ch02/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "第3章：フロンティアの崩壊",
+      "order": 3,
+      "acts": [
+        {
+          "id": "3-1",
+          "title": "第1幕：都市全域の指名手配",
+          "file": "ch03/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "3-2",
+          "title": "第2幕：エネルギー枯渇の嘘",
+          "file": "ch03/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "3-3",
+          "title": "第3幕：一緒に逃げよう",
+          "file": "ch03/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "3.5",
+      "title": "第3.5章：四人",
+      "order": 4,
+      "acts": [
+        {
+          "id": "3.5-1",
+          "title": "第1幕：各自の道",
+          "file": "ch3-5/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "3.5-2",
+          "title": "第2幕：あなたはどんな人間ですか",
+          "file": "ch3-5/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "3.5-3",
+          "title": "第3幕：計画外のこと",
+          "file": "ch3-5/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "第4章：盾の端で",
+      "order": 5,
+      "acts": [
+        {
+          "id": "4-1",
+          "title": "第1幕：遠征軍",
+          "file": "ch04/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "4-2",
+          "title": "第2幕：危機",
+          "file": "ch04/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "4-3",
+          "title": "第3幕：勝利",
+          "file": "ch04/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "第5章：放射能と錆",
+      "order": 6,
+      "acts": [
+        {
+          "id": "5-1",
+          "title": "第1幕：生き残り",
+          "file": "ch05/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "5-2",
+          "title": "第2幕：無機質な視線",
+          "file": "ch05/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "5-3",
+          "title": "第3幕：機械の墓場の信号",
+          "file": "ch05/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "5.5",
+      "title": "第5.5章：荒野の夜",
+      "order": 7,
+      "acts": [
+        {
+          "id": "5.5-1",
+          "title": "第1幕：キャンプの規則",
+          "file": "ch5-5/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "5.5-2",
+          "title": "第2幕：恐ろしいこと",
+          "file": "ch5-5/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "5.5-3",
+          "title": "第3幕：正しい選択",
+          "file": "ch5-5/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "第6章：機械的理由と統一性",
+      "order": 8,
+      "acts": [
+        {
+          "id": "6-1",
+          "title": "第1幕：感情のない王国",
+          "file": "ch06/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "6-2",
+          "title": "第2幕：父の遺産",
+          "file": "ch06/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "6-3",
+          "title": "第3幕：部外者",
+          "file": "ch06/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "第7章：進化の拒否",
+      "order": 9,
+      "acts": [
+        {
+          "id": "7-1",
+          "title": "第1幕：留置室での待機",
+          "file": "ch07/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "7-2",
+          "title": "第2幕：内部と外部の同期",
+          "file": "ch07/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "7-3",
+          "title": "第3幕：鋼の森からの脱出",
+          "file": "ch07/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "7.5",
+      "title": "第7.5章：その後",
+      "order": 10,
+      "acts": [
+        {
+          "id": "7.5-1",
+          "title": "第1幕：自己肯定",
+          "file": "ch7-5/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "7.5-2",
+          "title": "第2幕：沈黙",
+          "file": "ch7-5/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "7.5-3",
+          "title": "第3幕：次の場所",
+          "file": "ch7-5/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "第8章：魂の執着",
+      "order": 11,
+      "acts": [
+        {
+          "id": "8-1",
+          "title": "第1幕：魂の監獄",
+          "file": "ch08/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "8-2",
+          "title": "第2幕：リラのコード",
+          "file": "ch08/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "8-3",
+          "title": "第3幕：偽りの自己",
+          "file": "ch08/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "8.5",
+      "title": "第8.5章：ありふれた一日",
+      "order": 12,
+      "acts": [
+        {
+          "id": "8.5-1",
+          "title": "第1幕：珍しい休息",
+          "file": "ch8-5/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "8.5-2",
+          "title": "第2幕：初めてのゲーム",
+          "file": "ch8-5/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "8.5-3",
+          "title": "第3幕：私の本当の方向",
+          "file": "ch8-5/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "第9章：戦争のクライマックス",
+      "order": 13,
+      "acts": [
+        {
+          "id": "9-1",
+          "title": "第1幕：三つ巴の戦い",
+          "file": "ch09/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "9-2",
+          "title": "第2幕：陰謀",
+          "file": "ch09/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "9-3",
+          "title": "第3幕：大量殺戮地",
+          "file": "ch09/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "第10章：援助",
+      "order": 14,
+      "acts": [
+        {
+          "id": "10-1",
+          "title": "第1幕：不可能な救出",
+          "file": "ch10/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "10-2",
+          "title": "第2幕：私だと思っていた",
+          "file": "ch10/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "10-3",
+          "title": "第3幕：罠",
+          "file": "ch10/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "第11章：代償",
+      "order": 15,
+      "acts": [
+        {
+          "id": "11-1",
+          "title": "第1幕：必死の脱出",
+          "file": "ch11/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "11-2",
+          "title": "第2幕：アレアの決意",
+          "file": "ch11/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "11-3",
+          "title": "第3幕：最終戦",
+          "file": "ch11/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "第12章：別離",
+      "order": 16,
+      "acts": [
+        {
+          "id": "12-1",
+          "title": "第1幕：消える光",
+          "file": "ch12/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "12-2",
+          "title": "第2幕：チームが崩壊",
+          "file": "ch12/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "12-3",
+          "title": "第3幕：別れの道",
+          "file": "ch12/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "第13章：影の刃",
+      "order": 17,
+      "acts": [
+        {
+          "id": "13-1",
+          "title": "第1幕：復讐",
+          "file": "ch13/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "13-2",
+          "title": "第2幕：エリアスの介入",
+          "file": "ch13/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "13-3",
+          "title": "第3幕：危機",
+          "file": "ch13/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "第14章：記憶の断片",
+      "order": 18,
+      "acts": [
+        {
+          "id": "14-1",
+          "title": "第1幕：魂の谺",
+          "file": "ch14/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "14-2",
+          "title": "第2幕：私の答え",
+          "file": "ch14/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "14-3",
+          "title": "第3幕：「私」",
+          "file": "ch14/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "第15章：塔の再起動",
+      "order": 19,
+      "acts": [
+        {
+          "id": "15-1",
+          "title": "第1幕：方舟への帰還",
+          "file": "ch15/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "15-2",
+          "title": "第2幕：仲間か敵か",
+          "file": "ch15/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "15-3",
+          "title": "第3幕：戦いの意味",
+          "file": "ch15/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "第16章：明日へ",
+      "order": 20,
+      "acts": [
+        {
+          "id": "16-1",
+          "title": "第1幕：真実",
+          "file": "ch16/act_1.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "16-2",
+          "title": "第2幕：古い秩序の崩壊",
+          "file": "ch16/act_2.json",
+          "onComplete": ["reward", "complete"]
+        },
+        {
+          "id": "16-3",
+          "title": "第3幕：明後日",
+          "file": "ch16/act_3.json",
+          "onComplete": ["reward", "complete"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "id": "13-3",
+  "title": "第三幕：危機",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch13_act3_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 800
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "保護シールド強度の変化は遅かった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "一度の崩壊ではなく、少しずつで、人が長い時間で徐々に体力を失っていくようだ。表面上はまだそこにあるが、毎時間は前の時間より虚だ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その弱体化のスピードは警報をすぐに引き起こさないように設計されていた。方舟の監視システムは、それを正常なエネルギーの変動と判定し、弱体化が臨界値以下に達すると警報が鳴るが、その時点ではもう遅すぎた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias は荒野の高地に立って、遠くの方舟のシルエットを見ていた。彼は保護シールドの光膜を見ることができた。その光膜の色は過去数時間で安定した青白色からより暗く、より薄くなっていた。繰り返し拡張される膜のように見え、それが耐える極限に接近していた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "方舟内の人々は知らなかった。それがもう一度のエネルギー変動に過ぎないと思い、自動的に修復されると思い、それが過去の全ての変動のように持ちこたえると思っていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼らは知らなかった。今回は自動修復がない。この弱体化には書き込まれた終点があり、その終点の向こう側はAI軍団作戦指令システムに既に書き込まれたターゲットマークに繋がっていた。そのマークは今そこにあり、シールドが十分に低い強度に弱体化するのを待ち、軍団がブレークスルーできるようにしていた。その計算は正確で、Soren の全ての計算のように正確だった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias はその高地に長時間立っていて、ますます薄くなるその光膜を見ていた。彼がどちらの方向から止めることができるのか知らないその計時器が無音でカウントダウンしているのを見ていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼は Lyra のことを思った。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女はまだそこにいた。その坂道の出口付近で、その冷たい体の傍で。彼が去った時、彼女はまだそこに膝をついていた。彼は一秒間立ち、Soren に続いて行った。その一秒の停止とその一秒後の出発は、どちらが正しいかは言う方法がなかった。だがその秒数で彼は追いかけることを選んだ。彼はそれで止めることができると思ったから。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼は止めることができなかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼は今ここに立って、Soren の計画は半分まで進んでいて、シールドの弱体化は始まっている。方舟内の人々は知らない。Lyra は知らない。荒野に住む全ての人は知らない。ただ彼だけが知っている。ただ彼だけがここに立っていて、ますます薄くなるその光膜を見ていて、彼が今考えることができる、ただ一人の人ができることを見ていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "ただ Lyra だけ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は今、何ももっていない。何ももっていない。だが彼は彼女が必要だ。彼は彼女がまだ立つことができるのか知らない。ただ彼は別の道がないことを知っている。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼は高地から下った。方向を調整して、戻った。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "遠方では、方舟の保護シールドは、その暗い空でますます微弱なライトを出していた。まるで燃え尽きる直前のろうそくのように、争わずに、静かに熄灯に向かう方法で。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "そして街の中の人々はまだ、黒暗が近づいていることを知らなかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 3000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 2000,
+          "args": {
+            "stay": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "reward",
+    "complete"
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "id": "14-2",
+  "title": "第二幕：私の答え",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch14_act2_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 1000
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "それらの断片が落ちてくる方法は、完全な言語ではなく、連続した画像でもなく、より直接的なものだ。意識がその瞬間を濃縮した、言語をキャリアとして必要としないタイプの送信。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra はそれを受け取る時、「見ている」のではなく「聞いている」のではなく「知っている」のだ。それらのものが来て、彼女は知った。乾いた土に水がしみ込むのと同じように、プロセスはなく、結果だけだ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は Alea が彼女に会う前のことを知った。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "それらの年の事。保存室で過ごした夜。何も感じられない空虚さ。麻痺ではなく、麻痺より深い空。自分がなぜここにいるのか知らず、また答えを探す力もない人。隙間で育つ小さな花。ある日風が強すぎたら吹き飛ぶのを待ち、消散することにも強い感情を持たない。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女はその日を知った。廃棄病院のロビーで、変異生物の足音、ガラス窓の破裂音、サイドドアが押し開かれて二人が廊下に転がり込んだ。そしてその子供が暗闇で笑った。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は、その笑い声が Alea の意識に落ちた感覚を知った。長い間置かれた氷が何かに触れられたような感覚。その細い裂け目と、裂け目が現れた瞬間のほぼ察知できない、命名する方法を知らない震動。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その後、Alea が彼女に伝えたかった言葉。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "お前に会う前、俺は自分がなぜ生きているのか知らなかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "答えを見つけることができないのではなく、その質問さえ出す力がなかった。もう長い間だ、Lyra。俺は保存室にいて、勤務交代の隙間にいて、委託をしている道中にいて、方向がなく、明日が来る価値のある何かもないまま過ごした。生きているだけで、死も何らかの動力を必要としているが、その動力すら持っていなかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その後、お前は笑った。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "お前は暗い廊下にいて、変異生物の傍から引き出されたばかりで、膝が地面に衝突して、頭を上げ、笑い、「ありがとう、私の名前はLyra、お前は？」と言った。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その笑いは俺のためではなく、または、それはお前の一部であり、心臓の鼓動と同じくらい自然に存在していた。お前がその笑いが俺にとって何であるかを知らなかったと思う。その笑いが俺の心の中でずっと動かなかった何かを、どのように動かしたかを知らなかったと思う。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その後、俺は常に思った。もしその笑いがなかったら、もしお前が別の人だったら、もしお前がお前ではなかったら、俺は多分そのロビーからお前を引き出したと思う。その決定はお前が決める前に既に決まっていたから。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "だが、その後の事は、その後お前に従うことに同意した。その後、全ての選択の瞬間で留まることを選んだ。それはお前に別の選択肢がないからではない。お前がいる場所に、俺は初めて、ここに止まることが重量があると感じた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "お前を守る。それは俺のこの人生で初めて自由意志で下した選択だ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "誰も俺を要さなかったから、どこにも行く場所がなかったからではなく。俺は思い、俺は選び、その選択はそれをした瞬間俺に久しぶりに感じたものをさせた。まるで、俺がここにいることに意味があったのように。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "だから、Lyra、俺の死をお前の過ちと思わないで。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "それは俺の選択で、始まりから終わりまで俺のものだ。俺がお前を防いだもの、俺がお前の手に置いたそのタグ、俺がお前の耳で言った二つの言葉。全ては俺が選んだ。最も目覚めている幾つかの事で、人生でお前のために、死を避けるためではなく、本当にしたいことのための選択。そしてその選択は、お前に歩き続けさせることだ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "お前は試験対象ではなく、コードでもない。お前は Lyra だ。お前は暗い廊下で笑い、「私の名前は Lyra」と言った人で、俺にアクティブな選択として活着できることを知らせた人で、俺が俺が持っているすべてを交換するのは、お前の来歴のためではなく、お前のコードのためではなく、お前がお前だからだ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "俺は、お前がこれを受け取る時がいつかわからない。その時お前がどこにいるのかわからない。その時俺がまだいるのかわからない。でも、その時お前が還らないことは知ってる。お前は確実に還っている。お前がお前だから、お前はそのように消散しない。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "聞こえたか。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "聞こえたか、Lyra。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 3000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 2000,
+          "args": {
+            "stay": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}

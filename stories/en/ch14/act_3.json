@@ -1,0 +1,400 @@
+{
+  "id": "14-3",
+  "title": "Act 3: \"I\"",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch14_act3_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 1000
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Those fragments dispersed at some point.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Not abruptly. Slowly, like morning mist fading in light. Lyra felt that texture withdrawing from her neural terminal bit by bit. She wanted to hold on, her fingers clenching in the dust, but these things weren't something you could grip. She only let them go, let them scatter into the Wasteland air, into the cold ground she lay on, scatter and disappear.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "She lay there. The sky above her, the Wasteland sky, the kind without a shield. Vast, gray, cold with radiation dust coloring. No boundaries. Boundless looking up, endlessly.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "She lay for a very long time without moving.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Then she cried.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Not the inability to cry from before. True crying. The tears came from the corners of her eyes, flowed past her temples, soaked into the dust. She didn't wipe them. Let them flow. Let what had been compressed in her chest for so long have a way out. Let it come out this way, because she'd reached the limit of what she could keep holding.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "She cried for a very long time.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "When that finally ended, when the tears had truly finished, she slowly brought the back of her hand to her eyes, letting her hand's warmth block out the gray sky above, paused there, then put her hand down.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "She was an experimental subject. A designed soul. A Solmaris reject. These were all true. She didn't plan to deny them or pretend they didn't exist. But she was also Lyra. The person who laughed in that dark corridor. The person who took Alea's wrist. The person held in that embrace in the underground cavity. The person who was told \"you've become yourself.\" The person Alea deeply loved. The person Alea died protecting.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "She finished crying. Just as she wiped her eyes, something loosened in the depths of her neural connection.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Like something locked tight for a long time quietly came undone. Her consciousness sank to a depth she'd never reached before. The boundary of that depth had always been fuzzy in her perception, untouchable. Now that boundary was gone. She kept sinking deeper, into a space she didn't know she possessed. It was empty. Clear. Like a container never used before, waiting there, waiting for so long.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "She didn't know what it was. She only knew that space had never opened to her before. She only knew it opened after she pushed all her grief into the very deepest place.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "She slowly sat up.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "The movement was effortful. Her body was consumed down to very deep levels. There was a wave of dizziness as her knees supported her sitting up. She waited for it to pass, let it pass, then slowly stood, feet on the Wasteland ground, finding her balance.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "She held the life nameplate in her palm, looked at it for a long time, then put it back around her neck, letting that metal touch her chest, letting it stay there, letting its weight remain.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Then she looked toward the Ark.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "She didn't know what it looked like now. She didn't know how far Soren had gone. She didn't know where Elias was. She didn't know what awaited her. She knew nothing. But she knew one thing, and that was enough.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea asked her to keep walking.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "It wasn't a request. It wasn't a dying wish. It was something she'd already decided. Something she'd prepared and put in that nameplate on some day she didn't even mark, something she handed to Lyra with her own hands, for her to carry forward.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "She couldn't fail that choice. She wouldn't fail it.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "She wiped the last of the tears from her face with the back of her hand, brushing away all traces, then brought her hand down and drew a deep breath of the Wasteland's cold air, letting that cold fill her lungs clearly.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Then she took a step forward. Toward the Ark. She found her body incredibly light, as if she'd just switched to a new form. She walked, the life nameplate swinging gently with her steps. She felt that swing, felt that weight, felt that warmth—whether her own body heat or something else, she couldn't tell—still there, still there, not scattered.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "The Wasteland wind came from behind her, pushing her forward gently, like someone patting her back lightly.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "She kept walking.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 3000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 2000,
+          "args": {
+            "stay": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "reward",
+    "complete"
+  ]
+}

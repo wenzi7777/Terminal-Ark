@@ -1,0 +1,330 @@
+{
+  "id": "14-1",
+  "title": "第一幕：スピリットの反響",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch14_act1_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "ui",
+          "op": "titleCard",
+          "args": {
+            "text": "第十四章：記憶の残片"
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 2500
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 1000
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra は自分がどのくらい歩いたのか知らなかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その場所を去った後、彼女は歩き始めた。方向がなく、目的地がなく、ただ歩いただけだ。停止したら彼女がまた立つことができるのか知らなかったから。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "荒野の地面は彼女の足の下に延びていた。碎石、ほこり、時には古い文明の遺跡。彼女はこれらを歩いた。歩みは機械的で、まるで誰も中に入っていない体が慣性で動き続けるかのよう。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女の神経接続同期率は補充なしで長時間休息なしで続き低下していた。彼女はその数字を感じることができたが、注意を払わなかった。その数字に注意を払うことは、自分が存在し続けることにある程度気をつけていることを必要とし、彼女は今それを持っていなかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "補給は二日目で使い果たした。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "水は三日目の夕方に最後の一口を飲み干した。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "四日目、彼女の体は本当の抗議を発し始めた。それはもはや神経接続レベルの信号ではなく、より下位のレベルの純粋な有機体の信号だった。彼女の視界の端が黒くなり始め、足取りが不安定になった。彼女は倒壊した廃墟の傍で倒れ、地面で身体を支えながら起き上がり、歩き続けた。数歩歩いて、また倒れた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "この時は起き上がらなかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は荒野の地面に横たわり、冷たいほこりに顔を押し当てていた。彼女の神経接続同期率は臨界数に低下し、その数字は彼女のビジョンの端でかすかな警告をちらつかせていた。まるで消えようとしているランプのように。彼女はしばらくその数字を見つめた後、目を閉じた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は、そのようなのもいいかもしれないと思った。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女の手は側部に垂れていて、指の先がジャケットの最も奥のポケットの位置に触れた。その位置は少し硬く、細い鎖があり、磨かれた金属タグがあった。彼女の指はその位置で停止し、その後、最後の本能であるかどうか不明で、彼女はそのタグをポケットから引き出し、掌に落とした。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その金属は彼女の肌に貼り付き、冷たかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> 神経終端 ── 未認識シグナル受信 ── フォーマット不明",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> 暗号化層復号化 ── キー出典：ローカル接触インターフェース ── 復号化完了",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> 時限パケット ── タイムスタンプ：17日前 ── 展開中",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "パケットはすでに彼女の神経接続に展開していた。それらの断片は極度に断片化されていて、壊れた鏡のようで、各断片は角落ちの影像だけを映していて、完全な形がなく、明確な境界がなかった。しかし彼女はそのデータの質感を認識した。過去数ヶ月間で記憶した、特定の人物に独自の質感。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea のものだった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女の意識はその接触で停止した。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "<whisper>消散しないで。消散しないで、Alea、それ、お前か？</whisper>",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 1200,
+          "args": {
+            "stay": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}

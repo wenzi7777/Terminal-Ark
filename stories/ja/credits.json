@@ -1,0 +1,26 @@
+{
+  "scrollDuration": 11000,
+  "sections": [
+    { "type": "logo", "text": "TERMINAL ARK" },
+    { "type": "spacer" },
+    { "type": "tagline", "text": "ターミナルアーク" },
+    { "type": "spacer" },
+    { "type": "spacer" },
+    { "type": "role", "label": "アート", "name": "Nick Hsu" },
+    { "type": "role", "label": "ワールド構築", "name": "Nick Hsu" },
+    { "type": "role", "label": "脚本", "name": "Nick Hsu" },
+    { "type": "role", "label": "キャラクターデザイン", "name": "Nick Hsu" },
+    { "type": "spacer" },
+    { "type": "role", "label": "UI / UX デザイン", "name": "Nick Hsu" },
+    { "type": "role", "label": "プログラミング", "name": "Nick Hsu" },
+    { "type": "spacer" },
+    { "type": "spacer" },
+    { "type": "section-title", "text": "特別感謝" },
+    { "type": "spacer" },
+    { "type": "thanks", "name": "ここまでプレイしてくれたあなたへ" },
+    { "type": "spacer" },
+    { "type": "spacer" },
+    { "type": "spacer" },
+    { "type": "copyright", "text": "© 2026 Terminal Ark. All rights reserved." }
+  ]
+}

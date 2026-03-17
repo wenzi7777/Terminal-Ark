@@ -1,0 +1,386 @@
+{
+  "id": "16-3",
+  "title": "第三幕：明日の明日",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch16_act3_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 1000
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren は一百二十年以上の間厳格に実行されていた「火種計画」を自らの手で閉じた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "シールドの強度はその後の二時間で徐々に回復した。供給が切られていたノードが再接続され、意図的に弱化されていた区間が再び充填され、その光幕は壊れかけた薄膜からゆっくりと本来の密度に戻り、藍白色の光が方舟の周囲全体を再び均一に覆った。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "下層デッキの再建はまだ開始されていない。それには時間が必要で、資源が必要で、複雑な調整と決定が必要だ。だがそれらの廃墟の中には既に人が動いていた。清掃する人がいた。使える材料を廃墟から掘り出す人がいた。彼らが使える全てのもので、今日より明日がほんの少し良くなるような小さく、具体的なことを始める人がいた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra は NUTA の屋上に立ち、これをすべて見ていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "屋上の風は地面のそれより大きく、彼女の髪を吹き乱した。彼女は整えなかった。彼女はただそこに立ち、風に吹かれ、彼女が長く去り、また戻ってきた方舟の全景を目の前に広げていた。その全景は彼女が下層デッキから上層を仰ぎ見た時の角度ではなく、彼女が荒野から防護罩を見返した時の角度でもなく、ここからの高さで、すべての層を見に入れた。上層、中層、下層、シールド、シールド外の荒野の端、遠方の地平線。全部が視野に入った。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren は彼女の左側に、Elias は右側に立っていた。三人は屋上に立ち、話さなかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "東の空は時間の経過とともに色が変わり始めた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "砲撃の橙赤でなく、シールド光幕の藍白でなく、別の色だった。地平線下からゆっくり上ってくる、見る人の目が酸っぱくなるような、あるその種の温かい色合い。それは最も深い暗さから透け始め、まず細い線として、その線がゆっくり広がり、その空の色が黒から灰に、灰から藍に、藍の最深部からその昇る光が透けて、やがて来るものの光が透け始めた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "日の出だった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra はその光を見た。それが明るくなり、より鮮明になるのを見た。太陽の第一光線が地平線の端を越え、荒野の廃墟の輪郭を越え、シールド光幕を越え、NUTA の屋上に落ち、彼女の顔に落ち、Soren と Elias の顔に落ちた。その光は温く、下層デッキのそれらの年で彼女が経験したことのない、直接的で、何の遮りもない陽光だった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は目を閉じ、その光が彼女の顔に落ちるのを感じ、停止した。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "次に彼女は目を開け、衣服の中に手を入れ、あの生命名牌を取り出した。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その金属は彼女の手のひらに。彼女は握り、その重さを感じ、その温度を感じた。決してコールド化していない、彼女がどこから来たかわからない、その温度を感じた。その温度を手のひらの中で再び感じた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "次に彼女は数歩前に歩き、屋上の最辺縁の展望台のそばに立った。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "それは方舟の最高点だった。ここから下を見ると、方舟の全体を見た。上層と中層と下層、シールドとそれ外の荒野。ここに建立され、すべてのこれらを通ってきた、最後はなお人の側に立った場所。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女はその生命名牌を掛けた。展望台の頂端の欄杆に掛けた。その金属は晨風の中で軽く揺れ、第一光線がその金属に落ちて、細く、静かな光を反射した。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は一歩後退し、その牌が揺れるのを見た。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は何か言いたかったが、最終的には何も言わなかった。何か言う必要のないものがあり、言い出すと却ってその重さが軽くなる。彼女はそれらのものを胸のままにしておき、それがそこに留まるようにした。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "<whisper>Alea、お前もきっと見たんだろ。</whisper>",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "風がその金属を吹いた。その細い反光は彼女の顔を掃いた。何かが軽く彼女に応答したのような。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は身を翻し、Soren と Elias を見た。その二人は屋上の光の中に立ち、この時間を刻んだものが全てあり、消えない重さがあるが、その光もあった。初めて落ちた光、条件のない光が彼らの顔に落ちて、彼女が以前見たことのない何かで彼らの顔を満たした。軽さではなく、解放ではなく、より深い、より静かな何かだった。ついに前に進むことができるその種の何か。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "三人は屋上から降りた。降りた向こう、歩く路はまだ長い場所に向かって。背後で、その生命名牌は展望台の頂端にまだあり、晨風の中で揺れ、その第一の陽光の中で、静かに光を放っていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "下層デッキで、廃墟を清掃する人がいて、その廃墟脇を走る子どもがいた。頭上のシールド、その光幕は陽光の中に透けて、以前よりも清澄な藍白色で輝いていた。深呼吸をして再び立ち上がったもののように。それはそこに、それはまだそこにあった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "太陽は昇り続け、光はますます明るく、ますます温く、すべてのところに落ちた。廃墟に落ち、清掃する手に落ち、展望台頂端の金属に落ち、降りていく三人の背に落ちて、その背影が光の中で長く、遠く、いつも前に。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 5000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 3000,
+          "args": {
+            "stay": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "reward",
+    "complete"
+  ]
+}

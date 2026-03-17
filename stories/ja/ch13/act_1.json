@@ -1,0 +1,480 @@
+{
+  "id": "13-1",
+  "title": "第一幕：復讐",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch13_act1_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "ui",
+          "op": "titleCard",
+          "args": {
+            "text": "第十三章：暗い刃"
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 2500
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 800
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren は三日目で話すのをやめた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "それは沈黙ではなく、別の何かだ。人がすべての外向きのインターフェースをシャットダウンした後に残る静寂だ。Elias は彼の傍を歩きながら、その静寂は壁のようにどんどん厚くなり、1時間ごとにもっと厚くなっていくように感じた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼は何度か話しかけようとしたが、何かを言った。Soren は聞くだろう、彼の目には反応があるだろうが、ただ話さなかった。言語という道具はすでに不要なカテゴリーに分類されたかのように。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼はずっと考えていた。Elias は見ることができた。その状態は Alea が死んだその瞬間から止まっていなかった。しかし方向が変わっていた。「どうやって生きるのか」ではなく、「どうやって出口を見つけるのか」ではなく、別の方向だ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼は四日目の朝、Soren が放棄された端末に残した残りの接続記録から確認した。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その記録はすでに削除されていたが、十分には削除されていなかった。または、Soren は完全に削除することを気にしていなかったのだ。まるで彼はすでに誰かに知られることを気にしていないかのように。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "ui",
+          "op": "scanlines",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> ターゲットノード ── 方舟コア保護シールドコントロールシステム",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> ターゲットノード ── スピリット管理局中央データベース",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "system",
+          "text": ">> ターゲットノード ── AI軍団作戦指令受信端子",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "ui",
+          "op": "scanlines",
+          "args": {
+            "enabled": false
+          }
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias はすべてのピースを合わせて、その完全な計画を脳の中で復元し、それが完全に彼の目の前に現れるようにした。その後、彼は目を閉じて、深く息を吸った。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "保護シールドを解除する。保護がなくなった場合、方舟はAI軍団にとってオープンターゲットになる。それから方舟を最高脅威レベルとしてマークするすると、軍団の作戦優先度はそれをすべてのターゲットの前面に自動的に配置する。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "方舟の上層階は消去される。MondrisとSolmarisはAI軍団との正面衝突でもいかなる勝算もない。荒野の両国も消去される。すべての人が消える計画、きれい、徹底的で、古い秩序が継続して機能できるままで何も残さない。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "また、生き続けることができる人も何も残さない。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias はその端末の電源を切り、立ち上がり、Soren を探しに行った。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren は廃墟の角に座っていた。背を壁に当て、顔の前に何個かのデータチップが散らばり、目は虚空のある方向を見つめていた。だが、その見つめる姿勢そのものが、彼は空虚を見ているのではなく、推論していることを示していた。その状態はElias が過去数ヶ月で何度も見たことがあるもので、彼を怖がらせたことはなく、今、彼を怖がらせた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "お前の接続記録を見た。はっきり言え。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "お前はもう見た、それで何をはっきり言う必要があるのか。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "お前に親口で言ってもらう必要がある。自分が組み立てた計画が本当だと確認させてほしい、自分が間違えて見たのではなく。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "お前は間違えていない。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼の声は平坦だった。その平坦さはElias の何かが引き締まった。興奮の平坦ではなく、演技の平坦ではなく、人が何か十分に徹底的に考えて、その透徹の終わりに立ち止まって初めて持つ平坦さだ。まるで磨かれた石のように、すべての毛羽立ちが消え、ただコアの密度だけが残っている。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "Alea は死んだ。難民は死んだ。下層甲板の人々は死んだ。強制的に回収された人工兵士は死んだ。そしてこれすべてを可能にしたそのシステムはまだあり、まだ運転中で、まだ次々と人々をその機械に送り込んでいる。<delay ms=\"300\"/>これが正しいと思うのか？",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "だから全員殺すのか？",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 20
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "これすべてを可能にするすべての構造を削除する。上層階、両国、AIの収集ネットワーク、すべて。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "下層甲板の人々もいる。荒野に住んでいる普通の人々もいる。このすべてが何なのか知らないそれぞれの人もいる。お前の計画はこれらを区別しない。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "代償。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "それは代償ではない。それはお前が全員の代わりに決めた選択だ、誰も同意しなかった選択。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren は再び話さなかった。彼は Elias の顔から目線をそらし、虚空の方向を見つめていた。その高速で回転する状態は再びスタートした。まるで短い間開いていた窓が再び閉じたのだ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias はその再び閉じた窓の前に立っていて、今日の対話が到達できる終わりに来たことを知っていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 1200,
+          "args": {
+            "stay": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}

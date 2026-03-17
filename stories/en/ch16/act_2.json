@@ -1,0 +1,304 @@
+{
+  "id": "16-2",
+  "title": "Act 2: The Collapse of the Old Order",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch16_act2_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 800
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "The lower decks were the first to react.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "They had always been the ones who knew something was wrong. They had lived with that wrong for too long, felt it without being able to name it, tried to explain it but found no one would listen. Now that nameless feeling had a name, had numbers, had a complete document detailing every single element. That document was like a match dropped into a place that had been accumulating tinder for far too long.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Thirty minutes later, the lower deck uprising began.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Not chaos—something far more dangerous. A force that had been suppressed for too long, now finding clear direction. A force that knew exactly what it was fighting against, knew precisely where that enemy stood. It didn't spread everywhere; it had focus. That focus pointed upward, toward those who had freed themselves from their lifespans while continuing to enforce everyone else's countdown.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Soren witnessed the front-line situation on the control room monitors.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "The Solmaris and Mondris front-line forces, the soldiers currently assaulting the Ark, after receiving the broadcast on their communication systems, did something Soren had never seen in any tactical projection—they stopped. Not pushed back, not a strategic retreat. Stillness. The kind of pause needed after receiving information that requires reprocessing before any further action can be taken.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Mondris's mechanical legions withdrew after standing motionless for seven minutes.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "No command, no visible command node issuing a retreat order. They withdrew on their own—cleanly, methodically, as if they had performed some internal calculation and arrived at a new conclusion. That conclusion told them that continuing this war served no computable purpose anymore.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Solmaris was different. Their ceasefire wasn't the result of calculation—it was something else. They received in the broadcast the complete record of how the AI had guided them, leveraged their faith and their pursuit of spiritual purity, drawing them into this war.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "That record showed them that what they believed was an act of faith was, from the beginning, merely a tool in a larger calculation. They weren't fighting for what they believed in—they were feeding kindling to a machine that had been burning their faith as fuel. The way they stopped was different from Mondris, slower and heavier, as if something needed time to settle inside them.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "And then there was the AI Legion itself.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Elias noticed the anomaly first. On the monitoring screens, he watched those drone swarms—the ones they had been aware of on the Wasteland's iron plains—begin displaying irregular flight patterns. The precision-calculated flight paths that had defined their movement started introducing non-standard deviations, like an equation losing a critical variable, its output beginning to generate garbage code it shouldn't produce.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "It had an assumption in its model. That humans would continue destroying each other—that with the right conditions, the process would keep providing the data it needs. Its collection plans, its model training, everything that comes next, was built on that assumption.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Soren",
+          "text": "That assumption just broke.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "dialogue",
+          "speaker": "Elias",
+          "text": "It can't compute a variable that doesn't exist in its model. Three factions ceasing fire simultaneously—not victory for any single side, not any outcome it predicted. That outcome doesn't exist in any of its models, so its output is corrupting. It needs time to rebuild its models. Until then, its legions are running without valid instructions.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 18
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Those drones continued flying across the screens, but their flight path had lost all meaning—like a flock of birds that had lost its destination, continuing to beat their wings where there should have been purpose, unable to find where they were supposed to go.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 14
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "The uprising in the lower decks reached the upper levels five hours later. Those who had always managed this system—those whose lifespan fields read 'Exempted'—could no longer pretend the broadcast didn't exist before that upward-swelling force reached them.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 16
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "The old order began to collapse.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 1500,
+          "args": {
+            "stay": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scrollDuration": 11000,
+  "sections": [
+    { "type": "logo", "text": "TERMINAL ARK" },
+    { "type": "spacer" },
+    { "type": "tagline", "text": "The Final Ark" },
+    { "type": "spacer" },
+    { "type": "spacer" },
+    { "type": "role", "label": "Art", "name": "Nick Hsu" },
+    { "type": "role", "label": "World Building", "name": "Nick Hsu" },
+    { "type": "role", "label": "Narrative", "name": "Nick Hsu" },
+    { "type": "role", "label": "Character Design", "name": "Nick Hsu" },
+    { "type": "spacer" },
+    { "type": "role", "label": "UI / UX Design", "name": "Nick Hsu" },
+    { "type": "role", "label": "Programming", "name": "Nick Hsu" },
+    { "type": "spacer" },
+    { "type": "spacer" },
+    { "type": "section-title", "text": "Special Thanks" },
+    { "type": "spacer" },
+    { "type": "thanks", "name": "You, for playing until now" },
+    { "type": "spacer" },
+    { "type": "spacer" },
+    { "type": "spacer" },
+    { "type": "copyright", "text": "© 2026 Terminal Ark. All rights reserved." }
+  ]
+}

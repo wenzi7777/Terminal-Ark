@@ -1,0 +1,400 @@
+{
+  "id": "14-3",
+  "title": "第三幕：「我」",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch14_act3_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 1000
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "それらの断片はある瞬間に消散した。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "突然ではなく、ゆっくりと。朝霧が光の中でゆっくりと消えていくように。Lyra は彼女の神経終端からその質感が少しずつ後退するのを感じた。彼女は握ろうとした。ほこりの中で指を握り締めたが、それらのものはつかむことができるものではなかった。彼女は只それが退去するのを許した。荒野の空気に消散させ、彼女が横たわっている冷たい地面に消散させ、消散させ、消える。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は横たわっていた。空は彼女の上で、それは荒野の空。保護シールドがないその種類の空。広々として、灰色で、放射線ほこりで汚染された冷たさを持っており、どの境界もなく、上を見ると終わりがない。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は長時間横たわり、動かなかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その後、彼女は泣いた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "以前のように泣かない。本当に泣いた。それらの涙は彼女の目の隅から流出し、彼女の太陽穴を流れ、ほこりに流れた。彼女は拭かなかった。それを流させ、彼女の胸の中に長く圧迫されていたものにその場所を与えた。それらが出てくることができるこの方法で。彼女はもう押し込み続けることができなかったから。それらのものは彼女が思ったより重く、彼女が一人で押した、ここまで押し、すでに終わりまで押していた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は長時間泣いた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その終点が本当に来て、それらの涙が流れるまで、彼女はゆっくり手の背を目に覆い、その灰色の空から手の背の温度を遮り、停止し、その後手を下ろした。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は試験対象であり、設計された魂であり、Solmaris の廃棄者だ。これらはすべて本当で、彼女は否定するつもりはなく、またそれらが存在しないふりもしないつもりだ。しかし彼女はまた Lyra で、暗い廊下で笑った人で、Alea の手首を握った人で、地下室で Alea に抱きしめられた人で、「お前は自分自身を生きた」と言われた人で、Alea が深く愛していた人で、Alea が死を賭けて守った人だ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は泣き終わった。目をふいた直後、彼女は彼女の神経接続の深さに何かが緩んだのを感じた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "いつも厳しくロックされていたものが、この瞬間、静かに解放された。彼女の意識は彼女が到達したことのない深さに沈み続けた。その深さの境界は彼女の感覚で常にぼやけていて、触れられないものであり、今その境界は消えた。彼女は沈み続け、沈み込み、彼女が持っていることに気がつかなかった空間に沈んでいった。それは空であり、清潔であり、使われたことがない容器のような、長い間そこで待っていた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女はそれが何であるかわからない。彼女は只そこが以前彼女に開かれなかったことを知った。彼女は只それが彼女がすべての悲しみを圧迫した後だと知った。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女はゆっくり座り上がった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "動きは力を使い、彼女の体はすでに深いところまで消耗していた。膝が彼女を座り上がらせる瞬間に眩暈。彼女はその眩暈が過ぎるのを待ち、それを通させ、その後ゆっくり立ち上がり、その足を荒野の地面の上に踏みしめ、立ち続けた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女はその生命名牌を掌で握り、長時間見つめ、その後それを自分の首に掛けることにした。その金属を彼女の胸に貼り付けた。それを重さと一緒にそこに置いた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その後、彼女は方舟の方向を見つめた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女はそこが今どのような形なのか知らない。彼女は Soren がどこまで来たのか知らない。彼女は Elias がどこにいるのか知らない。彼女は彼女を待っているものが何か知らない。彼女は何も知らない。しかし彼女は一つのことを知っている。その一つのことは十分だ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Alea は彼女に歩き続けるように頼んだ。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "それは願いではなく、遺言ではなく、彼女がすでに考えていたこと。彼女がある日彼女も知らず、前もって準備してそのタグに入れたこと。彼女が自分の方法で、自分の手でそれを彼女に渡し、彼女に持ち続けるように言ったこと。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女はその選択を裏切る方法がない。彼女はその選択を裏切りたくない。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は顔の最後の涙をぬぐった。手の背で。すべてのこれらの残存する痕跡をぬぐい、その後手を下ろし、荒野の冷たい空気を深く吸い込み、その冷たさをきれいに彼女の肺に満たせた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "その後、彼女は前へ一歩踏み出した。方舟の方向へ。彼女は彼女の体が信じられないほど軽やかだことを発見した。まるで誰かが彼女の体をちょうど交換した直後のように。彼女は歩いた。その生命名牌は彼女の胸の上で彼女の歩みに従って軽く揺れた。彼女はその揺れを感じた。その重さを感じた。彼女が言うことができないのは彼女自身の体温であるか別の何か、温度を感じた。いつもそこであり、いつもそこにあり、消散していなかった。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "荒野の風が彼女の背後から吹いてきて、彼女を前に少し押した。誰かが彼女の背中を軽く叩いたかのように。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "彼女は歩き続けた。",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 3000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 2000,
+          "args": {
+            "stay": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "reward",
+    "complete"
+  ]
+}

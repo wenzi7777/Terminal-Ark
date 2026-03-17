@@ -1,0 +1,357 @@
+{
+  "id": "14-2",
+  "title": "Act 2: My Answer",
+  "startNode": "main",
+  "nodes": {
+    "main": {
+      "events": [
+        {
+          "type": "marker",
+          "id": "ch14_act2_start"
+        },
+        {
+          "type": "ui",
+          "op": "blackout",
+          "args": {
+            "enabled": true
+          }
+        },
+        {
+          "type": "ui",
+          "op": "fadeIn",
+          "ms": 1000
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "The way the fragments came through was not complete language, not continuous images. Something more direct. A consciousness condensed in the moment of recording, transmitted without language as a vehicle.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 400
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Lyra wasn't \"seeing\" or \"hearing\" them. She was \"knowing\" them. They came through and she understood, like water seeping into dry earth—no process, only result.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "She knew Alea's life before meeting her.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Those years. Nights spent in storage. An emptiness that felt like nothing. Not numbness—something deeper. A person who didn't know why she was still here, didn't have the strength to find answers. A small flower growing in a crack, waiting for the day the wind would be too strong and blow it away, not even grieving at that thought.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Then that day. The abandoned hospital's lobby, mutant creatures' footsteps, glass window breaking, the side door forced open, two people tumbling into the corridor. And that child laughed in the darkness.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 12
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "She knew what that laugh did inside Alea's consciousness. Like ice that's been sitting a long time being touched by something. That fine crack. The nearly imperceptible vibration the moment the crack appeared.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Then what Alea wanted to tell her.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Before I met you, I didn't know why I was living.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 800
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Not that I couldn't find the answer. I didn't even have the strength to ask the question. It's been so long, Lyra. In that storage room, in the gaps between shift changes, on the way to assignments, I had no direction. Nothing made me feel like tomorrow was worth arriving. I just lived because death also takes a kind of momentum, and I didn't even have that.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Then you laughed.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "You in that dark corridor, just dragged from beside a mutant, your knees just hit the ground, you looked up, you laughed, you said thank you, you said my name is Lyra, you said what's yours.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 700
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "That laugh wasn't given to me, or maybe it was, but it wasn't made just for me. It was part of you, existing as naturally as a heartbeat. You probably didn't know what that laugh was to me. You probably didn't know what it did to something in my chest that hadn't stirred in so long.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "I later wondered, if there hadn't been that laugh, if you'd been someone else, if you weren't you—I probably would have pulled you out of that lobby anyway, because I'd already made that choice before I made it.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "But the rest. The way I wanted to follow you. The way in every moment of choice, I chose to stay. That wasn't because I had no other options. It was because with you around, I felt for the first time that being here had weight.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Protecting you was the first choice I ever made of my own free will.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Not because no one wanted me. Not because I had nowhere else to go. Because I wanted to. Because I chose. Because that choice made me feel something I hadn't felt in so long. Like I was here, and it meant something.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "So don't, Lyra. Don't take my death as your fault.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "This was my choice, from beginning to end. Every thing I stood in front of for you, the nameplate I put in your hand, the two words I said in your ear—every choice. These were the clearest things I've ever chosen. The first time in my life I wasn't choosing to survive, wasn't choosing not to die. I was choosing something I truly wanted. And that was to let you keep walking.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1200
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "You're not a test subject. You're not code. You're Lyra. You're the person who laughed in that dark corridor and said my name is Lyra. You're the person who made me understand that living can be an active choice, not passive inertia. You're the person I'd trade everything left for. Not because of where you came from. Not because of your code. Because you're you.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "I don't know when you'll receive this. I don't know where you'll be. I don't know if I'll still exist by then. But I know you will. You have to, because you're you. You won't just disappear.",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 10
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 1500
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Can you hear me?",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 2000
+        },
+        {
+          "type": "line",
+          "layer": "narration",
+          "text": "Can you hear me, Lyra?",
+          "reveal": {
+            "mode": "typewriter",
+            "cps": 8
+          },
+          "log": true
+        },
+        {
+          "type": "wait",
+          "ms": 3000
+        },
+        {
+          "type": "ui",
+          "op": "fadeOut",
+          "ms": 2000,
+          "args": {
+            "stay": true
+          }
+        },
+        {
+          "type": "wait",
+          "ms": 600
+        },
+        {
+          "type": "end"
+        }
+      ]
+    }
+  },
+  "onComplete": [
+    "complete"
+  ]
+}
