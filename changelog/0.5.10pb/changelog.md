@@ -12,10 +12,10 @@
 
 
 ### Improvements
-- Improved the UI layout in Agents Workstation for mobile users.
-- Changed the name of tokens to buy things in Agents Workstation from "Clue" to "Proves of Clue".
-- Updated the Clue Shop items.
-- Updated main stories (Chapter 1 - Chapter 4.).
+- Improved the UI layout of Agents Workstation for mobile users.
+- Renamed the token used in Agents Workstation from “Clue” to “Proofs of Clue.”
+- Updated items in the Clue Shop.
+- Updated the main story.
 
 ### Others
 - Included various minor fixes and performance optimizations.
