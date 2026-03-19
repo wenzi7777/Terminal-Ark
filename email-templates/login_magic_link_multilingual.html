@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Ark Sign-In</title>
+    <style>
+        :root {
+            --main-background-color: #1E1E1E;
+            --main-text-color: #E5E7EB;
+            --sub-text-color: #838E8C;
+            --caption-text-color: #404644;
+            --important-color: #D4D144;
+            --info-color: #135940;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #111315;
+            color: var(--main-text-color);
+            font-family: 'Noto Sans', 'Noto Sans JP', 'Noto Sans TC', Arial, sans-serif;
+        }
+
+        a {
+            color: inherit;
+        }
+
+        .shell {
+            width: 100%;
+            padding: 32px 16px;
+            background:
+                linear-gradient(180deg, rgba(19, 89, 64, 0.18) 0%, rgba(19, 89, 64, 0) 180px),
+                linear-gradient(180deg, #111315 0%, #171919 100%);
+        }
+
+        .panel {
+            width: 100%;
+            max-width: 680px;
+            margin: 0 auto;
+            border: 1px solid var(--caption-text-color);
+            background:
+                linear-gradient(180deg, rgba(212, 209, 68, 0.06) 0%, rgba(212, 209, 68, 0) 120px),
+                var(--main-background-color);
+        }
+
+        .header {
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--caption-text-color);
+            background-color: rgba(0, 0, 0, 0.18);
+        }
+
+        .eyebrow {
+            margin: 0 0 8px;
+            color: var(--sub-text-color);
+            font-size: 12px;
+            letter-spacing: 1.6px;
+            text-transform: uppercase;
+        }
+
+        .title {
+            margin: 0;
+            color: var(--important-color);
+            font-size: 28px;
+            line-height: 1.3;
+            font-weight: 800;
+        }
+
+        .intro {
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--caption-text-color);
+            color: var(--sub-text-color);
+            font-size: 13px;
+            line-height: 1.8;
+            background-color: rgba(0, 0, 0, 0.12);
+        }
+
+        .langSection {
+            padding: 20px;
+            border-bottom: 1px solid var(--caption-text-color);
+        }
+
+        .langSection.last {
+            border-bottom: 0;
+        }
+
+        .langLabel {
+            margin: 0 0 10px;
+            color: var(--sub-text-color);
+            font-size: 12px;
+            letter-spacing: 1.4px;
+            text-transform: uppercase;
+        }
+
+        .sectionTitle {
+            margin: 0 0 14px;
+            color: var(--important-color);
+            font-size: 24px;
+            line-height: 1.3;
+            font-weight: 800;
+        }
+
+        .paragraph {
+            margin: 0 0 14px;
+            color: var(--main-text-color);
+            font-size: 15px;
+            line-height: 1.85;
+        }
+
+        .accent {
+            color: var(--important-color);
+            font-weight: 700;
+        }
+
+        .buttonRow {
+            margin: 20px 0 18px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 18px;
+            border: 1px solid var(--important-color);
+            background-color: var(--important-color);
+            color: var(--main-background-color);
+            font-size: 15px;
+            font-weight: 800;
+            letter-spacing: 0.4px;
+            text-decoration: none;
+        }
+
+        .section {
+            margin-top: 18px;
+            padding: 14px;
+            border: 1px solid var(--caption-text-color);
+            background-color: rgba(0, 0, 0, 0.18);
+        }
+
+        .sectionLabel {
+            margin: 0 0 10px;
+            color: var(--sub-text-color);
+            font-size: 12px;
+            letter-spacing: 1.4px;
+            text-transform: uppercase;
+        }
+
+        .code {
+            margin: 0;
+            color: var(--main-text-color);
+            font-family: 'Courier New', monospace;
+            font-size: 28px;
+            line-height: 1.2;
+            letter-spacing: 6px;
+            font-weight: 800;
+        }
+
+        .sectionNote {
+            margin: 10px 0 0;
+            color: var(--sub-text-color);
+            font-size: 13px;
+            line-height: 1.75;
+        }
+
+        .linkBox {
+            margin-top: 18px;
+            padding: 14px;
+            border: 1px solid var(--caption-text-color);
+            background-color: rgba(0, 0, 0, 0.18);
+            color: var(--main-text-color);
+            font-size: 12px;
+            line-height: 1.8;
+            word-break: break-all;
+        }
+
+        .notice {
+            margin-top: 18px;
+            padding: 14px;
+            border-left: 3px solid var(--info-color);
+            background-color: rgba(19, 89, 64, 0.18);
+            color: var(--main-text-color);
+            font-size: 13px;
+            line-height: 1.8;
+        }
+
+        .footer {
+            padding: 14px 20px 18px;
+            border-top: 1px solid var(--caption-text-color);
+            color: var(--sub-text-color);
+            font-size: 12px;
+            line-height: 1.8;
+            background-color: rgba(0, 0, 0, 0.18);
+        }
+    </style>
+</head>
+<body>
+    <div class="shell">
+        <div class="panel">
+            <div class="header">
+                <p class="eyebrow">Terminal Ark Secure Relay</p>
+                <h1 class="title">Terminal Ark Sign-In</h1>
+            </div>
+
+            <div class="intro">
+                This sign-in email is provided in multiple languages below.
+                The login link and PWA login code are identical in every section.
+            </div>
+
+            <div class="langSection">
+                <p class="langLabel">English</p>
+                <h2 class="sectionTitle">Terminal Ark Sign-In</h2>
+                <p class="paragraph">Hello,</p>
+                <p class="paragraph">
+                    A new sign-in request for <span class="accent">Terminal Ark</span> has been detected.
+                    You can continue directly with the link below. If you are currently using the PWA app, you can also sign in by entering the 6-digit code shown below inside the app.
+                </p>
+
+                <div class="buttonRow">
+                    <a class="button" href="{{ .ConfirmationURL }}">Enter Terminal Ark</a>
+                </div>
+
+                <div class="section">
+                    <p class="sectionLabel">PWA Login Code</p>
+                    <p class="code">{{ .Token }}</p>
+                    <p class="sectionNote">If you are signing in from APP mode, return to Terminal Ark and enter this code there.</p>
+                </div>
+
+                <div class="linkBox">
+                    If the button does not open, copy this link into your browser instead.<br>
+                    {{ .ConfirmationURL }}
+                </div>
+
+                <div class="notice">
+                    If you did not request this sign-in, you can safely ignore this email. No further action is required.
+                </div>
+            </div>
+
+            <div class="langSection">
+                <p class="langLabel">Japanese</p>
+                <h2 class="sectionTitle">Terminal Ark ログイン</h2>
+                <p class="paragraph">こんにちは。</p>
+                <p class="paragraph">
+                    <span class="accent">Terminal Ark</span> への新しいログイン要求が確認されました。
+                    下のリンクからそのままログインできます。PWA アプリでゲームを開いている場合は、下の 6 桁コードをアプリ内に入力してログインすることもできます。
+                </p>
+
+                <div class="buttonRow">
+                    <a class="button" href="{{ .ConfirmationURL }}">Terminal Ark にログイン</a>
+                </div>
+
+                <div class="section">
+                    <p class="sectionLabel">PWA Login Code</p>
+                    <p class="code">{{ .Token }}</p>
+                    <p class="sectionNote">APP モードでログインしている場合は、Terminal Ark に戻ってこのコードを入力してください。</p>
+                </div>
+
+                <div class="linkBox">
+                    ボタンが開けない場合は、次のリンクをブラウザに直接貼り付けてください。<br>
+                    {{ .ConfirmationURL }}
+                </div>
+
+                <div class="notice">
+                    このログインに心当たりがない場合は、このメールを無視してください。追加の操作は必要ありません。
+                </div>
+            </div>
+
+            <div class="langSection last">
+                <p class="langLabel">Traditional Chinese</p>
+                <h2 class="sectionTitle">終端方舟 快速登入</h2>
+                <p class="paragraph">你好，</p>
+                <p class="paragraph">
+                    系統偵測到一筆新的 <span class="accent">Terminal Ark</span> 登入請求。
+                    你可以直接點擊下方連結進入帳號；如果你目前是從 PWA APP 啟動遊戲，也可以改用下方的 6 碼登入代碼完成驗證。
+                </p>
+
+                <div class="buttonRow">
+                    <a class="button" href="{{ .ConfirmationURL }}">進入 Terminal Ark</a>
+                </div>
+
+                <div class="section">
+                    <p class="sectionLabel">PWA Login Code</p>
+                    <p class="code">{{ .Token }}</p>
+                    <p class="sectionNote">如果你目前是在 APP 模式中登入，請回到 Terminal Ark 並輸入這組代碼。</p>
+                </div>
+
+                <div class="linkBox">
+                    如果按鈕無法開啟，請直接複製這個連結到瀏覽器：<br>
+                    {{ .ConfirmationURL }}
+                </div>
+
+                <div class="notice">
+                    如果這不是你本人發起的登入請求，請直接忽略這封郵件，不需要執行任何其他操作。
+                </div>
+            </div>
+
+            <div class="footer">
+                For account security, do not share this sign-in link or login code with anyone else.<br>
+                アカウント保護のため、ログインリンクやログインコードを他人と共有しないでください。<br>
+                為了帳號安全，請不要把登入連結或登入碼分享給其他人。
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Ark Sign-In</title>
+    <style>
+        :root {
+            --main-background-color: #1E1E1E;
+            --main-text-color: #E5E7EB;
+            --sub-text-color: #838E8C;
+            --caption-text-color: #404644;
+            --important-color: #D4D144;
+            --info-color: #135940;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #111315;
+            color: var(--main-text-color);
+            font-family: 'Noto Sans', Arial, sans-serif;
+        }
+
+        a {
+            color: inherit;
+        }
+
+        .shell {
+            width: 100%;
+            padding: 32px 16px;
+            background:
+                linear-gradient(180deg, rgba(19, 89, 64, 0.18) 0%, rgba(19, 89, 64, 0) 180px),
+                linear-gradient(180deg, #111315 0%, #171919 100%);
+        }
+
+        .panel {
+            width: 100%;
+            max-width: 640px;
+            margin: 0 auto;
+            border: 1px solid var(--caption-text-color);
+            background:
+                linear-gradient(180deg, rgba(212, 209, 68, 0.06) 0%, rgba(212, 209, 68, 0) 120px),
+                var(--main-background-color);
+        }
+
+        .header {
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--caption-text-color);
+            background-color: rgba(0, 0, 0, 0.18);
+        }
+
+        .eyebrow {
+            margin: 0 0 8px;
+            color: var(--sub-text-color);
+            font-size: 12px;
+            letter-spacing: 1.6px;
+            text-transform: uppercase;
+        }
+
+        .title {
+            margin: 0;
+            color: var(--important-color);
+            font-size: 28px;
+            line-height: 1.3;
+            font-weight: 800;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .paragraph {
+            margin: 0 0 14px;
+            color: var(--main-text-color);
+            font-size: 15px;
+            line-height: 1.85;
+        }
+
+        .accent {
+            color: var(--important-color);
+            font-weight: 700;
+        }
+
+        .buttonRow {
+            margin: 20px 0 18px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 18px;
+            border: 1px solid var(--important-color);
+            background-color: var(--important-color);
+            color: var(--main-background-color);
+            font-size: 15px;
+            font-weight: 800;
+            letter-spacing: 0.4px;
+            text-decoration: none;
+        }
+
+        .section {
+            margin-top: 18px;
+            padding: 14px;
+            border: 1px solid var(--caption-text-color);
+            background-color: rgba(0, 0, 0, 0.18);
+        }
+
+        .sectionLabel {
+            margin: 0 0 10px;
+            color: var(--sub-text-color);
+            font-size: 12px;
+            letter-spacing: 1.4px;
+            text-transform: uppercase;
+        }
+
+        .code {
+            margin: 0;
+            color: var(--main-text-color);
+            font-family: 'Courier New', monospace;
+            font-size: 28px;
+            line-height: 1.2;
+            letter-spacing: 6px;
+            font-weight: 800;
+        }
+
+        .sectionNote {
+            margin: 10px 0 0;
+            color: var(--sub-text-color);
+            font-size: 13px;
+            line-height: 1.75;
+        }
+
+        .linkBox {
+            margin-top: 18px;
+            padding: 14px;
+            border: 1px solid var(--caption-text-color);
+            background-color: rgba(0, 0, 0, 0.18);
+            color: var(--main-text-color);
+            font-size: 12px;
+            line-height: 1.8;
+            word-break: break-all;
+        }
+
+        .notice {
+            margin-top: 18px;
+            padding: 14px;
+            border-left: 3px solid var(--info-color);
+            background-color: rgba(19, 89, 64, 0.18);
+            color: var(--main-text-color);
+            font-size: 13px;
+            line-height: 1.8;
+        }
+
+        .footer {
+            padding: 14px 20px 18px;
+            border-top: 1px solid var(--caption-text-color);
+            color: var(--sub-text-color);
+            font-size: 12px;
+            line-height: 1.8;
+            background-color: rgba(0, 0, 0, 0.18);
+        }
+    </style>
+</head>
+<body>
+    <div class="shell">
+        <div class="panel">
+            <div class="header">
+                <p class="eyebrow">Terminal Ark Secure Relay</p>
+                <h1 class="title">Terminal Ark Sign-In</h1>
+            </div>
+
+            <div class="content">
+                <p class="paragraph">Hello,</p>
+                <p class="paragraph">
+                    A new sign-in request for <span class="accent">Terminal Ark</span> has been detected.
+                    You can continue directly with the link below. If you are currently using the PWA app, you can also sign in by entering the 6-digit code shown below inside the app.
+                </p>
+
+                <div class="buttonRow">
+                    <a class="button" href="{{ .ConfirmationURL }}">Enter Terminal Ark</a>
+                </div>
+
+                <div class="section">
+                    <p class="sectionLabel">PWA Login Code</p>
+                    <p class="code">{{ .Token }}</p>
+                    <p class="sectionNote">If you are signing in from APP mode, return to Terminal Ark and enter this code there.</p>
+                </div>
+
+                <div class="linkBox">
+                    If the button does not open, copy this link into your browser instead.<br>
+                    {{ .ConfirmationURL }}
+                </div>
+
+                <div class="notice">
+                    If you did not request this sign-in, you can safely ignore this email. No further action is required.
+                </div>
+            </div>
+
+            <div class="footer">
+                For account security, do not share this sign-in link or login code with anyone else.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
