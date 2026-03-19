@@ -13,6 +13,7 @@
 
 ### Improvements
 - Moved website from https://terminal-ark.1205.moe to https://www.terminal-ark.com
+- Improved SEO.
 
 ### Others
 - Included various minor fixes and performance optimizations.
