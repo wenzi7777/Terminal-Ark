@@ -22,7 +22,7 @@ The world contains a large number of randomly generated enemies, dungeons, and e
 Whether you enjoy deep optimization, immersive worldbuilding, or simply logging in occasionally to check on your progress, Terminal Ark provides a space where you can play at your own pace, relax, and grow steadily.
 
 
-### Click [Terminal Ark](https://terminal-ark.1205.moe/) to step into the Ark and save the world!
+### Click [Terminal Ark](https://www.terminal-ark.com/) to step into the Ark and save the world!
 
 ### Bug Report & Suggestions
 

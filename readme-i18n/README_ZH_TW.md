@@ -22,7 +22,7 @@
 無論你偏好深度數值最佳化、沉浸式世界觀探索，或只是偶爾上線查看進度，Terminal Ark 都提供了一個能以自己節奏放鬆遊玩、穩定成長的空間。
 
 
-### 點擊 [Terminal Ark](https://terminal-ark.1205.moe/) ，踏入方舟，拯救世界！
+### 點擊 [Terminal Ark](https://www.terminal-ark.com/) ，踏入方舟，拯救世界！
 
 ### 問題回報與建議
 
