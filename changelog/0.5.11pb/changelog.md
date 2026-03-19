@@ -6,7 +6,7 @@
 ## Release Date: Mar. 18th 2026 21:30 JST
 
 ### Bug Fixes
-- Fixed an issue where some facilities in Agent Workstation had two scrollbars.
+- This update does not contain any major new bug fixes.
 
 ### New Features
 - Added a progress bar to the Trade Station in Agent Workstation to show contract gathering progress.
