@@ -2543,5 +2543,7 @@
   "network-tab-funds": "资产",
   "network-intel-header": "// 网络情报",
   "encrypted-comms": "// 加密通讯频道",
-  "sort-mood": "心情"
+  "sort-mood": "心情",
+  "sort-mood-descending": "心情降序",
+  "sort-mood-ascending": "心情升序"
 }

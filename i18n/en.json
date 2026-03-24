@@ -2543,5 +2543,7 @@
   "network-tab-funds": "ASSETS",
   "network-intel-header": "// NETWORK INTELLIGENCE",
   "encrypted-comms": "// ENCRYPTED COMMS CHANNEL",
-  "sort-mood": "Mood"
+  "sort-mood": "Mood",
+  "sort-mood-descending": "Mood Descending",
+  "sort-mood-ascending": "Mood Ascending"
 }

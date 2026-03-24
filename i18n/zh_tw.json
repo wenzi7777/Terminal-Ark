@@ -2543,5 +2543,7 @@
   "network-tab-funds": "資產",
   "network-intel-header": "// 網路情報",
   "encrypted-comms": "// 加密通訊頻道",
-  "sort-mood": "心情"
+  "sort-mood": "心情",
+  "sort-mood-descending": "心情降序",
+  "sort-mood-ascending": "心情升序"
 }

@@ -2480,5 +2480,8 @@
   "network-tab-rankings": "ランク",
   "network-tab-funds": "資産",
   "network-intel-header": "// ネットワーク情報",
-  "encrypted-comms": "// 暗号通信チャンネル"
+  "encrypted-comms": "// 暗号通信チャンネル",
+  "sort-mood": "コンディション",
+  "sort-mood-descending": "コンディション降順",
+  "sort-mood-ascending": "コンディション昇順"
 }
