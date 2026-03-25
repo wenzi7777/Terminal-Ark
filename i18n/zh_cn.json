@@ -1369,6 +1369,7 @@
   "power-generation-bonus": "发电量加成",
   "cache-order-speed": "CACHE 订单速度",
   "memory-order-speed": "Memory 订单速度",
+  "manufacturing-byproduct-factor": "副产品掉率倍率",
   "clue-speed": "线索收集速度",
   "the-heros-attributes-will-grow-as-you-level-up": "英雄的各项属性将随着你的升级而成长。",
   "healing-aura": "治疗气场",
@@ -2545,5 +2546,6 @@
   "encrypted-comms": "// 加密通讯频道",
   "sort-mood": "心情",
   "sort-mood-descending": "心情降序",
-  "sort-mood-ascending": "心情升序"
+  "sort-mood-ascending": "心情升序",
+  "manufacturing-byproduct-rates": "副产品掉率"
 }

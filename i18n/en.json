@@ -1369,6 +1369,7 @@
   "power-generation-bonus": "Power Gen. Bonus",
   "cache-order-speed": "CACHE Order SPD",
   "memory-order-speed": "Memory Order SPD",
+  "manufacturing-byproduct-factor": "Byproduct Drop Rate Factor",
   "clue-speed": "Clue Collection SPD",
   "the-heros-attributes-will-grow-as-you-level-up": "The hero's attributes will grow as you level up.",
   "healing-aura": "Healing Aura",
@@ -2545,5 +2546,6 @@
   "encrypted-comms": "// ENCRYPTED COMMS CHANNEL",
   "sort-mood": "Mood",
   "sort-mood-descending": "Mood Descending",
-  "sort-mood-ascending": "Mood Ascending"
+  "sort-mood-ascending": "Mood Ascending",
+  "manufacturing-byproduct-rates": "Byproduct Rates"
 }

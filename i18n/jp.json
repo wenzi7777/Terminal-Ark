@@ -1102,6 +1102,7 @@
   "power-generation-bonus": "発電量ボーナス",
   "cache-order-speed": "キャッシュ注文速度",
   "memory-order-speed": "メモリー注文速度",
+  "manufacturing-byproduct-factor": "副産物ドロップ率倍率",
   "clue-speed": "手がかり収集速度",
   "the-heros-attributes-will-grow-as-you-level-up": "英雄の各属性は、あなたのレベルアップとともに成長します。",
   "healing-aura": "ヒーリングオーラ",
@@ -2483,5 +2484,6 @@
   "encrypted-comms": "// 暗号通信チャンネル",
   "sort-mood": "コンディション",
   "sort-mood-descending": "コンディション降順",
-  "sort-mood-ascending": "コンディション昇順"
+  "sort-mood-ascending": "コンディション昇順",
+  "manufacturing-byproduct-rates": "副産物ドロップ率"
 }
