@@ -99,7 +99,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyraは一歩前に進み、Sorenに手で止められた。",
+          "text": "{{characters.lyra.name}}は一歩前に進み、{{characters.soren.name}}に手で止められた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "待て。",
           "reveal": {
             "mode": "typewriter",
@@ -128,7 +128,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "あれは子どもだ。",
           "reveal": {
             "mode": "typewriter",
@@ -143,7 +143,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "分かってる。最後まで聞いてくれ。",
           "reveal": {
             "mode": "typewriter",
@@ -158,7 +158,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Solmarisの軍が西側から進撃している。スピードと方向が正確すぎだ。追撃ではなく、包囲だ。目標はこの病院だ。",
           "reveal": {
             "mode": "typewriter",
@@ -173,7 +173,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "その病院の位置はシールドの隔離エリアと荒野のバッファゾーンの間にある。方舟守軍の保護範囲内にもなく、荒野の自然な隠蔽の中にもない。その位置自体がポケットだ。",
           "reveal": {
             "mode": "typewriter",
@@ -188,7 +188,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "<whisper>そこの人たちが誘い餌だ。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -203,7 +203,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Solmarisはそれらの民間人の生死を気にしない。彼らが望んでいるのは、救助の手を上げるすべての個体をその範囲に引き込むことだ。そのポケットが閉じると、中に入った人は誰も出ることができない。",
           "reveal": {
             "mode": "typewriter",
@@ -218,7 +218,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "武装が不足している。人数が足りない。戦略的な優位性がない——<delay ms=\"300\"/>入ったら、ここで一緒に死ぬだけだ。",
           "reveal": {
             "mode": "typewriter",
@@ -247,7 +247,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "分かった。あなたが言ったことはすべて理解している。",
           "reveal": {
             "mode": "typewriter",
@@ -262,7 +262,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "分かったのに。",
           "reveal": {
             "mode": "typewriter",
@@ -277,7 +277,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "この時、彼女はSorenに答えていない。その二つの単語は彼女自身に言い聞かせている。",
+          "text": "この時、彼女は{{characters.soren.name}}に答えていない。その二つの単語は彼女自身に言い聞かせている。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -291,7 +291,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "けれど、どうしようもない。",
           "reveal": {
             "mode": "typewriter",
@@ -306,8 +306,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Lyra——",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.lyra.name}}——",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -321,7 +321,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "ここに立ったまま、あそこの人たちが死ぬのを見て、自分は誘い餌だから入らなかったと言い聞かせることはできない。",
           "reveal": {
             "mode": "typewriter",
@@ -336,7 +336,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "不合理だと分かっている。判断が正しいと分かっている。死路かもしれないと分かっている。",
           "reveal": {
             "mode": "typewriter",
@@ -351,8 +351,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "でも、Soren、もし私がここに立ったままだったら——",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "でも、{{characters.soren.name}}、もし私がここに立ったままだったら——",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -380,7 +380,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Sorenは黙った。彼の唇が少し動いたが、何も言わなかった。",
+          "text": "{{characters.soren.name}}は黙った。彼の唇が少し動いたが、何も言わなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -394,7 +394,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Aleaは傍らに立ち、話さなかった。彼女の目はLyraの顔に止まり、一秒、その後移った。その方向を見た。",
+          "text": "{{characters.alea.name}}は傍らに立ち、話さなかった。彼女の目は{{characters.lyra.name}}の顔に止まり、一秒、その後移った。その方向を見た。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14

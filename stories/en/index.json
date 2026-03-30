@@ -265,7 +265,7 @@
         },
         {
           "id": "8-2",
-          "title": "Act 2: Lyra's Code",
+          "title": "Act 2: {{characters.lyra.name}}'s Code",
           "file": "ch08/act_2.json",
           "onComplete": ["reward", "complete"]
         },
@@ -365,7 +365,7 @@
         },
         {
           "id": "11-2",
-          "title": "Act 2: Alea's Resolve",
+          "title": "Act 2: {{characters.alea.name}}'s Resolve",
           "file": "ch11/act_2.json",
           "onComplete": ["reward", "complete"]
         },
@@ -415,7 +415,7 @@
         },
         {
           "id": "13-2",
-          "title": "Act 2: Elias's Intervention",
+          "title": "Act 2: {{characters.elias.name}}'s Intervention",
           "file": "ch13/act_2.json",
           "onComplete": ["reward", "complete"]
         },

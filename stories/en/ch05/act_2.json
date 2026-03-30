@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren noticed first. Not sound—light. Several fine, rhythmically flashing points from the ruins' eastern sky edge.",
+          "text": "{{characters.soren.name}} noticed first. Not sound—light. Several fine, rhythmically flashing points from the ruins' eastern sky edge.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -84,7 +84,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Drones. AI signal—not Ark standard, not Mondris format, not Solmaris either. <em>Independent</em>.",
           "reveal": {
             "mode": "typewriter",
@@ -99,7 +99,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Withdraw.",
           "reveal": {
             "mode": "typewriter",
@@ -114,7 +114,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Where? No cover here.",
           "reveal": {
             "mode": "typewriter",
@@ -143,7 +143,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Don't move. Observe.",
           "reveal": {
             "mode": "typewriter",
@@ -270,7 +270,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "<whisper>What are they doing?</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -285,7 +285,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Recording. Sensor positioning isn't weapons lock—data collection mode. Gathering our neural signals, behavior data, or both.",
           "reveal": {
             "mode": "typewriter",
@@ -300,7 +300,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "And notice—they maintain fixed distance. Never closer, never leaving. Like there's an invisible boundary line.",
           "reveal": {
             "mode": "typewriter",
@@ -315,7 +315,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "They don't want to harm us. At least not now.",
           "reveal": {
             "mode": "typewriter",
@@ -330,7 +330,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Or—<delay ms=\"400\"/><em>harming us would be meaningless to them</em>.",
           "reveal": {
             "mode": "typewriter",
@@ -387,7 +387,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Move. Continue.",
           "reveal": {
             "mode": "typewriter",

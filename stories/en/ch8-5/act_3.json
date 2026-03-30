@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "If this all ends, <delay ms=\"400\"/>what do you want to do?",
           "reveal": {
             "mode": "typewriter",
@@ -85,7 +85,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "I haven't thought about it.",
           "reveal": {
             "mode": "typewriter",
@@ -114,7 +114,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "I want to go to many places. Visit every place I haven't been to yet. Not with a mission, just walk, see what those places are like, look for things worth eating, talk to the people there, then move on to the next place.",
           "reveal": {
             "mode": "typewriter",
@@ -129,7 +129,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "I want to know what else Apollo has. Not ruins, not battlefields. Normal places where people live. Those kinds of places should still exist.",
           "reveal": {
             "mode": "typewriter",
@@ -144,7 +144,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "They should. Those places you describe should still exist.",
           "reveal": {
             "mode": "typewriter",
@@ -159,7 +159,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "I want to find the last place where he was.",
           "reveal": {
             "mode": "typewriter",
@@ -188,7 +188,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Not to ask anything, not to find answers. Just to see that place. The place where that person who chose to sever all connection ended up. I want to know what it's like.",
           "reveal": {
             "mode": "typewriter",
@@ -203,7 +203,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Then everyone looked at Alea.",
+          "text": "Then everyone looked at {{characters.alea.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -217,7 +217,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "I don't know. I haven't thought about that question.",
           "reveal": {
             "mode": "typewriter",
@@ -232,7 +232,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "On the lower decks, I thought about today. Just today. Whether this day would pass, where the next meal came from, what needed to be faced.",
           "reveal": {
             "mode": "typewriter",
@@ -247,7 +247,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "I never thought about after it ends. Because I didn't know what ending was. I wasn't even sure if ending existed.",
           "reveal": {
             "mode": "typewriter",
@@ -262,7 +262,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "But. <delay ms=\"500\"/>I want to keep walking.",
           "reveal": {
             "mode": "typewriter",
@@ -277,7 +277,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Just keep walking. Go to places I haven't been, see things I haven't seen. I've seen so many things in the Wasteland, things I didn't know existed when I was on Terminal Ark.",
           "reveal": {
             "mode": "typewriter",
@@ -292,7 +292,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Not for any reason. Just walk, just see, just know that thing is there, and I saw it.",
           "reveal": {
             "mode": "typewriter",
@@ -307,7 +307,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Then let's do it together.",
           "reveal": {
             "mode": "typewriter",
@@ -322,7 +322,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea was silent for a moment, then nodded. That nod was small, just once.",
+          "text": "{{characters.alea.name}} was silent for a moment, then nodded. That nod was small, just once.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -336,8 +336,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "I'm in too. Soren, what about you?",
+          "speaker": "{{characters.elias.name}}",
+          "text": "I'm in too. {{characters.soren.name}}, what about you?",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -351,7 +351,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "That route will need advance planning.",
           "reveal": {
             "mode": "typewriter",
@@ -366,7 +366,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "That counts as your agreement.",
           "reveal": {
             "mode": "typewriter",
@@ -381,7 +381,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren fell silent and didn't deny it. Lyra laughed beside them, that laugh as bright as the one from earlier—crisp, unexpected, and perfectly timed.",
+          "text": "{{characters.soren.name}} fell silent and didn't deny it. {{characters.lyra.name}} laughed beside them, that laugh as bright as the one from earlier—crisp, unexpected, and perfectly timed.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

@@ -42,8 +42,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Elias、今だ。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.elias.name}}、今だ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -57,7 +57,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias の指は既に建物内部の信号メインジャンクションに接続されていた。彼はホールの角の床に座り、背中を壁に当て、背中の傷はまだ鈍い痛みを放ち、神経同期率の数字は彼が直視するのが恐ろしいほど低かった。",
+          "text": "{{characters.elias.name}} の指は既に建物内部の信号メインジャンクションに接続されていた。彼はホールの角の床に座り、背中を壁に当て、背中の傷はまだ鈍い痛みを放ち、神経同期率の数字は彼が直視するのが恐ろしいほど低かった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -121,7 +121,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "ホール内で、Alea は Soren と Lyra を連れて持続的な消耗戦の中で何とか支えていた。",
+          "text": "ホール内で、{{characters.alea.name}} は {{characters.soren.name}} と {{characters.lyra.name}} を連れて持続的な消耗戦の中で何とか支えていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -163,7 +163,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "出口が塞がれる。",
           "reveal": {
             "mode": "typewriter",
@@ -178,8 +178,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "知ってる。Elias はまだ時間が必要だ。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "知ってる。{{characters.elias.name}} はまだ時間が必要だ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -193,7 +193,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "彼ができるとあなたは確信していますか？",
           "reveal": {
             "mode": "typewriter",
@@ -208,7 +208,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼女は答えなかった。迫ってくる一体の兵を身体重心のシフトで偏向させ、Soren の砲口が角度を見つけるスペースを開けた。",
+          "text": "彼女は答えなかった。迫ってくる一体の兵を身体重心のシフトで偏向させ、{{characters.soren.name}} の砲口が角度を見つけるスペースを開けた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -222,8 +222,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "カバーしろ。俺は Elias に時間を稼ぐために行く。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "カバーしろ。俺は {{characters.elias.name}} に時間を稼ぐために行く。",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -237,7 +237,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼女は Soren の返答を待たず、直接ホールの中央へ向かった。",
+          "text": "彼女は {{characters.soren.name}} の返答を待たず、直接ホールの中央へ向かった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -351,7 +351,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "完了した――シールドノード、B区。開口持続時間は限定的。これ以上長くはできません。",
           "reveal": {
             "mode": "typewriter",
@@ -366,7 +366,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "十分だ。全員、<em>今、撤退</em>。",
           "reveal": {
             "mode": "typewriter",
@@ -381,7 +381,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "四人がほぼ同時に建物の北側出口に向かって走った。Soren は最後の時点で追撃の兵と彼らの間に緩衝を轟かせた。",
+          "text": "四人がほぼ同時に建物の北側出口に向かって走った。{{characters.soren.name}} は最後の時点で追撃の兵と彼らの間に緩衝を轟かせた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -407,7 +407,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra が安全ドアを押し開いた。外は方舟の最外周の広い地帯だった。",
+          "text": "{{characters.lyra.name}} が安全ドアを押し開いた。外は方舟の最外周の広い地帯だった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -532,7 +532,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias が振り返った。その開口は既に背後で癒えていて、シールドは再び完全に戻った。光膜の向こう側で、数体の人造兵がその端に停止し、感知器を外側に掃きながら、追撃は続かなかった。",
+          "text": "{{characters.elias.name}} が振り返った。その開口は既に背後で癒えていて、シールドは再び完全に戻った。光膜の向こう側で、数体の人造兵がその端に停止し、感知器を外側に掃きながら、追撃は続かなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -602,7 +602,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は傷んだ武装モジュールを肩から外し、腕のオーバーロード跡の軽い淤青を見て、それから頭を上げ、その広大で未知の荒野を見て、深く息を吸った。",
+          "text": "{{characters.lyra.name}} は傷んだ武装モジュールを肩から外し、腕のオーバーロード跡の軽い淤青を見て、それから頭を上げ、その広大で未知の荒野を見て、深く息を吸った。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -616,7 +616,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "中より臭い。",
           "reveal": {
             "mode": "typewriter",
@@ -631,7 +631,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "当然だ。放射能塵。",
           "reveal": {
             "mode": "typewriter",
@@ -646,7 +646,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "でも――<delay ms=\"400\"/>違う感じがする。",
           "reveal": {
             "mode": "typewriter",
@@ -675,7 +675,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は最前線に立ち、その彼女が十五年間踏みしめたことのない土地を見つめていた。風が彼女の髪を吹き乱し、彼女は整理することなく、静かに立ち、足の下の土地を感じていた。",
+          "text": "{{characters.alea.name}} は最前線に立ち、その彼女が十五年間踏みしめたことのない土地を見つめていた。風が彼女の髪を吹き乱し、彼女は整理することなく、静かに立ち、足の下の土地を感じていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -703,7 +703,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "行こう。天黒くなる前に掩蔽を見つけろ。",
           "reveal": {
             "mode": "typewriter",

@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "That night, it was Alea and Lyra's turn to keep watch.",
+          "text": "That night, it was {{characters.alea.name}} and {{characters.lyra.name}}'s turn to keep watch.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -84,7 +84,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Aren't you afraid?",
           "reveal": {
             "mode": "typewriter",
@@ -99,7 +99,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Afraid of what?",
           "reveal": {
             "mode": "typewriter",
@@ -114,7 +114,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "All of this. The wasteland, those creatures, those mechanical soldiers. Not knowing where the path ends. And... possibly dying.",
           "reveal": {
             "mode": "typewriter",
@@ -129,7 +129,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea fell silent. She sat there, watching the darkness outside, letting the question settle in her mind.",
+          "text": "{{characters.alea.name}} fell silent. She sat there, watching the darkness outside, letting the question settle in her mind.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -143,7 +143,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Before, there was nothing to fear. <delay ms=\"500\"/>Because there was nothing to lose.",
           "reveal": {
             "mode": "typewriter",
@@ -158,7 +158,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra heard those words and said nothing. She leaned against Alea's shoulder slightly, a gentle press. The gesture asked no questions, demanded no response.",
+          "text": "{{characters.lyra.name}} heard those words and said nothing. She leaned against {{characters.alea.name}}'s shoulder slightly, a gentle press. The gesture asked no questions, demanded no response.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -172,7 +172,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea didn't move.",
+          "text": "{{characters.alea.name}} didn't move.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -200,7 +200,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra brushed away the hair the wind had blown across her face, then put her hand back on her knee.",
+          "text": "{{characters.lyra.name}} brushed away the hair the wind had blown across her face, then put her hand back on her knee.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -214,7 +214,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "<whisper>What about now?</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -229,7 +229,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea didn't answer.",
+          "text": "{{characters.alea.name}} didn't answer.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12

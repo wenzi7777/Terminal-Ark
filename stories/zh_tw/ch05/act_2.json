@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 最先察覺到。不是聲音，是光——幾個細小的、規律閃爍的光點從廢墟東側的天空邊緣出現。",
+          "text": "{{characters.soren.name}} 最先察覺到。不是聲音，是光——幾個細小的、規律閃爍的光點從廢墟東側的天空邊緣出現。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -84,7 +84,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "無人機。AI 訊號，不是方舟的，不是 Mondris 的標準格式，也不是 Solmaris 的——是<em>獨立的</em>。",
           "reveal": {
             "mode": "typewriter",
@@ -99,7 +99,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "撤。",
           "reveal": {
             "mode": "typewriter",
@@ -114,7 +114,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "往哪裡撤？這裡沒有掩體。",
           "reveal": {
             "mode": "typewriter",
@@ -143,7 +143,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "不要動。觀察。",
           "reveal": {
             "mode": "typewriter",
@@ -270,7 +270,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "<whisper>它們在做什麼？</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -285,7 +285,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "記錄。感應器的指向不是武裝瞄準，是數據採集的模式。它們在採集我們的神經訊號，或者行為數據，或者兩者都有。",
           "reveal": {
             "mode": "typewriter",
@@ -300,7 +300,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "而且你們注意到了嗎——它們保持的距離是固定的。不靠近，也不離開。像是有一條不可見的邊界線。",
           "reveal": {
             "mode": "typewriter",
@@ -315,7 +315,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "它們不想傷害我們。至少現在不想。",
           "reveal": {
             "mode": "typewriter",
@@ -330,7 +330,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "或者——<delay ms=\"400\"/><em>傷害我們對它們而言沒有意義</em>。",
           "reveal": {
             "mode": "typewriter",
@@ -387,7 +387,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "走。繼續。",
           "reveal": {
             "mode": "typewriter",

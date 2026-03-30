@@ -1,0 +1,20 @@
+{
+    "characters": {
+        "alea": {
+            "name": "アレア",
+            "fullName": "アレア（Alea）"
+        },
+        "lyra": {
+            "name": "リラ",
+            "fullName": "リラ（Lyra）"
+        },
+        "soren": {
+            "name": "ソレン",
+            "fullName": "ソレン（Soren）"
+        },
+        "elias": {
+            "name": "エリアス",
+            "fullName": "エリアス（Elias）"
+        }
+    }
+}

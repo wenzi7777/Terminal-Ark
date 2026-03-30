@@ -1,6 +1,6 @@
 {
   "id": "8-2",
-  "title": "第二幕：Lyra のコード",
+  "title": "第二幕：{{characters.lyra.name}} のコード",
   "startNode": "main",
   "nodes": {
     "main": {
@@ -49,7 +49,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は聞き、評価し、有用な情報を探していました。",
+          "text": "{{characters.soren.name}} は聞き、評価し、有用な情報を探していました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -63,7 +63,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は洞窟の構造を観察し、可能性のある出口位置を推算していました。",
+          "text": "{{characters.elias.name}} は洞窟の構造を観察し、可能性のある出口位置を推算していました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -77,7 +77,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は静かに座り、顔に表情なく、眼は司祭と周囲の Solmaris 成員を行き来していました。",
+          "text": "{{characters.alea.name}} は静かに座り、顔に表情なく、眼は司祭と周囲の Solmaris 成員を行き来していました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -91,7 +91,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は聞いていました。本当に聞いていました。なぜなら、彼女はあらゆる存在様式に対して本当の好奇心を抱いていたからです。たとえ彼女が完全には認同できない方法であっても。",
+          "text": "{{characters.lyra.name}} は聞いていました。本当に聞いていました。なぜなら、彼女はあらゆる存在様式に対して本当の好奇心を抱いていたからです。たとえ彼女が完全には認同できない方法であっても。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -120,7 +120,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼女の視線は Lyra に落ちました。",
+          "text": "彼女の視線は {{characters.lyra.name}} に落ちました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -134,7 +134,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "ちょっと待ってください。何をするつもりですか。",
           "reveal": {
             "mode": "typewriter",
@@ -164,7 +164,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は外部の信号が神経接続インターフェースに接触するのを感じました。最上層でデータシーケンスが展開され、周囲の全員が感知できる神経ブロードキャスト周波数に投影されました。",
+          "text": "{{characters.lyra.name}} は外部の信号が神経接続インターフェースに接触するのを感じました。最上層でデータシーケンスが展開され、周囲の全員が感知できる神経ブロードキャスト周波数に投影されました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -283,7 +283,7 @@
           "type": "line",
           "layer": "dialogue",
           "speaker": "首席司祭",
-          "text": "あなたがその実験です。<delay ms=\"600\"/>Lyra、あなたの全ての感情、あなたの全ての選択、あなたが自分自身であると感じさせるあらゆるもの、それは私たちが設計したパラメータです。",
+          "text": "あなたがその実験です。<delay ms=\"600\"/>{{characters.lyra.name}}、あなたの全ての感情、あなたの全ての選択、あなたが自分自身であると感じさせるあらゆるもの、それは私たちが設計したパラメータです。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -297,7 +297,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は空気に投影されたコードを見つめながら座っていました。まるで見知らぬ人の名前を見ているようで、それが自分のものであることを認めざるを得ませんでした。",
+          "text": "{{characters.lyra.name}} は空気に投影されたコードを見つめながら座っていました。まるで見知らぬ人の名前を見ているようで、それが自分のものであることを認めざるを得ませんでした。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

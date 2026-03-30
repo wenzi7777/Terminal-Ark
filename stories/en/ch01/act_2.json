@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea's shelter was positioned dangerously close to the perimeter shield. So when the alarm sounded, it was as if it detonated right against her eardrums.",
+          "text": "{{characters.alea.name}}'s shelter was positioned dangerously close to the perimeter shield. So when the alarm sounded, it was as if it detonated right against her eardrums.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -70,7 +70,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "A low-frequency wail emanated from the shield's edge. Alea sprang to her feet in the same instant.",
+          "text": "A low-frequency wail emanated from the shield's edge. {{characters.alea.name}} sprang to her feet in the same instant.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -154,7 +154,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea crouched low and moved <em>against the flow</em>, heading in the opposite direction.",
+          "text": "{{characters.alea.name}} crouched low and moved <em>against the flow</em>, heading in the opposite direction.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -239,7 +239,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea stopped dead in her tracks.",
+          "text": "{{characters.alea.name}} stopped dead in her tracks.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -303,7 +303,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "The next second, tremors through the floor pulled Alea's nerves taut.",
+          "text": "The next second, tremors through the floor pulled {{characters.alea.name}}'s nerves taut.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -353,7 +353,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea grabbed a piece of metal scrap from the floor and hurled it at a window on the opposite side.",
+          "text": "{{characters.alea.name}} grabbed a piece of metal scrap from the floor and hurled it at a window on the opposite side.",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -380,7 +380,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "The creature's attention snapped away. In the half-second it faltered, Alea charged into the hall, grabbed the child's wrist, and dragged her toward the side exit.",
+          "text": "The creature's attention snapped away. In the half-second it faltered, {{characters.alea.name}} charged into the hall, grabbed the child's wrist, and dragged her toward the side exit.",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -402,7 +402,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "The mutant lunged. Alea spun and slashed with her blade—unable to pierce the creature's thick chitin, but the electromagnetic discharge found its mark at the joint of the hind leg, sending the beast stumbling.",
+          "text": "The mutant lunged. {{characters.alea.name}} spun and slashed with her blade—unable to pierce the creature's thick chitin, but the electromagnetic discharge found its mark at the joint of the hind leg, sending the beast stumbling.",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -430,7 +430,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea jammed herself against the door, gasping for breath.",
+          "text": "{{characters.alea.name}} jammed herself against the door, gasping for breath.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -458,7 +458,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "The girl's blonde hair was a mess, covered in dust. Sensing Alea's gaze, she looked up.",
+          "text": "The girl's blonde hair was a mess, covered in dust. Sensing {{characters.alea.name}}'s gaze, she looked up.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -486,8 +486,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "Thank you. I'm <em>Lyra</em>. <delay ms=\"400\"/>What's your name?",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "Thank you. I'm <em>{{characters.lyra.name}}</em>. <delay ms=\"400\"/>What's your name?",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -501,7 +501,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea blinked.",
+          "text": "{{characters.alea.name}} blinked.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -515,8 +515,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "...Alea.",
+          "speaker": "{{characters.alea.name}}",
+          "text": "...{{characters.alea.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18

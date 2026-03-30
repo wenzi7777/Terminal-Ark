@@ -99,7 +99,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 往前走了一步，被 Soren 伸手攔住了。",
+          "text": "{{characters.lyra.name}} 往前走了一步，被 {{characters.soren.name}} 伸手攔住了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "等。",
           "reveal": {
             "mode": "typewriter",
@@ -128,7 +128,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "那是個孩子。",
           "reveal": {
             "mode": "typewriter",
@@ -143,7 +143,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "我知道。聽我說完。",
           "reveal": {
             "mode": "typewriter",
@@ -158,7 +158,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Solmaris 的軍隊從西側推進，速度和方向都太精準了。它們不是在追擊，是在合圍。目標就是那個醫院。",
           "reveal": {
             "mode": "typewriter",
@@ -173,7 +173,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "那個醫院的位置在防護罩的隔離區和荒原的緩衝帶之間。不在方舟守軍的保護範圍內，也不在荒原的自然遮蔽裡。那個位置本身就是一個口袋。",
           "reveal": {
             "mode": "typewriter",
@@ -188,7 +188,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "<whisper>那裡的人是誘餌。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -203,7 +203,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Solmaris 不在乎那些平民的死活。它們要的是把所有可能出手救援的個體一起引進那個範圍。那個口袋一旦收緊，進去的人沒有任何一個能出來。",
           "reveal": {
             "mode": "typewriter",
@@ -218,7 +218,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "我們沒有足夠的武裝，沒有足夠的人數，沒有任何戰略上的優勢——<delay ms=\"300\"/>進去，就是一起死在那裡。",
           "reveal": {
             "mode": "typewriter",
@@ -247,7 +247,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "我知道。你說的我都知道。",
           "reveal": {
             "mode": "typewriter",
@@ -262,7 +262,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "我知道。",
           "reveal": {
             "mode": "typewriter",
@@ -277,7 +277,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "這一次不是在回應 Soren。那兩個字是說給她自己聽的。",
+          "text": "這一次不是在回應 {{characters.soren.name}}。那兩個字是說給她自己聽的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -291,7 +291,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "但是我沒有辦法。",
           "reveal": {
             "mode": "typewriter",
@@ -306,8 +306,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Lyra——",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.lyra.name}}——",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -321,7 +321,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "我沒有辦法站在這裡，看著那裡的人死掉，然後告訴自己我知道這是誘餌所以我沒有進去。",
           "reveal": {
             "mode": "typewriter",
@@ -336,7 +336,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "我知道這樣說是不理智的。我知道你的判斷是對的。我知道進去可能是死路。",
           "reveal": {
             "mode": "typewriter",
@@ -351,8 +351,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "但是，Soren，如果我就這樣站在這裡——",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "但是，{{characters.soren.name}}，如果我就這樣站在這裡——",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -380,7 +380,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 沉默了。他的嘴唇動了一下，沒有再說任何話。",
+          "text": "{{characters.soren.name}} 沉默了。他的嘴唇動了一下，沒有再說任何話。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -394,7 +394,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 在一旁站著，沒有說話。她的目光在 Lyra 臉上停了一秒，然後移開，看向那個方向。",
+          "text": "{{characters.alea.name}} 在一旁站著，沒有說話。她的目光在 {{characters.lyra.name}} 臉上停了一秒，然後移開，看向那個方向。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14

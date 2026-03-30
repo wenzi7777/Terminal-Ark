@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren fell silent after learning which building Elias had been taken into.",
+          "text": "{{characters.soren.name}} fell silent after learning which building {{characters.elias.name}} had been taken into.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -56,8 +56,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Mond's directive only targets Elias. The rest of us are free to move. But free to move doesn't mean we're not being monitored. Every action we take is being recorded.",
+          "speaker": "{{characters.soren.name}}",
+          "text": "Mond's directive only targets {{characters.elias.name}}. The rest of us are free to move. But free to move doesn't mean we're not being monitored. Every action we take is being recorded.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -71,7 +71,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "What do we do now?",
           "reveal": {
             "mode": "typewriter",
@@ -86,7 +86,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Move naturally. Make us look like we're accepting this. At the same time, find blind spots.",
           "reveal": {
             "mode": "typewriter",
@@ -101,7 +101,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra took one last look at the building, turned away, and followed Soren. Her pace was normal, her expression calm.",
+          "text": "{{characters.lyra.name}} took one last look at the building, turned away, and followed {{characters.soren.name}}. Her pace was normal, her expression calm.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -129,7 +129,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea walked behind them. Her eyes scanned the sensor nodes around them, calculating coverage, searching for the angles with minimal overlap.",
+          "text": "{{characters.alea.name}} walked behind them. Her eyes scanned the sensor nodes around them, calculating coverage, searching for the angles with minimal overlap.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -199,7 +199,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Through here, along the building's north corridor. Sensor coverage drops in density after the corner.",
           "reveal": {
             "mode": "typewriter",
@@ -214,8 +214,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "The electronic lock on the building Elias was taken to is under Mond's central control. If Mond's subsystem fails, the lock will automatically disengage.",
+          "speaker": "{{characters.soren.name}}",
+          "text": "The electronic lock on the building {{characters.elias.name}} was taken to is under Mond's central control. If Mond's subsystem fails, the lock will automatically disengage.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -229,8 +229,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Elias needs to coordinate from inside.",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.elias.name}} needs to coordinate from inside.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -244,7 +244,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "He knows. That look he gave before being taken away showed he was already thinking about it.",
           "reveal": {
             "mode": "typewriter",
@@ -259,7 +259,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra listened but didn't participate in the analysis. She simply stood there, looking toward the building.",
+          "text": "{{characters.lyra.name}} listened but didn't participate in the analysis. She simply stood there, looking toward the building.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -287,8 +287,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Lyra.",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.lyra.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -302,7 +302,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Yeah.",
           "reveal": {
             "mode": "typewriter",
@@ -317,7 +317,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Let's go.",
           "reveal": {
             "mode": "typewriter",
@@ -401,7 +401,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea was already running.",
+          "text": "{{characters.alea.name}} was already running.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -464,7 +464,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias stood behind the door, receiver in hand. He saw her, then glanced past her to confirm Soren and Lyra were both there.",
+          "text": "{{characters.elias.name}} stood behind the door, receiver in hand. He saw her, then glanced past her to confirm {{characters.soren.name}} and {{characters.lyra.name}} were both there.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -478,7 +478,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "How long do we have?",
           "reveal": {
             "mode": "typewriter",
@@ -493,7 +493,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Not much. Quick.",
           "reveal": {
             "mode": "typewriter",
@@ -508,7 +508,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra waited in the corridor. When she saw Elias emerge, she stepped forward slightly without speaking.",
+          "text": "{{characters.lyra.name}} waited in the corridor. When she saw {{characters.elias.name}} emerge, she stepped forward slightly without speaking.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -536,7 +536,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Go.",
           "reveal": {
             "mode": "typewriter",

@@ -70,7 +70,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias stood on a high point in the Wasteland, watching the Ark's silhouette in the distance. He could see the shield's light veil. Over the past few hours, its color had slowly shifted from stable blue-white to something darker, thinner, like a repeatedly stretched membrane approaching its breaking point.",
+          "text": "{{characters.elias.name}} stood on a high point in the Wasteland, watching the Ark's silhouette in the distance. He could see the shield's light veil. Over the past few hours, its color had slowly shifted from stable blue-white to something darker, thinner, like a repeatedly stretched membrane approaching its breaking point.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -98,7 +98,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "They didn't know there was no auto-repair this time. This weakening had a written endpoint, and that endpoint connected to a target marker already inscribed in the AI Legion's combat directive system. That marker was there now, waiting for the shield to weaken to a penetrable strength. The calculation was precise—as precise as all of Soren's calculations.",
+          "text": "They didn't know there was no auto-repair this time. This weakening had a written endpoint, and that endpoint connected to a target marker already inscribed in the AI Legion's combat directive system. That marker was there now, waiting for the shield to weaken to a penetrable strength. The calculation was precise—as precise as all of {{characters.soren.name}}'s calculations.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -112,7 +112,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias stood on that high ground for a long time, watching the veil grow thinner and thinner, watching a countdown he didn't know how to stop from every direction.",
+          "text": "{{characters.elias.name}} stood on that high ground for a long time, watching the veil grow thinner and thinner, watching a countdown he didn't know how to stop from every direction.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -126,7 +126,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "He thought of Lyra.",
+          "text": "He thought of {{characters.lyra.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -140,7 +140,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "She was still there, near the corridor exit, beside that cold body. When he left, she was still kneeling. He stood for one second, then followed Soren. He couldn't say which was right—that second of standing or that second of leaving. But in that second, he chose to follow because he thought he could stop him.",
+          "text": "She was still there, near the corridor exit, beside that cold body. When he left, she was still kneeling. He stood for one second, then followed {{characters.soren.name}}. He couldn't say which was right—that second of standing or that second of leaving. But in that second, he chose to follow because he thought he could stop him.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -168,7 +168,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "He stood here now. Soren's plan was halfway through. The shield was weakening. The Ark's people didn't know. Lyra didn't know. Everyone alive in the Wasteland didn't know. Only he knew. Only he stood here, watching that veil grow more fragile by the moment, and knowing there was only one person who could do what needed to be done.",
+          "text": "He stood here now. {{characters.soren.name}}'s plan was halfway through. The shield was weakening. The Ark's people didn't know. {{characters.lyra.name}} didn't know. Everyone alive in the Wasteland didn't know. Only he knew. Only he stood here, watching that veil grow more fragile by the moment, and knowing there was only one person who could do what needed to be done.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -182,7 +182,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Only Lyra.",
+          "text": "Only {{characters.lyra.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10

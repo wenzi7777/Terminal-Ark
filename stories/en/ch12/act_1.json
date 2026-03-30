@@ -43,7 +43,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea lay on the ground outside the corridor entrance.",
+          "text": "{{characters.alea.name}} lay on the ground outside the corridor entrance.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -57,7 +57,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "They returned after the combat sounds ceased. Not everyone agreed to return. Lyra was the first to stop, to turn, to walk back. Soren tried to hold her back—it didn't work. Elias didn't try. The three of them ended up back at the corridor entrance together.",
+          "text": "They returned after the combat sounds ceased. Not everyone agreed to return. {{characters.lyra.name}} was the first to stop, to turn, to walk back. {{characters.soren.name}} tried to hold her back—it didn't work. {{characters.elias.name}} didn't try. The three of them ended up back at the corridor entrance together.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra walked over and knelt beside her.",
+          "text": "{{characters.lyra.name}} walked over and knelt beside her.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -183,7 +183,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra looked at that face.",
+          "text": "{{characters.lyra.name}} looked at that face.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -239,7 +239,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra didn't speak. She suddenly understood in that moment that something had truly, completely ended. Not something that would get another chance later, not something that still existed somewhere else. Complete. A direction had disappeared. Looking toward that direction, there was nothing left.",
+          "text": "{{characters.lyra.name}} didn't speak. She suddenly understood in that moment that something had truly, completely ended. Not something that would get another chance later, not something that still existed somewhere else. Complete. A direction had disappeared. Looking toward that direction, there was nothing left.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10

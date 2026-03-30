@@ -106,7 +106,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "補給ステーション、ターミナル・アークの遠征隊の辺境作業用。建造は約二十年前。ここがアーク領土の最外縁です。",
           "reveal": {
             "mode": "typewriter",
@@ -135,7 +135,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "活動的なエネルギー信号があります。中に人がいます。",
           "reveal": {
             "mode": "typewriter",
@@ -150,7 +150,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "人だけではない。大量の機械神経信号があり、密度は高く、配列は整然としています――<em>人造兵</em>で、数が多い。おそらく定期的なエネルギー補給を実行中のようです。",
           "reveal": {
             "mode": "typewriter",
@@ -165,7 +165,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "補給中の兵は離線状態です。補給が完了する前に物資を取って脱出すれば、衝突はありません。",
           "reveal": {
             "mode": "typewriter",
@@ -180,7 +180,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "理論的には。",
           "reveal": {
             "mode": "typewriter",
@@ -195,7 +195,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼らは側面の通風格子を入口として選んだ。Elias は格子の電子ロックを解除し、四人は一列に建物内の配管に進み、匍匐前進した。",
+          "text": "彼らは側面の通風格子を入口として選んだ。{{characters.elias.name}} は格子の電子ロックを解除し、四人は一列に建物内の配管に進み、匍匐前進した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -258,7 +258,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "十二体。Alea は心の中で数えた。",
+          "text": "十二体。{{characters.alea.name}} は心の中で数えた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -286,7 +286,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "<whisper>速く。必要なものだけ取れ。他のことをするな。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -301,7 +301,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼らは分担で動き、動作を抑えた。Lyra が医薬品を取り、Elias が安定化剤を取り、Soren が武装モジュールの型番を評価した。",
+          "text": "彼らは分担で動き、動作を抑えた。{{characters.lyra.name}} が医薬品を取り、{{characters.elias.name}} が安定化剤を取り、{{characters.soren.name}} が武装モジュールの型番を評価した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -315,7 +315,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea はホールの中央に警戒を続け、その十二体の沈黙した躯体の間に視線を走らせていた。",
+          "text": "{{characters.alea.name}} はホールの中央に警戒を続け、その十二体の沈黙した躯体の間に視線を走らせていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -343,7 +343,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea の身体は意識より先に反応した。彼女は一歩後ろに下がり、背中を最も近い支柱に当てた。",
+          "text": "{{characters.alea.name}} の身体は意識より先に反応した。彼女は一歩後ろに下がり、背中を最も近い支柱に当てた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -357,7 +357,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "<whisper>止まれ。動くな。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -472,8 +472,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "Alea――",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "{{characters.alea.name}}――",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -487,7 +487,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "聞いて。三人が外付けモジュールを装着して、私の指令に従いなさい。",
           "reveal": {
             "mode": "typewriter",

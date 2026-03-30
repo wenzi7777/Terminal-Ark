@@ -1,6 +1,6 @@
 {
   "id": "11-2",
-  "title": "第二幕：Aleaの決意",
+  "title": "第二幕：{{characters.alea.name}}の決意",
   "startNode": "main",
   "nodes": {
     "main": {
@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "AleaはLyraを見た。Lyraは頭を上げなかった。両手は膝を掴み込んだ。",
+          "text": "{{characters.alea.name}}は{{characters.lyra.name}}を見た。{{characters.lyra.name}}は頭を上げなかった。両手は膝を掴み込んだ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -42,8 +42,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "俺のせいだ。あのドアを開かなかったら、彼らは——俺がSorenの言葉を聞いてたら、俺が——",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "俺のせいだ。あのドアを開かなかったら、彼らは——俺が{{characters.soren.name}}の言葉を聞いてたら、俺が——",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -57,8 +57,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Lyra。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.lyra.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -72,7 +72,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "あの子。あの子を抱き起こして、中に連れて行ったって。一緒に出てこようって、それなのに——",
           "reveal": {
             "mode": "typewriter",
@@ -87,8 +87,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Lyra。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.lyra.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -102,7 +102,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼女はやっと頭を上げて、Aleaを見た。",
+          "text": "彼女はやっと頭を上げて、{{characters.alea.name}}を見た。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -116,7 +116,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Aleaは彼女を見つめた。大きな道理は言わず、誰の過ちかについて、または過ちではないかについて何も言わなかった。彼女はただ彼女を見つめた。非常に直接的な、修飾のない方法で、彼女の現在のあり方を自分の目に入れた。",
+          "text": "{{characters.alea.name}}は彼女を見つめた。大きな道理は言わず、誰の過ちかについて、または過ちではないかについて何も言わなかった。彼女はただ彼女を見つめた。非常に直接的な、修飾のない方法で、彼女の現在のあり方を自分の目に入れた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -130,7 +130,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "その後、彼女はLyraの前に片膝をついた。",
+          "text": "その後、彼女は{{characters.lyra.name}}の前に片膝をついた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -144,7 +144,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "その動作はLyraを驚かせた。彼女はAleaがこのポーズをするのを見たことがなかった。常に最前にいて、最前を歩く人が、今彼女の前に片膝をつき、自分の視線を彼女の視線と同じレベルに落とした。",
+          "text": "その動作は{{characters.lyra.name}}を驚かせた。彼女は{{characters.alea.name}}がこのポーズをするのを見たことがなかった。常に最前にいて、最前を歩く人が、今彼女の前に片膝をつき、自分の視線を彼女の視線と同じレベルに落とした。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -158,7 +158,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Aleaは手を伸ばし、彼女の頭を撫でた。その動作は軽く、あたかも何かがまだあることを確認するようだった。",
+          "text": "{{characters.alea.name}}は手を伸ばし、彼女の頭を撫でた。その動作は軽く、あたかも何かがまだあることを確認するようだった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -172,7 +172,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "その後、彼女はLyraを抱き込んだ。安心のための軽いたたきではなく、真の意味で彼女を抱き込んで、あたかも自分を縮めようとしているその体を、すべてを自分の中に包み込んだ。",
+          "text": "その後、彼女は{{characters.lyra.name}}を抱き込んだ。安心のための軽いたたきではなく、真の意味で彼女を抱き込んで、あたかも自分を縮めようとしているその体を、すべてを自分の中に包み込んだ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -186,7 +186,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyraは泣かなかった。彼女はもう泣く力がなかった。彼女はその抱擁の中で、その比彼女により安定した重量に靠り、止まった。一秒。",
+          "text": "{{characters.lyra.name}}は泣かなかった。彼女はもう泣く力がなかった。彼女はその抱擁の中で、その比彼女により安定した重量に靠り、止まった。一秒。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -200,7 +200,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "そして彼女は感じた。Aleaの手が何かを探しているような感じがして、彼女は突然左首に何かが当たった——",
+          "text": "そして彼女は感じた。{{characters.alea.name}}の手が何かを探しているような感じがして、彼女は突然左首に何かが当たった——",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -214,7 +214,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyraは反応する暇もなく、緊急神経シンク制が既に注射を完了していた。その液体が神経接続回路に入る感覚は即座で、発麻の端から重新引き戻された目覚めがあり、彼女の神経シンク率はその後数秒で急速に安定した。",
+          "text": "{{characters.lyra.name}}は反応する暇もなく、緊急神経シンク制が既に注射を完了していた。その液体が神経接続回路に入る感覚は即座で、発麻の端から重新引き戻された目覚めがあり、彼女の神経シンク率はその後数秒で急速に安定した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -228,8 +228,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "Alea——",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "{{characters.alea.name}}——",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -243,7 +243,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "だがAleaはもう彼女を離し、後ろに引いて、口袋からもう一本の緊急シンク制を取り出し、Lyraの手心に置いた。",
+          "text": "だが{{characters.alea.name}}はもう彼女を離し、後ろに引いて、口袋からもう一本の緊急シンク制を取り出し、{{characters.lyra.name}}の手心に置いた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -285,7 +285,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "それは彼女のものだ。Aleaのものだ。",
+          "text": "それは彼女のものだ。{{characters.alea.name}}のものだ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -313,7 +313,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyraはそのプレートを握り、頭を上げた。",
+          "text": "{{characters.lyra.name}}はそのプレートを握り、頭を上げた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -327,7 +327,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "これは——",
           "reveal": {
             "mode": "typewriter",
@@ -342,7 +342,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Aleaは彼女の言葉を完成させさせなかった。彼女は身をかがめ、Lyraの耳に近づけ、声は非常に小さく、この斜路の中で、彼女だけが聞こえる声。",
+          "text": "{{characters.alea.name}}は彼女の言葉を完成させさせなかった。彼女は身をかがめ、{{characters.lyra.name}}の耳に近づけ、声は非常に小さく、この斜路の中で、彼女だけが聞こえる声。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -356,7 +356,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "<whisper>じゃあね、君はちゃんと生きて。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -385,7 +385,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼女が立ち上がる動作は非常に自然で、毎朝折りたたみベッドから身を起こすのと同じくらい自然だった。彼女は直立した。Sorenとeliasに向き直った。その二人はそれを見ていた。Sorenの目の中には計算外の何かがあった。eliasの唇は少し動いたが、言葉は出なかった。",
+          "text": "彼女が立ち上がる動作は非常に自然で、毎朝折りたたみベッドから身を起こすのと同じくらい自然だった。彼女は直立した。{{characters.soren.name}}とeliasに向き直った。その二人はそれを見ていた。{{characters.soren.name}}の目の中には計算外の何かがあった。eliasの唇は少し動いたが、言葉は出なかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12

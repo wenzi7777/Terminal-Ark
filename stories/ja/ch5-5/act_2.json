@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "その夜は Alea と Lyra が見張りを交代した。",
+          "text": "その夜は {{characters.alea.name}} と {{characters.lyra.name}} が見張りを交代した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -84,7 +84,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "あなたは怖くない？",
           "reveal": {
             "mode": "typewriter",
@@ -99,7 +99,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "何が？",
           "reveal": {
             "mode": "typewriter",
@@ -114,7 +114,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "すべてだ。荒野。あの生物たち。人工兵士たち。どこに行き着くのか分からない道。そして、死ぬかもしれないこと。",
           "reveal": {
             "mode": "typewriter",
@@ -129,7 +129,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は沈黙した。外の暗闇を見つめ、その問いを頭の中に留めた。",
+          "text": "{{characters.alea.name}} は沈黙した。外の暗闇を見つめ、その問いを頭の中に留めた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -143,7 +143,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "前は何も怖くなかった。<delay ms=\"500\"/>失うものがなかったから。",
           "reveal": {
             "mode": "typewriter",
@@ -158,7 +158,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra はその言葉を聞いて、何も言わなかった。彼女は Alea に身を寄せ、肩を軽く預けた。その動作は何も問わず、何も求めない。",
+          "text": "{{characters.lyra.name}} はその言葉を聞いて、何も言わなかった。彼女は {{characters.alea.name}} に身を寄せ、肩を軽く預けた。その動作は何も問わず、何も求めない。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -172,7 +172,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は動かなかった。",
+          "text": "{{characters.alea.name}} は動かなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -200,7 +200,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は風で揺れた髪を手で払い、手を膝に戻す。",
+          "text": "{{characters.lyra.name}} は風で揺れた髪を手で払い、手を膝に戻す。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -214,7 +214,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "<whisper>今は？</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -229,7 +229,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は答えなかった。",
+          "text": "{{characters.alea.name}} は答えなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12

@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "お前たちは行け。俺が殿を務める。",
           "reveal": {
             "mode": "typewriter",
@@ -43,7 +43,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Sorenはすぐには動かなかった。",
+          "text": "{{characters.soren.name}}はすぐには動かなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -57,8 +57,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Alea——",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.alea.name}}——",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -72,7 +72,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "考えてみろ。お前たち三人のシンク率で、今、どのくらいの戦闘時間に耐えられるかを。",
           "reveal": {
             "mode": "typewriter",
@@ -87,7 +87,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Sorenは沈黙した。彼は考えた。その結論を口に出したくなかったが、考えた。",
+          "text": "{{characters.soren.name}}は沈黙した。彼は考えた。その結論を口に出したくなかったが、考えた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -101,8 +101,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "eliasの右腕はもう応答を失い、Lyraの軀体完全性は危機ラインで、お前のシンク率は——",
+          "speaker": "{{characters.alea.name}}",
+          "text": "eliasの右腕はもう応答を失い、{{characters.lyra.name}}の軀体完全性は危機ラインで、お前のシンク率は——",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -116,7 +116,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "お前たちが今できることはただ一つだ。この通路を出て、十分安全な距離に行き、それからシンク率を自然に回復させる。今の状態でまた遭遇戦をしたら、お前たち三人とも出ることはできない。",
           "reveal": {
             "mode": "typewriter",
@@ -131,7 +131,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "お前一人が戦うことはできない——",
           "reveal": {
             "mode": "typewriter",
@@ -160,7 +160,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "俺は成人軀体だ。シンク率はお前たちより高い。そしてお前たちが勝つ必要はない。俺はお前たちが十分遠く離れるための時間をくれるだけでいい。",
           "reveal": {
             "mode": "typewriter",
@@ -189,7 +189,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼女はLyraに向き直った。Lyraはまだそのネームプレートを握り、それを握る手背の筋が微かに浮き出ていた。彼女は頭を上げてAleaを見た。目には何か言う言葉が多すぎて出ない。",
+          "text": "彼女は{{characters.lyra.name}}に向き直った。{{characters.lyra.name}}はまだそのネームプレートを握り、それを握る手背の筋が微かに浮き出ていた。彼女は頭を上げて{{characters.alea.name}}を見た。目には何か言う言葉が多すぎて出ない。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -203,7 +203,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Aleaは彼女を一目見て、それから軽く、ほぼ察知できない幅度で頭を一度傾けた。",
+          "text": "{{characters.alea.name}}は彼女を一目見て、それから軽く、ほぼ察知できない幅度で頭を一度傾けた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -259,7 +259,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "外で、Solmaris先発部隊の足音はもう斜路口の外側に到着していた。スキャナの光がそちらから入って、斜路の地面に冷白色の光斑を残した。Aleaはその光に入り、彼女の背が光の中で鮮明になり、非常に真っ直ぐで、非常に安定していた。彼女が常にしてきたあり方のように。",
+          "text": "外で、Solmaris先発部隊の足音はもう斜路口の外側に到着していた。スキャナの光がそちらから入って、斜路の地面に冷白色の光斑を残した。{{characters.alea.name}}はその光に入り、彼女の背が光の中で鮮明になり、非常に真っ直ぐで、非常に安定していた。彼女が常にしてきたあり方のように。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -273,7 +273,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "行け。今。",
           "reveal": {
             "mode": "typewriter",
@@ -302,7 +302,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Sorenが動いた。Eliasを引いて、eliasはLyraを支えた。三人が斜路の反対側に向かった。Lyraは最初の一歩を出す時に一度振り返った。彼女はAleaを見た。斜路口に立つ背。",
+          "text": "{{characters.soren.name}}が動いた。{{characters.elias.name}}を引いて、eliasは{{characters.lyra.name}}を支えた。三人が斜路の反対側に向かった。{{characters.lyra.name}}は最初の一歩を出す時に一度振り返った。彼女は{{characters.alea.name}}を見た。斜路口に立つ背。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -358,7 +358,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Aleaの声はその音の中に出なかった。彼女は叫ばなかった。話さなかった。その戦闘音だけが斜路の中で反響し、三人の耳に入り。明確で、無情で、人に聞こえないふりをさせない。",
+          "text": "{{characters.alea.name}}の声はその音の中に出なかった。彼女は叫ばなかった。話さなかった。その戦闘音だけが斜路の中で反響し、三人の耳に入り。明確で、無情で、人に聞こえないふりをさせない。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -372,7 +372,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyraは前に歩いた。一歩、一歩。そのネームプレートは彼女の手心で、彼女は握り込んでいた。その金属の端が彼女の皮膚に圧力を落とし、彼女はその金属の温度を感じた。Aleaの身から帯来する温度は、まだ完全には散っていない。",
+          "text": "{{characters.lyra.name}}は前に歩いた。一歩、一歩。そのネームプレートは彼女の手心で、彼女は握り込んでいた。その金属の端が彼女の皮膚に圧力を落とし、彼女はその金属の温度を感じた。{{characters.alea.name}}の身から帯来する温度は、まだ完全には散っていない。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -456,7 +456,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyraは歩き続けたが、彼女はそのネームプレートを胸に押し付け、その静寂の重さを感じ、その金属から漸漸散るその最後の温度を感じた。彼女は目を閉じて一歩歩き、開けて続けた。",
+          "text": "{{characters.lyra.name}}は歩き続けたが、彼女はそのネームプレートを胸に押し付け、その静寂の重さを感じ、その金属から漸漸散るその最後の温度を感じた。彼女は目を閉じて一歩歩き、開けて続けた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10

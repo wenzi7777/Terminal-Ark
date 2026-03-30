@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Not abruptly. Slowly, like morning mist fading in light. Lyra felt that texture withdrawing from her neural terminal bit by bit. She wanted to hold on, her fingers clenching in the dust, but these things weren't something you could grip. She only let them go, let them scatter into the Wasteland air, into the cold ground she lay on, scatter and disappear.",
+          "text": "Not abruptly. Slowly, like morning mist fading in light. {{characters.lyra.name}} felt that texture withdrawing from her neural terminal bit by bit. She wanted to hold on, her fingers clenching in the dust, but these things weren't something you could grip. She only let them go, let them scatter into the Wasteland air, into the cold ground she lay on, scatter and disappear.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -140,7 +140,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra.",
+          "text": "{{characters.lyra.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 8
@@ -154,7 +154,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "She was an experimental subject. A designed soul. A Solmaris reject. These were all true. She didn't plan to deny them or pretend they didn't exist. But she was also Lyra. The person who laughed in that dark corridor. The person who took Alea's wrist. The person held in that embrace in the underground cavity. The person who was told \"you've become yourself.\" The person Alea deeply loved. The person Alea died protecting.",
+          "text": "She was an experimental subject. A designed soul. A Solmaris reject. These were all true. She didn't plan to deny them or pretend they didn't exist. But she was also {{characters.lyra.name}}. The person who laughed in that dark corridor. The person who took {{characters.alea.name}}'s wrist. The person held in that embrace in the underground cavity. The person who was told \"you've become yourself.\" The person {{characters.alea.name}} deeply loved. The person {{characters.alea.name}} died protecting.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -266,7 +266,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "She didn't know what it looked like now. She didn't know how far Soren had gone. She didn't know where Elias was. She didn't know what awaited her. She knew nothing. But she knew one thing, and that was enough.",
+          "text": "She didn't know what it looked like now. She didn't know how far {{characters.soren.name}} had gone. She didn't know where {{characters.elias.name}} was. She didn't know what awaited her. She knew nothing. But she knew one thing, and that was enough.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -280,7 +280,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea asked her to keep walking.",
+          "text": "{{characters.alea.name}} asked her to keep walking.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -294,7 +294,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "It wasn't a request. It wasn't a dying wish. It was something she'd already decided. Something she'd prepared and put in that nameplate on some day she didn't even mark, something she handed to Lyra with her own hands, for her to carry forward.",
+          "text": "It wasn't a request. It wasn't a dying wish. It was something she'd already decided. Something she'd prepared and put in that nameplate on some day she didn't even mark, something she handed to {{characters.lyra.name}} with her own hands, for her to carry forward.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10

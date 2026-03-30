@@ -63,7 +63,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren constructed a barely viable plan in an environment with incomplete intelligence, using everything he possessed.",
+          "text": "{{characters.soren.name}} constructed a barely viable plan in an environment with incomplete intelligence, using everything he possessed.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -77,7 +77,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Eastbound. The terrain there is broken. Mechanical units move less efficiently over complex surfaces. We can outrun them.",
           "reveal": {
             "mode": "typewriter",
@@ -92,7 +92,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "How much time?",
           "reveal": {
             "mode": "typewriter",
@@ -107,7 +107,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Not much. If the subsystem outage buys us more time, we can clear the area before the legion fully regroups.",
           "reveal": {
             "mode": "typewriter",
@@ -122,7 +122,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Go.",
           "reveal": {
             "mode": "typewriter",
@@ -193,7 +193,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren's judgment was sound.",
+          "text": "{{characters.soren.name}}'s judgment was sound.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -292,7 +292,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias stopped at the fissure's end, caught his breath, and looked back once.",
+          "text": "{{characters.elias.name}} stopped at the fissure's end, caught his breath, and looked back once.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -348,7 +348,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Are you okay?",
           "reveal": {
             "mode": "typewriter",
@@ -377,7 +377,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "I want to know. How did this war start? Why? Who's making it continue?",
           "reveal": {
             "mode": "typewriter",
@@ -392,7 +392,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "In Mondris, Mond integrated everyone's will into itself. That city no longer knows why it fights—it's just executing an order that began ages ago.",
           "reveal": {
             "mode": "typewriter",
@@ -407,7 +407,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Where is that order's origin? <delay ms=\"500\"/>I want to find it.",
           "reveal": {
             "mode": "typewriter",
@@ -422,7 +422,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra said nothing. She simply nodded, a light but definite gesture.",
+          "text": "{{characters.lyra.name}} said nothing. She simply nodded, a light but definite gesture.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -436,7 +436,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Solmaris signal is northwest. Let's move.",
           "reveal": {
             "mode": "typewriter",

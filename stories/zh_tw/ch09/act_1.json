@@ -71,7 +71,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "是火。",
           "reveal": {
             "mode": "typewriter",
@@ -198,7 +198,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "他們聯手了。而且配合得很好，各自用對方沒有的能力填補漏洞。這不是臨時的協議，是預謀的。",
           "reveal": {
             "mode": "typewriter",
@@ -213,7 +213,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "兩個在信仰上完全對立的陣營，聯手攻擊同一個目標。<delay ms=\"400\"/>為什麼。",
           "reveal": {
             "mode": "typewriter",
@@ -256,7 +256,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 靜靜地看著那片火。手指不知不覺地扣緊了旁邊岩石的邊緣，指節泛白。",
+          "text": "{{characters.lyra.name}} 靜靜地看著那片火。手指不知不覺地扣緊了旁邊岩石的邊緣，指節泛白。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18

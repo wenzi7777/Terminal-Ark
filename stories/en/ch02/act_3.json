@@ -35,7 +35,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "It was Elias who suggested interfacing with the neural network.",
+          "text": "It was {{characters.elias.name}} who suggested interfacing with the neural network.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -49,7 +49,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "These fragmented data pieces alone aren't enough. There are several encryption layers I can't break through alone. We need more processing power, and we'll need multiple nodes connected simultaneously to bypass tracking.",
           "reveal": {
             "mode": "typewriter",
@@ -64,7 +64,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Four of us synced up will be much faster.",
           "reveal": {
             "mode": "typewriter",
@@ -79,7 +79,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Connection time?",
           "reveal": {
             "mode": "typewriter",
@@ -94,7 +94,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "I can keep it within a safe window. But if the safety system detects we're breaking into classified data, lockdown protocols will activate quickly.",
           "reveal": {
             "mode": "typewriter",
@@ -109,7 +109,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "We need to grab the data and disconnect before that happens.",
           "reveal": {
             "mode": "typewriter",
@@ -124,7 +124,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "I've never done a neural interface before.",
           "reveal": {
             "mode": "typewriter",
@@ -139,7 +139,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias was already setting up the connections.",
+          "text": "{{characters.elias.name}} was already setting up the connections.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -153,7 +153,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Wrap the connector band around your neck and follow my node. Don't move randomly, don't branch off. <delay ms=\"400\"/>When I say pull out, disconnect immediately.",
           "reveal": {
             "mode": "typewriter",
@@ -168,7 +168,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "All four sat down with their backs against the corner walls. Elias ran the signal splitter to each person's neural port and methodically confirmed stable connection.",
+          "text": "All four sat down with their backs against the corner walls. {{characters.elias.name}} ran the signal splitter to each person's neural port and methodically confirmed stable connection.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -249,7 +249,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias's node moved ahead like a navigable coordinate. Alea followed, feeling Soren and Lyra's presence at her sides.",
+          "text": "{{characters.elias.name}}'s node moved ahead like a navigable coordinate. {{characters.alea.name}} followed, feeling {{characters.soren.name}} and {{characters.lyra.name}}'s presence at her sides.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -277,7 +277,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias passed through several pre-cracked nodes, then began analyzing the structure of the core encryption layer.",
+          "text": "{{characters.elias.name}} passed through several pre-cracked nodes, then began analyzing the structure of the core encryption layer.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -310,7 +310,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Wait. There's a packet here—not one we decrypted. It was <em>sent to us</em>.",
           "reveal": {
             "mode": "typewriter",
@@ -325,7 +325,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Sent?",
           "reveal": {
             "mode": "typewriter",
@@ -340,7 +340,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "The sender ID is corrupted, the format is unfamiliar, and I can't trace the origin to any known node.",
           "reveal": {
             "mode": "typewriter",
@@ -355,7 +355,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "But the encryption format is Ark-internal. Only terminals with <em>extremely high authority</em> can generate packets like this.",
           "reveal": {
             "mode": "typewriter",
@@ -384,7 +384,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias began decryption.",
+          "text": "{{characters.elias.name}} began decryption.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -433,7 +433,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "The target field listed names and soul IDs—Soren recognized some of them. Officials from the upper levels, council seat holders, individuals who'd never publicly mentioned their age.",
+          "text": "The target field listed names and soul IDs—{{characters.soren.name}} recognized some of them. Officials from the upper levels, council seat holders, individuals who'd never publicly mentioned their age.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -498,7 +498,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "We've been detected. <em>Disconnect now.</em>",
           "reveal": {
             "mode": "typewriter",
@@ -536,7 +536,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea's vision blurred momentarily, a high-pitched ringing filling her ears for two seconds.",
+          "text": "{{characters.alea.name}}'s vision blurred momentarily, a high-pitched ringing filling her ears for two seconds.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -564,7 +564,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias swept all the chips into his pack and forced a hard reset on the screen. He looked at the other three.",
+          "text": "{{characters.elias.name}} swept all the chips into his pack and forced a hard reset on the screen. He looked at the other three.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -578,7 +578,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Maximum threat level. The safety system knows what we just saw.",
           "reveal": {
             "mode": "typewriter",
@@ -593,7 +593,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "North. Underground pipes. The east side will be locked down in moments. Move now.",
           "reveal": {
             "mode": "typewriter",

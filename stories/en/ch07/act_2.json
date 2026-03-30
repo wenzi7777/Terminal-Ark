@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea stopped at the corner, confirmed the sensor node spacing in the corridor, then signaled Soren and Lyra to follow.",
+          "text": "{{characters.alea.name}} stopped at the corner, confirmed the sensor node spacing in the corridor, then signaled {{characters.soren.name}} and {{characters.lyra.name}} to follow.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -70,7 +70,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Now it comes down to him.",
           "reveal": {
             "mode": "typewriter",
@@ -106,7 +106,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "In the room, Elias input the code sequence into the signal port's access interface.",
+          "text": "In the room, {{characters.elias.name}} input the code sequence into the signal port's access interface.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -242,7 +242,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias stowed the receiver, walked to the door, and pushed it open.",
+          "text": "{{characters.elias.name}} stowed the receiver, walked to the door, and pushed it open.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -256,7 +256,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "The corridor was white, lights still flickering. Alea waited at the far end.",
+          "text": "The corridor was white, lights still flickering. {{characters.alea.name}} waited at the far end.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -284,7 +284,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Let's go.",
           "reveal": {
             "mode": "typewriter",
@@ -299,7 +299,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias followed her.",
+          "text": "{{characters.elias.name}} followed her.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -313,7 +313,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "My father left a backdoor in Mond's system before cutting his connection and departing.",
           "reveal": {
             "mode": "typewriter",
@@ -328,7 +328,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "I don't know why. But I think... he made a similar decision.",
           "reveal": {
             "mode": "typewriter",

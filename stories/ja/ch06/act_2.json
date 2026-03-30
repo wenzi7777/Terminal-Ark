@@ -85,7 +85,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias を。",
+          "text": "{{characters.elias.name}} を。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は動かなかった。機械軍団も動かず、そこに留まり、待機していた。",
+          "text": "{{characters.elias.name}} は動かなかった。機械軍団も動かず、そこに留まり、待機していた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -141,7 +141,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "根拠は何だ？",
           "reveal": {
             "mode": "typewriter",
@@ -198,7 +198,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "お前たちは彼を Mond に統合するつもりか。<delay ms=\"400\"/>彼は同意していない。",
           "reveal": {
             "mode": "typewriter",
@@ -227,7 +227,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は Soren を見て、その後 Lyra を見て、最後に Alea の方を見た。その表情は多くを表さないが、眼差しは明確だった。",
+          "text": "{{characters.elias.name}} は {{characters.soren.name}} を見て、その後 {{characters.lyra.name}} を見て、最後に {{characters.alea.name}} の方を見た。その表情は多くを表さないが、眼差しは明確だった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -241,7 +241,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "大丈夫だ。先に行け。",
           "reveal": {
             "mode": "typewriter",
@@ -256,8 +256,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "Elias――",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "{{characters.elias.name}}――",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -271,7 +271,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "機械軍団が閉じ始めた。Alea は前に一歩踏み出し、Elias は首を振り、彼女は止まった。その停止は二秒間持続し、彼女の手は武装モジュールの位置にあり、それから手を引いた。",
+          "text": "機械軍団が閉じ始めた。{{characters.alea.name}} は前に一歩踏み出し、{{characters.elias.name}} は首を振り、彼女は止まった。その停止は二秒間持続し、彼女の手は武装モジュールの位置にあり、それから手を引いた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -285,7 +285,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "彼の位置を確認しろ。今すぐ。",
           "reveal": {
             "mode": "typewriter",

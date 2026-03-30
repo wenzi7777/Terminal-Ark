@@ -63,7 +63,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 在一個沒有完整情報的環境裡，用他所擁有的一切做出一個勉強可行的方案。",
+          "text": "{{characters.soren.name}} 在一個沒有完整情報的環境裡，用他所擁有的一切做出一個勉強可行的方案。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -77,7 +77,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "東側，那裡有一段地形起伏，機械軍團的移動效率在複雜地形裡會下降。我們跑得過。",
           "reveal": {
             "mode": "typewriter",
@@ -92,7 +92,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "還有多少時間？",
           "reveal": {
             "mode": "typewriter",
@@ -107,7 +107,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "不多。如果子系統的癱瘓效果能再撐一段時間，我們能在軍團完全重新整隊之前出去。",
           "reveal": {
             "mode": "typewriter",
@@ -122,7 +122,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "走。",
           "reveal": {
             "mode": "typewriter",
@@ -193,7 +193,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 的判斷沒有錯。",
+          "text": "{{characters.soren.name}} 的判斷沒有錯。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -292,7 +292,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 在裂縫盡頭停下來，喘了口氣，回頭看了最後一眼。",
+          "text": "{{characters.elias.name}} 在裂縫盡頭停下來，喘了口氣，回頭看了最後一眼。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -348,7 +348,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "你還好嗎？",
           "reveal": {
             "mode": "typewriter",
@@ -377,7 +377,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "我想知道。這場戰爭是怎麼開始的，為什麼開始的，誰在後面讓它繼續。",
           "reveal": {
             "mode": "typewriter",
@@ -392,7 +392,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "在 Mondris 裡，Mond 把所有人的意志都整合進去了。那個城市已經不知道自己為什麼要打這場仗了——它只是在執行一個很早以前就開始執行的指令。",
           "reveal": {
             "mode": "typewriter",
@@ -407,7 +407,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "那個指令的源頭在哪裡。<delay ms=\"500\"/>我想找到它。",
           "reveal": {
             "mode": "typewriter",
@@ -422,7 +422,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 沒有說話，她只是點了一下頭。那個點頭很輕，但很確定。",
+          "text": "{{characters.lyra.name}} 沒有說話，她只是點了一下頭。那個點頭很輕，但很確定。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -436,7 +436,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Solmaris 的訊號在西北。走吧。",
           "reveal": {
             "mode": "typewriter",

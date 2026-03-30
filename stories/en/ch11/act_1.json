@@ -57,7 +57,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "During the retreat, Elias tried to control the terminal, but the shockwave from the bombardment had damaged it. The electronic lock's circuits were burned through in places, leaving the door jammed halfway open—neither fully closable nor pushable back to full extension. It hung there, a meaningless boundary.",
+          "text": "During the retreat, {{characters.elias.name}} tried to control the terminal, but the shockwave from the bombardment had damaged it. The electronic lock's circuits were burned through in places, leaving the door jammed halfway open—neither fully closable nor pushable back to full extension. It hung there, a meaningless boundary.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -85,7 +85,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Run. To the safe passage. Don't stop.",
           "reveal": {
             "mode": "typewriter",
@@ -100,7 +100,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "They ran. Lyra's left leg had been injured in the earlier bombardment—not a penetrating wound, but blunt trauma from flying debris. The tissue damage was causing her structural integrity to drop rapidly in real time. When she ran, there was a noticeable limp, each step consuming what little physical reserves she had left.",
+          "text": "They ran. {{characters.lyra.name}}'s left leg had been injured in the earlier bombardment—not a penetrating wound, but blunt trauma from flying debris. The tissue damage was causing her structural integrity to drop rapidly in real time. When she ran, there was a noticeable limp, each step consuming what little physical reserves she had left.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -114,7 +114,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea slowed her pace to match Lyra's.",
+          "text": "{{characters.alea.name}} slowed her pace to match {{characters.lyra.name}}'s.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -128,7 +128,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Give me your arm.",
           "reveal": {
             "mode": "typewriter",
@@ -143,7 +143,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra leaned her arm against Alea's. With Alea supporting her weight, their combined speed barely kept them close enough to Soren and Elias ahead.",
+          "text": "{{characters.lyra.name}} leaned her arm against {{characters.alea.name}}'s. With {{characters.alea.name}} supporting her weight, their combined speed barely kept them close enough to {{characters.soren.name}} and {{characters.elias.name}} ahead.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -171,7 +171,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Modular systems. How much power output left?",
           "reveal": {
             "mode": "typewriter",
@@ -186,7 +186,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "I've got thirty percent left, but neural sync rate——",
           "reveal": {
             "mode": "typewriter",
@@ -215,8 +215,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Lyra.",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.lyra.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -230,7 +230,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "My module was damaged in the bombardment. I can't fight.",
           "reveal": {
             "mode": "typewriter",
@@ -245,7 +245,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "You don't need to. Stay close to me. Keep moving.",
           "reveal": {
             "mode": "typewriter",
@@ -260,7 +260,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren and Elias covered the rear, their modular weapon ports tracking the advancing vanguard. Every shot was another chunk of sync rate spent. Soren's vision began to blur at the edges—the early sign of neural connection instability below a certain sync threshold. He pushed the sensation down and kept calculating, aiming, firing.",
+          "text": "{{characters.soren.name}} and {{characters.elias.name}} covered the rear, their modular weapon ports tracking the advancing vanguard. Every shot was another chunk of sync rate spent. {{characters.soren.name}}'s vision began to blur at the edges—the early sign of neural connection instability below a certain sync threshold. He pushed the sensation down and kept calculating, aiming, firing.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -274,7 +274,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias was in worse shape. His right arm was already experiencing intermittent loss of response. His modular weapon misfired on that side——",
+          "text": "{{characters.elias.name}} was in worse shape. His right arm was already experiencing intermittent loss of response. His modular weapon misfired on that side——",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -296,7 +296,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "——blowing up the ground to their right, sending up a cloud of dust. Elias cursed and forcibly cut the modular system on that arm, switching to left-side output only. His accuracy dropped a full level.",
+          "text": "——blowing up the ground to their right, sending up a cloud of dust. {{characters.elias.name}} cursed and forcibly cut the modular system on that arm, switching to left-side output only. His accuracy dropped a full level.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -310,7 +310,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "How far.",
           "reveal": {
             "mode": "typewriter",
@@ -325,8 +325,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Safe passage entrance is ahead. But the pursuit pace——<delay ms=\"200\"/>Elias, left side.",
+          "speaker": "{{characters.soren.name}}",
+          "text": "Safe passage entrance is ahead. But the pursuit pace——<delay ms=\"200\"/>{{characters.elias.name}}, left side.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -345,7 +345,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias turned. The sync consumption cost him a half-second delay. The Solmaris soldier's soul-reaping weapon's resonance wave grazed his right side, and his neural connection lost stability for a full six seconds.",
+          "text": "{{characters.elias.name}} turned. The sync consumption cost him a half-second delay. The Solmaris soldier's soul-reaping weapon's resonance wave grazed his right side, and his neural connection lost stability for a full six seconds.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -359,7 +359,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "For those six seconds, his body was an uncontrolled shell. Momentum carried him forward a few more steps before his connection came back online. He almost stumbled, but Soren reached back and caught his arm.",
+          "text": "For those six seconds, his body was an uncontrolled shell. Momentum carried him forward a few more steps before his connection came back online. He almost stumbled, but {{characters.soren.name}} reached back and caught his arm.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -373,7 +373,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Thanks.",
           "reveal": {
             "mode": "typewriter",
@@ -402,7 +402,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Run.",
           "reveal": {
             "mode": "typewriter",
@@ -431,7 +431,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Inside. Now.",
           "reveal": {
             "mode": "typewriter",
@@ -446,7 +446,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias followed. Alea supported Lyra as the last two plunged into the slope just before the next vanguard push reached the entrance. The corridor air was stale, thick with dust, but quiet. The pursuit sounds became distant and muffled beyond the thick walls.",
+          "text": "{{characters.elias.name}} followed. {{characters.alea.name}} supported {{characters.lyra.name}} as the last two plunged into the slope just before the next vanguard push reached the entrance. The corridor air was stale, thick with dust, but quiet. The pursuit sounds became distant and muffled beyond the thick walls.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -488,7 +488,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra's left leg gave out. She slowly slid down to the ground, her knees splaying in front of her. She kept her head down, her hair falling to cover her face. Her shoulders looked very small in that position, impossibly small, as if she were trying to fold herself into a space far smaller than her actual body.",
+          "text": "{{characters.lyra.name}}'s left leg gave out. She slowly slid down to the ground, her knees splaying in front of her. She kept her head down, her hair falling to cover her face. Her shoulders looked very small in that position, impossibly small, as if she were trying to fold herself into a space far smaller than her actual body.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -502,7 +502,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren glanced toward the corridor entrance, then back at their condition. He calculated the conclusion and pressed it down because that conclusion had no direction he wanted to speak aloud.",
+          "text": "{{characters.soren.name}} glanced toward the corridor entrance, then back at their condition. He calculated the conclusion and pressed it down because that conclusion had no direction he wanted to speak aloud.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -516,7 +516,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias's neural sync rate was already low enough that his fingers trembled visibly. He leaned against the wall with his eyes closed, trying to buy time for natural recovery. But they didn't have enough time for that recovery to happen.",
+          "text": "{{characters.elias.name}}'s neural sync rate was already low enough that his fingers trembled visibly. He leaned against the wall with his eyes closed, trying to buy time for natural recovery. But they didn't have enough time for that recovery to happen.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14

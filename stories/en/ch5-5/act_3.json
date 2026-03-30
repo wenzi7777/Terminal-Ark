@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "In another corner of the outpost, Soren was organizing his notes.",
+          "text": "In another corner of the outpost, {{characters.soren.name}} was organizing his notes.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias sat down beside him at some point without Soren noticing. By the time he became aware, the other man was already leaning against the wall. He wasn't holding the receiver, wasn't disassembling components, just sitting there.",
+          "text": "{{characters.elias.name}} sat down beside him at some point without {{characters.soren.name}} noticing. By the time he became aware, the other man was already leaning against the wall. He wasn't holding the receiver, wasn't disassembling components, just sitting there.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -70,7 +70,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Have you ever thought about what kind of person your father was?",
           "reveal": {
             "mode": "typewriter",
@@ -85,7 +85,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "No.",
           "reveal": {
             "mode": "typewriter",
@@ -100,7 +100,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "I have. When I was young, he was just my father. He went to work every day, came back, sometimes brought me things, sometimes brought nothing. That was all.",
           "reveal": {
             "mode": "typewriter",
@@ -115,7 +115,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren said nothing, continued turning pages but slower than before.",
+          "text": "{{characters.soren.name}} said nothing, continued turning pages but slower than before.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -129,7 +129,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Then he disappeared. People from the middle deck don't usually vanish like that, so I waited a long time. Eventually I stopped waiting.",
           "reveal": {
             "mode": "typewriter",
@@ -144,7 +144,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Later I started taking things apart and putting them back together, going through what he left behind, found some data fragments, decrypted some of it. Saw things I wasn't sure I understood.",
           "reveal": {
             "mode": "typewriter",
@@ -159,7 +159,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "The day before my father disappeared, there was a log entry showing an active connection being cut. I don't know what that connection was.",
           "reveal": {
             "mode": "typewriter",
@@ -174,7 +174,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren didn't respond right away.",
+          "text": "{{characters.soren.name}} didn't respond right away.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -188,7 +188,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "I don't know if he did it. It might be related to his disappearance. Might not be.",
           "reveal": {
             "mode": "typewriter",
@@ -203,7 +203,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren closed his notebook, placed it on his lap, and looked at Elias.",
+          "text": "{{characters.soren.name}} closed his notebook, placed it on his lap, and looked at {{characters.elias.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -217,7 +217,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "It was something he rarely did. His gaze usually stayed on maps, on notes, on anything that could be assessed. But now he looked at Elias, and held that look for a while.",
+          "text": "It was something he rarely did. His gaze usually stayed on maps, on notes, on anything that could be assessed. But now he looked at {{characters.elias.name}}, and held that look for a while.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -231,7 +231,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Sometimes not knowing is easier to handle than knowing.",
           "reveal": {
             "mode": "typewriter",
@@ -246,7 +246,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "The part you don't know. <delay ms=\"400\"/>If it stays unfilled, it won't break.",
           "reveal": {
             "mode": "typewriter",
@@ -275,7 +275,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "This is the first time I've heard you say something that wasn't an assessment result.",
           "reveal": {
             "mode": "typewriter",
@@ -290,7 +290,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "I don't know what you're talking about.",
           "reveal": {
             "mode": "typewriter",
@@ -305,7 +305,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "What you just said.",
           "reveal": {
             "mode": "typewriter",
@@ -320,7 +320,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "That was logical reasoning.",
           "reveal": {
             "mode": "typewriter",
@@ -335,7 +335,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "That was comfort.",
           "reveal": {
             "mode": "typewriter",
@@ -350,7 +350,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "You misheard.",
           "reveal": {
             "mode": "typewriter",
@@ -365,7 +365,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "I didn't mishear.",
           "reveal": {
             "mode": "typewriter",
@@ -394,8 +394,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "Thank you, Soren.",
+          "speaker": "{{characters.elias.name}}",
+          "text": "Thank you, {{characters.soren.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -409,7 +409,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "I don't know what you're thanking me for.",
           "reveal": {
             "mode": "typewriter",
@@ -438,7 +438,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Outside, Alea and Lyra kept watch over the wasteland's darkness. Here, Soren turned the pages of his notebook while Elias leaned back against the wall, closing his eyes.",
+          "text": "Outside, {{characters.alea.name}} and {{characters.lyra.name}} kept watch over the wasteland's darkness. Here, {{characters.soren.name}} turned the pages of his notebook while {{characters.elias.name}} leaned back against the wall, closing his eyes.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

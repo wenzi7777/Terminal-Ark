@@ -1,0 +1,20 @@
+{
+    "characters": {
+        "alea": {
+            "name": "Alea",
+            "fullName": "Alea"
+        },
+        "lyra": {
+            "name": "Lyra",
+            "fullName": "Lyra"
+        },
+        "soren": {
+            "name": "Soren",
+            "fullName": "Soren"
+        },
+        "elias": {
+            "name": "Elias",
+            "fullName": "Elias"
+        }
+    }
+}

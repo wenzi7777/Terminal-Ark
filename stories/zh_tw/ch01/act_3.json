@@ -114,7 +114,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 一把將 Lyra 拉進旁邊一間廢棄的機房，輕手輕腳地關上門，只留下一道極細的門縫。",
+          "text": "{{characters.alea.name}} 一把將 {{characters.lyra.name}} 拉進旁邊一間廢棄的機房，輕手輕腳地關上門，只留下一道極細的門縫。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -142,7 +142,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 認識那些面孔：街角的大嬸、修鞋的老伯、獨自帶著嬰兒的少婦……",
+          "text": "{{characters.alea.name}} 認識那些面孔：街角的大嬸、修鞋的老伯、獨自帶著嬰兒的少婦……",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -226,7 +226,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "<whisper>那些人……他們不是真的要去健檢吧？</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -241,7 +241,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 沒有回答。",
+          "text": "{{characters.alea.name}} 沒有回答。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -291,7 +291,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 環顧四周。天花板角落有個通風口，格柵已經鬆脫。她試著扯了一下——能開。",
+          "text": "{{characters.alea.name}} 環顧四周。天花板角落有個通風口，格柵已經鬆脫。她試著扯了一下——能開。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -305,7 +305,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她轉身，一把將 Lyra 托起。",
+          "text": "她轉身，一把將 {{characters.lyra.name}} 托起。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -319,7 +319,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "<whisper>上去。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -334,7 +334,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "<whisper>那妳呢？</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -349,7 +349,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "<whisper>我會跟上。快點。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -364,7 +364,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 鑽進了通風管道。就在門把手被轉動的前一秒，Alea 猛然躍起，翻進管道，反手將格柵死死卡回原位。",
+          "text": "{{characters.lyra.name}} 鑽進了通風管道。就在門把手被轉動的前一秒，{{characters.alea.name}} 猛然躍起，翻進管道，反手將格柵死死卡回原位。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -443,7 +443,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 緩緩吐出一口濁氣。",
+          "text": "{{characters.alea.name}} 緩緩吐出一口濁氣。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -457,7 +457,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "黑暗中，Lyra 悄悄伸出手，輕輕握住了 Alea 的手腕。",
+          "text": "黑暗中，{{characters.lyra.name}} 悄悄伸出手，輕輕握住了 {{characters.alea.name}} 的手腕。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -471,7 +471,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 沒有甩開她。",
+          "text": "{{characters.alea.name}} 沒有甩開她。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

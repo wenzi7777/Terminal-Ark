@@ -43,7 +43,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "シールドの亀裂は Lyra 自身が見つけたものだった。",
+          "text": "シールドの亀裂は {{characters.lyra.name}} 自身が見つけたものだった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "下層デッキはもう面影もなかった。戦争の痕跡は至る所にあり、廃墟すら残っていない場所もある。焦げた地面と倒壊した支柱があるだけで、まるから抜き出された殻のようだ。Lyra はこれらを通り抜け、足取りは確かだった。その確かさは無感覚ではなく、別の何かだ。その重さを感じたが、圧し潰されず、その重みを受け入れて進んだ。",
+          "text": "下層デッキはもう面影もなかった。戦争の痕跡は至る所にあり、廃墟すら残っていない場所もある。焦げた地面と倒壊した支柱があるだけで、まるから抜き出された殻のようだ。{{characters.lyra.name}} はこれらを通り抜け、足取りは確かだった。その確かさは無感覚ではなく、別の何かだ。その重さを感じたが、圧し潰されず、その重みを受け入れて進んだ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -141,7 +141,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は武装モジュールを装着した。その接続の瞬間を感じた――以前と違っていた。",
+          "text": "{{characters.lyra.name}} は武装モジュールを装着した。その接続の瞬間を感じた――以前と違っていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -197,7 +197,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼女はコアタワーの地下二階の管制室で Elias を見つけた。",
+          "text": "彼女はコアタワーの地下二階の管制室で {{characters.elias.name}} を見つけた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -225,8 +225,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "Lyra。お前どうやって――",
+          "speaker": "{{characters.elias.name}}",
+          "text": "{{characters.lyra.name}}。お前どうやって――",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -240,7 +240,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "後で話す。",
           "reveal": {
             "mode": "typewriter",
@@ -276,8 +276,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "Soren がロックした。彼は以前私たちを神経ネットワークを通して導いてくれた。彼の思考法を見て、どこに境界を残したか知っている。",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "{{characters.soren.name}} がロックした。彼は以前私たちを神経ネットワークを通して導いてくれた。彼の思考法を見て、どこに境界を残したか知っている。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -291,7 +291,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "一度見ただけだ。",
           "reveal": {
             "mode": "typewriter",
@@ -306,7 +306,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "それで十分だ。",
           "reveal": {
             "mode": "typewriter",
@@ -321,7 +321,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "ロック解除には時間がかかった。その間、誰も話さなかった。Elias は彼女が作業するのを見て、彼女の指がコネクタで動く様子を見ていた。知っていた人と離れた時の記憶の中のその人との間に、何か違うものがあることを感じた。その違いが何かは言えなかったが、感じた。",
+          "text": "ロック解除には時間がかかった。その間、誰も話さなかった。{{characters.elias.name}} は彼女が作業するのを見て、彼女の指がコネクタで動く様子を見ていた。知っていた人と離れた時の記憶の中のその人との間に、何か違うものがあることを感じた。その違いが何かは言えなかったが、感じた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -342,7 +342,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "隔離が解除された。Elias はリンクコネクタを再接続し、神経リンクが再校準するのに数秒かかった。その後彼女を見た。",
+          "text": "隔離が解除された。{{characters.elias.name}} はリンクコネクタを再接続し、神経リンクが再校準するのに数秒かかった。その後彼女を見た。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -356,8 +356,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "Soren の計画をどの程度知っている。",
+          "speaker": "{{characters.elias.name}}",
+          "text": "{{characters.soren.name}} の計画をどの程度知っている。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -371,7 +371,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "十分知っている。シールド弱化、方舟を最高脅威とマーク、AI 軍団がすべてを排除。<delay ms=\"200\"/>奴は今どこにいる。",
           "reveal": {
             "mode": "typewriter",
@@ -386,7 +386,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "NUTA。国立ターミナル方舟大学の地下コア。ここは方舟のすべてのシステムの物理的な集約点だ。奴は最終指令の書き込みをここから完了する必要がある。シールドの弱化は自動実行中だが、最終的なトリガー指令はまだ送られていない。そのコマンドは地下コアのメイン端末から発せられる必要がある。奴はまだ押していない。",
           "reveal": {
             "mode": "typewriter",
@@ -401,7 +401,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "まだだ。つまり我々にはまだ時間がある。",
           "reveal": {
             "mode": "typewriter",
@@ -416,7 +416,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "多くはない。行こう。",
           "reveal": {
             "mode": "typewriter",
@@ -431,7 +431,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "二人はそれ以上話さなかった。二人はコアタワーの廊下を素早く進んだ。Lyra が前、Elias が後ろ。彼らの間に何かがあった。言葉で確認する必要のない、同じ方向に進む何か。その先にあるのは二人が知っている人だった。二人が諦めない人だった。",
+          "text": "二人はそれ以上話さなかった。二人はコアタワーの廊下を素早く進んだ。{{characters.lyra.name}} が前、{{characters.elias.name}} が後ろ。彼らの間に何かがあった。言葉で確認する必要のない、同じ方向に進む何か。その先にあるのは二人が知っている人だった。二人が諦めない人だった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

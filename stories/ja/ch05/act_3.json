@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "信号は Elias が五日目の夕方に発見した。",
+          "text": "信号は {{characters.elias.name}} が五日目の夕方に発見した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼らはちょうど機械残骸の廃棄場の辺縁で検索していて、そこには数十台の異なる年代の損傷機械が積まれていました――旧文明時代の農業機械、AI戦争遺留損傷軍械、そして Elias さえ型番を認識できない奇妙な構造物。",
+          "text": "彼らはちょうど機械残骸の廃棄場の辺縁で検索していて、そこには数十台の異なる年代の損傷機械が積まれていました――旧文明時代の農業機械、AI戦争遺留損傷軍械、そして {{characters.elias.name}} さえ型番を認識できない奇妙な構造物。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -84,7 +84,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "待ってください。",
           "reveal": {
             "mode": "typewriter",
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "持続低周波信号があり、非常に微弱ですが、非常に安定しており、自動放送のように見えます。そして――",
           "reveal": {
             "mode": "typewriter",
@@ -142,7 +142,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "暗号化形式は見たことがあります。アーク初期の内部通信形式で、現在のバージョンより少なくとも15年古い。",
           "reveal": {
             "mode": "typewriter",
@@ -157,7 +157,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "アークの信号が荒野の機械残骸の中に。不合理だ。",
           "reveal": {
             "mode": "typewriter",
@@ -172,7 +172,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "不合理だからこそ、見る価値がある。",
           "reveal": {
             "mode": "typewriter",
@@ -208,7 +208,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias が受信機を持ったまま、方向を案内し、信号がどんどん強くなっていきました。",
+          "text": "{{characters.elias.name}} が受信機を持ったまま、方向を案内し、信号がどんどん強くなっていきました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -236,7 +236,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea が屈み、卡扣を一つずつ解いていきました。",
+          "text": "{{characters.alea.name}} が屈み、卡扣を一つずつ解いていきました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -285,7 +285,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea が最初に梯子を踏んで降りていった。他の三人が付き従った。",
+          "text": "{{characters.alea.name}} が最初に梯子を踏んで降りていった。他の三人が付き従った。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20

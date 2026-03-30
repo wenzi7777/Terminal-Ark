@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "アレアの隠れ家はペリメータシールドの極近くにあった。だからこそ、アラームが鳴った時、その音はほぼ鼓膜を掠めて炸裂した。",
+          "text": "{{characters.alea.name}}の隠れ家はペリメータシールドの極近くにあった。だからこそ、アラームが鳴った時、その音はほぼ鼓膜を掠めて炸裂した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -70,7 +70,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "低周波の警報音がシールドの端から聞こえ、アレアはほぼ同じ瞬間に身を起こした。",
+          "text": "低周波の警報音がシールドの端から聞こえ、{{characters.alea.name}}はほぼ同じ瞬間に身を起こした。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -154,7 +154,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "アレアは身を低くして、<em>人の流れに逆行</em>して移動した。",
+          "text": "{{characters.alea.name}}は身を低くして、<em>人の流れに逆行</em>して移動した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -239,7 +239,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "アレアは足を止めた。",
+          "text": "{{characters.alea.name}}は足を止めた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -303,7 +303,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "次の瞬間、地面の振動がアレアの神経を張りつめさせた。",
+          "text": "次の瞬間、地面の振動が{{characters.alea.name}}の神経を張りつめさせた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -353,7 +353,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "アレアは足元の金属の破片を拾い上げると、力をこめて対角の窓ガラスに投げつけた。",
+          "text": "{{characters.alea.name}}は足元の金属の破片を拾い上げると、力をこめて対角の窓ガラスに投げつけた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -380,7 +380,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "怪物の注意が一瞬で逸れた。その振り返りのほんの半秒の隙に、アレアはホールに飛び込み、少女の手首を掴んで側方のドアへ向かって引きずった。",
+          "text": "怪物の注意が一瞬で逸れた。その振り返りのほんの半秒の隙に、{{characters.alea.name}}はホールに飛び込み、少女の手首を掴んで側方のドアへ向かって引きずった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -402,7 +402,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "変異種は急転回して襲い掛かってきた。アレアは反対の手で短刀を振った――怪物の厚い角質層を切ることはできなかったが、放たれた電磁刃は正確に後肢の関節部に命中し、怪物はよろめいた。",
+          "text": "変異種は急転回して襲い掛かってきた。{{characters.alea.name}}は反対の手で短刀を振った――怪物の厚い角質層を切ることはできなかったが、放たれた電磁刃は正確に後肢の関節部に命中し、怪物はよろめいた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -430,7 +430,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "アレアはドア板に身をもたせ、壁に背をつけて大きく息をした。",
+          "text": "{{characters.alea.name}}はドア板に身をもたせ、壁に背をつけて大きく息をした。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -458,7 +458,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "少女は金髪が乱れ、埃まみれだった。アレアの視線に気づくと、彼女は顔を上げた。",
+          "text": "少女は金髪が乱れ、埃まみれだった。{{characters.alea.name}}の視線に気づくと、彼女は顔を上げた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -486,8 +486,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "ありがとう。わたし<em>リラ（Lyra）</em>。<delay ms=\"400\"/>あなたは？",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "ありがとう。わたし<em>{{characters.lyra.fullName}}</em>。<delay ms=\"400\"/>あなたは？",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -501,7 +501,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "アレアは一瞬言葉を失った。",
+          "text": "{{characters.alea.name}}は一瞬言葉を失った。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -515,8 +515,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "……アレア。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "……{{characters.alea.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18

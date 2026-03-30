@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra と Alea の対話は一段と続いていた。Lyra が聞く質問はどんどん小さくなり、より具体的になり、住処から日常の過ごし方へ、過ごし方から下層甲板のいくつかの場所に行ったことがあるかに。",
+          "text": "{{characters.lyra.name}} と {{characters.alea.name}} の対話は一段と続いていた。{{characters.lyra.name}} が聞く質問はどんどん小さくなり、より具体的になり、住処から日常の過ごし方へ、過ごし方から下層甲板のいくつかの場所に行ったことがあるかに。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea の答えはいつも短く、直接的でした。しかし彼女はずっと答えていました。",
+          "text": "{{characters.alea.name}} の答えはいつも短く、直接的でした。しかし彼女はずっと答えていました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -70,7 +70,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "それから Lyra の質問がどんどん少なくなり、間隔がどんどん長くなり、停止した。",
+          "text": "それから {{characters.lyra.name}} の質問がどんどん少なくなり、間隔がどんどん長くなり、停止した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -84,7 +84,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は彼女を一瞥した。彼女の目は閉じられており、壁に寄りかかっており、頭を下げていました。",
+          "text": "{{characters.alea.name}} は彼女を一瞥した。彼女の目は閉じられており、壁に寄りかかっており、頭を下げていました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -98,7 +98,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は彼女が休んでいるだけだと思っていました。それからその頭がゆっくり横に傾き、傾き、傾き、彼女の肩に落ちた。",
+          "text": "{{characters.alea.name}} は彼女が休んでいるだけだと思っていました。それからその頭がゆっくり横に傾き、傾き、傾き、彼女の肩に落ちた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -112,7 +112,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は動きませんでした。",
+          "text": "{{characters.alea.name}} は動きませんでした。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -126,7 +126,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は受信機から頭を上げ、この方を一瞥し、何も言わず、頭を下げ、部品を組み立て続けました。",
+          "text": "{{characters.elias.name}} は受信機から頭を上げ、この方を一瞥し、何も言わず、頭を下げ、部品を組み立て続けました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -140,7 +140,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "行動前に各自休息する。集合点は北側出口、それぞれが自分のルートと代替撤退方向を今から確認する。その後、不要な話はするな。",
           "reveal": {
             "mode": "typewriter",
@@ -169,7 +169,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は受信機の最後の部品を組み立て、信号を確認し、ポケットにしまい、背中を反対側の壁に当て、目を閉じた。",
+          "text": "{{characters.elias.name}} は受信機の最後の部品を組み立て、信号を確認し、ポケットにしまい、背中を反対側の壁に当て、目を閉じた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -211,7 +211,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は下を向き、彼女の肩に寄りかかっている人を見た。",
+          "text": "{{characters.alea.name}} は下を向き、彼女の肩に寄りかかっている人を見た。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -295,7 +295,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は後頭部を後ろの壁に当て、目を閉じた。",
+          "text": "{{characters.alea.name}} は後頭部を後ろの壁に当て、目を閉じた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14

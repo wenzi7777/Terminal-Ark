@@ -114,7 +114,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea quickly pulled Lyra into an adjacent abandoned engine room, quietly shutting the door with only the narrowest gap remaining.",
+          "text": "{{characters.alea.name}} quickly pulled {{characters.lyra.name}} into an adjacent abandoned engine room, quietly shutting the door with only the narrowest gap remaining.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -142,7 +142,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea recognized the faces: the merchant woman from the corner, the shoe repair man, the young mother with her infant...",
+          "text": "{{characters.alea.name}} recognized the faces: the merchant woman from the corner, the shoe repair man, the young mother with her infant...",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -226,7 +226,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "<whisper>Those people... they're not really going for a health check, are they?</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -241,7 +241,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea didn't answer.",
+          "text": "{{characters.alea.name}} didn't answer.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -291,7 +291,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea scanned the room. A vent grate in the ceiling corner was already loose. She pulled at it—it gave way.",
+          "text": "{{characters.alea.name}} scanned the room. A vent grate in the ceiling corner was already loose. She pulled at it—it gave way.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -305,7 +305,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "She turned and hoisted Lyra up.",
+          "text": "She turned and hoisted {{characters.lyra.name}} up.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -319,7 +319,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "<whisper>Get up there.</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -334,7 +334,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "<whisper>What about you?</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -349,7 +349,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "<whisper>I'll be right behind you. Hurry.</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -364,7 +364,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra squeezed into the vent. Just as the door handle began to turn, Alea jumped up, pulled herself into the duct, and wedged the grate firmly back in place.",
+          "text": "{{characters.lyra.name}} squeezed into the vent. Just as the door handle began to turn, {{characters.alea.name}} jumped up, pulled herself into the duct, and wedged the grate firmly back in place.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -443,7 +443,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea slowly released a held breath.",
+          "text": "{{characters.alea.name}} slowly released a held breath.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -457,7 +457,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "In the darkness, Lyra quietly reached out and gently gripped Alea's wrist.",
+          "text": "In the darkness, {{characters.lyra.name}} quietly reached out and gently gripped {{characters.alea.name}}'s wrist.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -471,7 +471,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea didn't pull away.",
+          "text": "{{characters.alea.name}} didn't pull away.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

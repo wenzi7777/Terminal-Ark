@@ -99,7 +99,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra took a step forward, and Soren extended his arm to stop her.",
+          "text": "{{characters.lyra.name}} took a step forward, and {{characters.soren.name}} extended his arm to stop her.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Wait.",
           "reveal": {
             "mode": "typewriter",
@@ -128,7 +128,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "That's a child.",
           "reveal": {
             "mode": "typewriter",
@@ -143,7 +143,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "I know. Let me finish.",
           "reveal": {
             "mode": "typewriter",
@@ -158,7 +158,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Solmaris's army is advancing from the west with precision. Too much precision. They're not chasing—they're converging. The target is that hospital.",
           "reveal": {
             "mode": "typewriter",
@@ -173,7 +173,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "The hospital is positioned between Terminal Ark's buffer zone and the Wasteland's natural shelter. Outside the Ark's defense perimeter, outside natural cover. That location is a pocket.",
           "reveal": {
             "mode": "typewriter",
@@ -188,7 +188,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "<whisper>Those people are bait.</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -203,7 +203,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Solmaris doesn't care if those civilians live or die. They want to draw in anyone who might try to help. Once that pocket closes, no one coming out of it survives.",
           "reveal": {
             "mode": "typewriter",
@@ -218,7 +218,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "We lack sufficient weapons, insufficient numbers, no strategic advantage——<delay ms=\"300\"/>going in means dying there together.",
           "reveal": {
             "mode": "typewriter",
@@ -247,7 +247,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "I know. I know everything you're saying.",
           "reveal": {
             "mode": "typewriter",
@@ -262,7 +262,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "I know.",
           "reveal": {
             "mode": "typewriter",
@@ -277,7 +277,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "This time she wasn't answering Soren. Those two words were for herself.",
+          "text": "This time she wasn't answering {{characters.soren.name}}. Those two words were for herself.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -291,7 +291,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "But I can't.",
           "reveal": {
             "mode": "typewriter",
@@ -306,8 +306,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Lyra——",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.lyra.name}}——",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -321,7 +321,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "I can't stand here and watch those people die, then tell myself I didn't go in because I knew it was bait.",
           "reveal": {
             "mode": "typewriter",
@@ -336,7 +336,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "I know what I'm saying is irrational. I know your judgment is right. I know going in might be a dead end.",
           "reveal": {
             "mode": "typewriter",
@@ -351,8 +351,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "But Soren, if I just stand here——",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "But {{characters.soren.name}}, if I just stand here——",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -380,7 +380,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren fell silent. His lips moved, but he said nothing more.",
+          "text": "{{characters.soren.name}} fell silent. His lips moved, but he said nothing more.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -394,7 +394,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea stood aside without speaking. Her gaze rested on Lyra's face for a moment, then shifted toward that direction.",
+          "text": "{{characters.alea.name}} stood aside without speaking. Her gaze rested on {{characters.lyra.name}}'s face for a moment, then shifted toward that direction.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14

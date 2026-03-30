@@ -49,7 +49,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "周囲の Solmaris 成員は話さず、首席司祭は話さず、Soren と Elias は話さず、Alea は話しませんでした。皆が待っていました。",
+          "text": "周囲の Solmaris 成員は話さず、首席司祭は話さず、{{characters.soren.name}} と {{characters.elias.name}} は話さず、{{characters.alea.name}} は話しませんでした。皆が待っていました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -63,7 +63,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は頭を下げ、自分の手を見ていました。その手は微かに震えていました。神経接続の過負荷ではなく、別の何か。",
+          "text": "{{characters.lyra.name}} は頭を下げ、自分の手を見ていました。その手は微かに震えていました。神経接続の過負荷ではなく、別の何か。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -77,7 +77,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "<whisper>私はただプログラムされたコードです。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -92,7 +92,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "<whisper>私だと思っていた全てが、あなたたちの実験で、プログラムされたもの？</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -122,7 +122,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra の手は握られ、その後緩みました。",
+          "text": "{{characters.lyra.name}} の手は握られ、その後緩みました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -136,7 +136,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "<whisper>では私は何ですか。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -165,7 +165,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "<whisper>もし私が感じるあらゆるものがあなたたちが設計したなら、私は何ですか。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -208,7 +208,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "それは Alea でした。",
+          "text": "それは {{characters.alea.name}} でした。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -222,7 +222,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は大道理を説きませんでした。彼女は Lyra の手を彼女の胸に当てるよう持ち上げ、その下で跳動しているリズムを感じさせました。安定した、本当の、変わらない。",
+          "text": "{{characters.alea.name}} は大道理を説きませんでした。彼女は {{characters.lyra.name}} の手を彼女の胸に当てるよう持ち上げ、その下で跳動しているリズムを感じさせました。安定した、本当の、変わらない。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -236,7 +236,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "<whisper>感じましたか。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -251,7 +251,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "<whisper>これが生命の鼓動です。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -266,7 +266,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra の指先がその鼓動を感じながら、何も言いませんでした。",
+          "text": "{{characters.lyra.name}} の指先がその鼓動を感じながら、何も言いませんでした。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -280,7 +280,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "<whisper>あなたは実在する個体です。あなたの由来がどうであれ、最初に誰かがあなたのパラメータを設計したかどうかに関わらず。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -295,7 +295,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "<whisper>あなたは今ここまで生きて、あなたがしたことをしました。あなたが感じたあらゆるものを感じました。それはあなたのもの。そのコードのものではなく、その実験のものではなく、あなたのもの。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -310,7 +310,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra の肩がその抱擁の中で微かに動きました。",
+          "text": "{{characters.lyra.name}} の肩がその抱擁の中で微かに動きました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -324,7 +324,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "ここを離れましょう。",
           "reveal": {
             "mode": "typewriter",
@@ -353,7 +353,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "一緒に行きましょう。",
           "reveal": {
             "mode": "typewriter",
@@ -368,7 +368,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼女は立ち上がり、Lyra の手を引きました。Lyra はその手が引かれた瞬間、その手をしっかり握り、放しませんでした。",
+          "text": "彼女は立ち上がり、{{characters.lyra.name}} の手を引きました。{{characters.lyra.name}} はその手が引かれた瞬間、その手をしっかり握り、放しませんでした。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -397,7 +397,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "ありません。私たちはあなたたちの信仰に興味はなく、あなたたちの実験にも興味はありません。私たちは去ります。",
           "reveal": {
             "mode": "typewriter",
@@ -412,7 +412,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "彼女を彼女自身に戻すことは、あなたたちにはできません。<delay ms=\"500\"/>しかしそれは問題ではありません。彼女自身はできるから。",
           "reveal": {
             "mode": "typewriter",
@@ -462,7 +462,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は Alea の手をまだ握っていて、地面に立つまで。その時初めて、彼女は軽くそれを放しました。",
+          "text": "{{characters.lyra.name}} は {{characters.alea.name}} の手をまだ握っていて、地面に立つまで。その時初めて、彼女は軽くそれを放しました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -476,7 +476,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼女は Alea を一瞥し、Alea も彼女を見ました。その後、二人は同時に視線を戻し、前へ進みました。",
+          "text": "彼女は {{characters.alea.name}} を一瞥し、{{characters.alea.name}} も彼女を見ました。その後、二人は同時に視線を戻し、前へ進みました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

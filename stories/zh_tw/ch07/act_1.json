@@ -86,7 +86,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 站在站台上，看著那個裝置繞著他轉，數著每一次掃描之間的間隔。",
+          "text": "{{characters.elias.name}} 站在站台上，看著那個裝置繞著他轉，數著每一次掃描之間的間隔。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -156,7 +156,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 讓那個聲音在房間裡消散，把注意力放回到他正在做的事情上。",
+          "text": "{{characters.elias.name}} 讓那個聲音在房間裡消散，把注意力放回到他正在做的事情上。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22

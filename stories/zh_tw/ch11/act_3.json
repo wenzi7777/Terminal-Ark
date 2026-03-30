@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "你們走。我殿後。",
           "reveal": {
             "mode": "typewriter",
@@ -43,7 +43,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 沒有立刻動。",
+          "text": "{{characters.soren.name}} 沒有立刻動。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -57,8 +57,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Alea——",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.alea.name}}——",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -72,7 +72,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "想一下。你們三個的同步率，現在，能撐過多長時間的戰鬥。",
           "reveal": {
             "mode": "typewriter",
@@ -87,7 +87,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 沉默了。他想了。他不想讓那個結論說出口，但他想了。",
+          "text": "{{characters.soren.name}} 沉默了。他想了。他不想讓那個結論說出口，但他想了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -101,8 +101,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Elias 的右臂已經失去響應，Lyra 的軀體完整度在臨界線，你的同步率——",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.elias.name}} 的右臂已經失去響應，{{characters.lyra.name}} 的軀體完整度在臨界線，你的同步率——",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -116,7 +116,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "你們現在能做到的事情只有一件，就是走出這條通道，走到足夠安全的距離，然後讓同步率自然恢復。你們做不到的是在現在的狀態下再打一場遭遇戰。打了，你們三個都出不去。",
           "reveal": {
             "mode": "typewriter",
@@ -131,7 +131,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "你一個人，你一個人也打不過——",
           "reveal": {
             "mode": "typewriter",
@@ -160,7 +160,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "我是成年型的軀體。同步率比你們高。而且我不需要打贏，我只需要讓你們有足夠的時間走遠。",
           "reveal": {
             "mode": "typewriter",
@@ -189,7 +189,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她轉向 Lyra。Lyra 還握著那個生命名牌，握得很緊，手背上青筋微微凸起。她抬起頭看著 Alea，眼睛裡有什麼東西是說不出口的，太多，太重，全部堵在那裡，一個字都出不來。",
+          "text": "她轉向 {{characters.lyra.name}}。{{characters.lyra.name}} 還握著那個生命名牌，握得很緊，手背上青筋微微凸起。她抬起頭看著 {{characters.alea.name}}，眼睛裡有什麼東西是說不出口的，太多，太重，全部堵在那裡，一個字都出不來。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -203,7 +203,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 看了她一眼，然後輕輕地，用一個幾乎察覺不到的幅度，點了一下頭。",
+          "text": "{{characters.alea.name}} 看了她一眼，然後輕輕地，用一個幾乎察覺不到的幅度，點了一下頭。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -259,7 +259,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "外面，Solmaris 先鋒部隊的腳步聲已經抵達了斜道口的外側。感應器的掃描光從那個方向透進來，在斜道的地面上留下幾道冷白色的光斑。Alea 走進了那片光裡，她的背影在那道光裡變得清晰，很直，很穩，像她一直以來的樣子。",
+          "text": "外面，Solmaris 先鋒部隊的腳步聲已經抵達了斜道口的外側。感應器的掃描光從那個方向透進來，在斜道的地面上留下幾道冷白色的光斑。{{characters.alea.name}} 走進了那片光裡，她的背影在那道光裡變得清晰，很直，很穩，像她一直以來的樣子。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -273,7 +273,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "走。現在。",
           "reveal": {
             "mode": "typewriter",
@@ -302,7 +302,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 動了。他拉著 Elias，Elias 扶著 Lyra，三個人往斜道的另一端走去。Lyra 在走出第一步的時候回了一次頭，她看見 Alea 站在斜道口，站在那片光裡。",
+          "text": "{{characters.soren.name}} 動了。他拉著 {{characters.elias.name}}，{{characters.elias.name}} 扶著 {{characters.lyra.name}}，三個人往斜道的另一端走去。{{characters.lyra.name}} 在走出第一步的時候回了一次頭，她看見 {{characters.alea.name}} 站在斜道口，站在那片光裡。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -358,7 +358,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 的聲音沒有在那些聲響裡出現。她沒有喊叫，沒有任何聲音。只有那些戰鬥的聲音本身在斜道裡回響，傳進三個人的耳朵裡，清晰，無情，讓人沒有辦法假裝聽不見。",
+          "text": "{{characters.alea.name}} 的聲音沒有在那些聲響裡出現。她沒有喊叫，沒有任何聲音。只有那些戰鬥的聲音本身在斜道裡回響，傳進三個人的耳朵裡，清晰，無情，讓人沒有辦法假裝聽不見。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -372,7 +372,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 往前走。一步，一步。那個生命名牌在她手心裡，金屬的邊緣壓在她的皮膚上，她把它握得很緊，緊到她感覺到了那塊金屬的溫度，那是從 Alea 的身上帶來的溫度，還沒有完全散去。",
+          "text": "{{characters.lyra.name}} 往前走。一步，一步。那個生命名牌在她手心裡，金屬的邊緣壓在她的皮膚上，她把它握得很緊，緊到她感覺到了那塊金屬的溫度，那是從 {{characters.alea.name}} 的身上帶來的溫度，還沒有完全散去。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -456,7 +456,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 沒有停下腳步，但她把那個生命名牌緊緊地按在胸口，感受著那塊金屬的重量，感受著那最後一點從金屬上漸漸消散的溫熱。她閉上眼睛走了一步，又睜開，繼續往前。",
+          "text": "{{characters.lyra.name}} 沒有停下腳步，但她把那個生命名牌緊緊地按在胸口，感受著那塊金屬的重量，感受著那最後一點從金屬上漸漸消散的溫熱。她閉上眼睛走了一步，又睜開，繼續往前。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10

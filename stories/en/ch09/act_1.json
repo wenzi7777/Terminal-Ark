@@ -71,7 +71,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Fire.",
           "reveal": {
             "mode": "typewriter",
@@ -198,7 +198,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "They're coordinated. And working perfectly together, each using abilities the other lacks. This isn't a temporary agreement. It's premeditated.",
           "reveal": {
             "mode": "typewriter",
@@ -213,7 +213,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Two ideologically opposed factions joining forces against the same target. <delay ms=\"400\"/>Why.",
           "reveal": {
             "mode": "typewriter",
@@ -256,7 +256,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra watched that fire silently. Her fingers unknowingly gripped the edge of a nearby rock so hard her knuckles paled.",
+          "text": "{{characters.lyra.name}} watched that fire silently. Her fingers unknowingly gripped the edge of a nearby rock so hard her knuckles paled.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18

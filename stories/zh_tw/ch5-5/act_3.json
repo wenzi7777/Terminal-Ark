@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "據點的另一個角落，Soren 在整理他的筆記。",
+          "text": "據點的另一個角落，{{characters.soren.name}} 在整理他的筆記。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 在什麼時候坐到他旁邊的，他沒有注意。等他察覺的時候，那個人已經靠在旁邊的牆壁上了。手裡沒有拿接收器，沒有拆任何零件，只是坐在那裡。",
+          "text": "{{characters.elias.name}} 在什麼時候坐到他旁邊的，他沒有注意。等他察覺的時候，那個人已經靠在旁邊的牆壁上了。手裡沒有拿接收器，沒有拆任何零件，只是坐在那裡。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -70,7 +70,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "你有沒有想過，你父親是什麼樣的人。",
           "reveal": {
             "mode": "typewriter",
@@ -85,7 +85,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "沒有。",
           "reveal": {
             "mode": "typewriter",
@@ -100,7 +100,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "我想過。我小時候，他就是我父親。每天去工作，回來，有時候給我帶一點東西，有時候什麼都沒有帶。就這樣。",
           "reveal": {
             "mode": "typewriter",
@@ -115,7 +115,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 沒有說話，繼續翻頁，但翻的速度慢了一點。",
+          "text": "{{characters.soren.name}} 沒有說話，繼續翻頁，但翻的速度慢了一點。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -129,7 +129,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "後來他消失了。中層甲板的人不常這樣，所以我等了很長時間。後來就不等了。",
           "reveal": {
             "mode": "typewriter",
@@ -144,7 +144,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "再後來我開始拆東西裝東西，翻他留下的那些東西，找到了一些數據碎片，解開了一部分。看見了一些我不確定自己理解的東西。",
           "reveal": {
             "mode": "typewriter",
@@ -159,7 +159,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "在我父親消失的前一天，系統日誌有一個連線被主動切斷的紀錄。我不知道那個連線是什麼。",
           "reveal": {
             "mode": "typewriter",
@@ -174,7 +174,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 沒有立刻說話。",
+          "text": "{{characters.soren.name}} 沒有立刻說話。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -188,7 +188,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "我不知道那是不是他做的。可能和他的失蹤有關係也不一定。",
           "reveal": {
             "mode": "typewriter",
@@ -203,7 +203,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 把筆記本合起來，放在腿上，看了 Elias 一眼。",
+          "text": "{{characters.soren.name}} 把筆記本合起來，放在腿上，看了 {{characters.elias.name}} 一眼。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -217,7 +217,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "那是他很少做的事。他的目光通常在地圖上，在筆記上，在任何可以被評估的東西上。但這個時候他看著 Elias，看了一段時間。",
+          "text": "那是他很少做的事。他的目光通常在地圖上，在筆記上，在任何可以被評估的東西上。但這個時候他看著 {{characters.elias.name}}，看了一段時間。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -231,7 +231,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "不知道，有時候比知道更好處理。",
           "reveal": {
             "mode": "typewriter",
@@ -246,7 +246,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "你不知道的那個部分。<delay ms=\"400\"/>填不進去，就不會壞掉。",
           "reveal": {
             "mode": "typewriter",
@@ -275,7 +275,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "這是我第一次聽見你說不是評估結果的話。",
           "reveal": {
             "mode": "typewriter",
@@ -290,7 +290,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "我不知道你在說什麼。",
           "reveal": {
             "mode": "typewriter",
@@ -305,7 +305,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "就是你剛才說的那些。",
           "reveal": {
             "mode": "typewriter",
@@ -320,7 +320,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "那是邏輯推演。",
           "reveal": {
             "mode": "typewriter",
@@ -335,7 +335,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "那是安慰。",
           "reveal": {
             "mode": "typewriter",
@@ -350,7 +350,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "你聽錯了。",
           "reveal": {
             "mode": "typewriter",
@@ -365,7 +365,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "我沒有聽錯。",
           "reveal": {
             "mode": "typewriter",
@@ -394,8 +394,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "謝謝你，Soren。",
+          "speaker": "{{characters.elias.name}}",
+          "text": "謝謝你，{{characters.soren.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -409,7 +409,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "我不知道你在謝什麼。",
           "reveal": {
             "mode": "typewriter",
@@ -438,7 +438,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "外面，Alea 和 Lyra 守著那片荒原的黑暗。這邊，Soren 翻著他的筆記，Elias 重新靠上牆壁，閉上眼睛。",
+          "text": "外面，{{characters.alea.name}} 和 {{characters.lyra.name}} 守著那片荒原的黑暗。這邊，{{characters.soren.name}} 翻著他的筆記，{{characters.elias.name}} 重新靠上牆壁，閉上眼睛。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

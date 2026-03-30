@@ -43,7 +43,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "その朝、Lyra は廃墟の出口に座り、外の荒野ぼんやりと見ていました。",
+          "text": "その朝、{{characters.lyra.name}} は廃墟の出口に座り、外の荒野ぼんやりと見ていました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -85,7 +85,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "それは Alea でした。朝の配給食を持ってきて、彼女の懐に押し込みました。",
+          "text": "それは {{characters.alea.name}} でした。朝の配給食を持ってきて、彼女の懐に押し込みました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -99,7 +99,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "食べなさい。",
           "reveal": {
             "mode": "typewriter",
@@ -128,7 +128,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra はその配給食を見下ろしました。脳内で回転していたものはゆっくりと止まりました。",
+          "text": "{{characters.lyra.name}} はその配給食を見下ろしました。脳内で回転していたものはゆっくりと止まりました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -156,7 +156,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren はその朝、この事実に気付いた後、黙りました。",
+          "text": "{{characters.soren.name}} はその朝、この事実に気付いた後、黙りました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -198,8 +198,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "Soren。",
+          "speaker": "{{characters.elias.name}}",
+          "text": "{{characters.soren.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -213,7 +213,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "ちょっと待ってください。",
           "reveal": {
             "mode": "typewriter",
@@ -228,7 +228,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は歩み寄り、彼のノートを見下ろしました。その空っぽなやることリストが見えました。",
+          "text": "{{characters.elias.name}} は歩み寄り、彼のノートを見下ろしました。その空っぽなやることリストが見えました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -242,7 +242,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "今日をスケジュールに入れようとしている。",
           "reveal": {
             "mode": "typewriter",
@@ -257,7 +257,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "今日にもまだ多くのことができ——",
           "reveal": {
             "mode": "typewriter",
@@ -272,7 +272,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "ありません。今日は何もありません。それが今日の状態です。あらゆることがスケジュールに入る必要はありません。",
           "reveal": {
             "mode": "typewriter",
@@ -287,7 +287,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "では、スケジュールに入れないとはどういう意味ですか。",
           "reveal": {
             "mode": "typewriter",
@@ -316,7 +316,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "ただそのようにしてください。ただ座ってください。",
           "reveal": {
             "mode": "typewriter",
@@ -331,7 +331,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は彼を見て、彼が続けるのを待ちました。Elias は続けませんでした。それが彼の全部の答えでした。",
+          "text": "{{characters.soren.name}} は彼を見て、彼が続けるのを待ちました。{{characters.elias.name}} は続けませんでした。それが彼の全部の答えでした。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -345,7 +345,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren はその空欄を見て、また Elias を見ました。彼の顔に、何かの処理に困った細かい表情がありました。その表情は彼の顔ではめったに見られませんでした。",
+          "text": "{{characters.soren.name}} はその空欄を見て、また {{characters.elias.name}} を見ました。彼の顔に、何かの処理に困った細かい表情がありました。その表情は彼の顔ではめったに見られませんでした。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -387,7 +387,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は横から全過程を目撃していました。Soren が座った瞬間、彼女は身を曲げました。その笑いは彼女の全身から出てきて、押さえられず、押さえようともしませんでした。",
+          "text": "{{characters.lyra.name}} は横から全過程を目撃していました。{{characters.soren.name}} が座った瞬間、彼女は身を曲げました。その笑いは彼女の全身から出てきて、押さえられず、押さえようともしませんでした。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -415,7 +415,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "何が面白いのですか。",
           "reveal": {
             "mode": "typewriter",
@@ -430,7 +430,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "たくさん。あの顔、まるで誰かがあなたに空気は呼吸しなくてもいいと言ったみたいな表情。その表情は一生忘れません。",
           "reveal": {
             "mode": "typewriter",
@@ -445,7 +445,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "その表情はありません。",
           "reveal": {
             "mode": "typewriter",
@@ -460,7 +460,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "あります。あなたはまさにその表情。",
           "reveal": {
             "mode": "typewriter",
@@ -489,7 +489,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は別の隅に座り、背中をその壁にもたせかけました。何もしないで、ただそこに止まりました。",
+          "text": "{{characters.alea.name}} は別の隅に座り、背中をその壁にもたせかけました。何もしないで、ただそこに止まりました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14

@@ -49,7 +49,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 帶著兩人繞過了兩道封鎖線，期間沒有說任何多餘的話。他選的路線幾乎是本能反應，每一個轉彎都踩在換班的空隙裡。",
+          "text": "{{characters.soren.name}} 帶著兩人繞過了兩道封鎖線，期間沒有說任何多餘的話。他選的路線幾乎是本能反應，每一個轉彎都踩在換班的空隙裡。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -63,7 +63,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "精準到讓身後那個叫 Alea 的女孩一直盯著他的背影。",
+          "text": "精準到讓身後那個叫 {{characters.alea.name}} 的女孩一直盯著他的背影。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -77,7 +77,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "地下層的大門是虛掩的。Soren 伸手去推——",
+          "text": "地下層的大門是虛掩的。{{characters.soren.name}} 伸手去推——",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -162,7 +162,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "我剛駭進這個區域的監視系統。你們的行動路線從記錄裡清掉了，攝影機畫面也剪了。",
           "reveal": {
             "mode": "typewriter",
@@ -177,7 +177,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "不過系統過一段時間會自動修復。",
           "reveal": {
             "mode": "typewriter",
@@ -192,7 +192,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "你是誰？",
           "reveal": {
             "mode": "typewriter",
@@ -207,8 +207,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "<em>Elias</em>。你們是撞進來的，所以問我問題好像有點奇怪。",
+          "speaker": "{{characters.elias.name}}",
+          "text": "<em>{{characters.elias.name}}</em>。你們是撞進來的，所以問我問題好像有點奇怪。",
           "reveal": {
             "mode": "typewriter",
             "cps": 28
@@ -222,7 +222,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "這裡是你的據點嗎？",
           "reveal": {
             "mode": "typewriter",
@@ -237,7 +237,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "算是，用了三週，遲早要換地方。",
           "reveal": {
             "mode": "typewriter",
@@ -252,7 +252,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 往角落的工作台走去。Soren 的目光落在台面上——",
+          "text": "{{characters.elias.name}} 往角落的工作台走去。{{characters.soren.name}} 的目光落在台面上——",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -280,7 +280,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "這些是什麼。",
           "reveal": {
             "mode": "typewriter",
@@ -295,7 +295,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 拿起其中一個晶片，在燈光下轉了轉。",
+          "text": "{{characters.elias.name}} 拿起其中一個晶片，在燈光下轉了轉。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -309,7 +309,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "從中層甲板帶下來的，花了很長時間才弄到手。",
           "reveal": {
             "mode": "typewriter",
@@ -338,7 +338,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "方舟靈魂管理局的內部數據。碎片化的，但已經解開的部分——<delay ms=\"500\"/>你們應該會想看的。",
           "reveal": {
             "mode": "typewriter",
@@ -353,7 +353,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "四個人圍在工作台前，Elias 把解碼終端的螢幕轉向眾人。",
+          "text": "四個人圍在工作台前，{{characters.elias.name}} 把解碼終端的螢幕轉向眾人。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22

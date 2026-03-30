@@ -35,7 +35,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyraが最初に聞いた。",
+          "text": "{{characters.lyra.name}}が最初に聞いた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -63,7 +63,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "ちょっと待ってくれ。あなたたち、聞いて。",
           "reveal": {
             "mode": "typewriter",
@@ -148,7 +148,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "民間人だ。",
           "reveal": {
             "mode": "typewriter",
@@ -198,7 +198,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Aleaは目を細めて確認した——方舟の下層甲板の医療ボランティアチームのマーク。",
+          "text": "{{characters.alea.name}}は目を細めて確認した——方舟の下層甲板の医療ボランティアチームのマーク。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -240,7 +240,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "補給は断たれた。彼らには十分な食料と医薬品がない。神経接続安定剤はもっと不可能だ。衰退中の信号は——",
           "reveal": {
             "mode": "typewriter",
@@ -255,7 +255,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "もたない人たちだ。",
           "reveal": {
             "mode": "typewriter",
@@ -270,7 +270,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "そうだ。",
           "reveal": {
             "mode": "typewriter",
@@ -285,7 +285,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyraはその建物を見つめ続けた。ドアの隙間から漏れる薄い光、壁の側に縮こまっている人影、外に掛けられた、もう認識しがたい記号。",
+          "text": "{{characters.lyra.name}}はその建物を見つめ続けた。ドアの隙間から漏れる薄い光、壁の側に縮こまっている人影、外に掛けられた、もう認識しがたい記号。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -299,7 +299,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Solmarisの軍、西側。すぐこのエリアに到着するだろう。",
           "reveal": {
             "mode": "typewriter",
@@ -328,7 +328,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyraの指は再び自分の側の廃墟をつかみ。その古いレンガの端は彼女の掌に小さな圧痕を残した。",
+          "text": "{{characters.lyra.name}}の指は再び自分の側の廃墟をつかみ。その古いレンガの端は彼女の掌に小さな圧痕を残した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18

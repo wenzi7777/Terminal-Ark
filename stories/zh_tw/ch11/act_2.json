@@ -1,6 +1,6 @@
 {
   "id": "11-2",
-  "title": "第二幕：Alea 的決意",
+  "title": "第二幕：{{characters.alea.name}} 的決意",
   "startNode": "main",
   "nodes": {
     "main": {
@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 看向 Lyra。Lyra 沒有抬頭，她的雙手緊緊地抓住膝蓋。",
+          "text": "{{characters.alea.name}} 看向 {{characters.lyra.name}}。{{characters.lyra.name}} 沒有抬頭，她的雙手緊緊地抓住膝蓋。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -42,8 +42,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "是我害的。如果我沒有打開那扇門，他們不會——如果我聽 Soren 的話，如果我沒有——",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "是我害的。如果我沒有打開那扇門，他們不會——如果我聽 {{characters.soren.name}} 的話，如果我沒有——",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -57,8 +57,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Lyra。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.lyra.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -72,7 +72,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "那個孩子，我扶她起來，我說帶我去裡面，我說我們一起出來，然後——",
           "reveal": {
             "mode": "typewriter",
@@ -87,8 +87,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Lyra。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.lyra.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -102,7 +102,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她終於停下來了，抬起頭，看向 Alea。",
+          "text": "她終於停下來了，抬起頭，看向 {{characters.alea.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -116,7 +116,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 看著她，沒有說什麼大道理，沒有說任何關於這是誰的錯、或者不是誰的錯的話。她只是看著她，用一種很直接的、沒有任何修飾的方式，把她此刻的樣子收進眼睛裡。",
+          "text": "{{characters.alea.name}} 看著她，沒有說什麼大道理，沒有說任何關於這是誰的錯、或者不是誰的錯的話。她只是看著她，用一種很直接的、沒有任何修飾的方式，把她此刻的樣子收進眼睛裡。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -130,7 +130,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "然後她單膝跪在 Lyra 面前。",
+          "text": "然後她單膝跪在 {{characters.lyra.name}} 面前。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -144,7 +144,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "那個動作讓 Lyra 愣了一下。她從來沒有見過 Alea 做這個姿勢。那個一直站在最前面、走在最前面、永遠是第一個踏出那一步的人，現在單膝跪在她面前，把自己的視線降到和她齊平。",
+          "text": "那個動作讓 {{characters.lyra.name}} 愣了一下。她從來沒有見過 {{characters.alea.name}} 做這個姿勢。那個一直站在最前面、走在最前面、永遠是第一個踏出那一步的人，現在單膝跪在她面前，把自己的視線降到和她齊平。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -158,7 +158,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 伸出手，摸了摸她的頭。那個動作很輕，像是在確認什麼東西還在。",
+          "text": "{{characters.alea.name}} 伸出手，摸了摸她的頭。那個動作很輕，像是在確認什麼東西還在。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -172,7 +172,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "然後她把 Lyra 抱住了。不是安慰性的輕拍，是真正地把她抱住，把她那個正在試圖縮小自己的身體，整個圍進去。",
+          "text": "然後她把 {{characters.lyra.name}} 抱住了。不是安慰性的輕拍，是真正地把她抱住，把她那個正在試圖縮小自己的身體，整個圍進去。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -186,7 +186,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 沒有哭，她已經沒有力氣哭了。她只是在那個擁抱裡，讓自己靠著那個比她更穩的重量，停了一秒鐘。",
+          "text": "{{characters.lyra.name}} 沒有哭，她已經沒有力氣哭了。她只是在那個擁抱裡，讓自己靠著那個比她更穩的重量，停了一秒鐘。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -200,7 +200,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "然後她感覺到了。Alea 的手，好像在找什麼東西。她突然感覺左頸被什麼東西抵住了——",
+          "text": "然後她感覺到了。{{characters.alea.name}} 的手，好像在找什麼東西。她突然感覺左頸被什麼東西抵住了——",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -214,7 +214,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 來不及反應，一支應急神經同步劑已經完成了注射。那種液體進入神經連線迴路的感覺是即時的，有一種從發麻的邊緣被重新拉回來的清醒，她的神經同步率在接下來的幾秒裡快速回穩。",
+          "text": "{{characters.lyra.name}} 來不及反應，一支應急神經同步劑已經完成了注射。那種液體進入神經連線迴路的感覺是即時的，有一種從發麻的邊緣被重新拉回來的清醒，她的神經同步率在接下來的幾秒裡快速回穩。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -228,8 +228,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "Alea——",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "{{characters.alea.name}}——",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -243,7 +243,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "但 Alea 已經鬆開了她，後退了半步，從口袋裡把剩下的另一支應急同步劑取出來，放在 Lyra 的手心裡。",
+          "text": "但 {{characters.alea.name}} 已經鬆開了她，後退了半步，從口袋裡把剩下的另一支應急同步劑取出來，放在 {{characters.lyra.name}} 的手心裡。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -285,7 +285,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "是她的。是 Alea 的。",
+          "text": "是她的。是 {{characters.alea.name}} 的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -313,7 +313,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 握著那個牌子，抬起頭。",
+          "text": "{{characters.lyra.name}} 握著那個牌子，抬起頭。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -327,7 +327,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "這是——",
           "reveal": {
             "mode": "typewriter",
@@ -342,7 +342,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 沒有讓她說完。她俯身，把嘴湊近 Lyra 的耳邊，聲音很輕，輕到在那條斜道裡，只有她一個人能聽見那句話。",
+          "text": "{{characters.alea.name}} 沒有讓她說完。她俯身，把嘴湊近 {{characters.lyra.name}} 的耳邊，聲音很輕，輕到在那條斜道裡，只有她一個人能聽見那句話。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -356,7 +356,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "<whisper>再見，你要好好的。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -385,7 +385,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她站起來的動作很自然，像是每一天早晨從折疊床上起身一樣自然。她站直了，轉過身，看向 Soren 和 Elias。那兩個人都看著她。Soren 的眼睛裡有什麼東西是在計算之外的。Elias 的嘴唇動了一下，沒有說出話來。",
+          "text": "她站起來的動作很自然，像是每一天早晨從折疊床上起身一樣自然。她站直了，轉過身，看向 {{characters.soren.name}} 和 {{characters.elias.name}}。那兩個人都看著她。{{characters.soren.name}} 的眼睛裡有什麼東西是在計算之外的。{{characters.elias.name}} 的嘴唇動了一下，沒有說出話來。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12

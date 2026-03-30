@@ -42,8 +42,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Elias, now.",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.elias.name}}, now.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -57,7 +57,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias's fingers were already jacked into the building's main signal conduit. He sat in the corner of the hall on the floor, his back against the wall, pain throbbing from the wound on his back. His neural synchronization rate was low enough that he didn't dare look at it.",
+          "text": "{{characters.elias.name}}'s fingers were already jacked into the building's main signal conduit. He sat in the corner of the hall on the floor, his back against the wall, pain throbbing from the wound on his back. His neural synchronization rate was low enough that he didn't dare look at it.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -121,7 +121,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "In the hall, Alea fought to hold the line with Soren and Lyra.",
+          "text": "In the hall, {{characters.alea.name}} fought to hold the line with {{characters.soren.name}} and {{characters.lyra.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -163,7 +163,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "The exits are getting sealed.",
           "reveal": {
             "mode": "typewriter",
@@ -178,8 +178,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "I know. Elias needs more time.",
+          "speaker": "{{characters.alea.name}}",
+          "text": "I know. {{characters.elias.name}} needs more time.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -193,7 +193,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "You're sure he can do it?",
           "reveal": {
             "mode": "typewriter",
@@ -208,7 +208,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "She didn't answer. Instead, she used her body's center of gravity to redirect an approaching soldier's trajectory, creating the space for Soren's cannon to find an angle.",
+          "text": "She didn't answer. Instead, she used her body's center of gravity to redirect an approaching soldier's trajectory, creating the space for {{characters.soren.name}}'s cannon to find an angle.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -222,8 +222,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Cover me. I'm going to buy Elias time.",
+          "speaker": "{{characters.alea.name}}",
+          "text": "Cover me. I'm going to buy {{characters.elias.name}} time.",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -237,7 +237,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "She didn't wait for Soren's response. She walked straight into the center of the hall.",
+          "text": "She didn't wait for {{characters.soren.name}}'s response. She walked straight into the center of the hall.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -351,7 +351,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Done—shield node, Sector B. The opening won't last long, I can't extend it any further.",
           "reveal": {
             "mode": "typewriter",
@@ -366,7 +366,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "That's enough. Everyone, <em>move now</em>.",
           "reveal": {
             "mode": "typewriter",
@@ -381,7 +381,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "All four sprinted toward the building's north exit simultaneously. Soren released the last of his output in a buffer blast between them and the pursuing soldiers.",
+          "text": "All four sprinted toward the building's north exit simultaneously. {{characters.soren.name}} released the last of his output in a buffer blast between them and the pursuing soldiers.",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -407,7 +407,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra pushed open the safety door. Before them stretched the Ark's outer perimeter—open, empty wasteland.",
+          "text": "{{characters.lyra.name}} pushed open the safety door. Before them stretched the Ark's outer perimeter—open, empty wasteland.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -532,7 +532,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias glanced back. The opening had already sealed, the shield whole again. Several artificial soldiers stood at the barrier's edge, sensors sweeping outward, but they didn't advance further.",
+          "text": "{{characters.elias.name}} glanced back. The opening had already sealed, the shield whole again. Several artificial soldiers stood at the barrier's edge, sensors sweeping outward, but they didn't advance further.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -602,7 +602,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra removed the damaged augmentation module from her shoulder and examined the light bruising on her arm from the overload, then lifted her head to look across the vast, unknown wasteland and took a deep breath.",
+          "text": "{{characters.lyra.name}} removed the damaged augmentation module from her shoulder and examined the light bruising on her arm from the overload, then lifted her head to look across the vast, unknown wasteland and took a deep breath.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -616,7 +616,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "The air tastes worse than inside.",
           "reveal": {
             "mode": "typewriter",
@@ -631,7 +631,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "No kidding. Radioactive dust.",
           "reveal": {
             "mode": "typewriter",
@@ -646,7 +646,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "But—<delay ms=\"400\"/>it feels different.",
           "reveal": {
             "mode": "typewriter",
@@ -675,7 +675,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea stood at the front, looking out across the land she had never set foot on in fifteen years. The wind tousled her hair, and she didn't bother to fix it. She simply stood there, feeling the ground beneath her feet.",
+          "text": "{{characters.alea.name}} stood at the front, looking out across the land she had never set foot on in fifteen years. The wind tousled her hair, and she didn't bother to fix it. She simply stood there, feeling the ground beneath her feet.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -703,7 +703,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Let's go. Find shelter before dark.",
           "reveal": {
             "mode": "typewriter",

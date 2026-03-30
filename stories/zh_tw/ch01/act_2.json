@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 的庇護所離邊緣防護罩極近。所以當警報響起時，那聲音幾乎是貼著耳膜炸開的。",
+          "text": "{{characters.alea.name}} 的庇護所離邊緣防護罩極近。所以當警報響起時，那聲音幾乎是貼著耳膜炸開的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -70,7 +70,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "低頻嗚鳴從防護罩邊緣傳來，Alea 幾乎在同一瞬間就彈起了身。",
+          "text": "低頻嗚鳴從防護罩邊緣傳來，{{characters.alea.name}} 幾乎在同一瞬間就彈起了身。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -154,7 +154,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 壓低身形，<em>逆著人流</em>朝反方向移動。",
+          "text": "{{characters.alea.name}} 壓低身形，<em>逆著人流</em>朝反方向移動。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -239,7 +239,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 猛地停下腳步。",
+          "text": "{{characters.alea.name}} 猛地停下腳步。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -303,7 +303,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "下一秒，地面的震動讓 Alea 的神經瞬間緊繃。",
+          "text": "下一秒，地面的震動讓 {{characters.alea.name}} 的神經瞬間緊繃。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -353,7 +353,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 撿起腳邊的一塊金屬碎片，奮力朝對角的玻璃窗砸去。",
+          "text": "{{characters.alea.name}} 撿起腳邊的一塊金屬碎片，奮力朝對角的玻璃窗砸去。",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -380,7 +380,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "怪物的注意力瞬間被引開。趁著牠轉身遲疑的半秒，Alea 衝進大廳，攥住那孩子的手腕，拖著她直奔側門。",
+          "text": "怪物的注意力瞬間被引開。趁著牠轉身遲疑的半秒，{{characters.alea.name}} 衝進大廳，攥住那孩子的手腕，拖著她直奔側門。",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -402,7 +402,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "變異種猛然回頭撲來。Alea 反手揮出短刀——雖然無法切開怪物厚重的角質層，但爆發的電磁刃精準擊中了牠的後腿關節，逼得怪物一個踉蹌。",
+          "text": "變異種猛然回頭撲來。{{characters.alea.name}} 反手揮出短刀——雖然無法切開怪物厚重的角質層，但爆發的電磁刃精準擊中了牠的後腿關節，逼得怪物一個踉蹌。",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -430,7 +430,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 死死頂住門板，靠在牆上大口喘息。",
+          "text": "{{characters.alea.name}} 死死頂住門板，靠在牆上大口喘息。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -458,7 +458,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "女孩金髮凌亂，滿是灰塵。察覺到 Alea 的目光之後，她抬起頭來。",
+          "text": "女孩金髮凌亂，滿是灰塵。察覺到 {{characters.alea.name}} 的目光之後，她抬起頭來。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -486,8 +486,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "謝謝妳。我叫 <em>Lyra</em>。<delay ms=\"400\"/>妳呢？",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "謝謝妳。我叫 <em>{{characters.lyra.name}}</em>。<delay ms=\"400\"/>妳呢？",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -501,7 +501,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 愣了一下。",
+          "text": "{{characters.alea.name}} 愣了一下。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -515,8 +515,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "……Alea。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "……{{characters.alea.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18

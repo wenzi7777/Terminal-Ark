@@ -57,7 +57,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 把平面圖攤在面前，拿著一截短短的炭筆，在幾個關鍵節點上做標記。標記完，從頭看一遍，再做一次。他不說話，不看人，整個人像一台正在全速運轉的機器。",
+          "text": "{{characters.soren.name}} 把平面圖攤在面前，拿著一截短短的炭筆，在幾個關鍵節點上做標記。標記完，從頭看一遍，再做一次。他不說話，不看人，整個人像一台正在全速運轉的機器。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -71,7 +71,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 坐在廢棄空間的另一個角落，把他的訊號接收器拆開了。那不是因為接收器有任何問題，它運作良好。他只是習慣這樣——手裡有東西拆，有東西裝，整個人就能安靜下來。",
+          "text": "{{characters.elias.name}} 坐在廢棄空間的另一個角落，把他的訊號接收器拆開了。那不是因為接收器有任何問題，它運作良好。他只是習慣這樣——手裡有東西拆，有東西裝，整個人就能安靜下來。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -99,8 +99,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "Soren，你已經看那張圖看了——",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "{{characters.soren.name}}，你已經看那張圖看了——",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -114,7 +114,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "不要打斷。",
           "reveal": {
             "mode": "typewriter",
@@ -129,7 +129,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 閉上嘴，轉向 Elias。",
+          "text": "{{characters.lyra.name}} 閉上嘴，轉向 {{characters.elias.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -143,8 +143,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "Elias，那個接收器有問題嗎？",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "{{characters.elias.name}}，那個接收器有問題嗎？",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -158,7 +158,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "沒有。",
           "reveal": {
             "mode": "typewriter",
@@ -173,7 +173,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "那你為什麼一直在拆它——",
           "reveal": {
             "mode": "typewriter",
@@ -188,7 +188,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "習慣。",
           "reveal": {
             "mode": "typewriter",
@@ -203,7 +203,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 確認他不打算繼續說話，然後轉過頭，看向坐在她另一側、靠著牆、看著門口方向的 Alea，用一種充滿期待的眼神看著她。",
+          "text": "{{characters.lyra.name}} 確認他不打算繼續說話，然後轉過頭，看向坐在她另一側、靠著牆、看著門口方向的 {{characters.alea.name}}，用一種充滿期待的眼神看著她。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -217,7 +217,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 感覺到了那個視線，沒有動，用餘光回看了她一眼。她的表情很清楚地說了一件事：妳找錯人了。",
+          "text": "{{characters.alea.name}} 感覺到了那個視線，沒有動，用餘光回看了她一眼。她的表情很清楚地說了一件事：妳找錯人了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -231,7 +231,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 沒有放棄。",
+          "text": "{{characters.lyra.name}} 沒有放棄。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -259,7 +259,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她走到 Soren 面前，把一條乾糧和半杯水放在他地圖的旁邊。不擋到地圖，但在他不低頭就能看見的位置。",
+          "text": "她走到 {{characters.soren.name}} 面前，把一條乾糧和半杯水放在他地圖的旁邊。不擋到地圖，但在他不低頭就能看見的位置。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -273,7 +273,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 看了那條乾糧一眼，沒有說話，繼續看地圖。但他把乾糧拿起來了。",
+          "text": "{{characters.soren.name}} 看了那條乾糧一眼，沒有說話，繼續看地圖。但他把乾糧拿起來了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -287,7 +287,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 走向 Elias，把另一條乾糧放在他排零件的腿旁邊。",
+          "text": "{{characters.lyra.name}} 走向 {{characters.elias.name}}，把另一條乾糧放在他排零件的腿旁邊。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -301,7 +301,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "謝。",
           "reveal": {
             "mode": "typewriter",
@@ -316,7 +316,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "最後再把乾糧給 Alea。Lyra 把那包硬糖打開，倒出四顆，各自放在每個人面前。然後她回到自己的位置坐下來，拿起自己那份，咬了一口乾糧。",
+          "text": "最後再把乾糧給 {{characters.alea.name}}。{{characters.lyra.name}} 把那包硬糖打開，倒出四顆，各自放在每個人面前。然後她回到自己的位置坐下來，拿起自己那份，咬了一口乾糧。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -344,7 +344,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 把地圖往旁邊推了半個身位，拿起乾糧，咬了一口，繼續看地圖。Elias 把接收器放下，拿起乾糧，往嘴裡塞了一塊。",
+          "text": "{{characters.soren.name}} 把地圖往旁邊推了半個身位，拿起乾糧，咬了一口，繼續看地圖。{{characters.elias.name}} 把接收器放下，拿起乾糧，往嘴裡塞了一塊。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -358,7 +358,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 看了一眼放在她腿邊的東西，看了一眼 Lyra——Lyra 正在認真地吃她自己的那份，沒有看她——Alea 把乾糧拿起來。",
+          "text": "{{characters.alea.name}} 看了一眼放在她腿邊的東西，看了一眼 {{characters.lyra.name}}——{{characters.lyra.name}} 正在認真地吃她自己的那份，沒有看她——{{characters.alea.name}} 把乾糧拿起來。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18

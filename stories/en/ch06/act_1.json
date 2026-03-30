@@ -120,7 +120,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "They know we're here. But we're not on their current task list, so they don't need to process us.",
           "reveal": {
             "mode": "typewriter",
@@ -135,7 +135,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "What list are we on then?",
           "reveal": {
             "mode": "typewriter",
@@ -150,7 +150,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Observation. Or recording. Every corner of this city is collecting data. We became part of that data the moment we entered.",
           "reveal": {
             "mode": "typewriter",
@@ -165,7 +165,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "But collection doesn't mean intervention. Until they complete their assessment, we are <em>neutral variables</em>.",
           "reveal": {
             "mode": "typewriter",
@@ -194,7 +194,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Its pace was metered, its metal feet striking the metal ground with metronome precision. It threaded between Lyra and Alea, less than half a step from each.",
+          "text": "Its pace was metered, its metal feet striking the metal ground with metronome precision. It threaded between {{characters.lyra.name}} and {{characters.alea.name}}, less than half a step from each.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -222,7 +222,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra watched it disappear into the distance without speaking.",
+          "text": "{{characters.lyra.name}} watched it disappear into the distance without speaking.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -278,7 +278,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea's gaze paused among the buildings, then pulled back, and she continued forward.",
+          "text": "{{characters.alea.name}}'s gaze paused among the buildings, then pulled back, and she continued forward.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20

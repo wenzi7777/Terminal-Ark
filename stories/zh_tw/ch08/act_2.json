@@ -1,6 +1,6 @@
 {
   "id": "8-2",
-  "title": "第二幕：Lyra 的代碼",
+  "title": "第二幕：{{characters.lyra.name}} 的代碼",
   "startNode": "main",
   "nodes": {
     "main": {
@@ -49,7 +49,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 在聽，在評估，在尋找有用的情報。",
+          "text": "{{characters.soren.name}} 在聽，在評估，在尋找有用的情報。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -63,7 +63,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 在觀察那個空腔的結構，推算可能的出口位置。",
+          "text": "{{characters.elias.name}} 在觀察那個空腔的結構，推算可能的出口位置。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -77,7 +77,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 靜靜地坐著，臉上沒有表情，眼神在祭司和周圍的 Solmaris 成員之間來回。",
+          "text": "{{characters.alea.name}} 靜靜地坐著，臉上沒有表情，眼神在祭司和周圍的 Solmaris 成員之間來回。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -91,7 +91,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 在聽。真正地聽著。因為她對每一種存在方式都抱有真實的好奇，即使是這種她沒有辦法完全認同的方式。",
+          "text": "{{characters.lyra.name}} 在聽。真正地聽著。因為她對每一種存在方式都抱有真實的好奇，即使是這種她沒有辦法完全認同的方式。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -120,7 +120,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她的目光落在 Lyra 身上。",
+          "text": "她的目光落在 {{characters.lyra.name}} 身上。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -134,7 +134,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "等一下。你要做什麼。",
           "reveal": {
             "mode": "typewriter",
@@ -164,7 +164,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 感覺到了。一道外部的訊號接觸到了她的神經連線介面，在最外層展開了一段數據序列，投影在周圍所有人都能感知的神經廣播頻率上。",
+          "text": "{{characters.lyra.name}} 感覺到了。一道外部的訊號接觸到了她的神經連線介面，在最外層展開了一段數據序列，投影在周圍所有人都能感知的神經廣播頻率上。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -283,7 +283,7 @@
           "type": "line",
           "layer": "dialogue",
           "speaker": "首席祭司",
-          "text": "你是那個實驗。<delay ms=\"600\"/>Lyra，你的每一份情感，你的每一次選擇，你的每一個讓你感到自己是你自己的東西，都是我們設計的參數。",
+          "text": "你是那個實驗。<delay ms=\"600\"/>{{characters.lyra.name}}，你的每一份情感，你的每一次選擇，你的每一個讓你感到自己是你自己的東西，都是我們設計的參數。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -297,7 +297,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 坐在那裡，盯著那段投影在空氣中的代碼，像是在看一個陌生人的名字，卻不得不承認那是自己的。",
+          "text": "{{characters.lyra.name}} 坐在那裡，盯著那段投影在空氣中的代碼，像是在看一個陌生人的名字，卻不得不承認那是自己的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

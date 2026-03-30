@@ -57,7 +57,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は図面を広げて、短い炭素棒を手に、いくつかの重要なポイントにマークを付けていた。完成すると、もう一度見直して、また同じことをした。彼は何も話さず、誰も見ず、まるで全力で走行中の機械のようだった。",
+          "text": "{{characters.soren.name}} は図面を広げて、短い炭素棒を手に、いくつかの重要なポイントにマークを付けていた。完成すると、もう一度見直して、また同じことをした。彼は何も話さず、誰も見ず、まるで全力で走行中の機械のようだった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -71,7 +71,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は放棄された空間の別の角に座って、彼の信号受信機を分解していた。別に受信機に問題があるわけではなく、それは正常に機能していた。彼はただ習慣的にこうしていた――手に何かを分解し、何かを組立てると、彼は落ち着くことができるのだ。",
+          "text": "{{characters.elias.name}} は放棄された空間の別の角に座って、彼の信号受信機を分解していた。別に受信機に問題があるわけではなく、それは正常に機能していた。彼はただ習慣的にこうしていた――手に何かを分解し、何かを組立てると、彼は落ち着くことができるのだ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -99,8 +99,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "Soren、あなたはもうその地図を<delay ms=\"200\"/>――",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "{{characters.soren.name}}、あなたはもうその地図を<delay ms=\"200\"/>――",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -114,7 +114,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "邪魔をするな。",
           "reveal": {
             "mode": "typewriter",
@@ -129,7 +129,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は口を閉じ、Elias の方を向いた。",
+          "text": "{{characters.lyra.name}} は口を閉じ、{{characters.elias.name}} の方を向いた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -143,8 +143,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "Elias、その受信機は問題ですか？",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "{{characters.elias.name}}、その受信機は問題ですか？",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -158,7 +158,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "いいえ。",
           "reveal": {
             "mode": "typewriter",
@@ -173,7 +173,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "なぜずっと分解してるんですか――",
           "reveal": {
             "mode": "typewriter",
@@ -188,7 +188,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "習慣。",
           "reveal": {
             "mode": "typewriter",
@@ -203,7 +203,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は彼が話を続けるつもりがないことを確認して、振り向いて、彼女の反対側に座っている、壁に寄りかかって、ドアの方向を見ている Alea を見た。期待に満ちた目で見つめていた。",
+          "text": "{{characters.lyra.name}} は彼が話を続けるつもりがないことを確認して、振り向いて、彼女の反対側に座っている、壁に寄りかかって、ドアの方向を見ている {{characters.alea.name}} を見た。期待に満ちた目で見つめていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -217,7 +217,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea はその視線を感じて、動かなかった。その視線は、あなたは間違った人を探していたと明確に言っていた。",
+          "text": "{{characters.alea.name}} はその視線を感じて、動かなかった。その視線は、あなたは間違った人を探していたと明確に言っていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -231,7 +231,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は諦めなかった。",
+          "text": "{{characters.lyra.name}} は諦めなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -259,7 +259,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼女は Soren の前に歩いて行き、一本のドライフードと半杯の水を彼の地図の横に置いた。地図をふさがず、しかし彼が頭を下げずに見える位置に。",
+          "text": "彼女は {{characters.soren.name}} の前に歩いて行き、一本のドライフードと半杯の水を彼の地図の横に置いた。地図をふさがず、しかし彼が頭を下げずに見える位置に。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -273,7 +273,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren はそのドライフードを一瞥し、何も言わず、地図を見続けた。しかし彼はドライフードを手に取った。",
+          "text": "{{characters.soren.name}} はそのドライフードを一瞥し、何も言わず、地図を見続けた。しかし彼はドライフードを手に取った。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -287,7 +287,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は Elias に向かって歩き、別のドライフードを彼の部品が並んでいる脚の横に置いた。",
+          "text": "{{characters.lyra.name}} は {{characters.elias.name}} に向かって歩き、別のドライフードを彼の部品が並んでいる脚の横に置いた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -301,7 +301,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "ありがとう。",
           "reveal": {
             "mode": "typewriter",
@@ -316,7 +316,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "次に Alea のためにドライフードを。Lyra はそのハードキャンディを開け、四粒を取り出し、それぞれを各人の前に置いた。それから自分の位置に戻り、自分の分を手に取り、ドライフードを一口噛んだ。",
+          "text": "次に {{characters.alea.name}} のためにドライフードを。{{characters.lyra.name}} はそのハードキャンディを開け、四粒を取り出し、それぞれを各人の前に置いた。それから自分の位置に戻り、自分の分を手に取り、ドライフードを一口噛んだ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -344,7 +344,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は地図を半身分横に押し、ドライフードを拿い、一口噛んで、地図を見続けた。Elias は受信機を置き、ドライフードを拿い、その一片を口に詰め込んだ。",
+          "text": "{{characters.soren.name}} は地図を半身分横に押し、ドライフードを拿い、一口噛んで、地図を見続けた。{{characters.elias.name}} は受信機を置き、ドライフードを拿い、その一片を口に詰め込んだ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -358,7 +358,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は彼女の脚の横に置かれたものを一瞥し、Lyra を一瞥した――Lyra は自分の分を真摯に食べていて、彼女を見ていなかった――Alea はドライフードを拿った。",
+          "text": "{{characters.alea.name}} は彼女の脚の横に置かれたものを一瞥し、{{characters.lyra.name}} を一瞥した――{{characters.lyra.name}} は自分の分を真摯に食べていて、彼女を見ていなかった――{{characters.alea.name}} はドライフードを拿った。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18

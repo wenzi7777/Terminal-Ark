@@ -43,7 +43,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 不知道自己走了多久。",
+          "text": "{{characters.lyra.name}} 不知道自己走了多久。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -267,7 +267,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "是 Alea 的。",
+          "text": "是 {{characters.alea.name}} 的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 8
@@ -295,7 +295,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "<whisper>不要消散。不要消散，Alea，是你嗎？</whisper>",
+          "text": "<whisper>不要消散。不要消散，{{characters.alea.name}}，是你嗎？</whisper>",
           "reveal": {
             "mode": "typewriter",
             "cps": 10

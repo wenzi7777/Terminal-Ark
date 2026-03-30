@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "This one is fruit-flavored. Much better than I expected.",
           "reveal": {
             "mode": "typewriter",
@@ -57,7 +57,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "No one responded, but Alea glanced at her candy.",
+          "text": "No one responded, but {{characters.alea.name}} glanced at her candy.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -71,7 +71,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Maybe you should try yours.",
           "reveal": {
             "mode": "typewriter",
@@ -86,7 +86,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea picked up the candy and put it in her mouth without speaking.",
+          "text": "{{characters.alea.name}} picked up the candy and put it in her mouth without speaking.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -100,7 +100,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Good?",
           "reveal": {
             "mode": "typewriter",
@@ -115,7 +115,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "It's okay.",
           "reveal": {
             "mode": "typewriter",
@@ -130,7 +130,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Is it fruit flavor?",
           "reveal": {
             "mode": "typewriter",
@@ -145,7 +145,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Sweet. I can't describe what flavor it is, just sweet.",
           "reveal": {
             "mode": "typewriter",
@@ -160,7 +160,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra watched her. That look made Alea slightly uncomfortable—not malicious, just the kind of discomfort from not being accustomed to being truly seen.",
+          "text": "{{characters.lyra.name}} watched her. That look made {{characters.alea.name}} slightly uncomfortable—not malicious, just the kind of discomfort from not being accustomed to being truly seen.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -174,7 +174,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "What are you looking at.",
           "reveal": {
             "mode": "typewriter",
@@ -189,7 +189,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "I was wondering what you ate when you lived on the lower decks.",
           "reveal": {
             "mode": "typewriter",
@@ -204,7 +204,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Whatever was edible.",
           "reveal": {
             "mode": "typewriter",
@@ -219,7 +219,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Like what?",
           "reveal": {
             "mode": "typewriter",
@@ -234,7 +234,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Compressed rations, bartered food, sometimes high-calorie cookies from Ark distribution. Nothing to talk about—just eat, keep moving.",
           "reveal": {
             "mode": "typewriter",
@@ -249,7 +249,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Is there anything you particularly like to eat?",
           "reveal": {
             "mode": "typewriter",
@@ -264,7 +264,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea was silent for a moment. Not a refusal—the kind of silence that needed real thought to answer.",
+          "text": "{{characters.alea.name}} was silent for a moment. Not a refusal—the kind of silence that needed real thought to answer.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -278,7 +278,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "No. Never thought about it.",
           "reveal": {
             "mode": "typewriter",
@@ -293,7 +293,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Never?",
           "reveal": {
             "mode": "typewriter",
@@ -308,7 +308,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Eating is to keep going. Not for taste.",
           "reveal": {
             "mode": "typewriter",
@@ -323,7 +323,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Where did you live on the lower decks, in your own place?",
           "reveal": {
             "mode": "typewriter",
@@ -338,7 +338,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "An abandoned clinic's storage room. Alone, for over four years. Small enough nobody competed for it.",
           "reveal": {
             "mode": "typewriter",
@@ -353,7 +353,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "What about you. How long have you been on the lower decks.",
           "reveal": {
             "mode": "typewriter",
@@ -368,7 +368,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Not long. About three months.",
           "reveal": {
             "mode": "typewriter",
@@ -383,7 +383,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Before that.",
           "reveal": {
             "mode": "typewriter",
@@ -398,7 +398,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "A place. Kind of like a dormitory, but not exactly. Not many people there, maybe a few I knew, all about my age.",
           "reveal": {
             "mode": "typewriter",
@@ -413,7 +413,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "The people there would do regular tests, ask questions, sometimes physical checkups. They said it was routine, and I didn't think there was anything wrong with it.",
           "reveal": {
             "mode": "typewriter",
@@ -428,7 +428,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Doesn't sound like a residential area.",
           "reveal": {
             "mode": "typewriter",
@@ -443,7 +443,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Yeah. It wasn't. But I didn't think it was strange at the time, I just lived that way. Then people there suddenly disappeared. One day I woke up and there were barely any left. The few remaining said they were leaving, so I followed. We got separated, and then I ended up on the lower decks.",
           "reveal": {
             "mode": "typewriter",
@@ -458,7 +458,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "I don't know what that place was called, or where it was. I never asked.",
           "reveal": {
             "mode": "typewriter",
@@ -473,7 +473,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Does that strike you as strange?",
           "reveal": {
             "mode": "typewriter",
@@ -488,7 +488,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "A bit.",
           "reveal": {
             "mode": "typewriter",
@@ -503,7 +503,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Me too.",
           "reveal": {
             "mode": "typewriter",
@@ -532,7 +532,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "But there's no way to go back and ask now.",
           "reveal": {
             "mode": "typewriter",
@@ -547,7 +547,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "So you live somewhere nobody else wants to rob. Sounds delightful.",
           "reveal": {
             "mode": "typewriter",
@@ -562,7 +562,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "You have a lot of opinions.",
           "reveal": {
             "mode": "typewriter",
@@ -577,7 +577,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "I'm just observing. Your place is better than mine. I lived above a drainage pipe, floor gets wet when it rains.",
           "reveal": {
             "mode": "typewriter",
@@ -592,7 +592,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "That was your choice.",
           "reveal": {
             "mode": "typewriter",
@@ -607,7 +607,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Right. I chose a location with signal coverage. Sometimes signal matters more than a dry floor.",
           "reveal": {
             "mode": "typewriter",
@@ -622,7 +622,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "So you sleep on a wet floor.",
           "reveal": {
             "mode": "typewriter",
@@ -637,7 +637,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Sometimes.",
           "reveal": {
             "mode": "typewriter",
@@ -652,7 +652,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "You two talk about this stuff like you're discussing the weather.",
           "reveal": {
             "mode": "typewriter",
@@ -667,7 +667,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Because that's how it is.",
           "reveal": {
             "mode": "typewriter",
@@ -682,7 +682,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "A wet floor? You really sleep on a wet floor?",
           "reveal": {
             "mode": "typewriter",
@@ -697,7 +697,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Sometimes.",
           "reveal": {
             "mode": "typewriter",
@@ -712,7 +712,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Why would you live there?",
           "reveal": {
             "mode": "typewriter",
@@ -727,7 +727,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Cheap. And the signal coverage there is better.",
           "reveal": {
             "mode": "typewriter",
@@ -742,7 +742,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "My living situation changed, so my housing changed. Not much choice in the matter.",
           "reveal": {
             "mode": "typewriter",
@@ -757,7 +757,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra looked at him, something ready to say, but ultimately just gave a soft acknowledgment and let the question go.",
+          "text": "{{characters.lyra.name}} looked at him, something ready to say, but ultimately just gave a soft acknowledgment and let the question go.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -771,7 +771,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Mid-level. Much different from here?",
           "reveal": {
             "mode": "typewriter",
@@ -786,7 +786,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "More orderly. But orderly places have their own troubles. Doesn't necessarily make things better.",
           "reveal": {
             "mode": "typewriter",
@@ -801,7 +801,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Where you live doesn't matter.",
           "reveal": {
             "mode": "typewriter",
@@ -816,7 +816,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "See, you understand.",
           "reveal": {
             "mode": "typewriter",
@@ -831,7 +831,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "I'm not agreeing with you.",
           "reveal": {
             "mode": "typewriter",
@@ -846,7 +846,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "I know. But the conclusion is the same.",
           "reveal": {
             "mode": "typewriter",
@@ -861,7 +861,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea opened her mouth slightly, something to say, then closed it. She turned her gaze back toward the door. Elias returned his attention to his receiver.",
+          "text": "{{characters.alea.name}} opened her mouth slightly, something to say, then closed it. She turned her gaze back toward the door. {{characters.elias.name}} returned his attention to his receiver.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -875,7 +875,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra sat between them, looking from one to the other. Whatever she was holding back finally escaped—a quiet laugh from the corner of her mouth, clear in the abandoned space.",
+          "text": "{{characters.lyra.name}} sat between them, looking from one to the other. Whatever she was holding back finally escaped—a quiet laugh from the corner of her mouth, clear in the abandoned space.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -889,7 +889,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren at the map didn't turn around, but his pencil paused for a moment before continuing.",
+          "text": "{{characters.soren.name}} at the map didn't turn around, but his pencil paused for a moment before continuing.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

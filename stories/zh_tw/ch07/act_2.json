@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 在轉角停下來，確認了走廊裡的感應節點間隔，然後示意 Soren 和 Lyra 跟上。",
+          "text": "{{characters.alea.name}} 在轉角停下來，確認了走廊裡的感應節點間隔，然後示意 {{characters.soren.name}} 和 {{characters.lyra.name}} 跟上。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -70,7 +70,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "現在，取決於他。",
           "reveal": {
             "mode": "typewriter",
@@ -106,7 +106,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "房間裡，Elias 把那段代碼輸進了訊號端口的接入介面。",
+          "text": "房間裡，{{characters.elias.name}} 把那段代碼輸進了訊號端口的接入介面。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -242,7 +242,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 把接收器收進口袋，往門口走去，用手推開，走出去。",
+          "text": "{{characters.elias.name}} 把接收器收進口袋，往門口走去，用手推開，走出去。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -256,7 +256,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "走廊是白色的，燈光還在閃爍。Alea 在走廊的另一端。",
+          "text": "走廊是白色的，燈光還在閃爍。{{characters.alea.name}} 在走廊的另一端。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -284,7 +284,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "走。",
           "reveal": {
             "mode": "typewriter",
@@ -299,7 +299,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 跟上去。",
+          "text": "{{characters.elias.name}} 跟上去。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -313,7 +313,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "我父親在 Mond 的系統裡留了一個後門，然後切斷聯繫，離開了。",
           "reveal": {
             "mode": "typewriter",
@@ -328,7 +328,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "我不知道他是為了什麼。但我想，他也做了一個類似的決定。",
           "reveal": {
             "mode": "typewriter",

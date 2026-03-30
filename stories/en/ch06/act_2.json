@@ -85,7 +85,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Toward Elias.",
+          "text": "Toward {{characters.elias.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias didn't move. The mechanical legion didn't move either, just waiting.",
+          "text": "{{characters.elias.name}} didn't move. The mechanical legion didn't move either, just waiting.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -141,7 +141,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "What is the basis?",
           "reveal": {
             "mode": "typewriter",
@@ -198,7 +198,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "You're integrating him into Mond. <delay ms=\"400\"/>He didn't consent.",
           "reveal": {
             "mode": "typewriter",
@@ -227,7 +227,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias looked at Soren, then at Lyra, finally at Alea. His expression held little, but his eyes were clear.",
+          "text": "{{characters.elias.name}} looked at {{characters.soren.name}}, then at {{characters.lyra.name}}, finally at {{characters.alea.name}}. His expression held little, but his eyes were clear.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -241,7 +241,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "I'm fine. Go. Now.",
           "reveal": {
             "mode": "typewriter",
@@ -256,8 +256,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "Elias——",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "{{characters.elias.name}}——",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -271,7 +271,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "The mechanical legion began closing in. Alea stepped forward; Elias shook his head, and she stopped. That hesitation lasted two seconds, her hand still on her weapon module, then she withdrew it.",
+          "text": "The mechanical legion began closing in. {{characters.alea.name}} stepped forward; {{characters.elias.name}} shook his head, and she stopped. That hesitation lasted two seconds, her hand still on her weapon module, then she withdrew it.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -285,7 +285,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Confirm his location. Now.",
           "reveal": {
             "mode": "typewriter",
@@ -300,7 +300,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "The mechanical legion took Elias away. The encirclement dissolved as he left, and the street returned to normal.",
+          "text": "The mechanical legion took {{characters.elias.name}} away. The encirclement dissolved as he left, and the street returned to normal.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -416,7 +416,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias didn't walk to it immediately. He stood in the room for a while, studying the surroundings—the sensor's position, an inconspicuous signal port on the wall, and the interval between the apparatus's scanning cycles.",
+          "text": "{{characters.elias.name}} didn't walk to it immediately. He stood in the room for a while, studying the surroundings—the sensor's position, an inconspicuous signal port on the wall, and the interval between the apparatus's scanning cycles.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -471,7 +471,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias stared at that blank field for a very long time.",
+          "text": "{{characters.elias.name}} stared at that blank field for a very long time.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

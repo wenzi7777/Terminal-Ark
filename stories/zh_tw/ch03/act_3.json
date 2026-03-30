@@ -49,7 +49,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 的第一反應是拒絕——他不是一個做無謂冒險的人。",
+          "text": "{{characters.soren.name}} 的第一反應是拒絕——他不是一個做無謂冒險的人。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -77,7 +77,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "我們已經是最高通緝等級。留在方舟裡，遲早被找到。往上層去，沒有任何通行許可，進不去。",
           "reveal": {
             "mode": "typewriter",
@@ -92,7 +92,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "往外走，是目前唯一一條真正能讓我們繼續存在的路。",
           "reveal": {
             "mode": "typewriter",
@@ -121,7 +121,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "而且——你不想知道這場戰爭是怎麼開始的嗎？",
           "reveal": {
             "mode": "typewriter",
@@ -136,7 +136,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 看著那份數據，沒有說話。",
+          "text": "{{characters.soren.name}} 看著那份數據，沒有說話。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -150,7 +150,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "我想去。",
           "reveal": {
             "mode": "typewriter",
@@ -179,7 +179,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "我不知道我們能做什麼，但如果連弄清楚發生了什麼都放棄的話，那什麼都不會改變。",
           "reveal": {
             "mode": "typewriter",
@@ -194,7 +194,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 坐在角落，一直沒有開口。這個時候所有人的視線都落在她身上。",
+          "text": "{{characters.alea.name}} 坐在角落，一直沒有開口。這個時候所有人的視線都落在她身上。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -208,7 +208,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "我沒有什麼好失去的。<delay ms=\"500\"/>去吧。",
           "reveal": {
             "mode": "typewriter",
@@ -223,7 +223,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 最終沒有繼續反對。",
+          "text": "{{characters.soren.name}} 最終沒有繼續反對。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -251,7 +251,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "那麼，我們需要三樣東西。",
           "reveal": {
             "mode": "typewriter",
@@ -311,7 +311,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "荒原裡的生物不會因為你是平民就手下留情。而且 Mondris 和 Solmaris 的邊境都有防衛系統，沒有武裝進入就是送死。",
           "reveal": {
             "mode": "typewriter",
@@ -326,7 +326,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Alpha 軀體可以透過神經連線介面掛載武器模組，以控制外部器械的方式接入戰鬥。但這種模組同樣只在軍方倉庫才有。",
           "reveal": {
             "mode": "typewriter",
@@ -341,7 +341,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "所以，我們要去搶軍方倉庫。",
           "reveal": {
             "mode": "typewriter",
@@ -356,7 +356,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "是<em>潛入</em>，不是搶。我需要今晚把倉庫的監控佈局搞清楚，明天利用換班的空隙行動。",
           "reveal": {
             "mode": "typewriter",
@@ -371,7 +371,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "好。",
           "reveal": {
             "mode": "typewriter",
@@ -386,7 +386,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 已經在把現有物資重新分類整理了，動作俐落，把不需要帶走的東西往角落推，把輕便必要的東西一樣一樣疊好。",
+          "text": "{{characters.lyra.name}} 已經在把現有物資重新分類整理了，動作俐落，把不需要帶走的東西往角落推，把輕便必要的東西一樣一樣疊好。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -400,7 +400,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "那今晚大家好好睡一覺。明天開始就不知道還有沒有機會好好睡了。",
           "reveal": {
             "mode": "typewriter",
@@ -415,7 +415,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "樂觀。",
           "reveal": {
             "mode": "typewriter",
@@ -430,7 +430,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "是務實。睡飽了才有力氣做事，這是常識。",
           "reveal": {
             "mode": "typewriter",
@@ -445,7 +445,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 在角落看著這個場景，沒有說話。",
+          "text": "{{characters.alea.name}} 在角落看著這個場景，沒有說話。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18

@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias found the signal on the fifth evening.",
+          "text": "{{characters.elias.name}} found the signal on the fifth evening.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "They were searching an abandoned machinery scrap heap's perimeter. Dozens of damaged machines of different eras—old world agricultural equipment, AI war remnants, and several units with constructions even Elias couldn't identify.",
+          "text": "They were searching an abandoned machinery scrap heap's perimeter. Dozens of damaged machines of different eras—old world agricultural equipment, AI war remnants, and several units with constructions even {{characters.elias.name}} couldn't identify.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -84,7 +84,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Wait.",
           "reveal": {
             "mode": "typewriter",
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Persistent low-frequency signal, very weak but stable, like automated broadcast. And—",
           "reveal": {
             "mode": "typewriter",
@@ -142,7 +142,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "I know that encryption format. Early Ark internal comms, at least fifteen years older than current version.",
           "reveal": {
             "mode": "typewriter",
@@ -157,7 +157,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Ark signal in wasteland machine wreckage. Doesn't make sense.",
           "reveal": {
             "mode": "typewriter",
@@ -172,7 +172,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "It doesn't. That's why it's worth investigating.",
           "reveal": {
             "mode": "typewriter",
@@ -208,7 +208,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias guided the way with his receiver, signal strengthening.",
+          "text": "{{characters.elias.name}} guided the way with his receiver, signal strengthening.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -236,7 +236,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea crouched, disengaged the latches one by one.",
+          "text": "{{characters.alea.name}} crouched, disengaged the latches one by one.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -285,7 +285,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea stepped onto the ladder first, the others following.",
+          "text": "{{characters.alea.name}} stepped onto the ladder first, the others following.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20

@@ -128,7 +128,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "是。",
           "reveal": {
             "mode": "typewriter",
@@ -172,7 +172,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 給了其他三人一個眼神，跟上去。",
+          "text": "{{characters.soren.name}} 給了其他三人一個眼神，跟上去。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -235,7 +235,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "那些是——<delay ms=\"400\"/>靈魂？",
           "reveal": {
             "mode": "typewriter",
@@ -265,7 +265,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "他們還有意識嗎。<delay ms=\"400\"/>還是只有數據。",
           "reveal": {
             "mode": "typewriter",

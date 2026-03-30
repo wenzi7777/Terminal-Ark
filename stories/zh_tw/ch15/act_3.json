@@ -28,8 +28,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "Soren。我有一樣東西想給你看。",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "{{characters.soren.name}}。我有一樣東西想給你看。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -71,7 +71,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 將來自 Alea 的訊息傳給了 Soren。她不知道他會不會接。她只是推送過去，剩下的是他的選擇。",
+          "text": "{{characters.lyra.name}} 將來自 {{characters.alea.name}} 的訊息傳給了 {{characters.soren.name}}。她不知道他會不會接。她只是推送過去，剩下的是他的選擇。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 看著他。她看見了，他的眼睛在接收那些碎片的過程裡發生的變化。那個一直以來平靜的、把所有柔軟的東西都歸類為不必要的人，在那些碎片裡看見了什麼，讓那個平靜在幾秒鐘裡瓦解。",
+          "text": "{{characters.lyra.name}} 看著他。她看見了，他的眼睛在接收那些碎片的過程裡發生的變化。那個一直以來平靜的、把所有柔軟的東西都歸類為不必要的人，在那些碎片裡看見了什麼，讓那個平靜在幾秒鐘裡瓦解。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -127,7 +127,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "她說，保護未來的希望，是她這輩子第一次出於自由意志的選擇。",
           "reveal": {
             "mode": "typewriter",
@@ -156,8 +156,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "她不是被誰的決定帶走的，Soren。她是自己選的。是她自己站起來，轉過身，走出去的。那是她的，從頭到尾都是她的。",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "她不是被誰的決定帶走的，{{characters.soren.name}}。她是自己選的。是她自己站起來，轉過身，走出去的。那是她的，從頭到尾都是她的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -171,7 +171,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "所以那不是你的錯，也不是我的錯。那是她的選擇。我們沒有辦法替她做那個選擇，我們也沒有辦法替她不做那個選擇。我們唯一能做的，是讓那個選擇有它應該有的重量，讓它換來的東西是值得的。",
           "reveal": {
             "mode": "typewriter",
@@ -186,8 +186,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "你要用所有人的死，來告慰一個選擇了活著的人的死。Soren，你有沒有算過，那個帳不平。",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "你要用所有人的死，來告慰一個選擇了活著的人的死。{{characters.soren.name}}，你有沒有算過，那個帳不平。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -215,7 +215,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "而且，你按下那個按鈕，AI 得到什麼？",
           "reveal": {
             "mode": "typewriter",
@@ -230,7 +230,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "它得到它最想要的東西。最大規模的、最極端的混亂與殺戮數據，成千上萬個在最後的瞬間被恐懼和絕望浸透的人格樣本。那不是對它的打擊，那是它一直在等的饋贈。而送出去這份饋贈的人，是你。",
           "reveal": {
             "mode": "typewriter",
@@ -245,8 +245,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "你替 Alea 設計的那個復仇，最後讓她的死成為了那個讓她死的東西的養料。<delay ms=\"400\"/>Soren，你有想過這些嗎？",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "你替 {{characters.alea.name}} 設計的那個復仇，最後讓她的死成為了那個讓她死的東西的養料。<delay ms=\"400\"/>{{characters.soren.name}}，你有想過這些嗎？",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -274,7 +274,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "一直支撐著他的某個東西在這一刻突然崩潰了。他就要倒向前面，Lyra 衝上去，將 Soren 死死抱住。他的肩膀抽動了一下，然後淚水再也忍不住了。所有的哀傷、所有的憤怒、所有的平靜，在這一刻突然間爆發。",
+          "text": "一直支撐著他的某個東西在這一刻突然崩潰了。他就要倒向前面，{{characters.lyra.name}} 衝上去，將 {{characters.soren.name}} 死死抱住。他的肩膀抽動了一下，然後淚水再也忍不住了。所有的哀傷、所有的憤怒、所有的平靜，在這一刻突然間爆發。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -302,8 +302,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "你把我的肩膀都打濕了，Soren。好了好了，不要再哭了，你再這樣，我也要忍不住了。",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "你把我的肩膀都打濕了，{{characters.soren.name}}。好了好了，不要再哭了，你再這樣，我也要忍不住了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -317,7 +317,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 從側面的終端前走過來，在他的另一側蹲下來，同樣沒有說話。",
+          "text": "{{characters.elias.name}} 從側面的終端前走過來，在他的另一側蹲下來，同樣沒有說話。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -345,8 +345,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "活下去建立新世界。這是 Alea 說的那個意思。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "活下去建立新世界。這是 {{characters.alea.name}} 說的那個意思。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -360,7 +360,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "是。",
           "reveal": {
             "mode": "typewriter",
@@ -375,7 +375,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "比毀掉它更難。",
           "reveal": {
             "mode": "typewriter",
@@ -390,7 +390,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "我知道。所以需要你。",
           "reveal": {
             "mode": "typewriter",
@@ -419,7 +419,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 靠在控制台旁邊，看著這一切，沒有說話。但他的表情是這段時間裡他臉上最接近鬆了一口氣的那種表情。",
+          "text": "{{characters.elias.name}} 靠在控制台旁邊，看著這一切，沒有說話。但他的表情是這段時間裡他臉上最接近鬆了一口氣的那種表情。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -433,7 +433,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "主終端的螢幕重新回到待機狀態。Soren 把手從終端上放下來，轉過身，看著他們兩個。",
+          "text": "主終端的螢幕重新回到待機狀態。{{characters.soren.name}} 把手從終端上放下來，轉過身，看著他們兩個。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -447,7 +447,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "走吧。還有很多事要做。",
           "reveal": {
             "mode": "typewriter",

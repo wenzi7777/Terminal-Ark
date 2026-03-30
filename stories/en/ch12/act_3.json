@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "When Soren left, Elias followed.",
+          "text": "When {{characters.soren.name}} left, {{characters.elias.name}} followed.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Not because he agreed—his face made that clear. But he followed because he knew the cost of letting Soren walk alone right now was harder to measure than following him. He needed to be there. He needed to watch. He needed to be present before this extreme reached the point of no return.",
+          "text": "Not because he agreed—his face made that clear. But he followed because he knew the cost of letting {{characters.soren.name}} walk alone right now was harder to measure than following him. He needed to be there. He needed to watch. He needed to be present before this extreme reached the point of no return.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Before he left, he stood beside Lyra for a second without speaking. Then he followed Soren's footsteps.",
+          "text": "Before he left, he stood beside {{characters.lyra.name}} for a second without speaking. Then he followed {{characters.soren.name}}'s footsteps.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -84,7 +84,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra remained kneeling.",
+          "text": "{{characters.lyra.name}} remained kneeling.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -112,7 +112,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra waited until all those sounds had faded before standing.",
+          "text": "{{characters.lyra.name}} waited until all those sounds had faded before standing.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -182,7 +182,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra didn't move. She held that cold, broken shell, alone, in that silent space where nothing existed, falling, bottomless.",
+          "text": "{{characters.lyra.name}} didn't move. She held that cold, broken shell, alone, in that silent space where nothing existed, falling, bottomless.",
           "reveal": {
             "mode": "typewriter",
             "cps": 8

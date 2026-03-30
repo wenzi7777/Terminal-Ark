@@ -43,7 +43,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は自分がどのくらい歩いたのか知らなかった。",
+          "text": "{{characters.lyra.name}} は自分がどのくらい歩いたのか知らなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -267,7 +267,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea のものだった。",
+          "text": "{{characters.alea.name}} のものだった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 8
@@ -295,7 +295,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "<whisper>消散しないで。消散しないで、Alea、それ、お前か？</whisper>",
+          "text": "<whisper>消散しないで。消散しないで、{{characters.alea.name}}、それ、お前か？</whisper>",
           "reveal": {
             "mode": "typewriter",
             "cps": 10

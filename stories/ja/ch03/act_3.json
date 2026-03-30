@@ -49,7 +49,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "ソレンの最初の反応は拒否だった――彼は無謀な冒険をする人間ではない。",
+          "text": "{{characters.soren.name}}の最初の反応は拒否だった――彼は無謀な冒険をする人間ではない。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -77,7 +77,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "俺たちはもう最高手配等級だ。方舟に留まれば、遅かれ早かれ見つかる。上層へ向かえば、通行許可がなく進めない。",
           "reveal": {
             "mode": "typewriter",
@@ -92,7 +92,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "外へ出ることが、俺たちが存在し続ける唯一の真の道だ。",
           "reveal": {
             "mode": "typewriter",
@@ -121,7 +121,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "そしてお前は知りたくないか？この戦争はどう始まったのか。",
           "reveal": {
             "mode": "typewriter",
@@ -136,7 +136,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "ソレンはそのデータを見つめたが、何も言わなかった。",
+          "text": "{{characters.soren.name}}はそのデータを見つめたが、何も言わなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -150,7 +150,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "行きたい。",
           "reveal": {
             "mode": "typewriter",
@@ -179,7 +179,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "俺たちは何ができるのか知らない。だけど何が起こったのか知ることを放棄したら、何も変わらない。",
           "reveal": {
             "mode": "typewriter",
@@ -194,7 +194,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "アレアは角に座ったまま、ずっと口を開かなかった。この時点で、すべての視線が彼女に集中した。",
+          "text": "{{characters.alea.name}}は角に座ったまま、ずっと口を開かなかった。この時点で、すべての視線が彼女に集中した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -208,7 +208,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "失うものは何もない。<delay ms=\"500\"/>行こう。",
           "reveal": {
             "mode": "typewriter",
@@ -223,7 +223,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "ソレンは最終的に反対を続けなかった。",
+          "text": "{{characters.soren.name}}は最終的に反対を続けなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -251,7 +251,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "では、俺たちに必要な三つのものがある。",
           "reveal": {
             "mode": "typewriter",
@@ -311,7 +311,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "荒野の生物は、お前が平民だからという理由で手加減しない。そしてモンドリスとソルマリスの国境には防衛システムがある。武装なしで侵入するのは自殺行為だ。",
           "reveal": {
             "mode": "typewriter",
@@ -326,7 +326,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "アルファ型躯体は神経接続インターフェースを通じて武器モジュールを装着でき、外部装置を制御することで戦闘に参加できる。だがこのモジュールも軍方倉庫にしかない。",
           "reveal": {
             "mode": "typewriter",
@@ -341,7 +341,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "つまり、軍方倉庫を襲う。",
           "reveal": {
             "mode": "typewriter",
@@ -356,7 +356,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "是は<em>潜入</em>だ。襲撃ではなく。今夜のうちに倉庫の監視体制を把握し、明日の交代時間の隙を利用して行動する。",
           "reveal": {
             "mode": "typewriter",
@@ -371,7 +371,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "了解。",
           "reveal": {
             "mode": "typewriter",
@@ -386,7 +386,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "リラは既に現在の物資を再分類・整理し始めていて、動きは素早く、持ち去らない物を角に押し込み、軽くて必要な物を一つずつ積み重ねていた。",
+          "text": "{{characters.lyra.name}}は既に現在の物資を再分類・整理し始めていて、動きは素早く、持ち去らない物を角に押し込み、軽くて必要な物を一つずつ積み重ねていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -400,7 +400,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "では今夜はみんなでゆっくり寝よう。明日から先は、ゆっくり寝るチャンスがあるかどうかわかんないからな。",
           "reveal": {
             "mode": "typewriter",
@@ -415,7 +415,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "楽観的だな。",
           "reveal": {
             "mode": "typewriter",
@@ -430,7 +430,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "現実的だ。ぐっすり寝なきゃ、仕事する元気がない。常識だろ。",
           "reveal": {
             "mode": "typewriter",
@@ -445,7 +445,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "アレアはこの光景を角で見ていて、何も言わなかった。",
+          "text": "{{characters.alea.name}}はこの光景を角で見ていて、何も言わなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18

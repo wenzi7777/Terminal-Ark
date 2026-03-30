@@ -43,7 +43,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "防護罩的破口是 Lyra 自己找到的。",
+          "text": "防護罩的破口是 {{characters.lyra.name}} 自己找到的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "下層甲板已經面目全非。戰爭留下的痕跡無處不在，有些地方連廢墟都不剩，只有燒焦的地面和倒塌的承重柱，像一口被掏空了的殼。Lyra 走過這些，腳步是穩的。那種穩不是無感，是另一種東西，是感受到了但沒有被那個感受壓垮，是把那個重量收進來，繼續走。",
+          "text": "下層甲板已經面目全非。戰爭留下的痕跡無處不在，有些地方連廢墟都不剩，只有燒焦的地面和倒塌的承重柱，像一口被掏空了的殼。{{characters.lyra.name}} 走過這些，腳步是穩的。那種穩不是無感，是另一種東西，是感受到了但沒有被那個感受壓垮，是把那個重量收進來，繼續走。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -141,7 +141,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 接上武裝模組。感覺到那個接通的瞬間——和以前不一樣了。",
+          "text": "{{characters.lyra.name}} 接上武裝模組。感覺到那個接通的瞬間——和以前不一樣了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -197,7 +197,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她在核心塔地下二層的一個管控室裡找到了 Elias。",
+          "text": "她在核心塔地下二層的一個管控室裡找到了 {{characters.elias.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -225,8 +225,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "Lyra。你怎麼——",
+          "speaker": "{{characters.elias.name}}",
+          "text": "{{characters.lyra.name}}。你怎麼——",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -240,7 +240,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "後來再說。",
           "reveal": {
             "mode": "typewriter",
@@ -276,8 +276,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "Soren 鎖的。他之前帶過我們在神經網路裡走，我見過他的思路，我知道他在哪裡留了邊界。",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "{{characters.soren.name}} 鎖的。他之前帶過我們在神經網路裡走，我見過他的思路，我知道他在哪裡留了邊界。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -291,7 +291,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "你見過一次。",
           "reveal": {
             "mode": "typewriter",
@@ -306,7 +306,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "夠了。",
           "reveal": {
             "mode": "typewriter",
@@ -321,7 +321,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "解鎖花了她一段時間。那段時間裡沒有人說話。Elias 看著她工作，看著她的手指在接口上移動，看著那個他認識的人和他記憶裡離開時的那個人之間，有什麼東西已經不一樣了。他說不出來那個不一樣是什麼，只是感覺到了。",
+          "text": "解鎖花了她一段時間。那段時間裡沒有人說話。{{characters.elias.name}} 看著她工作，看著她的手指在接口上移動，看著那個他認識的人和他記憶裡離開時的那個人之間，有什麼東西已經不一樣了。他說不出來那個不一樣是什麼，只是感覺到了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -342,7 +342,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "隔離解除。Elias 把接入端口重新連上，花了幾秒鐘讓神經連線重新校準，然後看向她。",
+          "text": "隔離解除。{{characters.elias.name}} 把接入端口重新連上，花了幾秒鐘讓神經連線重新校準，然後看向她。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -356,8 +356,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "Soren 的計劃你知道多少。",
+          "speaker": "{{characters.elias.name}}",
+          "text": "{{characters.soren.name}} 的計劃你知道多少。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -371,7 +371,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "我知道足夠多。防護罩弱化，方舟標記為最高威脅，AI 軍團清除一切。<delay ms=\"200\"/>他現在在哪裡。",
           "reveal": {
             "mode": "typewriter",
@@ -386,7 +386,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "NUTA。國立終端方舟大學的地下核心。那裡是方舟所有系統的實體匯聚點。他需要從那裡完成最後的指令寫入。防護罩的弱化是自動執行中，但最終的觸發指令還沒有送出去。那個指令必須從地下核心的主終端發出才有效。他還沒有按下去。",
           "reveal": {
             "mode": "typewriter",
@@ -401,7 +401,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "還沒有。所以我們還有時間。",
           "reveal": {
             "mode": "typewriter",
@@ -416,7 +416,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "不多。走。",
           "reveal": {
             "mode": "typewriter",
@@ -431,7 +431,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "他們沒有再多說話。兩個人在核心塔的走廊裡快速推進，Lyra 在前，Elias 在後。他們中間有什麼東西，不需要用語言確認，只是都在，都朝著同一個方向走。那個方向的盡頭是他們都認識的人，一個他們都不打算放棄的人。",
+          "text": "他們沒有再多說話。兩個人在核心塔的走廊裡快速推進，{{characters.lyra.name}} 在前，{{characters.elias.name}} 在後。他們中間有什麼東西，不需要用語言確認，只是都在，都朝著同一個方向走。那個方向的盡頭是他們都認識的人，一個他們都不打算放棄的人。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

@@ -43,7 +43,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 花了四個小時，將中央資料中心的絕密檔案解密。",
+          "text": "{{characters.elias.name}} 花了四個小時，將中央資料中心的絕密檔案解密。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -57,7 +57,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 在旁邊做輔助。兩個人中間不需要太多語言，那種默契在幾個月的同行裡已經磨合成了某種接近本能的東西，一個卡住，另一個已經在想下一步。",
+          "text": "{{characters.soren.name}} 在旁邊做輔助。兩個人中間不需要太多語言，那種默契在幾個月的同行裡已經磨合成了某種接近本能的東西，一個卡住，另一個已經在想下一步。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -71,7 +71,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 在控制室的外圍保持警戒。方舟的守衛系統在 Soren 撤銷了那道毀滅指令之後重新趨於穩定，但仍然有幾組人造士兵在走廊裡巡邏。她把它們的路線記住，在每一個巡邏窗口的空隙裡移動，讓那個房間裡的兩個人有足夠的時間完成他們需要完成的事。",
+          "text": "{{characters.lyra.name}} 在控制室的外圍保持警戒。方舟的守衛系統在 {{characters.soren.name}} 撤銷了那道毀滅指令之後重新趨於穩定，但仍然有幾組人造士兵在走廊裡巡邏。她把它們的路線記住，在每一個巡邏窗口的空隙裡移動，讓那個房間裡的兩個人有足夠的時間完成他們需要完成的事。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -85,7 +85,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "好了。",
           "reveal": {
             "mode": "typewriter",
@@ -100,7 +100,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "廣播系統。NUTA 的主廣播終端可以覆蓋整個方舟，以及方舟防護罩範圍外三百公里以內的所有可接收頻率，包括荒原兩國的通訊節點。",
           "reveal": {
             "mode": "typewriter",
@@ -115,7 +115,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "三百公里。夠了。",
           "reveal": {
             "mode": "typewriter",
@@ -144,7 +144,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "你們有沒有什麼想說的。在它出去之前。",
           "reveal": {
             "mode": "typewriter",
@@ -159,7 +159,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 從走廊回來，站在控制室的入口。她看了看那個螢幕，看了看 Elias，看了看 Soren。",
+          "text": "{{characters.lyra.name}} 從走廊回來，站在控制室的入口。她看了看那個螢幕，看了看 {{characters.elias.name}}，看了看 {{characters.soren.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -173,7 +173,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "沒有。你按吧。",
           "reveal": {
             "mode": "typewriter",
@@ -188,7 +188,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 按下去了。",
+          "text": "{{characters.elias.name}} 按下去了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12

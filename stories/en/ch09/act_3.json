@@ -35,7 +35,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra heard it first.",
+          "text": "{{characters.lyra.name}} heard it first.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -63,7 +63,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Wait. Listen.",
           "reveal": {
             "mode": "typewriter",
@@ -148,7 +148,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Civilians.",
           "reveal": {
             "mode": "typewriter",
@@ -198,7 +198,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea squinted to read it——the medical volunteer corps insignia from Terminal Ark's lower decks.",
+          "text": "{{characters.alea.name}} squinted to read it——the medical volunteer corps insignia from Terminal Ark's lower decks.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -240,7 +240,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Supplies have been cut off. Not enough food and medicine, neural stabilizers are impossible. Those fading signals——",
           "reveal": {
             "mode": "typewriter",
@@ -255,7 +255,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "People barely holding on.",
           "reveal": {
             "mode": "typewriter",
@@ -270,7 +270,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Yes.",
           "reveal": {
             "mode": "typewriter",
@@ -285,7 +285,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra continued to watch the structure. The weak light bleeding from cracks in the walls, the huddled figures at its edges, the barely-legible insignia hanging outside.",
+          "text": "{{characters.lyra.name}} continued to watch the structure. The weak light bleeding from cracks in the walls, the huddled figures at its edges, the barely-legible insignia hanging outside.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -299,7 +299,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Solmaris army, western approach. Will reach this position soon.",
           "reveal": {
             "mode": "typewriter",
@@ -328,7 +328,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra's fingers gripped the ruined wall again. The brick's edge pressed fine marks into her palm.",
+          "text": "{{characters.lyra.name}}'s fingers gripped the ruined wall again. The brick's edge pressed fine marks into her palm.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18

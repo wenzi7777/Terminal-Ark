@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren personally shut down the 'Ember Plan' that had been rigorously enforced for over a century.",
+          "text": "{{characters.soren.name}} personally shut down the 'Ember Plan' that had been rigorously enforced for over a century.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -70,7 +70,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra stood on top of NUTA, watching all of it.",
+          "text": "{{characters.lyra.name}} stood on top of NUTA, watching all of it.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -98,7 +98,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren stood to her left, Elias to her right. The three of them stood on that rooftop in silence.",
+          "text": "{{characters.soren.name}} stood to her left, {{characters.elias.name}} to her right. The three of them stood on that rooftop in silence.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -154,7 +154,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra watched that light, watched it grow brighter, clearer. The first rays crested the horizon's edge, crossed the Wasteland's ruined silhouette, passed through the shield's light, fell on NUTA's rooftop, fell on her face, fell on Soren and Elias. That light was warm—direct, unobstructed sunlight, something she had never felt during all those years in the lower decks.",
+          "text": "{{characters.lyra.name}} watched that light, watched it grow brighter, clearer. The first rays crested the horizon's edge, crossed the Wasteland's ruined silhouette, passed through the shield's light, fell on NUTA's rooftop, fell on her face, fell on {{characters.soren.name}} and {{characters.elias.name}}. That light was warm—direct, unobstructed sunlight, something she had never felt during all those years in the lower decks.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -280,7 +280,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "<whisper>Alea, you must see this too.</whisper>",
+          "text": "<whisper>{{characters.alea.name}}, you must see this too.</whisper>",
           "reveal": {
             "mode": "typewriter",
             "cps": 8
@@ -308,7 +308,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "She turned around, looking at Soren and Elias. Those two stood in that rooftop's light, bearing everything this time had left on them—weight that wouldn't disappear—but also bearing that light, that first unconditional light falling on them, giving their faces something she hadn't seen before. Not relief, not freedom, but something deeper and quieter. Something that meant they could finally keep moving forward.",
+          "text": "She turned around, looking at {{characters.soren.name}} and {{characters.elias.name}}. Those two stood in that rooftop's light, bearing everything this time had left on them—weight that wouldn't disappear—but also bearing that light, that first unconditional light falling on them, giving their faces something she hadn't seen before. Not relief, not freedom, but something deeper and quieter. Something that meant they could finally keep moving forward.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10

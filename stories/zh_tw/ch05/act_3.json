@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "訊號是 Elias 在第五天傍晚發現的。",
+          "text": "訊號是 {{characters.elias.name}} 在第五天傍晚發現的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "他們當時在一片機械殘骸的廢棄場邊緣搜索。那裡堆著幾十台不同年代的損毀機械——舊文明時代的農業機具、AI 戰爭遺留的損毀軍械，以及幾台連 Elias 都辨認不出型號的奇異構造物。",
+          "text": "他們當時在一片機械殘骸的廢棄場邊緣搜索。那裡堆著幾十台不同年代的損毀機械——舊文明時代的農業機具、AI 戰爭遺留的損毀軍械，以及幾台連 {{characters.elias.name}} 都辨認不出型號的奇異構造物。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -84,7 +84,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "等一下。",
           "reveal": {
             "mode": "typewriter",
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "有一個持續性的低頻訊號，很微弱，但很穩定，像是自動廣播。而且——",
           "reveal": {
             "mode": "typewriter",
@@ -142,7 +142,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "加密格式我見過。是方舟早期的內部通訊格式，比現在的版本早了至少十五年。",
           "reveal": {
             "mode": "typewriter",
@@ -157,7 +157,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "方舟的訊號，在荒原的機械殘骸裡。不合理。",
           "reveal": {
             "mode": "typewriter",
@@ -172,7 +172,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "是不合理。所以才值得看。",
           "reveal": {
             "mode": "typewriter",
@@ -208,7 +208,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 一路拿著接收器做方向引導，訊號越來越強。",
+          "text": "{{characters.elias.name}} 一路拿著接收器做方向引導，訊號越來越強。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -236,7 +236,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 蹲下來，把卡扣逐一解開。",
+          "text": "{{characters.alea.name}} 蹲下來，把卡扣逐一解開。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -285,7 +285,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 第一個踏上梯子，往下走去。其他三人跟上。",
+          "text": "{{characters.alea.name}} 第一個踏上梯子，往下走去。其他三人跟上。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20

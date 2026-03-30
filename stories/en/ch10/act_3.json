@@ -154,7 +154,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra reached the hospital entrance when the first barrage fell.",
+          "text": "{{characters.lyra.name}} reached the hospital entrance when the first barrage fell.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -395,7 +395,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea was there, crouching behind her, watching her. Something in her eyes—not pity, not blame. Something deeper, more direct. Like seeing through everything to exactly what she was right now, and still staying.",
+          "text": "{{characters.alea.name}} was there, crouching behind her, watching her. Something in her eyes—not pity, not blame. Something deeper, more direct. Like seeing through everything to exactly what she was right now, and still staying.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -409,7 +409,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren and Elias were behind. Three of them around her, surrounding her.",
+          "text": "{{characters.soren.name}} and {{characters.elias.name}} were behind. Three of them around her, surrounding her.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -423,7 +423,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Get up. Move.",
           "reveal": {
             "mode": "typewriter",
@@ -438,7 +438,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra looked at him, then at Alea, then at Elias.",
+          "text": "{{characters.lyra.name}} looked at him, then at {{characters.alea.name}}, then at {{characters.elias.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -452,7 +452,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Her lips moved, but no words came. She withdrew her supporting hands, let Alea grip her arm, and slowly stood.",
+          "text": "Her lips moved, but no words came. She withdrew her supporting hands, let {{characters.alea.name}} grip her arm, and slowly stood.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -466,7 +466,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Her legs were still unstable. She nearly stumbled on the first step. Alea supported her, and using that grip, she managed a second step, then a third.",
+          "text": "Her legs were still unstable. She nearly stumbled on the first step. {{characters.alea.name}} supported her, and using that grip, she managed a second step, then a third.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14

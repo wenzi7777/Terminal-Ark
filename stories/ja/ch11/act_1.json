@@ -85,7 +85,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "走れ。安全通路へ、止まるな。",
           "reveal": {
             "mode": "typewriter",
@@ -100,7 +100,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼らは走った。Lyraの左足は先ほどの爆撃の衝撃で負傷した。穿通傷ではなく、飛び散った石による鈍的外傷で、皮下組織の損傷は彼女の軀体の完全性を短時間で急低下させ、彼女が走る時に明らかな跛行があり、各ステップで彼女の残りわずかな体力予備を消費していた。",
+          "text": "彼らは走った。{{characters.lyra.name}}の左足は先ほどの爆撃の衝撃で負傷した。穿通傷ではなく、飛び散った石による鈍的外傷で、皮下組織の損傷は彼女の軀体の完全性を短時間で急低下させ、彼女が走る時に明らかな跛行があり、各ステップで彼女の残りわずかな体力予備を消費していた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -114,7 +114,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Aleaはペースを落とし、Lyraと肩を並べるようにした。",
+          "text": "{{characters.alea.name}}はペースを落とし、{{characters.lyra.name}}と肩を並べるようにした。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -128,7 +128,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "腕を貸して。",
           "reveal": {
             "mode": "typewriter",
@@ -143,7 +143,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyraは腕を搭載させ、Aleaが支えた。二人の速度を合わせ、前のSorenとeliasに追いついた。",
+          "text": "{{characters.lyra.name}}は腕を搭載させ、{{characters.alea.name}}が支えた。二人の速度を合わせ、前の{{characters.soren.name}}とeliasに追いついた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -171,7 +171,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "武装モジュール。残り出力はどのくらいだ。",
           "reveal": {
             "mode": "typewriter",
@@ -186,7 +186,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "俺のは3割だが、神経シンク率が——",
           "reveal": {
             "mode": "typewriter",
@@ -215,8 +215,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Lyra。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.lyra.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -230,7 +230,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "俺のモジュールは爆撃で壊れた。戦闘できない。",
           "reveal": {
             "mode": "typewriter",
@@ -245,7 +245,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "戦闘する必要もない。俺に着いて前へ。",
           "reveal": {
             "mode": "typewriter",
@@ -260,7 +260,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Sorenとeliasはshouhouteiまで掩護した。武装モジュールの砲口は追近する先発部隊に指し、各発砲は彼らが不足していたシンク率を消費していた。Sorenの視野の端は軽い模糊が現れ始めた。それはシンク率がある閾値下に落ちた時の神経接続が不安定になる前兆だ。彼はその感覚を押さえて、計算し続け、照準し続け、発砲し続けた。",
+          "text": "{{characters.soren.name}}とeliasはshouhouteiまで掩護した。武装モジュールの砲口は追近する先発部隊に指し、各発砲は彼らが不足していたシンク率を消費していた。{{characters.soren.name}}の視野の端は軽い模糊が現れ始めた。それはシンク率がある閾値下に落ちた時の神経接続が不安定になる前兆だ。彼はその感覚を押さえて、計算し続け、照準し続け、発砲し続けた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -310,7 +310,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "どのくらい。",
           "reveal": {
             "mode": "typewriter",
@@ -325,8 +325,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "安全通路入口は前にある。だが追兵のプッシュスピードは——<delay ms=\"200\"/>Elias、左側。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "安全通路入口は前にある。だが追兵のプッシュスピードは——<delay ms=\"200\"/>{{characters.elias.name}}、左側。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -359,7 +359,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "その6秒間彼の軀体は操縦者がいない抜け殻のようで、慣性で彼は何歩も続けて走ったが、彼は再び接続し直した。全身が転びそうだったが、Sorenが後ろから手を伸ばして彼を引いた。",
+          "text": "その6秒間彼の軀体は操縦者がいない抜け殻のようで、慣性で彼は何歩も続けて走ったが、彼は再び接続し直した。全身が転びそうだったが、{{characters.soren.name}}が後ろから手を伸ばして彼を引いた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -373,7 +373,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "ありがとう。",
           "reveal": {
             "mode": "typewriter",
@@ -402,7 +402,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "走れ。",
           "reveal": {
             "mode": "typewriter",
@@ -431,7 +431,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "入って。",
           "reveal": {
             "mode": "typewriter",
@@ -446,7 +446,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "eliasは付き進んだ。Aleaはlyraを支えて、最後の二人は追兵の次の波が到着する前にスロープに突入した。スロープ内の空気は悶えるほどで、積塵の臭いが満ちていたが、静かで、外の追跡音はスロープの厚壁の後ろで遠く曖昧になった。",
+          "text": "eliasは付き進んだ。{{characters.alea.name}}はlyraを支えて、最後の二人は追兵の次の波が到着する前にスロープに突入した。スロープ内の空気は悶えるほどで、積塵の臭いが満ちていたが、静かで、外の追跡音はスロープの厚壁の後ろで遠く曖昧になった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -488,7 +488,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyraの左足は支え切れず、彼女はゆっくり地面に座った。膝を開く姿勢で、頭を低くして髪が顔を覆った。その姿勢でその肩は非常に小さく見えた。あたかも彼女がより小さい空間に自分を縮めようとしているかのように。",
+          "text": "{{characters.lyra.name}}の左足は支え切れず、彼女はゆっくり地面に座った。膝を開く姿勢で、頭を低くして髪が顔を覆った。その姿勢でその肩は非常に小さく見えた。あたかも彼女がより小さい空間に自分を縮めようとしているかのように。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -502,7 +502,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Sorenはその方向と通路の外を見た。彼が出した結論を押さえた。なぜなら、その結論は彼が言いたくない方向がなかったからだ。",
+          "text": "{{characters.soren.name}}はその方向と通路の外を見た。彼が出した結論を押さえた。なぜなら、その結論は彼が言いたくない方向がなかったからだ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14

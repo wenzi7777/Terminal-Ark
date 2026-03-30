@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "<em>Alea</em> 踩過一灘積水，走入狹長的通道。",
+          "text": "<em>{{characters.alea.name}}</em> 踩過一灘積水，走入狹長的通道。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -169,7 +169,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "這就是 Alea 在下層甲板生活了<em>十一年</em>的全部。",
+          "text": "這就是 {{characters.alea.name}} 在下層甲板生活了<em>十一年</em>的全部。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -293,7 +293,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "這套規則在這裡從來沒有例外。<delay ms=\"600\"/>除了 Alea。",
+          "text": "這套規則在這裡從來沒有例外。<delay ms=\"600\"/>除了 {{characters.alea.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -363,7 +363,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 在一扇半掩的鐵門前停下。",
+          "text": "{{characters.alea.name}} 在一扇半掩的鐵門前停下。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20

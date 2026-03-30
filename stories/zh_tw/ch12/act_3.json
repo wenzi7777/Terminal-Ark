@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 要離開的時候，Elias 跟上去了。",
+          "text": "{{characters.soren.name}} 要離開的時候，{{characters.elias.name}} 跟上去了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "不是因為他同意，他的臉上寫著他不同意。但他跟上去了，因為他知道此刻讓 Soren 一個人走的代價，比跟著他走的代價更難以估量。他要跟在旁邊，他要看著，他要在那個極端走向真正無法回頭的邊緣之前，還在場。",
+          "text": "不是因為他同意，他的臉上寫著他不同意。但他跟上去了，因為他知道此刻讓 {{characters.soren.name}} 一個人走的代價，比跟著他走的代價更難以估量。他要跟在旁邊，他要看著，他要在那個極端走向真正無法回頭的邊緣之前，還在場。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "他走之前在 Lyra 旁邊站了一下，沒有說話，只是站了一秒鐘。然後跟上了 Soren 的腳步。",
+          "text": "他走之前在 {{characters.lyra.name}} 旁邊站了一下，沒有說話，只是站了一秒鐘。然後跟上了 {{characters.soren.name}} 的腳步。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -84,7 +84,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 還跪在那裡。",
+          "text": "{{characters.lyra.name}} 還跪在那裡。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -112,7 +112,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 等到那些聲音都消失了，才站起來。",
+          "text": "{{characters.lyra.name}} 等到那些聲音都消失了，才站起來。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -182,7 +182,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 沒有動。她就那樣抱著那具冰冷的破碎軀殼，一個人，在那片什麼都沒有的靜默裡，墜著，沒有底。",
+          "text": "{{characters.lyra.name}} 沒有動。她就那樣抱著那具冰冷的破碎軀殼，一個人，在那片什麼都沒有的靜默裡，墜著，沒有底。",
           "reveal": {
             "mode": "typewriter",
             "cps": 8

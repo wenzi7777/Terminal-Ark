@@ -57,7 +57,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "撤退的時候 Elias 試過，控制終端在轟炸的衝擊波裡受損了，電子鎖的回路燒斷了一段，門卡在半開的位置，既關不上，也推不回全開，就那樣橫在那裡，像一道沒有意義的邊界。",
+          "text": "撤退的時候 {{characters.elias.name}} 試過，控制終端在轟炸的衝擊波裡受損了，電子鎖的回路燒斷了一段，門卡在半開的位置，既關不上，也推不回全開，就那樣橫在那裡，像一道沒有意義的邊界。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -85,7 +85,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "跑。往安全通道，不要停。",
           "reveal": {
             "mode": "typewriter",
@@ -100,7 +100,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "他們跑起來。Lyra 的左腿在方才轟炸的衝擊裡受了傷，不是穿透傷，是碎石激起的鈍擊，皮下組織的損傷讓她的軀體完整度在短時間內急劇下降，她跑起來的時候有明顯的跛行，每一步都在消耗她沒有剩下多少的體力儲備。",
+          "text": "他們跑起來。{{characters.lyra.name}} 的左腿在方才轟炸的衝擊裡受了傷，不是穿透傷，是碎石激起的鈍擊，皮下組織的損傷讓她的軀體完整度在短時間內急劇下降，她跑起來的時候有明顯的跛行，每一步都在消耗她沒有剩下多少的體力儲備。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -114,7 +114,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 放慢了一步，讓自己和 Lyra 並排。",
+          "text": "{{characters.alea.name}} 放慢了一步，讓自己和 {{characters.lyra.name}} 並排。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -128,7 +128,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "手臂給我。",
           "reveal": {
             "mode": "typewriter",
@@ -143,7 +143,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 把手臂搭上去，Alea 扶著她，兩個人的速度合在一起，勉強跟上了前面的 Soren 和 Elias。",
+          "text": "{{characters.lyra.name}} 把手臂搭上去，{{characters.alea.name}} 扶著她，兩個人的速度合在一起，勉強跟上了前面的 {{characters.soren.name}} 和 {{characters.elias.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -171,7 +171,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "武裝模組，還有多少出力。",
           "reveal": {
             "mode": "typewriter",
@@ -186,7 +186,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "我的剩三成，但神經同步率——",
           "reveal": {
             "mode": "typewriter",
@@ -215,8 +215,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Lyra。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.lyra.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -230,7 +230,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "我的模組在轟炸裡壞掉了。我沒有辦法作戰。",
           "reveal": {
             "mode": "typewriter",
@@ -245,7 +245,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "不需要你作戰。跟緊我，往前。",
           "reveal": {
             "mode": "typewriter",
@@ -260,7 +260,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 和 Elias 在後方交替掩護，武裝模組的炮口指向追近的先鋒部隊，每一次開火都是在消耗他們本就不多的同步率。Soren 的視野邊緣開始出現輕微的模糊，那是同步率降到某個閾值以下時神經連線開始不穩定的前兆，他壓下那種感覺，繼續計算，繼續瞄準，繼續開火。",
+          "text": "{{characters.soren.name}} 和 {{characters.elias.name}} 在後方交替掩護，武裝模組的炮口指向追近的先鋒部隊，每一次開火都是在消耗他們本就不多的同步率。{{characters.soren.name}} 的視野邊緣開始出現輕微的模糊，那是同步率降到某個閾值以下時神經連線開始不穩定的前兆，他壓下那種感覺，繼續計算，繼續瞄準，繼續開火。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -274,7 +274,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 的情況比他更糟，他的右手臂已經開始間歇性地失去響應，武裝模組在那條手臂上錯誤地觸發了一次空射——",
+          "text": "{{characters.elias.name}} 的情況比他更糟，他的右手臂已經開始間歇性地失去響應，武裝模組在那條手臂上錯誤地觸發了一次空射——",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -296,7 +296,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "炸開了他們右側的地面，揚起一片塵土。Elias 罵了一聲，強行把那條手臂的模組切斷，改用左臂單側維持輸出，精準度立刻下降了一個層級。",
+          "text": "炸開了他們右側的地面，揚起一片塵土。{{characters.elias.name}} 罵了一聲，強行把那條手臂的模組切斷，改用左臂單側維持輸出，精準度立刻下降了一個層級。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -310,7 +310,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "多遠。",
           "reveal": {
             "mode": "typewriter",
@@ -325,8 +325,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "安全通道入口就在前方。但追兵的推進速度——<delay ms=\"200\"/>Elias，左側。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "安全通道入口就在前方。但追兵的推進速度——<delay ms=\"200\"/>{{characters.elias.name}}，左側。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -345,7 +345,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 轉身，同步率消耗讓他的動作慢了半拍，左側那個 Solmaris 士兵的攝魂武器的共振波擦過了他的右側，他的神經連線在那一瞬間失去了整整六秒的穩定。",
+          "text": "{{characters.elias.name}} 轉身，同步率消耗讓他的動作慢了半拍，左側那個 Solmaris 士兵的攝魂武器的共振波擦過了他的右側，他的神經連線在那一瞬間失去了整整六秒的穩定。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -359,7 +359,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "那六秒他的軀體像一個沒有人在操控的空殼，慣性讓他繼續跑了幾步，然後他重新接回來，整個人差點沒有站穩，是 Soren 往後伸了一把手把他拉住的。",
+          "text": "那六秒他的軀體像一個沒有人在操控的空殼，慣性讓他繼續跑了幾步，然後他重新接回來，整個人差點沒有站穩，是 {{characters.soren.name}} 往後伸了一把手把他拉住的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -373,7 +373,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "謝謝。",
           "reveal": {
             "mode": "typewriter",
@@ -402,7 +402,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "快跑。",
           "reveal": {
             "mode": "typewriter",
@@ -431,7 +431,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "進來。",
           "reveal": {
             "mode": "typewriter",
@@ -446,7 +446,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 跟上，Alea 扶著 Lyra，最後兩個人在追兵的下一輪推進抵達之前衝進了斜道。斜道裡的空氣是悶的，充滿了積塵的氣味，但是安靜，那種追擊的聲音在入口的厚牆之後變得遙遠而模糊。",
+          "text": "{{characters.elias.name}} 跟上，{{characters.alea.name}} 扶著 {{characters.lyra.name}}，最後兩個人在追兵的下一輪推進抵達之前衝進了斜道。斜道裡的空氣是悶的，充滿了積塵的氣味，但是安靜，那種追擊的聲音在入口的厚牆之後變得遙遠而模糊。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -488,7 +488,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 的左腿撐不住了，她慢慢地滑坐在地面上，膝蓋攤開，她低著頭，頭髮垂下來擋住了她的臉。她的肩膀在那個姿勢裡顯得很小，非常小，像是她正在試圖把自己縮進一個比她實際的身體更小的空間裡去。",
+          "text": "{{characters.lyra.name}} 的左腿撐不住了，她慢慢地滑坐在地面上，膝蓋攤開，她低著頭，頭髮垂下來擋住了她的臉。她的肩膀在那個姿勢裡顯得很小，非常小，像是她正在試圖把自己縮進一個比她實際的身體更小的空間裡去。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -502,7 +502,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 看了一眼通道外的方向，再看了一眼他們的狀態，把他得出的結論壓下去，因為那個結論沒有任何一個他願意說出口的方向。",
+          "text": "{{characters.soren.name}} 看了一眼通道外的方向，再看了一眼他們的狀態，把他得出的結論壓下去，因為那個結論沒有任何一個他願意說出口的方向。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -516,7 +516,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 的神經同步率已經低到讓他的手指出現了可見的顫抖，他靠在牆上，閉著眼睛，試圖用休息換取哪怕一點點的自然恢復。但他們沒有足夠的時間讓那個恢復發生。",
+          "text": "{{characters.elias.name}} 的神經同步率已經低到讓他的手指出現了可見的顫抖，他靠在牆上，閉著眼睛，試圖用休息換取哪怕一點點的自然恢復。但他們沒有足夠的時間讓那個恢復發生。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14

@@ -1,6 +1,6 @@
 {
   "id": "8-2",
-  "title": "Act 2: Lyra's Code",
+  "title": "Act 2: {{characters.lyra.name}}'s Code",
   "startNode": "main",
   "nodes": {
     "main": {
@@ -49,7 +49,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren listened, assessed, sought useful intelligence.",
+          "text": "{{characters.soren.name}} listened, assessed, sought useful intelligence.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -63,7 +63,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias observed the cavern's structure, calculating probable exit locations.",
+          "text": "{{characters.elias.name}} observed the cavern's structure, calculating probable exit locations.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -77,7 +77,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea sat silently, her face blank, her eyes moving between the Priest and the surrounding Solmaris members.",
+          "text": "{{characters.alea.name}} sat silently, her face blank, her eyes moving between the Priest and the surrounding Solmaris members.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -91,7 +91,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra truly listened. Because she held genuine curiosity about every form of existence, even those she could not fully endorse.",
+          "text": "{{characters.lyra.name}} truly listened. Because she held genuine curiosity about every form of existence, even those she could not fully endorse.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -120,7 +120,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Her gaze fell upon Lyra.",
+          "text": "Her gaze fell upon {{characters.lyra.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -134,7 +134,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Wait. What are you doing.",
           "reveal": {
             "mode": "typewriter",
@@ -164,7 +164,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra felt it. An external signal touched her neural interface, unfolding a data sequence at its surface, projecting it across a neural broadcast frequency all could perceive.",
+          "text": "{{characters.lyra.name}} felt it. An external signal touched her neural interface, unfolding a data sequence at its surface, projecting it across a neural broadcast frequency all could perceive.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -283,7 +283,7 @@
           "type": "line",
           "layer": "dialogue",
           "speaker": "Chief Priest",
-          "text": "You are that experiment. <delay ms=\"600\"/>Lyra, every emotion you feel, every choice you make, everything that makes you feel like yourself—all were parameters we designed.",
+          "text": "You are that experiment. <delay ms=\"600\"/>{{characters.lyra.name}}, every emotion you feel, every choice you make, everything that makes you feel like yourself—all were parameters we designed.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -297,7 +297,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra sat there, staring at the code projected in the air, as if looking at a stranger's name, yet forced to acknowledge it as her own.",
+          "text": "{{characters.lyra.name}} sat there, staring at the code projected in the air, as if looking at a stranger's name, yet forced to acknowledge it as her own.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

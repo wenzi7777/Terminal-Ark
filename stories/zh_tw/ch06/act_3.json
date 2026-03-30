@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 在得知 Elias 被帶進的建築之後，沉默了一段時間。",
+          "text": "{{characters.soren.name}} 在得知 {{characters.elias.name}} 被帶進的建築之後，沉默了一段時間。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -56,8 +56,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Mond 的指令只針對 Elias，其他人可以自由活動。但可以自由活動不等於不被監視。我們現在的每一個動作都在被記錄。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "Mond 的指令只針對 {{characters.elias.name}}，其他人可以自由活動。但可以自由活動不等於不被監視。我們現在的每一個動作都在被記錄。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -71,7 +71,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "那我們現在做什麼。",
           "reveal": {
             "mode": "typewriter",
@@ -86,7 +86,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "正常走動。讓我們看起來像是在接受這個結果。同時找盲區。",
           "reveal": {
             "mode": "typewriter",
@@ -101,7 +101,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 看了那棟建築最後一眼，轉過身，跟上 Soren。她的步伐是正常的，表情也是正常的。",
+          "text": "{{characters.lyra.name}} 看了那棟建築最後一眼，轉過身，跟上 {{characters.soren.name}}。她的步伐是正常的，表情也是正常的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -129,7 +129,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 在她們後面走。她的目光在掃視周圍的感應節點，計算覆蓋範圍，尋找重疊最少的角度。",
+          "text": "{{characters.alea.name}} 在她們後面走。她的目光在掃視周圍的感應節點，計算覆蓋範圍，尋找重疊最少的角度。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -199,7 +199,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "從這裡進，沿著建築的北側走廊。感應節點的覆蓋在轉角之後密度下降。",
           "reveal": {
             "mode": "typewriter",
@@ -214,8 +214,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Elias 被帶進的那棟建築的電子鎖是 Mond 統一管轄的。如果 Mond 的子系統出現故障，電子鎖會自動失效。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.elias.name}} 被帶進的那棟建築的電子鎖是 Mond 統一管轄的。如果 Mond 的子系統出現故障，電子鎖會自動失效。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -229,8 +229,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Elias 需要從裡面配合。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.elias.name}} 需要從裡面配合。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -244,7 +244,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "他知道。他在被帶走之前的那個眼神說明他已經在想了。",
           "reveal": {
             "mode": "typewriter",
@@ -259,7 +259,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 在旁邊聽著。她沒有參與那個推演，她只是站在那裡，看著那棟建築的方向。",
+          "text": "{{characters.lyra.name}} 在旁邊聽著。她沒有參與那個推演，她只是站在那裡，看著那棟建築的方向。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -287,8 +287,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Lyra。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.lyra.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -302,7 +302,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "嗯。",
           "reveal": {
             "mode": "typewriter",
@@ -317,7 +317,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "走。",
           "reveal": {
             "mode": "typewriter",
@@ -401,7 +401,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 已經在跑了。",
+          "text": "{{characters.alea.name}} 已經在跑了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -464,7 +464,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 站在門後，手裡還拿著接收器。他看見她，沒有說什麼，只是往她身後看了一眼，確認 Soren 和 Lyra 也在。",
+          "text": "{{characters.elias.name}} 站在門後，手裡還拿著接收器。他看見她，沒有說什麼，只是往她身後看了一眼，確認 {{characters.soren.name}} 和 {{characters.lyra.name}} 也在。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -478,7 +478,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "走廊有多長時間。",
           "reveal": {
             "mode": "typewriter",
@@ -493,7 +493,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "不多。快。",
           "reveal": {
             "mode": "typewriter",
@@ -508,7 +508,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 在走廊外等著。看見 Elias 走出來，她往前走了一步，沒有說話。",
+          "text": "{{characters.lyra.name}} 在走廊外等著。看見 {{characters.elias.name}} 走出來，她往前走了一步，沒有說話。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -536,7 +536,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "走。",
           "reveal": {
             "mode": "typewriter",

@@ -71,7 +71,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "火だ。",
           "reveal": {
             "mode": "typewriter",
@@ -198,7 +198,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "彼らは協力している。そして良好に連携している。互いに持たない能力で隙を埋めている。これは一時的な協議ではない。計画されたものだ。",
           "reveal": {
             "mode": "typewriter",
@@ -213,7 +213,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "信仰で完全に対立する二つの陣営が、同じ目標を共同攻撃している。<delay ms=\"400\"/>なぜなのか。",
           "reveal": {
             "mode": "typewriter",
@@ -256,7 +256,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyraはその火を静かに見ていた。隣の岩の端を知らずに掴み、指の関節は白くなっていた。",
+          "text": "{{characters.lyra.name}}はその火を静かに見ていた。隣の岩の端を知らずに掴み、指の関節は白くなっていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18

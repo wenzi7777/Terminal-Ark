@@ -43,7 +43,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra didn't know how long she'd been walking.",
+          "text": "{{characters.lyra.name}} didn't know how long she'd been walking.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -267,7 +267,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "It was Alea's.",
+          "text": "It was {{characters.alea.name}}'s.",
           "reveal": {
             "mode": "typewriter",
             "cps": 8
@@ -295,7 +295,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "<whisper>Don't scatter. Don't scatter, Alea... is that you?</whisper>",
+          "text": "<whisper>Don't scatter. Don't scatter, {{characters.alea.name}}... is that you?</whisper>",
           "reveal": {
             "mode": "typewriter",
             "cps": 10

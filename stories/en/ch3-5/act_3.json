@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra and Alea's conversation went on sporadically. Lyra's questions grew smaller, more specific, moving from housing to how time was spent, from time-killing to whether either had been to certain lower deck locations.",
+          "text": "{{characters.lyra.name}} and {{characters.alea.name}}'s conversation went on sporadically. {{characters.lyra.name}}'s questions grew smaller, more specific, moving from housing to how time was spent, from time-killing to whether either had been to certain lower deck locations.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea's answers were always short, direct. But she kept answering.",
+          "text": "{{characters.alea.name}}'s answers were always short, direct. But she kept answering.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -70,7 +70,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Then Lyra's questions became fewer, intervals longer. Then they stopped.",
+          "text": "Then {{characters.lyra.name}}'s questions became fewer, intervals longer. Then they stopped.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -84,7 +84,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea glanced at her. Eyes closed, leaning against the wall, head bent down.",
+          "text": "{{characters.alea.name}} glanced at her. Eyes closed, leaning against the wall, head bent down.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -98,7 +98,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea thought she was just resting. Then the head tilted slowly to one side, leaning onto her shoulder.",
+          "text": "{{characters.alea.name}} thought she was just resting. Then the head tilted slowly to one side, leaning onto her shoulder.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -112,7 +112,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea didn't move.",
+          "text": "{{characters.alea.name}} didn't move.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -126,7 +126,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias lifted his head from the receiver, glanced over here, said nothing, returned to assembling components.",
+          "text": "{{characters.elias.name}} lifted his head from the receiver, glanced over here, said nothing, returned to assembling components.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -140,7 +140,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Rest individually before the operation. Assembly point is the north exit. Each of you confirm your route and alternate escape directions now. No unnecessary speech after.",
           "reveal": {
             "mode": "typewriter",
@@ -169,7 +169,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias finished assembling his receiver, confirmed the signal, pocketed it, put his back against the other wall, closed his eyes.",
+          "text": "{{characters.elias.name}} finished assembling his receiver, confirmed the signal, pocketed it, put his back against the other wall, closed his eyes.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -211,7 +211,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea looked down at the person leaning on her shoulder.",
+          "text": "{{characters.alea.name}} looked down at the person leaning on her shoulder.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -295,7 +295,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea put her head back against the wall behind her, eyes closed.",
+          "text": "{{characters.alea.name}} put her head back against the wall behind her, eyes closed.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14

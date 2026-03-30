@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren was the first to speak.",
+          "text": "{{characters.soren.name}} was the first to speak.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "He stood a few steps behind Lyra. He had been standing there since they found Alea, standing motionless like a stake driven into the ground. Nothing showed on the outside, but something inside that stake was fracturing, fine cracks spreading from within, following along every line he had used to support himself.",
+          "text": "He stood a few steps behind {{characters.lyra.name}}. He had been standing there since they found {{characters.alea.name}}, standing motionless like a stake driven into the ground. Nothing showed on the outside, but something inside that stake was fracturing, fine cracks spreading from within, following along every line he had used to support himself.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -84,7 +84,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "And Alea still died.",
+          "text": "And {{characters.alea.name}} still died.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -98,7 +98,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "His calculation was correct, and Alea still died.",
+          "text": "His calculation was correct, and {{characters.alea.name}} still died.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -140,7 +140,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "It was you.",
           "reveal": {
             "mode": "typewriter",
@@ -169,7 +169,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra didn't move.",
+          "text": "{{characters.lyra.name}} didn't move.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -183,8 +183,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "You opened that door. I said it was a trap. I said going in was a death sentence. You said you understood, then you went anyway. You threw all of us into that pocket with an impossible plan, and then Alea——",
+          "speaker": "{{characters.soren.name}}",
+          "text": "You opened that door. I said it was a trap. I said going in was a death sentence. You said you understood, then you went anyway. You threw all of us into that pocket with an impossible plan, and then {{characters.alea.name}}——",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -198,8 +198,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Then Alea died cleaning up the mess you created. <delay ms=\"400\"/>Right here.",
+          "speaker": "{{characters.soren.name}}",
+          "text": "Then {{characters.alea.name}} died cleaning up the mess you created. <delay ms=\"400\"/>Right here.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -213,8 +213,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "<whisper>Soren.</whisper>",
+          "speaker": "{{characters.elias.name}}",
+          "text": "<whisper>{{characters.soren.name}}.</whisper>",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -228,7 +228,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Not a word I said is untrue. She knew it was a trap and went anyway. Her choice created this outcome. That's fact.",
           "reveal": {
             "mode": "typewriter",
@@ -243,7 +243,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra knelt in place, didn't turn around, didn't speak. She heard every word. Those words fell on her but created no new wounds, because she had already spoken every one of those words to herself. He wasn't saying things she didn't know. He was just saying out loud what she had already compressed, held down with all her strength in the deepest place.",
+          "text": "{{characters.lyra.name}} knelt in place, didn't turn around, didn't speak. She heard every word. Those words fell on her but created no new wounds, because she had already spoken every one of those words to herself. He wasn't saying things she didn't know. He was just saying out loud what she had already compressed, held down with all her strength in the deepest place.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -257,8 +257,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "Enough. Soren, enough.",
+          "speaker": "{{characters.elias.name}}",
+          "text": "Enough. {{characters.soren.name}}, enough.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -272,7 +272,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "This world. <delay ms=\"300\"/>This world where every rule is lies stacked on lies, where people are forced to choose between wrong and wrong, and no matter which you choose, someone dies to pay for it——",
           "reveal": {
             "mode": "typewriter",
@@ -287,7 +287,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "I don't know what you think, and I don't care. <delay ms=\"500\"/>This hopeless world. Let it end.",
           "reveal": {
             "mode": "typewriter",
@@ -302,7 +302,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias looked at him and was silent for a long time.",
+          "text": "{{characters.elias.name}} looked at him and was silent for a long time.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -316,7 +316,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "What are you saying?",
           "reveal": {
             "mode": "typewriter",
@@ -331,7 +331,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Literally.",
           "reveal": {
             "mode": "typewriter",

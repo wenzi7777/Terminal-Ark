@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は手描きの経路図を彼らの前に広げた。",
+          "text": "{{characters.soren.name}} は手描きの経路図を彼らの前に広げた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Solmaris、魂の浄化を中心信仰とし、メンバーの身体には様々な程度の感知改造がされています。現在取得できたデータによると、彼らの据点は地下が主で、地表にはほぼ永続的な建物はありません。",
           "reveal": {
             "mode": "typewriter",
@@ -57,7 +57,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "彼らに接触した後の対応方法は協力。逃げたり、対抗したりしないこと。彼らに導かせ、中に入った後は観察と情報収集を最優先とする。",
           "reveal": {
             "mode": "typewriter",
@@ -72,7 +72,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "質問はありますか。",
           "reveal": {
             "mode": "typewriter",
@@ -87,7 +87,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "あります。Solmaris の人々が私たちがなぜ来たのかと聞いたら、どう答えればいいですか。",
           "reveal": {
             "mode": "typewriter",
@@ -102,7 +102,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "本当のことです。この戦争が始まった原因を探していて、三方の紛争の背後にもっと大きな操作力があるかどうかを確認しています。それは真実で、Solmaris はそのような動機を理解すべきです。",
           "reveal": {
             "mode": "typewriter",
@@ -117,7 +117,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "その答えは直接的すぎます。私たちの本当の目的をそのまま言えば、Solmaris がそのことを調査されることを望まなかった場合、私たち自身が脅威として自分たちをマークしてしまう。",
           "reveal": {
             "mode": "typewriter",
@@ -132,7 +132,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "その場合、あなたの提案は。",
           "reveal": {
             "mode": "typewriter",
@@ -147,7 +147,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "旅人だと言いましょう。通りかかっただけ。",
           "reveal": {
             "mode": "typewriter",
@@ -162,7 +162,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "そちらの方が疑わしい。荒野には旅人はいません。逃げている人と任務を遂行している人だけ。通りかかったと言えば、彼らの最初の反応は嘘だと判断される。",
           "reveal": {
             "mode": "typewriter",
@@ -177,7 +177,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "では、逃げている者たちだと言いましょう。私たちは実は方舟から逃げてきたのです。",
           "reveal": {
             "mode": "typewriter",
@@ -192,7 +192,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "逃げていると言うことは問題ありません。しかし、逃げることは私たちが積極的に Solmaris の哨戒区域に近づいた理由を説明しません。逃げている人は避けます。そちらへは行きません。",
           "reveal": {
             "mode": "typewriter",
@@ -221,7 +221,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "思うに、<delay ms=\"400\"/>私たちが来たのは皆が生き残れる方法を見つけたいからだと思います。",
           "reveal": {
             "mode": "typewriter",
@@ -250,7 +250,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は彼女を見ました。Elias は手に持っている小石を止めました。Alea は話さず、視線を Lyra の顔から近くの地面に移しました。",
+          "text": "{{characters.soren.name}} は彼女を見ました。{{characters.elias.name}} は手に持っている小石を止めました。{{characters.alea.name}} は話さず、視線を {{characters.lyra.name}} の顔から近くの地面に移しました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -264,7 +264,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "その答えは、<delay ms=\"300\"/>反論の余地がありません。",
           "reveal": {
             "mode": "typewriter",
@@ -279,7 +279,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "それが真実だからです。私たちは本当にこのためにここに着いた。何と言おうと、私たちがここまで来たのは、この全てがどのように起こったのかを知りたい、止める方法があるかどうかを知りたいから。",
           "reveal": {
             "mode": "typewriter",
@@ -294,7 +294,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "そして、もし Solmaris の人々がこの言葉を聞いた後でも、私たちを脅威と判断するなら、彼らはすべての人が生き残りたいとは思わない組織だということがわかります。その情報も有用です。",
           "reveal": {
             "mode": "typewriter",
@@ -309,7 +309,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は石を下ろし、Soren を一瞥しました。",
+          "text": "{{characters.elias.name}} は石を下ろし、{{characters.soren.name}} を一瞥しました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -323,7 +323,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は沈黙し、炭ペンを手にして、その経路図の角にその言葉を書き込みました。",
+          "text": "{{characters.soren.name}} は沈黙し、炭ペンを手にして、その経路図の角にその言葉を書き込みました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -337,7 +337,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "わかりました。そう言いましょう。",
           "reveal": {
             "mode": "typewriter",
@@ -352,7 +352,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は彼がその文を記録している様子を見ていて、彼女自身が気付いていないかもしれない表情をしていました。",
+          "text": "{{characters.lyra.name}} は彼がその文を記録している様子を見ていて、彼女自身が気付いていないかもしれない表情をしていました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -366,7 +366,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "いつ出発しますか。",
           "reveal": {
             "mode": "typewriter",
@@ -381,7 +381,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "明日の朝。今夜は休み、同期率を回復。明日の道は長い。",
           "reveal": {
             "mode": "typewriter",

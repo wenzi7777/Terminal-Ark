@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "You three go. I'll hold the rear.",
           "reveal": {
             "mode": "typewriter",
@@ -43,7 +43,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren didn't move immediately.",
+          "text": "{{characters.soren.name}} didn't move immediately.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -57,8 +57,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Alea——",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.alea.name}}——",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -72,7 +72,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Think about it. Your three sync rates now. How long can you sustain active combat?",
           "reveal": {
             "mode": "typewriter",
@@ -87,7 +87,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren went silent. He thought about it. He didn't want to speak the conclusion aloud, but he thought about it.",
+          "text": "{{characters.soren.name}} went silent. He thought about it. He didn't want to speak the conclusion aloud, but he thought about it.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -101,8 +101,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Elias's right arm is already non-responsive. Lyra's structural integrity is at critical levels. Your sync rate——",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.elias.name}}'s right arm is already non-responsive. {{characters.lyra.name}}'s structural integrity is at critical levels. Your sync rate——",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -116,7 +116,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "The only thing you can do now is reach the end of this corridor, get far enough to safety, and let your sync rates recover naturally. What you can't do is fight another skirmish in your current condition. You do, and none of you leave.",
           "reveal": {
             "mode": "typewriter",
@@ -131,7 +131,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "One person alone, you alone can't take them——",
           "reveal": {
             "mode": "typewriter",
@@ -160,7 +160,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "I'm an adult-class body. Higher sync capacity than you. And I don't need to win. I only need to buy you enough time to get away.",
           "reveal": {
             "mode": "typewriter",
@@ -189,7 +189,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "She turned to Lyra. Lyra still held the life nameplate, gripping it so tightly her knuckles showed white. She looked up at Alea, her eyes full of things that had no words, too much, too heavy, all of it stuck there, nothing could come out.",
+          "text": "She turned to {{characters.lyra.name}}. {{characters.lyra.name}} still held the life nameplate, gripping it so tightly her knuckles showed white. She looked up at {{characters.alea.name}}, her eyes full of things that had no words, too much, too heavy, all of it stuck there, nothing could come out.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -203,7 +203,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea looked at her and then, with barely perceptible motion, gave the slightest nod.",
+          "text": "{{characters.alea.name}} looked at her and then, with barely perceptible motion, gave the slightest nod.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -259,7 +259,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Outside, Solmaris's vanguard was already at the corridor entrance. Scanning lights swept from that direction, leaving cold white streaks on the corridor floor. Alea walked into that light. Her silhouette became clear in it—straight, steady, as she had always been.",
+          "text": "Outside, Solmaris's vanguard was already at the corridor entrance. Scanning lights swept from that direction, leaving cold white streaks on the corridor floor. {{characters.alea.name}} walked into that light. Her silhouette became clear in it—straight, steady, as she had always been.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -273,7 +273,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Go. Now.",
           "reveal": {
             "mode": "typewriter",
@@ -302,7 +302,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren moved. He pulled Elias along. Elias supported Lyra as the three of them headed deeper into the corridor. Lyra looked back once as she took her first step. She saw Alea standing at the entrance, framed in that light.",
+          "text": "{{characters.soren.name}} moved. He pulled {{characters.elias.name}} along. {{characters.elias.name}} supported {{characters.lyra.name}} as the three of them headed deeper into the corridor. {{characters.lyra.name}} looked back once as she took her first step. She saw {{characters.alea.name}} standing at the entrance, framed in that light.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -358,7 +358,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea's voice never came. She didn't cry out, no sound at all. Only the sounds of combat echoed through the corridor, clear, merciless, impossible to pretend not to hear.",
+          "text": "{{characters.alea.name}}'s voice never came. She didn't cry out, no sound at all. Only the sounds of combat echoed through the corridor, clear, merciless, impossible to pretend not to hear.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -372,7 +372,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra kept moving forward. Step after step. The life nameplate was in her hand, metal edges pressing into her skin. She held it so tight she could feel its temperature——warmth still lingering from Alea's body, not yet fully faded.",
+          "text": "{{characters.lyra.name}} kept moving forward. Step after step. The life nameplate was in her hand, metal edges pressing into her skin. She held it so tight she could feel its temperature——warmth still lingering from {{characters.alea.name}}'s body, not yet fully faded.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -456,7 +456,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra didn't stop walking, but she pressed the life nameplate against her chest, feeling the weight of that metal, feeling the warmth slowly fading from it. She closed her eyes for one step, then opened them and kept going.",
+          "text": "{{characters.lyra.name}} didn't stop walking, but she pressed the life nameplate against her chest, feeling the weight of that metal, feeling the warmth slowly fading from it. She closed her eyes for one step, then opened them and kept going.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10

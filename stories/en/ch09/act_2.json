@@ -49,7 +49,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias set up a signal receiver at the window and began scanning the battlefield's electronic signals.",
+          "text": "{{characters.elias.name}} set up a signal receiver at the window and began scanning the battlefield's electronic signals.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -91,7 +91,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Hold on.",
           "reveal": {
             "mode": "typewriter",
@@ -120,7 +120,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "There's a signal. Doesn't belong to Terminal Ark, doesn't belong to Mondris, doesn't belong to Solmaris. The format is identical to those drone signals we encountered in the Wasteland.",
           "reveal": {
             "mode": "typewriter",
@@ -135,7 +135,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Its frequency blankets the entire battlefield. It's——<delay ms=\"400\"/>It's collecting.",
           "reveal": {
             "mode": "typewriter",
@@ -150,7 +150,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Collecting what.",
           "reveal": {
             "mode": "typewriter",
@@ -165,7 +165,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Personality samples.",
           "reveal": {
             "mode": "typewriter",
@@ -180,7 +180,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "It's collecting neural data from every individual on this battlefield. Fanaticism, fear, rage, despair—every extreme emotional state personality pattern, it's recording all of it.",
           "reveal": {
             "mode": "typewriter",
@@ -195,7 +195,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Collection frequency and coverage range. Is it systematic or opportunistic.",
           "reveal": {
             "mode": "typewriter",
@@ -210,7 +210,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Systematic. The coverage boundary is extremely precise. Not random broadcast collection—targeted, methodical.",
           "reveal": {
             "mode": "typewriter",
@@ -239,7 +239,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "<whisper>It knew when the war would start. Before it even began.</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -254,7 +254,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Or——<delay ms=\"500\"/>It made the war start.",
           "reveal": {
             "mode": "typewriter",
@@ -325,7 +325,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "This war makes no sense for any human faction. Terminal Ark can't defeat both forces combined. Even if Mondris and Solmaris take the Ark, they won't get what they truly need.",
           "reveal": {
             "mode": "typewriter",
@@ -340,7 +340,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "The only beneficiary is whoever is harvesting hundreds of thousands of extreme-state personality samples from this battlefield.",
           "reveal": {
             "mode": "typewriter",
@@ -355,7 +355,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "It's making us kill each other. <delay ms=\"500\"/>To learn from us.",
           "reveal": {
             "mode": "typewriter",

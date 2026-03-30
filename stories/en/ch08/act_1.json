@@ -128,7 +128,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Yes.",
           "reveal": {
             "mode": "typewriter",
@@ -172,7 +172,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren gave the others a glance and followed.",
+          "text": "{{characters.soren.name}} gave the others a glance and followed.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -235,7 +235,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Those are——<delay ms=\"400\"/>souls?",
           "reveal": {
             "mode": "typewriter",
@@ -265,7 +265,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Are they still conscious. <delay ms=\"400\"/>Or just data.",
           "reveal": {
             "mode": "typewriter",

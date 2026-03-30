@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren stood at the main terminal.",
+          "text": "{{characters.soren.name}} stood at the main terminal.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -70,8 +70,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "You came. I thought you'd be later, Lyra.",
+          "speaker": "{{characters.soren.name}}",
+          "text": "You came. I thought you'd be later, {{characters.lyra.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -85,8 +85,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "I walked faster than you thought I would. Soren, step away from that terminal.",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "I walked faster than you thought I would. {{characters.soren.name}}, step away from that terminal.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -100,7 +100,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "No.",
           "reveal": {
             "mode": "typewriter",
@@ -129,8 +129,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "I know why you want to do this. I know what you're thinking, I know your calculation, I know in your logic this is the only plan that completely solves the problem. I know all of this, Soren, so I'm not here to tell you you're wrong.",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "I know why you want to do this. I know what you're thinking, I know your calculation, I know in your logic this is the only plan that completely solves the problem. I know all of this, {{characters.soren.name}}, so I'm not here to tell you you're wrong.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -158,7 +158,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Then why are you here?",
           "reveal": {
             "mode": "typewriter",
@@ -173,7 +173,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "To stop you. I can't let you do this.",
           "reveal": {
             "mode": "typewriter",
@@ -188,8 +188,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "You can't stop me, Lyra. You know it. Your tactical judgment, your sync rate, your weapon output—at every level, you can't beat me here.",
+          "speaker": "{{characters.soren.name}}",
+          "text": "You can't stop me, {{characters.lyra.name}}. You know it. Your tactical judgment, your sync rate, your weapon output—at every level, you can't beat me here.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -203,7 +203,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "I know. But I still have to try.",
           "reveal": {
             "mode": "typewriter",
@@ -232,7 +232,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren stepped away from the terminal, moving into combat stance. The control room wasn't large—less than ten meters between them. He watched her take position after connecting her module, and his eyes paused for a moment——her stance had changed. Not technically—something more fundamental. The synchronization state that in his memory was always somewhat strained under pressure now was deep, stable, grounded.",
+          "text": "{{characters.soren.name}} stepped away from the terminal, moving into combat stance. The control room wasn't large—less than ten meters between them. He watched her take position after connecting her module, and his eyes paused for a moment——her stance had changed. Not technically—something more fundamental. The synchronization state that in his memory was always somewhat strained under pressure now was deep, stable, grounded.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -338,7 +338,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren didn't speak, but his eyes had something when she sent her third strike precisely into his defense gap—something he'd never seen in her before. He paused half a beat.",
+          "text": "{{characters.soren.name}} didn't speak, but his eyes had something when she sent her third strike precisely into his defense gap—something he'd never seen in her before. He paused half a beat.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -366,7 +366,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Your synchronization is different than before.",
           "reveal": {
             "mode": "typewriter",
@@ -395,7 +395,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias was on the control room's side. He wasn't joining the fight—he was doing something else, trying to access the main terminal from the side, attempting to find a way to pause or delay that directive. Soren's lock architecture displayed in the system—tight, nearly seamless. He searched the seams, searching while listening to the battle behind him.",
+          "text": "{{characters.elias.name}} was on the control room's side. He wasn't joining the fight—he was doing something else, trying to access the main terminal from the side, attempting to find a way to pause or delay that directive. {{characters.soren.name}}'s lock architecture displayed in the system—tight, nearly seamless. He searched the seams, searching while listening to the battle behind him.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -417,7 +417,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra was shoved back hard. She hit the control room's side wall, the metal giving a dull sound on impact, and she slid down, supporting herself against the wall, trying to stand. Her legs had no strength. Her sync rate was at a very low number, her body's response slowing.",
+          "text": "{{characters.lyra.name}} was shoved back hard. She hit the control room's side wall, the metal giving a dull sound on impact, and she slid down, supporting herself against the wall, trying to stand. Her legs had no strength. Her sync rate was at a very low number, her body's response slowing.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -431,7 +431,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren walked in front of her and stood, looking down at her. His expression—she'd never seen him like this. The calm exterior that always kept everything pressed deepest inside was completely gone now. What showed was something that made your heart ache looking at it, too heavy, too deep, like a container filled with too much, every crack seeping.",
+          "text": "{{characters.soren.name}} walked in front of her and stood, looking down at her. His expression—she'd never seen him like this. The calm exterior that always kept everything pressed deepest inside was completely gone now. What showed was something that made your heart ache looking at it, too heavy, too deep, like a container filled with too much, every crack seeping.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -445,8 +445,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "You can't stand anymore. Lyra, you lost. Move.",
+          "speaker": "{{characters.soren.name}}",
+          "text": "You can't stand anymore. {{characters.lyra.name}}, you lost. Move.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -474,7 +474,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Not yet.",
           "reveal": {
             "mode": "typewriter",

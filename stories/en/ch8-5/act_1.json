@@ -43,7 +43,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "That morning, Lyra sat at the ruin's entrance, staring blankly at the Wasteland beyond.",
+          "text": "That morning, {{characters.lyra.name}} sat at the ruin's entrance, staring blankly at the Wasteland beyond.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -85,7 +85,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea. She was holding her own morning ration and shoved it into Lyra's lap.",
+          "text": "{{characters.alea.name}}. She was holding her own morning ration and shoved it into {{characters.lyra.name}}'s lap.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -99,7 +99,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Eat.",
           "reveal": {
             "mode": "typewriter",
@@ -128,7 +128,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra looked down at the ration. The thing that had been turning in her mind slowly came to a stop.",
+          "text": "{{characters.lyra.name}} looked down at the ration. The thing that had been turning in her mind slowly came to a stop.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -156,7 +156,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren fell silent for a time after perceiving this early in the morning.",
+          "text": "{{characters.soren.name}} fell silent for a time after perceiving this early in the morning.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -198,8 +198,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "Soren.",
+          "speaker": "{{characters.elias.name}}",
+          "text": "{{characters.soren.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -213,7 +213,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Wait.",
           "reveal": {
             "mode": "typewriter",
@@ -228,7 +228,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias approached and glanced down at his notebook. Saw the empty section with only the header.",
+          "text": "{{characters.elias.name}} approached and glanced down at his notebook. Saw the empty section with only the header.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -242,7 +242,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "You're trying to schedule today.",
           "reveal": {
             "mode": "typewriter",
@@ -257,7 +257,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "There's still a lot today that——",
           "reveal": {
             "mode": "typewriter",
@@ -272,7 +272,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "No. Today there is nothing. That's today's state. Not everything needs to be scheduled.",
           "reveal": {
             "mode": "typewriter",
@@ -287,7 +287,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Then what does it mean not to schedule it.",
           "reveal": {
             "mode": "typewriter",
@@ -316,7 +316,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Like this. Just sit.",
           "reveal": {
             "mode": "typewriter",
@@ -331,7 +331,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren looked at him, waiting for him to continue. Elias didn't continue. That was his entire answer.",
+          "text": "{{characters.soren.name}} looked at him, waiting for him to continue. {{characters.elias.name}} didn't continue. That was his entire answer.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -345,7 +345,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren looked at the empty section, then at Elias. His face held a subtle expression of not knowing what to do with something. That expression was rare on him.",
+          "text": "{{characters.soren.name}} looked at the empty section, then at {{characters.elias.name}}. His face held a subtle expression of not knowing what to do with something. That expression was rare on him.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -387,7 +387,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra witnessed the whole process from the side. The moment Soren sat down, she bent over. That laugh came from deep within her body, unstoppable, unresisted.",
+          "text": "{{characters.lyra.name}} witnessed the whole process from the side. The moment {{characters.soren.name}} sat down, she bent over. That laugh came from deep within her body, unstoppable, unresisted.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -415,7 +415,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "What's so funny.",
           "reveal": {
             "mode": "typewriter",
@@ -430,7 +430,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Everything. That expression on your face, like someone just told you that you don't need to breathe air. That look, I'll never forget it.",
           "reveal": {
             "mode": "typewriter",
@@ -445,7 +445,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "I didn't have that expression.",
           "reveal": {
             "mode": "typewriter",
@@ -460,7 +460,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "You did. You are that expression.",
           "reveal": {
             "mode": "typewriter",
@@ -489,7 +489,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea sat in another corner, her back against the wall. Doing nothing, just staying there.",
+          "text": "{{characters.alea.name}} sat in another corner, her back against the wall. Doing nothing, just staying there.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14

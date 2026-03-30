@@ -42,8 +42,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Elias，現在。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.elias.name}}，現在。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -57,7 +57,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 的手指已經接上了建築內部的訊號主幹。他坐在大廳角落的地板上，背靠著牆，後背的傷還在隱隱作痛，神經同步率的數字低得讓他不敢多看。",
+          "text": "{{characters.elias.name}} 的手指已經接上了建築內部的訊號主幹。他坐在大廳角落的地板上，背靠著牆，後背的傷還在隱隱作痛，神經同步率的數字低得讓他不敢多看。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -121,7 +121,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "大廳裡，Alea 帶著 Soren 和 Lyra 在持續的消耗戰中勉力支撐。",
+          "text": "大廳裡，{{characters.alea.name}} 帶著 {{characters.soren.name}} 和 {{characters.lyra.name}} 在持續的消耗戰中勉力支撐。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -163,7 +163,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "出口要被封了。",
           "reveal": {
             "mode": "typewriter",
@@ -178,8 +178,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "我知道。Elias 還需要時間。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "我知道。{{characters.elias.name}} 還需要時間。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -193,7 +193,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "你確定他能做到？",
           "reveal": {
             "mode": "typewriter",
@@ -208,7 +208,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她沒有回答。把逼近的一具士兵用身體重心的位移引偏方向，騰出空間讓 Soren 的炮口能找到角度。",
+          "text": "她沒有回答。把逼近的一具士兵用身體重心的位移引偏方向，騰出空間讓 {{characters.soren.name}} 的炮口能找到角度。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -222,8 +222,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "掩護我。我去給 Elias 爭取時間。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "掩護我。我去給 {{characters.elias.name}} 爭取時間。",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -237,7 +237,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她沒有等 Soren 回應，直接朝大廳中央走去。",
+          "text": "她沒有等 {{characters.soren.name}} 回應，直接朝大廳中央走去。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -351,7 +351,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "完成了——防護罩節點，B區段。開口持續時間有限，我沒辦法讓它更長了。",
           "reveal": {
             "mode": "typewriter",
@@ -366,7 +366,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "夠了。所有人，<em>現在撤</em>。",
           "reveal": {
             "mode": "typewriter",
@@ -381,7 +381,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "四個人幾乎同時向建築北側的出口跑去。Soren 在最後一刻用剩餘出力在追近的士兵和他們之間轟出一道緩衝。",
+          "text": "四個人幾乎同時向建築北側的出口跑去。{{characters.soren.name}} 在最後一刻用剩餘出力在追近的士兵和他們之間轟出一道緩衝。",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -407,7 +407,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 推開了安全門。外面是方舟最外圍的空曠地帶。",
+          "text": "{{characters.lyra.name}} 推開了安全門。外面是方舟最外圍的空曠地帶。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -532,7 +532,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 回頭看了一眼。那個開口已經在他們身後癒合，防護罩重新變得完整。光幕後方，幾具人造士兵停在邊緣，感應器朝外掃視，但沒有繼續追來。",
+          "text": "{{characters.elias.name}} 回頭看了一眼。那個開口已經在他們身後癒合，防護罩重新變得完整。光幕後方，幾具人造士兵停在邊緣，感應器朝外掃視，但沒有繼續追來。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -602,7 +602,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 把受損的武裝模組從肩上卸下來，看了看自己手臂上因為過載留下的輕微淤青，然後抬起頭，看著那片廣闊的、未知的荒原，深深地吸了一口氣。",
+          "text": "{{characters.lyra.name}} 把受損的武裝模組從肩上卸下來，看了看自己手臂上因為過載留下的輕微淤青，然後抬起頭，看著那片廣闊的、未知的荒原，深深地吸了一口氣。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -616,7 +616,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "比裡面的空氣難聞。",
           "reveal": {
             "mode": "typewriter",
@@ -631,7 +631,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "廢話。輻射塵。",
           "reveal": {
             "mode": "typewriter",
@@ -646,7 +646,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "但是——<delay ms=\"400\"/>感覺不一樣。",
           "reveal": {
             "mode": "typewriter",
@@ -675,7 +675,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 站在最前方，看著那片她活了十五年從來沒有踏上過的土地。風把她的頭髮吹亂，她沒有去整理，只是靜靜地站著，感受著腳底下的地面。",
+          "text": "{{characters.alea.name}} 站在最前方，看著那片她活了十五年從來沒有踏上過的土地。風把她的頭髮吹亂，她沒有去整理，只是靜靜地站著，感受著腳底下的地面。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -703,7 +703,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "走吧。天黑之前找到掩體。",
           "reveal": {
             "mode": "typewriter",

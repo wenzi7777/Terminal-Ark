@@ -35,7 +35,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "是 Elias 提議接入神經網路的。",
+          "text": "是 {{characters.elias.name}} 提議接入神經網路的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -49,7 +49,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "單靠這些碎片數據不夠。有幾個加密層我自己解不開，需要算力，也需要多節點同時接入才能繞過追蹤。",
           "reveal": {
             "mode": "typewriter",
@@ -64,7 +64,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "四個人同步，速度會快很多。",
           "reveal": {
             "mode": "typewriter",
@@ -79,7 +79,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "接入時間？",
           "reveal": {
             "mode": "typewriter",
@@ -94,7 +94,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "可以控制在安全範圍內。但如果安全系統察覺到我們在破解機密數據，追蹤封鎖會很快到位。",
           "reveal": {
             "mode": "typewriter",
@@ -109,7 +109,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "我們需要在那之前拿到東西然後斷線。",
           "reveal": {
             "mode": "typewriter",
@@ -124,7 +124,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "我沒有做過神經接入。",
           "reveal": {
             "mode": "typewriter",
@@ -139,7 +139,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 已經在接線了。",
+          "text": "{{characters.elias.name}} 已經在接線了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -153,7 +153,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "把連接器盤繞在頸部，跟著我的節點走，不要亂動，不要分叉。<delay ms=\"400\"/>我說撤就立刻撤。",
           "reveal": {
             "mode": "typewriter",
@@ -168,7 +168,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "四個人在地下室的角落背靠著牆坐下。Elias 把訊號分線接到每個人的神經端口，逐一確認連線穩定。",
+          "text": "四個人在地下室的角落背靠著牆坐下。{{characters.elias.name}} 把訊號分線接到每個人的神經端口，逐一確認連線穩定。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -249,7 +249,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 的節點在前方移動，像一個可以跟隨的座標。Alea 跟上去，感覺到 Soren 和 Lyra 在她的側面。",
+          "text": "{{characters.elias.name}} 的節點在前方移動，像一個可以跟隨的座標。{{characters.alea.name}} 跟上去，感覺到 {{characters.soren.name}} 和 {{characters.lyra.name}} 在她的側面。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -277,7 +277,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 通過了幾個預先解密的節點，開始分析核心加密層的結構。",
+          "text": "{{characters.elias.name}} 通過了幾個預先解密的節點，開始分析核心加密層的結構。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -310,7 +310,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "等一下。有一個封包，不是我們解出來的——是被<em>送進來</em>的。",
           "reveal": {
             "mode": "typewriter",
@@ -325,7 +325,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "送進來？",
           "reveal": {
             "mode": "typewriter",
@@ -340,7 +340,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "發送者 ID 是亂碼，格式我沒見過，來源追溯不到任何已知節點。",
           "reveal": {
             "mode": "typewriter",
@@ -355,7 +355,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "但封包的加密格式是方舟內部的。只有擁有<em>極高權限</em>的終端才能發出這種封包。",
           "reveal": {
             "mode": "typewriter",
@@ -384,7 +384,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 開始解密。",
+          "text": "{{characters.elias.name}} 開始解密。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -433,7 +433,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "對象欄位上列著一批姓名和靈魂序號——Soren 認識其中幾個。方舟上層的官員，議會席位的持有者，幾個從來沒有在公開場合提過自己年齡的名字。",
+          "text": "對象欄位上列著一批姓名和靈魂序號——{{characters.soren.name}} 認識其中幾個。方舟上層的官員，議會席位的持有者，幾個從來沒有在公開場合提過自己年齡的名字。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -498,7 +498,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "被發現了。<em>快斷線。</em>",
           "reveal": {
             "mode": "typewriter",
@@ -536,7 +536,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 的視野短暫模糊了一下，耳鳴了兩秒。",
+          "text": "{{characters.alea.name}} 的視野短暫模糊了一下，耳鳴了兩秒。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -564,7 +564,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 把晶片全部掃進背包，強制清除螢幕，轉頭看向其他三人。",
+          "text": "{{characters.elias.name}} 把晶片全部掃進背包，強制清除螢幕，轉頭看向其他三人。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -578,7 +578,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "最高威脅等級。安全系統現在知道我們看見了什麼。",
           "reveal": {
             "mode": "typewriter",
@@ -593,7 +593,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "往北，地下管道。東側很快會被封鎖，現在走。",
           "reveal": {
             "mode": "typewriter",

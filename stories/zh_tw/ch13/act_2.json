@@ -1,6 +1,6 @@
 {
   "id": "13-2",
-  "title": "第二幕：Elias 的阻攔",
+  "title": "第二幕：{{characters.elias.name}} 的阻攔",
   "startNode": "main",
   "nodes": {
     "main": {
@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 在第五天夜裡接入了神經網路。",
+          "text": "{{characters.soren.name}} 在第五天夜裡接入了神經網路。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 感覺到了。那是一種同一個空間內有另一個神經連線節點啟動的微弱感應。他幾乎是在同一秒鐘就接上了自己的接入端口，跟進去。",
+          "text": "{{characters.elias.name}} 感覺到了。那是一種同一個空間內有另一個神經連線節點啟動的微弱感應。他幾乎是在同一秒鐘就接上了自己的接入端口，跟進去。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -63,7 +63,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "神經網路裡的世界是黑暗的。那種黑暗不是物理的黑暗，是數據稀疏的地方特有的空曠感。但 Soren 的節點像一道強光。Elias 在進入的瞬間就鎖定了他的位置。",
+          "text": "神經網路裡的世界是黑暗的。那種黑暗不是物理的黑暗，是數據稀疏的地方特有的空曠感。但 {{characters.soren.name}} 的節點像一道強光。{{characters.elias.name}} 在進入的瞬間就鎖定了他的位置。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -77,7 +77,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "那個節點正以一種 Elias 從來沒有見過的速度推進，像一把鑿子，在方舟核心系統的防禦壁壘上一層一層地往裡鑿。",
+          "text": "那個節點正以一種 {{characters.elias.name}} 從來沒有見過的速度推進，像一把鑿子，在方舟核心系統的防禦壁壘上一層一層地往裡鑿。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -91,8 +91,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "Soren。停下來。",
+          "speaker": "{{characters.elias.name}}",
+          "text": "{{characters.soren.name}}。停下來。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -106,8 +106,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Elias。不要阻攔我。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.elias.name}}。不要阻攔我。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -121,7 +121,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "我要阻攔你。你知道我要阻攔你，所以你等我睡著再接入，但我沒有睡著，所以現在我在這裡。停下來，我們談。",
           "reveal": {
             "mode": "typewriter",
@@ -136,7 +136,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "我們昨天談過了。我沒有改變。",
           "reveal": {
             "mode": "typewriter",
@@ -151,7 +151,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 清除了 Soren 終端的加密令牌，切斷了他通往中央網路的路徑。",
+          "text": "{{characters.elias.name}} 清除了 {{characters.soren.name}} 終端的加密令牌，切斷了他通往中央網路的路徑。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -165,7 +165,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "你要過去，先過我這裡。",
           "reveal": {
             "mode": "typewriter",
@@ -180,7 +180,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 不止有這一個網路的身分。他拿出一個小小的黑盒子，按了一下啟動按鈕。",
+          "text": "{{characters.soren.name}} 不止有這一個網路的身分。他拿出一個小小的黑盒子，按了一下啟動按鈕。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -199,7 +199,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 突然感覺到一陣暈眩，視覺回到了本地的神經網路。防火牆。Soren 將他的網際網路權限封鎖了。",
+          "text": "{{characters.elias.name}} 突然感覺到一陣暈眩，視覺回到了本地的神經網路。防火牆。{{characters.soren.name}} 將他的網際網路權限封鎖了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -213,7 +213,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 繼續向方舟核心推進。Elias 想要跟上去再攔，感覺到自己的節點被一道反制鎖定住了。那個鎖定的邊界精確地卡在他能動彈的閾值以下。不是要傷害他，只是讓他沒有辦法繼續干擾。",
+          "text": "{{characters.soren.name}} 繼續向方舟核心推進。{{characters.elias.name}} 想要跟上去再攔，感覺到自己的節點被一道反制鎖定住了。那個鎖定的邊界精確地卡在他能動彈的閾值以下。不是要傷害他，只是讓他沒有辦法繼續干擾。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -227,7 +227,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "我不想傷害你。<delay ms=\"400\"/>等我完成，我們就都自由了。",
           "reveal": {
             "mode": "typewriter",
@@ -242,8 +242,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "Soren——",
+          "speaker": "{{characters.elias.name}}",
+          "text": "{{characters.soren.name}}——",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -257,8 +257,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Elias。<delay ms=\"300\"/>我替 Alea 算過了。如果當初那個系統不存在，她不會死在這裡，不會在一個沒有人知道的荒原角落消散。她不應該是那個結局。那個結局是這個世界欠她的。我只是在還。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.elias.name}}。<delay ms=\"300\"/>我替 {{characters.alea.name}} 算過了。如果當初那個系統不存在，她不會死在這裡，不會在一個沒有人知道的荒原角落消散。她不應該是那個結局。那個結局是這個世界欠她的。我只是在還。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -272,7 +272,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 沒有說話。他被鎖定在那個節點的位置，看著 Soren 的光點繼續往更深的地方推進，越來越遠，越來越深，直到消失在那片數據的黑暗裡。",
+          "text": "{{characters.elias.name}} 沒有說話。他被鎖定在那個節點的位置，看著 {{characters.soren.name}} 的光點繼續往更深的地方推進，越來越遠，越來越深，直到消失在那片數據的黑暗裡。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12

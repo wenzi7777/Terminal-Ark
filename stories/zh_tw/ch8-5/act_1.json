@@ -43,7 +43,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "那天早上，Lyra 坐在廢墟的出口，看著外面的荒原發呆。",
+          "text": "那天早上，{{characters.lyra.name}} 坐在廢墟的出口，看著外面的荒原發呆。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -85,7 +85,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "是 Alea。手裡拿著她那份早上的口糧，往她懷裡一塞。",
+          "text": "是 {{characters.alea.name}}。手裡拿著她那份早上的口糧，往她懷裡一塞。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -99,7 +99,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "吃。",
           "reveal": {
             "mode": "typewriter",
@@ -128,7 +128,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 低頭看了一眼那份口糧。那個在腦子裡轉的東西慢慢地停下來了。",
+          "text": "{{characters.lyra.name}} 低頭看了一眼那份口糧。那個在腦子裡轉的東西慢慢地停下來了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -156,7 +156,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 在那天早上察覺到這件事之後，沉默了一段時間。",
+          "text": "{{characters.soren.name}} 在那天早上察覺到這件事之後，沉默了一段時間。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -198,8 +198,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "Soren。",
+          "speaker": "{{characters.elias.name}}",
+          "text": "{{characters.soren.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -213,7 +213,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "等一下。",
           "reveal": {
             "mode": "typewriter",
@@ -228,7 +228,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 走過來，低頭看了他的筆記本一眼。看見那個只有標題的空欄。",
+          "text": "{{characters.elias.name}} 走過來，低頭看了他的筆記本一眼。看見那個只有標題的空欄。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -242,7 +242,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "你在試圖把今天排入計劃。",
           "reveal": {
             "mode": "typewriter",
@@ -257,7 +257,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "今天還有很多事可以——",
           "reveal": {
             "mode": "typewriter",
@@ -272,7 +272,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "沒有。今天沒有任何事。那就是今天的狀態。不是所有事情都需要排入計劃。",
           "reveal": {
             "mode": "typewriter",
@@ -287,7 +287,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "那什麼叫做不排入計劃。",
           "reveal": {
             "mode": "typewriter",
@@ -316,7 +316,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "就是這樣。就坐著。",
           "reveal": {
             "mode": "typewriter",
@@ -331,7 +331,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 看著他，等著他繼續說。Elias 沒有繼續說。那就是他的全部答案。",
+          "text": "{{characters.soren.name}} 看著他，等著他繼續說。{{characters.elias.name}} 沒有繼續說。那就是他的全部答案。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -345,7 +345,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 看了看那個空欄，再看了看 Elias。他的臉上有一種細微的、不知道如何處置某樣東西的表情。那種表情在他臉上很少見。",
+          "text": "{{characters.soren.name}} 看了看那個空欄，再看了看 {{characters.elias.name}}。他的臉上有一種細微的、不知道如何處置某樣東西的表情。那種表情在他臉上很少見。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -387,7 +387,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 在旁邊目睹了整個過程。等到 Soren 坐下來的那一刻，她彎下腰去。那個笑是從她整個身體裡出來的，壓不住，也沒有試圖壓。",
+          "text": "{{characters.lyra.name}} 在旁邊目睹了整個過程。等到 {{characters.soren.name}} 坐下來的那一刻，她彎下腰去。那個笑是從她整個身體裡出來的，壓不住，也沒有試圖壓。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -415,7 +415,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "有什麼好笑的。",
           "reveal": {
             "mode": "typewriter",
@@ -430,7 +430,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "很多。你剛才那個臉，好像有人告訴你空氣可以不用呼吸一樣。那個表情，我這輩子都不會忘記。",
           "reveal": {
             "mode": "typewriter",
@@ -445,7 +445,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "我沒有那個表情。",
           "reveal": {
             "mode": "typewriter",
@@ -460,7 +460,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "你有。你就是那個表情。",
           "reveal": {
             "mode": "typewriter",
@@ -489,7 +489,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 坐在另一個角落，把後背靠上那面牆壁。什麼都不做，就停在那裡。",
+          "text": "{{characters.alea.name}} 坐在另一個角落，把後背靠上那面牆壁。什麼都不做，就停在那裡。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14

@@ -265,7 +265,7 @@
         },
         {
           "id": "8-2",
-          "title": "第2幕：リラのコード",
+          "title": "第2幕：{{characters.lyra.name}}のコード",
           "file": "ch08/act_2.json",
           "onComplete": ["reward", "complete"]
         },
@@ -365,7 +365,7 @@
         },
         {
           "id": "11-2",
-          "title": "第2幕：アレアの決意",
+          "title": "第2幕：{{characters.alea.name}}の決意",
           "file": "ch11/act_2.json",
           "onComplete": ["reward", "complete"]
         },
@@ -415,7 +415,7 @@
         },
         {
           "id": "13-2",
-          "title": "第2幕：エリアスの介入",
+          "title": "第2幕：{{characters.elias.name}}の介入",
           "file": "ch13/act_2.json",
           "onComplete": ["reward", "complete"]
         },

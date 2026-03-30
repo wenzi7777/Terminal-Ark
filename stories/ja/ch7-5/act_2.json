@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias はそのモジュールを取り出し、携帯している細い半田コテで再度固定した。その動作には非常に安定した手と細かい注意が必要で、彼がそうしている時は全身が静かになる。その静寂は自分自身が選んだもので、強制されたものではない。",
+          "text": "{{characters.elias.name}} はそのモジュールを取り出し、携帯している細い半田コテで再度固定した。その動作には非常に安定した手と細かい注意が必要で、彼がそうしている時は全身が静かになる。その静寂は自分自身が選んだもので、強制されたものではない。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea が彼の隣に座った時、彼は特に注意を払わなかった。彼は風防壁がある場所を選ぶ彼女の習慣に慣れていた。その場所は確かに他の場所より良かった。",
+          "text": "{{characters.alea.name}} が彼の隣に座った時、彼は特に注意を払わなかった。彼は風防壁がある場所を選ぶ彼女の習慣に慣れていた。その場所は確かに他の場所より良かった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -84,7 +84,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は物資袋を開け、中身を一つずつ取り出し、確認し、分類し、数量を確認した。その動作は非常に熟練していて、考える必要がなく、手が自動的に動いた。",
+          "text": "{{characters.alea.name}} は物資袋を開け、中身を一つずつ取り出し、確認し、分類し、数量を確認した。その動作は非常に熟練していて、考える必要がなく、手が自動的に動いた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -98,7 +98,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "ありがとうございます。補給所では、あなたは兵士たちを足止めし、時間をくれました。ありがとうございます。",
           "reveal": {
             "mode": "typewriter",
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea の手が一瞬止まった。彼女は彼を一瞥し、彼は振り返らず、モジュールを真剣に見つめていた。その感謝の告げ方は平坦で、言うべきだと思った事を言う方式だった。大げさでなく、不自然でなく、ただ言った。",
+          "text": "{{characters.alea.name}} の手が一瞬止まった。彼女は彼を一瞥し、彼は振り返らず、モジュールを真剣に見つめていた。その感謝の告げ方は平坦で、言うべきだと思った事を言う方式だった。大げさでなく、不自然でなく、ただ言った。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -127,7 +127,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "それは私がやるべきことでした。",
           "reveal": {
             "mode": "typewriter",
@@ -142,7 +142,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "知っています。でも感謝を言いたかった。",
           "reveal": {
             "mode": "typewriter",
@@ -157,7 +157,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は薬品を分類済みエリアに入れ、次のアイテムを手にして、その二つの文を脳の中で一瞬停止させた。",
+          "text": "{{characters.alea.name}} は薬品を分類済みエリアに入れ、次のアイテムを手にして、その二つの文を脳の中で一瞬停止させた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -171,7 +171,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "本当に面倒ですね。",
           "reveal": {
             "mode": "typewriter",
@@ -186,7 +186,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias の手が一瞬止まり、その後彼は笑った。その笑いは軽く、彼の喉から出た短くはじけるような音だった。",
+          "text": "{{characters.elias.name}} の手が一瞬止まり、その後彼は笑った。その笑いは軽く、彼の喉から出た短くはじけるような音だった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -200,7 +200,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "知っています。",
           "reveal": {
             "mode": "typewriter",
@@ -229,7 +229,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は物資の整理を続け、何も言いませんでした。Elias も何も言いませんでした。二人は再び沈黙の中に戻りました。",
+          "text": "{{characters.alea.name}} は物資の整理を続け、何も言いませんでした。{{characters.elias.name}} も何も言いませんでした。二人は再び沈黙の中に戻りました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -243,7 +243,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は最後の物資を整理済みエリアに入れ、物資袋のジッパーを閉じ、壁に背中をもたせかけ、脚を伸ばし、目を閉じて休んだ。",
+          "text": "{{characters.alea.name}} は最後の物資を整理済みエリアに入れ、物資袋のジッパーを閉じ、壁に背中をもたせかけ、脚を伸ばし、目を閉じて休んだ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -257,7 +257,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は半田付けを固定し、モジュールを元に戻し、外殻を閉じ、信号を確認し、レシーバーをポケットにしまった。その後、彼も壁に背中をもたせかけ、何も取り出さなかった。",
+          "text": "{{characters.elias.name}} は半田付けを固定し、モジュールを元に戻し、外殻を閉じ、信号を確認し、レシーバーをポケットにしまった。その後、彼も壁に背中をもたせかけ、何も取り出さなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

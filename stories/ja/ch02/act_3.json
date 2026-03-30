@@ -35,7 +35,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "ニューラルネットワークへの接続を提案したのはエリアスだった。",
+          "text": "ニューラルネットワークへの接続を提案したのは{{characters.elias.name}}だった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -49,7 +49,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "このデータの断片だけでは足りない。解読できない暗号化レイヤーがいくつかある。演算力が必要だし、追蹤回避には複数ノードの同時接続が必要だ。",
           "reveal": {
             "mode": "typewriter",
@@ -64,7 +64,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "四人同時なら、ずっと速い。",
           "reveal": {
             "mode": "typewriter",
@@ -79,7 +79,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "接続時間は？",
           "reveal": {
             "mode": "typewriter",
@@ -94,7 +94,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "安全範囲内に収められる。だがセキュリティシステムが我々が機密データを破解していることに気づいたら、トラッキング封鎖が素早く到達する。",
           "reveal": {
             "mode": "typewriter",
@@ -109,7 +109,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "データを奪取してから、直ちに切断する必要がある。",
           "reveal": {
             "mode": "typewriter",
@@ -124,7 +124,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "私は神経接続をしたことがない。",
           "reveal": {
             "mode": "typewriter",
@@ -139,7 +139,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "エリアスはもう配線を始めていた。",
+          "text": "{{characters.elias.name}}はもう配線を始めていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -153,7 +153,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "コネクタディスクを首に巻いて、俺のノードに従う。動くな。分岐させるな。<delay ms=\"400\"/>撤退しろと言ったら、すぐに抜け。",
           "reveal": {
             "mode": "typewriter",
@@ -168,7 +168,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "四人は地下室の角に背を寄せて座った。エリアスが各人の神経端子にシグナル分線を接続し、接続の安定性を一つずつ確認した。",
+          "text": "四人は地下室の角に背を寄せて座った。{{characters.elias.name}}が各人の神経端子にシグナル分線を接続し、接続の安定性を一つずつ確認した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -249,7 +249,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "エリアスのノードが前方に移動していた。追従できる座標として。アレアはそれに続き、ソレンとリラが側面にいるのを感じた。",
+          "text": "{{characters.elias.name}}のノードが前方に移動していた。追従できる座標として。{{characters.alea.name}}はそれに続き、{{characters.soren.name}}と{{characters.lyra.name}}が側面にいるのを感じた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -277,7 +277,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "エリアスが事前に復号化されたいくつかのノードを通過すると、コア暗号化レイヤーの構造を分析し始めた。",
+          "text": "{{characters.elias.name}}が事前に復号化されたいくつかのノードを通過すると、コア暗号化レイヤーの構造を分析し始めた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -310,7 +310,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "待て。あるパッケージがある。俺たちが復号化したものではなく――<em>送り込まれた</em>ものだ。",
           "reveal": {
             "mode": "typewriter",
@@ -325,7 +325,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "送り込まれた？",
           "reveal": {
             "mode": "typewriter",
@@ -340,7 +340,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "発信者 ID は乱数列で、フォーマットは見たことのないものだ。来源は既知のノードにはトレースできない。",
           "reveal": {
             "mode": "typewriter",
@@ -355,7 +355,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "だがこのパッケージの暗号化フォーマットは方舟の内部フォーマットだ。<em>極めて高い権限</em>を持つ終端だけがこの種のパッケージを発信できる。",
           "reveal": {
             "mode": "typewriter",
@@ -384,7 +384,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "エリアスは復号化を開始した。",
+          "text": "{{characters.elias.name}}は復号化を開始した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -433,7 +433,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "対象欄には一群の名前と精神シーケンス番号が列記されていた――ソレンは何人か認識していた。方舟上層の官員、議会席位の保有者、公開の場で年齢を口にしたことがない何人かの名前。",
+          "text": "対象欄には一群の名前と精神シーケンス番号が列記されていた――{{characters.soren.name}}は何人か認識していた。方舟上層の官員、議会席位の保有者、公開の場で年齢を口にしたことがない何人かの名前。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -498,7 +498,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "発見された。<em>直ちに切断しろ。</em>",
           "reveal": {
             "mode": "typewriter",
@@ -536,7 +536,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "アレアの視野が一瞬ぼやけて、耳鳴りが二秒続いた。",
+          "text": "{{characters.alea.name}}の視野が一瞬ぼやけて、耳鳴りが二秒続いた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -564,7 +564,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "エリアスはすべてのチップをバッグに掃き込み、画面を強制終了し、三人を振り向いた。",
+          "text": "{{characters.elias.name}}はすべてのチップをバッグに掃き込み、画面を強制終了し、三人を振り向いた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -578,7 +578,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "最高脅威レベル。セキュリティシステムは今、俺たちが何を見たかを知っている。",
           "reveal": {
             "mode": "typewriter",
@@ -593,7 +593,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "北へ。地下管道だ。東側はすぐに封鎖される。今、移動しろ。",
           "reveal": {
             "mode": "typewriter",

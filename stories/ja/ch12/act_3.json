@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren が去ろうとする時、Elias が後をついていった。",
+          "text": "{{characters.soren.name}} が去ろうとする時、{{characters.elias.name}} が後をついていった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼が同意していたからではなく、彼の顔には同意していないことが書かれていた。しかし彼はついていった。なぜなら、この瞬間に Soren を一人で行かせることの代償は、彼と一緒に行く代償より推測がつかないほど大きかったからだ。彼は一緒に歩きながら見ている必要があり、その極端な無回帰の端に来る前に、まだそこにいる必要があった。",
+          "text": "彼が同意していたからではなく、彼の顔には同意していないことが書かれていた。しかし彼はついていった。なぜなら、この瞬間に {{characters.soren.name}} を一人で行かせることの代償は、彼と一緒に行く代償より推測がつかないほど大きかったからだ。彼は一緒に歩きながら見ている必要があり、その極端な無回帰の端に来る前に、まだそこにいる必要があった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼が去る前に Lyra の側で立ち止まり、何も言わずただ一秒立っていた。その後、Soren の歩みに続いた。",
+          "text": "彼が去る前に {{characters.lyra.name}} の側で立ち止まり、何も言わずただ一秒立っていた。その後、{{characters.soren.name}} の歩みに続いた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -84,7 +84,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra はまだそこに膝をついていた。",
+          "text": "{{characters.lyra.name}} はまだそこに膝をついていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -112,7 +112,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra はそれらの音が消えるまで待った後、立ち上がった。",
+          "text": "{{characters.lyra.name}} はそれらの音が消えるまで待った後、立ち上がった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -182,7 +182,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は動かなかった。彼女はそのようにして、その冷たく砕けた体を抱きしめ、一人で、その何もない静寂の中で、底のない落下をしていた。",
+          "text": "{{characters.lyra.name}} は動かなかった。彼女はそのようにして、その冷たく砕けた体を抱きしめ、一人で、その何もない静寂の中で、底のない落下をしていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 8

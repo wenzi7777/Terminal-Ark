@@ -154,7 +154,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 走到了醫院門口的時候，第一輪轟炸落下來了。",
+          "text": "{{characters.lyra.name}} 走到了醫院門口的時候，第一輪轟炸落下來了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -395,7 +395,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 就在她身後。蹲著，看著她。眼神裡有什麼東西——不是憐憫，不是責備，是更深的、更直接的東西。像是透過什麼都穿過去，直接看見了她現在的樣子，然後還是留在這裡。",
+          "text": "{{characters.alea.name}} 就在她身後。蹲著，看著她。眼神裡有什麼東西——不是憐憫，不是責備，是更深的、更直接的東西。像是透過什麼都穿過去，直接看見了她現在的樣子，然後還是留在這裡。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -409,7 +409,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 和 Elias 跟在後面。三個人圍在她的旁邊，把她圍在中間。",
+          "text": "{{characters.soren.name}} 和 {{characters.elias.name}} 跟在後面。三個人圍在她的旁邊，把她圍在中間。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -423,7 +423,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "快起來，走。",
           "reveal": {
             "mode": "typewriter",
@@ -438,7 +438,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 看著他，然後看向 Alea，然後看向 Elias。",
+          "text": "{{characters.lyra.name}} 看著他，然後看向 {{characters.alea.name}}，然後看向 {{characters.elias.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -452,7 +452,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她的嘴唇動了一下，沒有說出任何話。但她把撐在地面上的手收回來，讓 Alea 扶著她的手臂，慢慢地站起了身。",
+          "text": "她的嘴唇動了一下，沒有說出任何話。但她把撐在地面上的手收回來，讓 {{characters.alea.name}} 扶著她的手臂，慢慢地站起了身。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -466,7 +466,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她的腿還是軟的。第一步差點沒有站穩。Alea 扶著她，她就靠著那個力道，走出了第二步，第三步。",
+          "text": "她的腿還是軟的。第一步差點沒有站穩。{{characters.alea.name}} 扶著她，她就靠著那個力道，走出了第二步，第三步。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14

@@ -64,7 +64,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "<em>Soren</em> leaned against a collapsed divider wall, clutching his pack to his chest, counting time in his head.",
+          "text": "<em>{{characters.soren.name}}</em> leaned against a collapsed divider wall, clutching his pack to his chest, counting time in his head.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -124,7 +124,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Three years and six months. His time on the lower decks in this body wasn't long, yet Soren had committed every corridor, every monitoring blind spot, every soldier's movement pattern to memory with absolute clarity.",
+          "text": "Three years and six months. His time on the lower decks in this body wasn't long, yet {{characters.soren.name}} had committed every corridor, every monitoring blind spot, every soldier's movement pattern to memory with absolute clarity.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -180,7 +180,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren had spent time on the middle decks. He knew that official language and actual intent were never the same thing.",
+          "text": "{{characters.soren.name}} had spent time on the middle decks. He knew that official language and actual intent were never the same thing.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -236,7 +236,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren stopped and looked up. The vent grate showed fresh scratches at its edge—made very recently.",
+          "text": "{{characters.soren.name}} stopped and looked up. The vent grate showed fresh scratches at its edge—made very recently.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -356,7 +356,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Keep up. Ask questions later.",
           "reveal": {
             "mode": "typewriter",

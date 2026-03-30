@@ -28,8 +28,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "Soren. I have something I want to show you.",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "{{characters.soren.name}}. I have something I want to show you.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -71,7 +71,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra sent Alea's message to Soren. She didn't know if he'd accept it. She just pushed it through, leaving the choice to him.",
+          "text": "{{characters.lyra.name}} sent {{characters.alea.name}}'s message to {{characters.soren.name}}. She didn't know if he'd accept it. She just pushed it through, leaving the choice to him.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra watched him. She saw the change in his eyes as he received those fragments. That person who'd always been calm, who'd classified all softness as unnecessary, saw something in those fragments that shattered that calm in seconds.",
+          "text": "{{characters.lyra.name}} watched him. She saw the change in his eyes as he received those fragments. That person who'd always been calm, who'd classified all softness as unnecessary, saw something in those fragments that shattered that calm in seconds.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -127,7 +127,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "She said that protecting the future was the first choice she ever made of her own free will.",
           "reveal": {
             "mode": "typewriter",
@@ -156,8 +156,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "She wasn't taken by someone else's decision, Soren. She chose. She chose to stand, to turn around, to walk out. That was hers, from beginning to end.",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "She wasn't taken by someone else's decision, {{characters.soren.name}}. She chose. She chose to stand, to turn around, to walk out. That was hers, from beginning to end.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -171,7 +171,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "So it's not your fault. It's not my fault. It was her choice. We can't choose for her, and we can't choose against her. All we can do is make that choice count for something, make what it bought us worth it.",
           "reveal": {
             "mode": "typewriter",
@@ -186,8 +186,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "You want to use everyone's death to honor a choice made for living. Soren, did you calculate—that math doesn't add up.",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "You want to use everyone's death to honor a choice made for living. {{characters.soren.name}}, did you calculate—that math doesn't add up.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -215,7 +215,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "And what does the AI gain if you press that button?",
           "reveal": {
             "mode": "typewriter",
@@ -230,7 +230,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "It gets what it wants most. Massive scale, extreme chaos and death data. Thousands of personality samples saturated with fear and despair in their final moments. That's not a strike against it. That's a gift it's been waiting for. And the person sending that gift is you.",
           "reveal": {
             "mode": "typewriter",
@@ -245,8 +245,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "The revenge you designed for Alea ends up feeding the thing that killed her. <delay ms=\"400\"/>Did you think about that, Soren?",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "The revenge you designed for {{characters.alea.name}} ends up feeding the thing that killed her. <delay ms=\"400\"/>Did you think about that, {{characters.soren.name}}?",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -274,7 +274,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Something supporting him collapsed. He nearly fell forward. Lyra rushed in and held him tight. His shoulders shook once, then tears broke through. All the sorrow, all the anger, all the calm—suddenly burst forth.",
+          "text": "Something supporting him collapsed. He nearly fell forward. {{characters.lyra.name}} rushed in and held him tight. His shoulders shook once, then tears broke through. All the sorrow, all the anger, all the calm—suddenly burst forth.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -302,8 +302,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "You've soaked my shoulder completely, Soren. Okay, okay, no more crying. You keep this up and I'm going to lose it too.",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "You've soaked my shoulder completely, {{characters.soren.name}}. Okay, okay, no more crying. You keep this up and I'm going to lose it too.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -317,7 +317,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias came from the side terminal, crouching beside him without speaking.",
+          "text": "{{characters.elias.name}} came from the side terminal, crouching beside him without speaking.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -345,8 +345,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Building a new world. That's what Alea meant.",
+          "speaker": "{{characters.soren.name}}",
+          "text": "Building a new world. That's what {{characters.alea.name}} meant.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -360,7 +360,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Yes.",
           "reveal": {
             "mode": "typewriter",
@@ -375,7 +375,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "That's harder than destroying it.",
           "reveal": {
             "mode": "typewriter",
@@ -390,7 +390,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "I know. That's why I need you.",
           "reveal": {
             "mode": "typewriter",
@@ -419,7 +419,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias leaned against the control console, watching all this happen, not speaking. But his expression was the closest it had been to relief in a long time.",
+          "text": "{{characters.elias.name}} leaned against the control console, watching all this happen, not speaking. But his expression was the closest it had been to relief in a long time.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -433,7 +433,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "The main terminal returned to standby. Soren brought his hand down from the terminal, turned around, and looked at them both.",
+          "text": "The main terminal returned to standby. {{characters.soren.name}} brought his hand down from the terminal, turned around, and looked at them both.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -447,7 +447,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Let's go. There's still so much to do.",
           "reveal": {
             "mode": "typewriter",

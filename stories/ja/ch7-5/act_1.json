@@ -57,7 +57,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias はその空間の最奥の隅に座っていた。",
+          "text": "{{characters.elias.name}} はその空間の最奥の隅に座っていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -85,7 +85,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "その沈黙の質感は彼の通常のものとは異なっていた。Lyra が彼の隣に座った時、もう感じ取っていた。",
+          "text": "その沈黙の質感は彼の通常のものとは異なっていた。{{characters.lyra.name}} が彼の隣に座った時、もう感じ取っていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -99,7 +99,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Mondris の都市で、全く同じ歩幅の個体を見たとき、ずっと考えていたことがあります。",
           "reveal": {
             "mode": "typewriter",
@@ -114,7 +114,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "その整然さが恐ろしく感じたのは、それが強大だからではなく、その整然さの中で<em>個体が消えて</em>いたから。消失ではなく、消滅。",
           "reveal": {
             "mode": "typewriter",
@@ -129,7 +129,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "その個体はまだそこにあり、歩き、動作しています。しかし、その中にあった——各人をそれ自身にさせたもの——それが消えてしまった。",
           "reveal": {
             "mode": "typewriter",
@@ -144,7 +144,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "消失とは、あったのが無くなること。消滅とは、まだあるが、もはやそうではないこと。消失より怖いと思います。",
           "reveal": {
             "mode": "typewriter",
@@ -159,7 +159,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "よく説明しましたね。",
           "reveal": {
             "mode": "typewriter",
@@ -174,7 +174,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "その拘留室の中で、何を考えていました。",
           "reveal": {
             "mode": "typewriter",
@@ -189,7 +189,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "君のことを考えていました。",
           "reveal": {
             "mode": "typewriter",
@@ -204,7 +204,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "地下工場の廊下で、私たちが入ってきたばかりの時、君は皆の表情が死に行く顔をしていると言いました。その時君は笑った。",
           "reveal": {
             "mode": "typewriter",
@@ -219,7 +219,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "あの白い部屋の中で、その笑いを思い出しました。もし私がアップロードしたら、その記憶はまだあるけれど、それはもう胸の中に感覚を起こさせるものではなくなる。それはただのデータになる。",
           "reveal": {
             "mode": "typewriter",
@@ -234,8 +234,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "そして Alea のことを思い出しました。シールドの外側で、彼女は人工兵士の中に歩み入り、私たちに背を向けていた。私はコーナーでシステムに接続し、彼女は時間を稼いでくれていた。",
+          "speaker": "{{characters.elias.name}}",
+          "text": "そして {{characters.alea.name}} のことを思い出しました。シールドの外側で、彼女は人工兵士の中に歩み入り、私たちに背を向けていた。私はコーナーでシステムに接続し、彼女は時間を稼いでくれていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -249,7 +249,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "誰かがあなたを支えてくれているから、その人を無駄にできないという感覚。それは評価ではなく、別のもの。アップロード後、それは消える。",
           "reveal": {
             "mode": "typewriter",
@@ -264,8 +264,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "そして Soren のことも。あの廊下で『ついてこい』と言った。その二つの言葉だけ。説明も条件もなかった。私はあの状況で見知らぬ人についていきました。今でもなぜそんなことをしたのか明確には説明できない。",
+          "speaker": "{{characters.elias.name}}",
+          "text": "そして {{characters.soren.name}} のことも。あの廊下で『ついてこい』と言った。その二つの言葉だけ。説明も条件もなかった。私はあの状況で見知らぬ人についていきました。今でもなぜそんなことをしたのか明確には説明できない。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -279,7 +279,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "しかし、私はついていった。そして、ここに着いた。",
           "reveal": {
             "mode": "typewriter",
@@ -294,7 +294,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "それらのものがない存在は望みません。たとえその存在がより強大で、永遠に続くことができても。",
           "reveal": {
             "mode": "typewriter",
@@ -309,7 +309,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "それらがなければ、その存在は私ではない。それは私の記憶で動作する別のもの。それは私ではない。",
           "reveal": {
             "mode": "typewriter",
@@ -324,7 +324,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は聞き終わっても、すぐには話しかけなかった。彼女はそれらの言葉をここに置いた。",
+          "text": "{{characters.lyra.name}} は聞き終わっても、すぐには話しかけなかった。彼女はそれらの言葉をここに置いた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -338,7 +338,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "そうですね。",
           "reveal": {
             "mode": "typewriter",
@@ -353,7 +353,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は彼女を一瞥したが、何も言わなかった。",
+          "text": "{{characters.elias.name}} は彼女を一瞥したが、何も言わなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14

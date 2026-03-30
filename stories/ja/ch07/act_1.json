@@ -86,7 +86,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は台座に立ち、その装置が自分の周りを回るのを見て、スキャン間隔を数えている。",
+          "text": "{{characters.elias.name}} は台座に立ち、その装置が自分の周りを回るのを見て、スキャン間隔を数えている。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -156,7 +156,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias はその声を部屋に消散させ、注意力を彼がしていることに戻す。",
+          "text": "{{characters.elias.name}} はその声を部屋に消散させ、注意力を彼がしていることに戻す。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22

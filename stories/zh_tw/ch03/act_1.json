@@ -67,7 +67,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "他們的臉出現在廣播螢幕上的時候，Lyra 正在啃一塊壓縮乾糧。",
+          "text": "他們的臉出現在廣播螢幕上的時候，{{characters.lyra.name}} 正在啃一塊壓縮乾糧。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -95,7 +95,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "最高通緝等級。意味著所有登記在冊的居民都有義務舉報，懸賞金額是普通居民三個月的口糧配給。",
           "reveal": {
             "mode": "typewriter",
@@ -110,7 +110,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "三個月。出賣我們的誘因相當充足。",
           "reveal": {
             "mode": "typewriter",
@@ -125,7 +125,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "黑市。黑市的人不會舉報，因為他們自己也在通緝名單裡，互相舉報是兩敗俱傷。",
           "reveal": {
             "mode": "typewriter",
@@ -140,7 +140,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "正確。而且黑市有我們需要的情報——知道哪條路還沒被封鎖，哪個檢查站的士兵可以被收買，哪裡有臨時的藏身點。",
           "reveal": {
             "mode": "typewriter",
@@ -169,7 +169,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "今天日落前完成情報蒐集，明天一早換位置。這個據點已經不安全了。",
           "reveal": {
             "mode": "typewriter",
@@ -212,7 +212,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 把路線規劃分成三段，每一段指定集合點。如果中途走散，在集合點等候一段時間，超過就各自撤退。",
+          "text": "{{characters.soren.name}} 把路線規劃分成三段，每一段指定集合點。如果中途走散，在集合點等候一段時間，超過就各自撤退。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -226,7 +226,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 把壓縮乾糧的最後一口吞下去，拍了拍手上的碎屑站起來，往門口走了兩步，回頭看了看另外三個人。",
+          "text": "{{characters.lyra.name}} 把壓縮乾糧的最後一口吞下去，拍了拍手上的碎屑站起來，往門口走了兩步，回頭看了看另外三個人。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -240,7 +240,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "大家的表情都好像在去送死一樣。<delay ms=\"400\"/>放鬆一點，我們才剛開始呢。",
           "reveal": {
             "mode": "typewriter",
@@ -269,7 +269,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "穿越第一段路的時候，Soren 的判斷精準到讓 Elias 側目。巡邏隊的腳步聲剛在轉角消失，他們就已經穿過了路口，貼著牆壁滑進下一條走廊，動作之間幾乎沒有多餘的停頓。",
+          "text": "穿越第一段路的時候，{{characters.soren.name}} 的判斷精準到讓 {{characters.elias.name}} 側目。巡邏隊的腳步聲剛在轉角消失，他們就已經穿過了路口，貼著牆壁滑進下一條走廊，動作之間幾乎沒有多餘的停頓。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -283,7 +283,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "第二段路遇到了一個臨時增設的哨站，Soren 提前兩個路口察覺，繞了一段遠路，損失的時間控制在可以接受的範圍內。",
+          "text": "第二段路遇到了一個臨時增設的哨站，{{characters.soren.name}} 提前兩個路口察覺，繞了一段遠路，損失的時間控制在可以接受的範圍內。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24

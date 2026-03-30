@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "<em>Alea</em> stepped through a puddle and disappeared into the narrow corridor.",
+          "text": "<em>{{characters.alea.name}}</em> stepped through a puddle and disappeared into the narrow corridor.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -169,7 +169,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "This was the entirety of Alea's existence on the lower decks for <em>eleven years</em>.",
+          "text": "This was the entirety of {{characters.alea.name}}'s existence on the lower decks for <em>eleven years</em>.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -293,7 +293,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "This rule had never been broken here—<delay ms=\"600\"/>except for Alea.",
+          "text": "This rule had never been broken here—<delay ms=\"600\"/>except for {{characters.alea.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -363,7 +363,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea stopped in front of a half-open iron door.",
+          "text": "{{characters.alea.name}} stopped in front of a half-open iron door.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20

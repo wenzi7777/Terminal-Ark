@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "拠点の別の隅で、Soren は彼のノートを整理していた。",
+          "text": "拠点の別の隅で、{{characters.soren.name}} は彼のノートを整理していた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias がいつ彼の側に座ったのか、Soren は気づかなかった。気づいた時は、その人物はすでに脇の壁に寄りかかっていた。手には受信機を持たず、パーツを分解もしていない。ただそこに座っている。",
+          "text": "{{characters.elias.name}} がいつ彼の側に座ったのか、{{characters.soren.name}} は気づかなかった。気づいた時は、その人物はすでに脇の壁に寄りかかっていた。手には受信機を持たず、パーツを分解もしていない。ただそこに座っている。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -70,7 +70,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "お前の父親はどんな人だったと思う？",
           "reveal": {
             "mode": "typewriter",
@@ -85,7 +85,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "考えたことない。",
           "reveal": {
             "mode": "typewriter",
@@ -100,7 +100,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "俺は考えたことがある。子どもの頃、彼は俺の父親だった。毎日仕事に行って、戻ってきて、時々何か持ってくる。時々何も持ってこない。それだけだ。",
           "reveal": {
             "mode": "typewriter",
@@ -115,7 +115,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は何も言わず、ページをめくり続けたが、速度が少し落ちた。",
+          "text": "{{characters.soren.name}} は何も言わず、ページをめくり続けたが、速度が少し落ちた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -129,7 +129,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "その後彼は消えた。中層甲板の人間は普通そんなことにはならない。だからずっと待ってた。その後、待つのをやめた。",
           "reveal": {
             "mode": "typewriter",
@@ -144,7 +144,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "それからは物を分解したり組み立てたり、彼が残したものを漁ったり、データの断片を解読したり。理解できるかもしれないものを見つけた。",
           "reveal": {
             "mode": "typewriter",
@@ -159,7 +159,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "父が消える一日前、システムログに接続が意図的に切断された記録がある。その接続が何なのか、俺は知らない。",
           "reveal": {
             "mode": "typewriter",
@@ -174,7 +174,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren はすぐに答えなかった。",
+          "text": "{{characters.soren.name}} はすぐに答えなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -188,7 +188,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "それが彼の仕業だったか、失踪と関係があったかもしれない。かもしれない。",
           "reveal": {
             "mode": "typewriter",
@@ -203,7 +203,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren はノートを閉じ、膝の上に置き、Elias を見た。",
+          "text": "{{characters.soren.name}} はノートを閉じ、膝の上に置き、{{characters.elias.name}} を見た。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -217,7 +217,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "それは彼が滅多にしないこと。その視線は通常、地図上か、ノート上か、何らかの評価可能なものの上にある。だが今は Elias を見ていた。しばらく。",
+          "text": "それは彼が滅多にしないこと。その視線は通常、地図上か、ノート上か、何らかの評価可能なものの上にある。だが今は {{characters.elias.name}} を見ていた。しばらく。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -231,7 +231,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "知らないことが、時には知っていることより扱いやすい。",
           "reveal": {
             "mode": "typewriter",
@@ -246,7 +246,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "知らない部分を埋めなければ、壊れない。<delay ms=\"400\"/>埋めたら、壊れる。",
           "reveal": {
             "mode": "typewriter",
@@ -275,7 +275,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "これが評価結果ではない言葉を聞くのは、初めてだ。",
           "reveal": {
             "mode": "typewriter",
@@ -290,7 +290,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "何を言ってるのか、知らない。",
           "reveal": {
             "mode": "typewriter",
@@ -305,7 +305,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "お前が言ったことだ。",
           "reveal": {
             "mode": "typewriter",
@@ -320,7 +320,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "それは論理的推演だ。",
           "reveal": {
             "mode": "typewriter",
@@ -335,7 +335,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "それは慰めだ。",
           "reveal": {
             "mode": "typewriter",
@@ -350,7 +350,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "聞き間違えた。",
           "reveal": {
             "mode": "typewriter",
@@ -365,7 +365,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "聞き間違えてない。",
           "reveal": {
             "mode": "typewriter",
@@ -394,8 +394,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "ありがとう、Soren。",
+          "speaker": "{{characters.elias.name}}",
+          "text": "ありがとう、{{characters.soren.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -409,7 +409,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "何にお礼を言ってるのか、知らない。",
           "reveal": {
             "mode": "typewriter",
@@ -438,7 +438,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "外では Alea と Lyra が暗闇を守っている。こちら側では Soren がノートをめくり、Elias は壁に寄りかかって目を閉じる。",
+          "text": "外では {{characters.alea.name}} と {{characters.lyra.name}} が暗闇を守っている。こちら側では {{characters.soren.name}} がノートをめくり、{{characters.elias.name}} は壁に寄りかかって目を閉じる。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

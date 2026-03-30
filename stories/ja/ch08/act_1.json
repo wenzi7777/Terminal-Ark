@@ -128,7 +128,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "はい。",
           "reveal": {
             "mode": "typewriter",
@@ -172,7 +172,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は他の三人に目配せし、後をついていきました。",
+          "text": "{{characters.soren.name}} は他の三人に目配せし、後をついていきました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -235,7 +235,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "あれは——<delay ms=\"400\"/>魂ですか？",
           "reveal": {
             "mode": "typewriter",
@@ -265,7 +265,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "彼らはまだ意識がありますか。<delay ms=\"400\"/>それともデータだけですか。",
           "reveal": {
             "mode": "typewriter",

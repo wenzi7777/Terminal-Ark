@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra discovered it first.",
+          "text": "{{characters.lyra.name}} discovered it first.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "She drew a grid on the ground with stones. Two people took turns placing stones in the grid, and the first to form a line won. She explained the rules, then looked toward Alea.",
+          "text": "She drew a grid on the ground with stones. Two people took turns placing stones in the grid, and the first to form a line won. She explained the rules, then looked toward {{characters.alea.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Do you know how? This one or any other? Is there something you usually play?",
           "reveal": {
             "mode": "typewriter",
@@ -71,7 +71,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea was silent for a moment. That silence made Lyra realize she'd asked a question she wasn't prepared for.",
+          "text": "{{characters.alea.name}} was silent for a moment. That silence made {{characters.lyra.name}} realize she'd asked a question she wasn't prepared for.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -85,7 +85,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "No. I don't know how to play. I've never learned any games. There wasn't time for things like that on the lower decks.",
           "reveal": {
             "mode": "typewriter",
@@ -100,7 +100,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra watched her, let that sentence settle. She didn't let the weight show on her face.",
+          "text": "{{characters.lyra.name}} watched her, let that sentence settle. She didn't let the weight show on her face.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -114,7 +114,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Then I'll teach you. Start with this one—it's the simplest.",
           "reveal": {
             "mode": "typewriter",
@@ -129,7 +129,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "She explained the rules again, more slowly this time, more clearly. When she finished, she placed a handful of small stones in front of Alea.",
+          "text": "She explained the rules again, more slowly this time, more clearly. When she finished, she placed a handful of small stones in front of {{characters.alea.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -143,7 +143,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Your turn first.",
           "reveal": {
             "mode": "typewriter",
@@ -158,7 +158,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea looked down at the grid, watched for a moment, then placed a stone.",
+          "text": "{{characters.alea.name}} looked down at the grid, watched for a moment, then placed a stone.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -172,7 +172,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "She lost that round quickly. After Lyra formed a line, Alea looked at the result without speaking, cleared the stones, and reset them.",
+          "text": "She lost that round quickly. After {{characters.lyra.name}} formed a line, {{characters.alea.name}} looked at the result without speaking, cleared the stones, and reset them.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -186,7 +186,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Again.",
           "reveal": {
             "mode": "typewriter",
@@ -201,7 +201,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "She lost again, this time taking longer. On the third move, she sensed Lyra's intention and tried to block, but blocked in the wrong direction.",
+          "text": "She lost again, this time taking longer. On the third move, she sensed {{characters.lyra.name}}'s intention and tried to block, but blocked in the wrong direction.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -215,7 +215,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Again.",
           "reveal": {
             "mode": "typewriter",
@@ -230,7 +230,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra began to notice something in the process. Alea watched every game not for the result, but for each move. She watched where Lyra placed her stone at each critical moment, studied the logic behind that choice. She was dismantling that logic, then trying again.",
+          "text": "{{characters.lyra.name}} began to notice something in the process. {{characters.alea.name}} watched every game not for the result, but for each move. She watched where {{characters.lyra.name}} placed her stone at each critical moment, studied the logic behind that choice. She was dismantling that logic, then trying again.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -258,7 +258,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Then Lyra noticed her expression.",
+          "text": "Then {{characters.lyra.name}} noticed her expression.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -300,7 +300,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra watched that expression, and her stone slipped from her hand.",
+          "text": "{{characters.lyra.name}} watched that expression, and her stone slipped from her hand.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -328,7 +328,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "You won.",
           "reveal": {
             "mode": "typewriter",
@@ -343,7 +343,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea looked at the completed line, fell silent for a moment. Her expression didn't change, but something flickered in her eyes, very subtle, very brief.",
+          "text": "{{characters.alea.name}} looked at the completed line, fell silent for a moment. Her expression didn't change, but something flickered in her eyes, very subtle, very brief.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -357,7 +357,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Again.",
           "reveal": {
             "mode": "typewriter",
@@ -372,7 +372,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Don't you want to celebrate?",
           "reveal": {
             "mode": "typewriter",
@@ -387,7 +387,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Again.",
           "reveal": {
             "mode": "typewriter",
@@ -402,7 +402,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra laughed and cleared the stones. Again. She was serious this time, no distractions. She won that round, then Alea won the next, then they tied.",
+          "text": "{{characters.lyra.name}} laughed and cleared the stones. Again. She was serious this time, no distractions. She won that round, then {{characters.alea.name}} won the next, then they tied.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -416,7 +416,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "I'm joining.",
           "reveal": {
             "mode": "typewriter",
@@ -431,7 +431,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "This game is for two people.",
           "reveal": {
             "mode": "typewriter",
@@ -446,7 +446,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Then I'll wait.",
           "reveal": {
             "mode": "typewriter",
@@ -461,7 +461,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "We could create a three-person version.",
           "reveal": {
             "mode": "typewriter",
@@ -476,7 +476,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "I don't know the three-person version.",
           "reveal": {
             "mode": "typewriter",
@@ -491,7 +491,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "That's fine, I'll figure it out.",
           "reveal": {
             "mode": "typewriter",
@@ -506,7 +506,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Think out loud and explain while I sit down.",
           "reveal": {
             "mode": "typewriter",
@@ -521,7 +521,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea watched the two of them without speaking. But she moved her stones aside slightly, creating space.",
+          "text": "{{characters.alea.name}} watched the two of them without speaking. But she moved her stones aside slightly, creating space.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -535,7 +535,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "That space was just enough for Elias to sit in.",
+          "text": "That space was just enough for {{characters.elias.name}} to sit in.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14

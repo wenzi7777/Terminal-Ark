@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "もしこの全てが終わったら、<delay ms=\"400\"/>あなたたちは何をしたいですか。",
           "reveal": {
             "mode": "typewriter",
@@ -85,7 +85,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "考えたことがありません。",
           "reveal": {
             "mode": "typewriter",
@@ -114,7 +114,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "多くの場所に行きたいです。行ったことのない場所を全部回りたいです。任務を持たずに、ただ歩いて、その場所がどのようなのか見て、何か食べられるものがあるか探して、その場所の人と話して、その次の場所へ歩いていく。",
           "reveal": {
             "mode": "typewriter",
@@ -129,7 +129,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Apollo にはどんな場所があるのか知りたいです。廃墟ではなく、戦場ではなく。人が暮らしている普通の場所。そんな場所がまだあるはずです。",
           "reveal": {
             "mode": "typewriter",
@@ -144,7 +144,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "あるはずです。あなたが言う場所はあるはずです。",
           "reveal": {
             "mode": "typewriter",
@@ -159,7 +159,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "彼が最後にいた場所を見つけたいです。",
           "reveal": {
             "mode": "typewriter",
@@ -188,7 +188,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "何かを聞くのではなく、答えを探すのではなく。ただその場所を見たいです。その人が接続を切った場所、最後はどのような場所だったのか。私はその場所がどのようなのか知りたい。",
           "reveal": {
             "mode": "typewriter",
@@ -203,7 +203,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "その後、皆は Alea を見ました。",
+          "text": "その後、皆は {{characters.alea.name}} を見ました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -217,7 +217,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "知りません。この質問について考えたことがありません。",
           "reveal": {
             "mode": "typewriter",
@@ -232,7 +232,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "下層甲板の時、考えていたのは今日。ただ今日。この1日が過ぎるかどうか、次の食事がどこか、対処する必要があることがあるかどうか。",
           "reveal": {
             "mode": "typewriter",
@@ -247,7 +247,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "終わりの後について考えたことがありません。なぜなら終わりが何かわかりません。終わりというものがあるかどうか確信さえできません。",
           "reveal": {
             "mode": "typewriter",
@@ -262,7 +262,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "しかし。<delay ms=\"500\"/>歩き続けたいです。",
           "reveal": {
             "mode": "typewriter",
@@ -277,7 +277,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "ただ歩き続ける。行ったことのない場所へ、見たことのないものを見る。荒野で多くのものを見ました。それは方舟にいた時は存在しないことすら知りませんでした。",
           "reveal": {
             "mode": "typewriter",
@@ -292,7 +292,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "何のためではなく。ただ歩いて、見て、それのものがそこにあること、私が見たことがあることを知る。",
           "reveal": {
             "mode": "typewriter",
@@ -307,7 +307,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "では、一緒にしましょう。",
           "reveal": {
             "mode": "typewriter",
@@ -322,7 +322,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は黙り、頭を軽く一度頷きました。その頷きは小さく、ただ一度。",
+          "text": "{{characters.alea.name}} は黙り、頭を軽く一度頷きました。その頷きは小さく、ただ一度。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -336,8 +336,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "僕も一緒。Soren はどう。",
+          "speaker": "{{characters.elias.name}}",
+          "text": "僕も一緒。{{characters.soren.name}} はどう。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -351,7 +351,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "その経路は事前計画が必要です。",
           "reveal": {
             "mode": "typewriter",
@@ -366,7 +366,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "それは君の一緒。",
           "reveal": {
             "mode": "typewriter",
@@ -381,7 +381,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は黙り、否定しませんでした。Lyra はその隣で再び笑い、その笑い声は昼間のものと同じで、澄み切った、不適切な、そして完全に適切。",
+          "text": "{{characters.soren.name}} は黙り、否定しませんでした。{{characters.lyra.name}} はその隣で再び笑い、その笑い声は昼間のものと同じで、澄み切った、不適切な、そして完全に適切。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

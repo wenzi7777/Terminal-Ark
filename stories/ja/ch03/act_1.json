@@ -67,7 +67,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼らの顔が放送スクリーンに現れた時、リラは圧縮レーションを食べていた。",
+          "text": "彼らの顔が放送スクリーンに現れた時、{{characters.lyra.name}}は圧縮レーションを食べていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -95,7 +95,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "最高手配等級。つまりすべての登録居民に報告義務があり、懸賞金は一般居民三ヶ月分の食糧配給だ。",
           "reveal": {
             "mode": "typewriter",
@@ -110,7 +110,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "三ヶ月分。俺たちを売る誘因は十分だ。",
           "reveal": {
             "mode": "typewriter",
@@ -125,7 +125,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "ブラックマーケット。ブラックマーケットの人間は報告しない。自分たちも手配中だからな。互いに通報し合えば両者そんして損する。",
           "reveal": {
             "mode": "typewriter",
@@ -140,7 +140,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "正解。そしてブラックマーケットには必要な情報がある――どの道がまだ封鎖されていないか、どのチェックポイントの兵士が買収できるか、どこに一時的な隠れ場所があるか。",
           "reveal": {
             "mode": "typewriter",
@@ -169,7 +169,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "日没前に情報収集を完了。明日の早朝に拠点を変更する。ここはもう安全ではない。",
           "reveal": {
             "mode": "typewriter",
@@ -212,7 +212,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "ソレンは経路を三段階に分割し、各段階に集合地点を指定した。途中で散らばっても、集合地点で待機する。期限を超えたら各自撤退。",
+          "text": "{{characters.soren.name}}は経路を三段階に分割し、各段階に集合地点を指定した。途中で散らばっても、集合地点で待機する。期限を超えたら各自撤退。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -226,7 +226,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "リラは圧縮レーションの最後を飲み込み、手についた屑を払って立ち上がり、ドアの方へ二歩歩いて、振り返って他の三人を見た。",
+          "text": "{{characters.lyra.name}}は圧縮レーションの最後を飲み込み、手についた屑を払って立ち上がり、ドアの方へ二歩歩いて、振り返って他の三人を見た。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -240,8 +240,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "みんなの顔つきが、死地に向かうみたいだ。<delay ms=\"400\"/>リラックスして。俺たちはまだ始まったばかりだからな。",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "みんなの顔つきが、死地に向かうみたいだ。<delay ms=\"400\"/>{{characters.lyra.name}}ックスして。俺たちはまだ始まったばかりだからな。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -269,7 +269,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "第一段路を横断する時、ソレンの判断は正確で、エリアスは目を見張った。巡邏隊の足音が角を曲がるとすぐに、彼らは既に路地を渡り、壁に沿って次の廊下に滑り込んでいた。動きの間に不要な停止がほとんどなかった。",
+          "text": "第一段路を横断する時、{{characters.soren.name}}の判断は正確で、{{characters.elias.name}}は目を見張った。巡邏隊の足音が角を曲がるとすぐに、彼らは既に路地を渡り、壁に沿って次の廊下に滑り込んでいた。動きの間に不要な停止がほとんどなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -283,7 +283,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "第二段路は一つの臨時的に設置された哨所に遭遇した。ソレンは二つ前の路地で気づいて、遠回りをした。失われた時間は許容範囲内に抑えられた。",
+          "text": "第二段路は一つの臨時的に設置された哨所に遭遇した。{{characters.soren.name}}は二つ前の路地で気づいて、遠回りをした。失われた時間は許容範囲内に抑えられた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24

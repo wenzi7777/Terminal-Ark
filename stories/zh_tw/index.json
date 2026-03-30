@@ -264,7 +264,7 @@
         },
         {
           "id": "8-2",
-          "title": "第二幕：Lyra 的代碼",
+          "title": "第二幕：{{characters.lyra.name}} 的代碼",
           "file": "ch08/act_2.json",
           "onComplete": ["reward", "complete"]
         },
@@ -364,7 +364,7 @@
         },
         {
           "id": "11-2",
-          "title": "第二幕：Alea 的決意",
+          "title": "第二幕：{{characters.alea.name}} 的決意",
           "file": "ch11/act_2.json",
           "onComplete": ["reward", "complete"]
         },
@@ -414,7 +414,7 @@
         },
         {
           "id": "13-2",
-          "title": "第二幕：Elias 的阻攔",
+          "title": "第二幕：{{characters.elias.name}} 的阻攔",
           "file": "ch13/act_2.json",
           "onComplete": ["reward", "complete"]
         },

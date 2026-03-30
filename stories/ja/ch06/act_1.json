@@ -120,7 +120,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "連中は俺たちがここにいることを知ってる。だが俺たちは連中の現在のタスク・リストに入ってない。だから処置の対象にはならない。",
           "reveal": {
             "mode": "typewriter",
@@ -135,7 +135,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "では俺たちは何のリストに入ってるんだ？",
           "reveal": {
             "mode": "typewriter",
@@ -150,7 +150,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "監視。あるいはレコーディング。この都市のあらゆる隅がデータを収集してる。俺たちは進入した瞬間からデータの一部だ。",
           "reveal": {
             "mode": "typewriter",
@@ -165,7 +165,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "だが収集は干渉を意味しない。俺たちは評価が完了するまで<em>中性の変数</em>だ。",
           "reveal": {
             "mode": "typewriter",
@@ -194,7 +194,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "その動きは固定周波数で、金属の脚が金属の地面に踏み鳴らす音は拍子木のように整然としていた。Lyra と Alea の間の隙間を通り抜け、二人それぞれまで半歩未満の距離。",
+          "text": "その動きは固定周波数で、金属の脚が金属の地面に踏み鳴らす音は拍子木のように整然としていた。{{characters.lyra.name}} と {{characters.alea.name}} の間の隙間を通り抜け、二人それぞれまで半歩未満の距離。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -222,7 +222,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra はその個体が遠ざかるのを見つめて、何も言わなかった。",
+          "text": "{{characters.lyra.name}} はその個体が遠ざかるのを見つめて、何も言わなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -278,7 +278,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea の視線がそれらの建造物の中で止まり、それから回収された。それから前へ進む。",
+          "text": "{{characters.alea.name}} の視線がそれらの建造物の中で止まり、それから回収された。それから前へ進む。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20

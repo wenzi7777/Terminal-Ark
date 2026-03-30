@@ -43,7 +43,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias spent four hours decrypting the classified files from the central data center.",
+          "text": "{{characters.elias.name}} spent four hours decrypting the classified files from the central data center.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -57,7 +57,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren assisted him at his side. Between them, words were barely necessary. That unspoken understanding, honed through months of traveling together, had evolved into something approaching instinct—when one hit a wall, the other was already thinking three steps ahead.",
+          "text": "{{characters.soren.name}} assisted him at his side. Between them, words were barely necessary. That unspoken understanding, honed through months of traveling together, had evolved into something approaching instinct—when one hit a wall, the other was already thinking three steps ahead.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -71,7 +71,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra maintained a perimeter around the control room. The Ark's defense systems had stabilized after Soren rescinded that destruction directive, but several squads of artificial soldiers still patrolled the corridors. She had memorized their routes, moving through each patrol window's gap, giving the two men inside enough time to complete what needed to be done.",
+          "text": "{{characters.lyra.name}} maintained a perimeter around the control room. The Ark's defense systems had stabilized after {{characters.soren.name}} rescinded that destruction directive, but several squads of artificial soldiers still patrolled the corridors. She had memorized their routes, moving through each patrol window's gap, giving the two men inside enough time to complete what needed to be done.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -85,7 +85,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Done.",
           "reveal": {
             "mode": "typewriter",
@@ -100,7 +100,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "The broadcast system. NUTA's main terminal can reach everything within the Ark, plus every accessible frequency within three hundred kilometers beyond the shield, including both Wasteland nations' communication nodes.",
           "reveal": {
             "mode": "typewriter",
@@ -115,7 +115,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Three hundred kilometers. That's enough.",
           "reveal": {
             "mode": "typewriter",
@@ -144,7 +144,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Do either of you have anything to say? Before this goes out.",
           "reveal": {
             "mode": "typewriter",
@@ -159,7 +159,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra emerged from the corridor and stood at the control room entrance. She looked at the screen, then at Elias, then at Soren.",
+          "text": "{{characters.lyra.name}} emerged from the corridor and stood at the control room entrance. She looked at the screen, then at {{characters.elias.name}}, then at {{characters.soren.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -173,7 +173,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Nothing. Go ahead.",
           "reveal": {
             "mode": "typewriter",
@@ -188,7 +188,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias pressed the button.",
+          "text": "{{characters.elias.name}} pressed the button.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12

@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "是 Lyra 先發現的。",
+          "text": "是 {{characters.lyra.name}} 先發現的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她在地上用石頭畫格子。兩個人輪流在格子裡放石頭，先連成一條線的人贏。她把規則說了一遍，然後看向 Alea。",
+          "text": "她在地上用石頭畫格子。兩個人輪流在格子裡放石頭，先連成一條線的人贏。她把規則說了一遍，然後看向 {{characters.alea.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "你會嗎，這個或者其他的。有什麼你平時在玩的嗎。",
           "reveal": {
             "mode": "typewriter",
@@ -71,7 +71,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 沉默了一下。那個沉默讓 Lyra 意識到她問了一個她沒有預料到的問題。",
+          "text": "{{characters.alea.name}} 沉默了一下。那個沉默讓 {{characters.lyra.name}} 意識到她問了一個她沒有預料到的問題。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -85,7 +85,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "沒有。我不知道怎麼玩。沒有學過任何一種遊戲。在下層甲板的時候沒有時間玩這種東西。",
           "reveal": {
             "mode": "typewriter",
@@ -100,7 +100,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 看著她，讓那句話在她這裡停了一下。沒有讓那個重量在臉上顯示出來。",
+          "text": "{{characters.lyra.name}} 看著她，讓那句話在她這裡停了一下。沒有讓那個重量在臉上顯示出來。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -114,7 +114,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "那我教你。從這個開始，最簡單。",
           "reveal": {
             "mode": "typewriter",
@@ -129,7 +129,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她把規則重新說了一遍，比第一次說得更慢，更清楚。說完，把一把小石頭放到 Alea 面前。",
+          "text": "她把規則重新說了一遍，比第一次說得更慢，更清楚。說完，把一把小石頭放到 {{characters.alea.name}} 面前。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -143,7 +143,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "你先。",
           "reveal": {
             "mode": "typewriter",
@@ -158,7 +158,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 低頭看著那個格子。看了一下，把一顆石頭放進去。",
+          "text": "{{characters.alea.name}} 低頭看著那個格子。看了一下，把一顆石頭放進去。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -172,7 +172,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她輸了那一盤，輸得很快。Lyra 連成一線之後，Alea 看著那個結果，沒有說話，把格子裡的石頭清掉，重新擺好。",
+          "text": "她輸了那一盤，輸得很快。{{characters.lyra.name}} 連成一線之後，{{characters.alea.name}} 看著那個結果，沒有說話，把格子裡的石頭清掉，重新擺好。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -186,7 +186,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "再來。",
           "reveal": {
             "mode": "typewriter",
@@ -201,7 +201,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她又輸了，輸得比第一次慢一點。她在第三步的時候察覺了 Lyra 的意圖，試圖擋住，但她擋的方向錯了。",
+          "text": "她又輸了，輸得比第一次慢一點。她在第三步的時候察覺了 {{characters.lyra.name}} 的意圖，試圖擋住，但她擋的方向錯了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -215,7 +215,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "再來。",
           "reveal": {
             "mode": "typewriter",
@@ -230,7 +230,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 在這個過程裡開始注意到一件事。Alea 每一盤都在看，不是看輸贏，是看每一步。看 Lyra 在每一個時機點選擇的位置，看那個選擇背後的邏輯。她在拆那個邏輯，拆完，重新試。",
+          "text": "{{characters.lyra.name}} 在這個過程裡開始注意到一件事。{{characters.alea.name}} 每一盤都在看，不是看輸贏，是看每一步。看 {{characters.lyra.name}} 在每一個時機點選擇的位置，看那個選擇背後的邏輯。她在拆那個邏輯，拆完，重新試。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -258,7 +258,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "然後 Lyra 注意到她的表情。",
+          "text": "然後 {{characters.lyra.name}} 注意到她的表情。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -300,7 +300,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 看著那個表情，手裡的石頭放了下去。",
+          "text": "{{characters.lyra.name}} 看著那個表情，手裡的石頭放了下去。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -328,7 +328,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "你贏了。",
           "reveal": {
             "mode": "typewriter",
@@ -343,7 +343,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 看著那個連成一線的格子，沉默了一下。她的表情沒有變，但有什麼東西在她眼睛裡動了一下，很細微的，很短暫的。",
+          "text": "{{characters.alea.name}} 看著那個連成一線的格子，沉默了一下。她的表情沒有變，但有什麼東西在她眼睛裡動了一下，很細微的，很短暫的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -357,7 +357,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "再來。",
           "reveal": {
             "mode": "typewriter",
@@ -372,7 +372,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "你不想慶祝一下嗎。",
           "reveal": {
             "mode": "typewriter",
@@ -387,7 +387,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "再來。",
           "reveal": {
             "mode": "typewriter",
@@ -402,7 +402,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 笑了，把石頭清掉。再來。她這次認真了，沒有分心。她最後贏了那盤，然後 Alea 贏了下一盤，然後她們打成平手。",
+          "text": "{{characters.lyra.name}} 笑了，把石頭清掉。再來。她這次認真了，沒有分心。她最後贏了那盤，然後 {{characters.alea.name}} 贏了下一盤，然後她們打成平手。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -416,7 +416,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "我要加入。",
           "reveal": {
             "mode": "typewriter",
@@ -431,7 +431,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "這個遊戲只能兩個人。",
           "reveal": {
             "mode": "typewriter",
@@ -446,7 +446,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "那就等著。",
           "reveal": {
             "mode": "typewriter",
@@ -461,7 +461,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "我們可以換一個三個人的玩法。",
           "reveal": {
             "mode": "typewriter",
@@ -476,7 +476,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "我不知道三個人的玩法。",
           "reveal": {
             "mode": "typewriter",
@@ -491,7 +491,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "沒關係我來想。",
           "reveal": {
             "mode": "typewriter",
@@ -506,7 +506,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "妳邊想邊說等我坐下來。",
           "reveal": {
             "mode": "typewriter",
@@ -521,7 +521,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 看著這兩個人，沒有說話。但她把自己面前的石頭往旁邊移了一點，讓出了一個空間。",
+          "text": "{{characters.alea.name}} 看著這兩個人，沒有說話。但她把自己面前的石頭往旁邊移了一點，讓出了一個空間。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -535,7 +535,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "那個空間剛好夠 Elias 坐進來。",
+          "text": "那個空間剛好夠 {{characters.elias.name}} 坐進來。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14

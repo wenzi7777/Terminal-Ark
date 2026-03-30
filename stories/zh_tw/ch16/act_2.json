@@ -84,7 +84,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "前線的情況是 Soren 在控制室的監控螢幕上看見的。",
+          "text": "前線的情況是 {{characters.soren.name}} 在控制室的監控螢幕上看見的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -98,7 +98,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Solmaris 和 Mondris 的前線部隊，那些正在對方舟發動攻勢的士兵，在廣播覆蓋到他們的通訊設備之後，出現了一個 Soren 從來沒有在任何戰術推演裡見過的情況——他們停下來了。不是被擊退，不是戰略性撤退，是靜止。是一種在接收到某個信息之後、需要重新處理這個信息之後才能繼續動作的靜止。",
+          "text": "Solmaris 和 Mondris 的前線部隊，那些正在對方舟發動攻勢的士兵，在廣播覆蓋到他們的通訊設備之後，出現了一個 {{characters.soren.name}} 從來沒有在任何戰術推演裡見過的情況——他們停下來了。不是被擊退，不是戰略性撤退，是靜止。是一種在接收到某個信息之後、需要重新處理這個信息之後才能繼續動作的靜止。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -182,7 +182,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "那個反應是 Elias 最先注意到的。他在監控螢幕上看見了那些無人機群，那些他們在荒原的鐵板地上被凝視過的無人機，它們的飛行路線在廣播送出後的某個時間點開始出現異常。那種精確的、計算過的飛行模式開始產生不規則的偏差，像是一個方程式的某個關鍵變數被移除之後，整個計算的輸出開始出現它不應該出現的亂碼。",
+          "text": "那個反應是 {{characters.elias.name}} 最先注意到的。他在監控螢幕上看見了那些無人機群，那些他們在荒原的鐵板地上被凝視過的無人機，它們的飛行路線在廣播送出後的某個時間點開始出現異常。那種精確的、計算過的飛行模式開始產生不規則的偏差，像是一個方程式的某個關鍵變數被移除之後，整個計算的輸出開始出現它不應該出現的亂碼。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -196,7 +196,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "它的模型裡有一個假設。人類會持續自相殘殺，只要給予足夠的條件，那個過程就會繼續提供它需要的數據。它的採集計劃、它的模型訓練、它的所有下一步，都建立在那個假設上。",
           "reveal": {
             "mode": "typewriter",
@@ -211,7 +211,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "現在那個假設不成立了。",
           "reveal": {
             "mode": "typewriter",
@@ -226,7 +226,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "它沒有辦法計算一個它的模型裡不存在的變數。三個陣營同時停火，不是任何一方的勝利，不是它預測過的任何一種結局。那個結局在它所有的模型裡都不存在，所以它的輸出開始出錯。它需要時間重新建模，在那之前，它的軍團失去了有效的指令來源。",
           "reveal": {
             "mode": "typewriter",

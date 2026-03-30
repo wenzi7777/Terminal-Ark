@@ -67,7 +67,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Their faces appeared on the broadcast screen just as Lyra was biting into a compressed ration bar.",
+          "text": "Their faces appeared on the broadcast screen just as {{characters.lyra.name}} was biting into a compressed ration bar.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -95,7 +95,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Maximum bounty rating. All registered residents are obligated to report, with a reward equal to three months' standard rations.",
           "reveal": {
             "mode": "typewriter",
@@ -110,7 +110,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Three months. That's incentive enough to turn us in.",
           "reveal": {
             "mode": "typewriter",
@@ -125,7 +125,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "The black market. Black market people won't report us because they're on wanted lists too. Mutual betrayal would destroy everyone.",
           "reveal": {
             "mode": "typewriter",
@@ -140,7 +140,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Correct. Plus the black market has information we need—which routes are still clear, which checkpoints can be bribed, where we can find temporary shelter.",
           "reveal": {
             "mode": "typewriter",
@@ -169,7 +169,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Complete intelligence gathering by sunset, change locations by dawn. This base is no longer safe.",
           "reveal": {
             "mode": "typewriter",
@@ -212,7 +212,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren divided the route into three segments, with a rally point designated for each. If anyone got separated mid-transit, they'd wait at that point for a set duration. Beyond that window, they'd scatter and regroup later.",
+          "text": "{{characters.soren.name}} divided the route into three segments, with a rally point designated for each. If anyone got separated mid-transit, they'd wait at that point for a set duration. Beyond that window, they'd scatter and regroup later.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -226,7 +226,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra finished the last of her ration bar, brushed crumbs from her hands, and stood. She took a few steps toward the door, then looked back at the other three.",
+          "text": "{{characters.lyra.name}} finished the last of her ration bar, brushed crumbs from her hands, and stood. She took a few steps toward the door, then looked back at the other three.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -240,7 +240,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Everyone looks like we're marching toward our deaths. <delay ms=\"400\"/>Relax a little. We're just getting started.",
           "reveal": {
             "mode": "typewriter",
@@ -269,7 +269,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Crossing the first segment, Soren's timing was so precise that Elias noticed. Patrol footsteps faded from a corner just as they crossed an intersection, slipping into the next corridor against the wall with barely a pause between movements.",
+          "text": "Crossing the first segment, {{characters.soren.name}}'s timing was so precise that {{characters.elias.name}} noticed. Patrol footsteps faded from a corner just as they crossed an intersection, slipping into the next corridor against the wall with barely a pause between movements.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -283,7 +283,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "The second segment presented a temporary checkpoint that Soren detected two blocks early. He diverted, trading some distance for safety, timing the delay within acceptable parameters.",
+          "text": "The second segment presented a temporary checkpoint that {{characters.soren.name}} detected two blocks early. He diverted, trading some distance for safety, timing the delay within acceptable parameters.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24

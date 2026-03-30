@@ -114,7 +114,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "アレアはリラを脇に抱えて廃棄された機械室に飛び込み、ドアを静かに閉じて、ほんの細い隙間を残した。",
+          "text": "{{characters.alea.name}}は{{characters.lyra.name}}を脇に抱えて廃棄された機械室に飛び込み、ドアを静かに閉じて、ほんの細い隙間を残した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -142,7 +142,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "アレアはその顔を認識していた。路地の大姉さん、靴直しの老爺、一人で赤ん坊を連れた若い女性……",
+          "text": "{{characters.alea.name}}はその顔を認識していた。路地の大姉さん、靴直しの老爺、一人で赤ん坊を連れた若い女性……",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -226,7 +226,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "<whisper>あの人たちって……本当に検査に行くわけじゃないですよね？</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -241,7 +241,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "アレアは答えなかった。",
+          "text": "{{characters.alea.name}}は答えなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -291,7 +291,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "アレアは周囲を見回った。天井の角に通風口があり、格子がもう浮いていた。彼女は試しに引いてみた――開いた。",
+          "text": "{{characters.alea.name}}は周囲を見回った。天井の角に通風口があり、格子がもう浮いていた。彼女は試しに引いてみた――開いた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -305,7 +305,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼女は身を翻し、リラを持ち上げた。",
+          "text": "彼女は身を翻し、{{characters.lyra.name}}を持ち上げた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -319,7 +319,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "<whisper>上へ。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -334,7 +334,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "<whisper>あなたは？</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -349,7 +349,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "<whisper>後で追いつく。早く。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -364,7 +364,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "リラは通風管内に潜った。ドア取手が回る一秒前に、アレアは急いで飛び上がり、管道に身を滑らせ、反対の手で格子を元の位置にぴたりと合わせた。",
+          "text": "{{characters.lyra.name}}は通風管内に潜った。ドア取手が回る一秒前に、{{characters.alea.name}}は急いで飛び上がり、管道に身を滑らせ、反対の手で格子を元の位置にぴたりと合わせた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -443,7 +443,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "アレアは静かに濁った息を吐き出した。",
+          "text": "{{characters.alea.name}}は静かに濁った息を吐き出した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -457,7 +457,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "暗闇の中、リラはそっと手を伸ばし、アレアの腕に軽く触れた。",
+          "text": "暗闇の中、{{characters.lyra.name}}はそっと手を伸ばし、{{characters.alea.name}}の腕に軽く触れた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -471,7 +471,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "アレアは彼女を払いのけなかった。",
+          "text": "{{characters.alea.name}}は彼女を払いのけなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

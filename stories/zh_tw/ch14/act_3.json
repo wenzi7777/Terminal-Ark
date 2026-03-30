@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "不是突然的，是緩慢的，像晨霧在光線裡慢慢地淡去。Lyra 感覺到那個質地從她的神經終端裡一點一點地退開。她想抓住，手指在塵土裡收緊，但那些東西不是可以用力氣抓住的。她只能讓它退去，讓它散進荒原的空氣裡，散進那片她躺著的、冰冷的地面裡，散進去，消失。",
+          "text": "不是突然的，是緩慢的，像晨霧在光線裡慢慢地淡去。{{characters.lyra.name}} 感覺到那個質地從她的神經終端裡一點一點地退開。她想抓住，手指在塵土裡收緊，但那些東西不是可以用力氣抓住的。她只能讓它退去，讓它散進荒原的空氣裡，散進那片她躺著的、冰冷的地面裡，散進去，消失。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -140,7 +140,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra。",
+          "text": "{{characters.lyra.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 8
@@ -154,7 +154,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她是一個實驗品，是被設計過的靈魂，是 Solmaris 棄子。這些都是真的，她不打算否認，也不打算假裝那些東西不存在。但她也是 Lyra，是那個在黑暗的走廊裡笑著的人，是那個握住 Alea 手腕的人，是那個在地下空腔裡被 Alea 抱住的人，是那個被說了「妳活出了妳自己」的人，是 Alea 深愛著的人，是 Alea 拼死都要保護的人。",
+          "text": "她是一個實驗品，是被設計過的靈魂，是 Solmaris 棄子。這些都是真的，她不打算否認，也不打算假裝那些東西不存在。但她也是 {{characters.lyra.name}}，是那個在黑暗的走廊裡笑著的人，是那個握住 {{characters.alea.name}} 手腕的人，是那個在地下空腔裡被 {{characters.alea.name}} 抱住的人，是那個被說了「妳活出了妳自己」的人，是 {{characters.alea.name}} 深愛著的人，是 {{characters.alea.name}} 拼死都要保護的人。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -266,7 +266,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她不知道那裡現在是什麼樣子，她不知道 Soren 走到哪一步了，她不知道 Elias 在哪裡，她不知道等著她的是什麼。她什麼都不知道。但她知道一件事，那一件事就夠了。",
+          "text": "她不知道那裡現在是什麼樣子，她不知道 {{characters.soren.name}} 走到哪一步了，她不知道 {{characters.elias.name}} 在哪裡，她不知道等著她的是什麼。她什麼都不知道。但她知道一件事，那一件事就夠了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -280,7 +280,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 讓她繼續走下去。",
+          "text": "{{characters.alea.name}} 讓她繼續走下去。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10

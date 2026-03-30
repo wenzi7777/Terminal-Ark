@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra found the isolation door's control terminal in an old distribution panel between the hospital and the shield's edge. Rust-covered, several buttons already dead, but the core electronic lock system still functional.",
+          "text": "{{characters.lyra.name}} found the isolation door's control terminal in an old distribution panel between the hospital and the shield's edge. Rust-covered, several buttons already dead, but the core electronic lock system still functional.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "But Lyra does.",
+          "text": "But {{characters.lyra.name}} does.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -147,8 +147,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Lyra.",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.lyra.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -162,8 +162,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "Don't follow. Take Alea and Elias to a safe distance. Wait for me to bring people out, then we escape together.",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "Don't follow. Take {{characters.alea.name}} and {{characters.elias.name}} to a safe distance. Wait for me to bring people out, then we escape together.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -177,7 +177,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "What you're describing is impossible.",
           "reveal": {
             "mode": "typewriter",
@@ -192,7 +192,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "I know. But I want to try.",
           "reveal": {
             "mode": "typewriter",
@@ -250,7 +250,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra stood at the entrance. Outside was the sky tinted orange-red by battle's glow, the temporary hospital she could now clearly see, and the child kneeling on the Wasteland ground.",
+          "text": "{{characters.lyra.name}} stood at the entrance. Outside was the sky tinted orange-red by battle's glow, the temporary hospital she could now clearly see, and the child kneeling on the Wasteland ground.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -348,7 +348,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Can you walk?",
           "reveal": {
             "mode": "typewriter",
@@ -377,7 +377,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Good. Let's go. Take me inside, we'll get out together.",
           "reveal": {
             "mode": "typewriter",

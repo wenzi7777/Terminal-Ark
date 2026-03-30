@@ -1,6 +1,6 @@
 {
   "id": "13-2",
-  "title": "Act 2: Elias's Intervention",
+  "title": "Act 2: {{characters.elias.name}}'s Intervention",
   "startNode": "main",
   "nodes": {
     "main": {
@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren accessed the neural network on the fifth night.",
+          "text": "{{characters.soren.name}} accessed the neural network on the fifth night.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias felt it. A faint sensation of another neural connection node activating in the same space. He plugged into his own port almost in the same second and followed.",
+          "text": "{{characters.elias.name}} felt it. A faint sensation of another neural connection node activating in the same space. He plugged into his own port almost in the same second and followed.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -63,7 +63,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "The world inside the neural network was dark. Not the darkness of physics, but the emptiness unique to sparse data spaces. But Soren's node was like a bright light. Elias locked onto his position the moment he entered.",
+          "text": "The world inside the neural network was dark. Not the darkness of physics, but the emptiness unique to sparse data spaces. But {{characters.soren.name}}'s node was like a bright light. {{characters.elias.name}} locked onto his position the moment he entered.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -77,7 +77,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "That node was advancing at a speed Elias had never seen before, like a chisel, chewing through the Ark's core system defenses layer by layer.",
+          "text": "That node was advancing at a speed {{characters.elias.name}} had never seen before, like a chisel, chewing through the Ark's core system defenses layer by layer.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -91,8 +91,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "Soren. Stop.",
+          "speaker": "{{characters.elias.name}}",
+          "text": "{{characters.soren.name}}. Stop.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -106,8 +106,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Elias. Don't block me.",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.elias.name}}. Don't block me.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -121,7 +121,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "I'm going to. You knew I would, so you waited until I was asleep to access this. But I didn't sleep, so I'm here now. Stop. Let's talk.",
           "reveal": {
             "mode": "typewriter",
@@ -136,7 +136,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "We talked yesterday. I haven't changed.",
           "reveal": {
             "mode": "typewriter",
@@ -151,7 +151,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias revoked Soren's encryption token, cutting off his access path to the central network.",
+          "text": "{{characters.elias.name}} revoked {{characters.soren.name}}'s encryption token, cutting off his access path to the central network.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -165,7 +165,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "To get past me, you have to go through me.",
           "reveal": {
             "mode": "typewriter",
@@ -180,7 +180,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren's identity in this network was only one of many. He pulled out a small black box and pressed the activation button.",
+          "text": "{{characters.soren.name}}'s identity in this network was only one of many. He pulled out a small black box and pressed the activation button.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -199,7 +199,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias suddenly felt a wave of vertigo, his vision snapping back to the local neural network. A firewall. Soren had locked out his internet privileges.",
+          "text": "{{characters.elias.name}} suddenly felt a wave of vertigo, his vision snapping back to the local neural network. A firewall. {{characters.soren.name}} had locked out his internet privileges.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -213,7 +213,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren continued pushing toward the Ark core. Elias tried to catch up and intercede again, but felt his node locked down by a counter-measure. That lock's boundary was calibrated precisely—below the threshold of what he could move. Not to hurt him. Just to make it impossible for him to continue interfering.",
+          "text": "{{characters.soren.name}} continued pushing toward the Ark core. {{characters.elias.name}} tried to catch up and intercede again, but felt his node locked down by a counter-measure. That lock's boundary was calibrated precisely—below the threshold of what he could move. Not to hurt him. Just to make it impossible for him to continue interfering.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -227,7 +227,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "I don't want to hurt you. <delay ms=\"400\"/>When I'm done, we'll both be free.",
           "reveal": {
             "mode": "typewriter",
@@ -242,8 +242,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "Soren——",
+          "speaker": "{{characters.elias.name}}",
+          "text": "{{characters.soren.name}}——",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -257,8 +257,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Elias. <delay ms=\"300\"/>I've calculated it for Alea. If that system hadn't existed, she wouldn't have died here, wouldn't have scattered in some unknown corner of the Wasteland. She didn't deserve that ending. I'm settling the debt.",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.elias.name}}. <delay ms=\"300\"/>I've calculated it for {{characters.alea.name}}. If that system hadn't existed, she wouldn't have died here, wouldn't have scattered in some unknown corner of the Wasteland. She didn't deserve that ending. I'm settling the debt.",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -272,7 +272,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias said nothing. He was locked in place at that node, watching Soren's light continue deeper, farther, until it vanished into the darkness of data.",
+          "text": "{{characters.elias.name}} said nothing. He was locked in place at that node, watching {{characters.soren.name}}'s light continue deeper, farther, until it vanished into the darkness of data.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12

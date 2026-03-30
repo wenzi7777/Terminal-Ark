@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "是 Soren 先說話的。",
+          "text": "是 {{characters.soren.name}} 先說話的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "他站在 Lyra 身後幾步的距離。他一直站在那裡，從他們找到 Alea 開始，他就站在那裡，一動不動，像一根被插進地面的柱子。外面什麼都沒有顯示，但柱子的內部有什麼東西在裂，細密的，從裡面開始裂，裂縫沿著每一條他一直以來用來支撐自己的線蔓延過去。",
+          "text": "他站在 {{characters.lyra.name}} 身後幾步的距離。他一直站在那裡，從他們找到 {{characters.alea.name}} 開始，他就站在那裡，一動不動，像一根被插進地面的柱子。外面什麼都沒有顯示，但柱子的內部有什麼東西在裂，細密的，從裡面開始裂，裂縫沿著每一條他一直以來用來支撐自己的線蔓延過去。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -84,7 +84,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "然後 Alea 還是死了。",
+          "text": "然後 {{characters.alea.name}} 還是死了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -98,7 +98,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "他的計算是對的，然後 Alea 還是死了。",
+          "text": "他的計算是對的，然後 {{characters.alea.name}} 還是死了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -140,7 +140,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "是你。",
           "reveal": {
             "mode": "typewriter",
@@ -169,7 +169,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 沒有動。",
+          "text": "{{characters.lyra.name}} 沒有動。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -183,8 +183,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "是你打開了那扇門。我說過，我說那是誘餌，我說進去就是死路，你說你知道，然後你還是去了。你用一個不可能成功的計劃，把我們所有人都拖進了那個口袋，然後 Alea——",
+          "speaker": "{{characters.soren.name}}",
+          "text": "是你打開了那扇門。我說過，我說那是誘餌，我說進去就是死路，你說你知道，然後你還是去了。你用一個不可能成功的計劃，把我們所有人都拖進了那個口袋，然後 {{characters.alea.name}}——",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -198,8 +198,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "然後 Alea 為了收拾你製造的結果，<delay ms=\"400\"/>死在了這裡。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "然後 {{characters.alea.name}} 為了收拾你製造的結果，<delay ms=\"400\"/>死在了這裡。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -213,8 +213,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "<whisper>Soren。</whisper>",
+          "speaker": "{{characters.elias.name}}",
+          "text": "<whisper>{{characters.soren.name}}。</whisper>",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -228,7 +228,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "我說的哪一個字不是事實。她知道是誘餌，她還是去了，她的選擇造成了這個結果。這是事實。",
           "reveal": {
             "mode": "typewriter",
@@ -243,7 +243,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 跪在原地，沒有回頭，沒有說話。她聽見了他說的每一個字。那些字落在她身上，沒有造成新的傷，因為他說的每一個字，她自己已經在心裡說過一遍了。他說的不是她不知道的事。他說的是她已經壓在最深處、用所有的力氣死死按住的那些話，他只是把它們說出來了。",
+          "text": "{{characters.lyra.name}} 跪在原地，沒有回頭，沒有說話。她聽見了他說的每一個字。那些字落在她身上，沒有造成新的傷，因為他說的每一個字，她自己已經在心裡說過一遍了。他說的不是她不知道的事。他說的是她已經壓在最深處、用所有的力氣死死按住的那些話，他只是把它們說出來了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -257,8 +257,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "夠了。Soren，夠了。",
+          "speaker": "{{characters.elias.name}}",
+          "text": "夠了。{{characters.soren.name}}，夠了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -272,7 +272,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "這個世界，<delay ms=\"300\"/>這個每一個規則都是謊言疊著謊言搭起來的世界，這個讓人在錯誤的選擇和錯誤的選擇之間反復被迫抉擇、然後無論選哪個都要用某個人的死來買單的世界——",
           "reveal": {
             "mode": "typewriter",
@@ -287,7 +287,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "我不知道你們的想法，我也不在乎。<delay ms=\"500\"/>這個世界，這個無可救藥的世界，就這樣結束吧。",
           "reveal": {
             "mode": "typewriter",
@@ -302,7 +302,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 看著他，沉默了很長一段時間。",
+          "text": "{{characters.elias.name}} 看著他，沉默了很長一段時間。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -316,7 +316,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "你說的是什麼意思。",
           "reveal": {
             "mode": "typewriter",
@@ -331,7 +331,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "字面上的意思。",
           "reveal": {
             "mode": "typewriter",

@@ -43,7 +43,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は坂道の入口の外側の地面に倒れていた。",
+          "text": "{{characters.alea.name}} は坂道の入口の外側の地面に倒れていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -57,7 +57,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼らが戻ったのは、戦闘音が止んだ後だった。戻ることに同意していなかった者もいたが、Lyra が最初に足を止めて、そして戻った。Soren が何か言おうとしたが、何も言えなかった。Elias も何も言わなかった。三人は最終的に一緒に坂道の入口に戻った。",
+          "text": "彼らが戻ったのは、戦闘音が止んだ後だった。戻ることに同意していなかった者もいたが、{{characters.lyra.name}} が最初に足を止めて、そして戻った。{{characters.soren.name}} が何か言おうとしたが、何も言えなかった。{{characters.elias.name}} も何も言わなかった。三人は最終的に一緒に坂道の入口に戻った。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は歩いてきて、彼女の横に膝をついた。",
+          "text": "{{characters.lyra.name}} は歩いてきて、彼女の横に膝をついた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -183,7 +183,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra はその顔を見つめていた。",
+          "text": "{{characters.lyra.name}} はその顔を見つめていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -239,7 +239,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は何も言わなかった。彼女は突然、ある何かがこの瞬間に本当に完全に終わったことを感じた。その後の可能性はなく、どこかに何かが残っているわけではない。それは完全であり、一つの方向の消滅であり、その方向を見ると、何もなかった。",
+          "text": "{{characters.lyra.name}} は何も言わなかった。彼女は突然、ある何かがこの瞬間に本当に完全に終わったことを感じた。その後の可能性はなく、どこかに何かが残っているわけではない。それは完全であり、一つの方向の消滅であり、その方向を見ると、何もなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10

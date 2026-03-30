@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren はメイン端末の前に立っていた。",
+          "text": "{{characters.soren.name}} はメイン端末の前に立っていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -70,8 +70,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "来たか。君が遅れると思ったんだが、Lyra。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "来たか。君が遅れると思ったんだが、{{characters.lyra.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -85,8 +85,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "予想より早く着いた。Soren、その端末から離れろ。",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "予想より早く着いた。{{characters.soren.name}}、その端末から離れろ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -100,7 +100,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "拒否する。",
           "reveal": {
             "mode": "typewriter",
@@ -129,8 +129,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "君がなぜこんなことをしたいのか知ってる。君が何を考えているか知ってる。君の計算が何で、君の論理ではこれが唯一の問題を完全に解決できる方案だと知ってる。全部知ってる、Soren。だから君が間違ってると言おうとは思わない。",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "君がなぜこんなことをしたいのか知ってる。君が何を考えているか知ってる。君の計算が何で、君の論理ではこれが唯一の問題を完全に解決できる方案だと知ってる。全部知ってる、{{characters.soren.name}}。だから君が間違ってると言おうとは思わない。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -158,7 +158,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "なら何しにここに来た。",
           "reveal": {
             "mode": "typewriter",
@@ -173,7 +173,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "お前を止めるに。お前にそのまままかせるわけにはいかない。",
           "reveal": {
             "mode": "typewriter",
@@ -188,8 +188,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "お前には無理だ、Lyra。お前自分で知ってるだろ。戦略判断、神経同期率、武装出力、どの層でも、お前にはここで俺に勝つ方法がない。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "お前には無理だ、{{characters.lyra.name}}。お前自分で知ってるだろ。戦略判断、神経同期率、武装出力、どの層でも、お前にはここで俺に勝つ方法がない。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -203,7 +203,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "知ってる。でもやってみなきゃならない。",
           "reveal": {
             "mode": "typewriter",
@@ -232,7 +232,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は端末脇から後退し、戦闘態勢に入った。メイン制御室の空間は大きくなく、二人の間の距離は十メートル未満だった。彼は彼女がモジュールを装着した後の立ち姿を見ていて、彼の目が一瞬細かく停止した――彼女の立ち方が変わっていた。技術の変化ではなく、もっと根本的な何か。彼の記憶の中では、高圧下でいつも少し無理をしていた同調状態が、今は沈みこんでいて、安定していた。完全にアースされたような何かのようだった。",
+          "text": "{{characters.soren.name}} は端末脇から後退し、戦闘態勢に入った。メイン制御室の空間は大きくなく、二人の間の距離は十メートル未満だった。彼は彼女がモジュールを装着した後の立ち姿を見ていて、彼の目が一瞬細かく停止した――彼女の立ち方が変わっていた。技術の変化ではなく、もっと根本的な何か。彼の記憶の中では、高圧下でいつも少し無理をしていた同調状態が、今は沈みこんでいて、安定していた。完全にアースされたような何かのようだった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -338,7 +338,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は話さなかったが、彼女が三度目に攻撃を彼の防御線の隙間に正確に送った時、彼の目に彼が彼女の中で見たことのない何かがあった。彼は半拍停止した。",
+          "text": "{{characters.soren.name}} は話さなかったが、彼女が三度目に攻撃を彼の防御線の隙間に正確に送った時、彼の目に彼が彼女の中で見たことのない何かがあった。彼は半拍停止した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -366,7 +366,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "君の同調、前と違ってる。",
           "reveal": {
             "mode": "typewriter",
@@ -395,7 +395,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は制御室の側面にいた。彼は戦闘に参加していなく、別のことをしていた。メイン端末システムに側面から接続し、その指令を一時停止または遅延させる方法を見つけようとしていた。Soren のロック構造はシステムに展開され、厳密で、ほぼ隙間がなかった。彼は隙間の中で探し、探す一方で背後の戦闘の音を聞いていた。",
+          "text": "{{characters.elias.name}} は制御室の側面にいた。彼は戦闘に参加していなく、別のことをしていた。メイン端末システムに側面から接続し、その指令を一時停止または遅延させる方法を見つけようとしていた。{{characters.soren.name}} のロック構造はシステムに展開され、厳密で、ほぼ隙間がなかった。彼は隙間の中で探し、探す一方で背後の戦闘の音を聞いていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -417,7 +417,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は大きく押し出された。彼女は制御室の側壁にぶつかり、金属が鈍い音で衝撃に反応し、彼女は壁に沿って滑り落ち、壁に寄りかかりながら立ち上がろうとした。足に力がなく、彼女の同期率はすでに非常に低い数字に達しており、肉体の反応は遅れ始めていた。",
+          "text": "{{characters.lyra.name}} は大きく押し出された。彼女は制御室の側壁にぶつかり、金属が鈍い音で衝撃に反応し、彼女は壁に沿って滑り落ち、壁に寄りかかりながら立ち上がろうとした。足に力がなく、彼女の同期率はすでに非常に低い数字に達しており、肉体の反応は遅れ始めていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -431,7 +431,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は彼女の前に立ち、彼女を見下ろした。彼の表情は彼女がこれまで見たことのないものだった。いつもすべてを心の奥に押し込めていた人、その静かな外殻は今この瞬間に完全に消えていた。彼の顔にあるのは、見るだけで胸が痛くなるような何か。あまりに重く、深く、あまりに多くのものを詰め込んだ容器のようで、すべての隙間から漏れ出していた。",
+          "text": "{{characters.soren.name}} は彼女の前に立ち、彼女を見下ろした。彼の表情は彼女がこれまで見たことのないものだった。いつもすべてを心の奥に押し込めていた人、その静かな外殻は今この瞬間に完全に消えていた。彼の顔にあるのは、見るだけで胸が痛くなるような何か。あまりに重く、深く、あまりに多くのものを詰め込んだ容器のようで、すべての隙間から漏れ出していた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -445,8 +445,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "お前は立ち上がれない。Lyra、お前は負けた。どきろ。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "お前は立ち上がれない。{{characters.lyra.name}}、お前は負けた。どきろ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -474,7 +474,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "まだだ。",
           "reveal": {
             "mode": "typewriter",

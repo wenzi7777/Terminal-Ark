@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "<em>アレア（Alea）</em>は水たまりを踏んで、狭い廊下に消えた。",
+          "text": "<em>{{characters.alea.fullName}}</em>は水たまりを踏んで、狭い廊下に消えた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -169,7 +169,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "これが、アレアが下層デッキで<em>十一年</em>過ごした全ての人生だった。",
+          "text": "これが、{{characters.alea.name}}が下層デッキで<em>十一年</em>過ごした全ての人生だった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -293,7 +293,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "このルールはここでは例外を許したことがない――<delay ms=\"600\"/>アレアを除いて。",
+          "text": "このルールはここでは例外を許したことがない――<delay ms=\"600\"/>{{characters.alea.name}}を除いて。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -363,7 +363,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "アレアは半ば開いた鉄製の扉の前で止まった。",
+          "text": "{{characters.alea.name}}は半ば開いた鉄製の扉の前で止まった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20

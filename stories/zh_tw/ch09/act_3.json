@@ -35,7 +35,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "是 Lyra 先聽見的。",
+          "text": "是 {{characters.lyra.name}} 先聽見的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -63,7 +63,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "等一下。你們聽。",
           "reveal": {
             "mode": "typewriter",
@@ -148,7 +148,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "是平民。",
           "reveal": {
             "mode": "typewriter",
@@ -198,7 +198,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 瞇起眼睛辨認了一下——是方舟下層甲板的醫療志願隊標識。",
+          "text": "{{characters.alea.name}} 瞇起眼睛辨認了一下——是方舟下層甲板的醫療志願隊標識。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -240,7 +240,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "補給已經斷了。他們沒有足夠的食物和藥品，神經連線穩定劑更不可能有。那些衰退中的訊號——",
           "reveal": {
             "mode": "typewriter",
@@ -255,7 +255,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "是快撐不住的人。",
           "reveal": {
             "mode": "typewriter",
@@ -270,7 +270,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "是。",
           "reveal": {
             "mode": "typewriter",
@@ -285,7 +285,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 繼續看著那棟建築。那些從門縫裡透出來的微弱燈光，那些在牆邊縮成一團的身影，那個掛在外面的、已經快要認不出來的標識。",
+          "text": "{{characters.lyra.name}} 繼續看著那棟建築。那些從門縫裡透出來的微弱燈光，那些在牆邊縮成一團的身影，那個掛在外面的、已經快要認不出來的標識。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -299,7 +299,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Solmaris 的軍隊，西側。不久後會抵達這個位置。",
           "reveal": {
             "mode": "typewriter",
@@ -328,7 +328,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 的手指再度扣緊了身邊的殘垣。那塊舊磚的邊緣在她的掌心留下了細小的壓痕。",
+          "text": "{{characters.lyra.name}} 的手指再度扣緊了身邊的殘垣。那塊舊磚的邊緣在她的掌心留下了細小的壓痕。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18

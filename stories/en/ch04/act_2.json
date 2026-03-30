@@ -70,7 +70,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "The moment the connection established, Soren experienced something he had never felt before—as if the boundaries of his perception were forcibly stretched outward.",
+          "text": "The moment the connection established, {{characters.soren.name}} experienced something he had never felt before—as if the boundaries of his perception were forcibly stretched outward.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -98,8 +98,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Flanking support. Soren, suppress the two o'clock, no need for a direct hit—just keep them at distance.",
+          "speaker": "{{characters.alea.name}}",
+          "text": "Flanking support. {{characters.soren.name}}, suppress the two o'clock, no need for a direct hit—just keep them at distance.",
           "reveal": {
             "mode": "typewriter",
             "cps": 28
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren didn't hesitate. He aimed the module's cannon in the direction she indicated and fired.",
+          "text": "{{characters.soren.name}} didn't hesitate. He aimed the module's cannon in the direction she indicated and fired.",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -149,8 +149,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Elias, rear left.",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.elias.name}}, rear left.",
           "reveal": {
             "mode": "typewriter",
             "cps": 28
@@ -178,8 +178,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Lyra, find cover. Don't expose yourself in open ground.",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.lyra.name}}, find cover. Don't expose yourself in open ground.",
           "reveal": {
             "mode": "typewriter",
             "cps": 28
@@ -193,7 +193,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Got it!",
           "reveal": {
             "mode": "typewriter",
@@ -236,7 +236,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren felt it. It wasn't physical fatigue, but something deeper—like something was being drawn out of his consciousness. At first a trickle, then increasingly faster.",
+          "text": "{{characters.soren.name}} felt it. It wasn't physical fatigue, but something deeper—like something was being drawn out of his consciousness. At first a trickle, then increasingly faster.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -292,8 +292,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Soren, reduce output. Pull it down to what you can stabilize, just maintain.",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.soren.name}}, reduce output. Pull it down to what you can stabilize, just maintain.",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -321,7 +321,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias's situation was worse.",
+          "text": "{{characters.elias.name}}'s situation was worse.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -335,7 +335,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "His instinct was hacking, not direct combat. Forcing control of a heavy module resulted in synchronization depletion far faster than Soren experienced. His right arm was already beginning to show slight, uncontrollable tremors—an early warning of neural connection overload.",
+          "text": "His instinct was hacking, not direct combat. Forcing control of a heavy module resulted in synchronization depletion far faster than {{characters.soren.name}} experienced. His right arm was already beginning to show slight, uncontrollable tremors—an early warning of neural connection overload.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -371,7 +371,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias couldn't dodge in time. He was rammed backwards, his back slamming hard against the storage racks as items clattered down around him.",
+          "text": "{{characters.elias.name}} couldn't dodge in time. He was rammed backwards, his back slamming hard against the storage racks as items clattered down around him.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -413,8 +413,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Elias—can you access the signal network?",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.elias.name}}—can you access the signal network?",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -428,7 +428,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Give me a moment.",
           "reveal": {
             "mode": "typewriter",
@@ -443,7 +443,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "Hold on.",
           "reveal": {
             "mode": "typewriter",
@@ -458,7 +458,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra found a passage connecting the storage racks to the side wall from her sheltered position. She crawled through and flanked one of the soldiers approaching Soren.",
+          "text": "{{characters.lyra.name}} found a passage connecting the storage racks to the side wall from her sheltered position. She crawled through and flanked one of the soldiers approaching {{characters.soren.name}}.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -486,7 +486,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "No decisive damage, but it gave Soren the opening to reposition.",
+          "text": "No decisive damage, but it gave {{characters.soren.name}} the opening to reposition.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -500,7 +500,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra's frame was the smallest, with the lowest overload threshold. She kept her output minimal, doing one thing—keeping the enemy's attention distributed instead of focused on one target.",
+          "text": "{{characters.lyra.name}}'s frame was the smallest, with the lowest overload threshold. She kept her output minimal, doing one thing—keeping the enemy's attention distributed instead of focused on one target.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20

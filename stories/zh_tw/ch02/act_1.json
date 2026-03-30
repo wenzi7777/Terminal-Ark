@@ -64,7 +64,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "<em>Soren</em> 背靠著一段坍塌的隔牆，把背包壓在胸前，在腦海裡默數。",
+          "text": "<em>{{characters.soren.name}}</em> 背靠著一段坍塌的隔牆，把背包壓在胸前，在腦海裡默數。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -124,7 +124,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "三年六個月。這具軀體在下層甲板的時間並不算長，Soren 卻已經把每一條走廊、每一個監控盲區、每一班士兵的習慣動作記得清清楚楚。",
+          "text": "三年六個月。這具軀體在下層甲板的時間並不算長，{{characters.soren.name}} 卻已經把每一條走廊、每一個監控盲區、每一班士兵的習慣動作記得清清楚楚。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -180,7 +180,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 在中層甲板待過，知道帳面上的話和帳面下的意思從來不是同一件事。",
+          "text": "{{characters.soren.name}} 在中層甲板待過，知道帳面上的話和帳面下的意思從來不是同一件事。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -236,7 +236,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 停下來，把目光移向天花板。通風格柵的邊緣有一道新的劃痕，剛留下的。",
+          "text": "{{characters.soren.name}} 停下來，把目光移向天花板。通風格柵的邊緣有一道新的劃痕，剛留下的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -356,7 +356,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "跟上。有問題之後再問。",
           "reveal": {
             "mode": "typewriter",

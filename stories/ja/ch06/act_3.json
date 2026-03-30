@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は Elias がどの建造物に連れて行かれたかを知った後、沈黙した。",
+          "text": "{{characters.soren.name}} は {{characters.elias.name}} がどの建造物に連れて行かれたかを知った後、沈黙した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -56,8 +56,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "モンドの指令は Elias のみを対象としている。他は自由に活動できる。だが自由とは、監視されていないことと同じではない。今、俺たちの動きはすべて記録されている。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "モンドの指令は {{characters.elias.name}} のみを対象としている。他は自由に活動できる。だが自由とは、監視されていないことと同じではない。今、俺たちの動きはすべて記録されている。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -71,7 +71,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "では今、何をする？",
           "reveal": {
             "mode": "typewriter",
@@ -86,7 +86,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "普通に歩く。この結果を受け入れているように見える。同時にブラインドスポットを探す。",
           "reveal": {
             "mode": "typewriter",
@@ -101,7 +101,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra はその建造物を最後に一度見て、身を返し、Soren に続いた。彼女の歩調は普通で、表情も普通。",
+          "text": "{{characters.lyra.name}} はその建造物を最後に一度見て、身を返し、{{characters.soren.name}} に続いた。彼女の歩調は普通で、表情も普通。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -129,7 +129,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は彼女たちの後ろを歩いている。彼女の視線は周囲の感応ノードをスキャンし、カバレッジを計算し、オーバーラップが最小の角度を探している。",
+          "text": "{{characters.alea.name}} は彼女たちの後ろを歩いている。彼女の視線は周囲の感応ノードをスキャンし、カバレッジを計算し、オーバーラップが最小の角度を探している。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -199,7 +199,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "ここから入る。建造物の北側廊下に沿って。感応ノードのカバレッジは角を曲がった後に密度が下がる。",
           "reveal": {
             "mode": "typewriter",
@@ -214,8 +214,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Elias が連れ込まれたその建造物の電子ロックはモンドが統一管理している。モンドのサブシステムに故障が発生すれば、電子ロックは自動的に無効化される。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.elias.name}} が連れ込まれたその建造物の電子ロックはモンドが統一管理している。モンドのサブシステムに故障が発生すれば、電子ロックは自動的に無効化される。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -229,8 +229,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Elias は内側から協力する必要がある。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.elias.name}} は内側から協力する必要がある。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -244,7 +244,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "奴は知ってる。連れてかれる直前のその眼差しで既に考えてた。",
           "reveal": {
             "mode": "typewriter",
@@ -259,7 +259,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は傍で聞いていた。彼女はその推理に参加していない。ただそこに立ち、その建造物の方向を見つめている。",
+          "text": "{{characters.lyra.name}} は傍で聞いていた。彼女はその推理に参加していない。ただそこに立ち、その建造物の方向を見つめている。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -287,8 +287,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Lyra。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.lyra.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -302,7 +302,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は彼女の声を聞き、その建造物から目を離した。Alea を見て、その目の中に鮮烈な決意が見えた。",
+          "text": "{{characters.lyra.name}} は彼女の声を聞き、その建造物から目を離した。{{characters.alea.name}} を見て、その目の中に鮮烈な決意が見えた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -316,7 +316,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は頷いた。言葉なしに。理解の頷き。承認の頷き。",
+          "text": "{{characters.lyra.name}} は頷いた。言葉なしに。理解の頷き。承認の頷き。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

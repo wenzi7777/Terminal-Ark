@@ -64,7 +64,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "<em>ソレン（Soren）</em>は倒れた仕切壁に背をもたせ、バッグを胸に抱えて、頭の中で数えていた。",
+          "text": "<em>{{characters.soren.fullName}}</em>は倒れた仕切壁に背をもたせ、バッグを胸に抱えて、頭の中で数えていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -124,7 +124,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "三年六ヶ月。この躯体を下層デッキで使用している時間はそう長くないが、ソレンはすべての廊下、すべての監視盲点、すべての兵士の習慣的な動きを完璧に覚えている。",
+          "text": "三年六ヶ月。この躯体を下層デッキで使用している時間はそう長くないが、{{characters.soren.name}}はすべての廊下、すべての監視盲点、すべての兵士の習慣的な動きを完璧に覚えている。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -180,7 +180,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "ソレンは中層デッキにいたことがあり、公式記録の言葉と公式記録以外の意味がまったく別のものであることを知っていた。",
+          "text": "{{characters.soren.name}}は中層デッキにいたことがあり、公式記録の言葉と公式記録以外の意味がまったく別のものであることを知っていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -236,7 +236,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "ソレンは立ち止まり、目を天井に向けた。通風格子の端に新しい傷があった。たった今つけられたものだ。",
+          "text": "{{characters.soren.name}}は立ち止まり、目を天井に向けた。通風格子の端に新しい傷があった。たった今つけられたものだ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -356,7 +356,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "ついてこい。質問は後だ。",
           "reveal": {
             "mode": "typewriter",

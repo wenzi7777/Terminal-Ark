@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は角で立ち止まり、廊下の感応ノード間隔を確認してから、Soren と Lyra に続くように合図した。",
+          "text": "{{characters.alea.name}} は角で立ち止まり、廊下の感応ノード間隔を確認してから、{{characters.soren.name}} と {{characters.lyra.name}} に続くように合図した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -70,7 +70,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "今は彼次第だ。",
           "reveal": {
             "mode": "typewriter",
@@ -106,7 +106,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "部屋の中、Elias はそのコードを信号ポートのアクセスインターフェースに入力した。",
+          "text": "部屋の中、{{characters.elias.name}} はそのコードを信号ポートのアクセスインターフェースに入力した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -242,7 +242,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は受信機をポケットに入れ、ドア口に向かい、手で押し開け、出ていった。",
+          "text": "{{characters.elias.name}} は受信機をポケットに入れ、ドア口に向かい、手で押し開け、出ていった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -256,7 +256,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "廊下は白く、ライトはまだフラッシュしている。Alea は廊下の向こう端にいる。",
+          "text": "廊下は白く、ライトはまだフラッシュしている。{{characters.alea.name}} は廊下の向こう端にいる。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -284,7 +284,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "走ろう。",
           "reveal": {
             "mode": "typewriter",

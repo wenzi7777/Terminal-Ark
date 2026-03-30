@@ -49,7 +49,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 把訊號接收器架在窗口，開始掃描戰場上的電子訊號。",
+          "text": "{{characters.elias.name}} 把訊號接收器架在窗口，開始掃描戰場上的電子訊號。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -91,7 +91,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "等一下。",
           "reveal": {
             "mode": "typewriter",
@@ -120,7 +120,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "有一組訊號。不屬於方舟，不屬於 Mondris，不屬於 Solmaris。格式和我們在荒原遇到的那批無人機的訊號一模一樣。",
           "reveal": {
             "mode": "typewriter",
@@ -135,7 +135,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "它的頻率在整個戰場上全面覆蓋。它在——<delay ms=\"400\"/>它在採集。",
           "reveal": {
             "mode": "typewriter",
@@ -150,7 +150,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "採集什麼。",
           "reveal": {
             "mode": "typewriter",
@@ -165,7 +165,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "人格樣本。",
           "reveal": {
             "mode": "typewriter",
@@ -180,7 +180,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "它在採集這場戰場上所有個體的神經連線數據。狂熱、恐懼、憤怒、絕望——每一種極端狀態下的人格數據，它都在記錄。",
           "reveal": {
             "mode": "typewriter",
@@ -195,7 +195,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "採集的頻率和覆蓋範圍。是計劃性的，還是機會性的。",
           "reveal": {
             "mode": "typewriter",
@@ -210,7 +210,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "計劃性的。覆蓋範圍的邊界非常精確，不是隨機的廣播式採集，是有目標的，有系統的。",
           "reveal": {
             "mode": "typewriter",
@@ -239,7 +239,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "<whisper>它知道這場戰爭什麼時候開始。在它開始之前就知道了。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -254,7 +254,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "或者——<delay ms=\"500\"/>它讓這場戰爭開始的。",
           "reveal": {
             "mode": "typewriter",
@@ -325,7 +325,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "這場戰爭對任何一個人類陣營都沒有意義。方舟打不贏兩個陣營聯手的攻勢，Mondris 和 Solmaris 就算拿下方舟也得不到他們真正需要的東西。",
           "reveal": {
             "mode": "typewriter",
@@ -340,7 +340,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "唯一從中獲益的，是那個在戰場上收集了幾十萬份極端狀態人格樣本的存在。",
           "reveal": {
             "mode": "typewriter",
@@ -355,7 +355,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "它讓我們自相殘殺。<delay ms=\"500\"/>為了學習我們。",
           "reveal": {
             "mode": "typewriter",

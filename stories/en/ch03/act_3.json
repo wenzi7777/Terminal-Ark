@@ -49,7 +49,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren's first response was refusal—he wasn't someone who took needless risks.",
+          "text": "{{characters.soren.name}}'s first response was refusal—he wasn't someone who took needless risks.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -77,7 +77,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "We're already maximum bounty. Stay in the Ark, we'll be found eventually. Go up-levels—we don't have permits, can't access them.",
           "reveal": {
             "mode": "typewriter",
@@ -92,7 +92,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Going outside is the only path that actually lets us survive.",
           "reveal": {
             "mode": "typewriter",
@@ -121,7 +121,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "And besides—don't you want to know how this war started?",
           "reveal": {
             "mode": "typewriter",
@@ -136,7 +136,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren stared at the data. He said nothing.",
+          "text": "{{characters.soren.name}} stared at the data. He said nothing.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -150,7 +150,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "I want to go.",
           "reveal": {
             "mode": "typewriter",
@@ -179,7 +179,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "I don't know what we can accomplish, but if we give up before even understanding what happened, nothing will ever change.",
           "reveal": {
             "mode": "typewriter",
@@ -194,7 +194,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea sat in the corner, saying nothing. Now all eyes turned to her.",
+          "text": "{{characters.alea.name}} sat in the corner, saying nothing. Now all eyes turned to her.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -208,7 +208,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "I have nothing to lose. <delay ms=\"500\"/>Let's go.",
           "reveal": {
             "mode": "typewriter",
@@ -223,7 +223,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren ultimately didn't continue objecting.",
+          "text": "{{characters.soren.name}} ultimately didn't continue objecting.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -251,7 +251,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Then we need three things.",
           "reveal": {
             "mode": "typewriter",
@@ -311,7 +311,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Wasteland creatures won't show mercy just because you're civilian. Both Mondris and Solmaris have defensive systems along their borders. Going in unarmed is suicide.",
           "reveal": {
             "mode": "typewriter",
@@ -326,7 +326,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Alpha bodies can mount weapons modules via neural interface, effectively controlling external machinery for combat. But those modules only exist in military inventory.",
           "reveal": {
             "mode": "typewriter",
@@ -341,7 +341,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "So we raid the military armory.",
           "reveal": {
             "mode": "typewriter",
@@ -356,7 +356,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "It's <em>infiltration</em>, not raiding. I need tonight to map the surveillance layout. Tomorrow we move during shift change.",
           "reveal": {
             "mode": "typewriter",
@@ -371,7 +371,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Understood.",
           "reveal": {
             "mode": "typewriter",
@@ -386,7 +386,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra was already reorganizing their supplies, working with quick, efficient movements. She sorted the unnecessary items to one side and stacked the lightweight essentials in neat piles.",
+          "text": "{{characters.lyra.name}} was already reorganizing their supplies, working with quick, efficient movements. She sorted the unnecessary items to one side and stacked the lightweight essentials in neat piles.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -400,7 +400,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Everyone should get some real sleep tonight. After tomorrow, who knows when we'll get that chance again.",
           "reveal": {
             "mode": "typewriter",
@@ -415,7 +415,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Optimism.",
           "reveal": {
             "mode": "typewriter",
@@ -430,7 +430,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Practicality. Well-rested people work better. That's just sense.",
           "reveal": {
             "mode": "typewriter",
@@ -445,7 +445,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea watched this unfold from her corner without speaking.",
+          "text": "{{characters.alea.name}} watched this unfold from her corner without speaking.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18

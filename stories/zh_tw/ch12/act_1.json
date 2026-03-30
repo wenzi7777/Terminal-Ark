@@ -43,7 +43,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 倒在斜道口外側的地面上。",
+          "text": "{{characters.alea.name}} 倒在斜道口外側的地面上。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -57,7 +57,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "他們是在戰鬥聲靜止之後折返的。不是所有人都同意折返，是 Lyra 第一個停下腳步，停下來，然後往回走。Soren 攔了一下，沒有攔住。Elias 沒有攔。三個人最後一起回到了斜道的入口。",
+          "text": "他們是在戰鬥聲靜止之後折返的。不是所有人都同意折返，是 {{characters.lyra.name}} 第一個停下腳步，停下來，然後往回走。{{characters.soren.name}} 攔了一下，沒有攔住。{{characters.elias.name}} 沒有攔。三個人最後一起回到了斜道的入口。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 走過去，在她旁邊跪下來。",
+          "text": "{{characters.lyra.name}} 走過去，在她旁邊跪下來。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -183,7 +183,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 看著那張臉。",
+          "text": "{{characters.lyra.name}} 看著那張臉。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -239,7 +239,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 沒有說話。她突然感覺到，某個東西在這一刻真正地、徹底地結束了。不是以後還有機會，不是某個地方還留著什麼。是完全的，是一個方向的消失，往那個方向看過去，什麼都沒有了。",
+          "text": "{{characters.lyra.name}} 沒有說話。她突然感覺到，某個東西在這一刻真正地、徹底地結束了。不是以後還有機會，不是某個地方還留著什麼。是完全的，是一個方向的消失，往那個方向看過去，什麼都沒有了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10

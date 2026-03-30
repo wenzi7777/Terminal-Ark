@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "那一晚輪到 Alea 和 Lyra 守夜。",
+          "text": "那一晚輪到 {{characters.alea.name}} 和 {{characters.lyra.name}} 守夜。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -84,7 +84,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "妳不怕嗎。",
           "reveal": {
             "mode": "typewriter",
@@ -99,7 +99,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "怕什麼。",
           "reveal": {
             "mode": "typewriter",
@@ -114,7 +114,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "這一切。荒原，那些生物，那些人造士兵。不知道盡頭在哪裡的路。還有，可能會死。",
           "reveal": {
             "mode": "typewriter",
@@ -129,7 +129,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 沉默了。她坐在那裡，看著外面的黑暗，讓那個問題在她腦子裡停了一段時間。",
+          "text": "{{characters.alea.name}} 沉默了。她坐在那裡，看著外面的黑暗，讓那個問題在她腦子裡停了一段時間。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -143,7 +143,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "以前沒有什麼好怕的。<delay ms=\"500\"/>因為沒有什麼好失去的。",
           "reveal": {
             "mode": "typewriter",
@@ -158,7 +158,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 聽見了那句話，沒有說什麼。她往 Alea 身邊靠了一點，把肩膀輕輕地靠上去。那個動作不問任何問題，不要求任何回應。",
+          "text": "{{characters.lyra.name}} 聽見了那句話，沒有說什麼。她往 {{characters.alea.name}} 身邊靠了一點，把肩膀輕輕地靠上去。那個動作不問任何問題，不要求任何回應。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -172,7 +172,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 沒有動。",
+          "text": "{{characters.alea.name}} 沒有動。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -200,7 +200,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 用手把被風吹起來的頭髮撥開，然後把手放回膝蓋上。",
+          "text": "{{characters.lyra.name}} 用手把被風吹起來的頭髮撥開，然後把手放回膝蓋上。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -214,7 +214,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "<whisper>現在呢。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -229,7 +229,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 沒有回答。",
+          "text": "{{characters.alea.name}} 沒有回答。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12

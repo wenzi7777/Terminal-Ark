@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 找到隔離門的控制終端，是在那棟醫院和防護罩邊緣之間的一個舊型號的配電箱裡。鏽跡斑斑，面板上有幾個按鈕已經失靈，但核心的電子鎖系統還在運作。",
+          "text": "{{characters.lyra.name}} 找到隔離門的控制終端，是在那棟醫院和防護罩邊緣之間的一個舊型號的配電箱裡。鏽跡斑斑，面板上有幾個按鈕已經失靈，但核心的電子鎖系統還在運作。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "但 Lyra 有。",
+          "text": "但 {{characters.lyra.name}} 有。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -147,8 +147,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Lyra。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.lyra.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -162,8 +162,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "你不要跟來。帶 Alea 和 Elias 退到安全距離。等我把人帶出來，我們一起撤。",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "你不要跟來。帶 {{characters.alea.name}} 和 {{characters.elias.name}} 退到安全距離。等我把人帶出來，我們一起撤。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -177,7 +177,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "你說的是不可能發生的事。",
           "reveal": {
             "mode": "typewriter",
@@ -192,7 +192,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "我知道。但是我想試試看。",
           "reveal": {
             "mode": "typewriter",
@@ -250,7 +250,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 站在門口。外面是那片被戰火的光暈染成橙紅色的天空，以及那棟她已經能清楚看見的臨時醫院，以及那個跪在荒原地面上的孩子。",
+          "text": "{{characters.lyra.name}} 站在門口。外面是那片被戰火的光暈染成橙紅色的天空，以及那棟她已經能清楚看見的臨時醫院，以及那個跪在荒原地面上的孩子。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -348,7 +348,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "能走嗎？",
           "reveal": {
             "mode": "typewriter",
@@ -377,7 +377,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "好，走吧。帶我去裡面，我們一起出來。",
           "reveal": {
             "mode": "typewriter",

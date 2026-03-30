@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は一百二十年以上の間厳格に実行されていた「火種計画」を自らの手で閉じた。",
+          "text": "{{characters.soren.name}} は一百二十年以上の間厳格に実行されていた「火種計画」を自らの手で閉じた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -70,7 +70,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は NUTA の屋上に立ち、これをすべて見ていた。",
+          "text": "{{characters.lyra.name}} は NUTA の屋上に立ち、これをすべて見ていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -98,7 +98,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は彼女の左側に、Elias は右側に立っていた。三人は屋上に立ち、話さなかった。",
+          "text": "{{characters.soren.name}} は彼女の左側に、{{characters.elias.name}} は右側に立っていた。三人は屋上に立ち、話さなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -154,7 +154,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra はその光を見た。それが明るくなり、より鮮明になるのを見た。太陽の第一光線が地平線の端を越え、荒野の廃墟の輪郭を越え、シールド光幕を越え、NUTA の屋上に落ち、彼女の顔に落ち、Soren と Elias の顔に落ちた。その光は温く、下層デッキのそれらの年で彼女が経験したことのない、直接的で、何の遮りもない陽光だった。",
+          "text": "{{characters.lyra.name}} はその光を見た。それが明るくなり、より鮮明になるのを見た。太陽の第一光線が地平線の端を越え、荒野の廃墟の輪郭を越え、シールド光幕を越え、NUTA の屋上に落ち、彼女の顔に落ち、{{characters.soren.name}} と {{characters.elias.name}} の顔に落ちた。その光は温く、下層デッキのそれらの年で彼女が経験したことのない、直接的で、何の遮りもない陽光だった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -280,7 +280,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "<whisper>Alea、お前もきっと見たんだろ。</whisper>",
+          "text": "<whisper>{{characters.alea.name}}、お前もきっと見たんだろ。</whisper>",
           "reveal": {
             "mode": "typewriter",
             "cps": 8
@@ -308,7 +308,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼女は身を翻し、Soren と Elias を見た。その二人は屋上の光の中に立ち、この時間を刻んだものが全てあり、消えない重さがあるが、その光もあった。初めて落ちた光、条件のない光が彼らの顔に落ちて、彼女が以前見たことのない何かで彼らの顔を満たした。軽さではなく、解放ではなく、より深い、より静かな何かだった。ついに前に進むことができるその種の何か。",
+          "text": "彼女は身を翻し、{{characters.soren.name}} と {{characters.elias.name}} を見た。その二人は屋上の光の中に立ち、この時間を刻んだものが全てあり、消えない重さがあるが、その光もあった。初めて落ちた光、条件のない光が彼らの顔に落ちて、彼女が以前見たことのない何かで彼らの顔を満たした。軽さではなく、解放ではなく、より深い、より静かな何かだった。ついに前に進むことができるその種の何か。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10

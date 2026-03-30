@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "最初に話しかけたのは Soren だった。",
+          "text": "最初に話しかけたのは {{characters.soren.name}} だった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼は Lyra の後ろ数歩のところに立っていた。Alea を見つけてからずっと立っていた、動かない柱のように。表面上は何も表示されていなかったが、柱の内部には何かが割れていた。細かく、内側から割れ始め、裂け目が彼が常に自分を支えていたすべての線に沿って広がっていた。",
+          "text": "彼は {{characters.lyra.name}} の後ろ数歩のところに立っていた。{{characters.alea.name}} を見つけてからずっと立っていた、動かない柱のように。表面上は何も表示されていなかったが、柱の内部には何かが割れていた。細かく、内側から割れ始め、裂け目が彼が常に自分を支えていたすべての線に沿って広がっていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -84,7 +84,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "その後、Alea はまだ死んだ。",
+          "text": "その後、{{characters.alea.name}} はまだ死んだ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -98,7 +98,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼の計算は正しかった。そして Alea はまだ死んだ。",
+          "text": "彼の計算は正しかった。そして {{characters.alea.name}} はまだ死んだ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -140,7 +140,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "それはお前だ。",
           "reveal": {
             "mode": "typewriter",
@@ -169,7 +169,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は動かなかった。",
+          "text": "{{characters.lyra.name}} は動かなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -183,8 +183,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "お前があのドアを開いた。私は言った、それは罠だと、進むことは死路だと、お前はわかったと言ったのに、それでもお前は行った。不可能な計画で、私たちすべてをその袋に引きずり込んだ。その後、Alea は——",
+          "speaker": "{{characters.soren.name}}",
+          "text": "お前があのドアを開いた。私は言った、それは罠だと、進むことは死路だと、お前はわかったと言ったのに、それでもお前は行った。不可能な計画で、私たちすべてをその袋に引きずり込んだ。その後、{{characters.alea.name}} は——",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -198,7 +198,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "お前が起こした結果の後始末をするために、<delay ms=\"400\"/>ここで死んだ。",
           "reveal": {
             "mode": "typewriter",
@@ -213,8 +213,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "<whisper>Soren。</whisper>",
+          "speaker": "{{characters.elias.name}}",
+          "text": "<whisper>{{characters.soren.name}}。</whisper>",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -228,7 +228,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "私が言った言葉のどれが事実ではないのか。彼女は罠だとわかっていた、それでも行った、彼女の選択がこの結果をもたらした。これは事実だ。",
           "reveal": {
             "mode": "typewriter",
@@ -243,7 +243,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra はその場に膝をついたまま、振り返らず、何も言わなかった。彼が言ったすべての言葉を聞いていた。その言葉は彼女に降りかかり、新しい傷を与えなかった。彼が言ったすべての言葉は、彼女自身がすでに心の中で一度言ったものだったからだ。彼が言ったのは、彼女が知らないことではなかった。彼が言ったのは、彼女がすでに最も深いところに押し込み、すべての力で握りしめていた言葉であり、彼はそれらを口に出しただけだった。",
+          "text": "{{characters.lyra.name}} はその場に膝をついたまま、振り返らず、何も言わなかった。彼が言ったすべての言葉を聞いていた。その言葉は彼女に降りかかり、新しい傷を与えなかった。彼が言ったすべての言葉は、彼女自身がすでに心の中で一度言ったものだったからだ。彼が言ったのは、彼女が知らないことではなかった。彼が言ったのは、彼女がすでに最も深いところに押し込み、すべての力で握りしめていた言葉であり、彼はそれらを口に出しただけだった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -257,8 +257,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "もういい。Soren、もういい。",
+          "speaker": "{{characters.elias.name}}",
+          "text": "もういい。{{characters.soren.name}}、もういい。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -272,7 +272,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "この世界は、<delay ms=\"300\"/>嘘の上に嘘が積み重なった規則で作られている。人々に間違った選択と間違った選択の間で何度も強制的に選択させる世界、そしてどちらを選んでも誰かの死で代価を払わなければならない世界——",
           "reveal": {
             "mode": "typewriter",
@@ -287,7 +287,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "お前たちの考え方はわからない、そして気にしない。<delay ms=\"500\"/>この世界は、この救いようのない世界は、終わらせるべきだ。",
           "reveal": {
             "mode": "typewriter",
@@ -302,7 +302,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は彼を見つめ、長い間沈黙していた。",
+          "text": "{{characters.elias.name}} は彼を見つめ、長い間沈黙していた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -316,7 +316,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "お前はどういう意味か。",
           "reveal": {
             "mode": "typewriter",
@@ -331,7 +331,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "文字通りの意味だ。",
           "reveal": {
             "mode": "typewriter",

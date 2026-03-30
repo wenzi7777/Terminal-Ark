@@ -43,7 +43,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra found the breach in the shield herself.",
+          "text": "{{characters.lyra.name}} found the breach in the shield herself.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "The lower decks were unrecognizable. War's scars were everywhere—some places had nothing left but scorched ground and collapsed support pillars, like an emptied shell. Lyra walked through these, her steps steady. That steadiness wasn't numbness—it was something else. Feeling the weight but not being crushed by it, taking it in and continuing.",
+          "text": "The lower decks were unrecognizable. War's scars were everywhere—some places had nothing left but scorched ground and collapsed support pillars, like an emptied shell. {{characters.lyra.name}} walked through these, her steps steady. That steadiness wasn't numbness—it was something else. Feeling the weight but not being crushed by it, taking it in and continuing.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -141,7 +141,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra connected her weapon module. The moment of connection——something was different.",
+          "text": "{{characters.lyra.name}} connected her weapon module. The moment of connection——something was different.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -197,7 +197,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "She found Elias in a control room on the second level underground of the core tower.",
+          "text": "She found {{characters.elias.name}} in a control room on the second level underground of the core tower.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -225,8 +225,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "Lyra. How did you——",
+          "speaker": "{{characters.elias.name}}",
+          "text": "{{characters.lyra.name}}. How did you——",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -240,7 +240,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Later.",
           "reveal": {
             "mode": "typewriter",
@@ -276,8 +276,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "Soren locked this. He guided us through the neural network before. I saw his logic. I know where he left the boundaries.",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "{{characters.soren.name}} locked this. He guided us through the neural network before. I saw his logic. I know where he left the boundaries.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -291,7 +291,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "You saw it once.",
           "reveal": {
             "mode": "typewriter",
@@ -306,7 +306,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "That's enough.",
           "reveal": {
             "mode": "typewriter",
@@ -321,7 +321,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "The unlock took time. During that time, neither spoke. Elias watched her work, watched her fingers move across the interface, saw something different between the person he knew and the one who'd left. He couldn't name what it was, only felt it.",
+          "text": "The unlock took time. During that time, neither spoke. {{characters.elias.name}} watched her work, watched her fingers move across the interface, saw something different between the person he knew and the one who'd left. He couldn't name what it was, only felt it.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -342,7 +342,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Isolation removed. Elias reconnected his port, spent a few seconds recalibrating his neural connection, then looked at her.",
+          "text": "Isolation removed. {{characters.elias.name}} reconnected his port, spent a few seconds recalibrating his neural connection, then looked at her.",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -356,8 +356,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "How much do you know about Soren's plan?",
+          "speaker": "{{characters.elias.name}}",
+          "text": "How much do you know about {{characters.soren.name}}'s plan?",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -371,7 +371,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Enough. Weaken the shield, mark the Ark as maximum threat, AI Legion eliminates everything. <delay ms=\"200\"/>Where is he now?",
           "reveal": {
             "mode": "typewriter",
@@ -386,7 +386,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "NUTA. National University Terminal Ark's underground core. That's where all the Ark's systems' physical node converges. He needs to complete the final directive from there. The shield weakening is running automatically, but the final trigger command hasn't been sent yet. It needs to come from the main terminal in the underground core. He hasn't pressed it.",
           "reveal": {
             "mode": "typewriter",
@@ -401,7 +401,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Not yet. So we still have time.",
           "reveal": {
             "mode": "typewriter",
@@ -416,7 +416,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Not much. Let's go.",
           "reveal": {
             "mode": "typewriter",
@@ -431,7 +431,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "They didn't talk further. Two people moving quickly through the core tower's corridors, Lyra ahead, Elias behind. Something between them didn't need words, just both there, heading the same direction. Toward someone they both knew, someone neither planned to abandon.",
+          "text": "They didn't talk further. Two people moving quickly through the core tower's corridors, {{characters.lyra.name}} ahead, {{characters.elias.name}} behind. Something between them didn't need words, just both there, heading the same direction. Toward someone they both knew, someone neither planned to abandon.",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

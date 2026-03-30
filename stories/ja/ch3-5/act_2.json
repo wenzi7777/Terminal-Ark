@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "これはフルーツ味です。私の想像よりずっとおいしい。",
           "reveal": {
             "mode": "typewriter",
@@ -57,7 +57,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "誰も答えなかったが、Alea は彼女のハードキャンディを一瞥した。",
+          "text": "誰も答えなかったが、{{characters.alea.name}} は彼女のハードキャンディを一瞥した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -71,7 +71,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "あなたのはいかがですか。試してみませんか。",
           "reveal": {
             "mode": "typewriter",
@@ -86,7 +86,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea はハードキャンディを持ち上げて口に入れ、何も言わなかった。",
+          "text": "{{characters.alea.name}} はハードキャンディを持ち上げて口に入れ、何も言わなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -100,7 +100,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "おいしい？",
           "reveal": {
             "mode": "typewriter",
@@ -115,7 +115,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "悪くはない。",
           "reveal": {
             "mode": "typewriter",
@@ -130,7 +130,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "フルーツ味ですか？",
           "reveal": {
             "mode": "typewriter",
@@ -145,7 +145,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "甘い。何の味かは言えないが、ただ甘い。",
           "reveal": {
             "mode": "typewriter",
@@ -160,7 +160,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は彼女を見つめた。その視線は Alea を少し不安にさせた――悪意のない不安だが、誰かにしっかり見つめられるのに慣れていない那种。",
+          "text": "{{characters.lyra.name}} は彼女を見つめた。その視線は {{characters.alea.name}} を少し不安にさせた――悪意のない不安だが、誰かにしっかり見つめられるのに慣れていない那种。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -174,7 +174,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "何を見てるんですか。",
           "reveal": {
             "mode": "typewriter",
@@ -189,7 +189,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "あなたが下層甲板にいた時、何を食べていたのか考えていました。",
           "reveal": {
             "mode": "typewriter",
@@ -204,7 +204,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "食べられるもの。",
           "reveal": {
             "mode": "typewriter",
@@ -219,7 +219,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "例えば？",
           "reveal": {
             "mode": "typewriter",
@@ -234,7 +234,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "圧縮ドライフード、交換で手に入れたもの、時々は方舟統一配給の高カロリービスケット。話すことはない。ただお腹を満たして、動く。",
           "reveal": {
             "mode": "typewriter",
@@ -249,7 +249,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "特に好きなものはありますか。",
           "reveal": {
             "mode": "typewriter",
@@ -264,7 +264,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は沈黙した。その沈黙は拒絶ではなく、答えを知るためにちゃんと考える必要がある那种の沈黙だった。",
+          "text": "{{characters.alea.name}} は沈黙した。その沈黙は拒絶ではなく、答えを知るためにちゃんと考える必要がある那种の沈黙だった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -278,7 +278,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "ない。考えたことがない。",
           "reveal": {
             "mode": "typewriter",
@@ -293,7 +293,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "本当に？",
           "reveal": {
             "mode": "typewriter",
@@ -308,7 +308,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "食べるのは続けるため。おいしいためじゃない。",
           "reveal": {
             "mode": "typewriter",
@@ -323,7 +323,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "では、どこに住んでるんですか。自分のところですか。",
           "reveal": {
             "mode": "typewriter",
@@ -338,7 +338,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "廃棄診療所の貯蔵室。一人で住んでいて、もう四年以上。十分に小さいから、誰も奪いません。",
           "reveal": {
             "mode": "typewriter",
@@ -353,7 +353,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "あなたは。下層甲板にどのくらい。",
           "reveal": {
             "mode": "typewriter",
@@ -368,7 +368,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "長くはない。多分三か月。",
           "reveal": {
             "mode": "typewriter",
@@ -383,7 +383,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "その前はどこに。",
           "reveal": {
             "mode": "typewriter",
@@ -398,7 +398,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "あるところ。ちょっと寮のようですが、完全ではない。そこに住んでいる人は多くなく、私が知っている人は数人だけで、みんな同じくらいの年の子どもたちでした。",
           "reveal": {
             "mode": "typewriter",
@@ -413,7 +413,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "そこの人はどんなテストをしたり、質問を聞いたり、時々は身体检查をしたりしていました。彼らはそれが定期的なものだと言っていて、私も特に問題だとは思いませんでした。",
           "reveal": {
             "mode": "typewriter",
@@ -428,7 +428,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "住宅地には見えません。",
           "reveal": {
             "mode": "typewriter",
@@ -443,7 +443,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "ええ。あまりそうではない。でもその時は変に思わなかったです。ただそう生活していました。それから唐突に、その場所の人は多く減って、ある日目覚めると、ほぼ誰もいなくなっていました。残った数人が出て行こうと言ったので、付いて行ったが、別れてしまい、それから下層甲板に着きました。",
           "reveal": {
             "mode": "typewriter",
@@ -458,7 +458,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "その場所は何て呼ぶのか、どこにあるのか知りません。私は聞きませんでした。",
           "reveal": {
             "mode": "typewriter",
@@ -473,7 +473,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "変だと思いますか。",
           "reveal": {
             "mode": "typewriter",
@@ -488,7 +488,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "ちょっと。",
           "reveal": {
             "mode": "typewriter",
@@ -503,7 +503,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "私も。",
           "reveal": {
             "mode": "typewriter",
@@ -532,7 +532,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "でも今は戻って聞くことはできません。",
           "reveal": {
             "mode": "typewriter",
@@ -547,7 +547,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "だから誰も奪いたくない場所に住んでいるんだ。聞こえいいですね。",
           "reveal": {
             "mode": "typewriter",
@@ -562,7 +562,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "意見が多いですね。",
           "reveal": {
             "mode": "typewriter",
@@ -577,7 +577,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "観察しているだけです。あなたの住むところは私より強い。私は排水管の上の挟み込まれた層に住んでいて、雨が降ると床が濡れます。",
           "reveal": {
             "mode": "typewriter",
@@ -592,7 +592,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "それはあなたが自分で選んだ。",
           "reveal": {
             "mode": "typewriter",
@@ -607,7 +607,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "そうです。信号カバレッジのいい場所を選びました。時々、信号は乾いた床より重要です。",
           "reveal": {
             "mode": "typewriter",
@@ -622,7 +622,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "だから湿った床で寝ているんですね。",
           "reveal": {
             "mode": "typewriter",
@@ -637,7 +637,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "時々。",
           "reveal": {
             "mode": "typewriter",
@@ -652,7 +652,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "あなたたちはそういうことを、今日の天気のように話しています。",
           "reveal": {
             "mode": "typewriter",
@@ -667,7 +667,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "だからそれはそうです。",
           "reveal": {
             "mode": "typewriter",
@@ -682,7 +682,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "湿った床。あなたは本当に湿った床で寝ていますか？",
           "reveal": {
             "mode": "typewriter",
@@ -697,7 +697,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "時々。",
           "reveal": {
             "mode": "typewriter",
@@ -712,7 +712,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "なぜそこに住むんですか。",
           "reveal": {
             "mode": "typewriter",
@@ -727,7 +727,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "安い。そして場所の信号カバレッジはかなり良い。",
           "reveal": {
             "mode": "typewriter",
@@ -742,7 +742,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "家の状況が変わり、住む場所も変わりました。選択の余地はあまりありません。",
           "reveal": {
             "mode": "typewriter",
@@ -757,7 +757,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は彼を見つめて、何か言いたそうだったが、最終的には軽く「ん」と言って、その質問をしまった。",
+          "text": "{{characters.lyra.name}} は彼を見つめて、何か言いたそうだったが、最終的には軽く「ん」と言って、その質問をしまった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -771,7 +771,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "中層。ここと大きく違いますか。",
           "reveal": {
             "mode": "typewriter",
@@ -786,7 +786,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "より秩序がある。でも秩序のあるところは秩序のある面倒がある。必ずしも良いわけではない。",
           "reveal": {
             "mode": "typewriter",
@@ -801,7 +801,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "どこに住むかは重要ではありません。",
           "reveal": {
             "mode": "typewriter",
@@ -816,7 +816,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "そうですね。",
           "reveal": {
             "mode": "typewriter",
@@ -831,7 +831,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "私は同意していません。",
           "reveal": {
             "mode": "typewriter",
@@ -846,7 +846,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "知ってます。でも結論は同じです。",
           "reveal": {
             "mode": "typewriter",
@@ -861,7 +861,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は口を開きかけ、何か言いたそうだったが、結局言いませんでした。彼女は閉じて、ドアの方向を見直しました。Elias は受信機を見直して。",
+          "text": "{{characters.alea.name}} は口を開きかけ、何か言いたそうだったが、結局言いませんでした。彼女は閉じて、ドアの方向を見直しました。{{characters.elias.name}} は受信機を見直して。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -875,7 +875,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は中央に座って、これを見て、あれを見ました。抑圧されたものは最終的に彼女の口角から逃げ出し、その笑い声はかすかでしたが、その放棄された空間で非常に清楚でした。",
+          "text": "{{characters.lyra.name}} は中央に座って、これを見て、あれを見ました。抑圧されたものは最終的に彼女の口角から逃げ出し、その笑い声はかすかでしたが、その放棄された空間で非常に清楚でした。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -889,7 +889,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は地図の前で、振り返りませんでしたが、彼の筆が一瞬停止し、その後再び動きました。",
+          "text": "{{characters.soren.name}} は地図の前で、振り返りませんでしたが、彼の筆が一瞬停止し、その後再び動きました。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

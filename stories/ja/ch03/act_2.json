@@ -63,7 +63,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "ソレンは情報商人を探しに行った。エリアスは古い電子部品の山に潜って信号材料を探した。アレアはリラを連れて補給物資と交換しに行った。",
+          "text": "{{characters.soren.name}}は情報商人を探しに行った。{{characters.elias.name}}は古い電子部品の山に潜って信号材料を探した。{{characters.alea.name}}は{{characters.lyra.name}}を連れて補給物資と交換しに行った。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -91,7 +91,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "情報を持ち帰ったのはソレンだった。彼は掮客に身につけていた最も価値のある暗号化チップを使った。",
+          "text": "情報を持ち帰ったのは{{characters.soren.name}}だった。彼は掮客に身につけていた最も価値のある暗号化チップを使った。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -119,7 +119,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "ペリメータシールドのエネルギー供給問題。故障ではなく、リソース枯渇でもない。",
           "reveal": {
             "mode": "typewriter",
@@ -134,7 +134,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "人為的だ。",
           "reveal": {
             "mode": "typewriter",
@@ -165,7 +165,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "彼らは……<delay ms=\"300\"/>生産規模を拡大している。",
           "reveal": {
             "mode": "typewriter",
@@ -180,7 +180,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "徴兵の圧力が増す一方で、荒野の両国の攻勢が強まり、方舟の兵力損耗速度が補充速度を上回っている。",
           "reveal": {
             "mode": "typewriter",
@@ -195,7 +195,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "人工兵士の生産コストは本物の兵士を訓練するコストより遥かに低い。十分な精神を基底として持てば、継続的に生産できる。",
           "reveal": {
             "mode": "typewriter",
@@ -210,7 +210,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "だから彼らは精神が必要だ。",
           "reveal": {
             "mode": "typewriter",
@@ -225,7 +225,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "シールドが弱まり、荒野の生物が侵入し、下層デッキの死亡者数が増加し、躯体が損傷する前に精神を前倒し回収できる。",
           "reveal": {
             "mode": "typewriter",
@@ -240,7 +240,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "損耗が最小で、注意を引きにくい――荒野の生物の爪で死ぬのと強制回収されるのは、帳簿上は<em>全く異なる事柄</em>に見える。",
           "reveal": {
             "mode": "typewriter",
@@ -283,7 +283,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "<whisper>昨日連れていかれた人たちって……こういうことだったんですね。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -340,7 +340,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "ターミナル・アークがどうして同じ人類の国々と戦争をしているのか、知りたい。",
           "reveal": {
             "mode": "typewriter",

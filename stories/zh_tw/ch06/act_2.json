@@ -85,7 +85,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "指向 Elias。",
+          "text": "指向 {{characters.elias.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 沒有動。機械軍團也沒有動，它們只是在那裡，等待。",
+          "text": "{{characters.elias.name}} 沒有動。機械軍團也沒有動，它們只是在那裡，等待。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -141,7 +141,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "依據是什麼。",
           "reveal": {
             "mode": "typewriter",
@@ -198,7 +198,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "你們要把他整合進 Mond。<delay ms=\"400\"/>他沒有同意。",
           "reveal": {
             "mode": "typewriter",
@@ -227,7 +227,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 看了 Soren 一眼，然後看了 Lyra，最後看向 Alea。他的表情沒有太多東西，但眼神是清醒的。",
+          "text": "{{characters.elias.name}} 看了 {{characters.soren.name}} 一眼，然後看了 {{characters.lyra.name}}，最後看向 {{characters.alea.name}}。他的表情沒有太多東西，但眼神是清醒的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -241,7 +241,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "我沒事。先走。",
           "reveal": {
             "mode": "typewriter",
@@ -256,8 +256,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "Elias——",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "{{characters.elias.name}}——",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -271,7 +271,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "機械軍團開始收攏。Alea 往前踏出一步，Elias 搖了搖頭，她停下來。那個停頓維持了兩秒，她的手還在武裝模組的位置上，然後她收回來了。",
+          "text": "機械軍團開始收攏。{{characters.alea.name}} 往前踏出一步，{{characters.elias.name}} 搖了搖頭，她停下來。那個停頓維持了兩秒，她的手還在武裝模組的位置上，然後她收回來了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -285,7 +285,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "確認他的位置。立刻。",
           "reveal": {
             "mode": "typewriter",
@@ -300,7 +300,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "機械軍團把 Elias 帶走了。包圍圈隨著他的離開慢慢散去，街道恢復了它原本的樣子。",
+          "text": "機械軍團把 {{characters.elias.name}} 帶走了。包圍圈隨著他的離開慢慢散去，街道恢復了它原本的樣子。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -416,7 +416,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 沒有立刻走過去。他在房間裡站了一段時間，打量著四周——那個監控感應器的位置，牆壁上一個不顯眼的訊號端口，以及環形裝置每一次掃描之間的間隔。",
+          "text": "{{characters.elias.name}} 沒有立刻走過去。他在房間裡站了一段時間，打量著四周——那個監控感應器的位置，牆壁上一個不顯眼的訊號端口，以及環形裝置每一次掃描之間的間隔。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -477,7 +477,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 看著那個空白的欄位，站在那裡，站了很長時間。",
+          "text": "{{characters.elias.name}} 看著那個空白的欄位，站在那裡，站了很長時間。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16

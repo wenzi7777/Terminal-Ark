@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 站在主終端前。",
+          "text": "{{characters.soren.name}} 站在主終端前。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -70,8 +70,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "你們來了。我以為你會更晚一點，Lyra。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "你們來了。我以為你會更晚一點，{{characters.lyra.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -85,8 +85,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "我走得比你以為的快。Soren，離開那個終端。",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "我走得比你以為的快。{{characters.soren.name}}，離開那個終端。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -100,7 +100,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "不。",
           "reveal": {
             "mode": "typewriter",
@@ -129,8 +129,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "我知道你為什麼要這樣做。我知道你在想什麼，我知道你的計算是什麼，我知道在你的邏輯裡這是唯一一個能夠徹底解決問題的方案。我知道這一切，Soren，所以我不打算告訴你你是錯的。",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "我知道你為什麼要這樣做。我知道你在想什麼，我知道你的計算是什麼，我知道在你的邏輯裡這是唯一一個能夠徹底解決問題的方案。我知道這一切，{{characters.soren.name}}，所以我不打算告訴你你是錯的。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -158,7 +158,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "那你來這裡做什麼。",
           "reveal": {
             "mode": "typewriter",
@@ -173,7 +173,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "阻止你。我沒有辦法讓你就這樣做完。",
           "reveal": {
             "mode": "typewriter",
@@ -188,8 +188,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "你攔不住我，Lyra，你知道的。你的戰略判斷、你的神經同步率、你的武裝出力，在任何層面上，你都沒有辦法在這裡贏過我。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "你攔不住我，{{characters.lyra.name}}，你知道的。你的戰略判斷、你的神經同步率、你的武裝出力，在任何層面上，你都沒有辦法在這裡贏過我。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -203,7 +203,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "我知道。但我還是要試。",
           "reveal": {
             "mode": "typewriter",
@@ -232,7 +232,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 從終端旁邊退開，進入了作戰的站位。主控室的空間不大，兩個人之間的距離不到十米。他看著她接上模組之後站定的那個姿勢，他的眼神有一瞬間的細微停頓——她的站姿變了。不是技術的變化，是某種更根本的東西。那個在他記憶裡總是在高壓下稍顯勉強的同調狀態，現在是沉的，是穩的，像一個完全接地的東西。",
+          "text": "{{characters.soren.name}} 從終端旁邊退開，進入了作戰的站位。主控室的空間不大，兩個人之間的距離不到十米。他看著她接上模組之後站定的那個姿勢，他的眼神有一瞬間的細微停頓——她的站姿變了。不是技術的變化，是某種更根本的東西。那個在他記憶裡總是在高壓下稍顯勉強的同調狀態，現在是沉的，是穩的，像一個完全接地的東西。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -338,7 +338,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 沒有說話，但他的眼神在她第三次把攻擊精確地送進他防線縫隙的時候，有一種他從來沒有在她身上看見過的東西。他停了半拍。",
+          "text": "{{characters.soren.name}} 沒有說話，但他的眼神在她第三次把攻擊精確地送進他防線縫隙的時候，有一種他從來沒有在她身上看見過的東西。他停了半拍。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -366,7 +366,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "你的同調，和以前不一樣了。",
           "reveal": {
             "mode": "typewriter",
@@ -395,7 +395,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 在控制室的側面。他沒有加入戰鬥，他在做另一件事，在嘗試從側面接入主終端的系統，試圖找到一個可以暫停或者延遲那道指令的方法。Soren 的封鎖架構在系統裡展開，嚴密的，幾乎沒有縫隙。他在縫隙裡找，一邊找，一邊聽著身後的戰鬥聲。",
+          "text": "{{characters.elias.name}} 在控制室的側面。他沒有加入戰鬥，他在做另一件事，在嘗試從側面接入主終端的系統，試圖找到一個可以暫停或者延遲那道指令的方法。{{characters.soren.name}} 的封鎖架構在系統裡展開，嚴密的，幾乎沒有縫隙。他在縫隙裡找，一邊找，一邊聽著身後的戰鬥聲。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -417,7 +417,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 被重重地推開了。她撞在控制室的側牆上，牆壁的金屬在衝擊裡發出一聲悶響，她滑坐下去，扶著牆撐著，試圖站起來。腳下沒有力氣，她的同步率已經到了一個很低的數字，軀體的反應開始遲滯。",
+          "text": "{{characters.lyra.name}} 被重重地推開了。她撞在控制室的側牆上，牆壁的金屬在衝擊裡發出一聲悶響，她滑坐下去，扶著牆撐著，試圖站起來。腳下沒有力氣，她的同步率已經到了一個很低的數字，軀體的反應開始遲滯。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -431,7 +431,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 走到她面前，站著，低頭看她。他的表情是她從來沒有見過的。那個一直以來把所有東西都壓在最深處的人，那個平靜的外殼在這一刻已經完全不見了。他的臉上有的是一種讓人看了會覺得心口疼的東西，太重，太深，像一個裝了太多東西的容器，每一條縫隙都在往外滲。",
+          "text": "{{characters.soren.name}} 走到她面前，站著，低頭看她。他的表情是她從來沒有見過的。那個一直以來把所有東西都壓在最深處的人，那個平靜的外殼在這一刻已經完全不見了。他的臉上有的是一種讓人看了會覺得心口疼的東西，太重，太深，像一個裝了太多東西的容器，每一條縫隙都在往外滲。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -445,8 +445,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "你站不起來了。Lyra，你輸了，讓開。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "你站不起來了。{{characters.lyra.name}}，你輸了，讓開。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -474,7 +474,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "還沒有。",
           "reveal": {
             "mode": "typewriter",

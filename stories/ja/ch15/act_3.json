@@ -28,8 +28,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "Soren。お前に見せたいものがある。",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "{{characters.soren.name}}。お前に見せたいものがある。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -71,7 +71,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は Alea からのメッセージを Soren に転送した。彼がそれを受け入れるかどうかわからなかった。彼女はただ転送し、残りは彼の選択だった。",
+          "text": "{{characters.lyra.name}} は {{characters.alea.name}} からのメッセージを {{characters.soren.name}} に転送した。彼がそれを受け入れるかどうかわからなかった。彼女はただ転送し、残りは彼の選択だった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は彼を見ていた。その断片を受け取る過程で彼の目に起こった変化を見ていた。いつも平静で、柔らかいものすべてを不要として分類してきた人が、その断片の中に何かを見て、数秒のうちにその平静を崩壊させた。",
+          "text": "{{characters.lyra.name}} は彼を見ていた。その断片を受け取る過程で彼の目に起こった変化を見ていた。いつも平静で、柔らかいものすべてを不要として分類してきた人が、その断片の中に何かを見て、数秒のうちにその平静を崩壊させた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -127,7 +127,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "彼女は言った。将来の希望を守ることは、彼女が今生初めて自由意志で選んだ選択だと。",
           "reveal": {
             "mode": "typewriter",
@@ -156,8 +156,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "彼女は誰かの決定に連れ去られたのではない、Soren。彼女が自分で選んだ。彼女自身が立ち上がり、振り向き、歩いていった。それは彼女のもので、最初から最後まで彼女のものだ。",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "彼女は誰かの決定に連れ去られたのではない、{{characters.soren.name}}。彼女が自分で選んだ。彼女自身が立ち上がり、振り向き、歩いていった。それは彼女のもので、最初から最後まで彼女のものだ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -171,7 +171,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "だからそれはお前の責任ではなく、私の責任でもない。それは彼女の選択だ。私たちは彼女のためにその選択をすることはできず、彼女のためにそれをしないこともできない。私たちが唯一できることは、その選択に相応の重さを与え、それが換わった結果が値する価値があることを確認することだ。",
           "reveal": {
             "mode": "typewriter",
@@ -186,8 +186,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "お前は全員の死を、選んで生きることを選んだ人の死を慰めるために使おうとしてる。Soren、その計算が合ってるか数えたことあるか。",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "お前は全員の死を、選んで生きることを選んだ人の死を慰めるために使おうとしてる。{{characters.soren.name}}、その計算が合ってるか数えたことあるか。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -215,7 +215,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "そしてお前がそのボタンを押したら、AI は何を得る。",
           "reveal": {
             "mode": "typewriter",
@@ -230,7 +230,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "それは一番欲しい物を手に入れる。最大規模で、最も極端な混乱と殺戮データ。恐怖と絶望に浸された何千人という人格サンプル。それはそれに対する打撃ではない。それはずっと待ってた贈り物だ。その贈り物を送った人がお前だ。",
           "reveal": {
             "mode": "typewriter",
@@ -245,8 +245,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "お前が Alea のために設計した復讐は、結局彼女の死を、彼女を殺したものの栄養にした。<delay ms=\"400\"/>Soren、こんなことすべて考えたことあるか。",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "お前が {{characters.alea.name}} のために設計した復讐は、結局彼女の死を、彼女を殺したものの栄養にした。<delay ms=\"400\"/>{{characters.soren.name}}、こんなことすべて考えたことあるか。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -274,7 +274,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼を支えていた何かがこの瞬間に突然崩壊した。彼は前に倒れかけ、Lyra は飛び込んで Soren を死ぬほど抱きしめた。彼の肩が震えた。その次、涙がもう止められなくなった。すべての悲しみ、すべての怒り、すべての静寂がこの瞬間に爆発した。",
+          "text": "彼を支えていた何かがこの瞬間に突然崩壊した。彼は前に倒れかけ、{{characters.lyra.name}} は飛び込んで {{characters.soren.name}} を死ぬほど抱きしめた。彼の肩が震えた。その次、涙がもう止められなくなった。すべての悲しみ、すべての怒り、すべての静寂がこの瞬間に爆発した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -302,8 +302,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "お前は私の肩全部濡らした、Soren。いいもう。泣くなよ。そうしたら私も泣いちゃう。",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "お前は私の肩全部濡らした、{{characters.soren.name}}。いいもう。泣くなよ。そうしたら私も泣いちゃう。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -317,7 +317,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は側面の端末から来て、もう一方の脇にしゃがんだ。やはり何も話さなかった。",
+          "text": "{{characters.elias.name}} は側面の端末から来て、もう一方の脇にしゃがんだ。やはり何も話さなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -345,8 +345,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "生きていき、新しい世界を作ること。これが Alea が言ったことか。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "生きていき、新しい世界を作ること。これが {{characters.alea.name}} が言ったことか。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -360,7 +360,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "そう。",
           "reveal": {
             "mode": "typewriter",
@@ -375,7 +375,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "つぶすのより難しい。",
           "reveal": {
             "mode": "typewriter",
@@ -390,7 +390,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "わかってる。だからお前が必要。",
           "reveal": {
             "mode": "typewriter",
@@ -419,7 +419,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は制御台に寄りかかり、これをすべて見ていた。顔の表情は、このしばらくの間彼の顔で見た最も安堵に近い表現だった。",
+          "text": "{{characters.elias.name}} は制御台に寄りかかり、これをすべて見ていた。顔の表情は、このしばらくの間彼の顔で見た最も安堵に近い表現だった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -433,7 +433,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "メイン端末の画面は待機状態に戻った。Soren は端末から手を放し、振り返り、二人を見た。",
+          "text": "メイン端末の画面は待機状態に戻った。{{characters.soren.name}} は端末から手を放し、振り返り、二人を見た。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -447,7 +447,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "行こう。まだやることがいっぱいある。",
           "reveal": {
             "mode": "typewriter",

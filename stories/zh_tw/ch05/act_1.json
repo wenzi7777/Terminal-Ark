@@ -141,7 +141,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 做的第一件事是檢查傷況。",
+          "text": "{{characters.alea.name}} 做的第一件事是檢查傷況。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -155,7 +155,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 的後背在補給站撞出了一塊面積不小的瘀傷，短期內不能再承受同等級的衝擊。Soren 的手臂有一道淺的切傷，荒原環境裡感染風險不低。Lyra 的神經連線過載恢復得最慢，她坐在角落，手掌攤在膝上，還能看見輕微的顫抖。",
+          "text": "{{characters.elias.name}} 的後背在補給站撞出了一塊面積不小的瘀傷，短期內不能再承受同等級的衝擊。{{characters.soren.name}} 的手臂有一道淺的切傷，荒原環境裡感染風險不低。{{characters.lyra.name}} 的神經連線過載恢復得最慢，她坐在角落，手掌攤在膝上，還能看見輕微的顫抖。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -169,7 +169,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 把藥品包打開，逐一處置，動作簡練，不多說話。",
+          "text": "{{characters.alea.name}} 把藥品包打開，逐一處置，動作簡練，不多說話。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -183,7 +183,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "你做過這些。",
           "reveal": {
             "mode": "typewriter",
@@ -198,7 +198,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "在下層甲板。受傷了沒有藥，就自己學。",
           "reveal": {
             "mode": "typewriter",
@@ -213,7 +213,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她給 Elias 的後背纏好固定繃帶，把消炎藥推到他面前。",
+          "text": "她給 {{characters.elias.name}} 的後背纏好固定繃帶，把消炎藥推到他面前。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -227,7 +227,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "吞下去。",
           "reveal": {
             "mode": "typewriter",
@@ -242,7 +242,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "我不喜歡吞藥。",
           "reveal": {
             "mode": "typewriter",
@@ -257,7 +257,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "我知道。吞下去。",
           "reveal": {
             "mode": "typewriter",
@@ -300,7 +300,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 繪製地形草圖，標記資源點和危險區。Elias 持續掃描電子訊號，尋找活躍的人工設施。Alea 和 Lyra 負責實際的搜索和物資清點。",
+          "text": "{{characters.soren.name}} 繪製地形草圖，標記資源點和危險區。{{characters.elias.name}} 持續掃描電子訊號，尋找活躍的人工設施。{{characters.alea.name}} 和 {{characters.lyra.name}} 負責實際的搜索和物資清點。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -342,7 +342,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 把那兩組穩定劑抱在胸前，像抱著什麼很重要的東西。",
+          "text": "{{characters.lyra.name}} 把那兩組穩定劑抱在胸前，像抱著什麼很重要的東西。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -356,7 +356,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "找到了。",
           "reveal": {
             "mode": "typewriter",

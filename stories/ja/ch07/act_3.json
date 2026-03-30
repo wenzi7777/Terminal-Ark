@@ -63,7 +63,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は不完全な情報の環境で、彼の持つすべてを使い、かろうじて実行可能な方案を立てた。",
+          "text": "{{characters.soren.name}} は不完全な情報の環境で、彼の持つすべてを使い、かろうじて実行可能な方案を立てた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -77,7 +77,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "東側。そこに地形の起伏がある。機械軍団は複雑な地形では移動効率が低下する。俺たちなら走り抜けられる。",
           "reveal": {
             "mode": "typewriter",
@@ -92,7 +92,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "あと、どのくらい？",
           "reveal": {
             "mode": "typewriter",
@@ -107,7 +107,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "多くない。サブシステム癱瘓がもう少し持つなら、軍団が完全に再結集する前に外に出られる。",
           "reveal": {
             "mode": "typewriter",
@@ -122,7 +122,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "走ろう。",
           "reveal": {
             "mode": "typewriter",
@@ -193,7 +193,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren の判断に誤りはなかった。",
+          "text": "{{characters.soren.name}} の判断に誤りはなかった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -292,7 +292,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は裂縫の尽頭で立ち止まり、息をつき、最後に一度振り返った。",
+          "text": "{{characters.elias.name}} は裂縫の尽頭で立ち止まり、息をつき、最後に一度振り返った。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -320,7 +320,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は Lyra の方を見た。彼女の顔は安心しているが、その安心は悲しみの下にある。",
+          "text": "{{characters.soren.name}} は {{characters.lyra.name}} の方を見た。彼女の顔は安心しているが、その安心は悲しみの下にある。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -334,7 +334,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea は彼らの前で立ち止まり、北方を見つめた。",
+          "text": "{{characters.alea.name}} は彼らの前で立ち止まり、北方を見つめた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -348,7 +348,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "動かなきゃ。まだ離れる距離が足りない。",
           "reveal": {
             "mode": "typewriter",

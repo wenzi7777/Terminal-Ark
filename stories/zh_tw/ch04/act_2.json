@@ -70,7 +70,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "接通的瞬間，Soren 感覺到一種從未有過的感受——像是自身的感知邊界被強行往外撐開。",
+          "text": "接通的瞬間，{{characters.soren.name}} 感覺到一種從未有過的感受——像是自身的感知邊界被強行往外撐開。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -98,8 +98,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "側翼。Soren，壓制右側兩點鐘方向，不需要命中，讓它們保持距離。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "側翼。{{characters.soren.name}}，壓制右側兩點鐘方向，不需要命中，讓它們保持距離。",
           "reveal": {
             "mode": "typewriter",
             "cps": 28
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 沒有多想，把武裝模組的炮口指向她說的方向，開火。",
+          "text": "{{characters.soren.name}} 沒有多想，把武裝模組的炮口指向她說的方向，開火。",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -149,8 +149,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Elias，左後。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.elias.name}}，左後。",
           "reveal": {
             "mode": "typewriter",
             "cps": 28
@@ -178,8 +178,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Lyra，找掩體，不要暴露在開闊地帶。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.lyra.name}}，找掩體，不要暴露在開闊地帶。",
           "reveal": {
             "mode": "typewriter",
             "cps": 28
@@ -193,7 +193,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "好！",
           "reveal": {
             "mode": "typewriter",
@@ -236,7 +236,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren 感覺到了。那不是軀體的疲勞，而是某種更深層的消耗，像是有什麼東西在從他的意識裡抽走——起初是細流，然後越來越快。",
+          "text": "{{characters.soren.name}} 感覺到了。那不是軀體的疲勞，而是某種更深層的消耗，像是有什麼東西在從他的意識裡抽走——起初是細流，然後越來越快。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -292,8 +292,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Soren，降低出力。壓到你能穩住的程度，維持就好。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.soren.name}}，降低出力。壓到你能穩住的程度，維持就好。",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -321,7 +321,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 那邊的情況更糟。",
+          "text": "{{characters.elias.name}} 那邊的情況更糟。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -335,7 +335,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "他的本能是駭入，不是正面作戰。強行操控重型模組的後果是同步率消耗遠比 Soren 更快，他的右手臂已經開始出現輕微的不受控顫抖——那是神經連線過載的前兆。",
+          "text": "他的本能是駭入，不是正面作戰。強行操控重型模組的後果是同步率消耗遠比 {{characters.soren.name}} 更快，他的右手臂已經開始出現輕微的不受控顫抖——那是神經連線過載的前兆。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -371,7 +371,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 沒來得及閃，被撞飛出去，後背重重砸在儲物架上，架子上的物品嘩啦啦散落一地。",
+          "text": "{{characters.elias.name}} 沒來得及閃，被撞飛出去，後背重重砸在儲物架上，架子上的物品嘩啦啦散落一地。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -413,8 +413,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Elias——你現在能接入訊號嗎？",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.elias.name}}——你現在能接入訊號嗎？",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -428,7 +428,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "給我一點時間。",
           "reveal": {
             "mode": "typewriter",
@@ -443,7 +443,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "撐住。",
           "reveal": {
             "mode": "typewriter",
@@ -458,7 +458,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 在掩體後方找到了一條連接儲物架和側牆的通道。她從那裡匍匐爬過去，繞到了一具正在接近 Soren 的士兵後側。",
+          "text": "{{characters.lyra.name}} 在掩體後方找到了一條連接儲物架和側牆的通道。她從那裡匍匐爬過去，繞到了一具正在接近 {{characters.soren.name}} 的士兵後側。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -486,7 +486,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "沒有造成決定性的傷害，但讓 Soren 獲得了重新調整站位的空隙。",
+          "text": "沒有造成決定性的傷害，但讓 {{characters.soren.name}} 獲得了重新調整站位的空隙。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -500,7 +500,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 的軀體最小，承受過載的閾值最低。她把出力壓到最低，只做一件事——讓敵人的注意力不要只集中在一個人身上。",
+          "text": "{{characters.lyra.name}} 的軀體最小，承受過載的閾值最低。她把出力壓到最低，只做一件事——讓敵人的注意力不要只集中在一個人身上。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20

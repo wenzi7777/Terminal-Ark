@@ -86,7 +86,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias stood on the platform, watching the apparatus rotate around him, counting the intervals between scans.",
+          "text": "{{characters.elias.name}} stood on the platform, watching the apparatus rotate around him, counting the intervals between scans.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -156,7 +156,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias let that voice dissipate and returned his attention to what he was doing.",
+          "text": "{{characters.elias.name}} let that voice dissipate and returned his attention to what he was doing.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22

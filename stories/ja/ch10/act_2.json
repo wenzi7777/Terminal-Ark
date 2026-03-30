@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyraはその病院とシールドの端の間にある古い配電箱の中の隔離ドアのコントロール端末を見つけた。錆だらけで、パネルの何個かのボタンはもう機能していなかったが、電子ロックシステムの中核はまだ動作していた。",
+          "text": "{{characters.lyra.name}}はその病院とシールドの端の間にある古い配電箱の中の隔離ドアのコントロール端末を見つけた。錆だらけで、パネルの何個かのボタンはもう機能していなかったが、電子ロックシステムの中核はまだ動作していた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "しかしLyraは持っていた。",
+          "text": "しかし{{characters.lyra.name}}は持っていた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -147,8 +147,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Lyra。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.lyra.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -162,8 +162,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
-          "text": "ついてくるなよ。Aleaとeliasを連れて安全な距離に撤退して。人を連れ出したら、一緒に撤引しよう。",
+          "speaker": "{{characters.lyra.name}}",
+          "text": "ついてくるなよ。{{characters.alea.name}}とeliasを連れて安全な距離に撤退して。人を連れ出したら、一緒に撤引しよう。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -177,7 +177,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "お前の言葉は不可能なことだ。",
           "reveal": {
             "mode": "typewriter",
@@ -192,7 +192,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "分かってる。でも試したい。",
           "reveal": {
             "mode": "typewriter",
@@ -250,7 +250,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyraはドアの入口に立った。外側は火の光で染まった空で、彼女がもう清楚に見ることができるその一時的な病院、そして地面に膝をついた子どもがいた。",
+          "text": "{{characters.lyra.name}}はドアの入口に立った。外側は火の光で染まった空で、彼女がもう清楚に見ることができるその一時的な病院、そして地面に膝をついた子どもがいた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -348,7 +348,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "歩ける？",
           "reveal": {
             "mode": "typewriter",
@@ -377,7 +377,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "よし、行こう。中に連れていって。一緒に出てこよう。",
           "reveal": {
             "mode": "typewriter",

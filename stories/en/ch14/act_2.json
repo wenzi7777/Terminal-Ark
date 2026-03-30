@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra wasn't \"seeing\" or \"hearing\" them. She was \"knowing\" them. They came through and she understood, like water seeping into dry earth—no process, only result.",
+          "text": "{{characters.lyra.name}} wasn't \"seeing\" or \"hearing\" them. She was \"knowing\" them. They came through and she understood, like water seeping into dry earth—no process, only result.",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "She knew Alea's life before meeting her.",
+          "text": "She knew {{characters.alea.name}}'s life before meeting her.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -98,7 +98,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "She knew what that laugh did inside Alea's consciousness. Like ice that's been sitting a long time being touched by something. That fine crack. The nearly imperceptible vibration the moment the crack appeared.",
+          "text": "She knew what that laugh did inside {{characters.alea.name}}'s consciousness. Like ice that's been sitting a long time being touched by something. That fine crack. The nearly imperceptible vibration the moment the crack appeared.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -112,7 +112,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Then what Alea wanted to tell her.",
+          "text": "Then what {{characters.alea.name}} wanted to tell her.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -140,7 +140,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Not that I couldn't find the answer. I didn't even have the strength to ask the question. It's been so long, Lyra. In that storage room, in the gaps between shift changes, on the way to assignments, I had no direction. Nothing made me feel like tomorrow was worth arriving. I just lived because death also takes a kind of momentum, and I didn't even have that.",
+          "text": "Not that I couldn't find the answer. I didn't even have the strength to ask the question. It's been so long, {{characters.lyra.name}}. In that storage room, in the gaps between shift changes, on the way to assignments, I had no direction. Nothing made me feel like tomorrow was worth arriving. I just lived because death also takes a kind of momentum, and I didn't even have that.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -168,7 +168,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "You in that dark corridor, just dragged from beside a mutant, your knees just hit the ground, you looked up, you laughed, you said thank you, you said my name is Lyra, you said what's yours.",
+          "text": "You in that dark corridor, just dragged from beside a mutant, your knees just hit the ground, you looked up, you laughed, you said thank you, you said my name is {{characters.lyra.name}}, you said what's yours.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -252,7 +252,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "So don't, Lyra. Don't take my death as your fault.",
+          "text": "So don't, {{characters.lyra.name}}. Don't take my death as your fault.",
           "reveal": {
             "mode": "typewriter",
             "cps": 8
@@ -280,7 +280,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "You're not a test subject. You're not code. You're Lyra. You're the person who laughed in that dark corridor and said my name is Lyra. You're the person who made me understand that living can be an active choice, not passive inertia. You're the person I'd trade everything left for. Not because of where you came from. Not because of your code. Because you're you.",
+          "text": "You're not a test subject. You're not code. You're {{characters.lyra.name}}. You're the person who laughed in that dark corridor and said my name is {{characters.lyra.name}}. You're the person who made me understand that living can be an active choice, not passive inertia. You're the person I'd trade everything left for. Not because of where you came from. Not because of your code. Because you're you.",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -322,7 +322,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Can you hear me, Lyra?",
+          "text": "Can you hear me, {{characters.lyra.name}}?",
           "reveal": {
             "mode": "typewriter",
             "cps": 8

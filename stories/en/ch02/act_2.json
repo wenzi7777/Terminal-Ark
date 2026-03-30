@@ -49,7 +49,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren led the two of them past two blockades, speaking only when necessary. His route selections were nearly instinctive, each turn timed precisely between patrol shifts.",
+          "text": "{{characters.soren.name}} led the two of them past two blockades, speaking only when necessary. His route selections were nearly instinctive, each turn timed precisely between patrol shifts.",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -63,7 +63,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "So precise that the girl behind him—Alea, he'd heard—kept her eyes fixed on his back.",
+          "text": "So precise that the girl behind him—{{characters.alea.name}}, he'd heard—kept her eyes fixed on his back.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -77,7 +77,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "The basement door hung partially open. Soren reached to push it—",
+          "text": "The basement door hung partially open. {{characters.soren.name}} reached to push it—",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -162,7 +162,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "I've just cracked into the surveillance system for this sector. Your movement traces have been wiped from the records, and the camera feeds have been edited.",
           "reveal": {
             "mode": "typewriter",
@@ -177,7 +177,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "But the system will auto-repair itself in time.",
           "reveal": {
             "mode": "typewriter",
@@ -192,7 +192,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "Who are you?",
           "reveal": {
             "mode": "typewriter",
@@ -207,8 +207,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "<em>Elias</em>. You've stumbled into my space, so asking me questions seems a bit backward.",
+          "speaker": "{{characters.elias.name}}",
+          "text": "<em>{{characters.elias.name}}</em>. You've stumbled into my space, so asking me questions seems a bit backward.",
           "reveal": {
             "mode": "typewriter",
             "cps": 28
@@ -222,7 +222,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "Is this place... yours?",
           "reveal": {
             "mode": "typewriter",
@@ -237,7 +237,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "More or less. Used it for three weeks. I'll have to move on eventually.",
           "reveal": {
             "mode": "typewriter",
@@ -252,7 +252,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias moved toward a workbench in the corner. Soren's gaze landed on the table surface—",
+          "text": "{{characters.elias.name}} moved toward a workbench in the corner. {{characters.soren.name}}'s gaze landed on the table surface—",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -280,7 +280,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "What are these?",
           "reveal": {
             "mode": "typewriter",
@@ -295,7 +295,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias picked up one of the chips and turned it under the light.",
+          "text": "{{characters.elias.name}} picked up one of the chips and turned it under the light.",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -309,7 +309,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Brought down from the middle decks. Took a long time to get my hands on them.",
           "reveal": {
             "mode": "typewriter",
@@ -338,7 +338,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "Internal data from the Ark's Soul Management Bureau. Fragmented, but the decoded portions—<delay ms=\"500\"/>you'll probably want to see them.",
           "reveal": {
             "mode": "typewriter",
@@ -353,7 +353,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "All four gathered around the workbench. Elias rotated the decoder terminal's screen toward them.",
+          "text": "All four gathered around the workbench. {{characters.elias.name}} rotated the decoder terminal's screen toward them.",
           "reveal": {
             "mode": "typewriter",
             "cps": 22

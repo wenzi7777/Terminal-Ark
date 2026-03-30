@@ -1,6 +1,6 @@
 {
   "id": "13-2",
-  "title": "第二幕：Elias の阻止",
+  "title": "第二幕：{{characters.elias.name}} の阻止",
   "startNode": "main",
   "nodes": {
     "main": {
@@ -28,7 +28,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は五日目の夜、神経ネットワークにログインした。",
+          "text": "{{characters.soren.name}} は五日目の夜、神経ネットワークにログインした。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias はそれを感じた。それは同じ空間内に別の神経接続ノードが起動するかすかな感応だった。彼はほぼ同じ秒数で自分の接続端子に繋いで、跟进った。",
+          "text": "{{characters.elias.name}} はそれを感じた。それは同じ空間内に別の神経接続ノードが起動するかすかな感応だった。彼はほぼ同じ秒数で自分の接続端子に繋いで、跟进った。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -63,7 +63,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "神経ネットワーク内の世界は暗かった。その暗さは物理的な暗さではなく、データが希薄な場所に特有の空虚感だ。しかし Soren のノードは強い光のような輝きを放っていた。Elias は進入した瞬間に彼の位置をロックした。",
+          "text": "神経ネットワーク内の世界は暗かった。その暗さは物理的な暗さではなく、データが希薄な場所に特有の空虚感だ。しかし {{characters.soren.name}} のノードは強い光のような輝きを放っていた。{{characters.elias.name}} は進入した瞬間に彼の位置をロックした。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -77,7 +77,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "そのノードは Elias が見たことのないスピードで前進していた。それはノミのようで、方舟コアシステムの防御壁を層ごとに掘り進んでいた。",
+          "text": "そのノードは {{characters.elias.name}} が見たことのないスピードで前進していた。それはノミのようで、方舟コアシステムの防御壁を層ごとに掘り進んでいた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -91,8 +91,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "Soren。やめろ。",
+          "speaker": "{{characters.elias.name}}",
+          "text": "{{characters.soren.name}}。やめろ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -106,8 +106,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Elias。邪魔するな。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.elias.name}}。邪魔するな。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -121,7 +121,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "邪魔する。お前が邪魔させようとしてることは知ってる。だからお前は寝るのを待って接続した。でも寝なかった。だからここにいる。やめろ、話そう。",
           "reveal": {
             "mode": "typewriter",
@@ -136,7 +136,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "昨日話した。俺は変わっていない。",
           "reveal": {
             "mode": "typewriter",
@@ -151,7 +151,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は Soren の端末の暗号トークンをクリアして、中央ネットワークへのパスを切った。",
+          "text": "{{characters.elias.name}} は {{characters.soren.name}} の端末の暗号トークンをクリアして、中央ネットワークへのパスを切った。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -165,7 +165,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "先に俺を超える必要がある。",
           "reveal": {
             "mode": "typewriter",
@@ -180,7 +180,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren はこのネットワークのIDを一つだけ持っていなかった。彼は小さな黒いボックスを出して、起動ボタンを押した。",
+          "text": "{{characters.soren.name}} はこのネットワークのIDを一つだけ持っていなかった。彼は小さな黒いボックスを出して、起動ボタンを押した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -199,7 +199,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は突然目眩を感じ、視覚は地元の神経ネットワークに戻った。ファイアウォール。Soren は彼のネットワークアクセス権限をブロックした。",
+          "text": "{{characters.elias.name}} は突然目眩を感じ、視覚は地元の神経ネットワークに戻った。ファイアウォール。{{characters.soren.name}} は彼のネットワークアクセス権限をブロックした。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -213,7 +213,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は方舟コアに向けて続行した。Elias は追いかけてもう一度ブロックしようとしたが、自分のノードが反撃ロックされているのを感じた。そのロック境界は彼が動く閾値の下に正確に調整されていた。それは彼を傷つけることではなく、彼が干渉し続けることができないようにするだけだった。",
+          "text": "{{characters.soren.name}} は方舟コアに向けて続行した。{{characters.elias.name}} は追いかけてもう一度ブロックしようとしたが、自分のノードが反撃ロックされているのを感じた。そのロック境界は彼が動く閾値の下に正確に調整されていた。それは彼を傷つけることではなく、彼が干渉し続けることができないようにするだけだった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -227,7 +227,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "俺はお前を傷つけたくない。<delay ms=\"400\"/>完成したら、俺たちは両方自由になる。",
           "reveal": {
             "mode": "typewriter",
@@ -242,8 +242,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
-          "text": "Soren——",
+          "speaker": "{{characters.elias.name}}",
+          "text": "{{characters.soren.name}}——",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -257,8 +257,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
-          "text": "Elias。<delay ms=\"300\"/>俺は Alea のために計算した。もしその時そのシステムが存在しなかったら、彼女はここで死ぬことはなかった。知られていない荒野の角で消散することはなかった。彼女はそのような結末を取るべきではなかった。その結末は世界が彼女に負っている。俺はそれを返しているだけだ。",
+          "speaker": "{{characters.soren.name}}",
+          "text": "{{characters.elias.name}}。<delay ms=\"300\"/>俺は {{characters.alea.name}} のために計算した。もしその時そのシステムが存在しなかったら、彼女はここで死ぬことはなかった。知られていない荒野の角で消散することはなかった。彼女はそのような結末を取るべきではなかった。その結末は世界が彼女に負っている。俺はそれを返しているだけだ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -272,7 +272,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は話さなかった。彼はそのノードの位置にロックされ、Soren のライトポイントがさらに深い場所に進み続けるのを見ていた。遠く、より遠く、その数据の暗闇に消えるまで。",
+          "text": "{{characters.elias.name}} は話さなかった。彼はそのノードの位置にロックされ、{{characters.soren.name}} のライトポイントがさらに深い場所に進み続けるのを見ていた。遠く、より遠く、その数据の暗闇に消えるまで。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12

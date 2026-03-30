@@ -120,7 +120,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "它們知道我們在這裡。但我們不在它們的當前任務清單裡，所以不需要處置。",
           "reveal": {
             "mode": "typewriter",
@@ -135,7 +135,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "那我們在什麼清單裡。",
           "reveal": {
             "mode": "typewriter",
@@ -150,7 +150,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "觀察。或者記錄。這個城市的每一個角落都在採集數據，我們從進來的那一刻就是數據的一部分了。",
           "reveal": {
             "mode": "typewriter",
@@ -165,7 +165,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "但採集不等於干預。在它們完成評估之前，我們是<em>中性的變數</em>。",
           "reveal": {
             "mode": "typewriter",
@@ -194,7 +194,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "它的步伐是固定頻率的，金屬腳掌踩在金屬地面上的聲音整齊得像節拍器。它從 Lyra 和 Alea 之間的縫隙穿過去，距離兩個人各不到半步。",
+          "text": "它的步伐是固定頻率的，金屬腳掌踩在金屬地面上的聲音整齊得像節拍器。它從 {{characters.lyra.name}} 和 {{characters.alea.name}} 之間的縫隙穿過去，距離兩個人各不到半步。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -222,7 +222,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 看著那個個體走遠，沒有說話。",
+          "text": "{{characters.lyra.name}} 看著那個個體走遠，沒有說話。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -278,7 +278,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 的目光在那些建築之間停了一下，然後收回來，繼續往前。",
+          "text": "{{characters.alea.name}} 的目光在那些建築之間停了一下，然後收回來，繼續往前。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20

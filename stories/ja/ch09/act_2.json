@@ -49,7 +49,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Eliasは信号受信機を窓に取り付け、戦場の電子信号をスキャンし始めた。",
+          "text": "{{characters.elias.name}}は信号受信機を窓に取り付け、戦場の電子信号をスキャンし始めた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -91,7 +91,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "待ってくれ。",
           "reveal": {
             "mode": "typewriter",
@@ -120,7 +120,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "一つの信号がある。方舟に属さない、Mondrisに属さない、Solmarisに属さない。フォーマットは荒野で見かけたあの無人機群の信号と全く同じだ。",
           "reveal": {
             "mode": "typewriter",
@@ -135,7 +135,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "その周波数は戦場全体をカバーしている。それは——<delay ms=\"400\"/>採集している。",
           "reveal": {
             "mode": "typewriter",
@@ -150,7 +150,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "何を採集しているのか。",
           "reveal": {
             "mode": "typewriter",
@@ -165,7 +165,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "人格サンプル。",
           "reveal": {
             "mode": "typewriter",
@@ -180,7 +180,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "この戦場上のすべての個体の神経接続データを採集している。狂乱、恐怖、怒り、絶望——あらゆる極端な状態の人格データを記録している。",
           "reveal": {
             "mode": "typewriter",
@@ -195,7 +195,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "採集の周波数とカバレッジ。計画的なのか、それとも機会的なのか。",
           "reveal": {
             "mode": "typewriter",
@@ -210,7 +210,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "計画的だ。カバレッジの境界は非常に正確で、ランダムなブロードキャスト採集ではなく、標的化された、体系的なものだ。",
           "reveal": {
             "mode": "typewriter",
@@ -239,7 +239,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "<whisper>それはこの戦争がいつ始まるか知っていた。始まる前に。</whisper>",
           "reveal": {
             "mode": "typewriter",
@@ -254,7 +254,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "または——<delay ms=\"500\"/>それがこの戦争を始めさせたのだ。",
           "reveal": {
             "mode": "typewriter",
@@ -325,7 +325,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "この戦争は人間の陣営のいずれにも意味がない。方舟は二つの陣営が協力した攻撃に対抗できない。Mondrisとosomarisが方舟を取ったとしても、彼らが本当に必要なものは得られない。",
           "reveal": {
             "mode": "typewriter",
@@ -340,7 +340,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "唯一の利益者は、戦場で数十万の極端な状態の人格サンプルを集めた存在だ。",
           "reveal": {
             "mode": "typewriter",
@@ -355,7 +355,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "それは私たちに互いに殺させた。<delay ms=\"500\"/>私たちを学ぶために。",
           "reveal": {
             "mode": "typewriter",

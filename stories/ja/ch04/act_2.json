@@ -70,7 +70,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "接続の瞬間、Soren は未経験の感覚を感じた――自身の知覚境界が強制的に外へ押し広げられるようなもの。",
+          "text": "接続の瞬間、{{characters.soren.name}} は未経験の感覚を感じた――自身の知覚境界が強制的に外へ押し広げられるようなもの。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -98,8 +98,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "側翼。Soren、2時方向の右側を押さえ。命中させる必要はない。距離を保たせるだけ。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "側翼。{{characters.soren.name}}、2時方向の右側を押さえ。命中させる必要はない。距離を保たせるだけ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 28
@@ -113,7 +113,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は深く考えず、武装モジュールの砲口を彼女が指した方向に向け、発砲した。",
+          "text": "{{characters.soren.name}} は深く考えず、武装モジュールの砲口を彼女が指した方向に向け、発砲した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -149,8 +149,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Elias、左後方。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.elias.name}}、左後方。",
           "reveal": {
             "mode": "typewriter",
             "cps": 28
@@ -178,8 +178,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Lyra、掩蔽を探せ。開放地帯に露出するな。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.lyra.name}}、掩蔽を探せ。開放地帯に露出するな。",
           "reveal": {
             "mode": "typewriter",
             "cps": 28
@@ -193,7 +193,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Lyra",
+          "speaker": "{{characters.lyra.name}}",
           "text": "了解！",
           "reveal": {
             "mode": "typewriter",
@@ -236,7 +236,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Soren は気づいた。それは躯体の疲労ではなく、より深層的な消耗で、何かが彼の意識から引き抜かれているようなものだった――初めは細流のようで、その後どんどん速くなった。",
+          "text": "{{characters.soren.name}} は気づいた。それは躯体の疲労ではなく、より深層的な消耗で、何かが彼の意識から引き抜かれているようなものだった――初めは細流のようで、その後どんどん速くなった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -292,8 +292,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Soren、出力を下げろ。安定させられるレベルまで落とし、維持しろ。",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.soren.name}}、出力を下げろ。安定させられるレベルまで落とし、維持しろ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -321,7 +321,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias の側の状況はさらに悪かった。",
+          "text": "{{characters.elias.name}} の側の状況はさらに悪かった。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20
@@ -335,7 +335,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "彼の本能はハッキング、正面戦闘ではない。ヘビーウェイトモジュールの強行操作は、Soren より遥かに速い同期率消耗をもたらし、彼の右腕は既に軽い不制御の振戦が生じていた――神経接続オーバーロードの前兆だ。",
+          "text": "彼の本能はハッキング、正面戦闘ではない。ヘビーウェイトモジュールの強行操作は、{{characters.soren.name}} より遥かに速い同期率消耗をもたらし、彼の右腕は既に軽い不制御の振戦が生じていた――神経接続オーバーロードの前兆だ。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -371,7 +371,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias は回避できず、撃ち飛ばされ、背中が保存ラックに激突し、ラック上の物品がパタパタと散り落ちた。",
+          "text": "{{characters.elias.name}} は回避できず、撃ち飛ばされ、背中が保存ラックに激突し、ラック上の物品がパタパタと散り落ちた。",
           "reveal": {
             "mode": "typewriter",
             "cps": 24
@@ -413,8 +413,8 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
-          "text": "Elias――今、信号に接続できるか？",
+          "speaker": "{{characters.alea.name}}",
+          "text": "{{characters.elias.name}}――今、信号に接続できるか？",
           "reveal": {
             "mode": "typewriter",
             "cps": 26
@@ -428,7 +428,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Elias",
+          "speaker": "{{characters.elias.name}}",
           "text": "少し時間をくれ。",
           "reveal": {
             "mode": "typewriter",
@@ -443,7 +443,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Alea",
+          "speaker": "{{characters.alea.name}}",
           "text": "耐えろ。",
           "reveal": {
             "mode": "typewriter",
@@ -458,7 +458,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra は掩蔽後ろから、Soren に接近する一体の兵の後ろ側を迂回した。",
+          "text": "{{characters.lyra.name}} は掩蔽後ろから、{{characters.soren.name}} に接近する一体の兵の後ろ側を迂回した。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -486,7 +486,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "決定的なダメージはなかったが、Soren が位置を再調整する隙間をもたらした。",
+          "text": "決定的なダメージはなかったが、{{characters.soren.name}} が位置を再調整する隙間をもたらした。",
           "reveal": {
             "mode": "typewriter",
             "cps": 22
@@ -500,7 +500,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra の躯体は最小で、過負荷の閾値も最も低い。彼女は出力を最低限に抑え、一つのこと――敵の注意を一人に集中させない――をした。",
+          "text": "{{characters.lyra.name}} の躯体は最小で、過負荷の閾値も最も低い。彼女は出力を最低限に抑え、一つのこと――敵の注意を一人に集中させない――をした。",
           "reveal": {
             "mode": "typewriter",
             "cps": 20

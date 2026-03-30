@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 在接收它的時候不是在「看」或者「聽」，是在「知道」。那些東西進來，她就知道了，像水滲進乾燥的土地，沒有過程，只有結果。",
+          "text": "{{characters.lyra.name}} 在接收它的時候不是在「看」或者「聽」，是在「知道」。那些東西進來，她就知道了，像水滲進乾燥的土地，沒有過程，只有結果。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她知道了 Alea 在遇見她之前的事。",
+          "text": "她知道了 {{characters.alea.name}} 在遇見她之前的事。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -98,7 +98,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "她知道了那個笑在 Alea 的意識裡落下去的感覺。像一塊放置已久的冰被什麼東西碰了一下，那道細細的裂紋，以及裂紋出現的瞬間那種幾乎察覺不到的、不知道該如何命名的震動。",
+          "text": "她知道了那個笑在 {{characters.alea.name}} 的意識裡落下去的感覺。像一塊放置已久的冰被什麼東西碰了一下，那道細細的裂紋，以及裂紋出現的瞬間那種幾乎察覺不到的、不知道該如何命名的震動。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -112,7 +112,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "然後，是 Alea 想告訴她的話。",
+          "text": "然後，是 {{characters.alea.name}} 想告訴她的話。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -140,7 +140,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "不是找不到答案，是連那個問題都提不起力氣去問。我已經很久很久了，Lyra。我在那個儲藏室裡，在那些換班的縫隙裡，在那些做委託的路上的路上，我沒有方向，沒有任何一件事讓我覺得明天是值得到來的。我只是活著，因為死亡也需要某種動力，而我連那個動力都沒有。",
+          "text": "不是找不到答案，是連那個問題都提不起力氣去問。我已經很久很久了，{{characters.lyra.name}}。我在那個儲藏室裡，在那些換班的縫隙裡，在那些做委託的路上的路上，我沒有方向，沒有任何一件事讓我覺得明天是值得到來的。我只是活著，因為死亡也需要某種動力，而我連那個動力都沒有。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -168,7 +168,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "妳在那個黑暗的走廊裡，剛剛從一隻變異生物旁邊被拖出來，妳的膝蓋剛剛砸在地上，妳抬起頭，妳笑了，妳說謝謝妳，妳說我叫 Lyra，妳說妳呢。",
+          "text": "妳在那個黑暗的走廊裡，剛剛從一隻變異生物旁邊被拖出來，妳的膝蓋剛剛砸在地上，妳抬起頭，妳笑了，妳說謝謝妳，妳說我叫 {{characters.lyra.name}}，妳說妳呢。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -252,7 +252,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "所以不要，Lyra，不要把我的死當成妳的錯。",
+          "text": "所以不要，{{characters.lyra.name}}，不要把我的死當成妳的錯。",
           "reveal": {
             "mode": "typewriter",
             "cps": 8
@@ -280,7 +280,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "妳不是試驗品，妳不是程式碼。妳是 Lyra。妳是那個在黑暗的走廊裡笑著說我叫 Lyra 的人，妳是那個讓我知道活著可以是主動的選擇而不是被動的慣性的人，妳是我願意用我所剩下的一切去換的人。不是因為妳的來歷，不是因為妳的代碼，是因為妳就是妳。",
+          "text": "妳不是試驗品，妳不是程式碼。妳是 {{characters.lyra.name}}。妳是那個在黑暗的走廊裡笑著說我叫 {{characters.lyra.name}} 的人，妳是那個讓我知道活著可以是主動的選擇而不是被動的慣性的人，妳是我願意用我所剩下的一切去換的人。不是因為妳的來歷，不是因為妳的代碼，是因為妳就是妳。",
           "reveal": {
             "mode": "typewriter",
             "cps": 10
@@ -322,7 +322,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "妳聽見了嗎，Lyra。",
+          "text": "妳聽見了嗎，{{characters.lyra.name}}。",
           "reveal": {
             "mode": "typewriter",
             "cps": 8

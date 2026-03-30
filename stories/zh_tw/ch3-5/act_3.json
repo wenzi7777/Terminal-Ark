@@ -42,7 +42,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Lyra 和 Alea 的對話斷斷續續地又進行了一段時間。Lyra 問的問題越來越小，越來越具體，從住所問到平時怎麼打發時間，從打發時間問到有沒有去過下層甲板某幾個地方。",
+          "text": "{{characters.lyra.name}} 和 {{characters.alea.name}} 的對話斷斷續續地又進行了一段時間。{{characters.lyra.name}} 問的問題越來越小，越來越具體，從住所問到平時怎麼打發時間，從打發時間問到有沒有去過下層甲板某幾個地方。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -56,7 +56,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 的回答一直都很短，很直接。但她一直都在回答。",
+          "text": "{{characters.alea.name}} 的回答一直都很短，很直接。但她一直都在回答。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -70,7 +70,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "然後 Lyra 的問題越來越少，間隔越來越長。然後停了。",
+          "text": "然後 {{characters.lyra.name}} 的問題越來越少，間隔越來越長。然後停了。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -84,7 +84,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 看了她一眼。她的眼睛閉著，靠在牆壁上，頭垂著。",
+          "text": "{{characters.alea.name}} 看了她一眼。她的眼睛閉著，靠在牆壁上，頭垂著。",
           "reveal": {
             "mode": "typewriter",
             "cps": 16
@@ -98,7 +98,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 以為她只是在休息。然後那個頭慢慢地往旁邊傾，傾，傾，落在了她的肩膀上。",
+          "text": "{{characters.alea.name}} 以為她只是在休息。然後那個頭慢慢地往旁邊傾，傾，傾，落在了她的肩膀上。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -112,7 +112,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 沒有動。",
+          "text": "{{characters.alea.name}} 沒有動。",
           "reveal": {
             "mode": "typewriter",
             "cps": 12
@@ -126,7 +126,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 從接收器上抬起頭，掃了這邊一眼，沒有說話，重新低頭，繼續裝零件。",
+          "text": "{{characters.elias.name}} 從接收器上抬起頭，掃了這邊一眼，沒有說話，重新低頭，繼續裝零件。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -140,7 +140,7 @@
         {
           "type": "line",
           "layer": "dialogue",
-          "speaker": "Soren",
+          "speaker": "{{characters.soren.name}}",
           "text": "行動前各自休息。集合點在北側出口，每個人現在確認好自己的路線和備用撤退方向。之後不要說不必要的話。",
           "reveal": {
             "mode": "typewriter",
@@ -169,7 +169,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Elias 把接收器最後一個零件裝好，確認了一下訊號，收進口袋，也把背靠上另一側的牆壁，閉眼。",
+          "text": "{{characters.elias.name}} 把接收器最後一個零件裝好，確認了一下訊號，收進口袋，也把背靠上另一側的牆壁，閉眼。",
           "reveal": {
             "mode": "typewriter",
             "cps": 18
@@ -211,7 +211,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 低頭，看了一眼靠在她肩上的人。",
+          "text": "{{characters.alea.name}} 低頭，看了一眼靠在她肩上的人。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
@@ -295,7 +295,7 @@
         {
           "type": "line",
           "layer": "narration",
-          "text": "Alea 把後腦靠上了身後的牆壁，閉上眼睛。",
+          "text": "{{characters.alea.name}} 把後腦靠上了身後的牆壁，閉上眼睛。",
           "reveal": {
             "mode": "typewriter",
             "cps": 14
