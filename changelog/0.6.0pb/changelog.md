@@ -6,7 +6,7 @@
 ## Release Date: Mar. 31st 2026 3:20 JST
 
 ### Note
-- Grouped changelogs (Bug Fixes, New Features, Improvements) will not be provided for this update.
+- Grouped changelogs (Bug Fixes, New Features, Improvements) will not be provided from this update.
 
 ### Changelog
 - Clues can now be collected once the cooldown expires, regardless of agent assignment or mood (including when mood is 0).
