@@ -55,11 +55,11 @@ Support Heroes let your Terminal User Network share elite operatives for dungeon
 ## 💡 Tips & Troubleshooting | 技巧與疑難排解
 
 - Node Points update instantly; if the pool hits 0 the support slot greys out until replenished.
-- Heroes resting in the Lounge regain **10 mood/hour** from their current value—rotate depleted heroes before lending them.
+- Heroes resting in the Lounge regain mood in **minute-based settlement**, with Lv.1 equivalent to **10 mood/hour**—rotate depleted heroes before lending them.
 - Leaving a network disables auto-usage and removes shared heroes; rejoin to re-enable.
 - If Inventory shows “support slot locked,” ensure the hero is not assigned to squads or workstation duties.
 
 - 節點點數即時更新；歸零時助戰槽會變灰，補足後才可再次借用。
-- 休息室會以 **每小時 10 點** 從當前值恢復心情，借出前記得輪休。
+- 休息室會以 **每分鐘結算** 的方式恢復心情，Lv.1 總量等效 **每小時 10 點**，借出前記得輪休。
 - 離開網路會關閉預設助戰並撤回共享英雄，重新加入後再度啟用。
 - 背包顯示「助戰槽鎖定」時，請確認英雄未在編隊或工作站任務中。
