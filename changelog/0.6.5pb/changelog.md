@@ -6,15 +6,15 @@
 ## Release Date: Apr. 17th 2026 02:50 JST
 
 ### Changelog
-- You can now use neural sync regen items anytime even your neural sync is currently full.
-- Reduced the use neural sync regen items button's size.
-- Fixed an issue where terminal ark keeps trying to connect to chat channel even it is currently connected.
-- Improved the Regen Extraction page's layout and contents.
-- Reworked the toast' style.
-- Reworked the Neural Sync Recover Guide overlay.
-- Changed the in-game values from hourly settlement to minute-based settlement, improving real-time responsiveness.
-- Text shadow is set to off by default.
-- Some UI changes for mobile players applied.
+- Neural Sync Regen items can now be used at any time, even when Neural Sync is already full.
+- Reduced the size of the button used for Neural Sync Regen items.
+- Fixed an issue where Terminal Ark would keep trying to connect to the chat channel even when it was already connected.
+- Improved the layout and content of the Regen Extraction page.
+- Reworked the toast style.
+- Reworked the Neural Sync Recovery Guide overlay.
+- Changed in-game values from hourly settlement to minute-based settlement for better real-time responsiveness.
+- Text shadow is now turned off by default.
+- Applied several UI improvements for mobile players.
 
 ### Others
 - Included various minor fixes and performance optimizations.
