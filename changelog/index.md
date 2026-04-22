@@ -1,6 +1,7 @@
 # Terminal Ark Changelog Index
 
 ### App Bundle & Server Bundle Updates List
+- **v0.6.10** *(Public Beta)* — [Changelog](./0.6.10pb/changelog.md)
 - **v0.6.9** *(Public Beta)* — [Changelog](./0.6.9pb/changelog.md)
 - **v0.6.8** *(Public Beta)* — [Changelog](./0.6.8pb/changelog.md)
 - **v0.6.7e** *(Public Beta)* — [Changelog](./0.6.7epb/changelog.md)
