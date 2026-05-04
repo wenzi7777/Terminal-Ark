@@ -1,5 +1,7 @@
 # 英雄圖鑑索引（按稀有度）
 
+- [英雄技能與效果整理](./hero-skills-summary.md)
+
 ## 4★
 - [cylix](./cylix.md)
 - [renka](./renka.md)
