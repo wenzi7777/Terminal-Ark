@@ -1633,6 +1633,8 @@
   "cache-order": "最高機密輸送",
   "collect": "回収",
   "deliver": "納品",
+  "workstation-quick-deliver-toast": "注文を{{count}}件納品しました。",
+  "workstation-quick-collect-toast": "{{itemName}}を{{count}}個回収しました。",
   "manufacturing-orders": "製造注文",
   "manufacturing-hint": "レシピを選択して製造を開始",
   "available-recipes": "利用可能なレシピ",

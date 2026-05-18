@@ -1987,6 +1987,8 @@
   "cache-order": "绝密押运",
   "collect": "收取",
   "deliver": "交付",
+  "workstation-quick-deliver-toast": "交付了 {{count}} 个订单。",
+  "workstation-quick-collect-toast": "收取了 {{count}} 个 {{itemName}}。",
   "manufacturing-orders": "制造订单",
   "manufacturing-hint": "选择配方开始制造",
   "available-recipes": "可用配方",

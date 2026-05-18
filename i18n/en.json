@@ -1987,6 +1987,8 @@
   "cache-order": "Classified Convoy",
   "collect": "Collect",
   "deliver": "Deliver",
+  "workstation-quick-deliver-toast": "Delivered {{count}} orders.",
+  "workstation-quick-collect-toast": "Collected {{count}} {{itemName}}.",
   "manufacturing-orders": "Manufacturing Orders",
   "manufacturing-hint": "Select a recipe to start manufacturing",
   "available-recipes": "Available Recipes",
