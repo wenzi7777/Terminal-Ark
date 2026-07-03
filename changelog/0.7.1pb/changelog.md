@@ -6,7 +6,7 @@
 ## Release Date: Jul. 3rd 2026 22:20 JST
 
 ### Changelog
-- Improved the displayed informations in the Signal Retention Bay.
+- Improved the information displayed in the Signal Retention Bay.
 
 ### Others
 - Included various minor fixes and performance optimizations.
