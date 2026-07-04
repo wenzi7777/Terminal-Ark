@@ -1,0 +1,16 @@
+{
+  "chat-cache-cleared-reload-required": "Chat cache cleared. Reload required.",
+  "chat-channel-changed": "Chat channel changed",
+  "chat-clear-cache-confirm": "Do you really want to clear chat cache? Please use this feature only when chat system is not working properly.",
+  "chat-input-help-text": "Type your message in the textbox and press Send to send your message. Markdown is supported. If you want to mention someone, use #mention# followed by their UID and end with a #. Also, or just click their username to quick mention.",
+  "chat-management": "Chat Management",
+  "chat-mod-terminal": "Chat Mod Terminal Appearance",
+  "chat-mod-terminal-description": "A moderation-themed terminal skin that changes both ChatNet bubbles and profile pages.",
+  "chat-network": "Chat Network",
+  "chatnet": "ChatNet",
+  "mention-this-user-in-your-message": "Mention this user in your message",
+  "message-is-still-loading": "Message is still loading",
+  "reply": "Reply",
+  "reply-here-maximum-is-512-words-markdown-supported": "Reply here (maximum is 512 words, markdown supported)",
+  "reply-to-message-success": "Reply to message success"
+}

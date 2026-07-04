@@ -1,0 +1,9 @@
+{
+  "gacha": "ガチャ",
+  "gacha-confirm-encrypted-multi": "暗号化チャンネルガチャを10回引きますか？",
+  "gacha-confirm-encrypted-single": "暗号化チャンネルガチャを1回引きますか？",
+  "gacha-confirm-standard-multi": "標準チャンネルガチャを10回引きますか？",
+  "gacha-confirm-standard-single": "標準チャンネルガチャを1回引きますか？",
+  "gacha-history": "ガチャ履歴",
+  "gacha-history-empty": "まだ記録がありません"
+}

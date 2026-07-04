@@ -1,0 +1,16 @@
+{
+  "chat-cache-cleared-reload-required": "チャットキャッシュをクリアしました。ページのリロードが必要です。",
+  "chat-channel-changed": "チャットチャンネルが変更されました",
+  "chat-clear-cache-confirm": "本当にチャットキャッシュをクリアしますか？この機能はチャットシステムが正常に動作しない場合のみ使用してください。",
+  "chat-input-help-text": "テキストボックスにメッセージを入力し、送信ボタンを押してください。Markdownがサポートされています。他のユーザーをメンションするには、#mention# の後にUIDを入力し、# で閉じるか、ユーザー名をクリックしてクイックメンションを行ってください。",
+  "chat-management": "チャット管理",
+  "chat-mod-terminal": "チャット管理端末外観",
+  "chat-mod-terminal-description": "管理者識別を持つ端末テーマで、ChatNet の発言枠とプロフィール外観を変更します。",
+  "chat-network": "チャットネットワーク",
+  "chatnet": "チャット・ネットワーク",
+  "mention-this-user-in-your-message": "メッセージ内でこのユーザーをメンション",
+  "message-is-still-loading": "メッセージを読み込み中",
+  "reply": "返信",
+  "reply-here-maximum-is-512-words-markdown-supported": "ここに返信（最大512文字、Markdownサポート）",
+  "reply-to-message-success": "返信を送信しました"
+}

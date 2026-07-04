@@ -1,0 +1,16 @@
+{
+  "chat-cache-cleared-reload-required": "聊天快取已清除，需要重新整理頁面。",
+  "chat-channel-changed": "聊天頻道已更改",
+  "chat-clear-cache-confirm": "你確定要清除聊天快取嗎？請僅在聊天系統無法正常運作時使用此功能。",
+  "chat-input-help-text": "在文本框中輸入您的訊息並按下發送來發送您的訊息，支援 Markdown 語法。如果您想提及某人，請使用 #mention# 後接他們的 UID 並以 # 結尾，或者直接點擊他們的用戶名以快速提及。",
+  "chat-management": "聊天管理",
+  "chat-mod-terminal": "聊天管理終端外觀",
+  "chat-mod-terminal-description": "帶有管理標識的終端主題，會改變 ChatNet 發言框與個人頁面外觀。",
+  "chat-network": "聊天網路",
+  "chatnet": "聊天網路",
+  "mention-this-user-in-your-message": "在您的訊息中提及此用戶",
+  "message-is-still-loading": "訊息仍在載入",
+  "reply": "回覆",
+  "reply-here-maximum-is-512-words-markdown-supported": "在此回覆（最多 512 字，支援 Markdown 語法）",
+  "reply-to-message-success": "成功回覆訊息"
+}

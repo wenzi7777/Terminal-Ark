@@ -1,0 +1,9 @@
+{
+  "gacha": "转蛋",
+  "gacha-confirm-encrypted-multi": "你要在加密频道转蛋 10 次吗？",
+  "gacha-confirm-encrypted-single": "你要在加密频道转蛋 1 次吗？",
+  "gacha-confirm-standard-multi": "你要在标准频道转蛋 10 次吗？",
+  "gacha-confirm-standard-single": "你要在标准频道转蛋 1 次吗？",
+  "gacha-history": "抽卡记录",
+  "gacha-history-empty": "暂无记录"
+}
