@@ -3,6 +3,8 @@
   "admin-activate": "启用",
   "admin-add-title": "新增称号",
   "admin-back-home": "返回首页",
+  "admin-buff-effect-value": "数值",
+  "admin-buff-effect-value-hint": "留空则使用该 Buff 的默认数值，可自行输入更高或更低的数值。",
   "admin-buff-reason-placeholder": "输入施加原因",
   "admin-change-role": "变更角色",
   "admin-clear-terminal-appearance": "清空装备外观",

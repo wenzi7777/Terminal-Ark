@@ -3,6 +3,8 @@
   "admin-activate": "Activate",
   "admin-add-title": "Add Title",
   "admin-back-home": "Back to Home",
+  "admin-buff-effect-value": "Value",
+  "admin-buff-effect-value-hint": "Leave blank to use this buff's default value, or enter a custom value.",
   "admin-buff-reason-placeholder": "Enter a reason",
   "admin-change-role": "Change Role",
   "admin-clear-terminal-appearance": "Clear Equipped Appearance",

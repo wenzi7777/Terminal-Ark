@@ -3,6 +3,8 @@
   "admin-activate": "有効化",
   "admin-add-title": "称号を追加",
   "admin-back-home": "ホームへ戻る",
+  "admin-buff-effect-value": "数値",
+  "admin-buff-effect-value-hint": "空欄の場合はこのバフの初期値を使用します。任意の数値を入力できます。",
   "admin-buff-reason-placeholder": "付与理由を入力",
   "admin-change-role": "役割変更",
   "admin-clear-terminal-appearance": "装備外観を解除",
