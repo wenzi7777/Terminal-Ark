@@ -405,10 +405,9 @@
   "data-overlord": "Data Overlord",
   "data-pierce": "Data Pierce",
   "data-vault": "Data Vault",
-  "data-vault-long-lore": "The Vault is an extension of the National Bank of Terminal Ark’s (NBTA) core data center, designed for the secure storage and retrieval of digital currency and items. Through dedicated encrypted channels, all stored data is mirrored across multiple nodes, ensuring stability even during network fluctuations. As authorization levels increase, the Vault’s capacity expands, also upgrading the carry limit of personal inventories, allowing every operation to begin with greater preparedness.",
-  "data-vault-lore": "Store it in the Vault—it’s safer than your own head. Upgrade it, and even your terminal's storage grows larger.",
+  "data-vault-long-lore": "The Vault is an extension of the National Bank of Terminal Ark's (NBTA) core data center, designed for the secure storage and retrieval of digital currency and items. Through dedicated encrypted channels, all stored data is mirrored across multiple nodes in real-time, ensuring stable access even during network fluctuations. As authorization levels rise, the Vault's capacity expands and also increases the carry limit of your personal inventory, allowing every operation to begin with greater preparedness.\nAccording to NBTA's announcement, upgrading backpack slots to 64 grants the title 'Junior Collector', 96 grants 'Intermediate Collector', 128 grants 'Senior Collector', and reaching 196 (max) grants the title 'Epic Collector'.",
+  "data-vault-lore": "Store it in the Vault—it's safer than your own head. Upgrade it, and even your terminal's storage grows larger.",
   "data-vault-slots-full": "Data Vault Slots Full",
-  "data-vault-upgrade-loot-lore": "According to the NBTA’s announcement, upgrading backpack slots to 64 grants the title 'Junior Collector', 96 grants 'Intermediate Collector', 128 grants 'Senior Collector', and reaching 196 (the maximum) grants the title 'Epic Collector'.",
   "data-warehouse-ruins": "Data Warehouse Ruins",
   "data-warehouse-ruins-lore": "Infiltrate abandoned data warehouses and server rooms to recover storage fragments and expansion cores. Only available Thursday through Saturday.",
   "data-wraith": "Data Wraith",
@@ -1631,8 +1630,6 @@
   "void-blast": "Void Blast",
   "void-bruiser": "Void Bruiser",
   "void-caster": "Void Caster",
-  "void-expansion-chip": "Void Expansion Chip",
-  "void-expansion-chip-lore": "An experimental product born from the development of soul science, merging souls with industrial materials and harboring unknown power. Used to synthesize Void Expansion Slots.",
   "void-expansion-slot": "Void Expansion Slot",
   "void-expansion-slot-lore": "An unidentified expansion slot containing unknown energy, used to upgrade Agent Workstation facilities.",
   "void-hero-upgrade-core": "Void Hero Upgrade Core",
@@ -1860,5 +1857,7 @@
   "魂鎖": "Spirit Chain",
   "魂鎖-description": "deal moderate magic damage to 1 enemy, and lower speed of 1 enemy for 2 turns.",
   "黎明庇護": "Dawn Sanctuary",
-  "黎明庇護-description": "Restore moderate HP to all allies and grant regeneration for 2 turns."
+  "黎明庇護-description": "Restore moderate HP to all allies and grant regeneration for 2 turns.",
+  "unknown": "Unknown",
+  "possible-outputs": "Possible Outputs"
 }

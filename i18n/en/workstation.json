@@ -238,5 +238,8 @@
   "selected-count": "Selected: {{current}}/{{max}}",
   "show-skill-effect": "Show Skill Effect",
   "workstation-trading-station": "Trading Station",
-  "workstation-trading-station-section": "Trading Stations - Generate Memory/Cache orders"
+  "workstation-trading-station-section": "Trading Stations - Generate Memory/Cache orders",
+  "resource-recycling-edit-slot": "Manage pieces",
+  "resource-recycling-pieces-unit": "pcs",
+  "clear-slot": "Clear all"
 }

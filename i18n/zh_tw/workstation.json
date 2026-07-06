@@ -238,5 +238,8 @@
   "selected-count": "已選：{{current}}/{{max}}",
   "show-skill-effect": "顯示技能效果",
   "workstation-trading-station": "貿易站",
-  "workstation-trading-station-section": "貿易站 - 產生 Memory/Cache 訂單"
+  "workstation-trading-station-section": "貿易站 - 產生 Memory/Cache 訂單",
+  "resource-recycling-edit-slot": "管理裝備",
+  "resource-recycling-pieces-unit": "件",
+  "clear-slot": "清空部位"
 }
