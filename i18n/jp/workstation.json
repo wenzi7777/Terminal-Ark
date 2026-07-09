@@ -155,6 +155,9 @@
   "resource-recycling": "Resource Recycling",
   "resource-recycling-byproduct-rolls": "Data Flow Byproduct Rolls",
   "resource-recycling-empty": "No items selected yet.",
+  "resource-recycling-edit-slot": "装備を管理",
+  "resource-recycling-pieces-unit": "個",
+  "clear-slot": "この部位をクリア",
   "resource-recycling-estimated-output": "Estimated Recycling Output",
   "resource-recycling-estimated-time": "Estimated Execution Time",
   "resource-recycling-go-chatnet": "Go To ChatNet",
@@ -238,8 +241,5 @@
   "selected-count": "選択中: {{current}}/{{max}}",
   "show-skill-effect": "スキル効果を表示",
   "workstation-trading-station": "貿易ステーション",
-  "workstation-trading-station-section": "貿易ステーション - メモリー/キャッシュの注文を生成",
-  "resource-recycling-edit-slot": "装備を管理",
-  "resource-recycling-pieces-unit": "個",
-  "clear-slot": "この部位をクリア"
+  "workstation-trading-station-section": "貿易ステーション - メモリー/キャッシュの注文を生成"
 }
