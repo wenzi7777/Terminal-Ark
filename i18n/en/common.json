@@ -1883,5 +1883,9 @@
   "魂鎖": "Spirit Chain",
   "魂鎖-description": "deal moderate magic damage to 1 enemy, and lower speed of 1 enemy for 2 turns.",
   "黎明庇護": "Dawn Sanctuary",
-  "黎明庇護-description": "Restore moderate HP to all allies and grant regeneration for 2 turns."
+  "黎明庇護-description": "Restore moderate HP to all allies and grant regeneration for 2 turns.",
+  "black-market-tab-standard": "Standard Trading",
+  "black-market-tab-clue": "Trade with Clue Tokens",
+  "contact-center-visit-clue-market": "Visit Clue Trading",
+  "clue-tokens-detail": "Shows your current clue token balance. Clue tokens are earned passively from Agent Conferences at the Contact Center, and can be spent in the Black Market's clue trading tab."
 }

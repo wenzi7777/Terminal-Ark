@@ -1883,5 +1883,9 @@
   "魂鎖": "魂锁",
   "魂鎖-description": "对单体敌人造成中量魔法伤害，並使单体敌人速度降低 2 回合。",
   "黎明庇護": "黎明庇护",
-  "黎明庇護-description": "回复全体队友中量生命，并使全体队友获得 2 回合持续回复。"
+  "黎明庇護-description": "回复全体队友中量生命，并使全体队友获得 2 回合持续回复。",
+  "black-market-tab-standard": "常规交易",
+  "black-market-tab-clue": "以线索之证交易",
+  "contact-center-visit-clue-market": "前往线索之证交易",
+  "clue-tokens-detail": "目前持有的线索之证数量。线索之证由联络中心的干员交流会被动产出，可在黑市的「以线索之证交易」页签使用。"
 }

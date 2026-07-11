@@ -1883,5 +1883,9 @@
   "魂鎖": "魂鎖",
   "魂鎖-description": "對單體敵人造成中量魔法傷害，並使單體敵人速度降低 2 回合。",
   "黎明庇護": "黎明庇護",
-  "黎明庇護-description": "回復全體隊友中量生命，並使全體隊友獲得 2 回合持續回復。"
+  "黎明庇護-description": "回復全體隊友中量生命，並使全體隊友獲得 2 回合持續回復。",
+  "black-market-tab-standard": "常規交易",
+  "black-market-tab-clue": "以線索之證交易",
+  "contact-center-visit-clue-market": "前往線索之證交易",
+  "clue-tokens-detail": "目前持有的線索之證數量。線索之證由聯絡中心的幹員交流會被動產出，可在黑市的「以線索之證交易」頁籤使用。"
 }

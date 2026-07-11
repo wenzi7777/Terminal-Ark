@@ -206,5 +206,7 @@
   "error-vote-required": "需要投票才可执行。",
   "error-wasteland-slot-no-signal": "此荒原槽位尚无信号",
   "error-wasteland-slot-occupied": "此荒原槽位已被占用",
-  "error-while-rendering-message": "渲染信息时发生错误"
+  "error-while-rendering-message": "渲染信息时发生错误",
+  "error-item-not-in-shop": "此商店没有这个商品",
+  "error-price-config-not-found": "这个物品无法用线索之证购买"
 }
