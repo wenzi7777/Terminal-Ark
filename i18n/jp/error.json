@@ -63,6 +63,8 @@
   "error-insufficient-mood": "代理人のコンディションが不足しています",
   "error-insufficient-neural-adapters": "ニューラルアダプターが不足しています。神経シミュレーションには最低8個必要です。",
   "error-insufficient-node-points": "ノードポイントが不足しています。助戦英雄を使用するにはネットワークに少なくとも1ポイント必要です。",
+  "error-invalid-support-hero": "その助戦英雄は現在利用できません（所有者が貸し出しを取り消した可能性があります）。",
+  "error-team-size-exceeded": "自分のチームと助戦英雄の合計がチーム人数の上限を超えています。",
   "error-insufficient-power": "電力が不足しているため加速できません",
   "error-insufficient-quantity": "アイテムの数量が不足しています",
   "error-invalid-dungeon-item": "無効なダンジョンアイテムです。",
@@ -208,5 +210,6 @@
   "error-wasteland-slot-occupied": "この荒野スロットは使用中です",
   "error-while-rendering-message": "メッセージのレンダリング中にエラーが発生しました",
   "error-item-not-in-shop": "このショップにはありません",
-  "error-price-config-not-found": "この商品は手がかり証で購入できません"
+  "error-price-config-not-found": "この商品は手がかり証で購入できません",
+  "error-leader-cannot-leave-with-members": "リーダーは他のメンバーが残っている場合、退出できません。先にダンジョンを解散するか、全メンバーをキックしてください。"
 }

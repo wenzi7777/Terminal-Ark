@@ -63,6 +63,8 @@
   "error-insufficient-mood": "Insufficient agent mood",
   "error-insufficient-neural-adapters": "Insufficient Neural Adapters. You need at least 8 to perform a neural simulation.",
   "error-insufficient-node-points": "Insufficient node points. Your network needs at least 1 node point to use support heroes.",
+  "error-invalid-support-hero": "That support hero is no longer available (the owner may have withdrawn it from lending).",
+  "error-team-size-exceeded": "Your team plus support heroes exceeds the maximum team size.",
   "error-insufficient-power": "Insufficient power for acceleration",
   "error-insufficient-quantity": "Insufficient quantity",
   "error-invalid-dungeon-item": "Invalid dungeon item.",
@@ -208,5 +210,6 @@
   "error-wasteland-slot-occupied": "This wasteland slot is occupied",
   "error-while-rendering-message": "Error while rendering message",
   "error-item-not-in-shop": "Item not available in this shop",
-  "error-price-config-not-found": "This item cannot be purchased with clue tokens"
+  "error-price-config-not-found": "This item cannot be purchased with clue tokens",
+  "error-leader-cannot-leave-with-members": "As the team leader, you cannot leave while other members are still in the dungeon. Disband the dungeon or kick all members first."
 }

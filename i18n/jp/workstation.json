@@ -241,5 +241,20 @@
   "selected-count": "選択中: {{current}}/{{max}}",
   "show-skill-effect": "スキル効果を表示",
   "workstation-trading-station": "貿易ステーション",
-  "workstation-trading-station-section": "貿易ステーション - メモリー/キャッシュの注文を生成"
+  "workstation-trading-station-section": "貿易ステーション - メモリー/キャッシュの注文を生成",
+  "craft-blank-modifying-solvent": "空白改質溶剤を精製",
+  "craft-performance-modifying-solvent": "パフォーマンス改質溶剤を精製",
+  "craft-hardening-modifying-solvent": "硬化改質溶剤を精製",
+  "craft-multifunction-modifying-solvent": "多機能改質溶剤を精製",
+  "print-substrate-crude-resin": "粗悪樹脂",
+  "print-substrate-recycled-resin": "再生樹脂",
+  "print-substrate-universal-resin": "汎用樹脂",
+  "print-substrate-resonant-resin": "共振樹脂",
+  "print-substrate-void-resin": "虚空樹脂",
+  "print-substrate-title": "印刷基材",
+  "affix-category-offense": "攻撃系統",
+  "affix-category-defense": "防御系統",
+  "affix-category-utility": "補助系統",
+  "affix-guide-title": "アフィックス誘導",
+  "affix-guide-exceeds-limit": "使用した改質溶剤の合計が、このレアリティのアフィックス枠上限を超えています。"
 }

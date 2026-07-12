@@ -12,5 +12,9 @@
   "message-is-still-loading": "訊息仍在載入",
   "reply": "回覆",
   "reply-here-maximum-is-512-words-markdown-supported": "在此回覆（最多 512 字，支援 Markdown 語法）",
-  "reply-to-message-success": "成功回覆訊息"
+  "reply-to-message-success": "成功回覆訊息",
+  "chat-reply-action": "回覆",
+  "chat-replying-to": "正在回覆 {{name}}",
+  "chat-reply-target-not-found": "找不到要回覆的訊息",
+  "chat-reply-target-wrong-channel": "無法回覆其他頻道的訊息"
 }

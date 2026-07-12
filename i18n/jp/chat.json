@@ -12,5 +12,9 @@
   "message-is-still-loading": "メッセージを読み込み中",
   "reply": "返信",
   "reply-here-maximum-is-512-words-markdown-supported": "ここに返信（最大512文字、Markdownサポート）",
-  "reply-to-message-success": "返信を送信しました"
+  "reply-to-message-success": "返信を送信しました",
+  "chat-reply-action": "返信",
+  "chat-replying-to": "{{name}}に返信中",
+  "chat-reply-target-not-found": "返信先のメッセージが見つかりません",
+  "chat-reply-target-wrong-channel": "別のチャンネルのメッセージには返信できません"
 }

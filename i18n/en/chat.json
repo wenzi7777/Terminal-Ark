@@ -12,5 +12,9 @@
   "message-is-still-loading": "Message is still loading",
   "reply": "Reply",
   "reply-here-maximum-is-512-words-markdown-supported": "Reply here (maximum is 512 words, markdown supported)",
-  "reply-to-message-success": "Reply to message success"
+  "reply-to-message-success": "Reply to message success",
+  "chat-reply-action": "Reply",
+  "chat-replying-to": "Replying to {{name}}",
+  "chat-reply-target-not-found": "The message you are replying to could not be found",
+  "chat-reply-target-wrong-channel": "Cannot reply to a message from another channel"
 }

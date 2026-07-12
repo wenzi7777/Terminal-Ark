@@ -241,5 +241,20 @@
   "selected-count": "已選：{{current}}/{{max}}",
   "show-skill-effect": "顯示技能效果",
   "workstation-trading-station": "貿易站",
-  "workstation-trading-station-section": "貿易站 - 產生 Memory/Cache 訂單"
+  "workstation-trading-station-section": "貿易站 - 產生 Memory/Cache 訂單",
+  "craft-blank-modifying-solvent": "合成空白改性溶劑",
+  "craft-performance-modifying-solvent": "合成效能改性溶劑",
+  "craft-hardening-modifying-solvent": "合成硬化改性溶劑",
+  "craft-multifunction-modifying-solvent": "合成多功能改性溶劑",
+  "print-substrate-crude-resin": "劣質樹脂",
+  "print-substrate-recycled-resin": "回收樹脂",
+  "print-substrate-universal-resin": "通用樹脂",
+  "print-substrate-resonant-resin": "諧振樹脂",
+  "print-substrate-void-resin": "虛空樹脂",
+  "print-substrate-title": "列印基材",
+  "affix-category-offense": "攻擊類",
+  "affix-category-defense": "防禦類",
+  "affix-category-utility": "輔助類",
+  "affix-guide-title": "詞條引導",
+  "affix-guide-exceeds-limit": "使用的改性溶劑總數超過此稀有度的詞條槽位上限。"
 }

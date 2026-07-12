@@ -241,5 +241,20 @@
   "selected-count": "Selected: {{current}}/{{max}}",
   "show-skill-effect": "Show Skill Effect",
   "workstation-trading-station": "Trading Station",
-  "workstation-trading-station-section": "Trading Stations - Generate Memory/Cache orders"
+  "workstation-trading-station-section": "Trading Stations - Generate Memory/Cache orders",
+  "craft-blank-modifying-solvent": "Craft Blank Modifying Solvent",
+  "craft-performance-modifying-solvent": "Craft Performance Modifying Solvent",
+  "craft-hardening-modifying-solvent": "Craft Hardening Modifying Solvent",
+  "craft-multifunction-modifying-solvent": "Craft Multifunction Modifying Solvent",
+  "print-substrate-crude-resin": "Crude Resin",
+  "print-substrate-recycled-resin": "Recycled Resin",
+  "print-substrate-universal-resin": "Universal Resin",
+  "print-substrate-resonant-resin": "Resonant Resin",
+  "print-substrate-void-resin": "Void Resin",
+  "print-substrate-title": "Print Substrate",
+  "affix-category-offense": "Offense",
+  "affix-category-defense": "Defense",
+  "affix-category-utility": "Utility",
+  "affix-guide-title": "Affix Guidance",
+  "affix-guide-exceeds-limit": "Total modifying solvents used exceeds this rarity's affix slot limit."
 }

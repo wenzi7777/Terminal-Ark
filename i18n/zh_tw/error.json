@@ -63,6 +63,8 @@
   "error-insufficient-mood": "代理人心情不足",
   "error-insufficient-neural-adapters": "神經網路接駁器不足，需要至少 8 個才能進行神經模擬。",
   "error-insufficient-node-points": "節點點數不足。你的網路需要至少 1 點節點點數才能使用助戰英雄。",
+  "error-invalid-support-hero": "該助戰英雄已不可用（擁有者可能已取消出借）。",
+  "error-team-size-exceeded": "本隊加上助戰英雄超過隊伍人數上限。",
   "error-insufficient-power": "電力不足，無法加速",
   "error-insufficient-quantity": "商品數量不足",
   "error-invalid-dungeon-item": "無效的地下城道具。",
@@ -208,5 +210,6 @@
   "error-wasteland-slot-occupied": "此荒原槽位已被占用",
   "error-while-rendering-message": "渲染訊息時發生錯誤",
   "error-item-not-in-shop": "此商店沒有這個商品",
-  "error-price-config-not-found": "這個物品無法用線索之證購買"
+  "error-price-config-not-found": "這個物品無法用線索之證購買",
+  "error-leader-cannot-leave-with-members": "你是隊伍隊長，不能在其他成員還在隊伍中時離開。請先解散地下城或踢出所有成員。"
 }
