@@ -975,6 +975,8 @@
   "next-basic-action": "下一次普攻",
   "next-enemy-turn": "下一回合敌人行动",
   "next-level": "下一等级",
+  "neural-sync-regen-target-residual": "残留同步率 +1",
+  "neural-sync-regen-target-sync": "神经同步率 +1",
   "next-maintenance": "下次维护",
   "next-page": "下一页",
   "next-recovery-in": "下次恢复",

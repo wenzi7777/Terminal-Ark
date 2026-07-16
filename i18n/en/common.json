@@ -975,6 +975,8 @@
   "next-basic-action": "Next Basic Action",
   "next-enemy-turn": "Next Enemy Turn",
   "next-level": "Next Level",
+  "neural-sync-regen-target-residual": "Residual Sync +1",
+  "neural-sync-regen-target-sync": "Neural Sync +1",
   "next-maintenance": "Next Maintenance",
   "next-page": "Next",
   "next-recovery-in": "Next recovery in",
