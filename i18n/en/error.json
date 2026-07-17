@@ -223,5 +223,7 @@
   "error-while-rendering-message": "Error while rendering message",
   "error-item-not-in-shop": "Item not available in this shop",
   "error-price-config-not-found": "This item cannot be purchased with clue tokens",
-  "error-leader-cannot-leave-with-members": "As the team leader, you cannot leave while other members are still in the dungeon. Disband the dungeon or kick all members first."
+  "error-leader-cannot-leave-with-members": "As the team leader, you cannot leave while other members are still in the dungeon. Disband the dungeon or kick all members first.",
+  "error-cannot-leave-dungeon-in-combat": "You cannot leave the dungeon while in combat. Flee the battle first or wait for it to end.",
+  "error-cannot-kick-member-in-combat": "You cannot kick a member who is currently in combat."
 }

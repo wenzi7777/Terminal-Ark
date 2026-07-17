@@ -26,6 +26,7 @@
   "dungeon-created-successfully": "ダンジョンを作成しました！",
   "dungeon-difficulty": "難易度",
   "dungeon-disbanded": "ダンジョンが解散されました。",
+  "dungeon-teammate-left": "{{username}} がダンジョンから退出しました。",
   "dungeon-items": "アイテム",
   "dungeon-not-found": "ダンジョンが見つかりません",
   "dungeon-type": "ダンジョンタイプ",

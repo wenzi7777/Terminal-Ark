@@ -26,6 +26,7 @@
   "dungeon-created-successfully": "Dungeon created successfully!",
   "dungeon-difficulty": "Difficulty",
   "dungeon-disbanded": "Dungeon has been disbanded.",
+  "dungeon-teammate-left": "{{username}} left the dungeon.",
   "dungeon-items": "Items",
   "dungeon-not-found": "Dungeon not found",
   "dungeon-type": "Dungeon Type",

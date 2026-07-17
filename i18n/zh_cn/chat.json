@@ -16,5 +16,6 @@
   "chat-reply-action": "回复",
   "chat-replying-to": "正在回复 {{name}}",
   "chat-reply-target-not-found": "找不到要回复的消息",
-  "chat-reply-target-wrong-channel": "无法回复其他频道的消息"
+  "chat-reply-target-wrong-channel": "无法回复其他频道的消息",
+  "chat-char-count": "{{current}}/{{max}}"
 }

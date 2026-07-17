@@ -26,6 +26,7 @@
   "dungeon-created-successfully": "地下城创建成功！",
   "dungeon-difficulty": "难度",
   "dungeon-disbanded": "地下城已解散。",
+  "dungeon-teammate-left": "{{username}} 已离开地下城。",
   "dungeon-items": "道具",
   "dungeon-not-found": "找不到地下城",
   "dungeon-type": "地下城类型",

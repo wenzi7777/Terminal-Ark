@@ -223,5 +223,7 @@
   "error-while-rendering-message": "渲染訊息時發生錯誤",
   "error-item-not-in-shop": "此商店沒有這個商品",
   "error-price-config-not-found": "這個物品無法用線索之證購買",
-  "error-leader-cannot-leave-with-members": "你是隊伍隊長，不能在其他成員還在隊伍中時離開。請先解散地下城或踢出所有成員。"
+  "error-leader-cannot-leave-with-members": "你是隊伍隊長，不能在其他成員還在隊伍中時離開。請先解散地下城或踢出所有成員。",
+  "error-cannot-leave-dungeon-in-combat": "戰鬥進行中無法離開地下城，請先逃離戰鬥或等待戰鬥結束。",
+  "error-cannot-kick-member-in-combat": "無法踢出正在戰鬥中的隊員。"
 }

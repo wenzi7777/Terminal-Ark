@@ -16,5 +16,6 @@
   "chat-reply-action": "Reply",
   "chat-replying-to": "Replying to {{name}}",
   "chat-reply-target-not-found": "The message you are replying to could not be found",
-  "chat-reply-target-wrong-channel": "Cannot reply to a message from another channel"
+  "chat-reply-target-wrong-channel": "Cannot reply to a message from another channel",
+  "chat-char-count": "{{current}}/{{max}}"
 }

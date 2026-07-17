@@ -223,5 +223,7 @@
   "error-while-rendering-message": "メッセージのレンダリング中にエラーが発生しました",
   "error-item-not-in-shop": "このショップにはありません",
   "error-price-config-not-found": "この商品は手がかり証で購入できません",
-  "error-leader-cannot-leave-with-members": "リーダーは他のメンバーが残っている場合、退出できません。先にダンジョンを解散するか、全メンバーをキックしてください。"
+  "error-leader-cannot-leave-with-members": "リーダーは他のメンバーが残っている場合、退出できません。先にダンジョンを解散するか、全メンバーをキックしてください。",
+  "error-cannot-leave-dungeon-in-combat": "戦闘中はダンジョンを退出できません。先に逃走するか、戦闘終了を待ってください。",
+  "error-cannot-kick-member-in-combat": "戦闘中のメンバーはキックできません。"
 }

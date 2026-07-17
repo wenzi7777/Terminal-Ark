@@ -16,5 +16,6 @@
   "chat-reply-action": "返信",
   "chat-replying-to": "{{name}}に返信中",
   "chat-reply-target-not-found": "返信先のメッセージが見つかりません",
-  "chat-reply-target-wrong-channel": "別のチャンネルのメッセージには返信できません"
+  "chat-reply-target-wrong-channel": "別のチャンネルのメッセージには返信できません",
+  "chat-char-count": "{{current}}/{{max}}"
 }

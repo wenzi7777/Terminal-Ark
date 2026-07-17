@@ -223,5 +223,7 @@
   "error-while-rendering-message": "渲染信息时发生错误",
   "error-item-not-in-shop": "此商店没有这个商品",
   "error-price-config-not-found": "这个物品无法用线索之证购买",
-  "error-leader-cannot-leave-with-members": "你是队伍队长，不能在其他成员还在队伍中时离开。请先解散地下城或踢出所有成员。"
+  "error-leader-cannot-leave-with-members": "你是队伍队长，不能在其他成员还在队伍中时离开。请先解散地下城或踢出所有成员。",
+  "error-cannot-leave-dungeon-in-combat": "战斗进行中无法离开地下城，请先逃离战斗或等待战斗结束。",
+  "error-cannot-kick-member-in-combat": "无法踢出正在战斗中的队员。"
 }

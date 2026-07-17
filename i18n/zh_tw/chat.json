@@ -16,5 +16,6 @@
   "chat-reply-action": "回覆",
   "chat-replying-to": "正在回覆 {{name}}",
   "chat-reply-target-not-found": "找不到要回覆的訊息",
-  "chat-reply-target-wrong-channel": "無法回覆其他頻道的訊息"
+  "chat-reply-target-wrong-channel": "無法回覆其他頻道的訊息",
+  "chat-char-count": "{{current}}/{{max}}"
 }
