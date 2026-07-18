@@ -264,5 +264,9 @@
   "unknown-rare-lower-armor": "未知のレア下半身アーマー",
   "unknown-rare-pool-equipment": "不明なレアプール装備",
   "unknown-rare-upgrade-module": "未知のレアアップグレードモジュール",
-  "unknown-rare-upper-armor": "未知のレア上半身アーマー"
+  "unknown-rare-upper-armor": "未知のレア上半身アーマー",
+  "protocol-cost": "消費 ×{{n}}",
+  "hijack-about": "このシステムについて",
+  "hijack-primary-token": "チャンネルトークン",
+  "hijack-pool-until": "有効期限 {{date}}"
 }

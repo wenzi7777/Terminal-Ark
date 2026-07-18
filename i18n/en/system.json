@@ -264,5 +264,9 @@
   "unknown-rare-lower-armor": "Unknown Rare Lower Armor",
   "unknown-rare-pool-equipment": "Unknown Rare Pool Equipment",
   "unknown-rare-upgrade-module": "Unknown Rare Upgrade Module",
-  "unknown-rare-upper-armor": "Unknown Rare Upper Armor"
+  "unknown-rare-upper-armor": "Unknown Rare Upper Armor",
+  "protocol-cost": "Cost ×{{n}}",
+  "hijack-about": "About this system",
+  "hijack-primary-token": "Channel token",
+  "hijack-pool-until": "Available until {{date}}"
 }

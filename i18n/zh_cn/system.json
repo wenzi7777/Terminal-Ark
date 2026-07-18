@@ -264,5 +264,9 @@
   "unknown-rare-lower-armor": "未知的稀有下身裝甲",
   "unknown-rare-pool-equipment": "不明的稀有獎池裝備",
   "unknown-rare-upgrade-module": "未知的稀有升級模組",
-  "unknown-rare-upper-armor": "未知的稀有上身裝甲"
+  "unknown-rare-upper-armor": "未知的稀有上身裝甲",
+  "protocol-cost": "消耗 ×{{n}}",
+  "hijack-about": "关于本系统",
+  "hijack-primary-token": "频道代币",
+  "hijack-pool-until": "有效至 {{date}}"
 }

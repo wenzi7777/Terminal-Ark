@@ -1978,5 +1978,16 @@
   "魂鎖": "ソウルチェイン",
   "魂鎖-description": "敵単体に中魔法ダメージを与える、さらに敵単体の速度を2ターン低下させる。",
   "黎明庇護": "夜明けの庇護",
-  "黎明庇護-description": "味方全体のHPを中回復し、さらに2ターンの継続回復を付与する。"
+  "黎明庇護-description": "味方全体のHPを中回復し、さらに2ターンの継続回復を付与する。",
+  "procurement-buy-cta": "購入 · {{amount}} {{currency}}",
+  "procurement-insufficient-cache": "Cache 不足",
+  "procurement-insufficient-clue": "手がかり証が足りません",
+  "procurement-insufficient-fragment": "破片が足りません",
+  "procurement-unit-price": "単価",
+  "procurement-total": "合計",
+  "procurement-more-details": "詳細",
+  "procurement-less-details": "閉じる",
+  "procurement-catalog-empty": "出品がありません",
+  "procurement-service": "サービス",
+  "procurement-stock": "棚"
 }

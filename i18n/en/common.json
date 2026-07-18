@@ -1990,5 +1990,16 @@
   "魂鎖": "Spirit Chain",
   "魂鎖-description": "deal moderate magic damage to 1 enemy, and lower speed of 1 enemy for 2 turns.",
   "黎明庇護": "Dawn Sanctuary",
-  "黎明庇護-description": "Restore moderate HP to all allies and grant regeneration for 2 turns."
+  "黎明庇護-description": "Restore moderate HP to all allies and grant regeneration for 2 turns.",
+  "procurement-buy-cta": "Buy · {{amount}} {{currency}}",
+  "procurement-insufficient-cache": "Not enough Cache",
+  "procurement-insufficient-clue": "Not enough clue tokens",
+  "procurement-insufficient-fragment": "Not enough fragments",
+  "procurement-unit-price": "Unit price",
+  "procurement-total": "Total",
+  "procurement-more-details": "More",
+  "procurement-less-details": "Less",
+  "procurement-catalog-empty": "No listings right now",
+  "procurement-service": "Service",
+  "procurement-stock": "Stock"
 }

@@ -1990,5 +1990,16 @@
   "魂鎖": "魂鎖",
   "魂鎖-description": "對單體敵人造成中量魔法傷害，並使單體敵人速度降低 2 回合。",
   "黎明庇護": "黎明庇護",
-  "黎明庇護-description": "回復全體隊友中量生命，並使全體隊友獲得 2 回合持續回復。"
+  "黎明庇護-description": "回復全體隊友中量生命，並使全體隊友獲得 2 回合持續回復。",
+  "procurement-buy-cta": "購買 · {{amount}} {{currency}}",
+  "procurement-insufficient-cache": "Cache 不足",
+  "procurement-insufficient-clue": "線索之證不足",
+  "procurement-insufficient-fragment": "碎片不足",
+  "procurement-unit-price": "單價",
+  "procurement-total": "合計",
+  "procurement-more-details": "更多",
+  "procurement-less-details": "收合",
+  "procurement-catalog-empty": "目前沒有上架品項",
+  "procurement-service": "服務",
+  "procurement-stock": "貨架"
 }
