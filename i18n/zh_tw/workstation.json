@@ -146,6 +146,7 @@
   "printing-level-low-hint": "提升列印等階來獲取更好的裝備。",
   "recipe": "配方",
   "recipe-category-all": "全部",
+  "recipe-category-data_compression": "數據壓縮",
   "recipe-category-data_flow": "數據流通",
   "recipe-category-neural_upgrade": "神經強化",
   "recipe-category-system_expansion": "系統擴建",

@@ -146,6 +146,7 @@
   "printing-level-low-hint": "プリントレベルを上げると、より良い装備を獲得できます。",
   "recipe": "レシピ",
   "recipe-category-all": "すべて",
+  "recipe-category-data_compression": "データ圧縮",
   "recipe-category-data_flow": "データフロー",
   "recipe-category-neural_upgrade": "神経強化",
   "recipe-category-system_expansion": "システム拡張",

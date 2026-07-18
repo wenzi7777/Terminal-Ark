@@ -22,7 +22,7 @@ Welcome to the Terminal Ark Encyclopedia! This guide will help you understand al
 ### Resources & Economy | 資源與經濟
 - [Currency Types | 貨幣類型](./currency-types) - Memory, Cache, EXPD, and other resources | Memory、Cache、EXPD 等資源
 - [Crafting System | 製作系統](./crafting-system) - Creating items and equipment | 製作物品和裝備
-- [Black Market | 黑市](./black-market) - Trading and marketplace | 交易和市場
+- [Terminal Procurement | 終端採購部](./terminal-procurement) - Trading and marketplace | 交易和市場
 - [Deep Intercept Guarantee | 深度截獲保護](./deep-intercept-guarantee) - Signal Hijack pity rules | 訊號劫持保底規則
 
 ### Progression | 進度系統

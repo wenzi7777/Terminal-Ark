@@ -151,6 +151,7 @@
   "tutorial-wasteland-build-power-tip": "原子力発電所はエージェントを配置しなくても基礎電力を供給できる、序盤でも特に重要な活動施設です。",
   "tutorial-wasteland-build-processing-body": "次は隣の活動スロットに加工ステーションを建設しましょう。ここでは後から、交易ステーションの受注納品に使う専用素材を生産できます。",
   "tutorial-wasteland-build-trading-body": "まずこの活動スロットに最初の臨時拠点「交易ステーション」を建設しましょう。自動で注文を取得し、Memoryやそのほかの報酬をもたらします。",
+  "tutorial-wasteland-contextual-build-body": "この建設可能スロットをタップすると、パネルから直接施設を選んで建設できます。建設には建築ポイントを消費します。",
   "tutorial-wasteland-detail-body": "よし。では今建てた施設のどれかを開いて、詳細画面を確認しましょう。ここでは状態、操作、配置情報を確認できます。",
   "tutorial-wasteland-map-body": "ここは荒野開発端末の信号マップです。利用可能な区画を確認し、次の施設をどこに建てるか決められます。",
   "tutorial-wasteland-modify-mode-body": "まず改造モードを有効にしてください。有効化すると建築ポイントが表示され、建設可能スロットに新しい施設を建てられます。",

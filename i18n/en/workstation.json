@@ -146,6 +146,7 @@
   "printing-level-low-hint": "Raise your Printing Level to obtain better equipment.",
   "recipe": "Recipe",
   "recipe-category-all": "All",
+  "recipe-category-data_compression": "Data Compression",
   "recipe-category-data_flow": "Data Flow",
   "recipe-category-neural_upgrade": "Neural Enhancement",
   "recipe-category-system_expansion": "System Expansion",
