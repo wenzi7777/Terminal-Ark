@@ -265,5 +265,12 @@
   "affix-category-defense": "防御系統",
   "affix-category-utility": "補助系統",
   "affix-guide-title": "アフィックス誘導",
-  "affix-guide-exceeds-limit": "使用した改質溶剤の合計が、このレアリティのアフィックス枠上限を超えています。"
+  "affix-guide-exceeds-limit": "使用した改質溶剤の合計が、このレアリティのアフィックス枠上限を超えています。",
+  "package-specialist": "パッケージ解析エキスパート",
+  "package-specialist-description": "「ロックされたパッケージの解除」計画を実行しハッシュプロセッサーを産出する際、実行時間を最大15%短縮します。",
+  "recipe-group-signal-tuner": "シグナルチューナー",
+  "recipe-group-hero-upgrade-core": "ヒーローアップグレードコア",
+  "recipe-group-expansion-slot": "拡張スロット",
+  "recipe-group-storage-expansion-core": "ストレージ拡張コア",
+  "manufacturing-group-variants": "レアリティ {{count}} 種"
 }

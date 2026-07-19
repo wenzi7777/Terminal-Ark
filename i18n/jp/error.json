@@ -24,6 +24,7 @@
   "error-core-insufficient": "英雄アップグレードコアが不足しているため、アップグレードできません。",
   "error-create-listing-failed": "出品に失敗しました",
   "error-daily-sweep-limit": "本日の神経シミュレーション回数が上限に達しました（7/7）。JST午前0時にリセットされます。",
+  "error-no-sweep-charges": "神経シミュレーションのストックが尽きました（0/7）。毎日1回分が自動で貯まり、最大7回まで保持できます。",
   "error-database-query-failed": "ユーザーデータのクエリ中にエラーが発生しました。",
   "error-delete-account-failed": "アカウントの削除に失敗しました",
   "error-docs-update-failed": "ユーザーデータの更新中にエラーが発生しました。",

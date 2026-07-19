@@ -58,6 +58,7 @@
   "maintenance-warning-node-points": "ノードポイント警告",
   "network": "ネットワーク",
   "network-chat": "ネットワークチャット",
+  "network-chat-preview-hint": "フルチャット機能は ChatNet に統合されています",
   "network-created-successfully": "ネットワークを作成しました",
   "network-deposit-preview": "入金後のネットワーク Memory：{{amount}} KiB",
   "network-description": "ネットワーク説明",

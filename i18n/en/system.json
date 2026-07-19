@@ -58,6 +58,7 @@
   "maintenance-warning-node-points": "Network stability low (Node Points insufficient)",
   "network": "Network",
   "network-chat": "Network Chat",
+  "network-chat-preview-hint": "Full chat is integrated into ChatNet",
   "network-created-successfully": "Network created successfully",
   "network-deposit-preview": "Network Memory after deposit: {{amount}} KiB",
   "network-description": "Network Description",

@@ -24,6 +24,7 @@
   "error-core-insufficient": "英雄升級核心不足，無法升級。",
   "error-create-listing-failed": "上架失敗",
   "error-daily-sweep-limit": "今日神經模擬次數已達上限（7/7），將於 JST 午夜重置。",
+  "error-no-sweep-charges": "神經模擬儲備已耗盡（0/7），每日將自動累積 1 次，最多存至 7 次。",
   "error-database-query-failed": "查詢使用者資料時發生錯誤。",
   "error-delete-account-failed": "刪除帳戶失敗",
   "error-docs-update-failed": "更新使用者資料時發生錯誤。",

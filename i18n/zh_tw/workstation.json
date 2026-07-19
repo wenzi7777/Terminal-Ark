@@ -265,5 +265,12 @@
   "affix-category-defense": "防禦類",
   "affix-category-utility": "輔助類",
   "affix-guide-title": "詞條引導",
-  "affix-guide-exceeds-limit": "使用的改性溶劑總數超過此稀有度的詞條槽位上限。"
+  "affix-guide-exceeds-limit": "使用的改性溶劑總數超過此稀有度的詞條槽位上限。",
+  "package-specialist": "封包解密專家",
+  "package-specialist-description": "執行「解鎖已加密物件包」相關計劃、產出雜湊處理器時，減少最多 15% 的執行時間消耗。",
+  "recipe-group-signal-tuner": "訊號調諧裝置",
+  "recipe-group-hero-upgrade-core": "英雄升級核心",
+  "recipe-group-expansion-slot": "擴容插槽",
+  "recipe-group-storage-expansion-core": "存儲擴充核心",
+  "manufacturing-group-variants": "{{count}} 種稀有度"
 }

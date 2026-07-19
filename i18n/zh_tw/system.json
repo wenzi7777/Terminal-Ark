@@ -58,6 +58,7 @@
   "maintenance-warning-node-points": "網路穩定性不足（節點積分不足）",
   "network": "網路",
   "network-chat": "網路聊天",
+  "network-chat-preview-hint": "完整聊天功能已整合至 ChatNet",
   "network-created-successfully": "網路創建成功",
   "network-deposit-preview": "存款後網路 Memory：{{amount}} KiB",
   "network-description": "網路描述",

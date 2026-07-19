@@ -265,5 +265,12 @@
   "affix-category-defense": "防御类",
   "affix-category-utility": "辅助类",
   "affix-guide-title": "词条引导",
-  "affix-guide-exceeds-limit": "使用的改性溶剂总数超过此稀有度的词条槽位上限。"
+  "affix-guide-exceeds-limit": "使用的改性溶剂总数超过此稀有度的词条槽位上限。",
+  "package-specialist": "封包解密专家",
+  "package-specialist-description": "执行「解锁已加密物件包」相关计划、产出杂凑处理器时，减少最多 15% 的执行时间消耗。",
+  "recipe-group-signal-tuner": "讯号调谐装置",
+  "recipe-group-hero-upgrade-core": "英雄升级核心",
+  "recipe-group-expansion-slot": "扩容插槽",
+  "recipe-group-storage-expansion-core": "存储扩充核心",
+  "manufacturing-group-variants": "{{count}} 种稀有度"
 }

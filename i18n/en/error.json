@@ -24,6 +24,7 @@
   "error-core-insufficient": "Not enough hero upgrade cores.",
   "error-create-listing-failed": "Failed to create listing",
   "error-daily-sweep-limit": "Daily neural simulation limit reached (7/7). Resets at midnight JST.",
+  "error-no-sweep-charges": "Neural simulation charges depleted (0/7). You gain 1 charge each day, up to a maximum of 7.",
   "error-database-query-failed": "Failed to query user data.",
   "error-delete-account-failed": "Failed to delete account",
   "error-docs-update-failed": "Failed to update user data.",

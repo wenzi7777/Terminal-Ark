@@ -265,5 +265,12 @@
   "affix-category-defense": "Defense",
   "affix-category-utility": "Utility",
   "affix-guide-title": "Affix Guidance",
-  "affix-guide-exceeds-limit": "Total modifying solvents used exceeds this rarity's affix slot limit."
+  "affix-guide-exceeds-limit": "Total modifying solvents used exceeds this rarity's affix slot limit.",
+  "package-specialist": "Package Specialist",
+  "package-specialist-description": "Reduces execution time by up to 15% when running Unlock Locked Package plans that yield Hash Processor.",
+  "recipe-group-signal-tuner": "Signal Tuner",
+  "recipe-group-hero-upgrade-core": "Hero Upgrade Core",
+  "recipe-group-expansion-slot": "Expansion Slot",
+  "recipe-group-storage-expansion-core": "Storage Expansion Core",
+  "manufacturing-group-variants": "{{count}} rarities"
 }
