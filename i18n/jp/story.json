@@ -135,5 +135,17 @@
   "story-event-wait": "待機",
   "story-mode": "ストーリーモード",
   "story-mode-lore": "ターミナル・アークの過去に足を踏み入れ、この街の起源と秘密を体験しましょう。",
-  "story-player": "ストーリープレイヤー"
+  "story-player": "ストーリープレイヤー",
+  "scene-auto": "オート",
+  "scene-skip": "スキップ",
+  "scene-back": "戻る",
+  "scene-backlog": "ログ",
+  "scene-settings": "設定",
+  "scene-close": "閉じる",
+  "scene-text-speed": "文字速度",
+  "scene-reduce-motion": "演出効果",
+  "scene-on": "オン",
+  "scene-off": "オフ",
+  "story-test-chapter": "テスト章",
+  "story-test-act": "テスト節：下層デッキ"
 }

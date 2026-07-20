@@ -135,5 +135,17 @@
   "story-event-wait": "Wait",
   "story-mode": "Story Mode",
   "story-mode-lore": "Step into the past of Terminal Ark and experience the city's origins and secrets.",
-  "story-player": "Story Player"
+  "story-player": "Story Player",
+  "scene-auto": "Auto",
+  "scene-skip": "Skip",
+  "scene-back": "Back",
+  "scene-backlog": "Log",
+  "scene-settings": "Settings",
+  "scene-close": "Close",
+  "scene-text-speed": "Text Speed",
+  "scene-reduce-motion": "Effects",
+  "scene-on": "On",
+  "scene-off": "Off",
+  "story-test-chapter": "Test Chapter",
+  "story-test-act": "Test Act: Lower Deck"
 }

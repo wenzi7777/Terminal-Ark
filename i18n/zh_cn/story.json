@@ -135,5 +135,17 @@
   "story-event-wait": "等待",
   "story-mode": "故事模式",
   "story-mode-lore": "踏入终端方舟的过往，体验这座城市的起源与秘密。",
-  "story-player": "故事播放器"
+  "story-player": "故事播放器",
+  "scene-auto": "自动",
+  "scene-skip": "跳过",
+  "scene-back": "上一句",
+  "scene-backlog": "记录",
+  "scene-settings": "设置",
+  "scene-close": "关闭",
+  "scene-text-speed": "文字速度",
+  "scene-reduce-motion": "演出效果",
+  "scene-on": "开",
+  "scene-off": "关",
+  "story-test-chapter": "测试章节",
+  "story-test-act": "测试幕：下层甲板"
 }

@@ -135,5 +135,17 @@
   "story-event-wait": "等待",
   "story-mode": "故事模式",
   "story-mode-lore": "踏入終端方舟的過往，體驗這座城市的起源與秘密。",
-  "story-player": "故事播放器"
+  "story-player": "故事播放器",
+  "scene-auto": "自動",
+  "scene-skip": "跳過",
+  "scene-back": "上一句",
+  "scene-backlog": "記錄",
+  "scene-settings": "設定",
+  "scene-close": "關閉",
+  "scene-text-speed": "文字速度",
+  "scene-reduce-motion": "演出效果",
+  "scene-on": "開",
+  "scene-off": "關",
+  "story-test-chapter": "測試章節",
+  "story-test-act": "測試幕：下層甲板"
 }
