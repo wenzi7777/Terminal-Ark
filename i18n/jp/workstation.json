@@ -272,5 +272,20 @@
   "recipe-group-hero-upgrade-core": "ヒーローアップグレードコア",
   "recipe-group-expansion-slot": "拡張スロット",
   "recipe-group-storage-expansion-core": "ストレージ拡張コア",
-  "manufacturing-group-variants": "レアリティ {{count}} 種"
+  "manufacturing-group-variants": "レアリティ {{count}} 種",
+  "skill-enhancement-station": "技能強化ステーション",
+  "skill-enhancement-station-lore": "職業ごとに開放日が入れ替わる期間限定ダンジョン。対応する職業の技能強化素材がドロップします。",
+  "skill-material-dungeon-closed-today": "本日は閉鎖中",
+  "skill-material-defender-dungeon": "ディフェンダー技能ダンジョン",
+  "skill-material-defender-dungeon-lore": "このダンジョンを攻略してディフェンダー技能の強化素材を集めよう。",
+  "skill-material-striker-dungeon": "ストライカー技能ダンジョン",
+  "skill-material-striker-dungeon-lore": "このダンジョンを攻略してストライカー技能の強化素材を集めよう。",
+  "skill-material-support-dungeon": "サポート技能ダンジョン",
+  "skill-material-support-dungeon-lore": "このダンジョンを攻略してサポート技能の強化素材を集めよう。",
+  "skill-material-special-dungeon": "スペシャル技能ダンジョン",
+  "skill-material-special-dungeon-lore": "このダンジョンを攻略してスペシャル技能の強化素材を集めよう。",
+  "skill-material-vanguard-dungeon": "ヴァンガード技能ダンジョン",
+  "skill-material-vanguard-dungeon-lore": "このダンジョンを攻略してヴァンガード技能の強化素材を集めよう。",
+  "power-plant-upgrade-core-description": "[施設アップグレード素材] 原子力発電所施設のレベルアップに使用。",
+  "manufacturing-precision-tool-description": "[施設アップグレード素材] 製造ステーション施設のレベルアップに使用。"
 }

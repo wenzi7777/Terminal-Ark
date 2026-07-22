@@ -30,5 +30,6 @@
   "withdraw-item": "アイテムを引き出す",
   "withdraw-memory": "メモリーを引き出す",
   "withdraw-memory-text": "いくらメモリーを引き出しますか？",
-  "withdraw-successful": "引き出し成功"
+  "withdraw-successful": "引き出し成功",
+  "trading-hub-expansion-chip-description": "[施設アップグレード素材] 貿易拠点の容量拡張に使用。"
 }

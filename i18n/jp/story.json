@@ -147,5 +147,10 @@
   "scene-on": "オン",
   "scene-off": "オフ",
   "story-test-chapter": "テスト章",
-  "story-test-act": "テスト節：下層デッキ"
+  "story-test-act": "テスト節：下層デッキ",
+  "clue-nuta-lab-secret-description": "[手がかり] エージェント交流会の開催に使用。NUTA人体実験室の機密研究記録。",
+  "clue-alpha-body-manual-description": "[手がかり] エージェント交流会の開催に使用。Alphaシリーズエージェントの構造記録。",
+  "clue-wasteland-survival-description": "[手がかり] エージェント交流会の開催に使用。荒野生存の実体験をまとめた記録。",
+  "clue-terminal-prime-appt-description": "[手がかり] エージェント交流会の開催に使用。ターミナル・アーク首相任免に関する公文書。",
+  "clue-ai-human-relations-law-description": "[手がかり] エージェント交流会の開催に使用。AIと人間の関係を規定する法律文書。"
 }

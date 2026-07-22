@@ -269,5 +269,11 @@
   "protocol-cost": "消耗 ×{{n}}",
   "hijack-about": "关于本系统",
   "hijack-primary-token": "频道代币",
-  "hijack-pool-until": "有效至 {{date}}"
+  "hijack-pool-until": "有效至 {{date}}",
+  "signal-tracer-description": "[转蛋道具] 用于「信号劫持系统」加密频道的解密尝试。",
+  "network-node-key-user-network-description": "[消耗品] 接入其他终端用户的私有神经网络，离线时共享资源。",
+  "neural-network-adapter-description": "[消耗品] 神经网络交互界面扫荡地下城时消耗的接驳器。",
+  "overclocking-pass-15min-description": "[消耗品] 使用后启动 15 分钟的超频效果。",
+  "overclocking-pass-30min-description": "[消耗品] 使用后启动 30 分钟的超频效果。",
+  "neural-network-firewall-node-description": "[设施升级材料] 用于强化终端用户网络的防护等级。"
 }

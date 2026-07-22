@@ -30,5 +30,6 @@
   "withdraw-item": "提取物件",
   "withdraw-memory": "提取 Memory",
   "withdraw-memory-text": "你要提取多少 Memory ?",
-  "withdraw-successful": "提取成功"
+  "withdraw-successful": "提取成功",
+  "trading-hub-expansion-chip-description": "[设施升级材料] 用于扩展贸易站容量。"
 }

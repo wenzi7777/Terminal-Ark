@@ -272,5 +272,20 @@
   "recipe-group-hero-upgrade-core": "Hero Upgrade Core",
   "recipe-group-expansion-slot": "Expansion Slot",
   "recipe-group-storage-expansion-core": "Storage Expansion Core",
-  "manufacturing-group-variants": "{{count}} rarities"
+  "manufacturing-group-variants": "{{count}} rarities",
+  "skill-enhancement-station": "Skill Enhancement Station",
+  "skill-enhancement-station-lore": "A rotating set of limited-time dungeons that drop class-specific skill materials.",
+  "skill-material-dungeon-closed-today": "Closed today",
+  "skill-material-defender-dungeon": "Defender Skill Dungeon",
+  "skill-material-defender-dungeon-lore": "Clear this dungeon to gather materials for upgrading Defender skills.",
+  "skill-material-striker-dungeon": "Striker Skill Dungeon",
+  "skill-material-striker-dungeon-lore": "Clear this dungeon to gather materials for upgrading Striker skills.",
+  "skill-material-support-dungeon": "Support Skill Dungeon",
+  "skill-material-support-dungeon-lore": "Clear this dungeon to gather materials for upgrading Support skills.",
+  "skill-material-special-dungeon": "Special Skill Dungeon",
+  "skill-material-special-dungeon-lore": "Clear this dungeon to gather materials for upgrading Special skills.",
+  "skill-material-vanguard-dungeon": "Vanguard Skill Dungeon",
+  "skill-material-vanguard-dungeon-lore": "Clear this dungeon to gather materials for upgrading Vanguard skills.",
+  "power-plant-upgrade-core-description": "[Facility Upgrade Material] Used to upgrade the Nuclear Power Plant facility level.",
+  "manufacturing-precision-tool-description": "[Facility Upgrade Material] Used to upgrade the Manufacturing Station facility level."
 }

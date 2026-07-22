@@ -269,5 +269,11 @@
   "protocol-cost": "Cost ×{{n}}",
   "hijack-about": "About this system",
   "hijack-primary-token": "Channel token",
-  "hijack-pool-until": "Available until {{date}}"
+  "hijack-pool-until": "Available until {{date}}",
+  "signal-tracer-description": "[Gacha Item] Used to attempt decryption of the Signal Hijack System's Encrypted Channel.",
+  "network-node-key-user-network-description": "[Consumable] Connects to another terminal user's private neural network, sharing resources while offline.",
+  "neural-network-adapter-description": "[Consumable] The adapter consumed when sweeping a dungeon via the Neural Network Interface.",
+  "overclocking-pass-15min-description": "[Consumable] Activates a 15-minute overclock on use.",
+  "overclocking-pass-30min-description": "[Consumable] Activates a 30-minute overclock on use.",
+  "neural-network-firewall-node-description": "[Facility Upgrade Material] Used to strengthen the User Network's protection level."
 }

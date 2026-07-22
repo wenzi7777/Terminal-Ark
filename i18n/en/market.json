@@ -30,5 +30,6 @@
   "withdraw-item": "Withdraw Item",
   "withdraw-memory": "Withdraw Memory",
   "withdraw-memory-text": "How much Memory do you want to withdraw?",
-  "withdraw-successful": "Withdraw successful"
+  "withdraw-successful": "Withdraw successful",
+  "trading-hub-expansion-chip-description": "[Facility Upgrade Material] Used to expand the Trading Hub's capacity."
 }

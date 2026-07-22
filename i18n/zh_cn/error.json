@@ -233,5 +233,7 @@
   "error-vote-required": "需要投票才可执行。",
   "error-wasteland-slot-no-signal": "此荒原槽位尚无信号",
   "error-wasteland-slot-occupied": "此荒原槽位已被占用",
-  "error-while-rendering-message": "渲染信息时发生错误"
+  "error-while-rendering-message": "渲染信息时发生错误",
+  "error-hero-sync-max-level": "此英雄的同调等级已达上限。",
+  "error-skill-material-dungeon-not-available-today": "此技能地下城今日未开放。"
 }

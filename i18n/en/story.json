@@ -147,5 +147,10 @@
   "scene-on": "On",
   "scene-off": "Off",
   "story-test-chapter": "Test Chapter",
-  "story-test-act": "Test Act: Lower Deck"
+  "story-test-act": "Test Act: Lower Deck",
+  "clue-nuta-lab-secret-description": "[Clue] Used to host an Agent Exchange Gathering; details NUTA's classified human lab research.",
+  "clue-alpha-body-manual-description": "[Clue] Used to host an Agent Exchange Gathering; details the Alpha series agent's body structure.",
+  "clue-wasteland-survival-description": "[Clue] Used to host an Agent Exchange Gathering; compiles wasteland survival experience.",
+  "clue-terminal-prime-appt-description": "[Clue] Used to host an Agent Exchange Gathering; concerns the Terminal Ark Prime Minister's appointment.",
+  "clue-ai-human-relations-law-description": "[Clue] Used to host an Agent Exchange Gathering; details the law governing AI-human relations."
 }

@@ -233,5 +233,7 @@
   "error-vote-required": "実行するには投票が必要です。",
   "error-wasteland-slot-no-signal": "この荒野スロットには信号がありません",
   "error-wasteland-slot-occupied": "この荒野スロットは使用中です",
-  "error-while-rendering-message": "メッセージのレンダリング中にエラーが発生しました"
+  "error-while-rendering-message": "メッセージのレンダリング中にエラーが発生しました",
+  "error-hero-sync-max-level": "このヒーローの同調レベルは既に上限に達しています。",
+  "error-skill-material-dungeon-not-available-today": "この技能ダンジョンは本日開放されていません。"
 }

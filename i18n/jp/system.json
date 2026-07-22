@@ -269,5 +269,11 @@
   "protocol-cost": "消費 ×{{n}}",
   "hijack-about": "このシステムについて",
   "hijack-primary-token": "チャンネルトークン",
-  "hijack-pool-until": "有効期限 {{date}}"
+  "hijack-pool-until": "有効期限 {{date}}",
+  "signal-tracer-description": "[ガチャアイテム]「シグナルハイジャックシステム」の暗号チャンネル解読に使用。",
+  "network-node-key-user-network-description": "[消耗品] 他の端末ユーザーの専用ニューラルネットワークに接続し、オフライン中もリソースを共有できる。",
+  "neural-network-adapter-description": "[消耗品] ニューラルネットワークインターフェースでダンジョンを掃討する際に消費するアダプター。",
+  "overclocking-pass-15min-description": "[消耗品] 使用するとオーバークロック効果を15分間発動。",
+  "overclocking-pass-30min-description": "[消耗品] 使用するとオーバークロック効果を30分間発動。",
+  "neural-network-firewall-node-description": "[施設アップグレード素材] ユーザーネットワークの防御レベル強化に使用。"
 }

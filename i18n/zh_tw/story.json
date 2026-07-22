@@ -147,5 +147,10 @@
   "scene-on": "開",
   "scene-off": "關",
   "story-test-chapter": "測試章節",
-  "story-test-act": "測試幕：下層甲板"
+  "story-test-act": "測試幕：下層甲板",
+  "clue-nuta-lab-secret-description": "[線索] 用於開啟代理人交流會，記錄 NUTA 人類實驗室的機密研究。",
+  "clue-alpha-body-manual-description": "[線索] 用於開啟代理人交流會，記載 Alpha 系列代理人的身體構造。",
+  "clue-wasteland-survival-description": "[線索] 用於開啟代理人交流會，記錄荒原生存經驗。",
+  "clue-terminal-prime-appt-description": "[線索] 用於開啟代理人交流會，涉及終端方舟首相任免文件。",
+  "clue-ai-human-relations-law-description": "[線索] 用於開啟代理人交流會，記載規範 AI 與人類關係的法律文件。"
 }

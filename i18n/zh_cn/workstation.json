@@ -272,5 +272,20 @@
   "recipe-group-hero-upgrade-core": "英雄升级核心",
   "recipe-group-expansion-slot": "扩容插槽",
   "recipe-group-storage-expansion-core": "存储扩充核心",
-  "manufacturing-group-variants": "{{count}} 种稀有度"
+  "manufacturing-group-variants": "{{count}} 种稀有度",
+  "skill-enhancement-station": "技能强化站",
+  "skill-enhancement-station-lore": "依职业轮替开放的限时地下城，掉落对应职业的技能升级材料。",
+  "skill-material-dungeon-closed-today": "今日未开放",
+  "skill-material-defender-dungeon": "防护者技能地下城",
+  "skill-material-defender-dungeon-lore": "攻略此地下城以取得升级防护者技能所需的材料。",
+  "skill-material-striker-dungeon": "攻击者技能地下城",
+  "skill-material-striker-dungeon-lore": "攻略此地下城以取得升级攻击者技能所需的材料。",
+  "skill-material-support-dungeon": "支援者技能地下城",
+  "skill-material-support-dungeon-lore": "攻略此地下城以取得升级支援者技能所需的材料。",
+  "skill-material-special-dungeon": "特攻者技能地下城",
+  "skill-material-special-dungeon-lore": "攻略此地下城以取得升级特攻者技能所需的材料。",
+  "skill-material-vanguard-dungeon": "先锋技能地下城",
+  "skill-material-vanguard-dungeon-lore": "攻略此地下城以取得升级先锋技能所需的材料。",
+  "power-plant-upgrade-core-description": "[设施升级材料] 用于升级核子电力工厂设施等级。",
+  "manufacturing-precision-tool-description": "[设施升级材料] 用于升级制造站设施等级。"
 }

@@ -269,5 +269,11 @@
   "protocol-cost": "消耗 ×{{n}}",
   "hijack-about": "關於本系統",
   "hijack-primary-token": "頻道代幣",
-  "hijack-pool-until": "有效至 {{date}}"
+  "hijack-pool-until": "有效至 {{date}}",
+  "signal-tracer-description": "[轉蛋道具] 用於「訊號劫持系統」加密頻道的解密嘗試。",
+  "network-node-key-user-network-description": "[消耗品] 接入其他終端用戶的私有神經網路，離線時共享資源。",
+  "neural-network-adapter-description": "[消耗品] 神經網路交互介面掃蕩地下城時消耗的接駁器。",
+  "overclocking-pass-15min-description": "[消耗品] 使用後啟動 15 分鐘的超頻效果。",
+  "overclocking-pass-30min-description": "[消耗品] 使用後啟動 30 分鐘的超頻效果。",
+  "neural-network-firewall-node-description": "[設施升級材料] 用於強化終端用戶網路的防護等級。"
 }
