@@ -2096,5 +2096,15 @@
   "striker-skill-material-description": "[Skill Material] Used to upgrade Striker-class hero skills; obtained from the Skill Enhancement Station's limited-time dungeons.",
   "support-skill-material-description": "[Skill Material] Used to upgrade Support-class hero skills; obtained from the Skill Enhancement Station's limited-time dungeons.",
   "special-skill-material-description": "[Skill Material] Used to upgrade Special-class hero skills; obtained from the Skill Enhancement Station's limited-time dungeons.",
-  "vanguard-skill-material-description": "[Skill Material] Used to upgrade Vanguard-class hero skills; obtained from the Skill Enhancement Station's limited-time dungeons."
+  "vanguard-skill-material-description": "[Skill Material] Used to upgrade Vanguard-class hero skills; obtained from the Skill Enhancement Station's limited-time dungeons.",
+  "temporarily-leave-dungeon": "Temporarily Leave",
+  "temporarily-left-dungeon-toast": "You have temporarily left the dungeon. City Mode is locked until you clear a room or the cooldown ends.",
+  "background-pip-afk-countdown-label": "AFK ends in",
+  "background-pip-dungeon-countdown-label": "Auto-forfeit in",
+  "city-mode-locked-reason-afk": "Stop reason: AFK in progress.",
+  "city-mode-locked-reason-dungeon": "Stop reason: Unresolved dungeon.",
+  "background-pip-restoring-terminal": "Restoring terminal…",
+  "minimize-afk-to-background": "Minimize (Background)",
+  "status-label-background-terminal": "Background Terminal",
+  "status-label-terminal": "Terminal"
 }

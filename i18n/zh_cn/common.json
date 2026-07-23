@@ -2096,5 +2096,15 @@
   "striker-skill-material-description": "[技能素材] 用于升级攻击者职业英雄的技能，可从技能强化站的限时地下城取得。",
   "support-skill-material-description": "[技能素材] 用于升级支援者职业英雄的技能，可从技能强化站的限时地下城取得。",
   "special-skill-material-description": "[技能素材] 用于升级特攻者职业英雄的技能，可从技能强化站的限时地下城取得。",
-  "vanguard-skill-material-description": "[技能素材] 用于升级先锋职业英雄的技能，可从技能强化站的限时地下城取得。"
+  "vanguard-skill-material-description": "[技能素材] 用于升级先锋职业英雄的技能，可从技能强化站的限时地下城取得。",
+  "temporarily-leave-dungeon": "暂时离开",
+  "temporarily-left-dungeon-toast": "你已暂时离开地下城。在清空一个房间或冷却结束前，无法进入城市模式。",
+  "background-pip-afk-countdown-label": "AFK 结束倒计时",
+  "background-pip-dungeon-countdown-label": "自动放弃倒计时",
+  "city-mode-locked-reason-afk": "停止原因：AFK 进行中",
+  "city-mode-locked-reason-dungeon": "停止原因：未完成的地下城",
+  "background-pip-restoring-terminal": "正在恢复终端…",
+  "minimize-afk-to-background": "缩小（后台运行）",
+  "status-label-background-terminal": "后台终端",
+  "status-label-terminal": "终端"
 }

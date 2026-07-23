@@ -2084,5 +2084,15 @@
   "striker-skill-material-description": "[技能素材] ストライカー職ヒーローの技能強化に使用。技能強化ステーションの期間限定ダンジョンで入手可能。",
   "support-skill-material-description": "[技能素材] サポート職ヒーローの技能強化に使用。技能強化ステーションの期間限定ダンジョンで入手可能。",
   "special-skill-material-description": "[技能素材] スペシャル職ヒーローの技能強化に使用。技能強化ステーションの期間限定ダンジョンで入手可能。",
-  "vanguard-skill-material-description": "[技能素材] ヴァンガード職ヒーローの技能強化に使用。技能強化ステーションの期間限定ダンジョンで入手可能。"
+  "vanguard-skill-material-description": "[技能素材] ヴァンガード職ヒーローの技能強化に使用。技能強化ステーションの期間限定ダンジョンで入手可能。",
+  "temporarily-leave-dungeon": "一時離脱",
+  "temporarily-left-dungeon-toast": "ダンジョンを一時離脱しました。部屋をクリアするかクールダウンが終わるまでシティモードには入れません。",
+  "background-pip-afk-countdown-label": "AFK終了まで",
+  "background-pip-dungeon-countdown-label": "自動放棄まで",
+  "city-mode-locked-reason-afk": "停止理由：AFK進行中",
+  "city-mode-locked-reason-dungeon": "停止理由：未完了のダンジョン",
+  "background-pip-restoring-terminal": "端末を復元しています…",
+  "minimize-afk-to-background": "最小化（バックグラウンド）",
+  "status-label-background-terminal": "バックグラウンド端末",
+  "status-label-terminal": "端末"
 }
