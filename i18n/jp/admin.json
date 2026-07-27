@@ -77,12 +77,14 @@
   "broadcast-reward-equipment": "おめでとうございます！プレイヤー {{player}} が {{amount}}*{{equipment}} を獲得しました",
   "broadcast-reward-hero": "おめでとうございます！プレイヤー {{player}} が {{amount}}*{{hero}} を獲得しました",
   "broadcast-reward-item": "おめでとうございます！プレイヤー {{player}} が {{amount}}*{{item}} を獲得しました",
+  "developer-settings": "開発者設定",
   "notification-details": "通知詳細",
   "notification-type-event": "イベント",
   "notification-type-maintenance": "メンテナンス",
   "notification-type-system": "システム",
   "notification-type-update": "アップデート",
   "notifications": "通知",
+  "override-weekday-restrictions": "曜日制限を無視",
   "redeem": "引き換え",
   "redeem-code": "引き換えコード",
   "redeem-code-add-item": "アイテム追加",
@@ -100,7 +102,5 @@
   "redeem-code-max-uses-per-user": "ユーザーごとの最大使用回数",
   "redeem-code-memory": "メモリー",
   "redeem-code-name": "コード名",
-  "redeem-success-check-inbox": "引き換えに成功しました。受け取り箱を確認してください。",
-  "developer-settings": "開発者設定",
-  "override-weekday-restrictions": "曜日制限を無視"
+  "redeem-success-check-inbox": "引き換えに成功しました。受け取り箱を確認してください。"
 }

@@ -19,6 +19,7 @@
   "trade-master": "トレードマスター",
   "trade-master-description": "貿易ステーションの注文スロットが1つ追加されます。",
   "trading-hub-expansion-chip": "貿易ステーション拡張チップ",
+  "trading-hub-expansion-chip-description": "[施設アップグレード素材] 貿易拠点の容量拡張に使用。",
   "trading-hub-expansion-chip-lore": "貿易ステーションの容量を拡張するためのチップ。",
   "trading-orders": "貿易注文",
   "trading-station": "貿易ステーションの数",
@@ -30,6 +31,5 @@
   "withdraw-item": "アイテムを引き出す",
   "withdraw-memory": "メモリーを引き出す",
   "withdraw-memory-text": "いくらメモリーを引き出しますか？",
-  "withdraw-successful": "引き出し成功",
-  "trading-hub-expansion-chip-description": "[施設アップグレード素材] 貿易拠点の容量拡張に使用。"
+  "withdraw-successful": "引き出し成功"
 }

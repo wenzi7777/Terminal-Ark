@@ -77,12 +77,14 @@
   "broadcast-reward-equipment": "恭喜，玩家 {{player}} 获得了 {{amount}}*{{equipment}}",
   "broadcast-reward-hero": "恭喜，玩家 {{player}} 获得了 {{amount}}*{{hero}}",
   "broadcast-reward-item": "恭喜，玩家 {{player}} 获得了 {{amount}}*{{item}}",
+  "developer-settings": "开发者设置",
   "notification-details": "通知内容",
   "notification-type-event": "活动",
   "notification-type-maintenance": "维护",
   "notification-type-system": "系统",
   "notification-type-update": "更新",
   "notifications": "通知",
+  "override-weekday-restrictions": "忽略星期限制",
   "redeem": "兑换",
   "redeem-code": "兑换码",
   "redeem-code-add-item": "添加物品",
@@ -100,7 +102,5 @@
   "redeem-code-max-uses-per-user": "每人最大使用次数",
   "redeem-code-memory": "Memory",
   "redeem-code-name": "兑换码名称",
-  "redeem-success-check-inbox": "兑换成功，请到物品栏领取。",
-  "developer-settings": "开发者设置",
-  "override-weekday-restrictions": "忽略星期限制"
+  "redeem-success-check-inbox": "兑换成功，请到物品栏领取。"
 }

@@ -77,12 +77,14 @@
   "broadcast-reward-equipment": "Congrats, player {{player}} obtained {{amount}}*{{equipment}}",
   "broadcast-reward-hero": "Congrats, player {{player}} obtained {{amount}}*{{hero}}",
   "broadcast-reward-item": "Congrats, player {{player}} obtained {{amount}}*{{item}}",
+  "developer-settings": "Developer Settings",
   "notification-details": "Notification Details",
   "notification-type-event": "Event",
   "notification-type-maintenance": "Maintenance",
   "notification-type-system": "System",
   "notification-type-update": "Update",
   "notifications": "Notifications",
+  "override-weekday-restrictions": "Override Weekday Restrictions",
   "redeem": "Redeem",
   "redeem-code": "Redeem Code",
   "redeem-code-add-item": "Add Item",
@@ -100,7 +102,5 @@
   "redeem-code-max-uses-per-user": "Max Uses Per User",
   "redeem-code-memory": "Memory",
   "redeem-code-name": "Code Name",
-  "redeem-success-check-inbox": "Redeemed successfully. Check your items inbox to claim.",
-  "developer-settings": "Developer Settings",
-  "override-weekday-restrictions": "Override Weekday Restrictions"
+  "redeem-success-check-inbox": "Redeemed successfully. Check your items inbox to claim."
 }

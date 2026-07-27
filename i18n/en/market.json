@@ -19,6 +19,7 @@
   "trade-master": "Trade Master",
   "trade-master-description": "Adds 1 extra order slot to Trading Stations.",
   "trading-hub-expansion-chip": "Trading Hub Expansion Chip",
+  "trading-hub-expansion-chip-description": "[Facility Upgrade Material] Used to expand the Trading Hub's capacity.",
   "trading-hub-expansion-chip-lore": "A chip used to expand Trading Station capacity.",
   "trading-orders": "Trading Orders",
   "trading-station": "Trading Station Buildings",
@@ -30,6 +31,5 @@
   "withdraw-item": "Withdraw Item",
   "withdraw-memory": "Withdraw Memory",
   "withdraw-memory-text": "How much Memory do you want to withdraw?",
-  "withdraw-successful": "Withdraw successful",
-  "trading-hub-expansion-chip-description": "[Facility Upgrade Material] Used to expand the Trading Hub's capacity."
+  "withdraw-successful": "Withdraw successful"
 }

@@ -19,6 +19,7 @@
   "trade-master": "交易大師",
   "trade-master-description": "為貿易站增加 1 個額外訂單槽。",
   "trading-hub-expansion-chip": "貿易站擴展晶片",
+  "trading-hub-expansion-chip-description": "[設施升級材料] 用於擴展貿易站容量。",
   "trading-hub-expansion-chip-lore": "用於擴展貿易站容量的晶片。",
   "trading-orders": "貿易訂單",
   "trading-station": "貿易站建築數量",
@@ -30,6 +31,5 @@
   "withdraw-item": "提取物件",
   "withdraw-memory": "提取 Memory",
   "withdraw-memory-text": "你要提取多少 Memory ?",
-  "withdraw-successful": "提取成功",
-  "trading-hub-expansion-chip-description": "[設施升級材料] 用於擴展貿易站容量。"
+  "withdraw-successful": "提取成功"
 }
