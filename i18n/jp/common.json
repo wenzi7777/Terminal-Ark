@@ -353,8 +353,6 @@
   "completed": "完了",
   "condition-type": "条件",
   "condition-value": "数値",
-  "condition-value-ref": "数値参照",
-  "condition-value-ref-method": "数値参照方法",
   "conference-clue-tokens-rate": "会議のクレイトークン獲得率",
   "conference-remaining-time": "会議残り時間",
   "conference-tokens-per-hour": "1時間あたりの会議トークン",
@@ -958,7 +956,6 @@
   "max-order-slots": "最大注文スロット",
   "max-power": "最大電力",
   "max-printable": "最大印刷数",
-  "max-repeat-time-per-battle": "1戦闘あたりの最大使用回数",
   "max-stall-slots-reached": "最大スロット数に達しました",
   "maximum": "最大",
   "medical-technology-parts": "医療技術パーツ",
@@ -1418,7 +1415,6 @@
   "rest-room-comfort-module-description": "[施設アップグレード素材] エージェント休憩室の回復効果向上に使用。",
   "rest-room-comfort-module-lore": "代理人休息室の回復効果を向上させるためのモジュール。",
   "rest-room-info": "休息室にいる代理人は、時間経過とともにコンディションが回復します。",
-  "restore-ap": "AP回復",
   "retry": "再試行",
   "reward": "報酬",
   "reward-claimed-directly": "報酬をインベントリに直接追加しました",
@@ -2023,5 +2019,9 @@
   "zephyr": "ゼフィール",
   "zh": "中国語",
   "zh-cn": "簡体字中国語 (中国)",
-  "zh-tw": "繁体字中国語 (台湾)"
+  "zh-tw": "繁体字中国語 (台湾)",
+  "error-missing-access-token": "アクセストークンなし",
+  "load-failed": "読込失敗",
+  "smart-zoom-level": "スマートズーム",
+  "smart-zoom-level-hint": "戦場でヒーローを検査する際のズーム倍率（1.0〜2.0）。"
 }

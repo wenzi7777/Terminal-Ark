@@ -353,8 +353,6 @@
   "completed": "已完成",
   "condition-type": "条件类型",
   "condition-value": "数值",
-  "condition-value-ref": "数值参考",
-  "condition-value-ref-method": "数值参考方法",
   "conference-clue-tokens-rate": "线索之证产出",
   "conference-remaining-time": "剩余时间",
   "conference-tokens-per-hour": "线索之证/小时",
@@ -958,7 +956,6 @@
   "max-order-slots": "最大订单插槽",
   "max-power": "最大电力",
   "max-printable": "可列印上限",
-  "max-repeat-time-per-battle": "单次战斗最大使用次数",
   "max-stall-slots-reached": "已达最大槽位",
   "maximum": "最大",
   "medical-technology-parts": "醫療科技零件",
@@ -1418,7 +1415,6 @@
   "rest-room-comfort-module-description": "[设施升级材料] 用于提升代理人休息室恢复效果。",
   "rest-room-comfort-module-lore": "用于提升代理人休息室恢复效果的模块。",
   "rest-room-info": "在休息室的代理人会随时间恢复心情。",
-  "restore-ap": "恢复 AP",
   "retry": "重试",
   "reward": "奖励",
   "reward-claimed-directly": "奖励已直接加入背包",
@@ -2023,5 +2019,9 @@
   "zephyr": "泽菲尔",
   "zh": "中文",
   "zh-cn": "简体中文 (中国) Simplified Chinese",
-  "zh-tw": "繁体中文 (台湾) Traditional Chinese"
+  "zh-tw": "繁体中文 (台湾) Traditional Chinese",
+  "error-missing-access-token": "缺少访问令牌",
+  "load-failed": "加载失败",
+  "smart-zoom-level": "智能缩放倍率",
+  "smart-zoom-level-hint": "在战场上查看英雄时的缩放倍率（1.0–2.0）。"
 }

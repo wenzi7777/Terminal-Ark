@@ -353,8 +353,6 @@
   "completed": "Completed",
   "condition-type": "Condition",
   "condition-value": "VAL",
-  "condition-value-ref": "VAL REF",
-  "condition-value-ref-method": "VAL REF METHOD",
   "conference-clue-tokens-rate": "Clue Token Rate",
   "conference-remaining-time": "Time Remaining",
   "conference-tokens-per-hour": "Clue Tokens/hr",
@@ -958,7 +956,6 @@
   "max-order-slots": "Max Order Slots",
   "max-power": "Max Power",
   "max-printable": "Printable Limit",
-  "max-repeat-time-per-battle": "Max Usage Time Per Battle",
   "max-stall-slots-reached": "Max stall slots reached",
   "maximum": "Maximum",
   "medical-technology-parts": "Medical Technology Parts",
@@ -1418,7 +1415,6 @@
   "rest-room-comfort-module-description": "[Facility Upgrade Material] Used to improve the Agent Rest Room's recovery effect.",
   "rest-room-comfort-module-lore": "A module to improve Agent Rest Room recovery.",
   "rest-room-info": "Agents in rest rooms recover mood over time.",
-  "restore-ap": "Restore AP",
   "retry": "Retry",
   "reward": "Reward",
   "reward-claimed-directly": "Reward added directly to your inventory",
@@ -2023,5 +2019,9 @@
   "zephyr": "Zephyr",
   "zh": "Chinese",
   "zh-cn": "Simplified Chinese (China)",
-  "zh-tw": "Traditional Chinese (Taiwan)"
+  "zh-tw": "Traditional Chinese (Taiwan)",
+  "error-missing-access-token": "Missing access token",
+  "load-failed": "Load failed",
+  "smart-zoom-level": "Smart Zoom",
+  "smart-zoom-level-hint": "Zoom when inspecting a hero on the battlefield (1.0–2.0)."
 }
