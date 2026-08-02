@@ -244,5 +244,6 @@
   "error-hack-controller-config-invalid": "此區域的駭入控制器設定無效。",
   "error-hack-controller-unavailable": "暫時無法讀取控制器進度。",
   "error-hack-controller-stage-locked": "請先完成前一個控制器作戰。",
+  "error-hack-controller-select-team-profile": "開始前請先選擇一個隊伍編成。",
   "error-hack-controller-stage-missing": "找不到控制器作戰地圖。"
 }

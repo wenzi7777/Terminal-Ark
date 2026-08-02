@@ -244,5 +244,6 @@
   "error-hack-controller-config-invalid": "This area's controller operation configuration is invalid.",
   "error-hack-controller-unavailable": "Controller progress is temporarily unavailable.",
   "error-hack-controller-stage-locked": "Complete the earlier controller operation first.",
+  "error-hack-controller-select-team-profile": "Select a team profile to deploy before starting.",
   "error-hack-controller-stage-missing": "Controller operation map was not found."
 }

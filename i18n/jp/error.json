@@ -244,5 +244,6 @@
   "error-hack-controller-config-invalid": "このエリアのコントローラ作戦設定が無効です。",
   "error-hack-controller-unavailable": "コントローラ進捗を一時的に取得できません。",
   "error-hack-controller-stage-locked": "先に前のコントローラ作戦を完了してください。",
+  "error-hack-controller-select-team-profile": "開始する前にチーム編成を選択してください。",
   "error-hack-controller-stage-missing": "コントローラ作戦マップが見つかりません。"
 }

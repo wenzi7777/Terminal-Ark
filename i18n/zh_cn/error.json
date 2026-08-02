@@ -244,5 +244,6 @@
   "error-hack-controller-config-invalid": "此区域的控制器配置无效。",
   "error-hack-controller-unavailable": "暂时无法读取控制器进度。",
   "error-hack-controller-stage-locked": "请先完成前一个控制器作战。",
+  "error-hack-controller-select-team-profile": "开始前请先选择一个队伍编成。",
   "error-hack-controller-stage-missing": "找不到控制器作战地图。"
 }
