@@ -2049,5 +2049,15 @@
   "archive-page-nuta-lab": "Archive Page · NUTA Lab",
   "archive-page-relations-law": "Archive Page · Relations Law",
   "archive-page-prime-appt": "Archive Page · Prime Appointment",
-  "archive-page-wasteland": "Archive Page · Wasteland Survival"
+  "archive-page-wasteland": "Archive Page · Wasteland Survival",
+  "expedition-status-need-dispatcher": "Need dispatcher",
+  "expedition-status-capped": "Weekly full",
+  "expedition-status-active": "Active",
+  "expedition-remaining": "{{n}} left",
+  "archive-status-need-agent": "Need agent",
+  "archive-status-cooling": "Decoding",
+  "archive-status-ready": "Ready",
+  "archive-status-paused": "Paused",
+  "archive-page-inline": "File +10",
+  "archive-pages-missing": "Missing {{n}} page types for binding."
 }

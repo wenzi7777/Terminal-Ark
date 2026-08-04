@@ -293,5 +293,9 @@
   "workstation-trading-station": "貿易站",
   "workstation-trading-station-section": "貿易站 - 產生 Memory/Cache 訂單",
   "workstation-expedition-dispatch": "遠征調度站",
-  "workstation-expedition-dispatch-section": "遠征調度站 - 每週 Cache 契約上限，派駐調度官被動產 Cache"
+  "workstation-expedition-dispatch-section": "遠征調度站 - 每週 Cache 契約上限，派駐調度官被動產 Cache",
+  "recipe-group-modifying-solvent": "改性溶劑",
+  "recipe-group-personal-amplifier": "個人放大器",
+  "recipe-group-compress-cluster": "壓縮集群",
+  "recipe-group-decompress-cluster": "解壓縮集群"
 }

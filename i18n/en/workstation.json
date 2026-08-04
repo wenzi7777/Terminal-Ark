@@ -293,5 +293,9 @@
   "workstation-trading-station": "Trading Station",
   "workstation-trading-station-section": "Trading Stations - Generate Memory/Cache orders",
   "workstation-expedition-dispatch": "Expedition Dispatch",
-  "workstation-expedition-dispatch-section": "Expedition Dispatch - weekly Cache contract, passive Cache while a dispatcher is assigned"
+  "workstation-expedition-dispatch-section": "Expedition Dispatch - weekly Cache contract, passive Cache while a dispatcher is assigned",
+  "recipe-group-modifying-solvent": "Modifying Solvent",
+  "recipe-group-personal-amplifier": "Personal Amplifier",
+  "recipe-group-compress-cluster": "Compress Cluster",
+  "recipe-group-decompress-cluster": "Decompress Cluster"
 }

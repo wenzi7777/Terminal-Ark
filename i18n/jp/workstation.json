@@ -293,5 +293,9 @@
   "workstation-trading-station": "貿易ステーション",
   "workstation-trading-station-section": "貿易ステーション - メモリー/キャッシュの注文を生成",
   "workstation-expedition-dispatch": "遠征手配所",
-  "workstation-expedition-dispatch-section": "遠征手配所 - 週次 Cache 契約上限。手配官を配置すると Cache を受動産出"
+  "workstation-expedition-dispatch-section": "遠征手配所 - 週次 Cache 契約上限。手配官を配置すると Cache を受動産出",
+  "recipe-group-modifying-solvent": "改質溶剤",
+  "recipe-group-personal-amplifier": "個人アンプ",
+  "recipe-group-compress-cluster": "圧縮クラスター",
+  "recipe-group-decompress-cluster": "展開クラスター"
 }

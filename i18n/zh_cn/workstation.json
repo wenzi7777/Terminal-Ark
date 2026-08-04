@@ -293,5 +293,9 @@
   "workstation-trading-station": "贸易站",
   "workstation-trading-station-section": "贸易站 - 产生 Memory/Cache 订单",
   "workstation-expedition-dispatch": "远征调度站",
-  "workstation-expedition-dispatch-section": "远征调度站 - 每周 Cache 契约上限，派驻调度官被动产出 Cache"
+  "workstation-expedition-dispatch-section": "远征调度站 - 每周 Cache 契约上限，派驻调度官被动产出 Cache",
+  "recipe-group-modifying-solvent": "改性溶剂",
+  "recipe-group-personal-amplifier": "个人放大器",
+  "recipe-group-compress-cluster": "压缩集群",
+  "recipe-group-decompress-cluster": "解压缩集群"
 }

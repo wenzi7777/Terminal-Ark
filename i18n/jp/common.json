@@ -2049,5 +2049,15 @@
   "archive-page-nuta-lab": "断片・NUTA実験",
   "archive-page-relations-law": "断片・関係法",
   "archive-page-prime-appt": "断片・首相任免",
-  "archive-page-wasteland": "断片・荒原生存"
+  "archive-page-wasteland": "断片・荒原生存",
+  "expedition-status-need-dispatcher": "派遣待ち",
+  "expedition-status-capped": "今週上限",
+  "expedition-status-active": "稼働中",
+  "expedition-remaining": "残り {{n}}",
+  "archive-status-need-agent": "配属が必要",
+  "archive-status-cooling": "解読中",
+  "archive-status-ready": "回収可",
+  "archive-status-paused": "一時停止",
+  "archive-page-inline": "アーカイブ +10",
+  "archive-pages-missing": "製本にはあと {{n}} 種類の残頁が必要です。"
 }

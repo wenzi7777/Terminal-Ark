@@ -2049,5 +2049,15 @@
   "archive-page-nuta-lab": "档案残页·NUTA 实验",
   "archive-page-relations-law": "档案残页·关系法",
   "archive-page-prime-appt": "档案残页·首相任免",
-  "archive-page-wasteland": "档案残页·荒原求生"
+  "archive-page-wasteland": "档案残页·荒原求生",
+  "expedition-status-need-dispatcher": "待指派",
+  "expedition-status-capped": "本周已满",
+  "expedition-status-active": "进行中",
+  "expedition-remaining": "剩余 {{n}}",
+  "archive-status-need-agent": "需派驻",
+  "archive-status-cooling": "解读中",
+  "archive-status-ready": "可收取",
+  "archive-status-paused": "已暂停",
+  "archive-page-inline": "归档 +10",
+  "archive-pages-missing": "尚缺 {{n}} 种残页才能成卷。"
 }
