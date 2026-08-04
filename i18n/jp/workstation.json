@@ -265,8 +265,8 @@
   "upgrade-workstation": "ワークステーションをアップグレード",
   "upgrade-workstation-confirm": "端末信号増幅器を1つ消費してスーパーターミナルを強化します。続行しますか？",
   "upgrade-workstation-success": "ワークステーションをアップグレードしました！",
-  "workstation-contact-center": "連絡センター",
-  "workstation-contact-center-section": "連絡センター - 4時間ごとに手がかりを獲得、アップグレードでクールダウン短縮",
+  "workstation-contact-center": "遠征手配所",
+  "workstation-contact-center-section": "遠征手配所 - 週次 Cache 契約上限。手配官を配置すると Cache を受動産出",
   "workstation-execution-machine": "Execution Machine",
   "workstation-help": "ワークステーションガイド",
   "workstation-init-required": "この設定を調整する前に、代理人ワークステーションを初期化してください。",
@@ -282,8 +282,8 @@
   "workstation-processing-station": "加工ステーション",
   "workstation-quick-collect-toast": "{{itemName}}を{{count}}個回収しました。",
   "workstation-quick-deliver-toast": "注文を{{count}}件納品しました。",
-  "workstation-rest-room": "代理人休息室",
-  "workstation-rest-room-section": "代理人休息室 - 代理人のコンディションを回復",
+  "workstation-rest-room": "スリープポッド",
+  "workstation-rest-room-section": "スリープポッド - エージェントのムードを回復",
   "workstation-slot-active": "稼働中",
   "workstation-slot-inactive": "オフライン",
   "workstation-slot-standby": "ワークステーションスロット待機",
@@ -291,5 +291,7 @@
   "workstation-super-terminal": "スーパーターミナル",
   "workstation-super-terminal-section": "スーパーターミナル - 配置された代理人が他のすべての代理人にボーナスを提供",
   "workstation-trading-station": "貿易ステーション",
-  "workstation-trading-station-section": "貿易ステーション - メモリー/キャッシュの注文を生成"
+  "workstation-trading-station-section": "貿易ステーション - メモリー/キャッシュの注文を生成",
+  "workstation-expedition-dispatch": "遠征手配所",
+  "workstation-expedition-dispatch-section": "遠征手配所 - 週次 Cache 契約上限。手配官を配置すると Cache を受動産出"
 }

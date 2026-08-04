@@ -265,8 +265,8 @@
   "upgrade-workstation": "Upgrade Workstation",
   "upgrade-workstation-confirm": "Spend 1 Terminal Signal Amplifier to upgrade the Super Terminal. Continue?",
   "upgrade-workstation-success": "Workstation upgraded successfully!",
-  "workstation-contact-center": "Contact Center",
-  "workstation-contact-center-section": "Contact Centers - Obtain clues every 4 hours; upgrades reduce cooldown",
+  "workstation-contact-center": "Expedition Dispatch",
+  "workstation-contact-center-section": "Expedition Dispatch - weekly Cache contract, passive Cache while a dispatcher is assigned",
   "workstation-execution-machine": "Execution Machine",
   "workstation-help": "Workstation Guide",
   "workstation-init-required": "Initialize the Agent Workstation before editing this option.",
@@ -282,8 +282,8 @@
   "workstation-processing-station": "Processing Station",
   "workstation-quick-collect-toast": "Collected {{count}} {{itemName}}.",
   "workstation-quick-deliver-toast": "Delivered {{count}} orders.",
-  "workstation-rest-room": "Agent Rest Room",
-  "workstation-rest-room-section": "Agent Rest Rooms - Restore agent mood",
+  "workstation-rest-room": "Sleep Pod",
+  "workstation-rest-room-section": "Sleep Pod - restore agent mood",
   "workstation-slot-active": "Operational",
   "workstation-slot-inactive": "Offline",
   "workstation-slot-standby": "Standby",
@@ -291,5 +291,7 @@
   "workstation-super-terminal": "Super Terminal",
   "workstation-super-terminal-section": "Super Terminal - Stationed agents buff all other agents",
   "workstation-trading-station": "Trading Station",
-  "workstation-trading-station-section": "Trading Stations - Generate Memory/Cache orders"
+  "workstation-trading-station-section": "Trading Stations - Generate Memory/Cache orders",
+  "workstation-expedition-dispatch": "Expedition Dispatch",
+  "workstation-expedition-dispatch-section": "Expedition Dispatch - weekly Cache contract, passive Cache while a dispatcher is assigned"
 }

@@ -265,8 +265,8 @@
   "upgrade-workstation": "升级工作站",
   "upgrade-workstation-confirm": "消耗 1 个终端信号增幅器升级超级终端，确定要继续吗？",
   "upgrade-workstation-success": "工作站升级成功！",
-  "workstation-contact-center": "联络中心",
-  "workstation-contact-center-section": "联络中心 - 每 4 小时获取线索，升级缩短冷却时间",
+  "workstation-contact-center": "远征调度站",
+  "workstation-contact-center-section": "远征调度站 - 每周 Cache 契约上限，派驻调度官被动产出 Cache",
   "workstation-execution-machine": "執行機",
   "workstation-help": "工作站指南",
   "workstation-init-required": "请先初始化代理人工作站后再调整此设置。",
@@ -282,8 +282,8 @@
   "workstation-processing-station": "加工站",
   "workstation-quick-collect-toast": "收取了 {{count}} 个 {{itemName}}。",
   "workstation-quick-deliver-toast": "交付了 {{count}} 个订单。",
-  "workstation-rest-room": "代理人休息室",
-  "workstation-rest-room-section": "代理人休息室 - 恢复代理人心情",
+  "workstation-rest-room": "休眠舱",
+  "workstation-rest-room-section": "休眠舱 - 恢复代理人心情",
   "workstation-slot-active": "运作中",
   "workstation-slot-inactive": "离线",
   "workstation-slot-standby": "待机",
@@ -291,5 +291,7 @@
   "workstation-super-terminal": "超级终端",
   "workstation-super-terminal-section": "超级终端 - 进驻的代理人为所有其他代理人提供加成",
   "workstation-trading-station": "贸易站",
-  "workstation-trading-station-section": "贸易站 - 产生 Memory/Cache 订单"
+  "workstation-trading-station-section": "贸易站 - 产生 Memory/Cache 订单",
+  "workstation-expedition-dispatch": "远征调度站",
+  "workstation-expedition-dispatch-section": "远征调度站 - 每周 Cache 契约上限，派驻调度官被动产出 Cache"
 }
