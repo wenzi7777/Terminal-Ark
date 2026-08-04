@@ -3,7 +3,7 @@
 ## APP BUNDLE VERSION v0.11.10 Public Beta
 ## SERVER BUNDLE VERSION v0.11.10 Public Beta
 
-## Release Date: Aug. 4th 2026 20:00 JST
+## Release Date: Aug. 4th 2026 22:30 JST
 
 ### Changelog
 - Fixed an issue where the Core, HP, and Charge indicators on the battle map did not display their colors correctly in the mobile view.
