@@ -6,9 +6,9 @@
 ## Release Date: Aug. 4th 2026 19:10 JST
 
 ### Changelog
-- Fixed an issue where limited dungeons can not access.
-- Changed default cache size limit.
-- Added heroes filter in selecting heroes overlay.
+- Fixed an issue where Limited-Time Dungeons could not be accessed.
+- Changed the default Cache size limit.
+- Added hero filtering to the Select Heroes overlay.
 
 ### Others
 - Included various minor fixes and performance optimizations.
