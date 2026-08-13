@@ -303,5 +303,9 @@
   "splash-count-override": "濺射次數覆寫",
   "td-enemy-skill-description": "敵方技能。",
   "td-skill-deploy": "部署",
-  "td-skill-deploy-hint": "部署型技能 — 放置後生效，無法設為默認主動。"
+  "td-skill-deploy-hint": "部署型技能 — 可設定為預設技能，部署時自動生效一次。",
+  "td-skill-auto-trigger": "自動發動",
+  "td-skill-manual-trigger": "手動發動",
+  "td-skill-passive-trigger": "持續生效",
+  "td-skill-deploy-trigger": "部署時發動"
 }

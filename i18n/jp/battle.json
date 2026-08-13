@@ -303,5 +303,9 @@
   "splash-count-override": "スプラッシュ回数上書き",
   "td-enemy-skill-description": "敵スキル。",
   "td-skill-deploy": "デプロイ",
-  "td-skill-deploy-hint": "配置後に効果を発揮するデプロイスキル。デフォルトの主動スキルには設定できません。"
+  "td-skill-deploy-hint": "配置スキル — デフォルトスキルに選択でき、配置時に一度発動します。",
+  "td-skill-auto-trigger": "自動発動",
+  "td-skill-manual-trigger": "手動発動",
+  "td-skill-passive-trigger": "常時有効",
+  "td-skill-deploy-trigger": "配置時発動"
 }

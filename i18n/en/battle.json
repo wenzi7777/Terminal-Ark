@@ -303,5 +303,9 @@
   "splash-count-override": "Splash Count Override",
   "td-enemy-skill-description": "Enemy skill.",
   "td-skill-deploy": "Deploy",
-  "td-skill-deploy-hint": "Deploy skill — takes effect once placed; cannot be set as the default active skill."
+  "td-skill-deploy-hint": "Deploy skill — choose it as the default skill; it activates once when deployed.",
+  "td-skill-auto-trigger": "Auto trigger",
+  "td-skill-manual-trigger": "Manual trigger",
+  "td-skill-passive-trigger": "Always active",
+  "td-skill-deploy-trigger": "On deployment"
 }
