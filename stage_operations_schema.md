@@ -1,12 +1,12 @@
 # Stage Operations Schema
 
-Terminal Ark structured TD stage format (`configs.stage_operations`).
+Terminal Ark structured TD stage format. Runtime reads `public.stage_operations`; `designFiles/configs/stage_operations.json` is only the manually maintained local copy.
 
 Replaces legacy `stage_maps` (ASCII grid + runtime BFS). Naming is project-original.
 
-## Config key
+## Local source and runtime identity
 
-`stage_operations` — object map: `operationId` → `StageOperation`.
+Local JSON uses an object map: `operationId` → `StageOperation`. The remote table stores one row per `operation_id`; it must be updated only through confirmed, one-time SQL under `designFiles/sql/manual/`.
 
 ## StageOperation
 
