@@ -297,5 +297,6 @@
   "error-main-level-insufficient": "你的帳號等級不足以進入這個大區。",
   "error-event-choice-invalid": "這個選項無法使用。",
   "error-update-user-status-failed": "無法更新終端狀態，請再試一次。",
-  "error-invalid-cache-exchange-amount": "這個 Cache 數量無法兌換。"
+  "error-invalid-cache-exchange-amount": "這個 Cache 數量無法兌換。",
+  "error-turn-not-timed-out": "這個回合還沒逾時"
 }

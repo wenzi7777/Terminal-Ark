@@ -297,5 +297,6 @@
   "error-main-level-insufficient": "Your account level is too low for this region.",
   "error-event-choice-invalid": "That choice isn't available.",
   "error-update-user-status-failed": "Couldn't update your terminal status. Please try again.",
-  "error-invalid-cache-exchange-amount": "That Cache amount cannot be exchanged."
+  "error-invalid-cache-exchange-amount": "That Cache amount cannot be exchanged.",
+  "error-turn-not-timed-out": "This turn has not timed out yet"
 }

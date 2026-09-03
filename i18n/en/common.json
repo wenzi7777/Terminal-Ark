@@ -2639,5 +2639,21 @@
   "neural-sync-tab-cache": "Cache",
   "neural-sync-daily-bonus-badge": "+{{bonus}}",
   "neural-sync-nothing-selected": "Nothing selected yet",
-  "neural-sync-use-success": "Neural sync restored."
+  "neural-sync-use-success": "Neural sync restored.",
+  "signal-dive-party-mode": "Party Mode",
+  "signal-dive-party-solo": "Solo",
+  "signal-dive-party-coop": "Co-op",
+  "signal-dive-party-solo-hint": "Dive alone. The run starts immediately and no one else can join.",
+  "signal-dive-party-coop-hint": "Open a room for up to 3 divers. Share the room code, then start once everyone is ready.",
+  "signal-dive-create-coop": "Open room",
+  "signal-dive-room-public-hint": "Public room — listed in the room browser and joinable with this code.",
+  "signal-dive-room-private-hint": "Private room — tell your teammates the password separately; it is never included in the invite link.",
+  "signal-dive-copy-code": "Copy code",
+  "signal-dive-copy-invite-link": "Copy invite link",
+  "signal-dive-share-to-chat": "Share to chat",
+  "failed-to-send-message": "Failed to send message",
+  "error-not-logged-in": "You are not logged in",
+  "signal-dive-room-browser": "Open rooms",
+  "signal-dive-no-public-rooms": "No open rooms right now. Ask a teammate for a room code.",
+  "signal-dive-room-in-progress": "in progress"
 }

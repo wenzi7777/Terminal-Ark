@@ -297,5 +297,6 @@
   "error-main-level-insufficient": "你的账号等级不足以进入这个大区。",
   "error-event-choice-invalid": "这个选项无法使用。",
   "error-update-user-status-failed": "无法更新终端状态，请再试一次。",
-  "error-invalid-cache-exchange-amount": "这个 Cache 数量无法兑换。"
+  "error-invalid-cache-exchange-amount": "这个 Cache 数量无法兑换。",
+  "error-turn-not-timed-out": "这个回合还没超时"
 }

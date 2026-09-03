@@ -2639,5 +2639,21 @@
   "neural-sync-tab-cache": "Cache",
   "neural-sync-daily-bonus-badge": "+{{bonus}}",
   "neural-sync-nothing-selected": "まだ何も選択していません",
-  "neural-sync-use-success": "同期率を回復しました。"
+  "neural-sync-use-success": "同期率を回復しました。",
+  "signal-dive-party-mode": "パーティモード",
+  "signal-dive-party-solo": "ソロ",
+  "signal-dive-party-coop": "マルチ",
+  "signal-dive-party-solo-hint": "一人で潜行します。作成後すぐに開始し、他のプレイヤーは参加できません。",
+  "signal-dive-party-coop-hint": "最大 3 人のルームを開きます。ルームコードを共有し、全員の準備が整ってから開始してください。",
+  "signal-dive-create-coop": "ルームを開く",
+  "signal-dive-room-public-hint": "公開ルーム —— ルーム一覧に表示され、このコードで参加できます。",
+  "signal-dive-room-private-hint": "プライベートルーム —— パスワードは別途仲間に伝えてください。招待リンクには含まれません。",
+  "signal-dive-copy-code": "コードをコピー",
+  "signal-dive-copy-invite-link": "招待リンクをコピー",
+  "signal-dive-share-to-chat": "チャットに共有",
+  "failed-to-send-message": "メッセージの送信に失敗しました",
+  "error-not-logged-in": "ログインしていません",
+  "signal-dive-room-browser": "公開ルーム",
+  "signal-dive-no-public-rooms": "現在、公開ルームはありません。仲間にルームコードを聞いてください。",
+  "signal-dive-room-in-progress": "進行中"
 }

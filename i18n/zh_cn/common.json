@@ -2639,5 +2639,21 @@
   "neural-sync-tab-cache": "Cache",
   "neural-sync-daily-bonus-badge": "+{{bonus}}",
   "neural-sync-nothing-selected": "尚未选择要消耗的项目",
-  "neural-sync-use-success": "已恢复神经同步率。"
+  "neural-sync-use-success": "已恢复神经同步率。",
+  "signal-dive-party-mode": "队伍模式",
+  "signal-dive-party-solo": "单人",
+  "signal-dive-party-coop": "组队",
+  "signal-dive-party-solo-hint": "独自深潜。创建后立即开始，其他人无法加入。",
+  "signal-dive-party-coop-hint": "开一个最多 3 人的房间。分享房间号码，等队友就绪后再开始。",
+  "signal-dive-create-coop": "开设房间",
+  "signal-dive-room-public-hint": "公开房间 —— 会出现在房间列表，持有此号码即可加入。",
+  "signal-dive-room-private-hint": "私人房间 —— 请另外把密码告诉队友，邀请链接不会夹带密码。",
+  "signal-dive-copy-code": "复制房号",
+  "signal-dive-copy-invite-link": "复制邀请链接",
+  "signal-dive-share-to-chat": "分享到聊天室",
+  "failed-to-send-message": "消息发送失败",
+  "error-not-logged-in": "尚未登录",
+  "signal-dive-room-browser": "公开房间",
+  "signal-dive-no-public-rooms": "目前没有公开房间。可以向队友要房号。",
+  "signal-dive-room-in-progress": "进行中"
 }

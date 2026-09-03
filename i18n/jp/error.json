@@ -297,5 +297,6 @@
   "error-main-level-insufficient": "このリージョンに入るにはアカウントレベルが不足しています。",
   "error-event-choice-invalid": "この選択肢は利用できません。",
   "error-update-user-status-failed": "ターミナルの状態を更新できませんでした。もう一度お試しください。",
-  "error-invalid-cache-exchange-amount": "その Cache 数量は交換できません。"
+  "error-invalid-cache-exchange-amount": "その Cache 数量は交換できません。",
+  "error-turn-not-timed-out": "このターンはまだタイムアウトしていません"
 }

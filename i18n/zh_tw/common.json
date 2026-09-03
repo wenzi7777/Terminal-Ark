@@ -2639,5 +2639,21 @@
   "neural-sync-tab-cache": "Cache",
   "neural-sync-daily-bonus-badge": "+{{bonus}}",
   "neural-sync-nothing-selected": "尚未選擇要消耗的項目",
-  "neural-sync-use-success": "已恢復神經同步率。"
+  "neural-sync-use-success": "已恢復神經同步率。",
+  "signal-dive-party-mode": "隊伍模式",
+  "signal-dive-party-solo": "單人",
+  "signal-dive-party-coop": "組隊",
+  "signal-dive-party-solo-hint": "獨自深潛。建立後立即開始，其他人無法加入。",
+  "signal-dive-party-coop-hint": "開一個最多 3 人的房間。分享房間號碼，等隊友就緒後再開始。",
+  "signal-dive-create-coop": "開設房間",
+  "signal-dive-room-public-hint": "公開房間 —— 會出現在房間列表，持有此號碼即可加入。",
+  "signal-dive-room-private-hint": "私人房間 —— 請另外把密碼告訴隊友，邀請連結不會夾帶密碼。",
+  "signal-dive-copy-code": "複製房號",
+  "signal-dive-copy-invite-link": "複製邀請連結",
+  "signal-dive-share-to-chat": "分享到聊天室",
+  "failed-to-send-message": "訊息傳送失敗",
+  "error-not-logged-in": "尚未登入",
+  "signal-dive-room-browser": "公開房間",
+  "signal-dive-no-public-rooms": "目前沒有公開房間。可以向隊友要房號。",
+  "signal-dive-room-in-progress": "進行中"
 }
