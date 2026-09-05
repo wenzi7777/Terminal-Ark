@@ -49,7 +49,6 @@
   "craft-broken-signal-tuner": "Craft Broken Signal Tuner",
   "craft-common-signal-tuner": "Craft Common Signal Tuner",
   "craft-epic-signal-tuner": "Craft Epic Signal Tuner",
-  "craft-general-purpose-ai-core": "Craft General-Purpose AI Core",
   "craft-hardening-modifying-solvent": "Craft Hardening Modifying Solvent",
   "craft-legendary-signal-tuner": "Craft Legendary Signal Tuner",
   "craft-medical-technology-parts-cluster": "Craft Medical Technology Parts Cluster",
@@ -197,7 +196,7 @@
   "resource-challenge-dungeon": "Challenge Resource Dungeon",
   "resource-challenge-dungeon-lore": "Deep in the core of the Lower Deck's abandoned data centers. Elite nodes are significantly increased, raising the danger while offering more abundant chip drops. Recommended for fully equipped players.",
   "resource-dungeon": "Data Dungeon",
-  "resource-dungeon-closed-today": "Opens Sun / Mon / Tue / Wed",
+  "resource-dungeon-closed-today": "This operation is closed today. Check its opening days.",
   "resource-dungeon-lore": "Venture into the abandoned data centers of the Lower Deck to extract residual Universal Expansion Chips.",
   "resource-dungeon-neural-sync-note": "Neural sync is automatically consumed when claiming rewards, consistent with rare item mechanics.",
   "resource-exploration": "Data Exploration",
@@ -228,9 +227,6 @@
   "resources": "Resources",
   "selected-count": "Selected: {{current}}/{{max}}",
   "show-skill-effect": "Show Skill Effect",
-  "skill-enhancement-station": "Skill Enhancement Station",
-  "skill-enhancement-station-lore": "Two drill sectors rotate by weekday (both open Sunday). Each rolls skill materials from its class pool; anomaly protocols may drop from either.",
-  "skill-material-dungeon-closed-today": "Closed today",
   "storage-challenge-dungeon": "Challenge Storage Dungeon",
   "storage-challenge-dungeon-lore": "Deep in a decommissioned server farm. Elite nodes are significantly increased, offering a chance at storage expansion cores. Recommended for fully equipped players.",
   "storage-dungeon-closed-today": "Opens Thu / Fri / Sat",
@@ -294,8 +290,5 @@
   "recipe-group-personal-amplifier": "Personal Booster",
   "recipe-group-compress-cluster": "Compress Cluster",
   "recipe-group-decompress-cluster": "Decompress Cluster",
-  "skill-material-shattered-perimeter-dungeon": "Shattered Perimeter Drill",
-  "skill-material-shattered-perimeter-dungeon-lore": "Run drills along the broken outer perimeter for close-quarters tactical cores (Defender, Vanguard, Striker). Anomaly protocols may surface.",
-  "skill-material-elevated-array-dungeon": "Elevated Array Drill",
-  "skill-material-elevated-array-dungeon-lore": "Drill on suspended signal arrays for long-range and relay tactical cores (Sniper, Warlock, Support). Anomaly protocols may surface."
+  "craft-void-cognition-chip": "Craft Void Cognition Chip"
 }

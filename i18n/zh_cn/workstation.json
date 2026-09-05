@@ -49,7 +49,6 @@
   "craft-broken-signal-tuner": "製作已損毀的訊號調諧裝置",
   "craft-common-signal-tuner": "製作常見的訊號調諧裝置",
   "craft-epic-signal-tuner": "製作神級的訊號調諧裝置",
-  "craft-general-purpose-ai-core": "制作通用型人工智能核心",
   "craft-hardening-modifying-solvent": "合成硬化改性溶剂",
   "craft-legendary-signal-tuner": "製作傳奇的訊號調諧裝置",
   "craft-medical-technology-parts-cluster": "製作醫療科技零件集群",
@@ -201,7 +200,7 @@
   "resource-challenge-dungeon": "挑战数据地下城",
   "resource-challenge-dungeon-lore": "深入下层甲板核心的废弃数据中心。精英节点数量显著增加，危险程度更高，晶片掉落量更为丰厚。建议装备齐全后再进行挑战。",
   "resource-dungeon": "数据地下城",
-  "resource-dungeon-closed-today": "仅週日、一、二、三开放",
+  "resource-dungeon-closed-today": "此作战今日未开放，请查看作战开放日。",
   "resource-dungeon-lore": "深入下层甲板的废弃数据中心，提取残留的通用扩充芯片。",
   "resource-dungeon-neural-sync-note": "领取奖励时将自动消耗神经同步率，与一般稀有物品机制一致。",
   "resource-exploration": "数据探索",
@@ -232,13 +231,6 @@
   "resources": "资源",
   "selected-count": "已选：{{current}}/{{max}}",
   "show-skill-effect": "显示技能效果",
-  "skill-enhancement-station": "技能强化站",
-  "skill-enhancement-station-lore": "两处战术演习扇区隔日轮替（周日皆开），各从一组职业中随机掉落技能材料；特殊协议两边皆可能残留。",
-  "skill-material-dungeon-closed-today": "今日未开放",
-  "skill-material-elevated-array-dungeon": "高架阵列演习",
-  "skill-material-elevated-array-dungeon-lore": "在悬空信号阵列上跑远程与中继演练，回收高架职业战术核心（狙击、咒术、支援）；特殊协议亦可能残留。",
-  "skill-material-shattered-perimeter-dungeon": "破碎防线演习",
-  "skill-material-shattered-perimeter-dungeon-lore": "在残破的外围防线跑战术演练，回收近接职业战术核心（防护者、先锋、攻击者）；特殊协议亦可能残留。",
   "storage-challenge-dungeon": "挑战存储地下城",
   "storage-challenge-dungeon-lore": "深入已废弃的伺服器机房核心。精英节点数量显著增加，有机会掉落存储扩充核心。建议装备齐全后再行挑战。",
   "storage-dungeon-closed-today": "仅週四、五、六开放",
@@ -297,5 +289,6 @@
   "workstation-super-terminal": "超级终端",
   "workstation-super-terminal-section": "超级终端 - 进驻的代理人为所有其他代理人提供加成",
   "workstation-trading-station": "贸易站",
-  "workstation-trading-station-section": "贸易站 - 产生 Memory/Cache 订单"
+  "workstation-trading-station-section": "贸易站 - 产生 Memory/Cache 订单",
+  "craft-void-cognition-chip": "合成虚空认知芯片"
 }
