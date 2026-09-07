@@ -1,6 +1,6 @@
 {
   "error-afk-not-available-today": "此 AFK 今日不可用。",
-  "error-agent-token-insufficient": "代理执行授权节点不足，或已过期。",
+  "error-agent-token-insufficient": "代理执行授权卡不足，或已过期。",
   "error-already-given-prestige-today": "今天已经给过网络声望了",
   "error-already-in-dungeon": "你已在此地下城中。",
   "error-auth-invalid-user": "使用者身份無效，請重新登入。",
@@ -132,8 +132,8 @@
   "error-legacy-combat-retired": "旧战斗操作已退役，请改用信号深潜。",
   "error-limited-dungeon-account-level": "账号等级不足，无法进入此限时地下城。",
   "error-limited-dungeon-invalid": "限时地下城无效。",
-  "error-limited-dungeon-not-available-today": "此限时地下城仅在周日到周三开放。",
-  "error-limited-dungeon-sweep-failed": "扫荡失败。",
+  "error-limited-dungeon-not-available-today": "此定期作战今日未开放。",
+  "error-limited-dungeon-sweep-failed": "代理作战失败。",
   "error-listing-not-found": "找不到该商品",
   "error-loading-rankings": "排行数据读取失败",
   "error-loading-templates": "載入配置樣板失敗。",
@@ -310,6 +310,11 @@
   "error-procurement-config-missing": "采购货架尚未设定完成。",
   "error-procurement-network": "未收到交易结果。再次操作会确认同一笔交易，不会重复扣款。",
   "error-procurement-retry-pending": "上一笔兑换结果仍未确认。请先以相同商品与数量重试，再开始其他兑换。",
+  "error-expedition-facility-not-found": "找不到远征调度站。",
+  "error-expedition-mission-complete-failed": "无法完成远征任务，请刷新后重试。",
+  "error-expedition-mission-not-ready": "远征任务尚未完成搜索。",
+  "error-expedition-weekly-cap-reached": "本周 Cache 福利额度已满。",
+  "error-invalid-expedition-reward": "远征任务奖励数据无效。",
   "error-workstation-not-found": "找不到工作站。",
   "error-user-not-found": "找不到账号资料。"
 }

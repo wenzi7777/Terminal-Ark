@@ -28,6 +28,7 @@ Welcome to the Terminal Ark Encyclopedia! This guide will help you understand al
 ### Progression | 進度系統
 - [Story Mode | 故事模式](./story-mode) - Campaign progression | 戰役進度
 - [City Challenges | 城市挑戰](./city-challenges) - Repeatable content | 可重複內容
+- [Overall Level | 綜合等級](./overall-level) - AFK equipment progression | AFK 裝備進度
 - [Workshop | 工坊](./workshop) - Community created content | 社群創作內容
 
 ---

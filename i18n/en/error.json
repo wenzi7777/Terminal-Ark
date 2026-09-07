@@ -1,6 +1,6 @@
 {
   "error-afk-not-available-today": "This AFK operation is not available today.",
-  "error-agent-token-insufficient": "Not enough Agent Execution Tokens, or they have expired.",
+  "error-agent-token-insufficient": "Not enough Agent Execution Authorization Cards, or they have expired.",
   "error-already-given-prestige-today": "You have already given prestige today",
   "error-already-in-dungeon": "You are already in this dungeon.",
   "error-auth-invalid-user": "Invalid user session. Please log in again.",
@@ -132,8 +132,8 @@
   "error-legacy-combat-retired": "Legacy combat actions have been retired. Use Signal Dive.",
   "error-limited-dungeon-account-level": "Your account level is too low for this limited dungeon.",
   "error-limited-dungeon-invalid": "Invalid limited dungeon.",
-  "error-limited-dungeon-not-available-today": "This limited dungeon is open Sunday through Wednesday only.",
-  "error-limited-dungeon-sweep-failed": "Sweep failed.",
+  "error-limited-dungeon-not-available-today": "This regular operation is not open today.",
+  "error-limited-dungeon-sweep-failed": "Proxy operation failed.",
   "error-listing-not-found": "Listing not found",
   "error-loading-rankings": "Failed to load rankings",
   "error-loading-templates": "Failed to load configuration templates.",
@@ -310,6 +310,11 @@
   "error-procurement-config-missing": "The procurement shelves are not configured yet.",
   "error-procurement-network": "Response unavailable. Retry to check the same transaction; you will not be charged twice.",
   "error-procurement-retry-pending": "A previous exchange is still unresolved. Retry that same item and quantity before starting another exchange.",
+  "error-expedition-facility-not-found": "Expedition Dispatch not found.",
+  "error-expedition-mission-complete-failed": "Could not complete the expedition. Refresh and try again.",
+  "error-expedition-mission-not-ready": "The expedition search is not complete yet.",
+  "error-expedition-weekly-cap-reached": "This week's Cache benefit allowance is full.",
+  "error-invalid-expedition-reward": "The expedition reward data is invalid.",
   "error-workstation-not-found": "Workstation not found.",
   "error-user-not-found": "Account data not found."
 }

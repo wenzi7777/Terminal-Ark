@@ -1,6 +1,6 @@
 {
   "error-afk-not-available-today": "本日はAFK機能を使用できません。",
-  "error-agent-token-insufficient": "代理実行認可ノードが不足しているか、期限切れです。",
+  "error-agent-token-insufficient": "代理実行認可カードが不足しているか、期限切れです。",
   "error-already-given-prestige-today": "本日はすでにネットワーク名声を与えています",
   "error-already-in-dungeon": "あなたはすでにこのダンジョンにいます。",
   "error-auth-invalid-user": "ユーザー認証が無効です。再ログインしてください。",
@@ -132,8 +132,8 @@
   "error-legacy-combat-retired": "旧戦闘操作は廃止されました。シグナル・ダイブを使ってください。",
   "error-limited-dungeon-account-level": "アカウントレベルが不足しています。",
   "error-limited-dungeon-invalid": "期間限定ダンジョンが無効です。",
-  "error-limited-dungeon-not-available-today": "この期間限定ダンジョンは日曜から水曜のみ開放されます。",
-  "error-limited-dungeon-sweep-failed": "掃討に失敗しました。",
+  "error-limited-dungeon-not-available-today": "この定期作戦は本日開放されていません。",
+  "error-limited-dungeon-sweep-failed": "代理作戦に失敗しました。",
   "error-listing-not-found": "商品が見つかりません",
   "error-loading-rankings": "ランキングデータの読み込みに失敗しました",
   "error-loading-templates": "構成テンプレートの読み込みに失敗しました。",
@@ -310,6 +310,11 @@
   "error-procurement-config-missing": "調達棚がまだ設定されていません。",
   "error-procurement-network": "結果を受信できませんでした。再操作で同じ取引を確認します。二重消費はしません。",
   "error-procurement-retry-pending": "前の交換結果が未確定です。同じ商品と数量を再試行してから、別の交換を開始してください。",
+  "error-expedition-facility-not-found": "遠征手配所が見つかりません。",
+  "error-expedition-mission-complete-failed": "遠征任務を完了できませんでした。更新して再試行してください。",
+  "error-expedition-mission-not-ready": "遠征任務の捜索はまだ完了していません。",
+  "error-expedition-weekly-cap-reached": "今週の Cache 福利上限に達しました。",
+  "error-invalid-expedition-reward": "遠征任務の報酬データが無効です。",
   "error-workstation-not-found": "ワークステーションが見つかりません。",
   "error-user-not-found": "アカウントデータが見つかりません。"
 }
