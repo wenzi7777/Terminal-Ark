@@ -1,15 +1,15 @@
 # Terminal Ark Changelog
 
-## APP BUNDLE VERSION v0.12.6 Public Beta
-## SERVER BUNDLE VERSION v0.12.6 Public Beta
+## APP BUNDLE VERSION v0.12.7 Public Beta
+## SERVER BUNDLE VERSION v0.12.7 Public Beta
 
-## Release Date: Sep. 8th 2026 01:00 JST
+## Release Date: Sep. 9th 2026 20:00 JST
 
 ### Changelog
-- Security updates
+- Added Attunement Rank 0 icon.
+- Fixed an display issue on PWA app on iOS 27 Beta.
 
 ### Others
 - Included various minor fixes and performance optimizations.
-- Included security updates.
 
 ***This is a hotfix update and will be installed automatically. You will receive a notification prompting you to refresh the page after the hotfix is installed.***
