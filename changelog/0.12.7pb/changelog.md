@@ -3,7 +3,7 @@
 ## APP BUNDLE VERSION v0.12.7 Public Beta
 ## SERVER BUNDLE VERSION v0.12.7 Public Beta
 
-## Release Date: Sep. 9th 2026 20:00 JST
+## Release Date: Sep. 10th 2026 02:40 JST
 
 ### Changelog
 - Added Attunement Rank 0 icon.
