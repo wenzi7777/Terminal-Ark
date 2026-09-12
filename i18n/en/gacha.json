@@ -5,5 +5,6 @@
   "gacha-confirm-standard-multi": "Do you want to gacha the Standard Channel 10 times?",
   "gacha-confirm-standard-single": "Do you want to gacha the Standard Channel 1 time?",
   "gacha-history": "Gacha History",
-  "gacha-history-empty": "No records yet"
+  "gacha-history-empty": "No records yet",
+  "drop-rate-terminal-lore": "Select a rarity to inspect the current channel's hero and item interception rates."
 }

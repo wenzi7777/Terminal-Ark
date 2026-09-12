@@ -5,5 +5,6 @@
   "gacha-confirm-standard-multi": "你要在标准频道转蛋 10 次吗？",
   "gacha-confirm-standard-single": "你要在标准频道转蛋 1 次吗？",
   "gacha-history": "抽卡记录",
-  "gacha-history-empty": "暂无记录"
+  "gacha-history-empty": "暂无记录",
+  "drop-rate-terminal-lore": "选择星级以查看当前频道的英雄与物品拦截概率。"
 }

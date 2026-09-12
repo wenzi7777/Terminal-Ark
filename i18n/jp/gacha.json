@@ -5,5 +5,6 @@
   "gacha-confirm-standard-multi": "標準チャンネルガチャを10回引きますか？",
   "gacha-confirm-standard-single": "標準チャンネルガチャを1回引きますか？",
   "gacha-history": "ガチャ履歴",
-  "gacha-history-empty": "まだ記録がありません"
+  "gacha-history-empty": "まだ記録がありません",
+  "drop-rate-terminal-lore": "レアリティを選択して、現在のチャンネルの英雄とアイテムの排出率を確認します。"
 }

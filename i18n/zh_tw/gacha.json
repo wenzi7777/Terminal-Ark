@@ -5,5 +5,6 @@
   "gacha-confirm-standard-multi": "你要在標準頻道轉蛋 10 次嗎？",
   "gacha-confirm-standard-single": "你要在標準頻道轉蛋 1 次嗎？",
   "gacha-history": "轉蛋紀錄",
-  "gacha-history-empty": "暫無紀錄"
+  "gacha-history-empty": "暫無紀錄",
+  "drop-rate-terminal-lore": "選擇星級以檢視目前頻道的英雄與物品攔截機率。"
 }
