@@ -17,6 +17,7 @@ Welcome to the Terminal Ark Encyclopedia! This guide will help you understand al
 - [Heroes Guide | 英雄指南](./heroes-guide) - Hero classes, skills, and progression | 英雄職業、技能和成長
 - [Team Formation | 隊伍編成](./team-formation) - Building effective teams | 組建有效的隊伍
 - [Equipment System | 裝備系統](./equipment-system) - Armor, modules, and affixes | 盔甲、模組和詞綴
+- [Rated Power Draw | 額定能耗](./armor-power-draw) - Affix power cost, the main battery, and charging rules | 詞綴電力成本、主電池與充電規則
 - [Dungeon Mechanics | 地下城機制](./dungeon-mechanics) - How dungeons work and rewards | 地下城機制和獎勵
 
 ### Resources & Economy | 資源與經濟
@@ -120,6 +121,6 @@ This encyclopedia is community-driven and open source. To contribute:
 
 ---
 
-**Last Updated | 最後更新**: 2025-11-18
+**Last Updated | 最後更新**: 2026-09-22
 **Game Version | 遊戲版本**: Alpha 0.1.0
 **Wiki Maintainer | 百科維護者**: Terminal Ark Dev Team
