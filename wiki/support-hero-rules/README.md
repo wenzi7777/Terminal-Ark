@@ -10,7 +10,8 @@ Support Heroes let your Terminal User Network share elite operatives for dungeon
 
 - Share up to **two** heroes as network assets and borrow **one** per team / 最多分享 **2 名**英雄、每隊可借 **1 名**。
 - Borrowed heroes act autonomously following the owner's loadout / 借出的英雄依原裝備及技能運作。
-- Rewards always belong to the borrower while owners simply help the network / 獎勵歸借用者，所有者僅提供支援。
+- Run rewards belong to the borrower; the owner earns **2 Decode Points** per borrow (up to **5 rewarded borrows per day**, once per borrower per day), claimed under **Network → Support → Lending Rewards** / 戰鬥獎勵歸借用者；出借者每被借一次得 **2 解讀積分**（每日最多 **5 次**計獎，同一位借用者每天只計一次），到「網路 → 助戰 → 借出回饋」領取。
+- The Node Point cost applies to every run that starts with a borrowed hero — Signal Dive (creating or joining a room) and limited dungeons / 節點消耗適用於所有帶借用英雄開場的內容：訊號深潛（開房或加入）與限時地下城。
 
 ## 🔐 Requirements | 使用條件
 

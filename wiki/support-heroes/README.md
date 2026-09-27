@@ -118,17 +118,13 @@ You can view your network's current Node Points:
 
 ### Rewards & Ownership | 獎勵與所有權
 
-- **Support hero owner**: Does NOT receive any rewards when others use their heroes
-- **Support hero user**: Receives **100% of all rewards** (Memory, Cache, EXPD, items, etc.)
+- **Support hero owner**: Earns **2 Decode Points** each time a network member starts a run with their hero — up to **5 rewarded borrows per day**, and the same borrower only counts once per day. Claim them under **Network → Support → Lending Rewards**.
+- **Support hero user**: Receives **100% of the run rewards** (Memory, Cache, EXPD, items, etc.)
 - **No penalties**: Using support heroes does not reduce rewards
 
-**Important**: The support hero owner contributes their hero out of goodwill to help network members, not for direct rewards.
-
-- **助戰英雄所有者**：其他人使用其英雄時**不會**獲得任何獎勵
-- **助戰英雄使用者**：獲得**100% 的所有獎勵**（Memory、Cache、EXPD、物品等）
+- **助戰英雄所有者**：網路成員每次帶其英雄開場，所有者得 **2 解讀積分**；每日最多 **5 次**計獎，同一位借用者每天只計一次。到「網路 → 助戰 → 借出回饋」領取。
+- **助戰英雄使用者**：獲得**100% 的戰鬥獎勵**（Memory、Cache、EXPD、物品等）
 - **無懲罰**：使用助戰英雄不會減少獎勵
-
-**重要**：助戰英雄所有者出於善意貢獻其英雄來幫助網路成員，而不是為了直接獎勵。
 
 ### Team Composition Rules | 隊伍組成規則
 
