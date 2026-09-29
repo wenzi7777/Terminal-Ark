@@ -142,6 +142,7 @@
   "seal-recycle-requirement": "Only keepsakes belonging to heroes at Attunement 5 can be converted.",
   "seal-recycle-all": "Convert All Eligible Keepsakes",
   "seal-empty": "No hero keepsakes in inventory.",
+  "seal-no-eligible": "No keepsakes are currently eligible for conversion.",
   "attunement-confirm": "Confirm Exchange",
   "attunement-consume": "Consume",
   "attunement-receive": "Receive",

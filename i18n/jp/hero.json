@@ -142,6 +142,7 @@
   "seal-recycle-requirement": "同調5に達した英雄の信物のみ変換できます。",
   "seal-recycle-all": "対象の信物をすべて変換",
   "seal-empty": "英雄の信物がありません。",
+  "seal-no-eligible": "現在変換できる信物はありません。",
   "attunement-confirm": "交換を確認",
   "attunement-consume": "消費",
   "attunement-receive": "獲得",

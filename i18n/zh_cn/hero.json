@@ -142,6 +142,7 @@
   "seal-recycle-requirement": "角色达到同调 5 后，才可转化该角色的信物。",
   "seal-recycle-all": "转化所有可用信物",
   "seal-empty": "背包中没有角色信物。",
+  "seal-no-eligible": "目前没有可转化的信物。",
   "attunement-confirm": "确认兑换",
   "attunement-consume": "消耗",
   "attunement-receive": "获得",

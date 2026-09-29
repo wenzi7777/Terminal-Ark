@@ -142,6 +142,7 @@
   "seal-recycle-requirement": "角色達到同調 5 後，才可轉化該角色的信物。",
   "seal-recycle-all": "轉化所有可用信物",
   "seal-empty": "背包中沒有角色信物。",
+  "seal-no-eligible": "目前沒有可轉化的信物。",
   "attunement-confirm": "確認兌換",
   "attunement-consume": "消耗",
   "attunement-receive": "獲得",
