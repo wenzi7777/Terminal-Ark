@@ -164,7 +164,7 @@
   "power": "电力",
   "power-acceleration": "指令点加速",
   "power-capacity": "供电容量",
-  "power-capacity-detail": "当前供电容量与总负载。供电不足时，时间型任务会暂停推进。",
+  "power-capacity-detail": "当前已用电量／供电容量。供电不足时，时间型任务会暂停推进。",
   "power-generation": "电力产生",
   "power-generation-bonus": "发电量加成",
   "power-load": "电力负载",

@@ -164,7 +164,7 @@
   "power": "電力",
   "power-acceleration": "指令ポイント加速",
   "power-capacity": "電力容量",
-  "power-capacity-detail": "現在の供給電力と総負荷を表示します。供給不足の間は時間型タスクが停止します。",
+  "power-capacity-detail": "現在の消費電力／供給容量。電力が不足すると、時間制のタスクは進行を停止します。",
   "power-generation": "電力生成",
   "power-generation-bonus": "発電量ボーナス",
   "power-load": "電力負荷",

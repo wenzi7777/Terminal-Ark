@@ -164,7 +164,7 @@
   "power": "Power",
   "power-acceleration": "Command Acceleration",
   "power-capacity": "Power Capacity",
-  "power-capacity-detail": "Shows current power supply and total load. Time-based tasks pause when supply is insufficient.",
+  "power-capacity-detail": "Current power load / supply capacity. Timed tasks pause when the power supply is insufficient.",
   "power-generation": "Power Generation",
   "power-generation-bonus": "Power Gen. Bonus",
   "power-load": "Power Load",
