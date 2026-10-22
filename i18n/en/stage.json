@@ -930,5 +930,6 @@
   "zone-link-handshake": "Establishing neural link…",
   "zone-link-ready": "Link ready",
   "zone-link-squad-size": "Squad",
-  "zone-link-title": "Loading operation"
+  "zone-link-title": "Loading operation",
+  "signal-dive-node-entry": "Entry"
 }

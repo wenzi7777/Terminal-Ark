@@ -102,5 +102,6 @@
   "redeem-code-max-uses-per-user": "ユーザーごとの最大使用回数",
   "redeem-code-memory": "メモリー",
   "redeem-code-name": "コード名",
-  "redeem-success-check-inbox": "引き換えに成功しました。受け取り箱を確認してください。"
+  "redeem-success-check-inbox": "引き換えに成功しました。受け取り箱を確認してください。",
+  "broadcast-world-boss-kill": "プレイヤー {{player}} が方舟サーバー侵入の第{{tier}}段階を完了！全プレイヤーに報酬を配布しました。"
 }

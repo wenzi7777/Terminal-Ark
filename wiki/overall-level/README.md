@@ -1,8 +1,24 @@
 # Overall Level | 綜合等級
 
-Overall Level is your account-wide equipment progression level for neural-connection AFK rewards. It is informational outside AFK: it appears on player profiles, Archive, and rankings, but it does not estimate Signal Dive combat strength.
+Overall Level is your account-wide equipment level. It drives neural-connection AFK rewards and is also your Signal Dive combat strength level: when a dive starts, it is converted into your combat power multiplier. It appears on the equipment screen, player profiles, Archive, and rankings.
 
-綜合等級是帳號共用裝備用於神經連接 AFK 收益的進度等級。在 AFK 以外只作為資訊，顯示於玩家資料、Archive 與排行榜；它不代表訊號深潛戰鬥力。
+綜合等級是帳號共用裝備的等級。它決定神經連接 AFK 的收益，同時也是訊號深潛的戰鬥強度等級：深潛開始時會換算成你的戰力倍率。顯示於裝備畫面、玩家資料、Archive 與排行榜。
+
+## Combat Strength | 戰鬥強度
+
+At the start of a Signal Dive, your Overall Level is frozen into a combat power multiplier that scales your card damage, block, affix protocol values, and maximum HP. Enemies scale with the dive's threat level on the same curve, so when your Overall Level keeps up with the threat, the difficulty stays roughly constant.
+
+```text
+power multiplier = 1.15 ^ ((max(16, Overall Level) − 16) / 16)
+Lv.16 or below → ×1.00 · Lv.32 → ×1.15 · Lv.64 → ×1.52 · Lv.128 → ×2.66
+```
+
+深潛開始時，綜合等級會凍結成戰力倍率，放大卡牌傷害、護盾、詞綴協議數值與最大 HP。敵人依該場深潛的威脅等級走同一條曲線，所以綜合等級跟得上威脅時，難度大致不變。
+
+```text
+戰力倍率 = 1.15 ^ ((max(16, 綜合等級) − 16) / 16)
+Lv.16 以下 → ×1.00 · Lv.32 → ×1.15 · Lv.64 → ×1.52 · Lv.128 → ×2.66
+```
 
 ---
 

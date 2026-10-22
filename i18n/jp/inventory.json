@@ -5,7 +5,7 @@
   "collect-order": "注文を変換",
   "collect-success": "変換に成功しました！",
   "currency": "通貨",
-  "currency-cache-lore": "キャッシュはターミナル・アークにおける高級通貨です。特殊なアイテムの購入やガチャに使用できます。",
+  "currency-cache-lore": "CacheはTerminal Arkの上位通貨で、高品質な神経接続から抽出される。同期率の回復、契約、レア装置の購入に使え、Swapへ一方向に交換できる。",
   "currency-memory-lore": "メモリーはターミナル・アークにおける主要通貨です。",
   "equip": "装備",
   "equipment": "装備",
@@ -57,5 +57,6 @@
   "unequip": "装備解除",
   "void-storage-expansion-core": "虚空ストレージ拡張コア",
   "void-storage-expansion-core-description": "[ストレージ素材] インベントリと保管庫の枠を拡張するための最上級ストレージコア。",
-  "void-storage-expansion-core-lore": "虚空空間を介して折り畳まれた記憶領域。物理的な殻に収まるはずのない容量を内包する。"
+  "void-storage-expansion-core-lore": "虚空空間を介して折り畳まれた記憶領域。物理的な殻に収まるはずのない容量を内包する。",
+  "currency-swap-lore": "Swapはターミナルネットワークの日常通貨。Cacheから交換するか、派遣、チェックイン、シグナルダイブ、AFKで入手できる。デコーダー、トレーサー、一般物資の購入に使える。"
 }

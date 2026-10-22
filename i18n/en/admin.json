@@ -102,5 +102,6 @@
   "redeem-code-max-uses-per-user": "Max Uses Per User",
   "redeem-code-memory": "Memory",
   "redeem-code-name": "Code Name",
-  "redeem-success-check-inbox": "Redeemed successfully. Check your items inbox to claim."
+  "redeem-success-check-inbox": "Redeemed successfully. Check your items inbox to claim.",
+  "broadcast-world-boss-kill": "Player {{player}} completed tier {{tier}} of the Ark server hack! Rewards sent to every player."
 }

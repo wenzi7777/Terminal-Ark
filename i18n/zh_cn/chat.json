@@ -6,7 +6,7 @@
   "chat-input-help-text": "在文本框中输入您的信息并按下发送来发送您的信息，支持 Markdown 语法。如果您想提及某人，请使用 #mention# 后接他们的 UID 并以 # 结尾，或者直接点击他们的用户名以快速提及。",
   "chat-management": "聊天管理",
   "chat-mod-terminal": "聊天管理终端外观",
-  "chat-mod-terminal-description": "带有管理标识的终端主题，会改变 ChatNet 发言框和个人页面外观。",
+  "chat-mod-terminal-description": "带有管理标识的终端主题：整个游戏换成深海蓝配色，并改变 ChatNet 发言框与个人页面外观。",
   "chat-network": "聊天网络",
   "chat-reply-action": "回复",
   "chat-reply-target-not-found": "找不到要回复的消息",

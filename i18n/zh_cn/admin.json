@@ -102,5 +102,6 @@
   "redeem-code-max-uses-per-user": "每人最大使用次数",
   "redeem-code-memory": "Memory",
   "redeem-code-name": "兑换码名称",
-  "redeem-success-check-inbox": "兑换成功，请到物品栏领取。"
+  "redeem-success-check-inbox": "兑换成功，请到物品栏领取。",
+  "broadcast-world-boss-kill": "玩家 {{player}} 完成了方舟服务器第 {{tier}} 阶骇入！全服奖励已发放。"
 }

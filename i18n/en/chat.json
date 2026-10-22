@@ -6,7 +6,7 @@
   "chat-input-help-text": "Type your message in the textbox and press Send to send your message. Markdown is supported. If you want to mention someone, use #mention# followed by their UID and end with a #. Also, or just click their username to quick mention.",
   "chat-management": "Chat Management",
   "chat-mod-terminal": "Chat Mod Terminal Appearance",
-  "chat-mod-terminal-description": "A moderation-themed terminal skin that changes both ChatNet bubbles and profile pages.",
+  "chat-mod-terminal-description": "A moderation-themed terminal skin: recolors the whole game in deep-sea blue and changes ChatNet bubbles and profile pages.",
   "chat-network": "Chat Network",
   "chat-reply-action": "Reply",
   "chat-reply-target-not-found": "The message you are replying to could not be found",

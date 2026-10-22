@@ -10,7 +10,7 @@
   "afk-signal-quality-hint": "消耗同步率強化本次 AFK 收益；點擊資訊按鈕查看差異。",
   "afk-signal-quality-info": "查看訊號品質差異",
   "afk-signal-quality-standard": "標準訊號品質",
-  "afk-signal-quality-no-cost": "不消耗同步率",
+  "afk-signal-quality-no-cost": "不消耗同步率 · 產出 Swap",
   "afk-signal-quality-original-duration-note": "成本依原始時長計算，不受 AFK 減時 Buff 影響。",
   "afk-signal-quality-material-bonus": "每件基礎材料有 20% 機率追加 1 件／期望產量 +20%",
   "afk-signal-quality-info-rare-retention": "開啟：消耗 {{cost}} 同步率，保留規則內的稀有掉落。關閉：不消耗同步率，稀有掉落改為對應基礎材料。成本依原始時長計算，不受 AFK 減時 Buff 影響。",
@@ -110,5 +110,7 @@
   "wasteland-slot-trade-outpost": "貿易觀測站",
   "wasteland-terminal-title": "荒原開發終端",
   "wasteland-tyrant": "荒原暴君",
-  "wreckage-of-the-starship-that-never-returned": "未曾返回的星艦殘骸"
+  "wreckage-of-the-starship-that-never-returned": "未曾返回的星艦殘骸",
+  "afk-signal-quality-currency-estimate": "約 {{amount}}",
+  "afk-signal-quality-info-rare-boost": "開啟：消耗 {{cost}} 同步率，每件稀有掉落有 {{bonus}}% 機率多一件，並額外產出 Cache。關閉：不消耗同步率，維持一般掉率，改為產出 Swap。成本依原始時長計算，不受 AFK 減時 Buff 影響。"
 }

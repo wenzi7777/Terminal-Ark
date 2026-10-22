@@ -930,5 +930,6 @@
   "zone-link-handshake": "建立神经连线…",
   "zone-link-ready": "连线就绪",
   "zone-link-squad-size": "小队人数",
-  "zone-link-title": "加载任务"
+  "zone-link-title": "加载任务",
+  "signal-dive-node-entry": "入口"
 }

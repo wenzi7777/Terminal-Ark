@@ -19,6 +19,8 @@ Welcome to the Terminal Ark Encyclopedia! This guide will help you understand al
 - [Equipment System | 裝備系統](./equipment-system) - Armor, modules, and affixes | 盔甲、模組和詞綴
 - [Rated Power Draw | 額定能耗](./armor-power-draw) - Affix power cost, the main battery, and charging rules | 詞綴電力成本、主電池與充電規則
 - [Dungeon Mechanics | 地下城機制](./dungeon-mechanics) - How dungeons work and rewards | 地下城機制和獎勵
+- [Signal Dive Guide | 訊號深潛指南](./signal-dive-guide) - Map legend, tiles, combat rules and terms | 地圖圖例、地塊、戰鬥規則與名詞
+- [Weekly Anomaly Protocols | 每週異常協議](./signal-dive-anomaly) - Signal Dive weekly modifiers and rotation | 訊號深潛的每週修飾與輪替
 
 ### Resources & Economy | 資源與經濟
 - [Currency Types | 貨幣類型](./currency-types) - Memory, Cache, EXPD, and other resources | Memory、Cache、EXPD 等資源

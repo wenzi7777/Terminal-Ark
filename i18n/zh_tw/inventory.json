@@ -5,7 +5,7 @@
   "collect-order": "收取訂單",
   "collect-success": "收取成功！",
   "currency": "貨幣",
-  "currency-cache-lore": "Cache 是 Terminal Ark 中的高級貨幣。它可以用來購買一些特殊物品，進行轉蛋等。",
+  "currency-cache-lore": "Cache 是 Terminal Ark 的高級貨幣，從高品質的神經連線中萃取而來。可以用來恢復同步率、簽署合約與購買稀有裝置，也能單向兌換成 Swap。",
   "currency-memory-lore": "Memory 是 Terminal Ark 中的主要貨幣。",
   "equip": "裝備",
   "equipment": "裝備",
@@ -57,5 +57,6 @@
   "unequip": "取消裝備",
   "void-storage-expansion-core": "虛空存儲擴充核心",
   "void-storage-expansion-core-description": "[存儲素材] 頂階存儲核心，用於擴充背包與倉庫格位。",
-  "void-storage-expansion-core-lore": "透過虛空空間折疊的儲存結構，容量早已超出其物理外殼應有的極限。"
+  "void-storage-expansion-core-lore": "透過虛空空間折疊的儲存結構，容量早已超出其物理外殼應有的極限。",
+  "currency-swap-lore": "Swap 是終端網路的日常貨幣，可由 Cache 兌換，或從派遣、簽到、訊號深潛與 AFK 取得。可以用來購買解碼器、追蹤器與一般補給。"
 }

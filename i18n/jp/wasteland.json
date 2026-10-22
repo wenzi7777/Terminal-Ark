@@ -10,7 +10,7 @@
   "afk-signal-quality-hint": "同期率を消費してこのAFKを強化します。詳細は情報ボタンで確認できます。",
   "afk-signal-quality-info": "信号品質の差を確認",
   "afk-signal-quality-standard": "標準信号品質",
-  "afk-signal-quality-no-cost": "同期率を消費しません",
+  "afk-signal-quality-no-cost": "同期率消費なし・Swapを獲得",
   "afk-signal-quality-original-duration-note": "コストは元の時間で計算され、AFK時間短縮Buffの影響を受けません。",
   "afk-signal-quality-material-bonus": "基礎素材1個ごとに20%の確率で+1／期待産出量+20%",
   "afk-signal-quality-info-rare-retention": "オン：同期率{{cost}}を消費し、設定されたレアドロップを維持します。オフ：同期率を消費せず、レアドロップは対応する基礎素材になります。コストは元の時間で計算されます。",
@@ -110,5 +110,7 @@
   "wasteland-slot-trade-outpost": "交易観測所",
   "wasteland-terminal-title": "荒野開発端末",
   "wasteland-tyrant": "荒野の暴君",
-  "wreckage-of-the-starship-that-never-returned": "帰還しなかった宇宙船の残骸"
+  "wreckage-of-the-starship-that-never-returned": "帰還しなかった宇宙船の残骸",
+  "afk-signal-quality-currency-estimate": "約 {{amount}}",
+  "afk-signal-quality-info-rare-boost": "オン：同期率{{cost}}を消費し、レアドロップごとに{{bonus}}%の確率でもう1つ追加、さらにCacheを獲得。オフ：同期率を消費せず通常のドロップ率で、代わりにSwapを獲得。コストは元の時間で計算されます。"
 }

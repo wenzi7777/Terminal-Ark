@@ -930,5 +930,6 @@
   "zone-link-handshake": "ニューラルリンク確立中…",
   "zone-link-ready": "リンク準備完了",
   "zone-link-squad-size": "分隊人数",
-  "zone-link-title": "任務ロード"
+  "zone-link-title": "任務ロード",
+  "signal-dive-node-entry": "入口"
 }

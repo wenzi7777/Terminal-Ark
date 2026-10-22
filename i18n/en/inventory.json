@@ -5,7 +5,7 @@
   "collect-order": "Collect Order",
   "collect-success": "Collected successfully!",
   "currency": "Currency",
-  "currency-cache-lore": "Cache is a high-tier currency, usually obtained by AFK farming in the Memory Converter, where 1024 units of Memory can be converted into 1 unit of Cache, or by completing high-level stages.",
+  "currency-cache-lore": "Cache is the premium currency of Terminal Ark, extracted from high-quality neural links. It pays for neural sync recovery, contracts and rare devices, and can be converted one-way into Swap.",
   "currency-memory-lore": "Memory is a common currency in Terminal Ark, typically dropped in stages.",
   "equip": "Equip",
   "equipment": "Equipment",
@@ -57,5 +57,6 @@
   "unequip": "Unequip",
   "void-storage-expansion-core": "Void Storage Expansion Core",
   "void-storage-expansion-core-description": "[Storage Material] The top-tier storage core for expanding inventory and vault slots.",
-  "void-storage-expansion-core-lore": "Storage folded through void space, containing capacity that should not fit within its physical shell."
+  "void-storage-expansion-core-lore": "Storage folded through void space, containing capacity that should not fit within its physical shell.",
+  "currency-swap-lore": "Swap is the everyday currency of the Terminal network, converted from Cache or earned from expeditions, check-ins, Signal Dives and AFK. It buys decoders, tracers and common supplies."
 }
