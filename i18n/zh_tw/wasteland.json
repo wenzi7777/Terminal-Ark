@@ -96,7 +96,7 @@
   "wasteland-region-signal-ridge": "訊號脊線",
   "wasteland-region-terminal-core": "終端中樞",
   "wasteland-signal-depth-range": "荒原深度 2400KM - 3680KM",
-  "wasteland-signal-scan": "SIGNAL SCAN",
+  "wasteland-signal-scan": "訊號掃描",
   "wasteland-slot-assembly-yard": "裝配荒場",
   "wasteland-slot-buildable": "可建設槽位",
   "wasteland-slot-contact-relay": "遠征集結場",
@@ -111,6 +111,12 @@
   "wasteland-terminal-title": "荒原開發終端",
   "wasteland-tyrant": "荒原暴君",
   "wreckage-of-the-starship-that-never-returned": "未曾返回的星艦殘骸",
-  "afk-signal-quality-currency-estimate": "約 {{amount}}",
-  "afk-signal-quality-info-rare-boost": "開啟：消耗 {{cost}} 同步率，每件稀有掉落有 {{bonus}}% 機率多一件，並額外產出 Cache。關閉：不消耗同步率，維持一般掉率，改為產出 Swap。成本依原始時長計算，不受 AFK 減時 Buff 影響。"
+  "afk-signal-quality-info-rare-boost": "開啟：消耗 {{cost}} 同步率，每件稀有掉落有 {{bonus}}% 機率多一件，並額外產出 Cache。關閉：不消耗同步率，維持一般掉率，改為產出 Swap。成本依原始時長計算，不受 AFK 減時 Buff 影響。",
+  "afk-currency-chance": "{{chance}}% 機率獲得 {{amount}}",
+  "afk-currency-range": "{{low}}～{{high}}（平均 {{average}}）",
+  "wasteland-change-strategy": "更換",
+  "wasteland-strategy-current": "目前策略",
+  "wasteland-strategy-select": "選擇",
+  "wasteland-pause-reason-no-agent": "需要派駐代理人",
+  "wasteland-pause-reason-no-power": "供電不足"
 }

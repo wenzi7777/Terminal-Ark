@@ -96,7 +96,7 @@
   "wasteland-region-signal-ridge": "Signal Ridge",
   "wasteland-region-terminal-core": "Terminal Core",
   "wasteland-signal-depth-range": "Wasteland Depth 2400KM - 3680KM",
-  "wasteland-signal-scan": "SIGNAL SCAN",
+  "wasteland-signal-scan": "Signal Scan",
   "wasteland-slot-assembly-yard": "Assembly Wastes",
   "wasteland-slot-buildable": "Buildable Slot",
   "wasteland-slot-contact-relay": "Expedition Muster Field",
@@ -111,6 +111,12 @@
   "wasteland-terminal-title": "Wasteland Development Terminal",
   "wasteland-tyrant": "Wasteland Tyrant",
   "wreckage-of-the-starship-that-never-returned": "Wreckage of the Starship That Never Returned",
-  "afk-signal-quality-currency-estimate": "≈ {{amount}}",
-  "afk-signal-quality-info-rare-boost": "On: spend {{cost}} Neural Sync; each rare drop gets a {{bonus}}% chance of an extra copy, and the link also yields Cache. Off: no Neural Sync cost, normal drop rates, and the link yields Swap instead. Cost uses the original duration and ignores AFK time-reduction buffs."
+  "afk-signal-quality-info-rare-boost": "On: spend {{cost}} Neural Sync; each rare drop gets a {{bonus}}% chance of an extra copy, and the link also yields Cache. Off: no Neural Sync cost, normal drop rates, and the link yields Swap instead. Cost uses the original duration and ignores AFK time-reduction buffs.",
+  "afk-currency-chance": "{{chance}}% chance of {{amount}}",
+  "afk-currency-range": "{{low}}–{{high}} (avg {{average}})",
+  "wasteland-change-strategy": "Change",
+  "wasteland-strategy-current": "Current",
+  "wasteland-strategy-select": "Select",
+  "wasteland-pause-reason-no-agent": "Assign an agent",
+  "wasteland-pause-reason-no-power": "Insufficient power"
 }

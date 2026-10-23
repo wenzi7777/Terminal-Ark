@@ -58,5 +58,5 @@
   "void-storage-expansion-core": "虛空存儲擴充核心",
   "void-storage-expansion-core-description": "[存儲素材] 頂階存儲核心，用於擴充背包與倉庫格位。",
   "void-storage-expansion-core-lore": "透過虛空空間折疊的儲存結構，容量早已超出其物理外殼應有的極限。",
-  "currency-swap-lore": "Swap 是終端網路的日常貨幣，可由 Cache 兌換，或從派遣、簽到、訊號深潛與 AFK 取得。可以用來購買解碼器、追蹤器與一般補給。"
+  "currency-swap-lore": "Swap 是終端網路的日常貨幣，可由 Cache 兌換，或從派遣、簽到、地下城與 AFK 取得。可以用來購買解碼器、追蹤器與一般補給。"
 }

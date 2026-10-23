@@ -96,7 +96,7 @@
   "wasteland-region-signal-ridge": "信号稜線",
   "wasteland-region-terminal-core": "端末中枢",
   "wasteland-signal-depth-range": "荒野深度 2400KM - 3680KM",
-  "wasteland-signal-scan": "SIGNAL SCAN",
+  "wasteland-signal-scan": "シグナル走査",
   "wasteland-slot-assembly-yard": "組立荒地",
   "wasteland-slot-buildable": "建設可能スロット",
   "wasteland-slot-contact-relay": "遠征集結場",
@@ -111,6 +111,12 @@
   "wasteland-terminal-title": "荒野開発端末",
   "wasteland-tyrant": "荒野の暴君",
   "wreckage-of-the-starship-that-never-returned": "帰還しなかった宇宙船の残骸",
-  "afk-signal-quality-currency-estimate": "約 {{amount}}",
-  "afk-signal-quality-info-rare-boost": "オン：同期率{{cost}}を消費し、レアドロップごとに{{bonus}}%の確率でもう1つ追加、さらにCacheを獲得。オフ：同期率を消費せず通常のドロップ率で、代わりにSwapを獲得。コストは元の時間で計算されます。"
+  "afk-signal-quality-info-rare-boost": "オン：同期率{{cost}}を消費し、レアドロップごとに{{bonus}}%の確率でもう1つ追加、さらにCacheを獲得。オフ：同期率を消費せず通常のドロップ率で、代わりにSwapを獲得。コストは元の時間で計算されます。",
+  "afk-currency-chance": "{{chance}}% の確率で {{amount}}",
+  "afk-currency-range": "{{low}}～{{high}}（平均 {{average}}）",
+  "wasteland-change-strategy": "変更",
+  "wasteland-strategy-current": "現在の戦略",
+  "wasteland-strategy-select": "選択",
+  "wasteland-pause-reason-no-agent": "エージェントの配置が必要",
+  "wasteland-pause-reason-no-power": "電力不足"
 }
