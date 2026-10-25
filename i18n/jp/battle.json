@@ -1061,7 +1061,7 @@
   "signal-dive-jam-signal-name": "ジャムシグナル",
   "signal-dive-letter-opener-description": "毎ターンスキルを 3 枚使うごとに、敵全体に5 ダメージを与える。",
   "signal-dive-letter-opener-name": "レターオープナー",
-  "signal-dive-lizard-tail-description": "1回の潜行につき1度：致命傷を受けた時、HP 1 で耐え HP を 40 回復。",
+  "signal-dive-lizard-tail-description": "ダンジョン1回につき1度：致命傷を受けた時、HP 1 で耐え HP を 40 回復。",
   "signal-dive-lizard-tail-name": "トカゲの尾",
   "signal-dive-marrow-patch-description": "戦闘終了時、HP が 51% 未満なら、HP を 12 回復。",
   "signal-dive-marrow-patch-name": "骨髄パッチ",

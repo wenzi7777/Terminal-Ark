@@ -194,7 +194,7 @@
   "signal-tracer-lore": "由古代科技遗民改良高阶流通解密晶片而成，拥有难以估量的计算能力。它能对最新的加密协议进行解密，让你有机会在「讯号劫持系统」中获取高机密等级的资讯。",
   "signal-tuner-hub": "讯号调谐中心",
   "signal-tuner-hub-long-lore": "訊號調諧中心是位於 NUTA 附屬綜合醫院的物品合成器，利用神經訊號校準與生物電子重組技術，將散落的數據與原料轉化為高效的醫療裝置，成為都市醫療系統不可或缺的一環。",
-  "signal-tuner-hub-lore": "医疗用品配方已整合至代理人工作站的制造站。",
+  "signal-tuner-hub-lore": "调谐中心已停止营运。医疗用品请至荒原开发终端的制造站制作。",
   "sync-complete": "同步完成",
   "syncing": "正在同步",
   "syncing-with-neural-network-server": "正在与神经网络服务器进行同步",
