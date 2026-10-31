@@ -373,5 +373,20 @@
   "error-missing-fields": "必須項目が不足しています。",
   "error-maintenance-invalid-eta": "完了予定時刻の形式が正しくありません。",
   "error-maintenance-too-many-slides": "予告スライドが多すぎます（最大 12 枚）。",
-  "error-permission-denied": "この操作を行う権限がありません。"
+  "error-permission-denied": "この操作を行う権限がありません。",
+  "error-account-already-bound": "このアカウントはすでにメールアドレスと連携済みです。",
+  "error-account-banned": "このアカウントは利用停止中です。",
+  "error-auth-code-invalid": "コードが正しくないか、有効期限が切れています。",
+  "error-auth-refresh-invalid": "ログインの有効期限が切れました。もう一度ログインしてください。",
+  "error-auth-token-expired": "ログインの有効期限が切れました。もう一度ログインしてください。",
+  "error-email-already-in-use": "このメールアドレスは別のアカウントで使用されています。",
+  "error-failed-to-claim-system-inventory": "報酬ボックスの受け取りに失敗しました。",
+  "error-forbidden": "この操作を行う権限がありません。",
+  "error-internal": "サーバーでエラーが発生しました。しばらくしてから再度お試しください。",
+  "error-invalid-response": "サーバーから予期しない応答がありました。",
+  "error-item-locked": "このアイテムはロックされています。",
+  "error-not-found": "要求された内容が見つかりません。",
+  "error-receiver-not-found": "受取人が見つかりません。",
+  "error-send-email-failed": "メールの送信に失敗しました。しばらくしてから再度お試しください。",
+  "error-too-many-requests": "リクエストが多すぎます。少し待ってから再度お試しください。"
 }

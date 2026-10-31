@@ -1678,7 +1678,7 @@
   "purity-surge": "净化激流",
   "push-enemy": "击退敌人",
   "pwa-already-installed": "Terminal Ark 已以 APP 模式开启",
-  "pwa-email-code-sent-hint": "已寄出登录邮件。如果你正在使用 PWA，请直接输入邮件中的 6 位登录码。",
+  "pwa-email-code-sent-hint": "已寄出登录邮件。如果你正在使用 PWA，请直接输入邮件中的 8 位登录码。",
   "pwa-install-add-to-desktop": "立即添加",
   "pwa-install-chrome-hint": "点击上方按钮将 Terminal Ark 添加到桌面",
   "pwa-install-got-it": "我知道了",

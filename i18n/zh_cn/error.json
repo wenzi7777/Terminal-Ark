@@ -373,5 +373,20 @@
   "error-missing-fields": "缺少必要字段。",
   "error-maintenance-invalid-eta": "预计完成时间格式错误。",
   "error-maintenance-too-many-slides": "预览轮播太多（最多 12 张）。",
-  "error-permission-denied": "你没有执行此操作的权限。"
+  "error-permission-denied": "你没有执行此操作的权限。",
+  "error-account-already-bound": "这个账号已经绑定过 Email。",
+  "error-account-banned": "此账号已被封禁。",
+  "error-auth-code-invalid": "验证码错误或已过期。",
+  "error-auth-refresh-invalid": "登录已失效，请重新登录。",
+  "error-auth-token-expired": "登录已失效，请重新登录。",
+  "error-email-already-in-use": "这个 Email 已被其他账号使用。",
+  "error-failed-to-claim-system-inventory": "领取奖励箱失败。",
+  "error-forbidden": "你没有权限执行这个操作。",
+  "error-internal": "服务器发生错误，请稍后再试。",
+  "error-invalid-response": "服务器响应异常。",
+  "error-item-locked": "这个物品已上锁。",
+  "error-not-found": "找不到请求的内容。",
+  "error-receiver-not-found": "找不到收件人。",
+  "error-send-email-failed": "发信失败，请稍后再试。",
+  "error-too-many-requests": "操作太频繁，请稍候再试。"
 }

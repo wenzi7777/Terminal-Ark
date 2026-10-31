@@ -373,5 +373,20 @@
   "error-missing-fields": "Required fields are missing.",
   "error-maintenance-invalid-eta": "The expected finish time is not a valid date.",
   "error-maintenance-too-many-slides": "Too many preview slides (max 12).",
-  "error-permission-denied": "You do not have permission to do this."
+  "error-permission-denied": "You do not have permission to do this.",
+  "error-account-already-bound": "This account is already bound to an email.",
+  "error-account-banned": "This account has been suspended.",
+  "error-auth-code-invalid": "The code is invalid or has expired.",
+  "error-auth-refresh-invalid": "Your session has expired. Please log in again.",
+  "error-auth-token-expired": "Your session has expired. Please log in again.",
+  "error-email-already-in-use": "This email is already used by another account.",
+  "error-failed-to-claim-system-inventory": "Failed to claim the reward box.",
+  "error-forbidden": "You do not have permission to do this.",
+  "error-internal": "A server error occurred. Please try again later.",
+  "error-invalid-response": "The server returned an unexpected response.",
+  "error-item-locked": "This item is locked.",
+  "error-not-found": "The requested content was not found.",
+  "error-receiver-not-found": "The recipient was not found.",
+  "error-send-email-failed": "Failed to send the email. Please try again later.",
+  "error-too-many-requests": "Too many requests. Please wait a moment and try again."
 }

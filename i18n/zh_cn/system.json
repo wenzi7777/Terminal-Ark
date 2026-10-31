@@ -208,7 +208,7 @@
   "system-status-all-good": "一切正常",
   "system-status-app-checks": "App 实测",
   "system-status-check-frontend-aggregator": "前端聚合端点",
-  "system-status-check-supabase-edge": "Supabase Edge",
+  "system-status-check-game-server": "游戏服务器",
   "system-status-current-state": "当前状态",
   "system-status-error": "错误",
   "system-status-issues": "问题列表",

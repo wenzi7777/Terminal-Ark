@@ -208,7 +208,7 @@
   "system-status-all-good": "すべて正常です",
   "system-status-app-checks": "App 実測",
   "system-status-check-frontend-aggregator": "フロントエンド集約エンドポイント",
-  "system-status-check-supabase-edge": "Supabase Edge",
+  "system-status-check-game-server": "ゲームサーバー",
   "system-status-current-state": "現在の状態",
   "system-status-error": "エラー",
   "system-status-issues": "問題一覧",

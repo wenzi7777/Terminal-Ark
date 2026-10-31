@@ -373,5 +373,20 @@
   "error-missing-fields": "缺少必要欄位。",
   "error-maintenance-invalid-eta": "預計完成時間格式錯誤。",
   "error-maintenance-too-many-slides": "預覽輪播太多（最多 12 張）。",
-  "error-permission-denied": "你沒有執行此操作的權限。"
+  "error-permission-denied": "你沒有執行此操作的權限。",
+  "error-account-already-bound": "這個帳號已經綁定過 Email。",
+  "error-account-banned": "此帳號已被停權。",
+  "error-auth-code-invalid": "驗證碼錯誤或已過期。",
+  "error-auth-refresh-invalid": "登入已失效，請重新登入。",
+  "error-auth-token-expired": "登入已失效，請重新登入。",
+  "error-email-already-in-use": "這個 Email 已被其他帳號使用。",
+  "error-failed-to-claim-system-inventory": "領取獎勵箱失敗。",
+  "error-forbidden": "你沒有權限執行這個操作。",
+  "error-internal": "伺服器發生錯誤，請稍後再試。",
+  "error-invalid-response": "伺服器回應異常。",
+  "error-item-locked": "這個物品已上鎖。",
+  "error-not-found": "找不到要求的內容。",
+  "error-receiver-not-found": "找不到收件人。",
+  "error-send-email-failed": "寄信失敗，請稍後再試。",
+  "error-too-many-requests": "操作太頻繁，請稍候再試。"
 }

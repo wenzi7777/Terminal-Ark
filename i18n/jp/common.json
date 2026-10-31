@@ -1678,7 +1678,7 @@
   "purity-surge": "ピュリティサージ",
   "push-enemy": "敵を押し戻す",
   "pwa-already-installed": "Terminal Ark は APP モードで起動中です",
-  "pwa-email-code-sent-hint": "ログインメールを送信しました。PWA を使用中の場合は、メール内の 6 桁コードをここに入力してください。",
+  "pwa-email-code-sent-hint": "ログインメールを送信しました。PWA を使用中の場合は、メール内の 8 桁コードをここに入力してください。",
   "pwa-install-add-to-desktop": "今すぐ追加",
   "pwa-install-chrome-hint": "上のボタンをクリックして Terminal Ark をデスクトップに追加",
   "pwa-install-got-it": "わかった",

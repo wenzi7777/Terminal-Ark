@@ -1678,7 +1678,7 @@
   "purity-surge": "Purity Surge",
   "push-enemy": "Push Enemy",
   "pwa-already-installed": "Terminal Ark is running in APP mode",
-  "pwa-email-code-sent-hint": "A login email has been sent. If you are using the PWA app, enter the 6-digit code from the email here.",
+  "pwa-email-code-sent-hint": "A login email has been sent. If you are using the PWA app, enter the 8-digit code from the email here.",
   "pwa-install-add-to-desktop": "Add to Desktop",
   "pwa-install-chrome-hint": "Click the button above to add Terminal Ark to your desktop",
   "pwa-install-got-it": "Got it",

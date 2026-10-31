@@ -208,7 +208,7 @@
   "system-status-all-good": "All Systems Normal",
   "system-status-app-checks": "App Checks",
   "system-status-check-frontend-aggregator": "Frontend Aggregator",
-  "system-status-check-supabase-edge": "Supabase Edge",
+  "system-status-check-game-server": "Game Server",
   "system-status-current-state": "Current State",
   "system-status-error": "Error",
   "system-status-issues": "Issue List",
