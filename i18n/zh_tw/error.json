@@ -407,6 +407,7 @@
   "error-tac-market-self-buy": "不能購買自己上架的商品。",
   "error-tac-challenge-required": "請先完成異常訊號校驗。",
   "error-tac-trace-full": "神經網路終端需要校準，請先完成校準。",
+  "error-tac-drift-full": "神經訊號偏移過大，請先完成終端校準。",
   "error-tac-trace-not-full": "目前不需要校準。",
   "error-act-prerequisite-missing": "請先完成上一幕。",
   "error-tac-market-price-out-of-range": "價格超出近期成交行情的合理範圍。",

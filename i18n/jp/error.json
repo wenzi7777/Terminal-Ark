@@ -407,6 +407,7 @@
   "error-tac-market-self-buy": "自分の出品は購入できません。",
   "error-tac-challenge-required": "先に異常シグナル照合を完了してください。",
   "error-tac-trace-full": "ニューラル端末のキャリブレーションが必要です。先に完了してください。",
+  "error-tac-drift-full": "ニューラルシグナルのずれが大きすぎます。先に端末のキャリブレーションを完了してください。",
   "error-tac-trace-not-full": "現在キャリブレーションは不要です。",
   "error-act-prerequisite-missing": "先に前の幕を完了してください。",
   "error-tac-market-price-out-of-range": "価格が最近の取引相場の範囲外です。",

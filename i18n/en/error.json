@@ -407,6 +407,7 @@
   "error-tac-market-self-buy": "You cannot buy your own listing.",
   "error-tac-challenge-required": "Please complete the anomalous signal check first.",
   "error-tac-trace-full": "Your neural terminal needs calibration. Complete it first.",
+  "error-tac-drift-full": "Your neural signal has drifted too far. Calibrate your terminal first.",
   "error-tac-trace-not-full": "No calibration is needed right now.",
   "error-act-prerequisite-missing": "Complete the previous act first.",
   "error-tac-market-price-out-of-range": "The price is outside the recent market range.",
