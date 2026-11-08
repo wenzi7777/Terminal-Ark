@@ -3,7 +3,7 @@
 ## APP BUNDLE VERSION v1.0.2 Public Stable
 ## SERVER BUNDLE VERSION v1.0.2 Public Stable
 
-## Release Date: Nov. 3th 2026 22:30 JST
+## Release Date: Nov. 3rd 2026 22:30 JST
 
 ### Changelog
 - **Neural Network Terminal Calibration** now covers your whole terminal instead of a single dungeon run. Dungeon exploration, AFK, workstation orders, gacha, currency exchanges, the market, gifts, and other reward actions all shift your neural signal, and a calibration is required once it drifts too far.
